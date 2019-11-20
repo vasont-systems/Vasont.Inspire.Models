@@ -1,0 +1,57 @@
+﻿//-----------------------------------------------------------------------
+// <copyright file="ExportRequestModel.cs" company="Vasont Systems">
+// Copyright (c) Vasont Systems. All rights reserved.
+// </copyright>
+//-----------------------------------------------------------------------
+namespace Vasont.Inspire.Models.Transfers
+{
+    using System;
+    using System.Collections.Generic;
+
+    /// <summary>
+    /// This class contains properties and information to request the system to start an export process.
+    /// </summary>
+    public class ExportRequestModel 
+    {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ExportRequestModel"/> class.
+        /// </summary>
+        public ExportRequestModel()
+        {
+            this.ComponentIdsToExport = new List<long>();
+            this.SendNotification = true;
+            this.AlwaysZipResults = false;
+            this.ProfileFilters = new List<ExportProfileAttributeFilterModel>();
+        }
+
+        /// <summary>
+        /// Gets or sets the changeset identity related to the components that are to be exported.
+        /// </summary>
+        public Guid ChangesetId { get; set; }
+
+        /// <summary>
+        /// Gets or sets the export identity used for the exporting of the components specified.
+        /// </summary>
+        public long ExportId { get; set; }
+
+        /// <summary>
+        /// Gets or sets a list of component identities to export.
+        /// </summary>
+        public List<long> ComponentIdsToExport { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the exported content is always archived to a zip file.
+        /// </summary>
+        public bool AlwaysZipResults { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether [send notification].
+        /// </summary>
+        public bool SendNotification { get; set; }
+
+        /// <summary>
+        /// Gets or sets an optional list of profile filters.
+        /// </summary>
+        public List<ExportProfileAttributeFilterModel> ProfileFilters { get; set; }
+    }
+}
