@@ -1,6 +1,6 @@
 ﻿//-------------------------------------------------------------
-// <copyright file="UserType.cs" company="Vasont Systems">
-// Copyright (c) 2018 Vasont Systems. All rights reserved.
+// <copyright file="UserType.cs" company="GlobalLink Vasont">
+// Copyright (c) 2018 GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-------------------------------------------------------------
 namespace Vasont.Inspire.Models.Security

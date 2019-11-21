@@ -1,6 +1,6 @@
 ﻿//-------------------------------------------------------------
-// <copyright file="WorkflowModel.cs" company="Vasont Systems">
-// Copyright (c) Vasont Systems. All rights reserved.
+// <copyright file="WorkflowModel.cs" company="GlobalLink Vasont">
+// Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-------------------------------------------------------------
 namespace Vasont.Inspire.Models.Workflow
@@ -84,6 +84,11 @@ namespace Vasont.Inspire.Models.Workflow
         /// Gets or sets the description.
         /// </summary>
         public string Description { get; set; }
+
+        /// <summary>
+        /// Gets or sets the workflow type.
+        /// </summary>
+        public WorkflowType WorkflowType { get; set; }
 
         /// <summary>
         /// Gets or sets a list of workflow actors.

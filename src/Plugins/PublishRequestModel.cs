@@ -1,6 +1,6 @@
 ﻿//-------------------------------------------------------------------
-// <copyright file="PublishRequestModel.cs" company="Vasont Systems">
-// Copyright (c) Vasont Systems. All rights reserved.
+// <copyright file="PublishRequestModel.cs" company="GlobalLink Vasont">
+// Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Plugins
@@ -66,6 +66,11 @@ namespace Vasont.Inspire.Models.Plugins
         /// Gets or sets the DITA Toolkit Version.
         /// </summary>
         public string DitaToolkitVersion { get; set; }
+
+        /// <summary>
+        /// Gets or sets the publish configuration name.
+        /// </summary>
+        public string PublishConfigName { get; set; }
 
         /// <summary>
         /// Gets or sets values containing the publish parameters.

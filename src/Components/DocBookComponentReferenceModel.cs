@@ -1,6 +1,6 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="DocBookComponentReferenceModel.cs" company="Vasont Systems">
-// Copyright (c) Vasont Systems. All rights reserved.
+// <copyright file="DocBookComponentReferenceModel.cs" company="GlobalLink Vasont">
+// Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Components
@@ -118,7 +118,7 @@ namespace Vasont.Inspire.Models.Components
                         // <xi:include href="filename.xml" xpointer="v123"/>
                         // TargetName is value of the Uri attribute on same element
                         // eventually attribute config should have property attribute linking type
-                        var uriAttribute = attributes.Find(x => x.Name.LocalName.Equals("href", StringComparison.OrdinalIgnoreCase));
+                        var uriAttribute = attributes?.Find(x => x.Name.LocalName.Equals("href", StringComparison.OrdinalIgnoreCase));
                         this.TargetName = uriAttribute != null ? uriAttribute.Value : string.Empty;
 
                         // TargetElementId is always the value

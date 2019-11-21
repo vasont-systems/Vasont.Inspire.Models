@@ -1,6 +1,6 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="ExportProfileAttributeFilterModel.cs" company="Vasont Systems">
-// Copyright (c) Vasont Systems. All rights reserved.
+// <copyright file="ExportProfileAttributeFilterModel.cs" company="GlobalLink Vasont">
+// Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Transfers

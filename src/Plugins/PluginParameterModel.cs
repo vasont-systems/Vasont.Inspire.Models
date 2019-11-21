@@ -1,6 +1,6 @@
 ﻿//-------------------------------------------------------------
-// <copyright file="PluginParameterModel.cs" company="Vasont Systems">
-// Copyright (c) 2019 Vasont Systems. All rights reserved.
+// <copyright file="PluginParameterModel.cs" company="GlobalLink Vasont">
+// Copyright (c) 2019 GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-------------------------------------------------------------
 namespace Vasont.Inspire.Models.Plugins

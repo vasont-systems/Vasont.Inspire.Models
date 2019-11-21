@@ -1,6 +1,6 @@
 ﻿//----------------------------------------------------------------------------
-// <copyright file="TranslationBrowseResultModel.cs" company="Vasont Systems">
-// Copyright (c) Vasont Systems. All rights reserved.
+// <copyright file="TranslationBrowseResultModel.cs" company="GlobalLink Vasont">
+// Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //----------------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Translations

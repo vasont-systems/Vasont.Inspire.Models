@@ -1,6 +1,6 @@
 ﻿//-------------------------------------------------------------
-// <copyright file="SearchConfigurationDefaults.cs" company="Vasont Systems">
-// Copyright (c) Vasont Systems. All rights reserved.
+// <copyright file="SearchConfigurationDefaults.cs" company="GlobalLink Vasont">
+// Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-------------------------------------------------------------
 
