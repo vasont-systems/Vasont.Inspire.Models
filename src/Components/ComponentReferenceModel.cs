@@ -50,6 +50,11 @@ namespace Vasont.Inspire.Models.Components
         public string SourceName { get; set; }
 
         /// <summary>
+        ///  Gets or sets the schema standard.
+        /// </summary>
+        public string SchemaStandard { get; set; }
+
+        /// <summary>
         ///  Gets or sets the target component identity.
         /// </summary>
         public long? TargetComponentId { get; set; }
