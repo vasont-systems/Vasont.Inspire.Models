@@ -13,12 +13,12 @@ namespace Vasont.Inspire.Models.Diagnostics
     public class DiagnosticModel
     {
         /// <summary>
-        /// Gets ot sets total memory
+        /// Gets or sets total memory
         /// </summary>
         public long GCTotalMemory { get; set; }
 
         /// <summary>
-        /// Gets ot sets current process memory
+        /// Gets or sets current process memory
         /// </summary>
         public long ProcessMemory { get; set; }
 
@@ -38,7 +38,7 @@ namespace Vasont.Inspire.Models.Diagnostics
         public IDictionary<string, string> ConnectionStrings { get; set; }
 
         /// <summary>
-        /// Gets or sets the value indicating is any users found in database
+        /// Gets or sets a value indicating whether the user data was found in database.
         /// </summary>
         public bool UsersDataFound { get; set; }
 

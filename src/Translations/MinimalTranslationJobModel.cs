@@ -145,6 +145,5 @@ namespace Vasont.Inspire.Models.Translations
         /// Gets or sets a value indicating whether [cancel at vendor].
         /// </summary>
         public bool CancelAtVendor { get; set; }
-
     }
 }

@@ -28,7 +28,7 @@ namespace Vasont.Inspire.Models.Diagnostics
         /// <summary>
         /// Gets or sets maximum completion ports
         /// </summary>
-        public int MaximumCompletionPorts {get; set; }
+        public int MaximumCompletionPorts { get; set; }
 
         /// <summary>
         /// Gets or sets settings max ports

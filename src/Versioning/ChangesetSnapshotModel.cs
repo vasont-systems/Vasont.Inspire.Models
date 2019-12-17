@@ -116,7 +116,7 @@ namespace Vasont.Inspire.Models.Versioning
         public ChangesetSnapshotActionType Action { get; set; }
 
         /// <summary>
-        /// Gets the target type of the changeset snapshot type.
+        /// Gets or sets the target type of the changeset snapshot type.
         /// </summary>
         public ChangesetSnapshotType SnapshotType { get; set; }
        

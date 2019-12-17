@@ -58,12 +58,11 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets a value indicating whether the component can be sent to publishing.
         /// </summary>
-        public bool CanPublish => this.SchemaStandard == ComponentStandards.DocBook5Standard || IsMap;
+        public bool CanPublish => this.SchemaStandard == ComponentStandards.DocBook5Standard || this.IsMap;
 
         /// <summary>
         /// Gets a value indicating whether the component is a workflow
         /// </summary>
         public bool IsWorkflow => this.DocumentType != null && this.DocumentType.Equals("workflow", StringComparison.OrdinalIgnoreCase);
-
     }
 }
