@@ -12,6 +12,11 @@ namespace Vasont.Inspire.Models.Configuration
     public enum RelationKeyName
     {
         /// <summary>
+        /// No Key Name
+        /// </summary>
+        None,
+
+        /// <summary>
         /// Identifies a relation created from a branch.
         /// </summary>
         Branch,
