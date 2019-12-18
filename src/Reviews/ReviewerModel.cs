@@ -43,18 +43,6 @@ namespace Vasont.Inspire.Models.Reviews
     public class ReviewerModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ReviewerModel"/> class.
-        /// </summary>
-        public ReviewerModel()
-        {
-            // set defaults for new model
-            this.State = ReviewerStateType.Reviewing;
-            this.CanComment = true;
-            this.CanTrackChanges = false;
-            this.ReceiveNotifications = true;
-        }
-
-        /// <summary>
         /// Gets or sets the identity of the review.
         /// </summary>
         public long ReviewId { get; set; }
@@ -67,12 +55,12 @@ namespace Vasont.Inspire.Models.Reviews
         /// <summary>
         /// Gets or sets the state of the reviewer component.
         /// </summary>
-        public ReviewerStateType State { get; set; }
+        public ReviewerStateType State { get; set; } = ReviewerStateType.Reviewing;
 
         /// <summary>
         /// Gets or sets a value indicating whether the reviewer can make comments.
         /// </summary>
-        public bool CanComment { get; set; }
+        public bool CanComment { get; set; } = true;
 
         /// <summary>
         /// Gets or sets a value indicating whether the reviewer can make track changes.
@@ -82,7 +70,7 @@ namespace Vasont.Inspire.Models.Reviews
         /// <summary>
         /// Gets or sets a value indicating whether the reviewer will receive notifications related to this review.
         /// </summary>
-        public bool ReceiveNotifications { get; set; }
+        public bool ReceiveNotifications { get; set; } = true;
 
         /// <summary>
         /// Gets or sets the date and time when the reviewer component was completed.

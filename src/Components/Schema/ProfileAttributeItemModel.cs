@@ -35,7 +35,6 @@ namespace Vasont.Inspire.Models.Components.Schema
     /// </summary>
     public class ProfileAttributeItemModel
     {
-        #region Public Properties
         /// <summary>
         /// Gets or sets the unique identifier of the profile attribute item.
         /// </summary>
@@ -78,6 +77,5 @@ namespace Vasont.Inspire.Models.Components.Schema
         /// </summary>
         [JsonProperty(Order = 7)]
         public long ItemId { get; set; }
-        #endregion
     }
 }

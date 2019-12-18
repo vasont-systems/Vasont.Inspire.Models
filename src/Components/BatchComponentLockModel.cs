@@ -11,14 +11,6 @@ namespace Vasont.Inspire.Models.Components
     public class BatchComponentLockModel : ComponentLockModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="BatchComponentLockModel"/> class.
-        /// </summary>
-        public BatchComponentLockModel()
-        {
-            this.LockSucceeded = true;
-        }
-        
-        /// <summary>
         /// Gets or sets the name of the locking component.
         /// </summary>
         public string ComponentName { get; set; }
@@ -26,7 +18,7 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets a value indicating whether [lock succeeded].
         /// </summary>
-        public bool LockSucceeded { get; set; }
+        public bool LockSucceeded { get; set; } = true;
 
         /// <summary>
         /// Gets or sets the failed message.

@@ -15,15 +15,6 @@ namespace Vasont.Inspire.Models.Components
     public class FolderBrowseModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="FolderBrowseModel"/> class.
-        /// </summary>
-        public FolderBrowseModel()
-        {
-            this.Permissions = new PermissionModel();
-            this.UniqueId = Guid.NewGuid();
-        }
-
-        /// <summary>
         /// Gets or sets the unique identity for this folder.
         /// </summary>
         public long FolderId { get; set; }
@@ -41,7 +32,7 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets a globally unique identity for the folder.
         /// </summary>
-        public Guid UniqueId { get; set; }
+        public Guid UniqueId { get; set; } = Guid.NewGuid();
 
         /// <summary>
         /// Gets or sets a description of the folder.
@@ -61,6 +52,6 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets the permissions for this folder item.
         /// </summary>
-        public PermissionModel Permissions { get; set; }
+        public PermissionModel Permissions { get; set; } = new PermissionModel();
     }
 }

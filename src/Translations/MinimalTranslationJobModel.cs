@@ -54,16 +54,6 @@ namespace Vasont.Inspire.Models.Translations
     public class MinimalTranslationJobModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="MinimalTranslationJobModel"/> class.
-        /// </summary>
-        public MinimalTranslationJobModel()
-        {
-            this.Coordinator = new MicroUserModel();
-            this.TranslationVendor = new TranslationVendorModel();
-            this.Languages = new List<MinimalLanguageModel>();
-        }
-
-        /// <summary>
         /// Gets or sets the identity of the translation job.
         /// </summary>
         public long TranslationJobId { get; set; }
@@ -96,12 +86,12 @@ namespace Vasont.Inspire.Models.Translations
         /// <summary>
         /// Gets or sets the translation vendor associated with the translation job.
         /// </summary>
-        public TranslationVendorModel TranslationVendor { get; set; }
+        public TranslationVendorModel TranslationVendor { get; set; } = new TranslationVendorModel();
 
         /// <summary>
         /// Gets or sets the user model of the translation job coordinator.
         /// </summary>
-        public MicroUserModel Coordinator { get; set; }
+        public MicroUserModel Coordinator { get; set; } = new MicroUserModel();
 
         /// <summary>
         /// Gets or sets the date and time when the translation job was created.
@@ -126,7 +116,7 @@ namespace Vasont.Inspire.Models.Translations
         /// <summary>
         /// Gets or sets the translation job languages.
         /// </summary>
-        public List<MinimalLanguageModel> Languages { get; set; }
+        public List<MinimalLanguageModel> Languages { get; set; } = new List<MinimalLanguageModel>();
 
         /// <summary>
         /// Gets a comma delimited list of language names.

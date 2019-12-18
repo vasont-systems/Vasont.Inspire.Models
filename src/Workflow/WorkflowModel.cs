@@ -57,23 +57,10 @@ namespace Vasont.Inspire.Models.Workflow
     public class WorkflowModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="WorkflowModel"/> class.
-        /// </summary>
-        public WorkflowModel()
-        {
-            this.WorkflowId = "_" + Guid.NewGuid().ToString();
-            this.Actors = new List<WorkflowActorModel>();
-            this.Statuses = new List<WorkflowStatusModel>();
-            this.Activities = new List<WorkflowActivityModel>();
-            this.Transitions = new List<WorkflowTransitionModel>();
-            this.Actions = new List<WorkflowActionModel>();
-        }
-        
-        /// <summary>
         /// Gets or sets the unique identity of the workflow.
         /// </summary>
         [XmlAttribute(AttributeName = "id")]
-        public string WorkflowId { get; set; }
+        public string WorkflowId { get; set; } = "_" + Guid.NewGuid();
 
         /// <summary>
         /// Gets or sets the name of the workflow.
@@ -93,26 +80,26 @@ namespace Vasont.Inspire.Models.Workflow
         /// <summary>
         /// Gets or sets a list of workflow actors.
         /// </summary>
-        public List<WorkflowActorModel> Actors { get; set; }
+        public List<WorkflowActorModel> Actors { get; set; } = new List<WorkflowActorModel>();
 
         /// <summary>
         /// Gets or sets a list of workflow statuses.
         /// </summary>
-        public List<WorkflowStatusModel> Statuses { get; set; }
+        public List<WorkflowStatusModel> Statuses { get; set; } = new List<WorkflowStatusModel>();
 
         /// <summary>
         /// Gets or sets a list of workflow activities.
         /// </summary>
-        public List<WorkflowActivityModel> Activities { get; set; }
+        public List<WorkflowActivityModel> Activities { get; set; } = new List<WorkflowActivityModel>();
 
         /// <summary>
         /// Gets or sets a list of workflow transitions.
         /// </summary>
-        public List<WorkflowTransitionModel> Transitions { get; set; }
+        public List<WorkflowTransitionModel> Transitions { get; set; } = new List<WorkflowTransitionModel>();
 
         /// <summary>
         /// Gets or sets a list of workflow actions.
         /// </summary>
-        public List<WorkflowActionModel> Actions { get; set; }
+        public List<WorkflowActionModel> Actions { get; set; } = new List<WorkflowActionModel>();
     }
 }

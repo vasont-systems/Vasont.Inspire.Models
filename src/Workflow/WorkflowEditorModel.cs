@@ -47,15 +47,6 @@ namespace Vasont.Inspire.Models.Workflow
     public class WorkflowEditorModel : MinimalComponentModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="WorkflowEditorModel"/> class.
-        /// </summary>
-        public WorkflowEditorModel()
-        {
-            this.Action = WorkflowEditorActionType.None;
-            this.WorkflowType = WorkflowType.Project;
-        }
-
-        /// <summary>
         /// Gets or sets a value indicating whether the editor should be in read-only mode.
         /// </summary>
         public bool ReadOnly { get; set; }
@@ -73,12 +64,12 @@ namespace Vasont.Inspire.Models.Workflow
         /// <summary>
         /// Gets or sets the workflow type.
         /// </summary>
-        public WorkflowType WorkflowType { get; set; }
+        public WorkflowType WorkflowType { get; set; } = WorkflowType.Project;
 
         /// <summary>
         /// Gets or sets the workflow editor action type.
         /// </summary>
-        public WorkflowEditorActionType Action { get; set; }
+        public WorkflowEditorActionType Action { get; set; } = WorkflowEditorActionType.None;
 
         /// <summary>
         /// Gets or sets the workflow model to be loaded into the editor interface.

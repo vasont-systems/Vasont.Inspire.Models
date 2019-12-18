@@ -16,17 +16,6 @@ namespace Vasont.Inspire.Models.Reviews
     public class ReviewerEditModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ReviewerEditModel"/> class.
-        /// </summary>
-        public ReviewerEditModel()
-        {
-            // set defaults for new model
-            this.ReviewerState = ReviewerStateType.Reviewing;
-            this.CanComment = true;
-            this.Transitions = new List<WorkflowNextTransitionModel>();
-        }
-
-        /// <summary>
         /// Gets or sets the identity of the review.
         /// </summary>
         public long ReviewId { get; set; }
@@ -54,12 +43,12 @@ namespace Vasont.Inspire.Models.Reviews
         /// <summary>
         /// Gets or sets the state of the reviewer.
         /// </summary>
-        public ReviewerStateType ReviewerState { get; set; }
+        public ReviewerStateType ReviewerState { get; set; } = ReviewerStateType.Reviewing;
 
         /// <summary>
         /// Gets or sets a value indicating whether the reviewer can make comments.
         /// </summary>
-        public bool CanComment { get; set; }
+        public bool CanComment { get; set; } = true;
 
         /// <summary>
         /// Gets or sets a value indicating whether the reviewer can make track changes.
@@ -74,11 +63,11 @@ namespace Vasont.Inspire.Models.Reviews
         /// <summary>
         /// Gets or sets the reviewer components associated with this review.
         /// </summary>
-        public List<ReviewerComponentEditModel> ReviewerComponents { get; set; }
+        public List<ReviewerComponentEditModel> ReviewerComponents { get; set; } = new List<ReviewerComponentEditModel>();
 
         /// <summary>
         /// Gets or sets a list of transitions that can occur after the user completes their reviewer session.
         /// </summary>
-        public List<WorkflowNextTransitionModel> Transitions { get; set; }
+        public List<WorkflowNextTransitionModel> Transitions { get; set; } = new List<WorkflowNextTransitionModel>();
     }
 }

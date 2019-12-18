@@ -14,14 +14,6 @@ namespace Vasont.Inspire.Models.Reviews
     public class ReviewAssignmentModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ReviewAssignmentModel"/> class.
-        /// </summary>
-        public ReviewAssignmentModel()
-        {
-            this.Coordinator = new MinimalUserModel();
-        }
-
-        /// <summary>
         /// Gets or sets the review identity value.
         /// </summary>
         public long ReviewId { get; set; }
@@ -34,7 +26,7 @@ namespace Vasont.Inspire.Models.Reviews
         /// <summary>
         /// Gets or sets the review coordinator user information.
         /// </summary>
-        public MinimalUserModel Coordinator { get; set; }
+        public MinimalUserModel Coordinator { get; set; } = new MinimalUserModel();
 
         /// <summary>
         /// Gets or sets the review state information.

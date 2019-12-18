@@ -15,18 +15,10 @@ namespace Vasont.Inspire.Models.Workflow
     public class WorkflowActionModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="WorkflowActionModel"/> class.
-        /// </summary>
-        public WorkflowActionModel()
-        {
-            this.WorkflowActionId = "_" + Guid.NewGuid().ToString();
-        }
-     
-        /// <summary>
         /// Gets or sets the unique workflow action identity.
         /// </summary>
         [XmlAttribute(AttributeName = "id")]
-        public string WorkflowActionId { get; set; }
+        public string WorkflowActionId { get; set; } = "_" + Guid.NewGuid();
 
         /// <summary>
         /// Gets or sets the unique identity of the related workflow.

@@ -38,10 +38,10 @@ namespace Vasont.Inspire.Models.Translations
         public List<TranslationJobComponentModel> Components { get; set; } = new List<TranslationJobComponentModel>();
 
         /// <summary>
-        /// Gets or sets a value to be used for component filtering based on audience.
+        /// Gets or sets a list of values to be used for component filtering based on audience.
         /// </summary>
-        public string FilterValue { get; set; }
-        
+        public List<string> FilterValues { get; set; }
+
         /// <summary>Gets or sets a value indicating whether to include binary components in translation.</summary>
         public bool IncludeBinary { get; set; }
 

@@ -16,16 +16,6 @@ namespace Vasont.Inspire.Models.Reviews
     public class ReviewWorkflowModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ReviewWorkflowModel"/> class.
-        /// </summary>
-        public ReviewWorkflowModel()
-        {
-            this.WorkflowModel = new WorkflowModel();
-            this.Submittals = new List<ReviewWorkflowSubmittalModel>();
-            this.Owner = new MicroUserModel();
-        }
-
-        /// <summary>
         /// Gets or sets the identity of the associated review.
         /// </summary>
         public long ReviewId { get; set; }
@@ -38,7 +28,7 @@ namespace Vasont.Inspire.Models.Reviews
         /// <summary>
         /// Gets or sets the identity of the associated workflow model.
         /// </summary>
-        public WorkflowModel WorkflowModel { get; set; }
+        public WorkflowModel WorkflowModel { get; set; } = new WorkflowModel();
 
         /// <summary>
         /// Gets or sets the name of the review workflow.
@@ -73,7 +63,7 @@ namespace Vasont.Inspire.Models.Reviews
         /// <summary>
         /// Gets or sets the user model of the user who created the workflow.
         /// </summary>
-        public MicroUserModel Owner { get; set; }
+        public MicroUserModel Owner { get; set; } = new MicroUserModel();
 
         /// <summary>
         /// Gets or sets the date and time when the workflow is due.
@@ -88,6 +78,6 @@ namespace Vasont.Inspire.Models.Reviews
         /// <summary>
         /// Gets or sets a list of review workflow submittals.
         /// </summary>
-        public List<ReviewWorkflowSubmittalModel> Submittals { get; set; }
+        public List<ReviewWorkflowSubmittalModel> Submittals { get; set; } = new List<ReviewWorkflowSubmittalModel>();
     }
 }

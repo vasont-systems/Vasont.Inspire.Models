@@ -6,23 +6,12 @@
 namespace Vasont.Inspire.Models.Transfers
 {
     using System.Collections.Generic;
-    using Newtonsoft.Json;
-    using Newtonsoft.Json.Converters;
 
     /// <summary>
     /// This class represents parameters passed into the ExecuteImport API call.
     /// </summary>
-    [JsonConverter(typeof(StringEnumConverter))]
     public class ExecuteImportModel
     {
-        /// <summary>
-        /// Initializes a new instance of the <see cref="ExecuteImportModel"/> class.
-        /// </summary>
-        public ExecuteImportModel()
-        {
-            this.WorkerCacheLifeTimeoutMinutes = 14200;
-        }
-
         /// <summary>
         /// Gets or sets the working folder path.
         /// </summary>
@@ -31,7 +20,7 @@ namespace Vasont.Inspire.Models.Transfers
         /// <summary>
         /// Gets or sets the file paths to import.
         /// </summary>
-        public List<string> FilePaths { get; set; }
+        public List<string> FilePaths { get; set; } = new List<string>();
 
         /// <summary>
         /// Gets or sets the target folder identity.
@@ -61,6 +50,6 @@ namespace Vasont.Inspire.Models.Transfers
         /// <summary>
         /// Gets or sets the number of minutes the worker timeout will last.
         /// </summary>
-        public int WorkerCacheLifeTimeoutMinutes { get; set; }
+        public int WorkerCacheLifeTimeoutMinutes { get; set; } = 14200;
     }
 }

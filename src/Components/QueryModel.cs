@@ -14,17 +14,6 @@ namespace Vasont.Inspire.Models.Components
     /// </summary>
     public class QueryModel : CreatedUpdaterModelBase
     {
-        #region Public Constructors
-        /// <summary>
-        /// Initializes a new instance of the <see cref="QueryModel"/> class.
-        /// </summary>
-        public QueryModel()
-        {
-            this.Owner = new MicroUserModel();
-            this.Participants = new List<UserRoleAssociationModel>();
-        }
-        #endregion
-
         /// <summary>
         /// Gets or sets the unique identity of the query.
         /// </summary>
@@ -33,7 +22,7 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets the project owner's user information.
         /// </summary>
-        public MicroUserModel Owner { get; set; }
+        public MicroUserModel Owner { get; set; } = new MicroUserModel();
 
         /// <summary>
         /// Gets or sets the query title.
@@ -68,6 +57,6 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets a list of <see cref="UserRoleAssociationModel"/> objects.
         /// </summary>
-        public List<UserRoleAssociationModel> Participants { get; set; }
+        public List<UserRoleAssociationModel> Participants { get; set; } = new List<UserRoleAssociationModel>();
     }
 }

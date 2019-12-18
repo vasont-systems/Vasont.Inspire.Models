@@ -19,17 +19,6 @@ namespace Vasont.Inspire.Models.Projects
     public class ProjectWorkflowModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ProjectWorkflowModel"/> class.
-        /// </summary>
-        public ProjectWorkflowModel()
-        {
-            this.WorkflowModel = new WorkflowModel();
-            this.Submittals = new List<ProjectWorkflowSubmittalModel>();
-            this.Owner = new MicroUserModel();
-            this.InitialComponents = new List<MinimalComponentModel>();
-        }
-
-        /// <summary>
         /// Gets or sets the identity of the project workflow.
         /// </summary>
         public long ProjectWorkflowId { get; set; }
@@ -42,7 +31,7 @@ namespace Vasont.Inspire.Models.Projects
         /// <summary>
         /// Gets or sets the identity of the associated workflow model.
         /// </summary>
-        public WorkflowModel WorkflowModel { get; set; }
+        public WorkflowModel WorkflowModel { get; set; } = new WorkflowModel();
 
         /// <summary>
         /// Gets or sets the name of the project workflow.
@@ -87,7 +76,7 @@ namespace Vasont.Inspire.Models.Projects
         /// <summary>
         /// Gets or sets the user model of the user who created the workflow.
         /// </summary>
-        public MicroUserModel Owner { get; set; }
+        public MicroUserModel Owner { get; set; } = new MicroUserModel();
 
         /// <summary>
         /// Gets or sets the date and time when the workflow is due.
@@ -112,11 +101,11 @@ namespace Vasont.Inspire.Models.Projects
         /// <summary>
         /// Gets or sets the components that will be applied to the initial project assignment.
         /// </summary>
-        public List<MinimalComponentModel> InitialComponents { get; set; }
+        public List<MinimalComponentModel> InitialComponents { get; set; } = new List<MinimalComponentModel>();
 
         /// <summary>
         /// Gets or sets a list of project assignment workflow submittals.
         /// </summary>
-        public List<ProjectWorkflowSubmittalModel> Submittals { get; set; }
+        public List<ProjectWorkflowSubmittalModel> Submittals { get; set; } = new List<ProjectWorkflowSubmittalModel>();
     }
 }

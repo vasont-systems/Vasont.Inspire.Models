@@ -13,18 +13,9 @@ namespace Vasont.Inspire.Models.Common
     public class ErrorResponseModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ErrorResponseModel"/> class.
-        /// </summary>
-        public ErrorResponseModel()
-        {
-            this.Messages = new List<ErrorModel>();
-            this.HasUnhandledException = false;
-        }
-
-        /// <summary>
         /// Gets the error messages.
         /// </summary>
-        public List<ErrorModel> Messages { get; }
+        public List<ErrorModel> Messages { get; } = new List<ErrorModel>();
 
         /// <summary>
         /// Gets or sets a value indicating whether this instance has unhandled exception.

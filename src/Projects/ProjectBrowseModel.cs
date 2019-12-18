@@ -91,6 +91,6 @@ namespace Vasont.Inspire.Models.Projects
         /// <summary>
         /// Gets or sets a list of languages codes.
         /// </summary>
-        public List<string> Languages { get; set; }
+        public List<string> Languages { get; set; } = new List<string>();
     }
 }

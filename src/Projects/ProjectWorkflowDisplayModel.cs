@@ -15,14 +15,6 @@ namespace Vasont.Inspire.Models.Projects
     public class ProjectWorkflowDisplayModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ProjectWorkflowDisplayModel"/> class.
-        /// </summary>
-        public ProjectWorkflowDisplayModel()
-        {
-            this.Owner = new MicroUserModel();
-        }
-        
-        /// <summary>
         /// Gets or sets the identity of the associated project.
         /// </summary>
         public long ProjectId { get; set; }
@@ -70,7 +62,7 @@ namespace Vasont.Inspire.Models.Projects
         /// <summary>
         /// Gets or sets the user model of the user who created the workflow.
         /// </summary>
-        public MicroUserModel Owner { get; set; }
+        public MicroUserModel Owner { get; set; } = new MicroUserModel();
 
         /// <summary>
         /// Gets or sets the date and time when the workflow is due.

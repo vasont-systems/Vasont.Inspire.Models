@@ -20,6 +20,6 @@ namespace Vasont.Inspire.Models.Versioning
         /// <summary>
         /// Gets or sets the resulting changeset records for the specified page.
         /// </summary>
-        public List<ChangesetModel> Changesets { get; set; }
+        public List<ChangesetModel> Changesets { get; set; } = new List<ChangesetModel>();
     }
 }
