@@ -30,7 +30,6 @@ namespace Vasont.Inspire.Models.Components
             : base(permissions)
         {
             this.RootElement = new MapNodeModel();
-            this.PrecedingNodes = new List<MapNodeModel>();
         }
 
         /// <summary>
@@ -57,7 +56,7 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets a list of nodes that occur before the root element.
         /// </summary>
-        public List<MapNodeModel> PrecedingNodes { get; set; }
+        public List<MapNodeModel> PrecedingNodes { get; set; } = new List<MapNodeModel>();
 
         /// <summary>
         /// Gets or sets the root element of the map.
@@ -67,7 +66,7 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets a list of nodes that occur after the root element.
         /// </summary>
-        public List<MapNodeModel> FollowingNodes { get; set; }
+        public List<MapNodeModel> FollowingNodes { get; set; } = new List<MapNodeModel>();
 
         /// <summary>
         /// Gets or sets a value indicating whether the component can be used with the content editor.

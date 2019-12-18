@@ -16,16 +16,6 @@ namespace Vasont.Inspire.Models.Projects
     public class ProjectWorkflowSubmittalModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ProjectWorkflowSubmittalModel"/> class.
-        /// </summary>
-        public ProjectWorkflowSubmittalModel()
-        {
-            this.Transitions = new List<WorkflowNextTransitionModel>();
-            this.ProjectAssignmentIds = new List<long>();
-            this.AssignedUser = new MicroUserModel();
-        }
-
-        /// <summary>
         /// Gets or sets the identity of the project workflow submittal.
         /// </summary>
         public long ProjectWorkflowSubmittalId { get; set; }
@@ -38,12 +28,12 @@ namespace Vasont.Inspire.Models.Projects
         /// <summary>
         /// Gets or sets a list of project assignment identities associated with the submittal.
         /// </summary>
-        public List<long> ProjectAssignmentIds { get; set; }
+        public List<long> ProjectAssignmentIds { get; set; } = new List<long>();
 
         /// <summary>
         /// Gets or sets the assigned user.
         /// </summary>
-        public MicroUserModel AssignedUser { get; set; }
+        public MicroUserModel AssignedUser { get; set; } = new MicroUserModel();
 
         /// <summary>
         /// Gets or sets the identity of the workflow activity.
@@ -83,6 +73,6 @@ namespace Vasont.Inspire.Models.Projects
         /// <summary>
         /// Gets or sets a list of transitions that can occur after the current activity is completed.
         /// </summary>
-        public List<WorkflowNextTransitionModel> Transitions { get; set; }
+        public List<WorkflowNextTransitionModel> Transitions { get; set; } = new List<WorkflowNextTransitionModel>();
     }
 }

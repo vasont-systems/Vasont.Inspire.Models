@@ -20,6 +20,6 @@ namespace Vasont.Inspire.Models.Projects
         /// <summary>
         /// Gets or sets the resulting projects from the query request.
         /// </summary>
-        public List<ProjectBrowseModel> Projects { get; set; }
+        public List<ProjectBrowseModel> Projects { get; set; } = new List<ProjectBrowseModel>();
     }
 }

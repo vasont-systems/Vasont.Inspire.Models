@@ -44,20 +44,6 @@ namespace Vasont.Inspire.Models.Reviews
     public class ReviewModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ReviewModel"/> class.
-        /// </summary>
-        public ReviewModel()
-        {
-            this.Coordinator = new MinimalUserModel();
-            this.CreatedBy = new MinimalUserModel();
-            this.UpdatedBy = new MinimalUserModel();
-            this.State = ReviewStateType.Reviewing;
-            this.CreatedDate = this.UpdatedDate = DateTime.UtcNow;
-            this.Components = new List<ReviewComponentModel>();
-            this.Reviewers = new List<ReviewerModel>();
-        }
-
-        /// <summary>
         /// Gets or sets the identity of the review.
         /// </summary>
         public long ReviewId { get; set; }
@@ -75,12 +61,12 @@ namespace Vasont.Inspire.Models.Reviews
         /// <summary>
         /// Gets or sets the review coordinator user information.
         /// </summary>
-        public MinimalUserModel Coordinator { get; set; }
+        public MinimalUserModel Coordinator { get; set; } = new MinimalUserModel();
 
         /// <summary>
         /// Gets or sets the review state information.
         /// </summary>
-        public ReviewStateType State { get; set; }
+        public ReviewStateType State { get; set; } = ReviewStateType.Reviewing;
 
         /// <summary>
         /// Gets or sets the date time when the review should be started.
@@ -100,22 +86,22 @@ namespace Vasont.Inspire.Models.Reviews
         /// <summary>
         /// Gets or sets the date and time when the review was created.
         /// </summary>
-        public DateTime CreatedDate { get; set; }
+        public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
 
         /// <summary>
         /// Gets or sets the date and time when the review was last updated.
         /// </summary>
-        public DateTime UpdatedDate { get; set; }
+        public DateTime UpdatedDate { get; set; } = DateTime.UtcNow;
 
         /// <summary>
         /// Gets or sets the user information about the user who created the review.
         /// </summary>
-        public MinimalUserModel CreatedBy { get; set; }
+        public MinimalUserModel CreatedBy { get; set; } = new MinimalUserModel();
 
         /// <summary>
         /// Gets or sets the user information about the user who last updated the review.
         /// </summary>
-        public MinimalUserModel UpdatedBy { get; set; }
+        public MinimalUserModel UpdatedBy { get; set; } = new MinimalUserModel();
 
         /// <summary>
         /// Gets or sets a value indicating whether the review is archived.
@@ -130,12 +116,12 @@ namespace Vasont.Inspire.Models.Reviews
         /// <summary>
         /// Gets or sets the reviewers associated with the review.
         /// </summary>
-        public List<ReviewerModel> Reviewers { get; set; }
+        public List<ReviewerModel> Reviewers { get; set; } = new List<ReviewerModel>();
 
         /// <summary>
         /// Gets or sets the review components associated with the review.
         /// </summary>
-        public List<ReviewComponentModel> Components { get; set; }
+        public List<ReviewComponentModel> Components { get; set; } = new List<ReviewComponentModel>();
 
         /// <summary>
         /// Gets or sets the review workflow associated with the review.

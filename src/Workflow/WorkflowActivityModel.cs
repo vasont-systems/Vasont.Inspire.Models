@@ -16,21 +16,10 @@ namespace Vasont.Inspire.Models.Workflow
     public class WorkflowActivityModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="WorkflowActivityModel"/> class.
-        /// </summary>
-        public WorkflowActivityModel()
-        {
-            this.WorkflowActivityId = "_" + Guid.NewGuid().ToString();
-            this.Events = new List<WorkflowActivityEventModel>();
-            this.ActorIds = new List<string>();
-            this.State = WorkflowState.Executing;
-        }
-        
-        /// <summary>
         /// Gets or sets the unique workflow activity identity.
         /// </summary>
         [XmlAttribute(AttributeName = "id")]
-        public string WorkflowActivityId { get; set; }
+        public string WorkflowActivityId { get; set; } = "_" + Guid.NewGuid();
 
         /// <summary>
         /// Gets or sets the unique identity of the related workflow.
@@ -60,7 +49,7 @@ namespace Vasont.Inspire.Models.Workflow
         /// <summary>
         /// Gets or sets the workflow state to set once the activity has been initiated.
         /// </summary>
-        public WorkflowState State { get; set; }
+        public WorkflowState State { get; set; } = WorkflowState.Executing;
 
         /// <summary>
         /// Gets or sets the workflow status identity to set once the activity has been initiated.
@@ -70,13 +59,13 @@ namespace Vasont.Inspire.Models.Workflow
         /// <summary>
         /// Gets or sets a list of activity events.
         /// </summary>
-        public List<WorkflowActivityEventModel> Events { get; set; }
+        public List<WorkflowActivityEventModel> Events { get; set; } = new List<WorkflowActivityEventModel>();
 
         /// <summary>
         /// Gets or sets a list of workflow actor identities associated with this activity.
         /// </summary>
         [XmlArrayItem("ActorId")]
-        public List<string> ActorIds { get; set; }
+        public List<string> ActorIds { get; set; } = new List<string>();
 
         /// <summary>
         /// Gets or sets a comma delimited list of workflow actor names associated with this activity.

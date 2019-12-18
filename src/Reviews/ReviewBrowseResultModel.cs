@@ -20,6 +20,6 @@ namespace Vasont.Inspire.Models.Reviews
         /// <summary>
         /// Gets or sets the resulting reviews from the query request.
         /// </summary>
-        public List<ReviewModel> Reviews { get; set; }
+        public List<ReviewModel> Reviews { get; set; } = new List<ReviewModel>();
     }
 }

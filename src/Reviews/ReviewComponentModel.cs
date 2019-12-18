@@ -61,16 +61,6 @@ namespace Vasont.Inspire.Models.Reviews
     public class ReviewComponentModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ReviewComponentModel"/> class.
-        /// </summary>
-        public ReviewComponentModel()
-        {
-            this.Component = new MinimalComponentModel();
-            this.CreatedBy = new MinimalUserModel();
-            this.CreatedDate = DateTime.UtcNow;
-        }
-
-        /// <summary>
         /// Gets or sets the identity of the review component.
         /// </summary>
         public long ReviewComponentId { get; set; }
@@ -83,7 +73,7 @@ namespace Vasont.Inspire.Models.Reviews
         /// <summary>
         /// Gets or sets the component.
         /// </summary>
-        public MinimalComponentModel Component { get; set; }
+        public MinimalComponentModel Component { get; set; } = new MinimalComponentModel();
 
         /// <summary>
         /// Gets or sets the changeset of the component history record.
@@ -98,12 +88,12 @@ namespace Vasont.Inspire.Models.Reviews
         /// <summary>
         /// Gets or sets the date and time when the review component was created.
         /// </summary>
-        public DateTime CreatedDate { get; set; }
+        public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
 
         /// <summary>
         /// Gets or sets the user information about the user who created the review component.
         /// </summary>
-        public MinimalUserModel CreatedBy { get; set; }
+        public MinimalUserModel CreatedBy { get; set; } = new MinimalUserModel();
 
         /// <summary>
         /// Gets or sets the review component comment.

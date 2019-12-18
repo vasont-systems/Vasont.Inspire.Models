@@ -63,16 +63,6 @@ namespace Vasont.Inspire.Models.Components.Schema
     public class ComponentAttributeModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ComponentAttributeModel"/> class.
-        /// </summary>
-        public ComponentAttributeModel()
-        {
-            this.ValidValues = new List<KeyValuePair<string, string>>();
-            this.ValidTypes = new List<string>();
-            this.Type = ComponentConfigurationAttributeType.String;
-        }
-
-        /// <summary>
         /// Gets or sets the unique identity of the attribute.
         /// </summary>
         [JsonIgnore]
@@ -96,7 +86,7 @@ namespace Vasont.Inspire.Models.Components.Schema
         /// <summary>
         /// Gets or sets the map attribute value type.
         /// </summary>
-        public ComponentConfigurationAttributeType Type { get; set; }
+        public ComponentConfigurationAttributeType Type { get; set; } = ComponentConfigurationAttributeType.String;
 
         /// <summary>
         /// Gets or sets a value indicating whether the attribute is required.
@@ -152,12 +142,12 @@ namespace Vasont.Inspire.Models.Components.Schema
         /// <summary>
         /// Gets or sets a list of key value pair objects containing valid values and display text for the attribute.
         /// </summary>
-        public List<KeyValuePair<string, string>> ValidValues { get; set; }
+        public List<KeyValuePair<string, string>> ValidValues { get; set; } = new List<KeyValuePair<string, string>>();
 
         /// <summary>
         /// Gets or sets a list of valid component types that the component type attributes can target.
         /// </summary>
-        public List<string> ValidTypes { get; set; }
+        public List<string> ValidTypes { get; set; } = new List<string>();
 
         /// <summary>
         /// This method is used by the serializer to determine if it is to be rendered.

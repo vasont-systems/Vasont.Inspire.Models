@@ -35,17 +35,6 @@ namespace Vasont.Inspire.Models.Transfers
     public class ExportModel : MinimalExportModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ExportModel"/> class.
-        /// </summary>
-        public ExportModel()
-        {
-            this.ExportRelations = new List<MinimalExportRelationModel>();
-            this.ComponentTypes = new List<MinimalComponentTypeModel>();
-            this.Plugins = new List<ExportPluginModel>();
-            this.Type = ExportType.Standard;
-        }
-
-        /// <summary>
         /// Gets or sets a description of the export.
         /// </summary>
         public string Description { get; set; }
@@ -63,21 +52,21 @@ namespace Vasont.Inspire.Models.Transfers
         /// <summary>
         /// Gets or sets the export type.
         /// </summary>
-        public ExportType Type { get; set; }
+        public ExportType Type { get; set; } = ExportType.Standard;
 
         /// <summary>
         /// Gets or sets a list of <see cref="MinimalExportRelationModel"/>  objects that will be processed by the export.
         /// </summary>
-        public List<MinimalExportRelationModel> ExportRelations { get; set; }
+        public List<MinimalExportRelationModel> ExportRelations { get; set; } = new List<MinimalExportRelationModel>();
 
         /// <summary>
         /// Gets or sets a list of <see cref="MinimalComponentTypeModel"/> objects that define which component types are allowed to be used with the export.
         /// </summary>
-        public List<MinimalComponentTypeModel> ComponentTypes { get; set; }
+        public List<MinimalComponentTypeModel> ComponentTypes { get; set; } = new List<MinimalComponentTypeModel>();
 
         /// <summary>
         /// Gets or sets a list of <see cref="ExportPluginModel"/> objects that are to be used with the export.
         /// </summary>
-        public List<ExportPluginModel> Plugins { get; set; }
+        public List<ExportPluginModel> Plugins { get; set; } = new List<ExportPluginModel>();
     }
 }

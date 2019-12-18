@@ -17,17 +17,6 @@ namespace Vasont.Inspire.Models.Projects
     public class MinimalProjectModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="MinimalProjectModel"/> class.
-        /// </summary>
-        public MinimalProjectModel()
-        {
-            this.Owner = new MinimalUserModel();
-            this.UpdatedBy = new MinimalUserModel();
-            this.Languages = new List<MinimalLanguageModel>();
-            this.Participants = new List<ProjectParticipantModel>();
-        }
-
-        /// <summary>
         /// Gets or sets the project identity value.
         /// </summary>
         public long ProjectId { get; set; }
@@ -45,7 +34,7 @@ namespace Vasont.Inspire.Models.Projects
         /// <summary>
         /// Gets or sets the project owner's user information.
         /// </summary>
-        public MinimalUserModel Owner { get; set; }
+        public MinimalUserModel Owner { get; set; } = new MinimalUserModel();
 
         /// <summary>
         /// Gets or sets the date time when the project was created.
@@ -80,7 +69,7 @@ namespace Vasont.Inspire.Models.Projects
         /// <summary>
         /// Gets or sets the user information about the user who last updated the project.
         /// </summary>
-        public MinimalUserModel UpdatedBy { get; set; }
+        public MinimalUserModel UpdatedBy { get; set; } = new MinimalUserModel();
 
         /// <summary>
         /// Gets or sets a value indicating whether the project is complete.
@@ -145,11 +134,11 @@ namespace Vasont.Inspire.Models.Projects
         /// <summary>
         /// Gets or sets a list of <see cref="MinimalLanguageModel"/> objects.
         /// </summary>
-        public List<MinimalLanguageModel> Languages { get; set; }
+        public List<MinimalLanguageModel> Languages { get; set; } = new List<MinimalLanguageModel>();
 
         /// <summary>
         /// Gets or sets a list of <see cref="ProjectParticipantModel"/> objects.
         /// </summary>
-        public List<ProjectParticipantModel> Participants { get; set; }
+        public List<ProjectParticipantModel> Participants { get; set; } = new List<ProjectParticipantModel>();
     }
 }

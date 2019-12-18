@@ -41,13 +41,11 @@ namespace Vasont.Inspire.Models.Components
     /// </summary>
     public class MinimalComponentModel : CreatedUpdaterModelBase
     {
-        #region Private Fields
         /// <summary>
         /// Contains the item type for the specified minimal component.
         /// </summary>
         private ProjectFolderItemType itemType;
-        #endregion
-
+        
         #region Public Constructors
         /// <summary>
         /// Initializes a new instance of the <see cref="MinimalComponentModel"/> class.
