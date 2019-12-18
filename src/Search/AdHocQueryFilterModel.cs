@@ -12,23 +12,10 @@ namespace Vasont.Inspire.Models.Search
     /// </summary>
     public class AdHocQueryFilterModel
     {
-        #region Public Constructors
-        /// <summary>
-        /// Initializes a new instance of the <see cref="AdHocQueryFilterModel"/> class.
-        /// </summary>
-        public AdHocQueryFilterModel()
-        {
-            this.Logic = SearchLogicOperator.And;
-            this.Operator = SearchExpressionOperator.Equals;
-            this.GroupedFilters = new List<AdHocQueryFilterModel>();
-        }
-        #endregion
-
-        #region Public Properties
         /// <summary>
         /// Gets or sets the filter row logic operator
         /// </summary>
-        public SearchLogicOperator Logic { get; set; }
+        public SearchLogicOperator Logic { get; set; } = SearchLogicOperator.And;
 
         /// <summary>
         /// Gets or sets the filter name to add to the query expression.
@@ -38,7 +25,7 @@ namespace Vasont.Inspire.Models.Search
         /// <summary>
         /// Gets or sets the filter operator
         /// </summary>
-        public SearchExpressionOperator Operator { get; set; }
+        public SearchExpressionOperator Operator { get; set; } = SearchExpressionOperator.Equals;
 
         /// <summary>
         /// Gets or sets the query filter value used to compare.
@@ -48,7 +35,6 @@ namespace Vasont.Inspire.Models.Search
         /// <summary>
         /// Gets or sets a list of grouped filters for the given filter model.
         /// </summary>
-        public List<AdHocQueryFilterModel> GroupedFilters { get; set; }
-        #endregion
+        public List<AdHocQueryFilterModel> GroupedFilters { get; set; } = new List<AdHocQueryFilterModel>();
     }
 }

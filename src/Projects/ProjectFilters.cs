@@ -13,15 +13,6 @@ namespace Vasont.Inspire.Models.Projects
     public sealed class ProjectFilters
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ProjectFilters"/> class.
-        /// </summary>
-        public ProjectFilters()
-        {
-            this.Direction = SortDirection.Asc;
-            this.MaximumRows = 0;
-        }
-
-        /// <summary>
         /// Gets or sets the filter on project title.
         /// </summary>
         public string Title { get; set; }
@@ -34,7 +25,7 @@ namespace Vasont.Inspire.Models.Projects
         /// <summary>
         /// Gets or sets the order by sort direction.
         /// </summary>
-        public SortDirection Direction { get; set; }
+        public SortDirection Direction { get; set; } = SortDirection.Asc;
 
         /// <summary>
         /// Gets or sets the maximum rows to return.

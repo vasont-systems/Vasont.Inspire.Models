@@ -20,6 +20,6 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets the resulting components from the query request.
         /// </summary>
-        public List<MinimalComponentModel> Components { get; set; }
+        public List<MinimalComponentModel> Components { get; set; } = new List<MinimalComponentModel>();
     }
 }

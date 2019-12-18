@@ -14,15 +14,6 @@ namespace Vasont.Inspire.Models.Projects
     public class ProjectDiscussionModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ProjectDiscussionModel"/> class.
-        /// </summary>
-        public ProjectDiscussionModel()
-        {
-            this.CreatedDate = DateTime.UtcNow;
-            this.Author = new MinimalUserModel();
-        }
-
-        /// <summary>
         /// Gets or sets the project discussion identity value.
         /// </summary>
         public long ProjectDiscussionId { get; set; }
@@ -35,12 +26,12 @@ namespace Vasont.Inspire.Models.Projects
         /// <summary>
         /// Gets or sets the author information about the project discussion message.
         /// </summary>
-        public MinimalUserModel Author { get; set; }
+        public MinimalUserModel Author { get; set; } = new MinimalUserModel();
 
         /// <summary>
         /// Gets or sets the date and time of the discussion message creation.
         /// </summary>
-        public DateTime CreatedDate { get; set; }
+        public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
 
         /// <summary>
         /// Gets or sets the discussion message.

@@ -20,6 +20,6 @@ namespace Vasont.Inspire.Models.Translations
         /// <summary>
         /// Gets or sets the resulting translations from the query request.
         /// </summary>
-        public List<MinimalTranslationJobModel> Translations { get; set; }
+        public List<MinimalTranslationJobModel> Translations { get; set; } = new List<MinimalTranslationJobModel>();
     }
 }

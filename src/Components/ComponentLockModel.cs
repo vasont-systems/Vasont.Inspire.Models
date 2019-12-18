@@ -38,8 +38,6 @@ namespace Vasont.Inspire.Models.Components
     /// </summary>
     public class ComponentLockModel
     {
-        #region Public Constructors
-
         /// <summary>
         /// Initializes a new instance of the <see cref="ComponentLockModel"/> class.
         /// </summary>
@@ -47,10 +45,6 @@ namespace Vasont.Inspire.Models.Components
         {
             this.LockedBy = new MicroUserModel();
         }
-
-        #endregion
-
-        #region Public Properties
 
         /// <summary>
         /// Gets or sets the component identifier.
@@ -104,7 +98,5 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets a value indicating a system lock
         /// </summary>
         public bool SystemLock => this.Type != ComponentLockType.Standard;
-
-        #endregion
     }
 }

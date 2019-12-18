@@ -9,15 +9,7 @@ namespace Vasont.Inspire.Models.Components
     /// This class contains values used within the Editor Component Service.
     /// </summary>
     public class EditorReadResultModel
-    {
-        /// <summary>
-        /// Initializes a new instance of the <see cref="EditorReadResultModel"/> class.
-        /// </summary>
-        public EditorReadResultModel()
-        {
-            this.Lock = new ComponentLockModel();
-        }
-
+    { 
         /// <summary>
         /// Gets or sets the component type.
         /// </summary>
@@ -36,6 +28,6 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets a component lock model for the content to be read.
         /// </summary>
-        public ComponentLockModel Lock { get; set; }
+        public ComponentLockModel Lock { get; set; } = new ComponentLockModel();
     }
 }

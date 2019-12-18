@@ -16,18 +16,10 @@ namespace Vasont.Inspire.Models.Workflow
     public class WorkflowStatusModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="WorkflowStatusModel"/> class.
-        /// </summary>
-        public WorkflowStatusModel()
-        {
-            this.WorkflowStatusId = "_" + Guid.NewGuid().ToString();
-        }
-        
-        /// <summary>
         /// Gets or sets the unique identity of the workflow status.
         /// </summary>
         [XmlAttribute(AttributeName = "id")]
-        public string WorkflowStatusId { get; set; }
+        public string WorkflowStatusId { get; set; } = "_" + Guid.NewGuid();
 
         /// <summary>
         /// Gets or sets the unique identity of the workflow.

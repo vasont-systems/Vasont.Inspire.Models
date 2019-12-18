@@ -15,14 +15,6 @@ namespace Vasont.Inspire.Models.Reviews
     public class ReviewerComponentEditModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ReviewerComponentEditModel"/> class.
-        /// </summary>
-        public ReviewerComponentEditModel()
-        {
-            this.UpdatedByUser = new MinimalUserModel();
-        }
-
-        /// <summary>
         /// Gets or sets the identity of the reviewer component.
         /// </summary>
         public long ReviewerComponentId { get; set; }
@@ -60,7 +52,7 @@ namespace Vasont.Inspire.Models.Reviews
         /// <summary>
         /// Gets or sets the user that date and time of the last reviewer update.
         /// </summary>
-        public MinimalUserModel UpdatedByUser { get; set; }
+        public MinimalUserModel UpdatedByUser { get; set; } = new MinimalUserModel();
 
         /// <summary>
         /// Gets or sets the reviewer component comment.

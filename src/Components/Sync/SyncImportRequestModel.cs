@@ -9,15 +9,7 @@ namespace Vasont.Inspire.Models.Components.Sync
     /// This class represents an external component sync request to import a file.
     /// </summary>
     public class SyncImportRequestModel
-    {
-        /// <summary>
-        /// Initializes a new instance of the <see cref="SyncImportRequestModel"/> class.
-        /// </summary>
-        public SyncImportRequestModel()
-        {
-            this.SendNotification = true;
-        }
-        
+    {   
         /// <summary>
         /// Gets or sets the inspire file name.
         /// </summary>
@@ -42,10 +34,10 @@ namespace Vasont.Inspire.Models.Components.Sync
         /// Gets or sets the file name of the external component.
         /// </summary>
         public string ExternalFileName { get; set; }
-        
+
         /// <summary>
         /// Gets or sets a value indicating whether [send notification].
         /// </summary>
-        public bool SendNotification { get; set; }
+        public bool SendNotification { get; set; } = true;
     }
 }

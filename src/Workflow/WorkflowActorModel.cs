@@ -16,19 +16,10 @@ namespace Vasont.Inspire.Models.Workflow
     public class WorkflowActorModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="WorkflowActorModel"/> class.
-        /// </summary>
-        public WorkflowActorModel()
-        {
-            this.WorkflowActorId = "_" + Guid.NewGuid().ToString();
-            this.Members = new List<WorkflowMemberModel>();
-        }
-        
-        /// <summary>
         /// Gets or sets the actor unique identity value.
         /// </summary>
         [XmlAttribute(AttributeName = "id")]
-        public string WorkflowActorId { get; set; }
+        public string WorkflowActorId { get; set; } = "_" + Guid.NewGuid();
 
         /// <summary>
         /// Gets or sets the associated workflow identity.
@@ -54,6 +45,6 @@ namespace Vasont.Inspire.Models.Workflow
         /// Gets or sets a list of <see cref="WorkflowMemberModel"/> models.
         /// These members will be set by the process that implements workflow, such as project assignments.
         /// </summary>
-        public List<WorkflowMemberModel> Members { get; set; }
+        public List<WorkflowMemberModel> Members { get; set; } = new List<WorkflowMemberModel>();
     }
 }

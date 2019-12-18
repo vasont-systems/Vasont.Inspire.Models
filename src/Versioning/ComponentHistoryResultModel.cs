@@ -20,6 +20,6 @@ namespace Vasont.Inspire.Models.Versioning
         /// <summary>
         /// Gets or sets the resulting history records for the specified page.
         /// </summary>
-        public List<MinimalComponentHistoryModel> History { get; set; }
+        public List<MinimalComponentHistoryModel> History { get; set; } = new List<MinimalComponentHistoryModel>();
     }
 }

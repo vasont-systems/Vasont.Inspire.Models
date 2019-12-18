@@ -16,7 +16,7 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets a list of component identities.
         /// </summary>
-        public List<long> ComponentIds { get; set; }
+        public List<long> ComponentIds { get; set; } = new List<long>();
 
         /// <summary>
         /// Gets or sets search text that will be used to filter results.

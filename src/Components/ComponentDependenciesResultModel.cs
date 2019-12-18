@@ -20,6 +20,6 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets the resulting component dependencies from the query request.
         /// </summary>
-        public List<ComponentDependencyModel> ComponentDependencies { get; set; }
+        public List<ComponentDependencyModel> ComponentDependencies { get; set; } = new List<ComponentDependencyModel>();
     }
 }

@@ -89,17 +89,6 @@ namespace Vasont.Inspire.Models.Components.Schema
     public class ComponentElementModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ComponentElementModel"/> class.
-        /// </summary>
-        public ComponentElementModel()
-        {
-            this.Type = ComponentConfigurationElementType.Element;
-            this.Role = ComponentConfigurationElementModeRole.Empty;
-            this.Attributes = new List<ComponentAttributeModel>();
-            this.Contains = new List<ComponentElementContainsRuleModel>();
-        }
-
-        /// <summary>
         /// Gets or sets the unique identity of the element definition.
         /// </summary>
         [JsonIgnore]
@@ -123,21 +112,21 @@ namespace Vasont.Inspire.Models.Components.Schema
         /// <summary>
         /// Gets or sets the element definition type.
         /// </summary>
-        public ComponentConfigurationElementType Type { get; set; }
+        public ComponentConfigurationElementType Type { get; set; } = ComponentConfigurationElementType.Element;
 
         /// <summary>
         /// Gets or sets the element definition role.
         /// </summary>
-        public ComponentConfigurationElementModeRole Role { get; set; }
+        public ComponentConfigurationElementModeRole Role { get; set; } = ComponentConfigurationElementModeRole.Empty;
 
         /// <summary>
         /// Gets or sets a list of available element attributes
         /// </summary>
-        public List<ComponentAttributeModel> Attributes { get; set; }
+        public List<ComponentAttributeModel> Attributes { get; set; } = new List<ComponentAttributeModel>();
 
         /// <summary>
         /// Gets or sets the root contains rule model
         /// </summary>
-        public List<ComponentElementContainsRuleModel> Contains { get; set; }
+        public List<ComponentElementContainsRuleModel> Contains { get; set; } = new List<ComponentElementContainsRuleModel>();
     }
 }

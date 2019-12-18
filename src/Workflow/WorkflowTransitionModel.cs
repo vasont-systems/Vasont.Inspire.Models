@@ -16,18 +16,10 @@ namespace Vasont.Inspire.Models.Workflow
     public class WorkflowTransitionModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="WorkflowTransitionModel"/> class.
-        /// </summary>
-        public WorkflowTransitionModel()
-        {
-            this.WorkflowTransitionId = "_" + Guid.NewGuid().ToString();
-        }
-        
-        /// <summary>
         /// Gets or sets the unique identity of the workflow transition.
         /// </summary>
         [XmlAttribute(AttributeName = "id")]
-        public string WorkflowTransitionId { get; set; }
+        public string WorkflowTransitionId { get; set; } = "_" + Guid.NewGuid();
 
         /// <summary>
         /// Gets or sets the unique identity of the associated workflow.
