@@ -61,6 +61,7 @@ namespace Vasont.Inspire.Models.Components
         /// <param name="permissions">Contains an optional permissions value for the minimal component model.</param>
         public MinimalComponentModel(PermissionFlags permissions)
         {
+            this.ComponentType = new MinimalComponentTypeModel();
             this.itemType = ProjectFolderItemType.Component;
             this.State = ComponentStateType.Draft;
             this.Permissions = new PermissionModel(permissions);
