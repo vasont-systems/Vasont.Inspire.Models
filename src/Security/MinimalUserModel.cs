@@ -14,11 +14,6 @@ namespace Vasont.Inspire.Models.Security
     public class MinimalUserModel : MicroUserModel
     {
         /// <summary>
-        /// Gets or sets the user first name.
-        /// </summary>
-        public string FirstName { get; set; }
-
-        /// <summary>
         /// Gets or sets the user's desired language.
         /// </summary>
         public string DesiredLanguage { get; set; }

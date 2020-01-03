@@ -16,9 +16,33 @@ namespace Vasont.Inspire.Models.Security
         public long UserId { get; set; }
 
         /// <summary>
+        /// Gets or sets the unique identifier.
+        /// </summary>
+        /// <value>
+        /// The unique identifier.
+        /// </value>
+        public string UniqueId { get; set; }
+
+        /// <summary>
         /// Gets or sets the user's e-mail address.
         /// </summary>
         public string Email { get; set; }
+
+        /// <summary>
+        /// Gets or sets the first name.
+        /// </summary>
+        /// <value>
+        /// The first name.
+        /// </value>
+        public string FirstName { get; set; }
+
+        /// <summary>
+        /// Gets or sets the last name.
+        /// </summary>
+        /// <value>
+        /// The last name.
+        /// </value>
+        public string LastName { get; set; }
 
         /// <summary>
         /// Gets or sets the user full name.
