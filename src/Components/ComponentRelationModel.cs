@@ -1,5 +1,5 @@
 ﻿//-------------------------------------------------------------
-// <copyright file="ComponentReferenceModel.cs" company="GlobalLink Vasont">
+// <copyright file="ComponentRelationModel.cs" company="GlobalLink Vasont">
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-------------------------------------------------------------
@@ -12,7 +12,7 @@ namespace Vasont.Inspire.Models.Components
     ///  This class model represents a component reference found within the data repository
     ///  FindComponentRelations call.
     /// </summary>
-    public class ComponentReferenceModel
+    public class ComponentRelationModel
     {
         /// <summary>
         ///  Gets or sets the component relation identity.
@@ -20,9 +20,28 @@ namespace Vasont.Inspire.Models.Components
         public long ComponentRelationId { get; set; }
 
         /// <summary>
-        ///  Gets or sets the relation type identity.
+        /// Gets or sets the relation identifier.
         /// </summary>
+        /// <value>
+        /// The relation identifier.
+        /// </value>
         public long RelationId { get; set; }
+
+        /// <summary>
+        /// Gets or sets the source component.
+        /// </summary>
+        /// <value>
+        /// The source component.
+        /// </value>
+        public MinimalComponentModel SourceComponent { get; set; }
+
+        /// <summary>
+        /// Gets or sets the target component.
+        /// </summary>
+        /// <value>
+        /// The target component.
+        /// </value>
+        public MinimalComponentModel TargetComponent { get; set; }
 
         /// <summary>
         ///  Gets or sets a value indicating whether the reference is invalid.
@@ -30,84 +49,9 @@ namespace Vasont.Inspire.Models.Components
         public bool Invalid { get; set; }
 
         /// <summary>
-        ///  Gets or sets the source component identity.
-        /// </summary>
-        public long SourceComponentId { get; set; }
-
-        /// <summary>
-        ///  Gets or sets the source component type identity.
-        /// </summary>
-        public long SourceComponentTypeId { get; set; }
-
-        /// <summary>
-        ///  Gets or sets the source component type name.
-        /// </summary>
-        public string SourceComponentTypeName { get; set; }
-
-        /// <summary>
-        ///  Gets or sets the source component name.
-        /// </summary>
-        public string SourceName { get; set; }
-
-        /// <summary>
         ///  Gets or sets the schema standard.
         /// </summary>
         public string SchemaStandard { get; set; }
-
-        /// <summary>
-        ///  Gets or sets the target component identity.
-        /// </summary>
-        public long? TargetComponentId { get; set; }
-
-        /// <summary>
-        ///  Gets or sets the target component type identity.
-        /// </summary>
-        public long? TargetComponentTypeId { get; set; }
-
-        /// <summary>
-        ///  Gets or sets the target component type name.
-        /// </summary>
-        public string TargetComponentTypeName { get; set; }
-
-        /// <summary>
-        ///  Gets or sets the target component state.
-        /// </summary>
-        public ComponentStateType TargetComponentState { get; set; }
-
-        /// <summary>
-        ///  Gets or sets the target component filename.
-        /// </summary>
-        public string TargetComponentFileName { get; set; }
-
-        /// <summary>
-        ///  Gets or sets the target component lock.
-        /// </summary>
-        public ComponentLockModel Lock { get; set; }
-
-        /// <summary>
-        ///  Gets or sets the source component lock.
-        /// </summary>
-        public ComponentLockModel SourceLock { get; set; }
-
-        /// <summary>
-        ///  Gets or sets the target folder id.
-        /// </summary>
-        public long TargetFolderId { get; set; }
-
-        /// <summary>
-        ///  Gets or sets the target folder path.
-        /// </summary>
-        public string TargetFolderPath { get; set; }
-
-        /// <summary>
-        ///  Gets or sets the target component name.
-        /// </summary>
-        public string TargetName { get; set; }
-
-        /// <summary>
-        ///  Gets or sets a value indicating whether target is editable.
-        /// </summary>
-        public bool IsTargetEditable { get; set; }
 
         /// <summary>
         ///  Gets or sets the reference relation name.
@@ -168,5 +112,10 @@ namespace Vasont.Inspire.Models.Components
         ///  Gets or sets the label for the component relation.
         /// </summary>
         public string Label { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether an update should be performed using the target information specified.
+        /// </summary>
+        public bool UpdateUsingTargetInfo { get; set; }
     }
 }

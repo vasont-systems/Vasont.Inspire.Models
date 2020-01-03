@@ -1,5 +1,5 @@
 ﻿//-------------------------------------------------------------
-// <copyright file="TranslationReferenceModel.cs" company="GlobalLink Vasont">
+// <copyright file="TranslationRelationModel.cs" company="GlobalLink Vasont">
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-------------------------------------------------------------
@@ -10,7 +10,7 @@ namespace Vasont.Inspire.Models.Components
     /// <summary>
     /// This class model represents a component reference found within the data repository to be used for translations.
     /// </summary>
-    public class TranslationReferenceModel : ComponentReferenceModel
+    public class TranslationRelationModel : ComponentRelationModel
     {
         /// <summary>
         /// Gets or sets the translation language code.

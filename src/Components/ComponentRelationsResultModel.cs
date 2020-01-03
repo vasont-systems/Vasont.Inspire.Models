@@ -21,6 +21,6 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets the resulting component relations from the query request.
         /// </summary>
-        public List<ComponentReferenceModel> ComponentRelations { get; set; } = new List<ComponentReferenceModel>();
+        public List<ComponentRelationModel> ComponentRelations { get; set; } = new List<ComponentRelationModel>();
     }
 }
