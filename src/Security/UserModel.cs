@@ -52,11 +52,6 @@ namespace Vasont.Inspire.Models.Security
         public UserType UserType { get; set; }
         
         /// <summary>
-        /// Gets or sets the last name of the account user.
-        /// </summary>
-        public string LastName { get; set; }
-
-        /// <summary>
         /// Gets or sets the user selected time-zone model.
         /// </summary>
         public TimeZoneModel TimeZone { get; set; }
