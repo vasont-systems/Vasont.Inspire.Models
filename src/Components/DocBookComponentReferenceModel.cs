@@ -23,8 +23,9 @@ namespace Vasont.Inspire.Models.Components
         /// <param name="attributes">Contains an optional list of pointer type attributes on the element.</param> 
         public DocBookComponentReferenceModel(string refInput = "", string fileName = "", string linkMethod = "DocbookUri", List<XAttribute> attributes = null)
         {
-            if (!string.IsNullOrEmpty(refInput) && !string.IsNullOrEmpty(fileName))
+            if (!string.IsNullOrEmpty(refInput))
             {
+                this.LinkMethod = linkMethod;
                 this.Initialize(refInput, fileName, linkMethod, attributes);
             }
         }
@@ -47,6 +48,11 @@ namespace Vasont.Inspire.Models.Components
         public string TargetElementId { get; set; }
 
         /// <summary>
+        /// Gets or sets the element identity
+        /// </summary>
+        public string LinkMethod { get; set; }
+
+        /// <summary>
         /// Gets or sets a Uri object for the reference.
         /// </summary>
         public Uri Address { get; set; }
@@ -65,12 +71,18 @@ namespace Vasont.Inspire.Models.Components
 
             if (!string.IsNullOrWhiteSpace(this.TargetElementId))
             {
-                output += "#" + this.TargetElementId;
+                if (this.LinkMethod == "InternalElement" || this.LinkMethod == "ExternalElement")
+                {
+                    output = this.TargetElementId;
+                }
+                else if (!string.IsNullOrWhiteSpace(this.TargetElementId))
+                {
+                    output += "#" + this.TargetElementId;
+                }
             }
 
             return output;
         }
-
         #endregion
 
         #region Private Methods
