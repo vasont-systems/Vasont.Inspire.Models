@@ -8,6 +8,7 @@ namespace Vasont.Inspire.Models.Workflow
 {
     using System;
     using System.Xml.Serialization;
+    using Common;
 
     /// <summary>
     /// This class represents a workflow state within a workflow.
@@ -35,5 +36,10 @@ namespace Vasont.Inspire.Models.Workflow
         /// Gets or sets the description of the workflow state.
         /// </summary>
         public string Description { get; set; }
+
+        /// <summary>
+        /// Gets or sets the coordinates.
+        /// </summary>
+        public CoordinatesModel Coordinates { get; set; } = new CoordinatesModel();
     }
 }

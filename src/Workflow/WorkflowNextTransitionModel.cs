@@ -6,6 +6,7 @@
 namespace Vasont.Inspire.Models.Workflow
 {
     using System.Collections.Generic;
+    using Common;
 
     /// <summary>
     /// This class is a model of a workflow transition that can be chosen from the completion of another activity.
@@ -46,5 +47,10 @@ namespace Vasont.Inspire.Models.Workflow
         /// Gets or sets a list of users who are allowed to be assigned to this activity.
         /// </summary>
         public List<WorkflowMemberModel> Members { get; set; } = new List<WorkflowMemberModel>();
+
+        /// <summary>
+        /// Gets or sets the coordinates.
+        /// </summary>
+        public CoordinatesModel Coordinates { get; set; } = new CoordinatesModel();
     }
 }

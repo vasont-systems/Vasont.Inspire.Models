@@ -8,6 +8,7 @@ namespace Vasont.Inspire.Models.Workflow
     using System;
     using System.Collections.Generic;
     using System.Xml.Serialization;
+    using Common;
 
     /// <summary>
     /// This class represents an actor within a workflow
@@ -46,5 +47,10 @@ namespace Vasont.Inspire.Models.Workflow
         /// These members will be set by the process that implements workflow, such as project assignments.
         /// </summary>
         public List<WorkflowMemberModel> Members { get; set; } = new List<WorkflowMemberModel>();
+
+        /// <summary>
+        /// Gets or sets the coordinates.
+        /// </summary>
+        public CoordinatesModel Coordinates { get; set; } = new CoordinatesModel();
     }
 }
