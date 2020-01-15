@@ -8,6 +8,7 @@ namespace Vasont.Inspire.Models.Workflow
 {
     using System;
     using System.Xml.Serialization;
+    using Common;
 
     /// <summary>
     /// This class represents a workflow transition within the application.
@@ -50,5 +51,10 @@ namespace Vasont.Inspire.Models.Workflow
         /// Gets or sets the identity of an optional action that is associated with this transition.
         /// </summary>
         public string ActionId { get; set; }
+
+        /// <summary>
+        /// Gets or sets the coordinates.
+        /// </summary>
+        public CoordinatesModel Coordinates { get; set; } = new CoordinatesModel();
     }
 }

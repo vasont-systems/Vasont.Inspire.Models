@@ -8,6 +8,7 @@ namespace Vasont.Inspire.Models.Workflow
     using System;
     using System.Collections.Generic;
     using System.Xml.Serialization;
+    using Common;
 
     /// <summary>
     /// This class is a model of a workflow activity.
@@ -83,5 +84,10 @@ namespace Vasont.Inspire.Models.Workflow
         /// Gets or sets the number of minutes past the start date that the workflow activity will be due.
         /// </summary>
         public int DefaultDurationMinutes { get; set; }
+
+        /// <summary>
+        /// Gets or sets the coordinates.
+        /// </summary>
+        public CoordinatesModel Coordinates { get; set; } = new CoordinatesModel();
     }
 }
