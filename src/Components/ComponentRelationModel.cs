@@ -94,6 +94,14 @@ namespace Vasont.Inspire.Models.Components
         public string TargetAttributeValue { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether this instance is target editable.
+        /// </summary>
+        /// <value>
+        ///   <c>true</c> if this instance is target editable; otherwise, <c>false</c>.
+        /// </value>
+        public bool IsTargetEditable { get; set; }
+
+        /// <summary>
         ///  Gets or sets the status of the component relation.
         /// </summary>
         public string Status { get; set; }
