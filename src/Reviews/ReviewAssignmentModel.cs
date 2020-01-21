@@ -5,7 +5,10 @@
 //---------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Reviews
 {
+    using Newtonsoft.Json;
     using System;
+    using System.Collections.Generic;
+    using Vasont.Inspire.Core.Extensions;
     using Vasont.Inspire.Models.Security;
 
     /// <summary>
@@ -47,5 +50,11 @@ namespace Vasont.Inspire.Models.Reviews
         /// Gets or sets the percentage of components reviewed by the reviewer.
         /// </summary>
         public virtual int PercentageCompleted { get; set; }
+
+        /// <summary>
+        /// Gets or sets the review user identity.
+        /// </summary>
+        [JsonIgnore]
+        public long ReviewerUserId { get; set; }
     }
 }

@@ -42,5 +42,10 @@ namespace Vasont.Inspire.Models.Transfers
         /// Gets or sets an optional list of profile filters.
         /// </summary>
         public List<ExportProfileAttributeFilterModel> ProfileFilters { get; set; } = new List<ExportProfileAttributeFilterModel>();
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the exported content should be locked.
+        /// </summary>
+        public bool LockForEdit { get; set; }
     }
 }

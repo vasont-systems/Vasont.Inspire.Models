@@ -7,6 +7,7 @@ namespace Vasont.Inspire.Models.Translations
 {
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
+    using Vasont.Inspire.Core.Extensions;
 
     /// <summary>
     /// Contains an enumerated list of translation job component states.

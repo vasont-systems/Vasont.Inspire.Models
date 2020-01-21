@@ -29,5 +29,10 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets a component lock model for the content to be read.
         /// </summary>
         public ComponentLockModel Lock { get; set; } = new ComponentLockModel();
+
+        /// <summary>
+        /// Gets or sets the editable xml.
+        /// </summary>
+        public string Xml { get; set; }
     }
 }

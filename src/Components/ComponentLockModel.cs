@@ -8,6 +8,7 @@ namespace Vasont.Inspire.Models.Components
     using System;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
+    using Vasont.Inspire.Core.Extensions;
     using Vasont.Inspire.Core.Properties;
     using Vasont.Inspire.Models.Security;
 
@@ -30,7 +31,12 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// The component lock is translation and is locked because it is part of a translation.
         /// </summary>
-        Translation
+        Translation,
+
+        /// <summary>
+        /// The component lock is edit and is locked by a user for external editing.
+        /// </summary>
+        Edit,
     }
 
     /// <summary>

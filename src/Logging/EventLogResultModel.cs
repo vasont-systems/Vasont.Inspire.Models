@@ -20,6 +20,6 @@ namespace Vasont.Inspire.Models.Logging
         /// <summary>
         /// Gets or sets the results of the event log request.
         /// </summary>
-        public List<EventLogModel> Results { get; set; }
+        public List<EventLogModel> Results { get; set; } = new List<EventLogModel>();
     }
 }
