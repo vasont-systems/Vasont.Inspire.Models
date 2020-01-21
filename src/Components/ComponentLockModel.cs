@@ -104,16 +104,5 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets a value indicating a system lock
         /// </summary>
         public bool SystemLock => this.Type != ComponentLockType.Standard;
-
-        /// <summary>
-        /// Gets or sets the lock type by name.
-        /// </summary>
-        [JsonIgnore]
-        public string LockTypeName
-        {
-            get => this.Type.ToString();
-
-            set => this.Type = value.ToEnum<ComponentLockType>();
-        }
     }
 }

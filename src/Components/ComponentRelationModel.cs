@@ -139,6 +139,6 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets the created by user information model.
         /// </summary>
-        public MinimalUserModel CreatedBy { get; set; }
+        public MicroUserModel CreatedBy { get; set; }
     }
 }

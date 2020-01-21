@@ -57,17 +57,6 @@ namespace Vasont.Inspire.Models.Translations
         public TranslationJobComponentState State { get; set; }
 
         /// <summary>
-        /// Gets or sets the state via a string name.
-        /// </summary>
-        [JsonIgnore]
-        public string StateName
-        {
-            get => this.State.ToString();
-
-            set => this.State = value.ToEnum<TranslationJobComponentState>();
-        }
-
-        /// <summary>
         /// Gets or sets the target file name.
         /// </summary>
         public string FileName { get; set; }

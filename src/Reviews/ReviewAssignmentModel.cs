@@ -52,16 +52,6 @@ namespace Vasont.Inspire.Models.Reviews
         public virtual int PercentageCompleted { get; set; }
 
         /// <summary>
-        /// Gets or sets the review state by name.
-        /// </summary>
-        public string StateName
-        {
-            get => this.State.ToString();
-
-            set => this.State = value.ToEnum<ReviewStateType>();
-        }
-
-        /// <summary>
         /// Gets or sets the review user identity.
         /// </summary>
         [JsonIgnore]
