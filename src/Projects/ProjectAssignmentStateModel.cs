@@ -7,6 +7,7 @@ namespace Vasont.Inspire.Models.Projects
 {
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
+    using Vasont.Inspire.Core.Extensions;
 
     /// <summary>
     /// Contains an enumerated list of project assignment state types.
@@ -50,5 +51,14 @@ namespace Vasont.Inspire.Models.Projects
         /// Gets or sets the project assignment state name.
         /// </summary>
         public string Name { get; set; }
+
+        /// <summary>
+        /// Gets or sets the project assignment state via a textual value.
+        /// </summary>
+        public string ProjectAssignmentStateId
+        {
+            get => this.AssignmentState.ToString();
+            set => this.AssignmentState = value.ToEnum<ProjectAssignmentStateType>();
+        }
     }
 }

@@ -9,6 +9,7 @@ namespace Vasont.Inspire.Models.Reviews
     using System.Collections.Generic;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
+    using Vasont.Inspire.Core.Extensions;
     using Vasont.Inspire.Models.Security;
 
     /// <summary>
@@ -127,5 +128,16 @@ namespace Vasont.Inspire.Models.Reviews
         /// Gets or sets the review workflow associated with the review.
         /// </summary>
         public ReviewWorkflowModel ReviewWorkflow { get; set; }
+
+        /// <summary>
+        /// Gets or sets the state via a string name.
+        /// </summary>
+        [JsonIgnore]
+        public string StateName
+        {
+            get => this.State.ToString();
+
+            set => this.State = value.ToEnum<ReviewStateType>();
+        }
     }
 }

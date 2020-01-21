@@ -7,6 +7,7 @@ namespace Vasont.Inspire.Models.Translations
 {
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
+    using Vasont.Inspire.Core.Extensions;
 
     /// <summary>
     /// Contains an enumerated list of translation job component states.
@@ -54,6 +55,17 @@ namespace Vasont.Inspire.Models.Translations
         /// Gets or sets the state of the translation job component.
         /// </summary>
         public TranslationJobComponentState State { get; set; }
+
+        /// <summary>
+        /// Gets or sets the state via a string name.
+        /// </summary>
+        [JsonIgnore]
+        public string StateName
+        {
+            get => this.State.ToString();
+
+            set => this.State = value.ToEnum<TranslationJobComponentState>();
+        }
 
         /// <summary>
         /// Gets or sets the target file name.

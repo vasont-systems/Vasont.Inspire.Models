@@ -40,7 +40,7 @@ namespace Vasont.Inspire.Models.Translations
         /// <summary>
         /// Gets or sets a list of values to be used for component filtering based on audience.
         /// </summary>
-        public List<string> FilterValues { get; set; }
+        public List<string> FilterValues { get; set; } = new List<string>();
 
         /// <summary>Gets or sets a value indicating whether to include binary components in translation.</summary>
         public bool IncludeBinary { get; set; }

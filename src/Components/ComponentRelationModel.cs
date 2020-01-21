@@ -125,5 +125,20 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets a value indicating whether an update should be performed using the target information specified.
         /// </summary>
         public bool UpdateUsingTargetInfo { get; set; }
+
+        /// <summary>
+        /// Gets or sets the source component type identity value.
+        /// </summary>
+        public long SourceComponentId { get; set; }
+
+        /// <summary>
+        /// Gets or sets the target component type identity value.
+        /// </summary>
+        public long? TargetComponentId { get; set; }
+
+        /// <summary>
+        /// Gets or sets the created by user information model.
+        /// </summary>
+        public MinimalUserModel CreatedBy { get; set; }
     }
 }
