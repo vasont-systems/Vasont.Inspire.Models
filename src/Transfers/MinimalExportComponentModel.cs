@@ -106,5 +106,15 @@ namespace Vasont.Inspire.Models.Transfers
         /// Gets or sets a list of filtered references.
         /// </summary>
         public List<long> FilteredTargetIds { get; set; } = new List<long>();
+
+        /// <summary>
+        /// Gets or sets the name of the component.
+        /// </summary>
+        public string Name { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the component is locked.
+        /// </summary>
+        public bool IsLocked { get; set; }
     }
 }

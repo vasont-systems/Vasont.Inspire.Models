@@ -9,6 +9,7 @@ namespace Vasont.Inspire.Models.Reviews
     using System.Collections.Generic;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
+    using Vasont.Inspire.Core.Extensions;
     using Vasont.Inspire.Models.Security;
 
     /// <summary>
