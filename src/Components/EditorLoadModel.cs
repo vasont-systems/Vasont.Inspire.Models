@@ -96,6 +96,11 @@ namespace Vasont.Inspire.Models.Components
     public class EditorLoadModel
     {
         /// <summary>
+        /// Gets or sets the hyperlink reference name to the component to load.
+        /// </summary>
+        public string Href { get; set; }
+
+        /// <summary>
         /// Gets or sets the component identity.
         /// </summary>
         public long ComponentId { get; set; }
