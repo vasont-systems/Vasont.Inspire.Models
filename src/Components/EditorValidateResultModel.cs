@@ -5,8 +5,8 @@
 //-------------------------------------------------------------
 namespace Vasont.Inspire.Models.Components
 {
-    using Newtonsoft.Json;
     using System.Net;
+    using Newtonsoft.Json;
 
     /// <summary>
     /// This class represents a collection of properties used for xml validation.

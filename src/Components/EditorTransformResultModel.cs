@@ -1,4 +1,9 @@
-﻿namespace Vasont.Inspire.Models.Components
+﻿//-------------------------------------------------------------
+// <copyright file="EditorTransformResultModel.cs" company="GlobalLink Vasont">
+// Copyright (c) GlobalLink Vasont. All rights reserved.
+// </copyright>
+//-------------------------------------------------------------
+namespace Vasont.Inspire.Models.Components
 {
     using Newtonsoft.Json;
 
