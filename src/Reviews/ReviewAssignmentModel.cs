@@ -5,10 +5,8 @@
 //---------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Reviews
 {
-    using Newtonsoft.Json;
     using System;
-    using System.Collections.Generic;
-    using Vasont.Inspire.Core.Extensions;
+    using Newtonsoft.Json;
     using Vasont.Inspire.Models.Security;
 
     /// <summary>
