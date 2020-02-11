@@ -6,7 +6,7 @@
 namespace Vasont.Inspire.Models.Components
 {
     /// <summary>
-    /// This class is used as the Error Response Model 
+    /// This class is used as the Error Response Model
     /// </summary>
     public class XmlValidationErrorModel
     {
@@ -38,6 +38,6 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets a value indicating the validation message.
         /// </summary>
-        public string ErrorMessage { get; set; }
+        public string Message { get; set; }
     }
 }
