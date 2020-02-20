@@ -6,6 +6,24 @@
 namespace Vasont.Inspire.Models.Components
 {
     using Newtonsoft.Json;
+    using Newtonsoft.Json.Converters;
+
+    /// <summary>
+    /// Contains an enumerated list of transform direction formats.
+    /// </summary>
+    [JsonConverter(typeof(StringEnumConverter))]
+    public enum TransformDirectionFormat
+    {
+        /// <summary>
+        /// Content is XML
+        /// </summary>
+        Xml,
+
+        /// <summary>
+        /// Content is HTML
+        /// </summary>
+        Html
+    }
 
     /// <summary>
     /// This class represents a collection of properties used to transform content between xml and html.
@@ -22,13 +40,13 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets a value indicating transform from direction.
         /// </summary>
         [JsonProperty(PropertyName = "from")]
-        public string From { get; set; }
+        public TransformDirectionFormat From { get; set; }
 
         /// <summary>
         /// Gets or sets a value indicating transform to direction.
         /// </summary>
         [JsonProperty(PropertyName = "to")]
-        public string To { get; set; }
+        public TransformDirectionFormat To { get; set; }
 
         /// <summary>
         ///  Gets or sets a value indicating the component identifier.
