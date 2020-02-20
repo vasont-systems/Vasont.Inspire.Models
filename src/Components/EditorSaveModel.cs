@@ -5,6 +5,8 @@
 //-------------------------------------------------------------
 namespace Vasont.Inspire.Models.Components
 {
+    using System;
+
     /// <summary>
     /// This class represents a collection of values submitted to the application during the save command for storing editor content.
     /// </summary>
@@ -43,7 +45,22 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets the editor HTML content sent from the editor to be converted back to XML and saved.
         /// </summary>
-        public string Html { get; set; }
+        [Obsolete("This property has been kept for legacy XEditor purposes. Contents should be used instead.")]
+        public string Html
+        {
+            get => this.Contents;
+            set => this.Contents = value;
+        }
+
+        /// <summary>
+        /// Gets or sets the editor content sent from the editor to be stored and/or converted based on the editor type.
+        /// </summary>
+        public string Contents { get; set; }
+
+        /// <summary>
+        /// Gets or sets the editor type to determine what to do with the contents returned and stored.
+        /// </summary>
+        public EditorType EditorType { get; set; } = EditorType.XEditor;
 
         /// <summary>
         /// Gets or sets a value indicating whether the editor was dirty when the submittal was made. This value prevents unnecessary saves made through save and submit action
