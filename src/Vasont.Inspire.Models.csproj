@@ -19,8 +19,8 @@
     <RepositoryUrl>https://github.com/vasont-systems/Vasont.Inspire.Models</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>CCMS</PackageTags>
-    <PackageReleaseNotes>Modified Editor save model to support standardized Contents property and EditorType. These will assist Inspire application in understanding what to do with the contents from an editor.</PackageReleaseNotes>
-    <Version>1.1.15</Version>
+    <PackageReleaseNotes>Modified Editor Transform model To From from string to enumeration list.</PackageReleaseNotes>
+    <Version>1.1.16</Version>
   </PropertyGroup>
 
   <ItemGroup>
