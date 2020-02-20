@@ -5,7 +5,6 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Components
 {
-    using System;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
 
@@ -93,23 +92,8 @@ namespace Vasont.Inspire.Models.Components
     /// <summary>
     /// This class represents the editor load parameters for an external editor query to load content from Inspire for editing/viewing.
     /// </summary>
-    public class EditorLoadModel
+    public class EditorLoadModel : BaseLoadModel
     {
-        /// <summary>
-        /// Gets or sets the hyperlink reference name to the component to load.
-        /// </summary>
-        public string Href { get; set; }
-
-        /// <summary>
-        /// Gets or sets the component identity.
-        /// </summary>
-        public long ComponentId { get; set; }
-
-        /// <summary>
-        /// Gets or sets the component changeset for historic record retrieval
-        /// </summary>
-        public Guid ChangesetId { get; set; } = Guid.Empty;
-
         /// <summary>
         /// Gets or sets the editor type to use.
         /// </summary>

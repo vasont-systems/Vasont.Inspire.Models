@@ -28,6 +28,16 @@ namespace Vasont.Inspire.Models.Components
         public string OriginalFileName { get; set; }
 
         /// <summary>
+        /// Gets or sets the schema type to use for transform.
+        /// </summary>
+        public string SchemaType { get; set; } = "dita";
+
+        /// <summary>
+        /// Gets or sets the schema version to use for transform.
+        /// </summary>
+        public string Version { get; set; } = "1_3";
+
+        /// <summary>
         /// Gets or sets a value indicating whether the save shall submit the contents back into the available storage area.
         /// </summary>
         public bool Submit { get; set; }
