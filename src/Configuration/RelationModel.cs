@@ -3,12 +3,15 @@
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-
 namespace Vasont.Inspire.Models.Configuration
 {
+    using Newtonsoft.Json;
+    using Newtonsoft.Json.Converters;
+
     /// <summary>
     /// Contains an enumerated list of relation key names.
     /// </summary>
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum RelationKeyName
     {
         /// <summary>
