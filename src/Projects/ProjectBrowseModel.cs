@@ -49,6 +49,26 @@ namespace Vasont.Inspire.Models.Projects
         public DateTime? CompletedDate { get; set; }
 
         /// <summary>
+        /// Gets or sets the project completed by date time.
+        /// </summary>
+        public DateTime? CompleteByDate { get; set; }
+
+        /// <summary>
+        /// Gets or sets the project created date time.
+        /// </summary>
+        public DateTime? CreatedDate { get; set; }
+
+        /// <summary>
+        /// Gets or sets the project due date time.
+        /// </summary>
+        public DateTime? DueDate { get; set; }
+
+        /// <summary>
+        /// Gets or sets the project updated date time.
+        /// </summary>
+        public DateTime? UpdatedDate { get; set; }
+
+        /// <summary>
         /// Gets or sets the number of components assigned to this project.
         /// </summary>
         public int ComponentCount { get; set; }

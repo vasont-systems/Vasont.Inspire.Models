@@ -91,6 +91,10 @@ namespace Vasont.Inspire.Models.Components
                         lockReason = Resources.LockedForTranslationByText;
                         break;
 
+                    case ComponentLockType.Edit:
+                        lockReason = Resources.LockedForEditingByText;
+                        break;
+
                     default:
                         lockReason = Resources.LockedByText;
                         break;

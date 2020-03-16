@@ -26,7 +26,12 @@ namespace Vasont.Inspire.Models.Transfers
         /// <summary>
         /// The export is used to publish.
         /// </summary>
-        Publish
+        Publish,
+
+        /// <summary>
+        /// The export is used to translate.
+        /// </summary>
+        Translate
     }
 
     /// <summary>

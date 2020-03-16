@@ -24,7 +24,7 @@ namespace Vasont.Inspire.Models.Plugins
         /// <summary>
         /// Contains a value that indicates publishing to HTML.
         /// </summary>
-        Xhtml,
+        Html,
 
         /// <summary>
         /// Contains a value that indicates publishing to the Zoomin web site.
@@ -34,7 +34,12 @@ namespace Vasont.Inspire.Models.Plugins
         /// <summary>
         /// Contains a value that indicates publishing a DocBook Pdf.
         /// </summary>
-        DocBookPdf
+        DocBookPdf,
+
+        /// <summary>
+        /// Contains a value that indicates publishing to AntennaHouse PDF.
+        /// </summary>
+        AntennaHousePdf
     }
 
     /// <summary>
@@ -56,6 +61,11 @@ namespace Vasont.Inspire.Models.Plugins
         /// Gets or sets a minimal model for the user.
         /// </summary>
         public MinimalUserModel User { get; set; }
+
+        /// <summary>
+        /// Gets or sets the domainKey the User is logged into.
+        /// </summary>
+        public string DomainKey { get; set; }
 
         /// <summary>
         /// Gets or sets the publish type.
