@@ -1,5 +1,5 @@
 ﻿//-------------------------------------------------------------
-// <copyright file="ExportModel.cs" company="GlobalLink Vasont">
+// <copyright file="ExportConfigurationModel.cs" company="GlobalLink Vasont">
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-------------------------------------------------------------
@@ -37,7 +37,7 @@ namespace Vasont.Inspire.Models.Transfers
     /// <summary>
     /// This class represents an export model for use within the application.
     /// </summary>
-    public class ExportModel : MinimalExportModel
+    public class ExportConfigurationModel : MinimalExportModel
     {
         /// <summary>
         /// Gets or sets a description of the export.

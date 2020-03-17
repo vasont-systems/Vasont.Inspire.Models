@@ -1,5 +1,5 @@
 ﻿//-------------------------------------------------------------
-// <copyright file="ImportModel.cs" company="GlobalLink Vasont">
+// <copyright file="ImportConfigurationModel.cs" company="GlobalLink Vasont">
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-------------------------------------------------------------
@@ -35,7 +35,7 @@ namespace Vasont.Inspire.Models.Transfers
     /// <summary>
     /// This class represents an import model for use within the application.
     /// </summary>
-    public class ImportModel
+    public class ImportConfigurationModel
     {
         /// <summary>
         /// Gets or sets the unique identity of the import.
