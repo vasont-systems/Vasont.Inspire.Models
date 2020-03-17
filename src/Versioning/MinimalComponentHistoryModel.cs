@@ -34,6 +34,11 @@ namespace Vasont.Inspire.Models.Versioning
         public string Comment { get; set; }
 
         /// <summary>
+        /// Gets or sets the reconstructed folder path.
+        /// </summary>
+        public string FolderPath { get; set; }
+
+        /// <summary>
         /// Gets or sets the related changeset date time when the changeset was saved.
         /// </summary>
         public DateTime ChangesetDate { get; set; }

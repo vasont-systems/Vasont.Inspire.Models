@@ -46,6 +46,11 @@ namespace Vasont.Inspire.Models.Projects
         public DateTime? DueDate { get; set; }
 
         /// <summary>
+        /// Gets or sets the assignment created date
+        /// </summary>
+        public DateTime? CreatedDate { get; set; }
+
+        /// <summary>
         /// Gets or sets the project assignment description.
         /// </summary>
         public string Description { get; set; }

@@ -8,6 +8,8 @@ namespace Vasont.Inspire.Models.Logging
     using System;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
+    using Newtonsoft.Json;
+    using Newtonsoft.Json.Converters;
     using Vasont.Inspire.Core.Errors;
     using Vasont.Inspire.Core.Extensions;
     using Vasont.Inspire.Core.Properties;
@@ -15,6 +17,7 @@ namespace Vasont.Inspire.Models.Logging
     /// <summary>
     /// Contains an enumerated list of event logging levels.
     /// </summary>
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum EventLogLevel
     {
         /// <summary>

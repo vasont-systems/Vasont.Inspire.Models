@@ -6,10 +6,13 @@
 namespace Vasont.Inspire.Models.Workflow
 {
     using System.Xml.Serialization;
+    using Newtonsoft.Json;
+    using Newtonsoft.Json.Converters;
 
     /// <summary>
     /// Contains an enumerated list of workflow activity events.
     /// </summary>
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum WorkflowActivityEventType
     {
         /// <summary>
@@ -36,6 +39,7 @@ namespace Vasont.Inspire.Models.Workflow
     /// <summary>
     /// Contains an enumerated list of workflow activity event actions
     /// </summary>
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum WorkflowActivityEventAction
     {
         /// <summary>

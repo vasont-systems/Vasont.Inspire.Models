@@ -6,10 +6,13 @@
 namespace Vasont.Inspire.Models.Projects
 {
     using Common;
+    using Newtonsoft.Json;
+    using Newtonsoft.Json.Converters;
 
     /// <summary>
     /// Contains an enumerated list of project type flags
     /// </summary>
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum BrowseProjectResultType
     {
         /// <summary>
