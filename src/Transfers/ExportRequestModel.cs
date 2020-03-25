@@ -5,8 +5,8 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Transfers
 {
-    using System;
     using System.Collections.Generic;
+    using Vasont.Inspire.Models.Versioning;
 
     /// <summary>
     /// This class contains properties and information to request the system to start an export process.
@@ -16,7 +16,7 @@ namespace Vasont.Inspire.Models.Transfers
         /// <summary>
         /// Gets or sets the changeset identity related to the components that are to be exported.
         /// </summary>
-        public Guid ChangesetId { get; set; }
+        public List<ChangesetRequestModel> ChangesetsToExport { get; set; }
 
         /// <summary>
         /// Gets or sets the export identity used for the exporting of the components specified.
