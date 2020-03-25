@@ -16,7 +16,7 @@ namespace Vasont.Inspire.Models.Transfers
         /// <summary>
         /// Gets or sets the changeset identity related to the components that are to be exported.
         /// </summary>
-        public List<ChangesetRequestModel> ChangesetsToExport { get; set; }
+        public List<ChangesetRequestModel> ChangesetsToExport { get; set; } = new List<ChangesetRequestModel>();
 
         /// <summary>
         /// Gets or sets the export identity used for the exporting of the components specified.
