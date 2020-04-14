@@ -42,7 +42,7 @@ namespace Vasont.Inspire.Models.Projects
         /// <summary>
         /// Gets or sets the project owner's email address
         /// </summary>
-        public MinimalUserModel Owner { get; set; }
+        public MicroUserModel Owner { get; set; }
 
         /// <summary>
         /// Gets or sets a value indicating whether the project has been completed.
