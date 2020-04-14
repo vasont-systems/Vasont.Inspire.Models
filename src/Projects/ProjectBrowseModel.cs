@@ -7,7 +7,8 @@ namespace Vasont.Inspire.Models.Projects
 {
     using System;
     using System.Collections.Generic;
-    
+    using Vasont.Inspire.Models.Security;
+
     /// <summary>
     /// This class represents a minimal project browse model within the application.
     /// </summary>
@@ -37,6 +38,11 @@ namespace Vasont.Inspire.Models.Projects
         /// Gets or sets the project owner's email address
         /// </summary>
         public string OwnerEmail { get; set; }
+
+        /// <summary>
+        /// Gets or sets the project owner's email address
+        /// </summary>
+        public MicroUserModel Owner { get; set; }
 
         /// <summary>
         /// Gets or sets a value indicating whether the project has been completed.
