@@ -8,7 +8,8 @@ namespace Vasont.Inspire.Models.Components
     using System;
 
     /// <summary>
-    /// This class represents a collection of values submitted to the application during the save command for storing editor content.
+    /// This class represents a collection of values submitted to the application during the save command for storing
+    /// editor content.
     /// </summary>
     public class EditorSaveModel
     {
@@ -48,7 +49,8 @@ namespace Vasont.Inspire.Models.Components
         public bool SaveAs { get; set; }
 
         /// <summary>
-        /// Gets or sets a value indicating whether the save shall submit the contents back into the available storage and complete any associated project tasks.
+        /// Gets or sets a value indicating whether the save shall submit the contents back into the available storage
+        /// and complete any associated project tasks.
         /// </summary>
         public bool Complete { get; set; }
 
@@ -72,9 +74,13 @@ namespace Vasont.Inspire.Models.Components
         /// </summary>
         public EditorType EditorType { get; set; } = EditorType.XEditor;
 
+        // <summary>
+        /// Gets or sets the review editor mode. </summary>
+        public ReviewEditorMode ReviewMode { get; set; } = ReviewEditorMode.NotReview;
+
         /// <summary>
-        /// Gets or sets a value indicating whether the editor was dirty when the submittal was made. This value prevents unnecessary saves made through save and submit action
-        /// if no content had actually changed.
+        /// Gets or sets a value indicating whether the editor was dirty when the submittal was made. This value
+        /// prevents unnecessary saves made through save and submit action if no content had actually changed.
         /// </summary>
         public bool EditorIsDirty { get; set; }
 
