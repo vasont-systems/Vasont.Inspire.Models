@@ -125,6 +125,11 @@ namespace Vasont.Inspire.Models.Components
         public bool ResolveReferences { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether unresolved content should be displayed for a completed review.
+        /// </summary>
+        public bool Unresolved { get; set; }
+
+        /// <summary>
         /// Gets or sets the map identity where the component was opened from.
         /// </summary>
         public long MapReferenceId { get; set; }
