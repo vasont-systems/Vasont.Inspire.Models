@@ -19,15 +19,15 @@
     <RepositoryUrl>https://github.com/vasont-systems/Vasont.Inspire.Models</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>CCMS</PackageTags>
-    <PackageReleaseNotes>Model updates to support latest .NET Core refactoring.</PackageReleaseNotes>
-    <Version>1.1.25</Version>
+    <PackageReleaseNotes>updated references</PackageReleaseNotes>
+    <Version>1.1.26</Version>
     <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-    <PackageReference Include="Vasont.IdentityServer.Backchannel" Version="1.1.2" />
+    <PackageReference Include="Vasont.IdentityServer.Backchannel" Version="1.1.3" />
     <PackageReference Include="Vasont.Inspire.Core" Version="1.0.11" />
   </ItemGroup>
 
