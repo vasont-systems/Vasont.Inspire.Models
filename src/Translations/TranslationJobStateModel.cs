@@ -11,7 +11,7 @@ namespace Vasont.Inspire.Models.Translations
     /// <summary>
     /// This class represents a translation job state display value pair used for retrieving available states.
     /// </summary>
-    public class TranslationJobStateModel : DisplayValuePair<string, string>
+    public class TranslationJobStateModel : DisplayValuePair<string, TranslationJobState>
     {
     }
 }
