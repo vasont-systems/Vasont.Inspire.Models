@@ -7,6 +7,7 @@
 namespace Vasont.Inspire.Models.Translations
 {
     using Common;
+    using System.Collections.Generic;
 
     /// <summary>
     /// This class contains parameters passed to the query for retrieving translations.
@@ -22,5 +23,10 @@ namespace Vasont.Inspire.Models.Translations
         /// Gets or sets search text that will be used to filter results.
         /// </summary>
         public string SearchText { get; set; }
+
+        /// <summary>
+        /// Gets or sets a list of job states to filter results by.
+        /// </summary>
+        public List<string> JobStates { get; set; } = new List<string>();
     }
 }
