@@ -11,9 +11,10 @@ namespace Vasont.Inspire.Models.Translations
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
     using Vasont.Inspire.Core.Extensions;
+    using Vasont.Inspire.Core.Properties;
     using Vasont.Inspire.Models.Common;
     using Vasont.Inspire.Models.Security;
-    
+
     /// <summary>
     /// Contains an enumerated list of translation job states.
     /// </summary>
@@ -23,28 +24,43 @@ namespace Vasont.Inspire.Models.Translations
         /// <summary>
         /// The translation job is translating.
         /// </summary>
+        [LocalizedDescription(ResourceKeys.LabelTranslatingText)]
         Translating,
 
         /// <summary>
         /// The translation job has been completed.
         /// </summary>
+        [LocalizedDescription(ResourceKeys.LabelCompletedText)]
         Completed,
 
         /// <summary>
         /// The translation job has been cancelled.
         /// </summary>
+        [LocalizedDescription(ResourceKeys.LabelCancelledText)]
         Cancelled,
 
-        /// <summary>The translation job is exporting</summary>
+        /// <summary>
+        /// The translation job is exporting
+        /// </summary>
+        [LocalizedDescription(ResourceKeys.LabelExportingText)]
         Exporting,
 
-        /// <summary>The translation job at vendor</summary>
+        /// <summary>
+        /// The translation job at vendor
+        /// </summary>
+        [LocalizedDescription(ResourceKeys.LabelAtVendorText)]
         AtVendor,
 
-        /// <summary>The translation job failed sending</summary>
+        /// <summary>
+        /// The translation job failed sending
+        /// </summary>
+        [LocalizedDescription(ResourceKeys.LabelFailedSendingText)]
         FailedSending,
 
-        /// <summary>The translation job failed retrieving</summary>
+        /// <summary>
+        /// The translation job failed retrieving
+        /// </summary>
+        [LocalizedDescription(ResourceKeys.LabelFailedRetrievingText)]
         FailedRetrieving
     }
 
@@ -128,7 +144,9 @@ namespace Vasont.Inspire.Models.Translations
         /// </summary>
         public string SubmissionAttributes { get; set; }
 
-        /// <summary>Gets or sets the project code.</summary>
+        /// <summary>
+        /// Gets or sets the project code.
+        /// </summary>
         public string ProjectCode { get; set; }
 
         /// <summary>
