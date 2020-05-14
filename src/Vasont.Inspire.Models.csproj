@@ -19,8 +19,8 @@
     <RepositoryUrl>https://github.com/vasont-systems/Vasont.Inspire.Models</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>CCMS</PackageTags>
-    <PackageReleaseNotes>updated core package and added localization labels to translation job state enumerations.</PackageReleaseNotes>
-    <Version>1.1.28</Version>
+    <PackageReleaseNotes>fixed value type for new TranslationJobStateModel class to be specific to TranslationJobState</PackageReleaseNotes>
+    <Version>1.1.30</Version>
     <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
