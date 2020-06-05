@@ -33,6 +33,11 @@ namespace Vasont.Inspire.Models.Diagnostics
         public string DatabaseConnectionTestResult { get; set; }
 
         /// <summary>
+        /// Gets or sets the message queue count.
+        /// </summary>
+        public int MessageQueueCount { get; set; }
+
+        /// <summary>
         /// Gets or sets connection strings
         /// </summary>
         public IDictionary<string, string> ConnectionStrings { get; set; }
@@ -50,6 +55,6 @@ namespace Vasont.Inspire.Models.Diagnostics
         /// <summary>
         /// Gets or sets diagnostic settings
         /// </summary>
-        public DiagnosticSettings Settings { get; set; }    
+        public DiagnosticSettings Settings { get; set; }
     }
 }

@@ -19,8 +19,8 @@
     <RepositoryUrl>https://github.com/vasont-systems/Vasont.Inspire.Models</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>CCMS</PackageTags>
-    <PackageReleaseNotes>fixed value type for new TranslationJobStateModel class to be specific to TranslationJobState</PackageReleaseNotes>
-    <Version>1.1.30</Version>
+    <PackageReleaseNotes>Added new property to Diagnostics model</PackageReleaseNotes>
+    <Version>1.1.32</Version>
     <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
@@ -28,7 +28,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="Vasont.IdentityServer.Backchannel" Version="1.1.3" />
-    <PackageReference Include="Vasont.Inspire.Core" Version="1.0.12" />
+    <PackageReference Include="Vasont.Inspire.Core" Version="1.0.13" />
   </ItemGroup>
 
   <ItemGroup>
