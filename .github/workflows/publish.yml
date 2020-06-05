@@ -13,17 +13,7 @@ jobs:
       - name: Setup dotnet core
         uses: actions/setup-dotnet@v1
         with:
-           dotnet-version: 3.1.300
-
-      - name: Setup dotnet 4.6.1 framework
-        uses: actions/setup-dotnet@v1
-        with:
-           dotnet-version: 4.6.1
-           
-      - name: Setup dotnet 4.8 framework
-        uses: actions/setup-dotnet@v1
-        with:
-           dotnet-version: 4.8
+           dotnet-version: '3.1.x'
 
       # Publish
       - name: publish on version change
