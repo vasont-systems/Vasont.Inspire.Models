@@ -31,7 +31,12 @@ namespace Vasont.Inspire.Models.Transfers
         /// <summary>
         /// The export is used to translate.
         /// </summary>
-        Translate
+        Translate,
+
+        /// <summary>
+        /// The export is used to compare.
+        /// </summary>
+        Compare
     }
 
     /// <summary>
