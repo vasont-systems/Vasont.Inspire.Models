@@ -9,6 +9,7 @@ namespace Vasont.Inspire.Models.Transfers
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
     using Vasont.Inspire.Models.Plugins;
+    using Vasont.Inspire.Models.Security;
 
     /// <summary>
     /// Contains an enumerated list of import types.
@@ -71,5 +72,10 @@ namespace Vasont.Inspire.Models.Transfers
         /// Gets or sets a list of <see cref="ImportPluginModel"/> objects that are to be used with the import.
         /// </summary>
         public List<ImportPluginModel> Plugins { get; set; } = new List<ImportPluginModel>();
+
+        /// <summary>
+        /// Gets or sets a list of <see cref="UserRoleAssociationModel"/> objects.
+        /// </summary>
+        public List<UserRoleAssociationModel> Participants { get; set; } = new List<UserRoleAssociationModel>();
     }
 }
