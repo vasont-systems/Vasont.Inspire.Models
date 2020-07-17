@@ -11,6 +11,7 @@ namespace Vasont.Inspire.Models.Components
     using Security;
     using Vasont.Inspire.Core.Extensions;
     using Vasont.Inspire.Core.Storage;
+    using Vasont.Inspire.Models.Components;
     using Vasont.Inspire.Models.Common;
     using Vasont.Inspire.Models.Projects;
 
@@ -45,7 +46,7 @@ namespace Vasont.Inspire.Models.Components
         /// Contains the item type for the specified minimal component.
         /// </summary>
         private ProjectFolderItemType itemType;
-        
+
         #region Public Constructors
         /// <summary>
         /// Initializes a new instance of the <see cref="MinimalComponentModel"/> class.
@@ -83,6 +84,11 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets the component type.
         /// </summary>
         public MinimalComponentTypeModel ComponentType { get; set; }
+
+        /// <summary>
+        /// Gets or sets the component metrics information.
+        /// </summary>
+        public ComponentMetricsModel Metrics { get; set; }
 
         /// <summary>
         /// Gets or sets the folder in which the component is stored.
@@ -179,11 +185,12 @@ namespace Vasont.Inspire.Models.Components
 
             set => this.itemType = value != ProjectFolderItemType.Folder ? value : ProjectFolderItemType.Component;
         }
-        
+
         /// <summary>
         /// Gets or sets a value indicating whether this component can translate.
         /// </summary>
         public bool CanTranslate { get; set; }
+
         #endregion
     }
 }
