@@ -6,8 +6,8 @@
 
 namespace Vasont.Inspire.Models.Translations
 {
-    using Common;
     using System.Collections.Generic;
+    using Common;
 
     /// <summary>
     /// This class contains parameters passed to the query for retrieving translations.
