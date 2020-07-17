@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="NotificationsStoreQueryModel.cs" company="GlobalLink Vasont">
+// <copyright file="NotificationStoreQueryModel.cs" company="GlobalLink Vasont">
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
@@ -10,10 +10,10 @@ namespace Vasont.Inspire.Models.Notifications
     /// <summary>
     /// This class represents a notification store query model used in paging interfaces for notification messages.
     /// </summary>
-    public class NotificationsStoreQueryModel : PaginatedQueryRequestModel
+    public class NotificationStoreQueryModel : PaginatedQueryRequestModel
     {
         /// <summary>
-        /// Contains a string used for filtering notification results.
+        /// Gets or sets a string used for filtering notification results.
         /// </summary>
         public string SearchText { get; set; }
     }
