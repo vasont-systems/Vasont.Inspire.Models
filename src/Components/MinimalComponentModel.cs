@@ -125,6 +125,26 @@ namespace Vasont.Inspire.Models.Components
         public ComponentStateType State { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating the Component word count.
+        /// </summary>
+        public long WordCount { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating the Component character count.
+        /// </summary>
+        public long CharCount { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating the Component character count without spaces.
+        /// </summary>
+        public long CharCountNoSpace { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating the Component character count without spaces.
+        /// </summary>
+        public long FileSize { get; set; }
+
+        /// <summary>
         /// Gets or sets the state on the model via string name.
         /// </summary>
         [JsonIgnore]
