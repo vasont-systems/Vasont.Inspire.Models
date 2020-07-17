@@ -49,6 +49,16 @@ namespace Vasont.Inspire.Models.Common
         public int SessionTimeout { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether to filter translation submissions or not.
+        /// </summary>
+        public bool TranslationFilteringEnabled { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether to lock english sources a translation submission.
+        /// </summary>
+        public bool TranslationLockSourceDisabled { get; set; }
+
+        /// <summary>
         /// Gets or sets the copyright of the tenant application.
         /// </summary>
         public string Copyright { get; set; }
@@ -57,10 +67,5 @@ namespace Vasont.Inspire.Models.Common
         /// Gets or sets the version of the tenant application.
         /// </summary>
         public string Version { get; set; }
-
-        /// <summary>
-        /// Gets or sets a value indicating whether to filter translation submissions or not.
-        /// </summary>
-        public bool TranslationFilteringEnabled { get; set; }
     }
 }

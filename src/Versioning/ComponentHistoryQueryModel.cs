@@ -5,8 +5,8 @@
 //--------------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Versioning
 {
-    using Common;
     using System.Collections.Generic;
+    using Common;
     using Vasont.Inspire.Models.Search;
 
     /// <summary>

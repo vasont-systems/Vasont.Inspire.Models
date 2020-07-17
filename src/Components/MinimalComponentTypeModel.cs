@@ -30,8 +30,8 @@ namespace Vasont.Inspire.Models.Components
         public string Description { get; set; }
 
         /// <summary>
-        /// Gets or sets a value indicating whether the component type is binary.
-        /// If binary is false, the component type relates to XML content.
+        /// Gets or sets a value indicating whether the component type is binary. If binary is false, the component type
+        /// relates to XML content.
         /// </summary>
         public bool Binary { get; set; }
 
@@ -51,14 +51,14 @@ namespace Vasont.Inspire.Models.Components
         public bool IsEditable => !this.Binary && this.DocumentType != null;
 
         /// <summary>
-        /// Gets a value indicating whether the component is a map that is 
+        /// Gets a value indicating whether the component is a map that is
         /// </summary>
         public bool IsMap => this.DocumentType != null && ComponentStandards.MapDocumentTypeNames.Contains(this.DocumentType, StringComparer.OrdinalIgnoreCase);
 
         /// <summary>
         /// Gets a value indicating whether the component can be sent to publishing.
         /// </summary>
-        public bool CanPublish => this.SchemaStandard == ComponentStandards.DocBook5Standard || this.IsMap;
+        public bool CanPublish => !this.Binary && !this.IsWorkflow;
 
         /// <summary>
         /// Gets a value indicating whether the component is a workflow

@@ -14,7 +14,7 @@ namespace Vasont.Inspire.Models.Components
     public class ComponentAutoRepairRequestModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ComponentAutoRepairRequestModel"/> class.
+        /// Initializes a new instance of the <see cref="ComponentAutoRepairRequestModel" /> class.
         /// </summary>
         public ComponentAutoRepairRequestModel()
         {
@@ -40,7 +40,7 @@ namespace Vasont.Inspire.Models.Components
         public List<long> ComponentIdsToRepair { get; set; }
 
         /// <summary>
-        /// Gets or sets a value indicating whether [send notification].
+        /// Gets or sets a value indicating whether notifications are sent after repair.
         /// </summary>
         public bool SendNotification { get; set; }
 

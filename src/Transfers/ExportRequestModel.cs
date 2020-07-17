@@ -11,7 +11,7 @@ namespace Vasont.Inspire.Models.Transfers
     /// <summary>
     /// This class contains properties and information to request the system to start an export process.
     /// </summary>
-    public class ExportRequestModel 
+    public class ExportRequestModel
     {
         /// <summary>
         /// Gets or sets the changeset identity related to the components that are to be exported.
@@ -34,7 +34,7 @@ namespace Vasont.Inspire.Models.Transfers
         public bool AlwaysZipResults { get; set; }
 
         /// <summary>
-        /// Gets or sets a value indicating whether [send notification].
+        /// Gets or sets a value indicating whether notifications are sent.
         /// </summary>
         public bool SendNotification { get; set; } = true;
 

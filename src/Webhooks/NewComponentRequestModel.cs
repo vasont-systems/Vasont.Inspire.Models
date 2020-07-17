@@ -5,6 +5,8 @@
 //------------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Webhooks
 {
+    using Microsoft.AspNetCore.Http;
+
     /// <summary>
     /// This class contains the model used for a new component request.
     /// </summary>
@@ -24,5 +26,10 @@ namespace Vasont.Inspire.Models.Webhooks
         /// Gets or sets the title of the new content that will be used to name the new component.
         /// </summary>
         public string Title { get; set; }
+
+        /// <summary>
+        /// Gets or sets a file object for new content.
+        /// </summary>
+        public IFormFile File { get; set; }
     }
 }

@@ -74,8 +74,9 @@ namespace Vasont.Inspire.Models.Components
         /// </summary>
         public EditorType EditorType { get; set; } = EditorType.XEditor;
 
-        // <summary>
-        /// Gets or sets the review editor mode. </summary>
+        /// <summary>
+        /// Gets or sets the review editor mode. 
+        /// </summary>
         public ReviewEditorMode ReviewMode { get; set; } = ReviewEditorMode.NotReview;
 
         /// <summary>
