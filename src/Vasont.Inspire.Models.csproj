@@ -19,8 +19,8 @@
     <RepositoryUrl>https://github.com/vasont-systems/Vasont.Inspire.Models</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>CCMS</PackageTags>
-    <PackageReleaseNotes>Added new property to NotificationModelBase that allows for the loading of metadata directly from JSON string.Updated Notification Models, adding support for notification store API endpoints. Added missing query model for notifications browse.</PackageReleaseNotes>
-    <Version>1.1.37</Version>
+    <PackageReleaseNotes>Updated Editor load model for Review support</PackageReleaseNotes>
+    <Version>1.1.38</Version>
     <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
