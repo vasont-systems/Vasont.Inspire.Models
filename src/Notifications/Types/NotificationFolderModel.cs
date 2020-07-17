@@ -3,7 +3,7 @@
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-namespace Vasont.Inspire.Models.Notifications
+namespace Vasont.Inspire.Models.Notifications.Types
 {
     using System;
     using Newtonsoft.Json;
