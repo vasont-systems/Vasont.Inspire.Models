@@ -32,6 +32,30 @@ namespace Vasont.Inspire.Models.Search
         };
 
         /// <summary>
+        /// Gets a list of operators used for the short integer data type.
+        /// </summary>
+        public static Dictionary<SearchExpressionOperator, string> ShortIntOperators => new Dictionary<SearchExpressionOperator, string>
+        {
+            // place these in the order you expect UI to display them, first entry will be the default operator
+            { SearchExpressionOperator.Equals, SearchExpressionOperator.Equals.ToDescription() },
+            { SearchExpressionOperator.NotEquals, SearchExpressionOperator.NotEquals.ToDescription() },
+            { SearchExpressionOperator.GreaterThan, SearchExpressionOperator.GreaterThan.ToDescription() },
+            { SearchExpressionOperator.GreaterThanOrEqual, SearchExpressionOperator.GreaterThanOrEqual.ToDescription() },
+            { SearchExpressionOperator.LessThan, SearchExpressionOperator.LessThan.ToDescription() },
+            { SearchExpressionOperator.LessThanOrEqual, SearchExpressionOperator.LessThanOrEqual.ToDescription() }
+        };
+
+        /// <summary>
+        /// Gets a list of operators used for the simplified short integer data type.
+        /// </summary>
+        public static Dictionary<SearchExpressionOperator, string> SimplifiedShortIntOperators => new Dictionary<SearchExpressionOperator, string>
+        {
+            // place these in the order you expect UI to display them, first entry will be the default operator
+            { SearchExpressionOperator.Equals, SearchExpressionOperator.Equals.ToDescription() },
+            { SearchExpressionOperator.NotEquals, SearchExpressionOperator.NotEquals.ToDescription() }
+        };
+
+        /// <summary>
         /// Gets a list of operators used for the integer data type.
         /// </summary>
         public static Dictionary<SearchExpressionOperator, string> IntegerOperators => new Dictionary<SearchExpressionOperator, string>
@@ -122,6 +146,12 @@ namespace Vasont.Inspire.Models.Search
 
             switch (type)
             {
+                case SearchConfigurationDataType.ShortInt:
+                    result = ShortIntOperators;
+                    break;
+                case SearchConfigurationDataType.SimplifiedShortInt:
+                    result = SimplifiedShortIntOperators;
+                    break;
                 case SearchConfigurationDataType.Int:
                     result = IntegerOperators;
                     break;
