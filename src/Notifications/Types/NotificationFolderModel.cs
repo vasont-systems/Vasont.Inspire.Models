@@ -52,6 +52,11 @@ namespace Vasont.Inspire.Models.Notifications.Types
         public Guid UniqueId { get; set; }
 
         /// <summary>
+        /// Gets or sets the parent folder identity.
+        /// </summary>
+        public long? ParentFolderId { get; set; }
+
+        /// <summary>
         /// Gets or sets the specified folder action.
         /// </summary>
         public NotificationFolderAction Action { get; set; }
