@@ -16,6 +16,11 @@ namespace Vasont.Inspire.Models.Notifications.Types
     public enum NotificationFolderAction
     {
         /// <summary>
+        /// The specified folder was added.
+        /// </summary>
+        Added,
+
+        /// <summary>
         /// The specified folder was updated.
         /// </summary>
         Updated,
@@ -28,17 +33,7 @@ namespace Vasont.Inspire.Models.Notifications.Types
         /// <summary>
         /// The specified folder was moved.
         /// </summary>
-        Moved,
-
-        /// <summary>
-        /// Content was added to the specified parent folder.
-        /// </summary>
-        ContentAdded,
-
-        /// <summary>
-        /// Content was removed from the specified parent folder.
-        /// </summary>
-        ContentRemoved
+        Moved
     }
 
     /// <summary>
