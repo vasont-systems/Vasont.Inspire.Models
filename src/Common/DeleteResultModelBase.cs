@@ -6,8 +6,7 @@
 namespace Vasont.Inspire.Models.Common
 {
     /// <summary>
-    /// This abstract class defines common model properties to return during a delete 
-    /// action within the application.
+    /// This abstract class defines common model properties to return during a delete action within the application.
     /// </summary>
     public abstract class DeleteResultModelBase
     {

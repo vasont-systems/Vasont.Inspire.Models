@@ -13,7 +13,7 @@ namespace Vasont.Inspire.Models.Common
     public static class ComponentStandards
     {
         /// <summary>
-        /// Contains the default DITA multi-value attribute value delimiter
+        /// Contains the default DITA multi-value attribute value delimiter.
         /// </summary>
         public const char DitaDefaultDelimiter = ' ';
 
@@ -58,7 +58,7 @@ namespace Vasont.Inspire.Models.Common
         public const string IdAttributeName = "id";
 
         /// <summary>
-        /// Gets the map document type names
+        /// Gets the map document type names.
         /// </summary>
         public static string[] MapDocumentTypeNames { get; } = { "map", "bookmap", "subjectScheme" };
 
@@ -66,7 +66,7 @@ namespace Vasont.Inspire.Models.Common
         /// This method is used to return the delimiter of choice for the specified schema standard.
         /// </summary>
         /// <param name="schemaStandardName">Contains the schema standard.</param>
-        /// <returns>Returns the delimiter string</returns>
+        /// <returns>Returns the delimiter string.</returns>
         public static char MultiValueDelimiter(this string schemaStandardName)
         {
             char delimiter;
@@ -79,9 +79,11 @@ namespace Vasont.Inspire.Models.Common
                 case Dita13Standard:
                     delimiter = DitaDefaultDelimiter;
                     break;
+
                 case DocBook5Standard:
                     delimiter = DocBookDefaultDelimiter;
                     break;
+
                 default:
                     throw new NotImplementedException(schemaStandardName);
             }
