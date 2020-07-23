@@ -86,6 +86,43 @@ namespace Vasont.Inspire.Models.Notifications
     }
 
     /// <summary>
+    /// Contains an enumerated list of available notification alert statuses.
+    /// </summary>
+    [JsonConverter(typeof(StringEnumConverter))]
+    public enum NotificationMessageAlertStatus
+    {
+        /// <summary>
+        /// The specified notification has no alert status.
+        /// </summary>
+        /// <remarks>No icon necessary.</remarks>
+        None,
+
+        /// <summary>
+        /// The specified notification is for information.
+        /// </summary>
+        /// <remarks>Can denote with an information icon.</remarks>
+        Info,
+
+        /// <summary>
+        /// The specified notification is for a warning.
+        /// </summary>
+        /// <remarks>Can denote with a yield icon.</remarks>
+        Warning,
+
+        /// <summary>
+        /// The specified notification is for a failure.
+        /// </summary>
+        /// <remarks>Can denote with a red/stop icon.</remarks>
+        Failure,
+
+        /// <summary>
+        /// The specified notification is for a finished alert.
+        /// </summary>
+        /// <remarks>Can denote with a checkerd-flag or green icon.</remarks>
+        Finished
+    }
+
+    /// <summary>
     /// This class represents a notification message to be sent.
     /// </summary>
     /// <typeparam name="TModel">Contains the model type.</typeparam>
@@ -121,6 +158,11 @@ namespace Vasont.Inspire.Models.Notifications
         /// Gets or sets the notification target identity.
         /// </summary>
         public TTargetId TargetId { get; set; }
+
+        /// <summary>
+        /// Gets or sets the message alert status type.
+        /// </summary>
+        public NotificationMessageAlertStatus Alert { get; set; } = NotificationMessageAlertStatus.None;
 
         /// <summary>
         /// Gets or sets the additional notification model to be sent to the client.

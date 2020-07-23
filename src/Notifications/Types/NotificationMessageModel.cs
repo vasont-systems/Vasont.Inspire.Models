@@ -16,9 +16,9 @@ namespace Vasont.Inspire.Models.Notifications.Types
         public string Subject { get; set; }
 
         /// <summary>
-        /// Gets or sets the message body.
+        /// Gets or sets the summary message to display to the user in notification toasts.
         /// </summary>
-        public string Body { get; set; }
+        public string Summary { get; set; }
 
         /// <summary>
         /// Gets or sets the message content body in optional HTML format.
