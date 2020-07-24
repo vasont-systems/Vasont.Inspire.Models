@@ -5,6 +5,7 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Notifications
 {
+    using System.Collections.Generic;
     using Vasont.Inspire.Models.Common;
 
     /// <summary>
@@ -16,5 +17,10 @@ namespace Vasont.Inspire.Models.Notifications
         /// Gets or sets a string used for filtering notification results.
         /// </summary>
         public string SearchText { get; set; }
+
+        /// <summary>
+        /// Gets or sets a list of states to filter by. An empty list will return not filter by state.
+        /// </summary>
+        public List<NotificationState> State { get; set; } = new List<NotificationState>();
     }
 }
