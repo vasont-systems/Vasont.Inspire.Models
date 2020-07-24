@@ -18,6 +18,11 @@ namespace Vasont.Inspire.Models.Notifications
         public long TotalCount { get; set; }
 
         /// <summary>
+        /// Gets or sets the total number of unread notification messages for the user.
+        /// </summary>
+        public long TotalUnreadCount { get; set; }
+
+        /// <summary>
         /// Gets or sets the resulting notifications from the query request.
         /// </summary>
         public List<NotificationStoreModel> Notifications { get; set; } = new List<NotificationStoreModel>();
