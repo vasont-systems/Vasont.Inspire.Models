@@ -29,6 +29,11 @@ namespace Vasont.Inspire.Models.Notifications
         public DateTime NotificationDate { get; set; }
 
         /// <summary>
+        /// Gets or sets the alert state of the notification.
+        /// </summary>
+        public NotificationMessageAlertStatus Alert { get; set; }
+
+        /// <summary>
         /// Gets or sets the notification state.
         /// </summary>
         public NotificationState State { get; set; }

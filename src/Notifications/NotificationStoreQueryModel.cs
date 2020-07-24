@@ -19,8 +19,13 @@ namespace Vasont.Inspire.Models.Notifications
         public string SearchText { get; set; }
 
         /// <summary>
-        /// Gets or sets a list of states to filter by. An empty list will return not filter by state.
+        /// Gets or sets a list of states to filter by. An empty list will not filter by state.
         /// </summary>
         public List<NotificationState> State { get; set; } = new List<NotificationState>();
+
+        /// <summary>
+        /// Gets or sets a list of alerts to filter by. An empty list will not filter by alert.
+        /// </summary>
+        public List<NotificationMessageAlertStatus> Alert { get; set; } = new List<NotificationMessageAlertStatus>();
     }
 }
