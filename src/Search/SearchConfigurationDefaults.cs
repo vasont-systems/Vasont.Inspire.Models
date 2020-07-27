@@ -34,7 +34,7 @@ namespace Vasont.Inspire.Models.Search
         /// <summary>
         /// Gets a list of operators used for the short integer data type.
         /// </summary>
-        public static Dictionary<SearchExpressionOperator, string> ShortIntOperators => new Dictionary<SearchExpressionOperator, string>
+        public static Dictionary<SearchExpressionOperator, string> LongOperators => new Dictionary<SearchExpressionOperator, string>
         {
             // place these in the order you expect UI to display them, first entry will be the default operator
             { SearchExpressionOperator.Equals, SearchExpressionOperator.Equals.ToDescription() },
@@ -48,7 +48,7 @@ namespace Vasont.Inspire.Models.Search
         /// <summary>
         /// Gets a list of operators used for the simplified short integer data type.
         /// </summary>
-        public static Dictionary<SearchExpressionOperator, string> SimplifiedShortIntOperators => new Dictionary<SearchExpressionOperator, string>
+        public static Dictionary<SearchExpressionOperator, string> SimplifiedLongOperators => new Dictionary<SearchExpressionOperator, string>
         {
             // place these in the order you expect UI to display them, first entry will be the default operator
             { SearchExpressionOperator.Equals, SearchExpressionOperator.Equals.ToDescription() },
@@ -146,11 +146,11 @@ namespace Vasont.Inspire.Models.Search
 
             switch (type)
             {
-                case SearchConfigurationDataType.ShortInt:
-                    result = ShortIntOperators;
+                case SearchConfigurationDataType.Long:
+                    result =LongOperators;
                     break;
-                case SearchConfigurationDataType.SimplifiedShortInt:
-                    result = SimplifiedShortIntOperators;
+                case SearchConfigurationDataType.SimplifiedLong:
+                    result = SimplifiedLongOperators;
                     break;
                 case SearchConfigurationDataType.Int:
                     result = IntegerOperators;
