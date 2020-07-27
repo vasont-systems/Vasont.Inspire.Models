@@ -21,14 +21,14 @@ namespace Vasont.Inspire.Models.Search
         String,
 
         /// <summary>
-        /// The data type is a short int.
+        /// The data type is a long.
         /// </summary>
-        ShortInt,
+        Long,
 
         /// <summary>
-        /// The data type is a short Int.
+        /// The data type is a long.
         /// </summary>
-        SimplifiedShortInt,
+        SimplifiedLong,
 
         /// <summary>
         /// The data type is an integer.
