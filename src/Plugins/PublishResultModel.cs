@@ -34,5 +34,10 @@ namespace Vasont.Inspire.Models.Plugins
         /// Gets or sets a value containing errors that occurred when attempting to initiate publishing.
         /// </summary>
         public string PublishInitiateErrors { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value containing the full path of the published file.
+        /// </summary>
+        public string ResultFilePath { get; set; }
     }
 }
