@@ -38,6 +38,6 @@ namespace Vasont.Inspire.Models.Plugins
         /// <summary>
         /// Gets or sets a value containing the full path of the published file.
         /// </summary>
-        public string ResultFilePathName { get; set; }
+        public string ResultFilePath { get; set; }
     }
 }

@@ -39,7 +39,7 @@ namespace Vasont.Inspire.Models.Plugins
         /// <summary>
         /// Contains a value that indicates publishing to AntennaHouse PDF.
         /// </summary>
-        AntennaHousePdf,
+        AntennaHousePdf
     }
 
     /// <summary>
