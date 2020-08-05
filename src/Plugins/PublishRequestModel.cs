@@ -32,14 +32,14 @@ namespace Vasont.Inspire.Models.Plugins
         Zoomin,
 
         /// <summary>
-        /// Contains a value that indicates publishing a DocBook Pdf.
+        /// Contains a value that indicates publishing to DocBook.
         /// </summary>
-        DocBookPdf,
+        DocBook,
 
         /// <summary>
         /// Contains a value that indicates publishing to AntennaHouse PDF.
         /// </summary>
-        AntennaHousePdf
+        AntennaHousePdf,
     }
 
     /// <summary>
