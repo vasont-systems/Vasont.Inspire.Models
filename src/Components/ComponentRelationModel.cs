@@ -107,6 +107,11 @@ namespace Vasont.Inspire.Models.Components
         public string Status { get; set; }
 
         /// <summary>
+        ///  Gets or sets the word count of the component relation text.
+        /// </summary>
+        public int WordCount { get; set; }
+
+        /// <summary>
         ///  Gets or sets the permissions model for the component.
         /// </summary>
         public PermissionModel Permissions { get; set; }
