@@ -40,7 +40,7 @@ namespace Vasont.Inspire.Models.Projects
     /// This class represents a project assignment state model within projects.
     /// </summary>
     public class ProjectAssignmentStateModel
-    {        
+    {
         /// <summary>
         /// Gets or sets the project assignment state identity.
         /// </summary>

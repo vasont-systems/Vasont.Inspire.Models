@@ -16,7 +16,7 @@ namespace Vasont.Inspire.Models.Security
         #region Public Constructors
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="UserModel"/> class.
+        /// Initializes a new instance of the <see cref="UserModel" /> class.
         /// </summary>
         public UserModel()
             : this(string.Empty, string.Empty)
@@ -24,7 +24,7 @@ namespace Vasont.Inspire.Models.Security
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="UserModel"/> class.
+        /// Initializes a new instance of the <see cref="UserModel" /> class.
         /// </summary>
         /// <param name="userName">Contains the user name of the account.</param>
         /// <param name="emailAddress">Contains the e-mail address of the account.</param>
@@ -50,7 +50,7 @@ namespace Vasont.Inspire.Models.Security
         /// Gets or sets the user type of the user model.
         /// </summary>
         public UserType UserType { get; set; }
-        
+
         /// <summary>
         /// Gets or sets the user selected time-zone model.
         /// </summary>
@@ -77,7 +77,7 @@ namespace Vasont.Inspire.Models.Security
         public MinimalUserModel UpdatedBy { get; set; }
 
         /// <summary>
-        /// Gets or sets a list of associated roles
+        /// Gets or sets a list of associated roles.
         /// </summary>
         public List<MinimalRoleModel> Roles { get; set; }
 
@@ -92,8 +92,8 @@ namespace Vasont.Inspire.Models.Security
         public bool Active { get; set; }
 
         /// <summary>
-        /// Gets or sets a value indicating whether the user can be deleted. Typically set to true if
-        /// the user model matches the current user. The current user cannot delete themselves.
+        /// Gets or sets a value indicating whether the user can be deleted. Typically set to true if the user model matches the current user. The current user
+        /// cannot delete themselves.
         /// </summary>
         public bool Deletable { get; set; }
 

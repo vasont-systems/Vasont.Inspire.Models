@@ -47,6 +47,7 @@ namespace Vasont.Inspire.Models.Projects
     public class ProjectFolderItemModel
     {
         #region Private Fields
+
         /// <summary>
         /// Contains the unique identity value for this model.
         /// </summary>
@@ -71,10 +72,11 @@ namespace Vasont.Inspire.Models.Projects
         /// Contains the unique parent folder identity value.
         /// </summary>
         private long? parentFolderId;
+
         #endregion
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="ProjectFolderItemModel"/> class.
+        /// Initializes a new instance of the <see cref="ProjectFolderItemModel" /> class.
         /// </summary>
         public ProjectFolderItemModel()
         {
@@ -82,7 +84,7 @@ namespace Vasont.Inspire.Models.Projects
             this.Type = ProjectFolderItemType.Folder;
             this.CreatedDate = DateTime.UtcNow;
         }
-        
+
         #region Common Folder Item Properties
 
         /// <summary>
@@ -102,7 +104,7 @@ namespace Vasont.Inspire.Models.Projects
         public bool IsImage => this.itemType == ProjectFolderItemType.Component && this.ComponentType != null && this.ComponentType.Binary && Files.IsImageFile(this.FileName);
 
         /// <summary>
-        /// Gets or sets the project item type
+        /// Gets or sets the project item type.
         /// </summary>
         [JsonProperty(Order = 2)]
         [JsonConverter(typeof(StringEnumConverter))]
@@ -207,12 +209,14 @@ namespace Vasont.Inspire.Models.Projects
         public MinimalUserModel UpdatedBy { get; set; }
 
         /// <summary>
-        /// Gets or sets a list of <see cref="ProjectFolderItemModel"/> objects representing sub-folders and/or components within this project folder item.
+        /// Gets or sets a list of <see cref="ProjectFolderItemModel" /> objects representing sub-folders and/or components within this project folder item.
         /// </summary>
         public List<ProjectFolderItemModel> Children { get; set; }
+
         #endregion
 
         #region Project Component Item Properties
+
         /// <summary>
         /// Gets or sets the component type.
         /// </summary>
@@ -257,9 +261,11 @@ namespace Vasont.Inspire.Models.Projects
         /// Gets or sets a value indicating whether this component can translate.
         /// </summary>
         public bool CanTranslate { get; set; }
+
         #endregion
 
-        #region Project Folder Properties 
+        #region Project Folder Properties
+
         /// <summary>
         /// Gets or sets the project folder description.
         /// </summary>
@@ -274,21 +280,25 @@ namespace Vasont.Inspire.Models.Projects
         /// Gets or sets the folder ordering index override.
         /// </summary>
         public int OrderIndex { get; set; }
+
         #endregion
 
         #region Private Properties
+
         /// <summary>
-        /// Gets or sets a value indicating whether this item is a folder.
+        /// Gets a value indicating whether this item is a folder.
         /// </summary>
         private bool IsFolder => this.Type == ProjectFolderItemType.Folder;
 
         /// <summary>
-        /// Gets or sets a value indicating whether this item is a component.
+        /// Gets a value indicating whether this item is a component.
         /// </summary>
         private bool IsComponent => this.Type != ProjectFolderItemType.Folder;
+
         #endregion
 
         #region Conditional Folder Serialization Methods
+
         /// <summary>
         /// This method is called by the serializer to determine if the property DefaultFolder should be rendered.
         /// </summary>
@@ -324,9 +334,11 @@ namespace Vasont.Inspire.Models.Projects
         {
             return this.IsFolder;
         }
+
         #endregion
 
         #region Conditional Component Serialization Methods
+
         /// <summary>
         /// This method is called by the serializer to determine if the property Permissions should be rendered.
         /// </summary>
@@ -389,9 +401,11 @@ namespace Vasont.Inspire.Models.Projects
         {
             return this.IsComponent;
         }
+
         #endregion
 
         #region Private Methods
+
         /// <summary>
         /// This method is used to generate the unique identity for the model.
         /// </summary>
@@ -400,6 +414,7 @@ namespace Vasont.Inspire.Models.Projects
         {
             return this.Type == ProjectFolderItemType.Folder ? "Folder_" + this.folderId : $"Component_{this.componentId}"; ////_{Guid.NewGuid()}";
         }
+
         #endregion
     }
 }

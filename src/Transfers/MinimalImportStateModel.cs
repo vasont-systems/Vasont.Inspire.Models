@@ -28,7 +28,7 @@ namespace Vasont.Inspire.Models.Transfers
         public bool SyncUpdate { get; set; }
 
         /// <summary>
-        /// Gets or sets a list of components to be imported within the import process. 
+        /// Gets or sets a list of components to be imported within the import process.
         /// </summary>
         public List<MinimalImportComponentModel> Components { get; set; } = new List<MinimalImportComponentModel>();
     }

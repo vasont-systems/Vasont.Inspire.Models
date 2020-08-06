@@ -21,7 +21,7 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets the display name for the element.
         /// </summary>
         public string DisplayName { get; set; }
-        
+
         /// <summary>
         /// Gets or sets the element definition type.
         /// </summary>

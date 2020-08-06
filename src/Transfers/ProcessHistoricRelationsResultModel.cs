@@ -13,7 +13,7 @@ namespace Vasont.Inspire.Models.Transfers
     public class ProcessHistoricRelationsResultModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ProcessHistoricRelationsResultModel"/> class.
+        /// Initializes a new instance of the <see cref="ProcessHistoricRelationsResultModel" /> class.
         /// </summary>
         /// <param name="references">Contains an optional list of references to initialize the model.</param>
         /// <param name="missingReferences">Contains an optional list of missing references to initialize the model.</param>
@@ -27,7 +27,7 @@ namespace Vasont.Inspire.Models.Transfers
         /// Gets or sets a value indicating whether the process relations request was successful.
         /// </summary>
         public bool Success { get; set; }
-        
+
         /// <summary>
         /// Gets a dictionary containing references processed within a process relations request.
         /// </summary>

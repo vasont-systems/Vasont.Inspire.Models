@@ -14,19 +14,19 @@ namespace Vasont.Inspire.Models.Projects
     public class ProjectActivityModel : CreatedUpdaterModelBase
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ProjectActivityModel"/> class.
+        /// Initializes a new instance of the <see cref="ProjectActivityModel" /> class.
         /// </summary>
         public ProjectActivityModel()
         {
             this.CreatedDate = DateTime.UtcNow;
             this.UpdatedDate = DateTime.UtcNow;
         }
-        
+
         /// <summary>
         /// Gets or sets the project activity identity value.
         /// </summary>
         public long ProjectActivityId { get; set; }
-        
+
         /// <summary>
         /// Gets or sets the name of the project activity.
         /// </summary>

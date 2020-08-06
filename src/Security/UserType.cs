@@ -1,6 +1,6 @@
 ﻿//-------------------------------------------------------------
 // <copyright file="UserType.cs" company="GlobalLink Vasont">
-// Copyright (c) 2018 GlobalLink Vasont. All rights reserved.
+// Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-------------------------------------------------------------
 namespace Vasont.Inspire.Models.Security
@@ -9,7 +9,7 @@ namespace Vasont.Inspire.Models.Security
     using Newtonsoft.Json.Converters;
 
     /// <summary>
-    /// Contains an enumerated list of inspire users types
+    /// Contains an enumerated list of inspire users types.
     /// </summary>
     [JsonConverter(typeof(StringEnumConverter))]
     public enum UserType

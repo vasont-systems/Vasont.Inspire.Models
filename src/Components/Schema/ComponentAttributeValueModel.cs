@@ -11,7 +11,7 @@ namespace Vasont.Inspire.Models.Components.Schema
     /// This class defines the properties of a component configuration attribute value model.
     /// </summary>
     public class ComponentAttributeValueModel
-    {        
+    {
         /// <summary>
         /// Gets or sets the identity of the attribute value.
         /// </summary>

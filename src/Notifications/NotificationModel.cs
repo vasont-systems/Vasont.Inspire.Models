@@ -118,7 +118,7 @@ namespace Vasont.Inspire.Models.Notifications
         /// <summary>
         /// The specified notification is for a finished alert.
         /// </summary>
-        /// <remarks>Can denote with a checkerd-flag or green icon.</remarks>
+        /// <remarks>Can denote with a checkered flag or green icon.</remarks>
         Finished
     }
 

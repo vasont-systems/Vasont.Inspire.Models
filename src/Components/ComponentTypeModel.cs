@@ -14,17 +14,20 @@ namespace Vasont.Inspire.Models.Components
     public class ComponentTypeModel : MinimalComponentTypeModel
     {
         #region Public Constructors
+
         /// <summary>
-        /// Initializes a new instance of the <see cref="ComponentTypeModel"/> class.
+        /// Initializes a new instance of the <see cref="ComponentTypeModel" /> class.
         /// </summary>
         public ComponentTypeModel()
         {
             this.CreatedDate = DateTime.UtcNow;
             this.UpdatedDate = DateTime.UtcNow;
         }
+
         #endregion
 
         #region Public Properties
+
         /// <summary>
         /// Gets or sets the XML DTD public identity value.
         /// </summary>
@@ -69,6 +72,7 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets a value indicating whether the component type is a default.
         /// </summary>
         public bool Default { get; set; }
+
         #endregion
     }
 }

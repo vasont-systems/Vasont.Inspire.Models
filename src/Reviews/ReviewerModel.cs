@@ -83,7 +83,7 @@ namespace Vasont.Inspire.Models.Reviews
         public string Comment { get; set; }
 
         /// <summary>
-        /// Gets or sets the review workflow submittal that is associated with this reviewer assignment. 
+        /// Gets or sets the review workflow submittal that is associated with this reviewer assignment.
         /// </summary>
         public ReviewWorkflowSubmittalModel ReviewWorkflowSubmittal { get; set; }
     }

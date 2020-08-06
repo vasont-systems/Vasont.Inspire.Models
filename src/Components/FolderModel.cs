@@ -39,9 +39,9 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets a description of the folder.
         /// </summary>
         public string Description { get; set; }
-        
+
         /// <summary>
-        /// Gets or sets a list of <see cref="FolderModel"/> objects that are children of the folder.
+        /// Gets or sets a list of <see cref="FolderModel" /> objects that are children of the folder.
         /// </summary>
         public List<FolderModel> Children { get; set; } = new List<FolderModel>();
 

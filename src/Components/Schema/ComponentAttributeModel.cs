@@ -10,8 +10,7 @@ namespace Vasont.Inspire.Models.Components.Schema
     using Newtonsoft.Json.Converters;
 
     /// <summary>
-    /// Contains an enumerated list of map configuration attribute types used for determining how the attribute value field shall 
-    /// be rendered in the application.
+    /// Contains an enumerated list of map configuration attribute types used for determining how the attribute value field shall be rendered in the application.
     /// </summary>
     [JsonConverter(typeof(StringEnumConverter))]
     public enum ComponentConfigurationAttributeType
@@ -56,7 +55,7 @@ namespace Vasont.Inspire.Models.Components.Schema
         /// </summary>
         Multiselect
     }
-    
+
     /// <summary>
     /// This class defines the properties of a map attribute configuration model.
     /// </summary>
@@ -120,10 +119,10 @@ namespace Vasont.Inspire.Models.Components.Schema
         public bool Global { get; set; }
 
         /// <summary>
-        /// Gets or sets the minimum allowed value for a numeric type attribute
+        /// Gets or sets the minimum allowed value for a numeric type attribute.
         /// </summary>
         public int MinValue { get; set; }
-        
+
         /// <summary>
         /// Gets or sets the maximum allowed value for a numeric type attribute.
         /// </summary>

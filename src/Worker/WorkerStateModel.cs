@@ -48,7 +48,7 @@ namespace Vasont.Inspire.Models.Worker
     public class WorkerStateModel : MinimalWorkerStateModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="WorkerStateModel"/> class.
+        /// Initializes a new instance of the <see cref="WorkerStateModel" /> class.
         /// </summary>
         public WorkerStateModel()
         {
@@ -74,10 +74,11 @@ namespace Vasont.Inspire.Models.Worker
         public string WorkerPath { get; set; }
 
         #region Public Methods
+
         /// <summary>
         /// This method is used to add an error message to the worker state model.
         /// </summary>
-        /// <param name="errorMessage">Contains an instance of <see cref="ErrorMessage"/> class to add to the issues list.</param>
+        /// <param name="errorMessage">Contains an instance of <see cref="ErrorMessage" /> class to add to the issues list.</param>
         public void AddIssue(ErrorMessage errorMessage)
         {
             this.Issues.Add(errorMessage);
@@ -108,33 +109,35 @@ namespace Vasont.Inspire.Models.Worker
                 this.AddIssue(new ErrorMessage(message, type));
             }
         }
+
         #endregion
     }
 
     /// <summary>
-    /// This class represents worker state within the application that contains an additional 
-    /// model object.
+    /// This class represents worker state within the application that contains an additional model object.
     /// </summary>
     /// <typeparam name="T">Contains the object type of the additional worker model.</typeparam>
     [SuppressMessage("StyleCop.CSharp.MaintainabilityRules", "SA1402:FileMayOnlyContainASingleClass", Justification = "Class files would be named the same.")]
     public sealed class WorkerStateModel<T> : WorkerStateModel
     {
         #region Public Constructors
+
         /// <summary>
-        /// Initializes a new instance of the <see cref="WorkerStateModel{T}"/> class.
+        /// Initializes a new instance of the <see cref="WorkerStateModel{T}" /> class.
         /// </summary>
         public WorkerStateModel()
         {
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="WorkerStateModel{T}"/> class.
+        /// Initializes a new instance of the <see cref="WorkerStateModel{T}" /> class.
         /// </summary>
         /// <param name="model">Contains any additional model used with the worker.</param>
         public WorkerStateModel(T model)
         {
             this.Model = model;
         }
+
         #endregion
 
         /// <summary>

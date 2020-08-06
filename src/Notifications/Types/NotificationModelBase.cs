@@ -14,7 +14,7 @@ namespace Vasont.Inspire.Models.Notifications.Types
     public abstract class NotificationModelBase
     {
         /// <summary>
-        /// Gets or Sets the metadata string and deserializes JSON formatted metadata into the Metadata dictionary.
+        /// Gets or sets the metadata string and deserializes JSON formatted metadata into the Metadata dictionary.
         /// </summary>
         [JsonIgnore]
         public string MetadataModel
@@ -23,6 +23,7 @@ namespace Vasont.Inspire.Models.Notifications.Types
             {
                 return JsonConvert.SerializeObject(this.Metadata);
             }
+
             set
             {
                 if (!string.IsNullOrWhiteSpace(value))

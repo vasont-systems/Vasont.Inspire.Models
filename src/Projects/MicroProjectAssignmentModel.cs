@@ -34,7 +34,7 @@ namespace Vasont.Inspire.Models.Projects
         /// Gets or sets the assignment state name.
         /// </summary>
         public MicroProjectAssignmentStateModel State { get; set; }
-        
+
         /// <summary>
         /// Gets or sets the model of the assigned user.
         /// </summary>
@@ -46,7 +46,7 @@ namespace Vasont.Inspire.Models.Projects
         public DateTime? DueDate { get; set; }
 
         /// <summary>
-        /// Gets or sets the assignment created date
+        /// Gets or sets the assignment created date.
         /// </summary>
         public DateTime? CreatedDate { get; set; }
 
@@ -56,7 +56,7 @@ namespace Vasont.Inspire.Models.Projects
         public string Description { get; set; }
 
         /// <summary>
-        /// Gets or sets a value indicating whether the assignment has active workflow
+        /// Gets or sets a value indicating whether the assignment has active workflow.
         /// </summary>
         public bool RequiresInput { get; set; }
 

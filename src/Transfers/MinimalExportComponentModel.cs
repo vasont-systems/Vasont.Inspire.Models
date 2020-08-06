@@ -29,14 +29,13 @@ namespace Vasont.Inspire.Models.Transfers
         Failed,
 
         /// <summary>
-        /// The component content was successfully exported but was modified due to filtering and therefore
-        /// the component should be flagged as needing relationship evaluation before export can complete.
+        /// The component content was successfully exported but was modified due to filtering and therefore the component should be flagged as needing
+        /// relationship evaluation before export can complete.
         /// </summary>
         Modified,
 
         /// <summary>
-        /// The component content was successfully exported but the content was filtered and therefore 
-        /// the component should be removed from the export.
+        /// The component content was successfully exported but the content was filtered and therefore the component should be removed from the export.
         /// </summary>
         Removed
     }

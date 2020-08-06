@@ -9,13 +9,14 @@ namespace Vasont.Inspire.Models.Common
     using Core.Errors;
 
     /// <summary>
-    /// This class represents an error message within the <see cref="ErrorResponseModel"/> class.
+    /// This class represents an error message within the <see cref="ErrorResponseModel" /> class.
     /// </summary>
     public class ErrorModel
     {
         #region Public Constructors
+
         /// <summary>
-        /// Initializes a new instance of the <see cref="ErrorModel"/> class.
+        /// Initializes a new instance of the <see cref="ErrorModel" /> class.
         /// </summary>
         public ErrorModel()
             : this(string.Empty, ErrorType.Warning, DateTime.UtcNow, string.Empty)
@@ -23,7 +24,7 @@ namespace Vasont.Inspire.Models.Common
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="ErrorModel"/> class.
+        /// Initializes a new instance of the <see cref="ErrorModel" /> class.
         /// </summary>
         /// <param name="message">Contains the error message text.</param>
         /// <param name="type">Contains the error message type.</param>
@@ -38,9 +39,11 @@ namespace Vasont.Inspire.Models.Common
             this.StackTrace = stackTrace;
             this.EventDate = eventDate;
         }
+
         #endregion
 
         #region Public Properties
+
         /// <summary>
         /// Gets or sets the error message type.
         /// </summary>
@@ -65,6 +68,7 @@ namespace Vasont.Inspire.Models.Common
         /// Gets or sets the error stack trace generated if any.
         /// </summary>
         public string StackTrace { get; set; }
+
         #endregion
     }
 }

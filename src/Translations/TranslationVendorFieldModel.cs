@@ -43,7 +43,7 @@ namespace Vasont.Inspire.Models.Translations
         /// <summary>
         /// Gets or sets a value indicating whether the field is required.
         /// </summary>
-        public bool Required { get; set; } 
+        public bool Required { get; set; }
 
         /// <summary>
         /// Gets or sets the client identity.

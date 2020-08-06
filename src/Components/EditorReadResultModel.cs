@@ -9,7 +9,7 @@ namespace Vasont.Inspire.Models.Components
     /// This class contains values used within the Editor Component Service.
     /// </summary>
     public class EditorReadResultModel
-    { 
+    {
         /// <summary>
         /// Gets or sets the component type.
         /// </summary>

@@ -13,7 +13,7 @@ namespace Vasont.Inspire.Models.Components
     public class MinimalComponentAutoRepairStateModel
     {
         /// <summary>
-        /// Gets or sets a list of components to be imported within the import process. 
+        /// Gets or sets a list of components to be imported within the import process.
         /// </summary>
         public List<long> ComponentIds { get; set; } = new List<long>();
 

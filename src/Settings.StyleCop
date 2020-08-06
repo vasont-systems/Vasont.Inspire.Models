@@ -39,5 +39,15 @@
       </Rules>
       <AnalyzerSettings />
     </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.DocumentationRules">
+      <AnalyzerSettings>
+        <StringProperty Name="CompanyName">GlobalLink Vasont</StringProperty>
+        <StringProperty Name="Copyright">//-------------------------------------------------------------
+// &lt;copyright file="{fileName}" company="{companyName}"&gt;
+// Copyright (c) GlobalLink Vasont. All rights reserved.
+// &lt;/copyright&gt;
+//-------------------------------------------------------------</StringProperty>
+      </AnalyzerSettings>
+    </Analyzer>
   </Analyzers>
 </StyleCopSettings>

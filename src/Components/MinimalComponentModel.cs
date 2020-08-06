@@ -11,7 +11,6 @@ namespace Vasont.Inspire.Models.Components
     using Security;
     using Vasont.Inspire.Core.Extensions;
     using Vasont.Inspire.Core.Storage;
-    using Vasont.Inspire.Models.Components;
     using Vasont.Inspire.Models.Common;
     using Vasont.Inspire.Models.Projects;
 
@@ -48,8 +47,9 @@ namespace Vasont.Inspire.Models.Components
         private ProjectFolderItemType itemType;
 
         #region Public Constructors
+
         /// <summary>
-        /// Initializes a new instance of the <see cref="MinimalComponentModel"/> class.
+        /// Initializes a new instance of the <see cref="MinimalComponentModel" /> class.
         /// </summary>
         public MinimalComponentModel()
             : this(PermissionFlags.None)
@@ -57,7 +57,7 @@ namespace Vasont.Inspire.Models.Components
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="MinimalComponentModel"/> class.
+        /// Initializes a new instance of the <see cref="MinimalComponentModel" /> class.
         /// </summary>
         /// <param name="permissions">Contains an optional permissions value for the minimal component model.</param>
         public MinimalComponentModel(PermissionFlags permissions)
@@ -67,9 +67,11 @@ namespace Vasont.Inspire.Models.Components
             this.State = ComponentStateType.Draft;
             this.Permissions = new PermissionModel(permissions);
         }
+
         #endregion
 
         #region Public Properties
+
         /// <summary>
         /// Gets or sets the unique identity of the component.
         /// </summary>
@@ -162,12 +164,12 @@ namespace Vasont.Inspire.Models.Components
         public PermissionModel Permissions { get; set; }
 
         /// <summary>
-        /// Gets or sets the component virtual path
+        /// Gets or sets the component virtual path.
         /// </summary>
         public string VirtualPath { get; set; }
 
         /// <summary>
-        /// Gets or sets the project item type
+        /// Gets or sets the project item type.
         /// </summary>
         public ProjectFolderItemType Type
         {

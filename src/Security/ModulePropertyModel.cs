@@ -7,7 +7,7 @@
 namespace Vasont.Inspire.Models.Security
 {
     using System.Collections.Generic;
-    
+
     /// <summary>
     /// This class represents a module property definition within the application.
     /// </summary>

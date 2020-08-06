@@ -6,14 +6,14 @@
 namespace Vasont.Inspire.Models.Components
 {
     using Security;
-    
+
     /// <summary>
     /// This class represents a component dependency model that defines a referencing component.
     /// </summary>
     public class ComponentDependencyModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ComponentDependencyModel"/> class.
+        /// Initializes a new instance of the <see cref="ComponentDependencyModel" /> class.
         /// </summary>
         public ComponentDependencyModel()
             : this(PermissionFlags.None)
@@ -21,7 +21,7 @@ namespace Vasont.Inspire.Models.Components
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="ComponentDependencyModel"/> class.
+        /// Initializes a new instance of the <see cref="ComponentDependencyModel" /> class.
         /// </summary>
         /// <param name="permissions">Contains the permissions object.</param>
         public ComponentDependencyModel(PermissionFlags permissions)

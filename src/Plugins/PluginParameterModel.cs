@@ -1,6 +1,6 @@
 ﻿//-------------------------------------------------------------
 // <copyright file="PluginParameterModel.cs" company="GlobalLink Vasont">
-// Copyright (c) 2019 GlobalLink Vasont. All rights reserved.
+// Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-------------------------------------------------------------
 namespace Vasont.Inspire.Models.Plugins
@@ -11,7 +11,7 @@ namespace Vasont.Inspire.Models.Plugins
     public class PluginParameterModel
     {
         /// <summary>
-        /// Gets or sets the identity of the Plugin Parameter
+        /// Gets or sets the identity of the Plugin Parameter.
         /// </summary>
         public long PluginParameterId { get; set; }
 

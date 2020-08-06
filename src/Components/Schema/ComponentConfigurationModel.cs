@@ -28,7 +28,7 @@ namespace Vasont.Inspire.Models.Components.Schema
         /// Gets or sets the component type associated with this configuration.
         /// </summary>
         public MinimalComponentTypeModel ComponentType { get; set; }
-        
+
         /// <summary>
         /// Gets or sets a list of elements that define the structure and relationships within the component.
         /// </summary>

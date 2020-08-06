@@ -12,7 +12,7 @@ namespace Vasont.Inspire.Models.ProfileFilters
     /// This class defines the properties of a minimal profile filter model.
     /// </summary>
     public class MinimalProfileFilterModel
-    {        
+    {
         /// <summary>
         /// Gets or sets the identity of the profile filter.
         /// </summary>

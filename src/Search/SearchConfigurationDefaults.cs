@@ -12,7 +12,7 @@ namespace Vasont.Inspire.Models.Search
     using Vasont.Inspire.Core.Properties;
 
     /// <summary>
-    /// This class contains statically defined search configurations for operator lists
+    /// This class contains statically defined search configurations for operator lists.
     /// </summary>
     public static class SearchConfigurationDefaults
     {
@@ -147,23 +147,29 @@ namespace Vasont.Inspire.Models.Search
             switch (type)
             {
                 case SearchConfigurationDataType.Long:
-                    result =LongOperators;
+                    result = LongOperators;
                     break;
+
                 case SearchConfigurationDataType.SimplifiedLong:
                     result = SimplifiedLongOperators;
                     break;
+
                 case SearchConfigurationDataType.Int:
                     result = IntegerOperators;
                     break;
+
                 case SearchConfigurationDataType.SimplifiedInt:
                     result = SimplifiedIntegerOperators;
                     break;
+
                 case SearchConfigurationDataType.DateTime:
                     result = DateTimeOperators;
                     break;
+
                 case SearchConfigurationDataType.Boolean:
                     result = BooleanOperators;
                     break;
+
                 default:
                     result = StringOperators;
                     break;

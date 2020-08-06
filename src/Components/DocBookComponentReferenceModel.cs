@@ -15,12 +15,12 @@ namespace Vasont.Inspire.Models.Components
     public class DocBookComponentReferenceModel : IComponentReference
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="DocBookComponentReferenceModel"/> class.
+        /// Initializes a new instance of the <see cref="DocBookComponentReferenceModel" /> class.
         /// </summary>
         /// <param name="refInput">Contains the initial conref input string.</param>
         /// <param name="fileName">Contains the filename of the current component.</param>
         /// <param name="linkMethod">Contains a value indicating the Link Method name of reference.</param>
-        /// <param name="attributes">Contains an optional list of pointer type attributes on the element.</param> 
+        /// <param name="attributes">Contains an optional list of pointer type attributes on the element.</param>
         public DocBookComponentReferenceModel(string refInput = "", string fileName = "", string linkMethod = "DocbookUri", List<XAttribute> attributes = null)
         {
             if (!string.IsNullOrEmpty(refInput))
@@ -33,22 +33,22 @@ namespace Vasont.Inspire.Models.Components
         #region Public Properties
 
         /// <summary>
-        /// Gets or sets the file name
+        /// Gets or sets the file name.
         /// </summary>
         public string TargetName { get; set; }
 
         /// <summary>
-        /// Gets or sets the root identity
+        /// Gets or sets the root identity.
         /// </summary>
         public string TargetRootId { get; set; }
 
         /// <summary>
-        /// Gets or sets the element identity
+        /// Gets or sets the element identity.
         /// </summary>
         public string TargetElementId { get; set; }
 
         /// <summary>
-        /// Gets or sets the element identity
+        /// Gets or sets the element identity.
         /// </summary>
         public string LinkMethod { get; set; }
 
@@ -64,7 +64,7 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// This method is used to convert the object to a content reference pointer string.
         /// </summary>
-        /// <returns>Returns the object formatted as {filename}#{targetId}</returns>
+        /// <returns>Returns the object formatted as {filename}#{targetId}.</returns>
         public override string ToString()
         {
             string output = this.TargetName;
@@ -83,6 +83,7 @@ namespace Vasont.Inspire.Models.Components
 
             return output;
         }
+
         #endregion
 
         #region Private Methods
@@ -93,7 +94,7 @@ namespace Vasont.Inspire.Models.Components
         /// <param name="input">Contains the input to parse.</param>
         /// <param name="fileName">Contains the filename of the current component.</param>
         /// <param name="linkMethod">Contains a value indicating the Link Method name of reference.</param>
-        /// <param name="attributes">Contains a list of pointer type</param>
+        /// <param name="attributes">Contains a list of pointer type.</param>
         private void Initialize(string input, string fileName, string linkMethod, List<XAttribute> attributes = null)
         {
             if (string.IsNullOrEmpty(linkMethod))
@@ -112,7 +113,8 @@ namespace Vasont.Inspire.Models.Components
                 switch (linkMethod)
                 {
                     case "InternalElement":
-                        // <xref linkend="v123"/>
+
+                        // <xref linkend="v123" />
 
                         // TargetName is always filename of the current component
                         this.TargetName = fileName;
@@ -126,10 +128,11 @@ namespace Vasont.Inspire.Models.Components
                         }
 
                         break;
+
                     case "ExternalElement":
-                        // <xi:include href="filename.xml" xpointer="v123"/>
-                        // TargetName is value of the Uri attribute on same element
-                        // eventually attribute config should have property attribute linking type
+
+                        // <xi:include href="filename.xml" xpointer="v123"/> TargetName is value of the Uri attribute on same element eventually attribute
+                        // config should have property attribute linking type
                         var uriAttribute = attributes?.Find(x => x.Name.LocalName.Equals("href", StringComparison.OrdinalIgnoreCase));
                         this.TargetName = uriAttribute != null ? uriAttribute.Value : string.Empty;
 
@@ -142,8 +145,10 @@ namespace Vasont.Inspire.Models.Components
                         }
 
                         break;
+
                     case "Filename":
-                        // <imagedata fileref="filename.png"/>
+
+                        // <imagedata fileref="filename.png" />
                         if (Uri.TryCreate(input, UriKind.RelativeOrAbsolute, out outputUri))
                         {
                             this.Address = outputUri;
@@ -153,11 +158,13 @@ namespace Vasont.Inspire.Models.Components
                         this.TargetElementId = string.Empty;
 
                         break;
+
                     case "DocbookUri":
+
                         // Default Case
-                        // <xref xml:href="filename.xml"/>
-                        // <xref xml:href="#v123"/>
-                        // <xref xml:href="filename.xml#v123"/>
+                        // <xref xml:href="filename.xml" />
+                        // <xref xml:href="#v123" />
+                        // <xref xml:href="filename.xml#v123" />
                         if (Uri.TryCreate(input, UriKind.RelativeOrAbsolute, out outputUri))
                         {
                             this.Address = outputUri;
@@ -183,6 +190,7 @@ namespace Vasont.Inspire.Models.Components
                 }
             }
         }
+
         #endregion
     }
 }

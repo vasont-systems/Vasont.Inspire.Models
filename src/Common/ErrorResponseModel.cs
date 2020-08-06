@@ -8,7 +8,7 @@ namespace Vasont.Inspire.Models.Common
     using System.Collections.Generic;
 
     /// <summary>
-    /// This class is used as the Error Response Model 
+    /// This class is used as the Error Response Model.
     /// </summary>
     public class ErrorResponseModel
     {
@@ -20,9 +20,7 @@ namespace Vasont.Inspire.Models.Common
         /// <summary>
         /// Gets or sets a value indicating whether this instance has unhandled exception.
         /// </summary>
-        /// <value>
-        /// <c>true</c> if this instance has unhandled exception; otherwise, <c>false</c>.
-        /// </value>
+        /// <value><c>true</c> if this instance has unhandled exception; otherwise, <c>false</c>.</value>
         public bool HasUnhandledException { get; set; }
     }
 }
