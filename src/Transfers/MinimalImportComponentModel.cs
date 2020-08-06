@@ -53,7 +53,7 @@ namespace Vasont.Inspire.Models.Transfers
         public long TranslationJobComponentId { get; set; }
 
         /// <summary>
-        /// Gets or sets the unique identity of the component within the import
+        /// Gets or sets the unique identity of the component within the import.
         /// </summary>
         public Guid UniqueId { get; set; }
 
@@ -61,7 +61,7 @@ namespace Vasont.Inspire.Models.Transfers
         /// Gets or sets the action to perform for the component.
         /// </summary>
         public ComponentImportAction Action { get; set; }
-        
+
         /// <summary>
         /// Gets or sets the original file name from import.
         /// </summary>

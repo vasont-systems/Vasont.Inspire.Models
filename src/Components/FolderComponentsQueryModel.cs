@@ -13,7 +13,7 @@ namespace Vasont.Inspire.Models.Components
     /// This class contains parameters passed to the query for retrieving components within a folder.
     /// </summary>
     public class FolderComponentsQueryModel : PaginatedQueryRequestModel
-    { 
+    {
         /// <summary>
         /// Gets or sets the identity of the folder.
         /// </summary>
@@ -30,12 +30,12 @@ namespace Vasont.Inspire.Models.Components
         public string SearchText { get; set; }
 
         /// <summary>
-        /// Gets or sets an optional list of ad-hoc query built filters
+        /// Gets or sets an optional list of ad-hoc query built filters.
         /// </summary>
         public List<AdHocQueryFilterModel> QueryFilters { get; set; } = new List<AdHocQueryFilterModel>();
 
         /// <summary>
-        /// Gets or sets an optional list of ad-hoc query built filters with the display values
+        /// Gets or sets an optional list of ad-hoc query built filters with the display values.
         /// </summary>
         public List<AdHocQueryFilterModel> QueryFiltersWithDisplayValues { get; set; }
 

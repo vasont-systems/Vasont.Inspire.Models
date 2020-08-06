@@ -4,5 +4,13 @@
 // Project-level suppressions either have no target or are given 
 // a specific target and scoped to a namespace, type, member, etc.
 
-[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Minor Code Smell", "S2344:Enumeration type names should not have \"Flags\" or \"Enum\" suffixes", Justification = "We'll keep the name since it works and they are bit flags.", Scope = "type", Target = "~T:Vasont.Inspire.Models.Security.PermissionFlags")]
-[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Major Code Smell", "S1121:Assignments should not be made from within sub-expressions", Justification = "I prefer to simplify code into efficient lines of code.")]
+using System.Diagnostics.CodeAnalysis;
+
+[assembly: SuppressMessage("Minor Code Smell", "S2344:Enumeration type names should not have \"Flags\" or \"Enum\" suffixes", Justification = "We'll keep the name since it works and they are bit flags.", Scope = "type", Target = "~T:Vasont.Inspire.Models.Security.PermissionFlags")]
+[assembly: SuppressMessage("Major Code Smell", "S1121:Assignments should not be made from within sub-expressions", Justification = "I prefer to simplify code into efficient lines of code.")]
+[assembly: SuppressMessage("StyleCop.CSharp.ReadabilityRules", "SA1135:Using directives should be qualified", Justification = "Reviewed.")]
+[assembly: SuppressMessage("StyleCop.CSharp.ReadabilityRules", "SA1124:Do not use regions", Justification = "Reviewed.")]
+[assembly: SuppressMessage("StyleCop.CSharp.ReadabilityRules", "SA1413:Use trailing comma in multi-line initializers", Justification = "Reviewed.")]
+[assembly: SuppressMessage("StyleCop.CSharp.LayoutRules", "SA1514:Element documentation header should be preceded by blank line", Justification = "Reviewed.")]
+[assembly: SuppressMessage("StyleCop.CSharp.NamingRules", "SA1314:Type parameter names should begin with T", Justification = "Reviewed.")]
+[assembly: SuppressMessage("StyleCop.CSharp.LayoutRules", "SA1515:SingleLineCommentMustBePrecededByBlankLine", Justification = "Reviewed. False positives from regions.")]

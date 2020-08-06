@@ -13,18 +13,19 @@ namespace Vasont.Inspire.Models.Components
     public interface IComponentReference
     {
         #region Public Properties
+
         /// <summary>
-        /// Gets or sets the file name
+        /// Gets or sets the file name.
         /// </summary>
         string TargetName { get; set; }
 
         /// <summary>
-        /// Gets or sets the root identity
+        /// Gets or sets the root identity.
         /// </summary>
         string TargetRootId { get; set; }
 
         /// <summary>
-        /// Gets or sets the element identity
+        /// Gets or sets the element identity.
         /// </summary>
         string TargetElementId { get; set; }
 
@@ -32,14 +33,17 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets a Uri object for the reference.
         /// </summary>
         Uri Address { get; set; }
+
         #endregion
 
         #region Public Override Methods
+
         /// <summary>
         /// This method is used to convert the object to a content reference pointer string.
         /// </summary>
         /// <returns>Returns the object properties as a formatted string for the definition.</returns>
         string ToString();
+
         #endregion
     }
 }

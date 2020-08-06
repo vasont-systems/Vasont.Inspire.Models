@@ -25,7 +25,7 @@ namespace Vasont.Inspire.Models.Configuration
         /// Gets or sets the link method.
         /// </summary>
         public LinkMethodModel LinkMethod { get; set; }
-        
+
         /// <summary>
         /// Gets or sets the source attribute.
         /// </summary>

@@ -18,7 +18,7 @@ namespace Vasont.Inspire.Models.Transfers
         public Guid ChangesetId { get; set; }
 
         /// <summary>
-        /// Gets or sets the component identity of the source component. 
+        /// Gets or sets the component identity of the source component.
         /// </summary>
         public long SourceComponentId { get; set; }
 

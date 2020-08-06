@@ -16,7 +16,7 @@ namespace Vasont.Inspire.Models.Common
         public long FileExtensionId { get; set; }
 
         /// <summary>
-        /// Gets or sets the file extension value
+        /// Gets or sets the file extension value.
         /// </summary>
         public string FileExtensionValue { get; set; }
 

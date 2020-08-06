@@ -34,7 +34,7 @@ namespace Vasont.Inspire.Models.Utilities
         /// Gets or sets the user or role type.
         /// </summary>
         public SecurityType Type { get; set; }
-        
+
         /// <summary>
         /// Gets or sets the user or role description.
         /// </summary>
@@ -51,8 +51,7 @@ namespace Vasont.Inspire.Models.Utilities
         public string ProfileImageUrl { get; set; }
 
         /// <summary>
-        /// Gets or sets a comma-delimited list of related associations, 
-        /// such as roles for user types, and users for role types.
+        /// Gets or sets a comma-delimited list of related associations, such as roles for user types, and users for role types.
         /// </summary>
         public List<string> Memberships { get; set; } = new List<string>();
     }

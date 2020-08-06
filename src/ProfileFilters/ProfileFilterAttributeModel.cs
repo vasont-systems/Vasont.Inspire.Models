@@ -11,7 +11,7 @@ namespace Vasont.Inspire.Models.ProfileFilters
     /// </summary>
     public class ProfileFilterAttributeModel
     {
-         /// <summary>
+        /// <summary>
         /// Gets or sets the identity of the attribute.
         /// </summary>
         public long AttributeId { get; set; }
@@ -35,7 +35,7 @@ namespace Vasont.Inspire.Models.ProfileFilters
         /// Gets or sets the attribute value.
         /// </summary>
         public string AttributeValue { get; set; }
-        
+
         /// <summary>
         /// Gets or sets the attribute display value.
         /// </summary>

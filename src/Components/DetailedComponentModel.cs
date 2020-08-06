@@ -14,16 +14,17 @@ namespace Vasont.Inspire.Models.Components
     public class DetailedComponentModel : MinimalComponentModel
     {
         #region Public Constructors
+
         /// <summary>
-        /// Initializes a new instance of the <see cref="DetailedComponentModel"/> class.
+        /// Initializes a new instance of the <see cref="DetailedComponentModel" /> class.
         /// </summary>
         public DetailedComponentModel()
             : this(PermissionFlags.None)
-        {   
+        {
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="DetailedComponentModel"/> class.
+        /// Initializes a new instance of the <see cref="DetailedComponentModel" /> class.
         /// </summary>
         /// <param name="permissions">Contains an optional permissions value for the detailed component model.</param>
         public DetailedComponentModel(PermissionFlags permissions)
@@ -33,9 +34,11 @@ namespace Vasont.Inspire.Models.Components
             this.Properties = new List<ComponentPropertyModel>();
             this.Dependencies = new List<ComponentDependencyModel>();
         }
+
         #endregion
 
         #region Public Properties
+
         /// <summary>
         /// Gets or sets the language name and code appended together associated with the component.
         /// </summary>
@@ -60,7 +63,7 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets a list of dependencies associated with the component.
         /// </summary>
         public List<ComponentDependencyModel> Dependencies { get; set; }
-        
+
         #endregion
     }
 }

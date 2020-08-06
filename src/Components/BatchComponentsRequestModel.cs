@@ -6,14 +6,14 @@
 namespace Vasont.Inspire.Models.Components
 {
     using System.Collections.Generic;
-   
+
     /// <summary>
     /// This class contains properties required for the batch component API.
     /// </summary>
     public class BatchComponentsRequestModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="BatchComponentsRequestModel"/> class.
+        /// Initializes a new instance of the <see cref="BatchComponentsRequestModel" /> class.
         /// </summary>
         public BatchComponentsRequestModel()
             : this(new List<long>())
@@ -21,7 +21,7 @@ namespace Vasont.Inspire.Models.Components
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="BatchComponentsRequestModel"/> class.
+        /// Initializes a new instance of the <see cref="BatchComponentsRequestModel" /> class.
         /// </summary>
         /// <param name="componentIds">The list of component identifiers.</param>
         public BatchComponentsRequestModel(List<long> componentIds)

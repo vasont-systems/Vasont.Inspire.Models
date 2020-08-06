@@ -6,7 +6,7 @@
 namespace Vasont.Inspire.Models.Components.Schema
 {
     using System.Collections.Generic;
-    
+
     /// <summary>
     /// This class defines the properties of a profile attribute model.
     /// </summary>

@@ -16,7 +16,7 @@ namespace Vasont.Inspire.Models.Projects
     public class ProjectAssignmentModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ProjectAssignmentModel"/> class.
+        /// Initializes a new instance of the <see cref="ProjectAssignmentModel" /> class.
         /// </summary>
         public ProjectAssignmentModel()
         {
@@ -112,23 +112,22 @@ namespace Vasont.Inspire.Models.Projects
         public MinimalUserModel AssignedUser { get; set; }
 
         /// <summary>
-        /// Gets or sets a list of <see cref="MinimalComponentModel"/> objects representing components assigned to the assignment.
+        /// Gets or sets a list of <see cref="MinimalComponentModel" /> objects representing components assigned to the assignment.
         /// </summary>
         public List<MinimalComponentModel> Components { get; set; }
 
         /// <summary>
-        /// Gets or sets a string of semicolon delimited e-mail addresses that are added to 
-        /// the completion and cancellation notification e-mails related to this assignment.
+        /// Gets or sets a string of semicolon delimited e-mail addresses that are added to the completion and cancellation notification e-mails related to this assignment.
         /// </summary>
         public string AdditionalNotificationEmails { get; set; }
 
         /// <summary>
-        /// Gets or sets a list of alternate email templates to be used with additional notifications;
+        /// Gets or sets a list of alternate email templates to be used with additional notifications.
         /// </summary>
         public List<ProjectAssignmentEmailTemplateModel> EmailTemplates { get; set; }
 
         /// <summary>
-        /// Gets or sets the project workflow submittal that is associated with this assignment. 
+        /// Gets or sets the project workflow submittal that is associated with this assignment.
         /// </summary>
         public ProjectWorkflowSubmittalModel ProjectWorkflowSubmittal { get; set; }
     }

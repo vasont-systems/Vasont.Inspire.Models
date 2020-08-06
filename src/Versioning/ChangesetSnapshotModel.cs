@@ -88,8 +88,9 @@ namespace Vasont.Inspire.Models.Versioning
     public class ChangesetSnapshotModel : MicroCreatedUpdaterModelBase
     {
         #region Public Constructors
+
         /// <summary>
-        /// Initializes a new instance of the <see cref="ChangesetSnapshotModel"/> class.
+        /// Initializes a new instance of the <see cref="ChangesetSnapshotModel" /> class.
         /// </summary>
         public ChangesetSnapshotModel()
             : this(ChangesetSnapshotActionType.Create)
@@ -97,7 +98,7 @@ namespace Vasont.Inspire.Models.Versioning
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="ChangesetSnapshotModel"/> class.
+        /// Initializes a new instance of the <see cref="ChangesetSnapshotModel" /> class.
         /// </summary>
         /// <param name="actionType">Contains the action on the target model.</param>
         /// <param name="restored">Contains a value indicating whether the snapshot action was a restoral of a previous history record.</param>
@@ -110,6 +111,7 @@ namespace Vasont.Inspire.Models.Versioning
         #endregion
 
         #region Common Shared Public Properties
+
         /// <summary>
         /// Gets or sets the action type to execute against the changeset action target.
         /// </summary>
@@ -119,7 +121,7 @@ namespace Vasont.Inspire.Models.Versioning
         /// Gets or sets the target type of the changeset snapshot type.
         /// </summary>
         public ChangesetSnapshotType SnapshotType { get; set; }
-       
+
         /// <summary>
         /// Gets or sets the identity of the changeset target object.
         /// </summary>
@@ -136,7 +138,7 @@ namespace Vasont.Inspire.Models.Versioning
         public string Name { get; set; }
 
         /// <summary>
-        /// Gets or sets the parent folder model. 
+        /// Gets or sets the parent folder model.
         /// </summary>
         public MinimalFolderModel ParentFolder { get; set; }
 
@@ -144,9 +146,11 @@ namespace Vasont.Inspire.Models.Versioning
         /// Gets or sets a value indicating whether this snapshot was a restoral from a previous history record.
         /// </summary>
         public bool Restored { get; set; }
+
         #endregion
 
         #region Extended Properties
+
         /// <summary>
         /// Gets or sets the component specific properties for the changeset target model.
         /// </summary>
@@ -161,6 +165,7 @@ namespace Vasont.Inspire.Models.Versioning
         /// Gets or sets the component property specific properties for the changeset target model.
         /// </summary>
         public PropertySnapshotExtendedProperties PropertyProperties { get; set; }
+
         #endregion
     }
 }

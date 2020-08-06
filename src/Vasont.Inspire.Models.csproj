@@ -20,9 +20,18 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>CCMS</PackageTags>
     <PackageReleaseNotes>added new TotalUnreadCount property to NotificationStoreResultModel</PackageReleaseNotes>
-    <Version>1.1.49</Version>
+    <Version>1.1.50</Version>
     <NeutralLanguage>en</NeutralLanguage>
+    <Copyright>Copyright (c) GlobalLink Vasont. All rights reserved.</Copyright>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="stylecop.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="stylecop.json" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />

@@ -1,6 +1,6 @@
 ﻿//-------------------------------------------------------------
 // <copyright file="ExportPluginParameterValueModel.cs" company="GlobalLink Vasont">
-// Copyright (c) 2019 GlobalLink Vasont. All rights reserved.
+// Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-------------------------------------------------------------
 namespace Vasont.Inspire.Models.Plugins

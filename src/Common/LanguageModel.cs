@@ -21,7 +21,7 @@ namespace Vasont.Inspire.Models.Common
         public string Name { get; set; }
 
         /// <summary>
-        /// Gets or sets a value indicating whether the language is available as an application locale
+        /// Gets or sets a value indicating whether the language is available as an application locale.
         /// </summary>
         public bool IsLocale { get; set; }
 

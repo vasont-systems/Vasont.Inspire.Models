@@ -8,13 +8,14 @@ namespace Vasont.Inspire.Models.Security
     using Newtonsoft.Json;
 
     /// <summary>
-    /// This class provides properties to represent the permission flags within a <see cref="PermissionFlags"/> value.
+    /// This class provides properties to represent the permission flags within a <see cref="PermissionFlags" /> value.
     /// </summary>
     public class PermissionModel
     {
         #region Public Constructors
+
         /// <summary>
-        /// Initializes a new instance of the <see cref="PermissionModel"/> class.
+        /// Initializes a new instance of the <see cref="PermissionModel" /> class.
         /// </summary>
         public PermissionModel()
             : this(PermissionFlags.None)
@@ -22,7 +23,7 @@ namespace Vasont.Inspire.Models.Security
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="PermissionModel"/> class.
+        /// Initializes a new instance of the <see cref="PermissionModel" /> class.
         /// </summary>
         /// <param name="permission">Contains the permission flag for the model to represent.</param>
         public PermissionModel(int permission)
@@ -31,7 +32,7 @@ namespace Vasont.Inspire.Models.Security
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="PermissionModel"/> class.
+        /// Initializes a new instance of the <see cref="PermissionModel" /> class.
         /// </summary>
         /// <param name="permission">Contains the permission flag for the model to represent.</param>
         public PermissionModel(PermissionFlags permission)
@@ -39,9 +40,11 @@ namespace Vasont.Inspire.Models.Security
             this.Permissions = permission;
             this.CheckCanRead();
         }
+
         #endregion
 
         #region Public Properties
+
         /// <summary>
         /// Gets or sets a value indicating whether the read permission is set.
         /// </summary>
@@ -148,9 +151,11 @@ namespace Vasont.Inspire.Models.Security
 
             set => this.Permissions = (PermissionFlags)value;
         }
+
         #endregion
 
         #region Private Methods
+
         /// <summary>
         /// This method is used to check if the read permission should be set.
         /// </summary>
@@ -159,6 +164,7 @@ namespace Vasont.Inspire.Models.Security
             // set read permission if the user has read permission or another higher permission is set
             this.CanRead = (int)this.Permissions >= 1;
         }
+
         #endregion
     }
 }

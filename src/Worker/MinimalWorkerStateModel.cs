@@ -76,29 +76,30 @@ namespace Vasont.Inspire.Models.Worker
     }
 
     /// <summary>
-    /// This class represents worker state within the application that contains an additional 
-    /// model object.
+    /// This class represents worker state within the application that contains an additional. model object.
     /// </summary>
     /// <typeparam name="T">Contains the object type of the additional worker model.</typeparam>
     [SuppressMessage("StyleCop.CSharp.MaintainabilityRules", "SA1402:FileMayOnlyContainASingleClass", Justification = "Class files would be named the same.")]
     public sealed class MinimalWorkerStateModel<T> : MinimalWorkerStateModel
     {
         #region Public Constructors
+
         /// <summary>
-        /// Initializes a new instance of the <see cref="MinimalWorkerStateModel{T}"/> class.
+        /// Initializes a new instance of the <see cref="MinimalWorkerStateModel{T}" /> class.
         /// </summary>
         public MinimalWorkerStateModel()
         {
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="MinimalWorkerStateModel{T}"/> class.
+        /// Initializes a new instance of the <see cref="MinimalWorkerStateModel{T}" /> class.
         /// </summary>
         /// <param name="model">Contains any additional model used with the worker.</param>
         public MinimalWorkerStateModel(T model)
         {
             this.Model = model;
         }
+
         #endregion
 
         /// <summary>

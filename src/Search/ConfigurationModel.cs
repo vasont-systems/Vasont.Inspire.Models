@@ -6,19 +6,19 @@
 namespace Vasont.Inspire.Models.Search
 {
     using System.Collections.Generic;
-    
+
     /// <summary>
-    /// This class contains a definition for the ad-hoc query component configuration
+    /// This class contains a definition for the ad-hoc query component configuration.
     /// </summary>
     public class ConfigurationModel
     {
         /// <summary>
-        /// Gets or sets a list of valid field logic operators
+        /// Gets or sets a list of valid field logic operators.
         /// </summary>
         public List<KeyValuePair<SearchLogicOperator, string>> FieldOperators { get; set; } = new List<KeyValuePair<SearchLogicOperator, string>>();
 
         /// <summary>
-        /// Gets or sets a list of <see cref="SearchConfigurationModel"/> objects.
+        /// Gets or sets a list of <see cref="SearchConfigurationModel" /> objects.
         /// </summary>
         public List<SearchConfigurationModel> SearchFields { get; set; } = new List<SearchConfigurationModel>();
     }

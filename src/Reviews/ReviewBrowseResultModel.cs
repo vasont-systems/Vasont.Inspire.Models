@@ -6,7 +6,7 @@
 namespace Vasont.Inspire.Models.Reviews
 {
     using System.Collections.Generic;
-    
+
     /// <summary>
     /// This class represents the results of a review browse query request.
     /// </summary>

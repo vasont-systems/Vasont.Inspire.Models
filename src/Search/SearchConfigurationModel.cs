@@ -15,8 +15,9 @@ namespace Vasont.Inspire.Models.Search
     public class SearchConfigurationModel
     {
         #region Public Constructors
+
         /// <summary>
-        /// Initializes a new instance of the <see cref="SearchConfigurationModel"/> class.
+        /// Initializes a new instance of the <see cref="SearchConfigurationModel" /> class.
         /// </summary>
         public SearchConfigurationModel()
         {
@@ -26,7 +27,7 @@ namespace Vasont.Inspire.Models.Search
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="SearchConfigurationModel"/> class.
+        /// Initializes a new instance of the <see cref="SearchConfigurationModel" /> class.
         /// </summary>
         /// <param name="fieldId">Contains the field identity used for filtering.</param>
         /// <param name="displayName">Contains the user interface field display name.</param>
@@ -43,9 +44,11 @@ namespace Vasont.Inspire.Models.Search
             this.Operators = overrideOperators?.Select(d => new KeyValuePair<SearchExpressionOperator, string>(d.Key, d.Value)).ToList() ?? SearchConfigurationDefaults.TypeOperators(type);
             this.ValidValues = validValues ?? new List<KeyValuePair<string, string>>();
         }
+
         #endregion
 
         #region Public Properties
+
         /// <summary>
         /// Gets or sets the field identity.
         /// </summary>
@@ -57,7 +60,7 @@ namespace Vasont.Inspire.Models.Search
         public string DisplayName { get; set; }
 
         /// <summary>
-        /// Gets or sets a value indicating whether this is an existence comparison (not null)
+        /// Gets or sets a value indicating whether this is an existence comparison (not null).
         /// </summary>
         [JsonIgnore]
         public bool CompareExists { get; set; }
@@ -76,6 +79,7 @@ namespace Vasont.Inspire.Models.Search
         /// Gets or sets a list of valid value key value pairs.
         /// </summary>
         public List<KeyValuePair<string, string>> ValidValues { get; set; }
+
         #endregion
     }
 }

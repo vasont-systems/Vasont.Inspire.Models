@@ -10,7 +10,7 @@ namespace Vasont.Inspire.Models.Transfers
     using Vasont.Inspire.Models.Components;
 
     /// <summary>
-    /// This class represents a reference between one component and another component
+    /// This class represents a reference between one component and another component.
     /// </summary>
     public class ImportReferenceModel
     {
@@ -35,7 +35,7 @@ namespace Vasont.Inspire.Models.Transfers
         public long SourceComponentId { get; set; }
 
         /// <summary>
-        /// Gets or sets the element name of the element that points to the target component
+        /// Gets or sets the element name of the element that points to the target component.
         /// </summary>
         public string SourceElementName { get; set; }
 
@@ -60,7 +60,7 @@ namespace Vasont.Inspire.Models.Transfers
         public string TargetAttributeName { get; set; }
 
         /// <summary>
-        /// Gets or sets the attribute value of the target element within the target component. 
+        /// Gets or sets the attribute value of the target element within the target component.
         /// </summary>
         public string TargetAttributeValue { get; set; }
 
@@ -73,6 +73,11 @@ namespace Vasont.Inspire.Models.Transfers
         /// Gets or sets the user identity used for the creator of the relationship record.
         /// </summary>
         public long CreatorUserId { get; set; }
+
+        /// <summary>
+        /// Gets or sets the word count of the component relation text.
+        /// </summary>
+        public int WordCount { get; set; }
 
         /// <summary>
         /// Gets or sets the component reference of the specified type.

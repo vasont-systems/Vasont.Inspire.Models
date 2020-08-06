@@ -13,11 +13,12 @@ namespace Vasont.Inspire.Models.Components
     public class UserRolePermissionModel
     {
         #region Private Fields
+
         /// <summary>
         /// Contains the unique identifier of the folder permission model.
         /// </summary>
         private string uniqueId;
-        
+
         /// <summary>
         /// Contains the unique user identity value.
         /// </summary>
@@ -31,7 +32,7 @@ namespace Vasont.Inspire.Models.Components
         #endregion
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="UserRolePermissionModel"/> class.
+        /// Initializes a new instance of the <see cref="UserRolePermissionModel" /> class.
         /// </summary>
         public UserRolePermissionModel()
         {
@@ -97,6 +98,7 @@ namespace Vasont.Inspire.Models.Components
         public PermissionModel Permissions { get; set; }
 
         #region Conditional Folder Serialization Methods
+
         /// <summary>
         /// This method is called by the serializer to determine if the property UserId should be rendered.
         /// </summary>
@@ -114,9 +116,11 @@ namespace Vasont.Inspire.Models.Components
         {
             return this.Type == SecurityType.Role;
         }
+
         #endregion
 
         #region Private Methods
+
         /// <summary>
         /// This method is used to generate the unique identity for the model.
         /// </summary>
@@ -125,6 +129,7 @@ namespace Vasont.Inspire.Models.Components
         {
             return this.Type == SecurityType.Role ? "Role_" + this.roleId : "User_" + this.userId;
         }
+
         #endregion
     }
 }

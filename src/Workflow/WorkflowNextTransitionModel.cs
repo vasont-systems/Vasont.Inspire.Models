@@ -12,7 +12,7 @@ namespace Vasont.Inspire.Models.Workflow
     /// This class is a model of a workflow transition that can be chosen from the completion of another activity.
     /// </summary>
     public class WorkflowNextTransitionModel
-    {   
+    {
         /// <summary>
         /// Gets or sets the identity of the workflow transition.
         /// </summary>

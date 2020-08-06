@@ -15,14 +15,16 @@ namespace Vasont.Inspire.Models.Components
     public class MicroComponentModel
     {
         #region Private Fields
+
         /// <summary>
         /// Contains the item type for the specified minimal component.
         /// </summary>
         private ProjectFolderItemType itemType;
+
         #endregion
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="MicroComponentModel"/> class.
+        /// Initializes a new instance of the <see cref="MicroComponentModel" /> class.
         /// </summary>
         public MicroComponentModel()
         {
@@ -61,7 +63,7 @@ namespace Vasont.Inspire.Models.Components
         public bool IsImage => this.ComponentType != null && this.ComponentType.Binary && Files.IsImageFile(this.FileName);
 
         /// <summary>
-        /// Gets or sets the project item type
+        /// Gets or sets the project item type.
         /// </summary>
         public ProjectFolderItemType Type
         {
@@ -79,5 +81,5 @@ namespace Vasont.Inspire.Models.Components
 
             set => this.itemType = value != ProjectFolderItemType.Folder ? value : ProjectFolderItemType.Component;
         }
-    }       
+    }
 }
