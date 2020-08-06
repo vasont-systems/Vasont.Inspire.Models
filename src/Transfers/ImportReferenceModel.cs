@@ -75,6 +75,11 @@ namespace Vasont.Inspire.Models.Transfers
         public long CreatorUserId { get; set; }
 
         /// <summary>
+        /// Gets or sets the word count of the component relation text.
+        /// </summary>
+        public int WordCount { get; set; }
+
+        /// <summary>
         /// Gets or sets the component reference of the specified type.
         /// </summary>
         [JsonIgnore]
