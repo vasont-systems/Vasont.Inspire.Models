@@ -51,5 +51,10 @@ namespace Vasont.Inspire.Models.Transfers
         /// Gets or sets the number of minutes the worker timeout will last.
         /// </summary>
         public int WorkerCacheLifeTimeoutMinutes { get; set; } = 14200;
+
+        /// <summary>
+        /// Gets or sets a value indicating whether import will process in the background or return when completed.
+        /// </summary>
+        public bool WaitForCompletion { get; set; } = false;
     }
 }

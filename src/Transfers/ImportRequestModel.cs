@@ -24,6 +24,11 @@ namespace Vasont.Inspire.Models.Transfers
         public long ProjectFolderId { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether import will process in the background or return when completed.
+        /// </summary>
+        public bool WaitForCompletion { get; set; } = false;
+
+        /// <summary>
         /// Gets or sets a list of <see cref="ImportRequestFileModel"/> that defines files to be imported.
         /// </summary>
         public List<ImportRequestFileModel> ImportFiles { get; set; } = new List<ImportRequestFileModel>();
