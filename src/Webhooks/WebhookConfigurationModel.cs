@@ -22,7 +22,12 @@ namespace Vasont.Inspire.Models.Webhooks
         /// <summary>
         /// The Zoomin new content webhook.
         /// </summary>
-        ZoominNewContent
+        ZoominNewContent,
+
+        /// <summary>
+        /// The Publish result webhook.
+        /// </summary>
+        PublishResult
     }
 
     /// <summary>
