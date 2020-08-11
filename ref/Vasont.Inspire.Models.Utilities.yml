@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Utilities
+  commentId: N:Vasont.Inspire.Models.Utilities
+  id: Vasont.Inspire.Models.Utilities
+  children:
+  - Vasont.Inspire.Models.Utilities.ExportResultModel
+  - Vasont.Inspire.Models.Utilities.SelectUserRoleModel
+  - Vasont.Inspire.Models.Utilities.SupportMessageModel
+  langs:
+  - csharp
+  - vb
+  name: Vasont.Inspire.Models.Utilities
+  nameWithType: Vasont.Inspire.Models.Utilities
+  fullName: Vasont.Inspire.Models.Utilities
+  type: Namespace
+  assemblies:
+  - Vasont.Inspire.Models
+references:
+- uid: Vasont.Inspire.Models.Utilities.ExportResultModel
+  commentId: T:Vasont.Inspire.Models.Utilities.ExportResultModel
+  name: ExportResultModel
+  nameWithType: ExportResultModel
+  fullName: Vasont.Inspire.Models.Utilities.ExportResultModel
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel
+  commentId: T:Vasont.Inspire.Models.Utilities.SelectUserRoleModel
+  name: SelectUserRoleModel
+  nameWithType: SelectUserRoleModel
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel
+- uid: Vasont.Inspire.Models.Utilities.SupportMessageModel
+  commentId: T:Vasont.Inspire.Models.Utilities.SupportMessageModel
+  name: SupportMessageModel
+  nameWithType: SupportMessageModel
+  fullName: Vasont.Inspire.Models.Utilities.SupportMessageModel

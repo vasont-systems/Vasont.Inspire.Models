@@ -1,0 +1,467 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel
+  commentId: T:Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel
+  id: ChangeComponentRequestModel
+  parent: Vasont.Inspire.Models.Webhooks
+  children:
+  - Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.Comment
+  - Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.ComponentIdentifier
+  langs:
+  - csharp
+  - vb
+  name: ChangeComponentRequestModel
+  nameWithType: ChangeComponentRequestModel
+  fullName: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel
+  type: Class
+  source:
+    remote:
+      path: src/Webhooks/ChangeComponentRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ChangeComponentRequestModel
+    path: Webhooks/ChangeComponentRequestModel.cs
+    startLine: 10
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nThis class contains the model used for a component change request.\n"
+  example: []
+  syntax:
+    content: 'public class ChangeComponentRequestModel : ComponentRequestModel'
+    content.vb: >-
+      Public Class ChangeComponentRequestModel
+          Inherits ComponentRequestModel
+  inheritance:
+  - System.Object
+  - Vasont.Inspire.Models.Webhooks.ComponentRequestModel
+  inheritedMembers:
+  - Vasont.Inspire.Models.Webhooks.ComponentRequestModel.RequestId
+  - Vasont.Inspire.Models.Webhooks.ComponentRequestModel.RequesterName
+  - Vasont.Inspire.Models.Webhooks.ComponentRequestModel.RequesterEmail
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.ComponentIdentifier
+  commentId: P:Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.ComponentIdentifier
+  id: ComponentIdentifier
+  parent: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel
+  langs:
+  - csharp
+  - vb
+  name: ComponentIdentifier
+  nameWithType: ChangeComponentRequestModel.ComponentIdentifier
+  fullName: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.ComponentIdentifier
+  type: Property
+  source:
+    remote:
+      path: src/Webhooks/ChangeComponentRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentIdentifier
+    path: Webhooks/ChangeComponentRequestModel.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nGets or sets the value that will be used to identify the component.\n"
+  example: []
+  syntax:
+    content: public string ComponentIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ComponentIdentifier As String
+  overload: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.ComponentIdentifier*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.Comment
+  commentId: P:Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.Comment
+  id: Comment
+  parent: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: ChangeComponentRequestModel.Comment
+  fullName: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.Comment
+  type: Property
+  source:
+    remote:
+      path: src/Webhooks/ChangeComponentRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Comment
+    path: Webhooks/ChangeComponentRequestModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nGets or sets the comment related to the change request.\n"
+  example: []
+  syntax:
+    content: public string Comment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Comment As String
+  overload: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.Comment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Webhooks
+  commentId: N:Vasont.Inspire.Models.Webhooks
+  name: Vasont.Inspire.Models.Webhooks
+  nameWithType: Vasont.Inspire.Models.Webhooks
+  fullName: Vasont.Inspire.Models.Webhooks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vasont.Inspire.Models.Webhooks.ComponentRequestModel
+  commentId: T:Vasont.Inspire.Models.Webhooks.ComponentRequestModel
+  parent: Vasont.Inspire.Models.Webhooks
+  name: ComponentRequestModel
+  nameWithType: ComponentRequestModel
+  fullName: Vasont.Inspire.Models.Webhooks.ComponentRequestModel
+- uid: Vasont.Inspire.Models.Webhooks.ComponentRequestModel.RequestId
+  commentId: P:Vasont.Inspire.Models.Webhooks.ComponentRequestModel.RequestId
+  parent: Vasont.Inspire.Models.Webhooks.ComponentRequestModel
+  name: RequestId
+  nameWithType: ComponentRequestModel.RequestId
+  fullName: Vasont.Inspire.Models.Webhooks.ComponentRequestModel.RequestId
+- uid: Vasont.Inspire.Models.Webhooks.ComponentRequestModel.RequesterName
+  commentId: P:Vasont.Inspire.Models.Webhooks.ComponentRequestModel.RequesterName
+  parent: Vasont.Inspire.Models.Webhooks.ComponentRequestModel
+  name: RequesterName
+  nameWithType: ComponentRequestModel.RequesterName
+  fullName: Vasont.Inspire.Models.Webhooks.ComponentRequestModel.RequesterName
+- uid: Vasont.Inspire.Models.Webhooks.ComponentRequestModel.RequesterEmail
+  commentId: P:Vasont.Inspire.Models.Webhooks.ComponentRequestModel.RequesterEmail
+  parent: Vasont.Inspire.Models.Webhooks.ComponentRequestModel
+  name: RequesterEmail
+  nameWithType: ComponentRequestModel.RequesterEmail
+  fullName: Vasont.Inspire.Models.Webhooks.ComponentRequestModel.RequesterEmail
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.ComponentIdentifier*
+  commentId: Overload:Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.ComponentIdentifier
+  name: ComponentIdentifier
+  nameWithType: ChangeComponentRequestModel.ComponentIdentifier
+  fullName: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.ComponentIdentifier
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.Comment*
+  commentId: Overload:Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.Comment
+  name: Comment
+  nameWithType: ChangeComponentRequestModel.Comment
+  fullName: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.Comment

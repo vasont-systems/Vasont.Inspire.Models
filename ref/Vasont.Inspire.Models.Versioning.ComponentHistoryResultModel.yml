@@ -1,0 +1,526 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Versioning.ComponentHistoryResultModel
+  commentId: T:Vasont.Inspire.Models.Versioning.ComponentHistoryResultModel
+  id: ComponentHistoryResultModel
+  parent: Vasont.Inspire.Models.Versioning
+  children:
+  - Vasont.Inspire.Models.Versioning.ComponentHistoryResultModel.History
+  - Vasont.Inspire.Models.Versioning.ComponentHistoryResultModel.TotalCount
+  langs:
+  - csharp
+  - vb
+  name: ComponentHistoryResultModel
+  nameWithType: ComponentHistoryResultModel
+  fullName: Vasont.Inspire.Models.Versioning.ComponentHistoryResultModel
+  type: Class
+  source:
+    remote:
+      path: src/Versioning/ComponentHistoryResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentHistoryResultModel
+    path: Versioning/ComponentHistoryResultModel.cs
+    startLine: 12
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nThis class represents the results of a paged component history query request.\n"
+  example: []
+  syntax:
+    content: public sealed class ComponentHistoryResultModel
+    content.vb: Public NotInheritable Class ComponentHistoryResultModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Vasont.Inspire.Models.Versioning.ComponentHistoryResultModel.TotalCount
+  commentId: P:Vasont.Inspire.Models.Versioning.ComponentHistoryResultModel.TotalCount
+  id: TotalCount
+  parent: Vasont.Inspire.Models.Versioning.ComponentHistoryResultModel
+  langs:
+  - csharp
+  - vb
+  name: TotalCount
+  nameWithType: ComponentHistoryResultModel.TotalCount
+  fullName: Vasont.Inspire.Models.Versioning.ComponentHistoryResultModel.TotalCount
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ComponentHistoryResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TotalCount
+    path: Versioning/ComponentHistoryResultModel.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the total number of history records found.\n"
+  example: []
+  syntax:
+    content: public long TotalCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TotalCount As Long
+  overload: Vasont.Inspire.Models.Versioning.ComponentHistoryResultModel.TotalCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ComponentHistoryResultModel.History
+  commentId: P:Vasont.Inspire.Models.Versioning.ComponentHistoryResultModel.History
+  id: History
+  parent: Vasont.Inspire.Models.Versioning.ComponentHistoryResultModel
+  langs:
+  - csharp
+  - vb
+  name: History
+  nameWithType: ComponentHistoryResultModel.History
+  fullName: Vasont.Inspire.Models.Versioning.ComponentHistoryResultModel.History
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ComponentHistoryResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: History
+    path: Versioning/ComponentHistoryResultModel.cs
+    startLine: 22
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the resulting history records for the specified page.\n"
+  example: []
+  syntax:
+    content: public List<MinimalComponentHistoryModel> History { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel}
+    content.vb: Public Property History As List(Of MinimalComponentHistoryModel)
+  overload: Vasont.Inspire.Models.Versioning.ComponentHistoryResultModel.History*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Versioning
+  commentId: N:Vasont.Inspire.Models.Versioning
+  name: Vasont.Inspire.Models.Versioning
+  nameWithType: Vasont.Inspire.Models.Versioning
+  fullName: Vasont.Inspire.Models.Versioning
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Versioning.ComponentHistoryResultModel.TotalCount*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ComponentHistoryResultModel.TotalCount
+  name: TotalCount
+  nameWithType: ComponentHistoryResultModel.TotalCount
+  fullName: Vasont.Inspire.Models.Versioning.ComponentHistoryResultModel.TotalCount
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Versioning.ComponentHistoryResultModel.History*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ComponentHistoryResultModel.History
+  name: History
+  nameWithType: ComponentHistoryResultModel.History
+  fullName: Vasont.Inspire.Models.Versioning.ComponentHistoryResultModel.History
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<MinimalComponentHistoryModel>
+  nameWithType: List<MinimalComponentHistoryModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel>
+  nameWithType.vb: List(Of MinimalComponentHistoryModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel)
+  name.vb: List(Of MinimalComponentHistoryModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+    name: MinimalComponentHistoryModel
+    nameWithType: MinimalComponentHistoryModel
+    fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+    name: MinimalComponentHistoryModel
+    nameWithType: MinimalComponentHistoryModel
+    fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Plugins.SystemEventName
+  commentId: T:Vasont.Inspire.Models.Plugins.SystemEventName
+  id: SystemEventName
+  parent: Vasont.Inspire.Models.Plugins
+  children:
+  - Vasont.Inspire.Models.Plugins.SystemEventName.PostExport
+  - Vasont.Inspire.Models.Plugins.SystemEventName.PostImport
+  - Vasont.Inspire.Models.Plugins.SystemEventName.PriorExport
+  - Vasont.Inspire.Models.Plugins.SystemEventName.PriorImport
+  langs:
+  - csharp
+  - vb
+  name: SystemEventName
+  nameWithType: SystemEventName
+  fullName: Vasont.Inspire.Models.Plugins.SystemEventName
+  type: Enum
+  source:
+    remote:
+      path: src/Plugins/SystemEventModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SystemEventName
+    path: Plugins/SystemEventModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nContains an enumerated list of system event names.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum SystemEventName
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum SystemEventName
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Plugins.SystemEventName.PostExport
+  commentId: F:Vasont.Inspire.Models.Plugins.SystemEventName.PostExport
+  id: PostExport
+  parent: Vasont.Inspire.Models.Plugins.SystemEventName
+  langs:
+  - csharp
+  - vb
+  name: PostExport
+  nameWithType: SystemEventName.PostExport
+  fullName: Vasont.Inspire.Models.Plugins.SystemEventName.PostExport
+  type: Field
+  source:
+    remote:
+      path: src/Plugins/SystemEventModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PostExport
+    path: Plugins/SystemEventModel.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nThe system event used after files are exported.\n"
+  example: []
+  syntax:
+    content: PostExport = 0
+    return:
+      type: Vasont.Inspire.Models.Plugins.SystemEventName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Plugins.SystemEventName.PriorExport
+  commentId: F:Vasont.Inspire.Models.Plugins.SystemEventName.PriorExport
+  id: PriorExport
+  parent: Vasont.Inspire.Models.Plugins.SystemEventName
+  langs:
+  - csharp
+  - vb
+  name: PriorExport
+  nameWithType: SystemEventName.PriorExport
+  fullName: Vasont.Inspire.Models.Plugins.SystemEventName.PriorExport
+  type: Field
+  source:
+    remote:
+      path: src/Plugins/SystemEventModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PriorExport
+    path: Plugins/SystemEventModel.cs
+    startLine: 24
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nThe system event used before files are exported.\n"
+  example: []
+  syntax:
+    content: PriorExport = 1
+    return:
+      type: Vasont.Inspire.Models.Plugins.SystemEventName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Plugins.SystemEventName.PostImport
+  commentId: F:Vasont.Inspire.Models.Plugins.SystemEventName.PostImport
+  id: PostImport
+  parent: Vasont.Inspire.Models.Plugins.SystemEventName
+  langs:
+  - csharp
+  - vb
+  name: PostImport
+  nameWithType: SystemEventName.PostImport
+  fullName: Vasont.Inspire.Models.Plugins.SystemEventName.PostImport
+  type: Field
+  source:
+    remote:
+      path: src/Plugins/SystemEventModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PostImport
+    path: Plugins/SystemEventModel.cs
+    startLine: 29
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nThe system event used after files are imported.\n"
+  example: []
+  syntax:
+    content: PostImport = 2
+    return:
+      type: Vasont.Inspire.Models.Plugins.SystemEventName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Plugins.SystemEventName.PriorImport
+  commentId: F:Vasont.Inspire.Models.Plugins.SystemEventName.PriorImport
+  id: PriorImport
+  parent: Vasont.Inspire.Models.Plugins.SystemEventName
+  langs:
+  - csharp
+  - vb
+  name: PriorImport
+  nameWithType: SystemEventName.PriorImport
+  fullName: Vasont.Inspire.Models.Plugins.SystemEventName.PriorImport
+  type: Field
+  source:
+    remote:
+      path: src/Plugins/SystemEventModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PriorImport
+    path: Plugins/SystemEventModel.cs
+    startLine: 34
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nThe system event used before files are imported.\n"
+  example: []
+  syntax:
+    content: PriorImport = 3
+    return:
+      type: Vasont.Inspire.Models.Plugins.SystemEventName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Plugins
+  commentId: N:Vasont.Inspire.Models.Plugins
+  name: Vasont.Inspire.Models.Plugins
+  nameWithType: Vasont.Inspire.Models.Plugins
+  fullName: Vasont.Inspire.Models.Plugins
+- uid: Vasont.Inspire.Models.Plugins.SystemEventName
+  commentId: T:Vasont.Inspire.Models.Plugins.SystemEventName
+  parent: Vasont.Inspire.Models.Plugins
+  name: SystemEventName
+  nameWithType: SystemEventName
+  fullName: Vasont.Inspire.Models.Plugins.SystemEventName

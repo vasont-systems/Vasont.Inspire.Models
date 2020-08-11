@@ -1,0 +1,836 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Plugins.PublishRequestModel
+  commentId: T:Vasont.Inspire.Models.Plugins.PublishRequestModel
+  id: PublishRequestModel
+  parent: Vasont.Inspire.Models.Plugins
+  children:
+  - Vasont.Inspire.Models.Plugins.PublishRequestModel.DitaToolkitVersion
+  - Vasont.Inspire.Models.Plugins.PublishRequestModel.DomainKey
+  - Vasont.Inspire.Models.Plugins.PublishRequestModel.PublishConfigName
+  - Vasont.Inspire.Models.Plugins.PublishRequestModel.PublishParameters
+  - Vasont.Inspire.Models.Plugins.PublishRequestModel.RootComponentId
+  - Vasont.Inspire.Models.Plugins.PublishRequestModel.RootFileName
+  - Vasont.Inspire.Models.Plugins.PublishRequestModel.Type
+  - Vasont.Inspire.Models.Plugins.PublishRequestModel.User
+  langs:
+  - csharp
+  - vb
+  name: PublishRequestModel
+  nameWithType: PublishRequestModel
+  fullName: Vasont.Inspire.Models.Plugins.PublishRequestModel
+  type: Class
+  source:
+    remote:
+      path: src/Plugins/PublishRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PublishRequestModel
+    path: Plugins/PublishRequestModel.cs
+    startLine: 47
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nThis class represents a Publishing Request model.\n"
+  example: []
+  syntax:
+    content: public class PublishRequestModel
+    content.vb: Public Class PublishRequestModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Plugins.PublishRequestModel.RootComponentId
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishRequestModel.RootComponentId
+  id: RootComponentId
+  parent: Vasont.Inspire.Models.Plugins.PublishRequestModel
+  langs:
+  - csharp
+  - vb
+  name: RootComponentId
+  nameWithType: PublishRequestModel.RootComponentId
+  fullName: Vasont.Inspire.Models.Plugins.PublishRequestModel.RootComponentId
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PublishRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RootComponentId
+    path: Plugins/PublishRequestModel.cs
+    startLine: 52
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the identity of the identity of the root component to be published.\n"
+  example: []
+  syntax:
+    content: public long RootComponentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property RootComponentId As Long
+  overload: Vasont.Inspire.Models.Plugins.PublishRequestModel.RootComponentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.PublishRequestModel.RootFileName
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishRequestModel.RootFileName
+  id: RootFileName
+  parent: Vasont.Inspire.Models.Plugins.PublishRequestModel
+  langs:
+  - csharp
+  - vb
+  name: RootFileName
+  nameWithType: PublishRequestModel.RootFileName
+  fullName: Vasont.Inspire.Models.Plugins.PublishRequestModel.RootFileName
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PublishRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RootFileName
+    path: Plugins/PublishRequestModel.cs
+    startLine: 57
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the root file name value.\n"
+  example: []
+  syntax:
+    content: public string RootFileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RootFileName As String
+  overload: Vasont.Inspire.Models.Plugins.PublishRequestModel.RootFileName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.PublishRequestModel.User
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishRequestModel.User
+  id: User
+  parent: Vasont.Inspire.Models.Plugins.PublishRequestModel
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: PublishRequestModel.User
+  fullName: Vasont.Inspire.Models.Plugins.PublishRequestModel.User
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PublishRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: User
+    path: Plugins/PublishRequestModel.cs
+    startLine: 62
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets a minimal model for the user.\n"
+  example: []
+  syntax:
+    content: public MinimalUserModel User { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.MinimalUserModel
+    content.vb: Public Property User As MinimalUserModel
+  overload: Vasont.Inspire.Models.Plugins.PublishRequestModel.User*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.PublishRequestModel.DomainKey
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishRequestModel.DomainKey
+  id: DomainKey
+  parent: Vasont.Inspire.Models.Plugins.PublishRequestModel
+  langs:
+  - csharp
+  - vb
+  name: DomainKey
+  nameWithType: PublishRequestModel.DomainKey
+  fullName: Vasont.Inspire.Models.Plugins.PublishRequestModel.DomainKey
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PublishRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DomainKey
+    path: Plugins/PublishRequestModel.cs
+    startLine: 67
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the domainKey the User is logged into.\n"
+  example: []
+  syntax:
+    content: public string DomainKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DomainKey As String
+  overload: Vasont.Inspire.Models.Plugins.PublishRequestModel.DomainKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.PublishRequestModel.Type
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishRequestModel.Type
+  id: Type
+  parent: Vasont.Inspire.Models.Plugins.PublishRequestModel
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: PublishRequestModel.Type
+  fullName: Vasont.Inspire.Models.Plugins.PublishRequestModel.Type
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PublishRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Type
+    path: Plugins/PublishRequestModel.cs
+    startLine: 72
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the publish type.\n"
+  example: []
+  syntax:
+    content: public PublishType Type { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Plugins.PublishType
+    content.vb: Public Property Type As PublishType
+  overload: Vasont.Inspire.Models.Plugins.PublishRequestModel.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.PublishRequestModel.DitaToolkitVersion
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishRequestModel.DitaToolkitVersion
+  id: DitaToolkitVersion
+  parent: Vasont.Inspire.Models.Plugins.PublishRequestModel
+  langs:
+  - csharp
+  - vb
+  name: DitaToolkitVersion
+  nameWithType: PublishRequestModel.DitaToolkitVersion
+  fullName: Vasont.Inspire.Models.Plugins.PublishRequestModel.DitaToolkitVersion
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PublishRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DitaToolkitVersion
+    path: Plugins/PublishRequestModel.cs
+    startLine: 77
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the DITA Toolkit Version.\n"
+  example: []
+  syntax:
+    content: public string DitaToolkitVersion { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DitaToolkitVersion As String
+  overload: Vasont.Inspire.Models.Plugins.PublishRequestModel.DitaToolkitVersion*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.PublishRequestModel.PublishConfigName
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishRequestModel.PublishConfigName
+  id: PublishConfigName
+  parent: Vasont.Inspire.Models.Plugins.PublishRequestModel
+  langs:
+  - csharp
+  - vb
+  name: PublishConfigName
+  nameWithType: PublishRequestModel.PublishConfigName
+  fullName: Vasont.Inspire.Models.Plugins.PublishRequestModel.PublishConfigName
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PublishRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PublishConfigName
+    path: Plugins/PublishRequestModel.cs
+    startLine: 82
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the publish configuration name.\n"
+  example: []
+  syntax:
+    content: public string PublishConfigName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PublishConfigName As String
+  overload: Vasont.Inspire.Models.Plugins.PublishRequestModel.PublishConfigName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.PublishRequestModel.PublishParameters
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishRequestModel.PublishParameters
+  id: PublishParameters
+  parent: Vasont.Inspire.Models.Plugins.PublishRequestModel
+  langs:
+  - csharp
+  - vb
+  name: PublishParameters
+  nameWithType: PublishRequestModel.PublishParameters
+  fullName: Vasont.Inspire.Models.Plugins.PublishRequestModel.PublishParameters
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PublishRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PublishParameters
+    path: Plugins/PublishRequestModel.cs
+    startLine: 87
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets values containing the publish parameters.\n"
+  example: []
+  syntax:
+    content: public Dictionary<string, string> PublishParameters { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Property PublishParameters As Dictionary(Of String, String)
+  overload: Vasont.Inspire.Models.Plugins.PublishRequestModel.PublishParameters*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Plugins
+  commentId: N:Vasont.Inspire.Models.Plugins
+  name: Vasont.Inspire.Models.Plugins
+  nameWithType: Vasont.Inspire.Models.Plugins
+  fullName: Vasont.Inspire.Models.Plugins
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Plugins.PublishRequestModel.RootComponentId*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishRequestModel.RootComponentId
+  name: RootComponentId
+  nameWithType: PublishRequestModel.RootComponentId
+  fullName: Vasont.Inspire.Models.Plugins.PublishRequestModel.RootComponentId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Plugins.PublishRequestModel.RootFileName*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishRequestModel.RootFileName
+  name: RootFileName
+  nameWithType: PublishRequestModel.RootFileName
+  fullName: Vasont.Inspire.Models.Plugins.PublishRequestModel.RootFileName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Plugins.PublishRequestModel.User*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishRequestModel.User
+  name: User
+  nameWithType: PublishRequestModel.User
+  fullName: Vasont.Inspire.Models.Plugins.PublishRequestModel.User
+- uid: Vasont.Inspire.Models.Security.MinimalUserModel
+  commentId: T:Vasont.Inspire.Models.Security.MinimalUserModel
+  parent: Vasont.Inspire.Models.Security
+  name: MinimalUserModel
+  nameWithType: MinimalUserModel
+  fullName: Vasont.Inspire.Models.Security.MinimalUserModel
+- uid: Vasont.Inspire.Models.Security
+  commentId: N:Vasont.Inspire.Models.Security
+  name: Vasont.Inspire.Models.Security
+  nameWithType: Vasont.Inspire.Models.Security
+  fullName: Vasont.Inspire.Models.Security
+- uid: Vasont.Inspire.Models.Plugins.PublishRequestModel.DomainKey*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishRequestModel.DomainKey
+  name: DomainKey
+  nameWithType: PublishRequestModel.DomainKey
+  fullName: Vasont.Inspire.Models.Plugins.PublishRequestModel.DomainKey
+- uid: Vasont.Inspire.Models.Plugins.PublishRequestModel.Type*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishRequestModel.Type
+  name: Type
+  nameWithType: PublishRequestModel.Type
+  fullName: Vasont.Inspire.Models.Plugins.PublishRequestModel.Type
+- uid: Vasont.Inspire.Models.Plugins.PublishType
+  commentId: T:Vasont.Inspire.Models.Plugins.PublishType
+  parent: Vasont.Inspire.Models.Plugins
+  name: PublishType
+  nameWithType: PublishType
+  fullName: Vasont.Inspire.Models.Plugins.PublishType
+- uid: Vasont.Inspire.Models.Plugins.PublishRequestModel.DitaToolkitVersion*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishRequestModel.DitaToolkitVersion
+  name: DitaToolkitVersion
+  nameWithType: PublishRequestModel.DitaToolkitVersion
+  fullName: Vasont.Inspire.Models.Plugins.PublishRequestModel.DitaToolkitVersion
+- uid: Vasont.Inspire.Models.Plugins.PublishRequestModel.PublishConfigName*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishRequestModel.PublishConfigName
+  name: PublishConfigName
+  nameWithType: PublishRequestModel.PublishConfigName
+  fullName: Vasont.Inspire.Models.Plugins.PublishRequestModel.PublishConfigName
+- uid: Vasont.Inspire.Models.Plugins.PublishRequestModel.PublishParameters*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishRequestModel.PublishParameters
+  name: PublishParameters
+  nameWithType: PublishRequestModel.PublishParameters
+  fullName: Vasont.Inspire.Models.Plugins.PublishRequestModel.PublishParameters
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

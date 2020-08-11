@@ -1,0 +1,630 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.XmlValidationErrorModel
+  commentId: T:Vasont.Inspire.Models.Components.XmlValidationErrorModel
+  id: XmlValidationErrorModel
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.XmlValidationErrorModel.ComponentId
+  - Vasont.Inspire.Models.Components.XmlValidationErrorModel.FileName
+  - Vasont.Inspire.Models.Components.XmlValidationErrorModel.IsMap
+  - Vasont.Inspire.Models.Components.XmlValidationErrorModel.LineNumber
+  - Vasont.Inspire.Models.Components.XmlValidationErrorModel.LinePosition
+  - Vasont.Inspire.Models.Components.XmlValidationErrorModel.Message
+  langs:
+  - csharp
+  - vb
+  name: XmlValidationErrorModel
+  nameWithType: XmlValidationErrorModel
+  fullName: Vasont.Inspire.Models.Components.XmlValidationErrorModel
+  type: Class
+  source:
+    remote:
+      path: src/Components/XmlValidationErrorModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: XmlValidationErrorModel
+    path: Components/XmlValidationErrorModel.cs
+    startLine: 10
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis class is used as the Error Response Model\n"
+  example: []
+  syntax:
+    content: public class XmlValidationErrorModel
+    content.vb: Public Class XmlValidationErrorModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Components.XmlValidationErrorModel.ComponentId
+  commentId: P:Vasont.Inspire.Models.Components.XmlValidationErrorModel.ComponentId
+  id: ComponentId
+  parent: Vasont.Inspire.Models.Components.XmlValidationErrorModel
+  langs:
+  - csharp
+  - vb
+  name: ComponentId
+  nameWithType: XmlValidationErrorModel.ComponentId
+  fullName: Vasont.Inspire.Models.Components.XmlValidationErrorModel.ComponentId
+  type: Property
+  source:
+    remote:
+      path: src/Components/XmlValidationErrorModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentId
+    path: Components/XmlValidationErrorModel.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating the Component Identity.\n"
+  example: []
+  syntax:
+    content: public long ComponentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ComponentId As Long
+  overload: Vasont.Inspire.Models.Components.XmlValidationErrorModel.ComponentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.XmlValidationErrorModel.IsMap
+  commentId: P:Vasont.Inspire.Models.Components.XmlValidationErrorModel.IsMap
+  id: IsMap
+  parent: Vasont.Inspire.Models.Components.XmlValidationErrorModel
+  langs:
+  - csharp
+  - vb
+  name: IsMap
+  nameWithType: XmlValidationErrorModel.IsMap
+  fullName: Vasont.Inspire.Models.Components.XmlValidationErrorModel.IsMap
+  type: Property
+  source:
+    remote:
+      path: src/Components/XmlValidationErrorModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IsMap
+    path: Components/XmlValidationErrorModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether the component is a map.\n"
+  example: []
+  syntax:
+    content: public bool IsMap { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsMap As Boolean
+  overload: Vasont.Inspire.Models.Components.XmlValidationErrorModel.IsMap*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.XmlValidationErrorModel.FileName
+  commentId: P:Vasont.Inspire.Models.Components.XmlValidationErrorModel.FileName
+  id: FileName
+  parent: Vasont.Inspire.Models.Components.XmlValidationErrorModel
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: XmlValidationErrorModel.FileName
+  fullName: Vasont.Inspire.Models.Components.XmlValidationErrorModel.FileName
+  type: Property
+  source:
+    remote:
+      path: src/Components/XmlValidationErrorModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FileName
+    path: Components/XmlValidationErrorModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating the Component Filename.\n"
+  example: []
+  syntax:
+    content: public string FileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FileName As String
+  overload: Vasont.Inspire.Models.Components.XmlValidationErrorModel.FileName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.XmlValidationErrorModel.LineNumber
+  commentId: P:Vasont.Inspire.Models.Components.XmlValidationErrorModel.LineNumber
+  id: LineNumber
+  parent: Vasont.Inspire.Models.Components.XmlValidationErrorModel
+  langs:
+  - csharp
+  - vb
+  name: LineNumber
+  nameWithType: XmlValidationErrorModel.LineNumber
+  fullName: Vasont.Inspire.Models.Components.XmlValidationErrorModel.LineNumber
+  type: Property
+  source:
+    remote:
+      path: src/Components/XmlValidationErrorModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: LineNumber
+    path: Components/XmlValidationErrorModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating the error line number.\n"
+  example: []
+  syntax:
+    content: public int LineNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property LineNumber As Integer
+  overload: Vasont.Inspire.Models.Components.XmlValidationErrorModel.LineNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.XmlValidationErrorModel.LinePosition
+  commentId: P:Vasont.Inspire.Models.Components.XmlValidationErrorModel.LinePosition
+  id: LinePosition
+  parent: Vasont.Inspire.Models.Components.XmlValidationErrorModel
+  langs:
+  - csharp
+  - vb
+  name: LinePosition
+  nameWithType: XmlValidationErrorModel.LinePosition
+  fullName: Vasont.Inspire.Models.Components.XmlValidationErrorModel.LinePosition
+  type: Property
+  source:
+    remote:
+      path: src/Components/XmlValidationErrorModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: LinePosition
+    path: Components/XmlValidationErrorModel.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating the error line position.\n"
+  example: []
+  syntax:
+    content: public int LinePosition { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property LinePosition As Integer
+  overload: Vasont.Inspire.Models.Components.XmlValidationErrorModel.LinePosition*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.XmlValidationErrorModel.Message
+  commentId: P:Vasont.Inspire.Models.Components.XmlValidationErrorModel.Message
+  id: Message
+  parent: Vasont.Inspire.Models.Components.XmlValidationErrorModel
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: XmlValidationErrorModel.Message
+  fullName: Vasont.Inspire.Models.Components.XmlValidationErrorModel.Message
+  type: Property
+  source:
+    remote:
+      path: src/Components/XmlValidationErrorModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Message
+    path: Components/XmlValidationErrorModel.cs
+    startLine: 40
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating the validation message.\n"
+  example: []
+  syntax:
+    content: public string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Message As String
+  overload: Vasont.Inspire.Models.Components.XmlValidationErrorModel.Message*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Components.XmlValidationErrorModel.ComponentId*
+  commentId: Overload:Vasont.Inspire.Models.Components.XmlValidationErrorModel.ComponentId
+  name: ComponentId
+  nameWithType: XmlValidationErrorModel.ComponentId
+  fullName: Vasont.Inspire.Models.Components.XmlValidationErrorModel.ComponentId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Components.XmlValidationErrorModel.IsMap*
+  commentId: Overload:Vasont.Inspire.Models.Components.XmlValidationErrorModel.IsMap
+  name: IsMap
+  nameWithType: XmlValidationErrorModel.IsMap
+  fullName: Vasont.Inspire.Models.Components.XmlValidationErrorModel.IsMap
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Components.XmlValidationErrorModel.FileName*
+  commentId: Overload:Vasont.Inspire.Models.Components.XmlValidationErrorModel.FileName
+  name: FileName
+  nameWithType: XmlValidationErrorModel.FileName
+  fullName: Vasont.Inspire.Models.Components.XmlValidationErrorModel.FileName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Components.XmlValidationErrorModel.LineNumber*
+  commentId: Overload:Vasont.Inspire.Models.Components.XmlValidationErrorModel.LineNumber
+  name: LineNumber
+  nameWithType: XmlValidationErrorModel.LineNumber
+  fullName: Vasont.Inspire.Models.Components.XmlValidationErrorModel.LineNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Vasont.Inspire.Models.Components.XmlValidationErrorModel.LinePosition*
+  commentId: Overload:Vasont.Inspire.Models.Components.XmlValidationErrorModel.LinePosition
+  name: LinePosition
+  nameWithType: XmlValidationErrorModel.LinePosition
+  fullName: Vasont.Inspire.Models.Components.XmlValidationErrorModel.LinePosition
+- uid: Vasont.Inspire.Models.Components.XmlValidationErrorModel.Message*
+  commentId: Overload:Vasont.Inspire.Models.Components.XmlValidationErrorModel.Message
+  name: Message
+  nameWithType: XmlValidationErrorModel.Message
+  fullName: Vasont.Inspire.Models.Components.XmlValidationErrorModel.Message

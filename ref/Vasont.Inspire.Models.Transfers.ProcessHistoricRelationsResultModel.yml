@@ -1,0 +1,662 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel
+  commentId: T:Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel
+  id: ProcessHistoricRelationsResultModel
+  parent: Vasont.Inspire.Models.Transfers
+  children:
+  - Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.#ctor(System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.ExportHistoryComponentModel},System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.MissingReferenceModel})
+  - Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.MissingReferences
+  - Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.References
+  - Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.Success
+  langs:
+  - csharp
+  - vb
+  name: ProcessHistoricRelationsResultModel
+  nameWithType: ProcessHistoricRelationsResultModel
+  fullName: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel
+  type: Class
+  source:
+    remote:
+      path: src/Transfers/ProcessHistoricRelationsResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProcessHistoricRelationsResultModel
+    path: Transfers/ProcessHistoricRelationsResultModel.cs
+    startLine: 12
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nThis class represents the results of relationship analysis on historic component content.\n"
+  example: []
+  syntax:
+    content: public class ProcessHistoricRelationsResultModel
+    content.vb: Public Class ProcessHistoricRelationsResultModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.#ctor(System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.ExportHistoryComponentModel},System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.MissingReferenceModel})
+  commentId: M:Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.#ctor(System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.ExportHistoryComponentModel},System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.MissingReferenceModel})
+  id: '#ctor(System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.ExportHistoryComponentModel},System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.MissingReferenceModel})'
+  parent: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel
+  langs:
+  - csharp
+  - vb
+  name: ProcessHistoricRelationsResultModel(List<ExportHistoryComponentModel>, List<MissingReferenceModel>)
+  nameWithType: ProcessHistoricRelationsResultModel.ProcessHistoricRelationsResultModel(List<ExportHistoryComponentModel>, List<MissingReferenceModel>)
+  fullName: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.ProcessHistoricRelationsResultModel(System.Collections.Generic.List<Vasont.Inspire.Models.Transfers.ExportHistoryComponentModel>, System.Collections.Generic.List<Vasont.Inspire.Models.Transfers.MissingReferenceModel>)
+  type: Constructor
+  source:
+    remote:
+      path: src/Transfers/ProcessHistoricRelationsResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: .ctor
+    path: Transfers/ProcessHistoricRelationsResultModel.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nInitializes a new instance of the <xref href=\"Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public ProcessHistoricRelationsResultModel(List<ExportHistoryComponentModel> references = null, List<MissingReferenceModel> missingReferences = null)
+    parameters:
+    - id: references
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.ExportHistoryComponentModel}
+      description: Contains an optional list of references to initialize the model.
+    - id: missingReferences
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.MissingReferenceModel}
+      description: Contains an optional list of missing references to initialize the model.
+    content.vb: Public Sub New(references As List(Of ExportHistoryComponentModel) = Nothing, missingReferences As List(Of MissingReferenceModel) = Nothing)
+  overload: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.#ctor*
+  nameWithType.vb: ProcessHistoricRelationsResultModel.ProcessHistoricRelationsResultModel(List(Of ExportHistoryComponentModel), List(Of MissingReferenceModel))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.ProcessHistoricRelationsResultModel(System.Collections.Generic.List(Of Vasont.Inspire.Models.Transfers.ExportHistoryComponentModel), System.Collections.Generic.List(Of Vasont.Inspire.Models.Transfers.MissingReferenceModel))
+  name.vb: ProcessHistoricRelationsResultModel(List(Of ExportHistoryComponentModel), List(Of MissingReferenceModel))
+- uid: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.Success
+  commentId: P:Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.Success
+  id: Success
+  parent: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: ProcessHistoricRelationsResultModel.Success
+  fullName: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.Success
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ProcessHistoricRelationsResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Success
+    path: Transfers/ProcessHistoricRelationsResultModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets a value indicating whether the process relations request was successful.\n"
+  example: []
+  syntax:
+    content: public bool Success { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Success As Boolean
+  overload: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.Success*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.References
+  commentId: P:Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.References
+  id: References
+  parent: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel
+  langs:
+  - csharp
+  - vb
+  name: References
+  nameWithType: ProcessHistoricRelationsResultModel.References
+  fullName: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.References
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ProcessHistoricRelationsResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: References
+    path: Transfers/ProcessHistoricRelationsResultModel.cs
+    startLine: 33
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets a dictionary containing references processed within a process relations request.\n"
+  example: []
+  syntax:
+    content: public List<ExportHistoryComponentModel> References { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.ExportHistoryComponentModel}
+    content.vb: Public ReadOnly Property References As List(Of ExportHistoryComponentModel)
+  overload: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.References*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.MissingReferences
+  commentId: P:Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.MissingReferences
+  id: MissingReferences
+  parent: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel
+  langs:
+  - csharp
+  - vb
+  name: MissingReferences
+  nameWithType: ProcessHistoricRelationsResultModel.MissingReferences
+  fullName: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.MissingReferences
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ProcessHistoricRelationsResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: MissingReferences
+    path: Transfers/ProcessHistoricRelationsResultModel.cs
+    startLine: 38
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets a dictionary containing missing references that could not be resolved within the process relationships request.\n"
+  example: []
+  syntax:
+    content: public List<MissingReferenceModel> MissingReferences { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.MissingReferenceModel}
+    content.vb: Public ReadOnly Property MissingReferences As List(Of MissingReferenceModel)
+  overload: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.MissingReferences*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Vasont.Inspire.Models.Transfers
+  commentId: N:Vasont.Inspire.Models.Transfers
+  name: Vasont.Inspire.Models.Transfers
+  nameWithType: Vasont.Inspire.Models.Transfers
+  fullName: Vasont.Inspire.Models.Transfers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel
+  commentId: T:Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel
+  name: ProcessHistoricRelationsResultModel
+  nameWithType: ProcessHistoricRelationsResultModel
+  fullName: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel
+- uid: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.#ctor*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.#ctor
+  name: ProcessHistoricRelationsResultModel
+  nameWithType: ProcessHistoricRelationsResultModel.ProcessHistoricRelationsResultModel
+  fullName: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.ProcessHistoricRelationsResultModel
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.ExportHistoryComponentModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.ExportHistoryComponentModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ExportHistoryComponentModel>
+  nameWithType: List<ExportHistoryComponentModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Transfers.ExportHistoryComponentModel>
+  nameWithType.vb: List(Of ExportHistoryComponentModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Transfers.ExportHistoryComponentModel)
+  name.vb: List(Of ExportHistoryComponentModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Transfers.ExportHistoryComponentModel
+    name: ExportHistoryComponentModel
+    nameWithType: ExportHistoryComponentModel
+    fullName: Vasont.Inspire.Models.Transfers.ExportHistoryComponentModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Transfers.ExportHistoryComponentModel
+    name: ExportHistoryComponentModel
+    nameWithType: ExportHistoryComponentModel
+    fullName: Vasont.Inspire.Models.Transfers.ExportHistoryComponentModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.MissingReferenceModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.MissingReferenceModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<MissingReferenceModel>
+  nameWithType: List<MissingReferenceModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Transfers.MissingReferenceModel>
+  nameWithType.vb: List(Of MissingReferenceModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Transfers.MissingReferenceModel)
+  name.vb: List(Of MissingReferenceModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Transfers.MissingReferenceModel
+    name: MissingReferenceModel
+    nameWithType: MissingReferenceModel
+    fullName: Vasont.Inspire.Models.Transfers.MissingReferenceModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Transfers.MissingReferenceModel
+    name: MissingReferenceModel
+    nameWithType: MissingReferenceModel
+    fullName: Vasont.Inspire.Models.Transfers.MissingReferenceModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.Success*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.Success
+  name: Success
+  nameWithType: ProcessHistoricRelationsResultModel.Success
+  fullName: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.Success
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.References*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.References
+  name: References
+  nameWithType: ProcessHistoricRelationsResultModel.References
+  fullName: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.References
+- uid: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.MissingReferences*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.MissingReferences
+  name: MissingReferences
+  nameWithType: ProcessHistoricRelationsResultModel.MissingReferences
+  fullName: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel.MissingReferences

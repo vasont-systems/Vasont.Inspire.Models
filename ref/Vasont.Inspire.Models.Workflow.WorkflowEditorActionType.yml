@@ -1,0 +1,235 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType
+  commentId: T:Vasont.Inspire.Models.Workflow.WorkflowEditorActionType
+  id: WorkflowEditorActionType
+  parent: Vasont.Inspire.Models.Workflow
+  children:
+  - Vasont.Inspire.Models.Workflow.WorkflowEditorActionType.Download
+  - Vasont.Inspire.Models.Workflow.WorkflowEditorActionType.None
+  - Vasont.Inspire.Models.Workflow.WorkflowEditorActionType.Save
+  - Vasont.Inspire.Models.Workflow.WorkflowEditorActionType.SaveAndSubmit
+  - Vasont.Inspire.Models.Workflow.WorkflowEditorActionType.SaveAs
+  langs:
+  - csharp
+  - vb
+  name: WorkflowEditorActionType
+  nameWithType: WorkflowEditorActionType
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType
+  type: Enum
+  source:
+    remote:
+      path: src/Workflow/WorkflowEditorModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: WorkflowEditorActionType
+    path: Workflow/WorkflowEditorModel.cs
+    startLine: 14
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nContains an enumerated list of workflow editor actions to execute.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum WorkflowEditorActionType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum WorkflowEditorActionType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType.None
+  commentId: F:Vasont.Inspire.Models.Workflow.WorkflowEditorActionType.None
+  id: None
+  parent: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: WorkflowEditorActionType.None
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType.None
+  type: Field
+  source:
+    remote:
+      path: src/Workflow/WorkflowEditorModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: None
+    path: Workflow/WorkflowEditorModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nNo action. Commonly set by default.\n"
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType.Save
+  commentId: F:Vasont.Inspire.Models.Workflow.WorkflowEditorActionType.Save
+  id: Save
+  parent: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType
+  langs:
+  - csharp
+  - vb
+  name: Save
+  nameWithType: WorkflowEditorActionType.Save
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType.Save
+  type: Field
+  source:
+    remote:
+      path: src/Workflow/WorkflowEditorModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Save
+    path: Workflow/WorkflowEditorModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nSave the contents to a temporary storage area.\n"
+  example: []
+  syntax:
+    content: Save = 1
+    return:
+      type: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType.SaveAndSubmit
+  commentId: F:Vasont.Inspire.Models.Workflow.WorkflowEditorActionType.SaveAndSubmit
+  id: SaveAndSubmit
+  parent: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType
+  langs:
+  - csharp
+  - vb
+  name: SaveAndSubmit
+  nameWithType: WorkflowEditorActionType.SaveAndSubmit
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType.SaveAndSubmit
+  type: Field
+  source:
+    remote:
+      path: src/Workflow/WorkflowEditorModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SaveAndSubmit
+    path: Workflow/WorkflowEditorModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nSave the contents and submit back into the repository overwriting the previous contents.\n"
+  example: []
+  syntax:
+    content: SaveAndSubmit = 2
+    return:
+      type: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType.SaveAs
+  commentId: F:Vasont.Inspire.Models.Workflow.WorkflowEditorActionType.SaveAs
+  id: SaveAs
+  parent: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType
+  langs:
+  - csharp
+  - vb
+  name: SaveAs
+  nameWithType: WorkflowEditorActionType.SaveAs
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType.SaveAs
+  type: Field
+  source:
+    remote:
+      path: src/Workflow/WorkflowEditorModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SaveAs
+    path: Workflow/WorkflowEditorModel.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nSave the contents and submit back into the repository as a new component.\n"
+  example: []
+  syntax:
+    content: SaveAs = 3
+    return:
+      type: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType.Download
+  commentId: F:Vasont.Inspire.Models.Workflow.WorkflowEditorActionType.Download
+  id: Download
+  parent: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType
+  langs:
+  - csharp
+  - vb
+  name: Download
+  nameWithType: WorkflowEditorActionType.Download
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType.Download
+  type: Field
+  source:
+    remote:
+      path: src/Workflow/WorkflowEditorModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Download
+    path: Workflow/WorkflowEditorModel.cs
+    startLine: 40
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nSave the contents to a temporary storage area and download the contents to a local disk file.\n"
+  example: []
+  syntax:
+    content: Download = 4
+    return:
+      type: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Workflow
+  commentId: N:Vasont.Inspire.Models.Workflow
+  name: Vasont.Inspire.Models.Workflow
+  nameWithType: Vasont.Inspire.Models.Workflow
+  fullName: Vasont.Inspire.Models.Workflow
+- uid: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType
+  commentId: T:Vasont.Inspire.Models.Workflow.WorkflowEditorActionType
+  parent: Vasont.Inspire.Models.Workflow
+  name: WorkflowEditorActionType
+  nameWithType: WorkflowEditorActionType
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowEditorActionType

@@ -1,0 +1,414 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Projects.ProjectParticipantModel
+  commentId: T:Vasont.Inspire.Models.Projects.ProjectParticipantModel
+  id: ProjectParticipantModel
+  parent: Vasont.Inspire.Models.Projects
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ProjectParticipantModel
+  nameWithType: ProjectParticipantModel
+  fullName: Vasont.Inspire.Models.Projects.ProjectParticipantModel
+  type: Class
+  source:
+    remote:
+      path: src/Projects/ProjectParticipantModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProjectParticipantModel
+    path: Projects/ProjectParticipantModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nThis class represents a participant of a project within the application.\n"
+  example: []
+  syntax:
+    content: 'public class ProjectParticipantModel : UserRoleAssociationModel'
+    content.vb: >-
+      Public Class ProjectParticipantModel
+          Inherits UserRoleAssociationModel
+  inheritance:
+  - System.Object
+  - Vasont.Inspire.Models.Security.UserRoleAssociationModel
+  inheritedMembers:
+  - Vasont.Inspire.Models.Security.UserRoleAssociationModel.Id
+  - Vasont.Inspire.Models.Security.UserRoleAssociationModel.ExternalUserId
+  - Vasont.Inspire.Models.Security.UserRoleAssociationModel.Type
+  - Vasont.Inspire.Models.Security.UserRoleAssociationModel.TypeText
+  - Vasont.Inspire.Models.Security.UserRoleAssociationModel.Name
+  - Vasont.Inspire.Models.Security.UserRoleAssociationModel.Description
+  - Vasont.Inspire.Models.Security.UserRoleAssociationModel.Email
+  - Vasont.Inspire.Models.Security.UserRoleAssociationModel.Memberships
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Vasont.Inspire.Models.Projects
+  commentId: N:Vasont.Inspire.Models.Projects
+  name: Vasont.Inspire.Models.Projects
+  nameWithType: Vasont.Inspire.Models.Projects
+  fullName: Vasont.Inspire.Models.Projects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel
+  commentId: T:Vasont.Inspire.Models.Security.UserRoleAssociationModel
+  parent: Vasont.Inspire.Models.Security
+  name: UserRoleAssociationModel
+  nameWithType: UserRoleAssociationModel
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Id
+  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.Id
+  parent: Vasont.Inspire.Models.Security.UserRoleAssociationModel
+  name: Id
+  nameWithType: UserRoleAssociationModel.Id
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Id
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.ExternalUserId
+  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.ExternalUserId
+  parent: Vasont.Inspire.Models.Security.UserRoleAssociationModel
+  name: ExternalUserId
+  nameWithType: UserRoleAssociationModel.ExternalUserId
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.ExternalUserId
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Type
+  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.Type
+  parent: Vasont.Inspire.Models.Security.UserRoleAssociationModel
+  name: Type
+  nameWithType: UserRoleAssociationModel.Type
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Type
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.TypeText
+  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.TypeText
+  parent: Vasont.Inspire.Models.Security.UserRoleAssociationModel
+  name: TypeText
+  nameWithType: UserRoleAssociationModel.TypeText
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.TypeText
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Name
+  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.Name
+  parent: Vasont.Inspire.Models.Security.UserRoleAssociationModel
+  name: Name
+  nameWithType: UserRoleAssociationModel.Name
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Name
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Description
+  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.Description
+  parent: Vasont.Inspire.Models.Security.UserRoleAssociationModel
+  name: Description
+  nameWithType: UserRoleAssociationModel.Description
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Description
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Email
+  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.Email
+  parent: Vasont.Inspire.Models.Security.UserRoleAssociationModel
+  name: Email
+  nameWithType: UserRoleAssociationModel.Email
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Email
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Memberships
+  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.Memberships
+  parent: Vasont.Inspire.Models.Security.UserRoleAssociationModel
+  name: Memberships
+  nameWithType: UserRoleAssociationModel.Memberships
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Memberships
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Security
+  commentId: N:Vasont.Inspire.Models.Security
+  name: Vasont.Inspire.Models.Security
+  nameWithType: Vasont.Inspire.Models.Security
+  fullName: Vasont.Inspire.Models.Security

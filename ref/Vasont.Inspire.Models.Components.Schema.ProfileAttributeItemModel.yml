@@ -1,0 +1,779 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel
+  commentId: T:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel
+  id: ProfileAttributeItemModel
+  parent: Vasont.Inspire.Models.Components.Schema
+  children:
+  - Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Display
+  - Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Id
+  - Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.ItemId
+  - Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.ParentId
+  - Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Selected
+  - Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Type
+  - Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Value
+  langs:
+  - csharp
+  - vb
+  name: ProfileAttributeItemModel
+  nameWithType: ProfileAttributeItemModel
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel
+  type: Class
+  source:
+    remote:
+      path: src/Components/Schema/ProfileAttributeItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProfileAttributeItemModel
+    path: Components/Schema/ProfileAttributeItemModel.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components.Schema
+  summary: "\nThis class represents a profile attribute item model within the application.\n"
+  example: []
+  syntax:
+    content: public class ProfileAttributeItemModel
+    content.vb: Public Class ProfileAttributeItemModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Id
+  commentId: P:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Id
+  id: Id
+  parent: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ProfileAttributeItemModel.Id
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Id
+  type: Property
+  source:
+    remote:
+      path: src/Components/Schema/ProfileAttributeItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Id
+    path: Components/Schema/ProfileAttributeItemModel.cs
+    startLine: 40
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components.Schema
+  summary: "\nGets or sets the unique identifier of the profile attribute item.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(Order = 1)]
+
+      public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty(Order:=1)>
+
+      Public Property Id As String
+  overload: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Id*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 1
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Type
+  commentId: P:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Type
+  id: Type
+  parent: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: ProfileAttributeItemModel.Type
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Type
+  type: Property
+  source:
+    remote:
+      path: src/Components/Schema/ProfileAttributeItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Type
+    path: Components/Schema/ProfileAttributeItemModel.cs
+    startLine: 46
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components.Schema
+  summary: "\nGets or sets the profile attribute item type\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(Order = 2)]
+
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public ProfileAttributeItemType Type { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType
+    content.vb: >-
+      <JsonProperty(Order:=2)>
+
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Property Type As ProfileAttributeItemType
+  overload: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Type*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 2
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.ParentId
+  commentId: P:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.ParentId
+  id: ParentId
+  parent: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel
+  langs:
+  - csharp
+  - vb
+  name: ParentId
+  nameWithType: ProfileAttributeItemModel.ParentId
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.ParentId
+  type: Property
+  source:
+    remote:
+      path: src/Components/Schema/ProfileAttributeItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ParentId
+    path: Components/Schema/ProfileAttributeItemModel.cs
+    startLine: 53
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components.Schema
+  summary: "\nGets or sets the parent profile attribute item identity value.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(Order = 3)]
+
+      public string ParentId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty(Order:=3)>
+
+      Public Property ParentId As String
+  overload: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.ParentId*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 3
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Display
+  commentId: P:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Display
+  id: Display
+  parent: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel
+  langs:
+  - csharp
+  - vb
+  name: Display
+  nameWithType: ProfileAttributeItemModel.Display
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Display
+  type: Property
+  source:
+    remote:
+      path: src/Components/Schema/ProfileAttributeItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Display
+    path: Components/Schema/ProfileAttributeItemModel.cs
+    startLine: 59
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components.Schema
+  summary: "\nGets or sets the display value for the item.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(Order = 4)]
+
+      public string Display { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty(Order:=4)>
+
+      Public Property Display As String
+  overload: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Display*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 4
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Value
+  commentId: P:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Value
+  id: Value
+  parent: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: ProfileAttributeItemModel.Value
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Value
+  type: Property
+  source:
+    remote:
+      path: src/Components/Schema/ProfileAttributeItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Value
+    path: Components/Schema/ProfileAttributeItemModel.cs
+    startLine: 65
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components.Schema
+  summary: "\nGets or sets the value for the item.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(Order = 5)]
+
+      public string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty(Order:=5)>
+
+      Public Property Value As String
+  overload: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Value*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 5
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Selected
+  commentId: P:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Selected
+  id: Selected
+  parent: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel
+  langs:
+  - csharp
+  - vb
+  name: Selected
+  nameWithType: ProfileAttributeItemModel.Selected
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Selected
+  type: Property
+  source:
+    remote:
+      path: src/Components/Schema/ProfileAttributeItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Selected
+    path: Components/Schema/ProfileAttributeItemModel.cs
+    startLine: 71
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components.Schema
+  summary: "\nGets or sets a value indicating whether the item is selected.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(Order = 6)]
+
+      public bool Selected { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonProperty(Order:=6)>
+
+      Public Property Selected As Boolean
+  overload: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Selected*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 6
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.ItemId
+  commentId: P:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.ItemId
+  id: ItemId
+  parent: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel
+  langs:
+  - csharp
+  - vb
+  name: ItemId
+  nameWithType: ProfileAttributeItemModel.ItemId
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.ItemId
+  type: Property
+  source:
+    remote:
+      path: src/Components/Schema/ProfileAttributeItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ItemId
+    path: Components/Schema/ProfileAttributeItemModel.cs
+    startLine: 77
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components.Schema
+  summary: "\nGets or sets the item id.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(Order = 7)]
+
+      public long ItemId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: >-
+      <JsonProperty(Order:=7)>
+
+      Public Property ItemId As Long
+  overload: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.ItemId*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 7
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Components.Schema
+  commentId: N:Vasont.Inspire.Models.Components.Schema
+  name: Vasont.Inspire.Models.Components.Schema
+  nameWithType: Vasont.Inspire.Models.Components.Schema
+  fullName: Vasont.Inspire.Models.Components.Schema
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Id*
+  commentId: Overload:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Id
+  name: Id
+  nameWithType: ProfileAttributeItemModel.Id
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Type*
+  commentId: Overload:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Type
+  name: Type
+  nameWithType: ProfileAttributeItemModel.Type
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Type
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType
+  commentId: T:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType
+  parent: Vasont.Inspire.Models.Components.Schema
+  name: ProfileAttributeItemType
+  nameWithType: ProfileAttributeItemType
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.ParentId*
+  commentId: Overload:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.ParentId
+  name: ParentId
+  nameWithType: ProfileAttributeItemModel.ParentId
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.ParentId
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Display*
+  commentId: Overload:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Display
+  name: Display
+  nameWithType: ProfileAttributeItemModel.Display
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Display
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Value*
+  commentId: Overload:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Value
+  name: Value
+  nameWithType: ProfileAttributeItemModel.Value
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Value
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Selected*
+  commentId: Overload:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Selected
+  name: Selected
+  nameWithType: ProfileAttributeItemModel.Selected
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Selected
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.ItemId*
+  commentId: Overload:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.ItemId
+  name: ItemId
+  nameWithType: ProfileAttributeItemModel.ItemId
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.ItemId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64

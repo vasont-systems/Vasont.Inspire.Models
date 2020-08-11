@@ -1,0 +1,1085 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+  commentId: T:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+  id: MinimalComponentHistoryModel
+  parent: Vasont.Inspire.Models.Versioning
+  children:
+  - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Action
+  - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.CanRestore
+  - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetDate
+  - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetId
+  - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetNumber
+  - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Comment
+  - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ContentChanged
+  - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.FolderPath
+  - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Label
+  - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.LatestSnapshot
+  - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Restored
+  langs:
+  - csharp
+  - vb
+  name: MinimalComponentHistoryModel
+  nameWithType: MinimalComponentHistoryModel
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+  type: Class
+  source:
+    remote:
+      path: src/Versioning/MinimalComponentHistoryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: MinimalComponentHistoryModel
+    path: Versioning/MinimalComponentHistoryModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nThis class represents a minimal implementation of a component history model.\n"
+  example: []
+  syntax:
+    content: 'public class MinimalComponentHistoryModel : MinimalComponentModel, IChangesetSnapshot'
+    content.vb: >-
+      Public Class MinimalComponentHistoryModel
+          Inherits MinimalComponentModel
+          Implements IChangesetSnapshot
+  inheritance:
+  - System.Object
+  - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  - Vasont.Inspire.Models.Components.MinimalComponentModel
+  implements:
+  - Vasont.Inspire.Models.Versioning.IChangesetSnapshot
+  inheritedMembers:
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentId
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentTypeId
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentType
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.Metrics
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.Folder
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.IsImage
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.ContentType
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.Name
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.LanguageCode
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.LanguageName
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.FileName
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.State
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.StateName
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.UniqueId
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.HashKey
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.Lock
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.Permissions
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.VirtualPath
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.Type
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate
+  - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
+  - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedBy
+  - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedDate
+  - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedBy
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetId
+  commentId: P:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetId
+  id: ChangesetId
+  parent: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: ChangesetId
+  nameWithType: MinimalComponentHistoryModel.ChangesetId
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetId
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/MinimalComponentHistoryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ChangesetId
+    path: Versioning/MinimalComponentHistoryModel.cs
+    startLine: 18
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the associated changeset identity.\n"
+  example: []
+  syntax:
+    content: public Guid ChangesetId { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property ChangesetId As Guid
+  overload: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetId*
+  implements:
+  - Vasont.Inspire.Models.Versioning.IChangesetSnapshot.ChangesetId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetNumber
+  commentId: P:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetNumber
+  id: ChangesetNumber
+  parent: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: ChangesetNumber
+  nameWithType: MinimalComponentHistoryModel.ChangesetNumber
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetNumber
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/MinimalComponentHistoryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ChangesetNumber
+    path: Versioning/MinimalComponentHistoryModel.cs
+    startLine: 23
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the related changeset number\n"
+  example: []
+  syntax:
+    content: public long ChangesetNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ChangesetNumber As Long
+  overload: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Label
+  commentId: P:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Label
+  id: Label
+  parent: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: MinimalComponentHistoryModel.Label
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Label
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/MinimalComponentHistoryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Label
+    path: Versioning/MinimalComponentHistoryModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the related changeset label.\n"
+  example: []
+  syntax:
+    content: public string Label { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Label As String
+  overload: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Label*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Comment
+  commentId: P:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Comment
+  id: Comment
+  parent: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: MinimalComponentHistoryModel.Comment
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Comment
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/MinimalComponentHistoryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Comment
+    path: Versioning/MinimalComponentHistoryModel.cs
+    startLine: 33
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the related changeset comment.\n"
+  example: []
+  syntax:
+    content: public string Comment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Comment As String
+  overload: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Comment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.FolderPath
+  commentId: P:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.FolderPath
+  id: FolderPath
+  parent: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: FolderPath
+  nameWithType: MinimalComponentHistoryModel.FolderPath
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.FolderPath
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/MinimalComponentHistoryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FolderPath
+    path: Versioning/MinimalComponentHistoryModel.cs
+    startLine: 38
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the reconstructed folder path.\n"
+  example: []
+  syntax:
+    content: public string FolderPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FolderPath As String
+  overload: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.FolderPath*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetDate
+  commentId: P:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetDate
+  id: ChangesetDate
+  parent: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: ChangesetDate
+  nameWithType: MinimalComponentHistoryModel.ChangesetDate
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetDate
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/MinimalComponentHistoryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ChangesetDate
+    path: Versioning/MinimalComponentHistoryModel.cs
+    startLine: 43
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the related changeset date time when the changeset was saved.\n"
+  example: []
+  syntax:
+    content: public DateTime ChangesetDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property ChangesetDate As Date
+  overload: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Action
+  commentId: P:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Action
+  id: Action
+  parent: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: MinimalComponentHistoryModel.Action
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Action
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/MinimalComponentHistoryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Action
+    path: Versioning/MinimalComponentHistoryModel.cs
+    startLine: 48
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the action type to execute against the changeset action target.\n"
+  example: []
+  syntax:
+    content: public ChangesetSnapshotActionType Action { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+    content.vb: Public Property Action As ChangesetSnapshotActionType
+  overload: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Action*
+  implements:
+  - Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Action
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Restored
+  commentId: P:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Restored
+  id: Restored
+  parent: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: Restored
+  nameWithType: MinimalComponentHistoryModel.Restored
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Restored
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/MinimalComponentHistoryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Restored
+    path: Versioning/MinimalComponentHistoryModel.cs
+    startLine: 53
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets a value indicating whether the history record was a restoral.\n"
+  example: []
+  syntax:
+    content: public bool Restored { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Restored As Boolean
+  overload: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Restored*
+  implements:
+  - Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Restored
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ContentChanged
+  commentId: P:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ContentChanged
+  id: ContentChanged
+  parent: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: ContentChanged
+  nameWithType: MinimalComponentHistoryModel.ContentChanged
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ContentChanged
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/MinimalComponentHistoryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ContentChanged
+    path: Versioning/MinimalComponentHistoryModel.cs
+    startLine: 58
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets a value indicating whether the related component history has new content that has changed from previous histories.\n"
+  example: []
+  syntax:
+    content: public bool ContentChanged { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ContentChanged As Boolean
+  overload: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ContentChanged*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.CanRestore
+  commentId: P:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.CanRestore
+  id: CanRestore
+  parent: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: CanRestore
+  nameWithType: MinimalComponentHistoryModel.CanRestore
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.CanRestore
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/MinimalComponentHistoryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CanRestore
+    path: Versioning/MinimalComponentHistoryModel.cs
+    startLine: 63
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets a value indicating whether the component can be restored.\n"
+  example: []
+  syntax:
+    content: public bool CanRestore { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property CanRestore As Boolean
+  overload: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.CanRestore*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.LatestSnapshot
+  commentId: P:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.LatestSnapshot
+  id: LatestSnapshot
+  parent: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: LatestSnapshot
+  nameWithType: MinimalComponentHistoryModel.LatestSnapshot
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.LatestSnapshot
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/MinimalComponentHistoryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: LatestSnapshot
+    path: Versioning/MinimalComponentHistoryModel.cs
+    startLine: 68
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets a value indicating whether this component is the latest snapshot.\n"
+  example: []
+  syntax:
+    content: public bool LatestSnapshot { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LatestSnapshot As Boolean
+  overload: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.LatestSnapshot*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Versioning
+  commentId: N:Vasont.Inspire.Models.Versioning
+  name: Vasont.Inspire.Models.Versioning
+  nameWithType: Vasont.Inspire.Models.Versioning
+  fullName: Vasont.Inspire.Models.Versioning
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  commentId: T:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  parent: Vasont.Inspire.Models.Common
+  name: CreatedUpdaterModelBase
+  nameWithType: CreatedUpdaterModelBase
+  fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel
+  commentId: T:Vasont.Inspire.Models.Components.MinimalComponentModel
+  parent: Vasont.Inspire.Models.Components
+  name: MinimalComponentModel
+  nameWithType: MinimalComponentModel
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel
+- uid: Vasont.Inspire.Models.Versioning.IChangesetSnapshot
+  commentId: T:Vasont.Inspire.Models.Versioning.IChangesetSnapshot
+  parent: Vasont.Inspire.Models.Versioning
+  name: IChangesetSnapshot
+  nameWithType: IChangesetSnapshot
+  fullName: Vasont.Inspire.Models.Versioning.IChangesetSnapshot
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentId
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentId
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: ComponentId
+  nameWithType: MinimalComponentModel.ComponentId
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentId
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentTypeId
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentTypeId
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: ComponentTypeId
+  nameWithType: MinimalComponentModel.ComponentTypeId
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentTypeId
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentType
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentType
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: ComponentType
+  nameWithType: MinimalComponentModel.ComponentType
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentType
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.Metrics
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.Metrics
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: Metrics
+  nameWithType: MinimalComponentModel.Metrics
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.Metrics
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.Folder
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.Folder
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: Folder
+  nameWithType: MinimalComponentModel.Folder
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.Folder
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.IsImage
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.IsImage
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: IsImage
+  nameWithType: MinimalComponentModel.IsImage
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.IsImage
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.ContentType
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.ContentType
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: ContentType
+  nameWithType: MinimalComponentModel.ContentType
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.ContentType
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.Name
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.Name
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: Name
+  nameWithType: MinimalComponentModel.Name
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.Name
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.LanguageCode
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.LanguageCode
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: LanguageCode
+  nameWithType: MinimalComponentModel.LanguageCode
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.LanguageCode
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.LanguageName
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.LanguageName
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: LanguageName
+  nameWithType: MinimalComponentModel.LanguageName
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.LanguageName
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.FileName
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.FileName
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: FileName
+  nameWithType: MinimalComponentModel.FileName
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.FileName
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.State
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.State
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: State
+  nameWithType: MinimalComponentModel.State
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.State
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.StateName
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.StateName
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: StateName
+  nameWithType: MinimalComponentModel.StateName
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.StateName
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.UniqueId
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.UniqueId
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: UniqueId
+  nameWithType: MinimalComponentModel.UniqueId
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.UniqueId
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.HashKey
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.HashKey
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: HashKey
+  nameWithType: MinimalComponentModel.HashKey
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.HashKey
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.Lock
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.Lock
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: Lock
+  nameWithType: MinimalComponentModel.Lock
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.Lock
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.Permissions
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.Permissions
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: Permissions
+  nameWithType: MinimalComponentModel.Permissions
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.Permissions
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.VirtualPath
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.VirtualPath
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: VirtualPath
+  nameWithType: MinimalComponentModel.VirtualPath
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.VirtualPath
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.Type
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.Type
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: Type
+  nameWithType: MinimalComponentModel.Type
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.Type
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: CanTranslate
+  nameWithType: MinimalComponentModel.CanTranslate
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate
+- uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
+  commentId: P:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
+  parent: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  name: CreatedDate
+  nameWithType: CreatedUpdaterModelBase.CreatedDate
+  fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
+- uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedBy
+  commentId: P:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedBy
+  parent: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  name: CreatedBy
+  nameWithType: CreatedUpdaterModelBase.CreatedBy
+  fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedBy
+- uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedDate
+  commentId: P:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedDate
+  parent: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  name: UpdatedDate
+  nameWithType: CreatedUpdaterModelBase.UpdatedDate
+  fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedDate
+- uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedBy
+  commentId: P:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedBy
+  parent: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  name: UpdatedBy
+  nameWithType: CreatedUpdaterModelBase.UpdatedBy
+  fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedBy
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Common
+  commentId: N:Vasont.Inspire.Models.Common
+  name: Vasont.Inspire.Models.Common
+  nameWithType: Vasont.Inspire.Models.Common
+  fullName: Vasont.Inspire.Models.Common
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetId*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetId
+  name: ChangesetId
+  nameWithType: MinimalComponentHistoryModel.ChangesetId
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetId
+- uid: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.ChangesetId
+  commentId: P:Vasont.Inspire.Models.Versioning.IChangesetSnapshot.ChangesetId
+  parent: Vasont.Inspire.Models.Versioning.IChangesetSnapshot
+  name: ChangesetId
+  nameWithType: IChangesetSnapshot.ChangesetId
+  fullName: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.ChangesetId
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetNumber*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetNumber
+  name: ChangesetNumber
+  nameWithType: MinimalComponentHistoryModel.ChangesetNumber
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetNumber
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Label*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Label
+  name: Label
+  nameWithType: MinimalComponentHistoryModel.Label
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Label
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Comment*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Comment
+  name: Comment
+  nameWithType: MinimalComponentHistoryModel.Comment
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Comment
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.FolderPath*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.FolderPath
+  name: FolderPath
+  nameWithType: MinimalComponentHistoryModel.FolderPath
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.FolderPath
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetDate*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetDate
+  name: ChangesetDate
+  nameWithType: MinimalComponentHistoryModel.ChangesetDate
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Action*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Action
+  name: Action
+  nameWithType: MinimalComponentHistoryModel.Action
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Action
+- uid: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Action
+  commentId: P:Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Action
+  parent: Vasont.Inspire.Models.Versioning.IChangesetSnapshot
+  name: Action
+  nameWithType: IChangesetSnapshot.Action
+  fullName: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Action
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  commentId: T:Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  parent: Vasont.Inspire.Models.Versioning
+  name: ChangesetSnapshotActionType
+  nameWithType: ChangesetSnapshotActionType
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Restored*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Restored
+  name: Restored
+  nameWithType: MinimalComponentHistoryModel.Restored
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Restored
+- uid: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Restored
+  commentId: P:Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Restored
+  parent: Vasont.Inspire.Models.Versioning.IChangesetSnapshot
+  name: Restored
+  nameWithType: IChangesetSnapshot.Restored
+  fullName: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Restored
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ContentChanged*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ContentChanged
+  name: ContentChanged
+  nameWithType: MinimalComponentHistoryModel.ContentChanged
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ContentChanged
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.CanRestore*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.CanRestore
+  name: CanRestore
+  nameWithType: MinimalComponentHistoryModel.CanRestore
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.CanRestore
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.LatestSnapshot*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.LatestSnapshot
+  name: LatestSnapshot
+  nameWithType: MinimalComponentHistoryModel.LatestSnapshot
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.LatestSnapshot

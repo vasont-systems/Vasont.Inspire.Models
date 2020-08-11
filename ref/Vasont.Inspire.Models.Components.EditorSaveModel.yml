@@ -1,0 +1,1034 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel
+  commentId: T:Vasont.Inspire.Models.Components.EditorSaveModel
+  id: EditorSaveModel
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.EditorSaveModel.Complete
+  - Vasont.Inspire.Models.Components.EditorSaveModel.ComponentId
+  - Vasont.Inspire.Models.Components.EditorSaveModel.Contents
+  - Vasont.Inspire.Models.Components.EditorSaveModel.DownloadResult
+  - Vasont.Inspire.Models.Components.EditorSaveModel.EditorIsDirty
+  - Vasont.Inspire.Models.Components.EditorSaveModel.EditorType
+  - Vasont.Inspire.Models.Components.EditorSaveModel.FileName
+  - Vasont.Inspire.Models.Components.EditorSaveModel.GenerateIdAttributes
+  - Vasont.Inspire.Models.Components.EditorSaveModel.Html
+  - Vasont.Inspire.Models.Components.EditorSaveModel.OriginalFileName
+  - Vasont.Inspire.Models.Components.EditorSaveModel.ReviewMode
+  - Vasont.Inspire.Models.Components.EditorSaveModel.SaveAs
+  - Vasont.Inspire.Models.Components.EditorSaveModel.SchemaType
+  - Vasont.Inspire.Models.Components.EditorSaveModel.Submit
+  - Vasont.Inspire.Models.Components.EditorSaveModel.Version
+  langs:
+  - csharp
+  - vb
+  name: EditorSaveModel
+  nameWithType: EditorSaveModel
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel
+  type: Class
+  source:
+    remote:
+      path: src/Components/EditorSaveModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EditorSaveModel
+    path: Components/EditorSaveModel.cs
+    startLine: 12
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis class represents a collection of values submitted to the application during the save command for storing editor content.\n"
+  example: []
+  syntax:
+    content: public class EditorSaveModel
+    content.vb: Public Class EditorSaveModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.ComponentId
+  commentId: P:Vasont.Inspire.Models.Components.EditorSaveModel.ComponentId
+  id: ComponentId
+  parent: Vasont.Inspire.Models.Components.EditorSaveModel
+  langs:
+  - csharp
+  - vb
+  name: ComponentId
+  nameWithType: EditorSaveModel.ComponentId
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.ComponentId
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorSaveModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentId
+    path: Components/EditorSaveModel.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the component identity to save.\n"
+  example: []
+  syntax:
+    content: public long ComponentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ComponentId As Long
+  overload: Vasont.Inspire.Models.Components.EditorSaveModel.ComponentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.FileName
+  commentId: P:Vasont.Inspire.Models.Components.EditorSaveModel.FileName
+  id: FileName
+  parent: Vasont.Inspire.Models.Components.EditorSaveModel
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: EditorSaveModel.FileName
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.FileName
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorSaveModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FileName
+    path: Components/EditorSaveModel.cs
+    startLine: 22
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the file name of the component to save.\n"
+  example: []
+  syntax:
+    content: public string FileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FileName As String
+  overload: Vasont.Inspire.Models.Components.EditorSaveModel.FileName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.OriginalFileName
+  commentId: P:Vasont.Inspire.Models.Components.EditorSaveModel.OriginalFileName
+  id: OriginalFileName
+  parent: Vasont.Inspire.Models.Components.EditorSaveModel
+  langs:
+  - csharp
+  - vb
+  name: OriginalFileName
+  nameWithType: EditorSaveModel.OriginalFileName
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.OriginalFileName
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorSaveModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: OriginalFileName
+    path: Components/EditorSaveModel.cs
+    startLine: 27
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the original file name of the component for a save as.\n"
+  example: []
+  syntax:
+    content: public string OriginalFileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OriginalFileName As String
+  overload: Vasont.Inspire.Models.Components.EditorSaveModel.OriginalFileName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.SchemaType
+  commentId: P:Vasont.Inspire.Models.Components.EditorSaveModel.SchemaType
+  id: SchemaType
+  parent: Vasont.Inspire.Models.Components.EditorSaveModel
+  langs:
+  - csharp
+  - vb
+  name: SchemaType
+  nameWithType: EditorSaveModel.SchemaType
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.SchemaType
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorSaveModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SchemaType
+    path: Components/EditorSaveModel.cs
+    startLine: 32
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the schema type to use for transform.\n"
+  example: []
+  syntax:
+    content: public string SchemaType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SchemaType As String
+  overload: Vasont.Inspire.Models.Components.EditorSaveModel.SchemaType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.Version
+  commentId: P:Vasont.Inspire.Models.Components.EditorSaveModel.Version
+  id: Version
+  parent: Vasont.Inspire.Models.Components.EditorSaveModel
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: EditorSaveModel.Version
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.Version
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorSaveModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Version
+    path: Components/EditorSaveModel.cs
+    startLine: 37
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the schema version to use for transform.\n"
+  example: []
+  syntax:
+    content: public string Version { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Version As String
+  overload: Vasont.Inspire.Models.Components.EditorSaveModel.Version*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.Submit
+  commentId: P:Vasont.Inspire.Models.Components.EditorSaveModel.Submit
+  id: Submit
+  parent: Vasont.Inspire.Models.Components.EditorSaveModel
+  langs:
+  - csharp
+  - vb
+  name: Submit
+  nameWithType: EditorSaveModel.Submit
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.Submit
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorSaveModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Submit
+    path: Components/EditorSaveModel.cs
+    startLine: 42
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether the save shall submit the contents back into the available storage area.\n"
+  example: []
+  syntax:
+    content: public bool Submit { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Submit As Boolean
+  overload: Vasont.Inspire.Models.Components.EditorSaveModel.Submit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.SaveAs
+  commentId: P:Vasont.Inspire.Models.Components.EditorSaveModel.SaveAs
+  id: SaveAs
+  parent: Vasont.Inspire.Models.Components.EditorSaveModel
+  langs:
+  - csharp
+  - vb
+  name: SaveAs
+  nameWithType: EditorSaveModel.SaveAs
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.SaveAs
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorSaveModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SaveAs
+    path: Components/EditorSaveModel.cs
+    startLine: 47
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether the save is a save as.\n"
+  example: []
+  syntax:
+    content: public bool SaveAs { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SaveAs As Boolean
+  overload: Vasont.Inspire.Models.Components.EditorSaveModel.SaveAs*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.Complete
+  commentId: P:Vasont.Inspire.Models.Components.EditorSaveModel.Complete
+  id: Complete
+  parent: Vasont.Inspire.Models.Components.EditorSaveModel
+  langs:
+  - csharp
+  - vb
+  name: Complete
+  nameWithType: EditorSaveModel.Complete
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.Complete
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorSaveModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Complete
+    path: Components/EditorSaveModel.cs
+    startLine: 52
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether the save shall submit the contents back into the available storage and complete any associated project tasks.\n"
+  example: []
+  syntax:
+    content: public bool Complete { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Complete As Boolean
+  overload: Vasont.Inspire.Models.Components.EditorSaveModel.Complete*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.Html
+  commentId: P:Vasont.Inspire.Models.Components.EditorSaveModel.Html
+  id: Html
+  parent: Vasont.Inspire.Models.Components.EditorSaveModel
+  langs:
+  - csharp
+  - vb
+  name: Html
+  nameWithType: EditorSaveModel.Html
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.Html
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorSaveModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Html
+    path: Components/EditorSaveModel.cs
+    startLine: 57
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the editor HTML content sent from the editor to be converted back to XML and saved.\n"
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("This property has been kept for legacy XEditor purposes. Contents should be used instead.")]
+
+      public string Html { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Obsolete("This property has been kept for legacy XEditor purposes. Contents should be used instead.")>
+
+      Public Property Html As String
+  overload: Vasont.Inspire.Models.Components.EditorSaveModel.Html*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: This property has been kept for legacy XEditor purposes. Contents should be used instead.
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.Contents
+  commentId: P:Vasont.Inspire.Models.Components.EditorSaveModel.Contents
+  id: Contents
+  parent: Vasont.Inspire.Models.Components.EditorSaveModel
+  langs:
+  - csharp
+  - vb
+  name: Contents
+  nameWithType: EditorSaveModel.Contents
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.Contents
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorSaveModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Contents
+    path: Components/EditorSaveModel.cs
+    startLine: 67
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the editor content sent from the editor to be stored and/or converted based on the editor type.\n"
+  example: []
+  syntax:
+    content: public string Contents { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Contents As String
+  overload: Vasont.Inspire.Models.Components.EditorSaveModel.Contents*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.EditorType
+  commentId: P:Vasont.Inspire.Models.Components.EditorSaveModel.EditorType
+  id: EditorType
+  parent: Vasont.Inspire.Models.Components.EditorSaveModel
+  langs:
+  - csharp
+  - vb
+  name: EditorType
+  nameWithType: EditorSaveModel.EditorType
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.EditorType
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorSaveModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EditorType
+    path: Components/EditorSaveModel.cs
+    startLine: 72
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the editor type to determine what to do with the contents returned and stored.\n"
+  example: []
+  syntax:
+    content: public EditorType EditorType { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Components.EditorType
+    content.vb: Public Property EditorType As EditorType
+  overload: Vasont.Inspire.Models.Components.EditorSaveModel.EditorType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.ReviewMode
+  commentId: P:Vasont.Inspire.Models.Components.EditorSaveModel.ReviewMode
+  id: ReviewMode
+  parent: Vasont.Inspire.Models.Components.EditorSaveModel
+  langs:
+  - csharp
+  - vb
+  name: ReviewMode
+  nameWithType: EditorSaveModel.ReviewMode
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.ReviewMode
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorSaveModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewMode
+    path: Components/EditorSaveModel.cs
+    startLine: 77
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the review editor mode.\n"
+  example: []
+  syntax:
+    content: public ReviewEditorMode ReviewMode { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Components.ReviewEditorMode
+    content.vb: Public Property ReviewMode As ReviewEditorMode
+  overload: Vasont.Inspire.Models.Components.EditorSaveModel.ReviewMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.EditorIsDirty
+  commentId: P:Vasont.Inspire.Models.Components.EditorSaveModel.EditorIsDirty
+  id: EditorIsDirty
+  parent: Vasont.Inspire.Models.Components.EditorSaveModel
+  langs:
+  - csharp
+  - vb
+  name: EditorIsDirty
+  nameWithType: EditorSaveModel.EditorIsDirty
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.EditorIsDirty
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorSaveModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EditorIsDirty
+    path: Components/EditorSaveModel.cs
+    startLine: 83
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether the editor was dirty when the submittal was made. This value prevents unnecessary saves made through save\nand submit action if no content had actually changed.\n"
+  example: []
+  syntax:
+    content: public bool EditorIsDirty { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EditorIsDirty As Boolean
+  overload: Vasont.Inspire.Models.Components.EditorSaveModel.EditorIsDirty*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.DownloadResult
+  commentId: P:Vasont.Inspire.Models.Components.EditorSaveModel.DownloadResult
+  id: DownloadResult
+  parent: Vasont.Inspire.Models.Components.EditorSaveModel
+  langs:
+  - csharp
+  - vb
+  name: DownloadResult
+  nameWithType: EditorSaveModel.DownloadResult
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.DownloadResult
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorSaveModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DownloadResult
+    path: Components/EditorSaveModel.cs
+    startLine: 88
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether the converted XML shall be streamed back to the calling editor.\n"
+  example: []
+  syntax:
+    content: public bool DownloadResult { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property DownloadResult As Boolean
+  overload: Vasont.Inspire.Models.Components.EditorSaveModel.DownloadResult*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.GenerateIdAttributes
+  commentId: P:Vasont.Inspire.Models.Components.EditorSaveModel.GenerateIdAttributes
+  id: GenerateIdAttributes
+  parent: Vasont.Inspire.Models.Components.EditorSaveModel
+  langs:
+  - csharp
+  - vb
+  name: GenerateIdAttributes
+  nameWithType: EditorSaveModel.GenerateIdAttributes
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.GenerateIdAttributes
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorSaveModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: GenerateIdAttributes
+    path: Components/EditorSaveModel.cs
+    startLine: 93
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether the save will generate identity attributes based on schema specific requirements.\n"
+  example: []
+  syntax:
+    content: public bool GenerateIdAttributes { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property GenerateIdAttributes As Boolean
+  overload: Vasont.Inspire.Models.Components.EditorSaveModel.GenerateIdAttributes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.ComponentId*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorSaveModel.ComponentId
+  name: ComponentId
+  nameWithType: EditorSaveModel.ComponentId
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.ComponentId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.FileName*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorSaveModel.FileName
+  name: FileName
+  nameWithType: EditorSaveModel.FileName
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.FileName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.OriginalFileName*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorSaveModel.OriginalFileName
+  name: OriginalFileName
+  nameWithType: EditorSaveModel.OriginalFileName
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.OriginalFileName
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.SchemaType*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorSaveModel.SchemaType
+  name: SchemaType
+  nameWithType: EditorSaveModel.SchemaType
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.SchemaType
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.Version*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorSaveModel.Version
+  name: Version
+  nameWithType: EditorSaveModel.Version
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.Version
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.Submit*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorSaveModel.Submit
+  name: Submit
+  nameWithType: EditorSaveModel.Submit
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.Submit
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.SaveAs*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorSaveModel.SaveAs
+  name: SaveAs
+  nameWithType: EditorSaveModel.SaveAs
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.SaveAs
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.Complete*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorSaveModel.Complete
+  name: Complete
+  nameWithType: EditorSaveModel.Complete
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.Complete
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.Html*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorSaveModel.Html
+  name: Html
+  nameWithType: EditorSaveModel.Html
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.Html
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.Contents*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorSaveModel.Contents
+  name: Contents
+  nameWithType: EditorSaveModel.Contents
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.Contents
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.EditorType*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorSaveModel.EditorType
+  name: EditorType
+  nameWithType: EditorSaveModel.EditorType
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.EditorType
+- uid: Vasont.Inspire.Models.Components.EditorType
+  commentId: T:Vasont.Inspire.Models.Components.EditorType
+  parent: Vasont.Inspire.Models.Components
+  name: EditorType
+  nameWithType: EditorType
+  fullName: Vasont.Inspire.Models.Components.EditorType
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.ReviewMode*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorSaveModel.ReviewMode
+  name: ReviewMode
+  nameWithType: EditorSaveModel.ReviewMode
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.ReviewMode
+- uid: Vasont.Inspire.Models.Components.ReviewEditorMode
+  commentId: T:Vasont.Inspire.Models.Components.ReviewEditorMode
+  parent: Vasont.Inspire.Models.Components
+  name: ReviewEditorMode
+  nameWithType: ReviewEditorMode
+  fullName: Vasont.Inspire.Models.Components.ReviewEditorMode
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.EditorIsDirty*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorSaveModel.EditorIsDirty
+  name: EditorIsDirty
+  nameWithType: EditorSaveModel.EditorIsDirty
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.EditorIsDirty
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.DownloadResult*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorSaveModel.DownloadResult
+  name: DownloadResult
+  nameWithType: EditorSaveModel.DownloadResult
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.DownloadResult
+- uid: Vasont.Inspire.Models.Components.EditorSaveModel.GenerateIdAttributes*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorSaveModel.GenerateIdAttributes
+  name: GenerateIdAttributes
+  nameWithType: EditorSaveModel.GenerateIdAttributes
+  fullName: Vasont.Inspire.Models.Components.EditorSaveModel.GenerateIdAttributes

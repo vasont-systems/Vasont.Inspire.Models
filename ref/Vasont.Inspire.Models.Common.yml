@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Common
+  commentId: N:Vasont.Inspire.Models.Common
+  id: Vasont.Inspire.Models.Common
+  children:
+  - Vasont.Inspire.Models.Common.ComponentStandards
+  - Vasont.Inspire.Models.Common.CoordinatesModel
+  - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  - Vasont.Inspire.Models.Common.DeleteResultModelBase
+  - Vasont.Inspire.Models.Common.DisplayValuePair`2
+  - Vasont.Inspire.Models.Common.ErrorModel
+  - Vasont.Inspire.Models.Common.ErrorResponseModel
+  - Vasont.Inspire.Models.Common.FileExtensionModel
+  - Vasont.Inspire.Models.Common.LanguageModel
+  - Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase
+  - Vasont.Inspire.Models.Common.MinimalLanguageModel
+  - Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  - Vasont.Inspire.Models.Common.TenantDetailModel
+  langs:
+  - csharp
+  - vb
+  name: Vasont.Inspire.Models.Common
+  nameWithType: Vasont.Inspire.Models.Common
+  fullName: Vasont.Inspire.Models.Common
+  type: Namespace
+  assemblies:
+  - Vasont.Inspire.Models
+references:
+- uid: Vasont.Inspire.Models.Common.ComponentStandards
+  commentId: T:Vasont.Inspire.Models.Common.ComponentStandards
+  name: ComponentStandards
+  nameWithType: ComponentStandards
+  fullName: Vasont.Inspire.Models.Common.ComponentStandards
+- uid: Vasont.Inspire.Models.Common.CoordinatesModel
+  commentId: T:Vasont.Inspire.Models.Common.CoordinatesModel
+  parent: Vasont.Inspire.Models.Common
+  name: CoordinatesModel
+  nameWithType: CoordinatesModel
+  fullName: Vasont.Inspire.Models.Common.CoordinatesModel
+- uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  commentId: T:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  parent: Vasont.Inspire.Models.Common
+  name: CreatedUpdaterModelBase
+  nameWithType: CreatedUpdaterModelBase
+  fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+- uid: Vasont.Inspire.Models.Common.DeleteResultModelBase
+  commentId: T:Vasont.Inspire.Models.Common.DeleteResultModelBase
+  parent: Vasont.Inspire.Models.Common
+  name: DeleteResultModelBase
+  nameWithType: DeleteResultModelBase
+  fullName: Vasont.Inspire.Models.Common.DeleteResultModelBase
+- uid: Vasont.Inspire.Models.Common.DisplayValuePair`2
+  commentId: T:Vasont.Inspire.Models.Common.DisplayValuePair`2
+  name: DisplayValuePair<N, V>
+  nameWithType: DisplayValuePair<N, V>
+  fullName: Vasont.Inspire.Models.Common.DisplayValuePair<N, V>
+  nameWithType.vb: DisplayValuePair(Of N, V)
+  fullName.vb: Vasont.Inspire.Models.Common.DisplayValuePair(Of N, V)
+  name.vb: DisplayValuePair(Of N, V)
+  spec.csharp:
+  - uid: Vasont.Inspire.Models.Common.DisplayValuePair`2
+    name: DisplayValuePair
+    nameWithType: DisplayValuePair
+    fullName: Vasont.Inspire.Models.Common.DisplayValuePair
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: N
+    nameWithType: N
+    fullName: N
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vasont.Inspire.Models.Common.DisplayValuePair`2
+    name: DisplayValuePair
+    nameWithType: DisplayValuePair
+    fullName: Vasont.Inspire.Models.Common.DisplayValuePair
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: N
+    nameWithType: N
+    fullName: N
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Common.ErrorModel
+  commentId: T:Vasont.Inspire.Models.Common.ErrorModel
+  name: ErrorModel
+  nameWithType: ErrorModel
+  fullName: Vasont.Inspire.Models.Common.ErrorModel
+- uid: Vasont.Inspire.Models.Common.ErrorResponseModel
+  commentId: T:Vasont.Inspire.Models.Common.ErrorResponseModel
+  name: ErrorResponseModel
+  nameWithType: ErrorResponseModel
+  fullName: Vasont.Inspire.Models.Common.ErrorResponseModel
+- uid: Vasont.Inspire.Models.Common.FileExtensionModel
+  commentId: T:Vasont.Inspire.Models.Common.FileExtensionModel
+  name: FileExtensionModel
+  nameWithType: FileExtensionModel
+  fullName: Vasont.Inspire.Models.Common.FileExtensionModel
+- uid: Vasont.Inspire.Models.Common.LanguageModel
+  commentId: T:Vasont.Inspire.Models.Common.LanguageModel
+  name: LanguageModel
+  nameWithType: LanguageModel
+  fullName: Vasont.Inspire.Models.Common.LanguageModel
+- uid: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase
+  commentId: T:Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase
+  parent: Vasont.Inspire.Models.Common
+  name: MicroCreatedUpdaterModelBase
+  nameWithType: MicroCreatedUpdaterModelBase
+  fullName: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase
+- uid: Vasont.Inspire.Models.Common.MinimalLanguageModel
+  commentId: T:Vasont.Inspire.Models.Common.MinimalLanguageModel
+  name: MinimalLanguageModel
+  nameWithType: MinimalLanguageModel
+  fullName: Vasont.Inspire.Models.Common.MinimalLanguageModel
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  commentId: T:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  parent: Vasont.Inspire.Models.Common
+  name: PaginatedQueryRequestModel
+  nameWithType: PaginatedQueryRequestModel
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel
+  commentId: T:Vasont.Inspire.Models.Common.TenantDetailModel
+  name: TenantDetailModel
+  nameWithType: TenantDetailModel
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel
+- uid: Vasont.Inspire.Models.Common
+  commentId: N:Vasont.Inspire.Models.Common
+  name: Vasont.Inspire.Models.Common
+  nameWithType: Vasont.Inspire.Models.Common
+  fullName: Vasont.Inspire.Models.Common

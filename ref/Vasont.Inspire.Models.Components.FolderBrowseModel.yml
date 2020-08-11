@@ -1,0 +1,810 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.FolderBrowseModel
+  commentId: T:Vasont.Inspire.Models.Components.FolderBrowseModel
+  id: FolderBrowseModel
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.FolderBrowseModel.Description
+  - Vasont.Inspire.Models.Components.FolderBrowseModel.FolderId
+  - Vasont.Inspire.Models.Components.FolderBrowseModel.HasChildren
+  - Vasont.Inspire.Models.Components.FolderBrowseModel.HasComponents
+  - Vasont.Inspire.Models.Components.FolderBrowseModel.Name
+  - Vasont.Inspire.Models.Components.FolderBrowseModel.ParentFolderId
+  - Vasont.Inspire.Models.Components.FolderBrowseModel.Permissions
+  - Vasont.Inspire.Models.Components.FolderBrowseModel.UniqueId
+  langs:
+  - csharp
+  - vb
+  name: FolderBrowseModel
+  nameWithType: FolderBrowseModel
+  fullName: Vasont.Inspire.Models.Components.FolderBrowseModel
+  type: Class
+  source:
+    remote:
+      path: src/Components/FolderBrowseModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FolderBrowseModel
+    path: Components/FolderBrowseModel.cs
+    startLine: 14
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis class represents a folder returned from the folder API query.\n"
+  example: []
+  syntax:
+    content: public class FolderBrowseModel
+    content.vb: Public Class FolderBrowseModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Components.FolderBrowseModel.FolderId
+  commentId: P:Vasont.Inspire.Models.Components.FolderBrowseModel.FolderId
+  id: FolderId
+  parent: Vasont.Inspire.Models.Components.FolderBrowseModel
+  langs:
+  - csharp
+  - vb
+  name: FolderId
+  nameWithType: FolderBrowseModel.FolderId
+  fullName: Vasont.Inspire.Models.Components.FolderBrowseModel.FolderId
+  type: Property
+  source:
+    remote:
+      path: src/Components/FolderBrowseModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FolderId
+    path: Components/FolderBrowseModel.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the unique identity for this folder.\n"
+  example: []
+  syntax:
+    content: public long FolderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property FolderId As Long
+  overload: Vasont.Inspire.Models.Components.FolderBrowseModel.FolderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.FolderBrowseModel.ParentFolderId
+  commentId: P:Vasont.Inspire.Models.Components.FolderBrowseModel.ParentFolderId
+  id: ParentFolderId
+  parent: Vasont.Inspire.Models.Components.FolderBrowseModel
+  langs:
+  - csharp
+  - vb
+  name: ParentFolderId
+  nameWithType: FolderBrowseModel.ParentFolderId
+  fullName: Vasont.Inspire.Models.Components.FolderBrowseModel.ParentFolderId
+  type: Property
+  source:
+    remote:
+      path: src/Components/FolderBrowseModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ParentFolderId
+    path: Components/FolderBrowseModel.cs
+    startLine: 24
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the unique identity of the parent folder.\n"
+  example: []
+  syntax:
+    content: public long? ParentFolderId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int64}
+    content.vb: Public Property ParentFolderId As Long?
+  overload: Vasont.Inspire.Models.Components.FolderBrowseModel.ParentFolderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.FolderBrowseModel.Name
+  commentId: P:Vasont.Inspire.Models.Components.FolderBrowseModel.Name
+  id: Name
+  parent: Vasont.Inspire.Models.Components.FolderBrowseModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: FolderBrowseModel.Name
+  fullName: Vasont.Inspire.Models.Components.FolderBrowseModel.Name
+  type: Property
+  source:
+    remote:
+      path: src/Components/FolderBrowseModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Name
+    path: Components/FolderBrowseModel.cs
+    startLine: 29
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the folder name.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Vasont.Inspire.Models.Components.FolderBrowseModel.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.FolderBrowseModel.UniqueId
+  commentId: P:Vasont.Inspire.Models.Components.FolderBrowseModel.UniqueId
+  id: UniqueId
+  parent: Vasont.Inspire.Models.Components.FolderBrowseModel
+  langs:
+  - csharp
+  - vb
+  name: UniqueId
+  nameWithType: FolderBrowseModel.UniqueId
+  fullName: Vasont.Inspire.Models.Components.FolderBrowseModel.UniqueId
+  type: Property
+  source:
+    remote:
+      path: src/Components/FolderBrowseModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UniqueId
+    path: Components/FolderBrowseModel.cs
+    startLine: 34
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a globally unique identity for the folder.\n"
+  example: []
+  syntax:
+    content: public Guid UniqueId { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property UniqueId As Guid
+  overload: Vasont.Inspire.Models.Components.FolderBrowseModel.UniqueId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.FolderBrowseModel.Description
+  commentId: P:Vasont.Inspire.Models.Components.FolderBrowseModel.Description
+  id: Description
+  parent: Vasont.Inspire.Models.Components.FolderBrowseModel
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: FolderBrowseModel.Description
+  fullName: Vasont.Inspire.Models.Components.FolderBrowseModel.Description
+  type: Property
+  source:
+    remote:
+      path: src/Components/FolderBrowseModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Description
+    path: Components/FolderBrowseModel.cs
+    startLine: 39
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a description of the folder.\n"
+  example: []
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Vasont.Inspire.Models.Components.FolderBrowseModel.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.FolderBrowseModel.HasChildren
+  commentId: P:Vasont.Inspire.Models.Components.FolderBrowseModel.HasChildren
+  id: HasChildren
+  parent: Vasont.Inspire.Models.Components.FolderBrowseModel
+  langs:
+  - csharp
+  - vb
+  name: HasChildren
+  nameWithType: FolderBrowseModel.HasChildren
+  fullName: Vasont.Inspire.Models.Components.FolderBrowseModel.HasChildren
+  type: Property
+  source:
+    remote:
+      path: src/Components/FolderBrowseModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: HasChildren
+    path: Components/FolderBrowseModel.cs
+    startLine: 44
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether this folder has at least one child folder.\n"
+  example: []
+  syntax:
+    content: public bool HasChildren { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasChildren As Boolean
+  overload: Vasont.Inspire.Models.Components.FolderBrowseModel.HasChildren*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.FolderBrowseModel.HasComponents
+  commentId: P:Vasont.Inspire.Models.Components.FolderBrowseModel.HasComponents
+  id: HasComponents
+  parent: Vasont.Inspire.Models.Components.FolderBrowseModel
+  langs:
+  - csharp
+  - vb
+  name: HasComponents
+  nameWithType: FolderBrowseModel.HasComponents
+  fullName: Vasont.Inspire.Models.Components.FolderBrowseModel.HasComponents
+  type: Property
+  source:
+    remote:
+      path: src/Components/FolderBrowseModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: HasComponents
+    path: Components/FolderBrowseModel.cs
+    startLine: 49
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether the folder contains any components.\n"
+  example: []
+  syntax:
+    content: public bool HasComponents { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasComponents As Boolean
+  overload: Vasont.Inspire.Models.Components.FolderBrowseModel.HasComponents*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.FolderBrowseModel.Permissions
+  commentId: P:Vasont.Inspire.Models.Components.FolderBrowseModel.Permissions
+  id: Permissions
+  parent: Vasont.Inspire.Models.Components.FolderBrowseModel
+  langs:
+  - csharp
+  - vb
+  name: Permissions
+  nameWithType: FolderBrowseModel.Permissions
+  fullName: Vasont.Inspire.Models.Components.FolderBrowseModel.Permissions
+  type: Property
+  source:
+    remote:
+      path: src/Components/FolderBrowseModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Permissions
+    path: Components/FolderBrowseModel.cs
+    startLine: 54
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the permissions for this folder item.\n"
+  example: []
+  syntax:
+    content: public PermissionModel Permissions { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.PermissionModel
+    content.vb: Public Property Permissions As PermissionModel
+  overload: Vasont.Inspire.Models.Components.FolderBrowseModel.Permissions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Components.FolderBrowseModel.FolderId*
+  commentId: Overload:Vasont.Inspire.Models.Components.FolderBrowseModel.FolderId
+  name: FolderId
+  nameWithType: FolderBrowseModel.FolderId
+  fullName: Vasont.Inspire.Models.Components.FolderBrowseModel.FolderId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Components.FolderBrowseModel.ParentFolderId*
+  commentId: Overload:Vasont.Inspire.Models.Components.FolderBrowseModel.ParentFolderId
+  name: ParentFolderId
+  nameWithType: FolderBrowseModel.ParentFolderId
+  fullName: Vasont.Inspire.Models.Components.FolderBrowseModel.ParentFolderId
+- uid: System.Nullable{System.Int64}
+  commentId: T:System.Nullable{System.Int64}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int64>
+  nameWithType: Nullable<Int64>
+  fullName: System.Nullable<System.Int64>
+  nameWithType.vb: Nullable(Of Int64)
+  fullName.vb: System.Nullable(Of System.Int64)
+  name.vb: Nullable(Of Int64)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Components.FolderBrowseModel.Name*
+  commentId: Overload:Vasont.Inspire.Models.Components.FolderBrowseModel.Name
+  name: Name
+  nameWithType: FolderBrowseModel.Name
+  fullName: Vasont.Inspire.Models.Components.FolderBrowseModel.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Components.FolderBrowseModel.UniqueId*
+  commentId: Overload:Vasont.Inspire.Models.Components.FolderBrowseModel.UniqueId
+  name: UniqueId
+  nameWithType: FolderBrowseModel.UniqueId
+  fullName: Vasont.Inspire.Models.Components.FolderBrowseModel.UniqueId
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Vasont.Inspire.Models.Components.FolderBrowseModel.Description*
+  commentId: Overload:Vasont.Inspire.Models.Components.FolderBrowseModel.Description
+  name: Description
+  nameWithType: FolderBrowseModel.Description
+  fullName: Vasont.Inspire.Models.Components.FolderBrowseModel.Description
+- uid: Vasont.Inspire.Models.Components.FolderBrowseModel.HasChildren*
+  commentId: Overload:Vasont.Inspire.Models.Components.FolderBrowseModel.HasChildren
+  name: HasChildren
+  nameWithType: FolderBrowseModel.HasChildren
+  fullName: Vasont.Inspire.Models.Components.FolderBrowseModel.HasChildren
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Components.FolderBrowseModel.HasComponents*
+  commentId: Overload:Vasont.Inspire.Models.Components.FolderBrowseModel.HasComponents
+  name: HasComponents
+  nameWithType: FolderBrowseModel.HasComponents
+  fullName: Vasont.Inspire.Models.Components.FolderBrowseModel.HasComponents
+- uid: Vasont.Inspire.Models.Components.FolderBrowseModel.Permissions*
+  commentId: Overload:Vasont.Inspire.Models.Components.FolderBrowseModel.Permissions
+  name: Permissions
+  nameWithType: FolderBrowseModel.Permissions
+  fullName: Vasont.Inspire.Models.Components.FolderBrowseModel.Permissions
+- uid: Vasont.Inspire.Models.Security.PermissionModel
+  commentId: T:Vasont.Inspire.Models.Security.PermissionModel
+  parent: Vasont.Inspire.Models.Security
+  name: PermissionModel
+  nameWithType: PermissionModel
+  fullName: Vasont.Inspire.Models.Security.PermissionModel
+- uid: Vasont.Inspire.Models.Security
+  commentId: N:Vasont.Inspire.Models.Security
+  name: Vasont.Inspire.Models.Security
+  nameWithType: Vasont.Inspire.Models.Security
+  fullName: Vasont.Inspire.Models.Security

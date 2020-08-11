@@ -1,0 +1,41 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Diagnostics
+  commentId: N:Vasont.Inspire.Models.Diagnostics
+  id: Vasont.Inspire.Models.Diagnostics
+  children:
+  - Vasont.Inspire.Models.Diagnostics.DiagnosticModel
+  - Vasont.Inspire.Models.Diagnostics.DiagnosticSettings
+  - Vasont.Inspire.Models.Diagnostics.DiagnosticThreading
+  langs:
+  - csharp
+  - vb
+  name: Vasont.Inspire.Models.Diagnostics
+  nameWithType: Vasont.Inspire.Models.Diagnostics
+  fullName: Vasont.Inspire.Models.Diagnostics
+  type: Namespace
+  assemblies:
+  - Vasont.Inspire.Models
+references:
+- uid: Vasont.Inspire.Models.Diagnostics.DiagnosticModel
+  commentId: T:Vasont.Inspire.Models.Diagnostics.DiagnosticModel
+  name: DiagnosticModel
+  nameWithType: DiagnosticModel
+  fullName: Vasont.Inspire.Models.Diagnostics.DiagnosticModel
+- uid: Vasont.Inspire.Models.Diagnostics.DiagnosticSettings
+  commentId: T:Vasont.Inspire.Models.Diagnostics.DiagnosticSettings
+  parent: Vasont.Inspire.Models.Diagnostics
+  name: DiagnosticSettings
+  nameWithType: DiagnosticSettings
+  fullName: Vasont.Inspire.Models.Diagnostics.DiagnosticSettings
+- uid: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading
+  commentId: T:Vasont.Inspire.Models.Diagnostics.DiagnosticThreading
+  parent: Vasont.Inspire.Models.Diagnostics
+  name: DiagnosticThreading
+  nameWithType: DiagnosticThreading
+  fullName: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading
+- uid: Vasont.Inspire.Models.Diagnostics
+  commentId: N:Vasont.Inspire.Models.Diagnostics
+  name: Vasont.Inspire.Models.Diagnostics
+  nameWithType: Vasont.Inspire.Models.Diagnostics
+  fullName: Vasont.Inspire.Models.Diagnostics

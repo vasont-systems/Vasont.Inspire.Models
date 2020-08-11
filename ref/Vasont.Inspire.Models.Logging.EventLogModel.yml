@@ -1,0 +1,999 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Logging.EventLogModel
+  commentId: T:Vasont.Inspire.Models.Logging.EventLogModel
+  id: EventLogModel
+  parent: Vasont.Inspire.Models.Logging
+  children:
+  - Vasont.Inspire.Models.Logging.EventLogModel.Category
+  - Vasont.Inspire.Models.Logging.EventLogModel.EventDate
+  - Vasont.Inspire.Models.Logging.EventLogModel.EventId
+  - Vasont.Inspire.Models.Logging.EventLogModel.LoggerName
+  - Vasont.Inspire.Models.Logging.EventLogModel.LogLevel
+  - Vasont.Inspire.Models.Logging.EventLogModel.Message
+  - Vasont.Inspire.Models.Logging.EventLogModel.RemoteAddress
+  - Vasont.Inspire.Models.Logging.EventLogModel.RequestUrl
+  - Vasont.Inspire.Models.Logging.EventLogModel.StackTrace
+  - Vasont.Inspire.Models.Logging.EventLogModel.ThreadName
+  - Vasont.Inspire.Models.Logging.EventLogModel.UrlRequestType
+  langs:
+  - csharp
+  - vb
+  name: EventLogModel
+  nameWithType: EventLogModel
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel
+  type: Class
+  source:
+    remote:
+      path: src/Logging/EventLogModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EventLogModel
+    path: Logging/EventLogModel.cs
+    startLine: 61
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nThis class represents an event log entry within the application.\n"
+  example: []
+  syntax:
+    content: public class EventLogModel
+    content.vb: Public Class EventLogModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Logging.EventLogModel.EventId
+  commentId: P:Vasont.Inspire.Models.Logging.EventLogModel.EventId
+  id: EventId
+  parent: Vasont.Inspire.Models.Logging.EventLogModel
+  langs:
+  - csharp
+  - vb
+  name: EventId
+  nameWithType: EventLogModel.EventId
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel.EventId
+  type: Property
+  source:
+    remote:
+      path: src/Logging/EventLogModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EventId
+    path: Logging/EventLogModel.cs
+    startLine: 67
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nGets or sets the event identifier.\n"
+  example: []
+  syntax:
+    content: >-
+      [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+
+      [Key]
+
+      public long EventId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+      description: The event identifier.
+    content.vb: >-
+      <DatabaseGenerated(DatabaseGeneratedOption.Identity)>
+
+      <Key>
+
+      Public Property EventId As Long
+  overload: Vasont.Inspire.Models.Logging.EventLogModel.EventId*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedAttribute
+    ctor: System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedAttribute.#ctor(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption)
+    arguments:
+    - type: System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption
+      value: 1
+  - type: System.ComponentModel.DataAnnotations.KeyAttribute
+    ctor: System.ComponentModel.DataAnnotations.KeyAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Logging.EventLogModel.EventDate
+  commentId: P:Vasont.Inspire.Models.Logging.EventLogModel.EventDate
+  id: EventDate
+  parent: Vasont.Inspire.Models.Logging.EventLogModel
+  langs:
+  - csharp
+  - vb
+  name: EventDate
+  nameWithType: EventLogModel.EventDate
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel.EventDate
+  type: Property
+  source:
+    remote:
+      path: src/Logging/EventLogModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EventDate
+    path: Logging/EventLogModel.cs
+    startLine: 75
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nGets or sets the event date.\n"
+  example: []
+  syntax:
+    content: public DateTime EventDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+      description: The event date.
+    content.vb: Public Property EventDate As Date
+  overload: Vasont.Inspire.Models.Logging.EventLogModel.EventDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Logging.EventLogModel.Category
+  commentId: P:Vasont.Inspire.Models.Logging.EventLogModel.Category
+  id: Category
+  parent: Vasont.Inspire.Models.Logging.EventLogModel
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: EventLogModel.Category
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel.Category
+  type: Property
+  source:
+    remote:
+      path: src/Logging/EventLogModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Category
+    path: Logging/EventLogModel.cs
+    startLine: 81
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nGets or sets the category.\n"
+  example: []
+  syntax:
+    content: >-
+      [Column(TypeName = "varchar(20)")]
+
+      public ErrorCategory Category { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Core.Errors.ErrorCategory
+      description: The category.
+    content.vb: >-
+      <Column(TypeName:="varchar(20)")>
+
+      Public Property Category As ErrorCategory
+  overload: Vasont.Inspire.Models.Logging.EventLogModel.Category*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.Schema.ColumnAttribute
+    ctor: System.ComponentModel.DataAnnotations.Schema.ColumnAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: TypeName
+      type: System.String
+      value: varchar(20)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Logging.EventLogModel.LogLevel
+  commentId: P:Vasont.Inspire.Models.Logging.EventLogModel.LogLevel
+  id: LogLevel
+  parent: Vasont.Inspire.Models.Logging.EventLogModel
+  langs:
+  - csharp
+  - vb
+  name: LogLevel
+  nameWithType: EventLogModel.LogLevel
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel.LogLevel
+  type: Property
+  source:
+    remote:
+      path: src/Logging/EventLogModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: LogLevel
+    path: Logging/EventLogModel.cs
+    startLine: 88
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nGets or sets the log level.\n"
+  example: []
+  syntax:
+    content: >-
+      [Column(TypeName = "varchar(30)")]
+
+      public EventLogLevel LogLevel { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Logging.EventLogLevel
+      description: The log level.
+    content.vb: >-
+      <Column(TypeName:="varchar(30)")>
+
+      Public Property LogLevel As EventLogLevel
+  overload: Vasont.Inspire.Models.Logging.EventLogModel.LogLevel*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.Schema.ColumnAttribute
+    ctor: System.ComponentModel.DataAnnotations.Schema.ColumnAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: TypeName
+      type: System.String
+      value: varchar(30)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Logging.EventLogModel.ThreadName
+  commentId: P:Vasont.Inspire.Models.Logging.EventLogModel.ThreadName
+  id: ThreadName
+  parent: Vasont.Inspire.Models.Logging.EventLogModel
+  langs:
+  - csharp
+  - vb
+  name: ThreadName
+  nameWithType: EventLogModel.ThreadName
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel.ThreadName
+  type: Property
+  source:
+    remote:
+      path: src/Logging/EventLogModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ThreadName
+    path: Logging/EventLogModel.cs
+    startLine: 95
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nGets or sets the thread name of the logger.\n"
+  example: []
+  syntax:
+    content: >-
+      [StringLength(150)]
+
+      public string ThreadName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: The thread name of the logger.
+    content.vb: >-
+      <StringLength(150)>
+
+      Public Property ThreadName As String
+  overload: Vasont.Inspire.Models.Logging.EventLogModel.ThreadName*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 150
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Logging.EventLogModel.LoggerName
+  commentId: P:Vasont.Inspire.Models.Logging.EventLogModel.LoggerName
+  id: LoggerName
+  parent: Vasont.Inspire.Models.Logging.EventLogModel
+  langs:
+  - csharp
+  - vb
+  name: LoggerName
+  nameWithType: EventLogModel.LoggerName
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel.LoggerName
+  type: Property
+  source:
+    remote:
+      path: src/Logging/EventLogModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: LoggerName
+    path: Logging/EventLogModel.cs
+    startLine: 102
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nGets or sets the name of the logger.\n"
+  example: []
+  syntax:
+    content: >-
+      [StringLength(150)]
+
+      public string LoggerName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: The name of the logger.
+    content.vb: >-
+      <StringLength(150)>
+
+      Public Property LoggerName As String
+  overload: Vasont.Inspire.Models.Logging.EventLogModel.LoggerName*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 150
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Logging.EventLogModel.Message
+  commentId: P:Vasont.Inspire.Models.Logging.EventLogModel.Message
+  id: Message
+  parent: Vasont.Inspire.Models.Logging.EventLogModel
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: EventLogModel.Message
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel.Message
+  type: Property
+  source:
+    remote:
+      path: src/Logging/EventLogModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Message
+    path: Logging/EventLogModel.cs
+    startLine: 109
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nGets or sets the message.\n"
+  example: []
+  syntax:
+    content: >-
+      [StringLength(1000)]
+
+      public string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: The message.
+    content.vb: >-
+      <StringLength(1000)>
+
+      Public Property Message As String
+  overload: Vasont.Inspire.Models.Logging.EventLogModel.Message*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 1000
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Logging.EventLogModel.RemoteAddress
+  commentId: P:Vasont.Inspire.Models.Logging.EventLogModel.RemoteAddress
+  id: RemoteAddress
+  parent: Vasont.Inspire.Models.Logging.EventLogModel
+  langs:
+  - csharp
+  - vb
+  name: RemoteAddress
+  nameWithType: EventLogModel.RemoteAddress
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel.RemoteAddress
+  type: Property
+  source:
+    remote:
+      path: src/Logging/EventLogModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RemoteAddress
+    path: Logging/EventLogModel.cs
+    startLine: 116
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nGets or sets the remote address.\n"
+  example: []
+  syntax:
+    content: >-
+      [StringLength(15)]
+
+      public string RemoteAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: The remote address.
+    content.vb: >-
+      <StringLength(15)>
+
+      Public Property RemoteAddress As String
+  overload: Vasont.Inspire.Models.Logging.EventLogModel.RemoteAddress*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 15
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Logging.EventLogModel.UrlRequestType
+  commentId: P:Vasont.Inspire.Models.Logging.EventLogModel.UrlRequestType
+  id: UrlRequestType
+  parent: Vasont.Inspire.Models.Logging.EventLogModel
+  langs:
+  - csharp
+  - vb
+  name: UrlRequestType
+  nameWithType: EventLogModel.UrlRequestType
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel.UrlRequestType
+  type: Property
+  source:
+    remote:
+      path: src/Logging/EventLogModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UrlRequestType
+    path: Logging/EventLogModel.cs
+    startLine: 123
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nGets or sets the type of the URL request.\n"
+  example: []
+  syntax:
+    content: >-
+      [StringLength(10)]
+
+      public string UrlRequestType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: The type of the URL request.
+    content.vb: >-
+      <StringLength(10)>
+
+      Public Property UrlRequestType As String
+  overload: Vasont.Inspire.Models.Logging.EventLogModel.UrlRequestType*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 10
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Logging.EventLogModel.RequestUrl
+  commentId: P:Vasont.Inspire.Models.Logging.EventLogModel.RequestUrl
+  id: RequestUrl
+  parent: Vasont.Inspire.Models.Logging.EventLogModel
+  langs:
+  - csharp
+  - vb
+  name: RequestUrl
+  nameWithType: EventLogModel.RequestUrl
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel.RequestUrl
+  type: Property
+  source:
+    remote:
+      path: src/Logging/EventLogModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RequestUrl
+    path: Logging/EventLogModel.cs
+    startLine: 130
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nGets or sets the request URL.\n"
+  example: []
+  syntax:
+    content: >-
+      [StringLength(500)]
+
+      public string RequestUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: The request URL.
+    content.vb: >-
+      <StringLength(500)>
+
+      Public Property RequestUrl As String
+  overload: Vasont.Inspire.Models.Logging.EventLogModel.RequestUrl*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 500
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Logging.EventLogModel.StackTrace
+  commentId: P:Vasont.Inspire.Models.Logging.EventLogModel.StackTrace
+  id: StackTrace
+  parent: Vasont.Inspire.Models.Logging.EventLogModel
+  langs:
+  - csharp
+  - vb
+  name: StackTrace
+  nameWithType: EventLogModel.StackTrace
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel.StackTrace
+  type: Property
+  source:
+    remote:
+      path: src/Logging/EventLogModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: StackTrace
+    path: Logging/EventLogModel.cs
+    startLine: 137
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nGets or sets the stack trace.\n"
+  example: []
+  syntax:
+    content: >-
+      [StringLength(4000)]
+
+      public string StackTrace { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: The stack trace.
+    content.vb: >-
+      <StringLength(4000)>
+
+      Public Property StackTrace As String
+  overload: Vasont.Inspire.Models.Logging.EventLogModel.StackTrace*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 4000
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Logging
+  commentId: N:Vasont.Inspire.Models.Logging
+  name: Vasont.Inspire.Models.Logging
+  nameWithType: Vasont.Inspire.Models.Logging
+  fullName: Vasont.Inspire.Models.Logging
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Logging.EventLogModel.EventId*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLogModel.EventId
+  name: EventId
+  nameWithType: EventLogModel.EventId
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel.EventId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Logging.EventLogModel.EventDate*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLogModel.EventDate
+  name: EventDate
+  nameWithType: EventLogModel.EventDate
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel.EventDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Vasont.Inspire.Models.Logging.EventLogModel.Category*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLogModel.Category
+  name: Category
+  nameWithType: EventLogModel.Category
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel.Category
+- uid: Vasont.Inspire.Core.Errors.ErrorCategory
+  commentId: T:Vasont.Inspire.Core.Errors.ErrorCategory
+  parent: Vasont.Inspire.Core.Errors
+  isExternal: true
+  name: ErrorCategory
+  nameWithType: ErrorCategory
+  fullName: Vasont.Inspire.Core.Errors.ErrorCategory
+- uid: Vasont.Inspire.Core.Errors
+  commentId: N:Vasont.Inspire.Core.Errors
+  isExternal: true
+  name: Vasont.Inspire.Core.Errors
+  nameWithType: Vasont.Inspire.Core.Errors
+  fullName: Vasont.Inspire.Core.Errors
+- uid: Vasont.Inspire.Models.Logging.EventLogModel.LogLevel*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLogModel.LogLevel
+  name: LogLevel
+  nameWithType: EventLogModel.LogLevel
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel.LogLevel
+- uid: Vasont.Inspire.Models.Logging.EventLogLevel
+  commentId: T:Vasont.Inspire.Models.Logging.EventLogLevel
+  parent: Vasont.Inspire.Models.Logging
+  name: EventLogLevel
+  nameWithType: EventLogLevel
+  fullName: Vasont.Inspire.Models.Logging.EventLogLevel
+- uid: Vasont.Inspire.Models.Logging.EventLogModel.ThreadName*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLogModel.ThreadName
+  name: ThreadName
+  nameWithType: EventLogModel.ThreadName
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel.ThreadName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Logging.EventLogModel.LoggerName*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLogModel.LoggerName
+  name: LoggerName
+  nameWithType: EventLogModel.LoggerName
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel.LoggerName
+- uid: Vasont.Inspire.Models.Logging.EventLogModel.Message*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLogModel.Message
+  name: Message
+  nameWithType: EventLogModel.Message
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel.Message
+- uid: Vasont.Inspire.Models.Logging.EventLogModel.RemoteAddress*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLogModel.RemoteAddress
+  name: RemoteAddress
+  nameWithType: EventLogModel.RemoteAddress
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel.RemoteAddress
+- uid: Vasont.Inspire.Models.Logging.EventLogModel.UrlRequestType*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLogModel.UrlRequestType
+  name: UrlRequestType
+  nameWithType: EventLogModel.UrlRequestType
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel.UrlRequestType
+- uid: Vasont.Inspire.Models.Logging.EventLogModel.RequestUrl*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLogModel.RequestUrl
+  name: RequestUrl
+  nameWithType: EventLogModel.RequestUrl
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel.RequestUrl
+- uid: Vasont.Inspire.Models.Logging.EventLogModel.StackTrace*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLogModel.StackTrace
+  name: StackTrace
+  nameWithType: EventLogModel.StackTrace
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel.StackTrace

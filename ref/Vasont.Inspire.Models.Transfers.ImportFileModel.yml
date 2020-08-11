@@ -1,0 +1,487 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Transfers.ImportFileModel
+  commentId: T:Vasont.Inspire.Models.Transfers.ImportFileModel
+  id: ImportFileModel
+  parent: Vasont.Inspire.Models.Transfers
+  children:
+  - Vasont.Inspire.Models.Transfers.ImportFileModel.ImportUserId
+  - Vasont.Inspire.Models.Transfers.ImportFileModel.LocalFilePath
+  - Vasont.Inspire.Models.Transfers.ImportFileModel.TargetFolderId
+  langs:
+  - csharp
+  - vb
+  name: ImportFileModel
+  nameWithType: ImportFileModel
+  fullName: Vasont.Inspire.Models.Transfers.ImportFileModel
+  type: Class
+  source:
+    remote:
+      path: src/Transfers/ImportFileModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ImportFileModel
+    path: Transfers/ImportFileModel.cs
+    startLine: 10
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nThis class contains import information about the file that is to be imported.\n"
+  example: []
+  syntax:
+    content: public class ImportFileModel
+    content.vb: Public Class ImportFileModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Transfers.ImportFileModel.LocalFilePath
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportFileModel.LocalFilePath
+  id: LocalFilePath
+  parent: Vasont.Inspire.Models.Transfers.ImportFileModel
+  langs:
+  - csharp
+  - vb
+  name: LocalFilePath
+  nameWithType: ImportFileModel.LocalFilePath
+  fullName: Vasont.Inspire.Models.Transfers.ImportFileModel.LocalFilePath
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ImportFileModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: LocalFilePath
+    path: Transfers/ImportFileModel.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the full path to the local file to be imported.\n"
+  example: []
+  syntax:
+    content: public string LocalFilePath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LocalFilePath As String
+  overload: Vasont.Inspire.Models.Transfers.ImportFileModel.LocalFilePath*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ImportFileModel.ImportUserId
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportFileModel.ImportUserId
+  id: ImportUserId
+  parent: Vasont.Inspire.Models.Transfers.ImportFileModel
+  langs:
+  - csharp
+  - vb
+  name: ImportUserId
+  nameWithType: ImportFileModel.ImportUserId
+  fullName: Vasont.Inspire.Models.Transfers.ImportFileModel.ImportUserId
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ImportFileModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ImportUserId
+    path: Transfers/ImportFileModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the user identity that shall be used to associate with the file during creation or update.\n"
+  example: []
+  syntax:
+    content: public long ImportUserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ImportUserId As Long
+  overload: Vasont.Inspire.Models.Transfers.ImportFileModel.ImportUserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ImportFileModel.TargetFolderId
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportFileModel.TargetFolderId
+  id: TargetFolderId
+  parent: Vasont.Inspire.Models.Transfers.ImportFileModel
+  langs:
+  - csharp
+  - vb
+  name: TargetFolderId
+  nameWithType: ImportFileModel.TargetFolderId
+  fullName: Vasont.Inspire.Models.Transfers.ImportFileModel.TargetFolderId
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ImportFileModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TargetFolderId
+    path: Transfers/ImportFileModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the folder identity where the component is expected to be stored within the application.\n"
+  example: []
+  syntax:
+    content: public long TargetFolderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TargetFolderId As Long
+  overload: Vasont.Inspire.Models.Transfers.ImportFileModel.TargetFolderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Transfers
+  commentId: N:Vasont.Inspire.Models.Transfers
+  name: Vasont.Inspire.Models.Transfers
+  nameWithType: Vasont.Inspire.Models.Transfers
+  fullName: Vasont.Inspire.Models.Transfers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Transfers.ImportFileModel.LocalFilePath*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportFileModel.LocalFilePath
+  name: LocalFilePath
+  nameWithType: ImportFileModel.LocalFilePath
+  fullName: Vasont.Inspire.Models.Transfers.ImportFileModel.LocalFilePath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Transfers.ImportFileModel.ImportUserId*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportFileModel.ImportUserId
+  name: ImportUserId
+  nameWithType: ImportFileModel.ImportUserId
+  fullName: Vasont.Inspire.Models.Transfers.ImportFileModel.ImportUserId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Transfers.ImportFileModel.TargetFolderId*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportFileModel.TargetFolderId
+  name: TargetFolderId
+  nameWithType: ImportFileModel.TargetFolderId
+  fullName: Vasont.Inspire.Models.Transfers.ImportFileModel.TargetFolderId

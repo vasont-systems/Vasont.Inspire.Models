@@ -1,0 +1,537 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Configuration.MinimalRelationModel
+  commentId: T:Vasont.Inspire.Models.Configuration.MinimalRelationModel
+  id: MinimalRelationModel
+  parent: Vasont.Inspire.Models.Configuration
+  children:
+  - Vasont.Inspire.Models.Configuration.MinimalRelationModel.Active
+  - Vasont.Inspire.Models.Configuration.MinimalRelationModel.Description
+  - Vasont.Inspire.Models.Configuration.MinimalRelationModel.Name
+  - Vasont.Inspire.Models.Configuration.MinimalRelationModel.RelationId
+  langs:
+  - csharp
+  - vb
+  name: MinimalRelationModel
+  nameWithType: MinimalRelationModel
+  fullName: Vasont.Inspire.Models.Configuration.MinimalRelationModel
+  type: Class
+  source:
+    remote:
+      path: src/Configuration/MinimalRelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: MinimalRelationModel
+    path: Configuration/MinimalRelationModel.cs
+    startLine: 11
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nThis class represents a minimal relation model within the system.\n"
+  example: []
+  syntax:
+    content: public class MinimalRelationModel
+    content.vb: Public Class MinimalRelationModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Configuration.MinimalRelationModel.RelationId
+  commentId: P:Vasont.Inspire.Models.Configuration.MinimalRelationModel.RelationId
+  id: RelationId
+  parent: Vasont.Inspire.Models.Configuration.MinimalRelationModel
+  langs:
+  - csharp
+  - vb
+  name: RelationId
+  nameWithType: MinimalRelationModel.RelationId
+  fullName: Vasont.Inspire.Models.Configuration.MinimalRelationModel.RelationId
+  type: Property
+  source:
+    remote:
+      path: src/Configuration/MinimalRelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RelationId
+    path: Configuration/MinimalRelationModel.cs
+    startLine: 16
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nGets or sets the identity of the relation.\n"
+  example: []
+  syntax:
+    content: public long RelationId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property RelationId As Long
+  overload: Vasont.Inspire.Models.Configuration.MinimalRelationModel.RelationId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Configuration.MinimalRelationModel.Name
+  commentId: P:Vasont.Inspire.Models.Configuration.MinimalRelationModel.Name
+  id: Name
+  parent: Vasont.Inspire.Models.Configuration.MinimalRelationModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: MinimalRelationModel.Name
+  fullName: Vasont.Inspire.Models.Configuration.MinimalRelationModel.Name
+  type: Property
+  source:
+    remote:
+      path: src/Configuration/MinimalRelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Name
+    path: Configuration/MinimalRelationModel.cs
+    startLine: 21
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nGets or sets the name of the relation.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Vasont.Inspire.Models.Configuration.MinimalRelationModel.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Configuration.MinimalRelationModel.Description
+  commentId: P:Vasont.Inspire.Models.Configuration.MinimalRelationModel.Description
+  id: Description
+  parent: Vasont.Inspire.Models.Configuration.MinimalRelationModel
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: MinimalRelationModel.Description
+  fullName: Vasont.Inspire.Models.Configuration.MinimalRelationModel.Description
+  type: Property
+  source:
+    remote:
+      path: src/Configuration/MinimalRelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Description
+    path: Configuration/MinimalRelationModel.cs
+    startLine: 26
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nGets or sets the description of the relation.\n"
+  example: []
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Vasont.Inspire.Models.Configuration.MinimalRelationModel.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Configuration.MinimalRelationModel.Active
+  commentId: P:Vasont.Inspire.Models.Configuration.MinimalRelationModel.Active
+  id: Active
+  parent: Vasont.Inspire.Models.Configuration.MinimalRelationModel
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: MinimalRelationModel.Active
+  fullName: Vasont.Inspire.Models.Configuration.MinimalRelationModel.Active
+  type: Property
+  source:
+    remote:
+      path: src/Configuration/MinimalRelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Active
+    path: Configuration/MinimalRelationModel.cs
+    startLine: 31
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nGets or sets a value indicating whether the relation is currently active.\n"
+  example: []
+  syntax:
+    content: public bool Active { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Active As Boolean
+  overload: Vasont.Inspire.Models.Configuration.MinimalRelationModel.Active*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Configuration
+  commentId: N:Vasont.Inspire.Models.Configuration
+  name: Vasont.Inspire.Models.Configuration
+  nameWithType: Vasont.Inspire.Models.Configuration
+  fullName: Vasont.Inspire.Models.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Configuration.MinimalRelationModel.RelationId*
+  commentId: Overload:Vasont.Inspire.Models.Configuration.MinimalRelationModel.RelationId
+  name: RelationId
+  nameWithType: MinimalRelationModel.RelationId
+  fullName: Vasont.Inspire.Models.Configuration.MinimalRelationModel.RelationId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Configuration.MinimalRelationModel.Name*
+  commentId: Overload:Vasont.Inspire.Models.Configuration.MinimalRelationModel.Name
+  name: Name
+  nameWithType: MinimalRelationModel.Name
+  fullName: Vasont.Inspire.Models.Configuration.MinimalRelationModel.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Configuration.MinimalRelationModel.Description*
+  commentId: Overload:Vasont.Inspire.Models.Configuration.MinimalRelationModel.Description
+  name: Description
+  nameWithType: MinimalRelationModel.Description
+  fullName: Vasont.Inspire.Models.Configuration.MinimalRelationModel.Description
+- uid: Vasont.Inspire.Models.Configuration.MinimalRelationModel.Active*
+  commentId: Overload:Vasont.Inspire.Models.Configuration.MinimalRelationModel.Active
+  name: Active
+  nameWithType: MinimalRelationModel.Active
+  fullName: Vasont.Inspire.Models.Configuration.MinimalRelationModel.Active
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

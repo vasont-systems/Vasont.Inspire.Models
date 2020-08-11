@@ -1,0 +1,340 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  commentId: T:Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  id: SearchConfigurationDataType
+  parent: Vasont.Inspire.Models.Search
+  children:
+  - Vasont.Inspire.Models.Search.SearchConfigurationDataType.Boolean
+  - Vasont.Inspire.Models.Search.SearchConfigurationDataType.DateTime
+  - Vasont.Inspire.Models.Search.SearchConfigurationDataType.Int
+  - Vasont.Inspire.Models.Search.SearchConfigurationDataType.Long
+  - Vasont.Inspire.Models.Search.SearchConfigurationDataType.SimplifiedInt
+  - Vasont.Inspire.Models.Search.SearchConfigurationDataType.SimplifiedLong
+  - Vasont.Inspire.Models.Search.SearchConfigurationDataType.String
+  - Vasont.Inspire.Models.Search.SearchConfigurationDataType.Xml
+  langs:
+  - csharp
+  - vb
+  name: SearchConfigurationDataType
+  nameWithType: SearchConfigurationDataType
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  type: Enum
+  source:
+    remote:
+      path: src/Search/SearchConfigurationDataType.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SearchConfigurationDataType
+    path: Search/SearchConfigurationDataType.cs
+    startLine: 14
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nContains an enumerated selection list of data types.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum SearchConfigurationDataType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum SearchConfigurationDataType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDataType.String
+  commentId: F:Vasont.Inspire.Models.Search.SearchConfigurationDataType.String
+  id: String
+  parent: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  langs:
+  - csharp
+  - vb
+  name: String
+  nameWithType: SearchConfigurationDataType.String
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDataType.String
+  type: Field
+  source:
+    remote:
+      path: src/Search/SearchConfigurationDataType.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: String
+    path: Search/SearchConfigurationDataType.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nThe data type is a string.\n"
+  example: []
+  syntax:
+    content: String = 0
+    return:
+      type: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDataType.Long
+  commentId: F:Vasont.Inspire.Models.Search.SearchConfigurationDataType.Long
+  id: Long
+  parent: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  langs:
+  - csharp
+  - vb
+  name: Long
+  nameWithType: SearchConfigurationDataType.Long
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDataType.Long
+  type: Field
+  source:
+    remote:
+      path: src/Search/SearchConfigurationDataType.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Long
+    path: Search/SearchConfigurationDataType.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nThe data type is a long.\n"
+  example: []
+  syntax:
+    content: Long = 1
+    return:
+      type: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDataType.SimplifiedLong
+  commentId: F:Vasont.Inspire.Models.Search.SearchConfigurationDataType.SimplifiedLong
+  id: SimplifiedLong
+  parent: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  langs:
+  - csharp
+  - vb
+  name: SimplifiedLong
+  nameWithType: SearchConfigurationDataType.SimplifiedLong
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDataType.SimplifiedLong
+  type: Field
+  source:
+    remote:
+      path: src/Search/SearchConfigurationDataType.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SimplifiedLong
+    path: Search/SearchConfigurationDataType.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nThe data type is a long.\n"
+  example: []
+  syntax:
+    content: SimplifiedLong = 2
+    return:
+      type: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDataType.Int
+  commentId: F:Vasont.Inspire.Models.Search.SearchConfigurationDataType.Int
+  id: Int
+  parent: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  langs:
+  - csharp
+  - vb
+  name: Int
+  nameWithType: SearchConfigurationDataType.Int
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDataType.Int
+  type: Field
+  source:
+    remote:
+      path: src/Search/SearchConfigurationDataType.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Int
+    path: Search/SearchConfigurationDataType.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nThe data type is an integer.\n"
+  example: []
+  syntax:
+    content: Int = 3
+    return:
+      type: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDataType.SimplifiedInt
+  commentId: F:Vasont.Inspire.Models.Search.SearchConfigurationDataType.SimplifiedInt
+  id: SimplifiedInt
+  parent: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  langs:
+  - csharp
+  - vb
+  name: SimplifiedInt
+  nameWithType: SearchConfigurationDataType.SimplifiedInt
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDataType.SimplifiedInt
+  type: Field
+  source:
+    remote:
+      path: src/Search/SearchConfigurationDataType.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SimplifiedInt
+    path: Search/SearchConfigurationDataType.cs
+    startLine: 40
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nThe data type is an integer.\n"
+  example: []
+  syntax:
+    content: SimplifiedInt = 4
+    return:
+      type: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDataType.Boolean
+  commentId: F:Vasont.Inspire.Models.Search.SearchConfigurationDataType.Boolean
+  id: Boolean
+  parent: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  langs:
+  - csharp
+  - vb
+  name: Boolean
+  nameWithType: SearchConfigurationDataType.Boolean
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDataType.Boolean
+  type: Field
+  source:
+    remote:
+      path: src/Search/SearchConfigurationDataType.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Boolean
+    path: Search/SearchConfigurationDataType.cs
+    startLine: 45
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nThe data type is a boolean.\n"
+  example: []
+  syntax:
+    content: Boolean = 5
+    return:
+      type: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDataType.DateTime
+  commentId: F:Vasont.Inspire.Models.Search.SearchConfigurationDataType.DateTime
+  id: DateTime
+  parent: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  langs:
+  - csharp
+  - vb
+  name: DateTime
+  nameWithType: SearchConfigurationDataType.DateTime
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDataType.DateTime
+  type: Field
+  source:
+    remote:
+      path: src/Search/SearchConfigurationDataType.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DateTime
+    path: Search/SearchConfigurationDataType.cs
+    startLine: 50
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nThe data type is a date time.\n"
+  example: []
+  syntax:
+    content: DateTime = 6
+    return:
+      type: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDataType.Xml
+  commentId: F:Vasont.Inspire.Models.Search.SearchConfigurationDataType.Xml
+  id: Xml
+  parent: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  langs:
+  - csharp
+  - vb
+  name: Xml
+  nameWithType: SearchConfigurationDataType.Xml
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDataType.Xml
+  type: Field
+  source:
+    remote:
+      path: src/Search/SearchConfigurationDataType.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Xml
+    path: Search/SearchConfigurationDataType.cs
+    startLine: 55
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nThe data type is XML\n"
+  example: []
+  syntax:
+    content: Xml = 7
+    return:
+      type: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Search
+  commentId: N:Vasont.Inspire.Models.Search
+  name: Vasont.Inspire.Models.Search
+  nameWithType: Vasont.Inspire.Models.Search
+  fullName: Vasont.Inspire.Models.Search
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  commentId: T:Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  parent: Vasont.Inspire.Models.Search
+  name: SearchConfigurationDataType
+  nameWithType: SearchConfigurationDataType
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDataType

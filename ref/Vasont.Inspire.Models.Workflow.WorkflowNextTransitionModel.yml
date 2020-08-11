@@ -1,0 +1,793 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel
+  commentId: T:Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel
+  id: WorkflowNextTransitionModel
+  parent: Vasont.Inspire.Models.Workflow
+  children:
+  - Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Coordinates
+  - Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Description
+  - Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Members
+  - Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Name
+  - Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityId
+  - Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityName
+  - Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.WorkflowId
+  - Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.WorkflowTransitionId
+  langs:
+  - csharp
+  - vb
+  name: WorkflowNextTransitionModel
+  nameWithType: WorkflowNextTransitionModel
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel
+  type: Class
+  source:
+    remote:
+      path: src/Workflow/WorkflowNextTransitionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: WorkflowNextTransitionModel
+    path: Workflow/WorkflowNextTransitionModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nThis class is a model of a workflow transition that can be chosen from the completion of another activity.\n"
+  example: []
+  syntax:
+    content: public class WorkflowNextTransitionModel
+    content.vb: Public Class WorkflowNextTransitionModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.WorkflowTransitionId
+  commentId: P:Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.WorkflowTransitionId
+  id: WorkflowTransitionId
+  parent: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel
+  langs:
+  - csharp
+  - vb
+  name: WorkflowTransitionId
+  nameWithType: WorkflowNextTransitionModel.WorkflowTransitionId
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.WorkflowTransitionId
+  type: Property
+  source:
+    remote:
+      path: src/Workflow/WorkflowNextTransitionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: WorkflowTransitionId
+    path: Workflow/WorkflowNextTransitionModel.cs
+    startLine: 18
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nGets or sets the identity of the workflow transition.\n"
+  example: []
+  syntax:
+    content: public string WorkflowTransitionId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property WorkflowTransitionId As String
+  overload: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.WorkflowTransitionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.WorkflowId
+  commentId: P:Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.WorkflowId
+  id: WorkflowId
+  parent: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel
+  langs:
+  - csharp
+  - vb
+  name: WorkflowId
+  nameWithType: WorkflowNextTransitionModel.WorkflowId
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.WorkflowId
+  type: Property
+  source:
+    remote:
+      path: src/Workflow/WorkflowNextTransitionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: WorkflowId
+    path: Workflow/WorkflowNextTransitionModel.cs
+    startLine: 23
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nGets or sets the unique identity of the related workflow.\n"
+  example: []
+  syntax:
+    content: public string WorkflowId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property WorkflowId As String
+  overload: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.WorkflowId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Name
+  commentId: P:Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Name
+  id: Name
+  parent: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: WorkflowNextTransitionModel.Name
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Name
+  type: Property
+  source:
+    remote:
+      path: src/Workflow/WorkflowNextTransitionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Name
+    path: Workflow/WorkflowNextTransitionModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nGets or sets the transition name.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Description
+  commentId: P:Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Description
+  id: Description
+  parent: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: WorkflowNextTransitionModel.Description
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Description
+  type: Property
+  source:
+    remote:
+      path: src/Workflow/WorkflowNextTransitionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Description
+    path: Workflow/WorkflowNextTransitionModel.cs
+    startLine: 33
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nGets or sets the transition description.\n"
+  example: []
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityId
+  commentId: P:Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityId
+  id: NextActivityId
+  parent: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel
+  langs:
+  - csharp
+  - vb
+  name: NextActivityId
+  nameWithType: WorkflowNextTransitionModel.NextActivityId
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityId
+  type: Property
+  source:
+    remote:
+      path: src/Workflow/WorkflowNextTransitionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: NextActivityId
+    path: Workflow/WorkflowNextTransitionModel.cs
+    startLine: 38
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nGets or sets the identity of the next activity associated with this transition.\n"
+  example: []
+  syntax:
+    content: public string NextActivityId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NextActivityId As String
+  overload: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityName
+  commentId: P:Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityName
+  id: NextActivityName
+  parent: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel
+  langs:
+  - csharp
+  - vb
+  name: NextActivityName
+  nameWithType: WorkflowNextTransitionModel.NextActivityName
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityName
+  type: Property
+  source:
+    remote:
+      path: src/Workflow/WorkflowNextTransitionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: NextActivityName
+    path: Workflow/WorkflowNextTransitionModel.cs
+    startLine: 43
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nGets or sets the name of the next activity associated with this transition.\n"
+  example: []
+  syntax:
+    content: public string NextActivityName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NextActivityName As String
+  overload: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Members
+  commentId: P:Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Members
+  id: Members
+  parent: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel
+  langs:
+  - csharp
+  - vb
+  name: Members
+  nameWithType: WorkflowNextTransitionModel.Members
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Members
+  type: Property
+  source:
+    remote:
+      path: src/Workflow/WorkflowNextTransitionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Members
+    path: Workflow/WorkflowNextTransitionModel.cs
+    startLine: 48
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nGets or sets a list of users who are allowed to be assigned to this activity.\n"
+  example: []
+  syntax:
+    content: public List<WorkflowMemberModel> Members { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Workflow.WorkflowMemberModel}
+    content.vb: Public Property Members As List(Of WorkflowMemberModel)
+  overload: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Members*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Coordinates
+  commentId: P:Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Coordinates
+  id: Coordinates
+  parent: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel
+  langs:
+  - csharp
+  - vb
+  name: Coordinates
+  nameWithType: WorkflowNextTransitionModel.Coordinates
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Coordinates
+  type: Property
+  source:
+    remote:
+      path: src/Workflow/WorkflowNextTransitionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Coordinates
+    path: Workflow/WorkflowNextTransitionModel.cs
+    startLine: 53
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nGets or sets the coordinates.\n"
+  example: []
+  syntax:
+    content: public CoordinatesModel Coordinates { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Common.CoordinatesModel
+    content.vb: Public Property Coordinates As CoordinatesModel
+  overload: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Coordinates*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Workflow
+  commentId: N:Vasont.Inspire.Models.Workflow
+  name: Vasont.Inspire.Models.Workflow
+  nameWithType: Vasont.Inspire.Models.Workflow
+  fullName: Vasont.Inspire.Models.Workflow
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.WorkflowTransitionId*
+  commentId: Overload:Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.WorkflowTransitionId
+  name: WorkflowTransitionId
+  nameWithType: WorkflowNextTransitionModel.WorkflowTransitionId
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.WorkflowTransitionId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.WorkflowId*
+  commentId: Overload:Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.WorkflowId
+  name: WorkflowId
+  nameWithType: WorkflowNextTransitionModel.WorkflowId
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.WorkflowId
+- uid: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Name*
+  commentId: Overload:Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Name
+  name: Name
+  nameWithType: WorkflowNextTransitionModel.Name
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Name
+- uid: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Description*
+  commentId: Overload:Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Description
+  name: Description
+  nameWithType: WorkflowNextTransitionModel.Description
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Description
+- uid: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityId*
+  commentId: Overload:Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityId
+  name: NextActivityId
+  nameWithType: WorkflowNextTransitionModel.NextActivityId
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityId
+- uid: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityName*
+  commentId: Overload:Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityName
+  name: NextActivityName
+  nameWithType: WorkflowNextTransitionModel.NextActivityName
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityName
+- uid: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Members*
+  commentId: Overload:Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Members
+  name: Members
+  nameWithType: WorkflowNextTransitionModel.Members
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Members
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Workflow.WorkflowMemberModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Workflow.WorkflowMemberModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<WorkflowMemberModel>
+  nameWithType: List<WorkflowMemberModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Workflow.WorkflowMemberModel>
+  nameWithType.vb: List(Of WorkflowMemberModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Workflow.WorkflowMemberModel)
+  name.vb: List(Of WorkflowMemberModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Workflow.WorkflowMemberModel
+    name: WorkflowMemberModel
+    nameWithType: WorkflowMemberModel
+    fullName: Vasont.Inspire.Models.Workflow.WorkflowMemberModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Workflow.WorkflowMemberModel
+    name: WorkflowMemberModel
+    nameWithType: WorkflowMemberModel
+    fullName: Vasont.Inspire.Models.Workflow.WorkflowMemberModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Coordinates*
+  commentId: Overload:Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Coordinates
+  name: Coordinates
+  nameWithType: WorkflowNextTransitionModel.Coordinates
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Coordinates
+- uid: Vasont.Inspire.Models.Common.CoordinatesModel
+  commentId: T:Vasont.Inspire.Models.Common.CoordinatesModel
+  parent: Vasont.Inspire.Models.Common
+  name: CoordinatesModel
+  nameWithType: CoordinatesModel
+  fullName: Vasont.Inspire.Models.Common.CoordinatesModel
+- uid: Vasont.Inspire.Models.Common
+  commentId: N:Vasont.Inspire.Models.Common
+  name: Vasont.Inspire.Models.Common
+  nameWithType: Vasont.Inspire.Models.Common
+  fullName: Vasont.Inspire.Models.Common

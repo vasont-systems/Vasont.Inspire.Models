@@ -1,0 +1,585 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel
+  commentId: T:Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel
+  id: WorkflowActivityEventModel
+  parent: Vasont.Inspire.Models.Workflow
+  children:
+  - Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Action
+  - Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Event
+  - Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.EventOrder
+  - Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Parameters
+  - Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.WorkflowActivityId
+  langs:
+  - csharp
+  - vb
+  name: WorkflowActivityEventModel
+  nameWithType: WorkflowActivityEventModel
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel
+  type: Class
+  source:
+    remote:
+      path: src/Workflow/WorkflowActivityEventModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: WorkflowActivityEventModel
+    path: Workflow/WorkflowActivityEventModel.cs
+    startLine: 63
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nThis class represents a workflow activity event model within the application.\n"
+  example: []
+  syntax:
+    content: public class WorkflowActivityEventModel
+    content.vb: Public Class WorkflowActivityEventModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.WorkflowActivityId
+  commentId: P:Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.WorkflowActivityId
+  id: WorkflowActivityId
+  parent: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel
+  langs:
+  - csharp
+  - vb
+  name: WorkflowActivityId
+  nameWithType: WorkflowActivityEventModel.WorkflowActivityId
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.WorkflowActivityId
+  type: Property
+  source:
+    remote:
+      path: src/Workflow/WorkflowActivityEventModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: WorkflowActivityId
+    path: Workflow/WorkflowActivityEventModel.cs
+    startLine: 69
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nGets or sets the parent workflow activity this event is to execute on.\n"
+  example: []
+  syntax:
+    content: public string WorkflowActivityId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property WorkflowActivityId As String
+  overload: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.WorkflowActivityId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Event
+  commentId: P:Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Event
+  id: Event
+  parent: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel
+  langs:
+  - csharp
+  - vb
+  name: Event
+  nameWithType: WorkflowActivityEventModel.Event
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Event
+  type: Property
+  source:
+    remote:
+      path: src/Workflow/WorkflowActivityEventModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Event
+    path: Workflow/WorkflowActivityEventModel.cs
+    startLine: 74
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nGets or sets the event that is to be watched for the related activity.\n"
+  example: []
+  syntax:
+    content: public WorkflowActivityEventType Event { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType
+    content.vb: Public Property Event As WorkflowActivityEventType
+  overload: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Event*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Action
+  commentId: P:Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Action
+  id: Action
+  parent: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: WorkflowActivityEventModel.Action
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Action
+  type: Property
+  source:
+    remote:
+      path: src/Workflow/WorkflowActivityEventModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Action
+    path: Workflow/WorkflowActivityEventModel.cs
+    startLine: 79
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nGets or sets the action to execute when the activity event occurs.\n"
+  example: []
+  syntax:
+    content: public WorkflowActivityEventAction Action { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction
+    content.vb: Public Property Action As WorkflowActivityEventAction
+  overload: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Action*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Parameters
+  commentId: P:Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Parameters
+  id: Parameters
+  parent: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel
+  langs:
+  - csharp
+  - vb
+  name: Parameters
+  nameWithType: WorkflowActivityEventModel.Parameters
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Parameters
+  type: Property
+  source:
+    remote:
+      path: src/Workflow/WorkflowActivityEventModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Parameters
+    path: Workflow/WorkflowActivityEventModel.cs
+    startLine: 84
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nGets or sets optional parameter values for the activity event action.\n"
+  example: []
+  syntax:
+    content: public string Parameters { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Parameters As String
+  overload: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Parameters*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.EventOrder
+  commentId: P:Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.EventOrder
+  id: EventOrder
+  parent: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel
+  langs:
+  - csharp
+  - vb
+  name: EventOrder
+  nameWithType: WorkflowActivityEventModel.EventOrder
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.EventOrder
+  type: Property
+  source:
+    remote:
+      path: src/Workflow/WorkflowActivityEventModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EventOrder
+    path: Workflow/WorkflowActivityEventModel.cs
+    startLine: 89
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nGets or sets the event order in which this action is executed.\n"
+  example: []
+  syntax:
+    content: public int EventOrder { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property EventOrder As Integer
+  overload: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.EventOrder*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Workflow
+  commentId: N:Vasont.Inspire.Models.Workflow
+  name: Vasont.Inspire.Models.Workflow
+  nameWithType: Vasont.Inspire.Models.Workflow
+  fullName: Vasont.Inspire.Models.Workflow
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.WorkflowActivityId*
+  commentId: Overload:Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.WorkflowActivityId
+  name: WorkflowActivityId
+  nameWithType: WorkflowActivityEventModel.WorkflowActivityId
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.WorkflowActivityId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Event*
+  commentId: Overload:Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Event
+  name: Event
+  nameWithType: WorkflowActivityEventModel.Event
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Event
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType
+  commentId: T:Vasont.Inspire.Models.Workflow.WorkflowActivityEventType
+  parent: Vasont.Inspire.Models.Workflow
+  name: WorkflowActivityEventType
+  nameWithType: WorkflowActivityEventType
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Action*
+  commentId: Overload:Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Action
+  name: Action
+  nameWithType: WorkflowActivityEventModel.Action
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Action
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction
+  commentId: T:Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction
+  parent: Vasont.Inspire.Models.Workflow
+  name: WorkflowActivityEventAction
+  nameWithType: WorkflowActivityEventAction
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Parameters*
+  commentId: Overload:Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Parameters
+  name: Parameters
+  nameWithType: WorkflowActivityEventModel.Parameters
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.Parameters
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.EventOrder*
+  commentId: Overload:Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.EventOrder
+  name: EventOrder
+  nameWithType: WorkflowActivityEventModel.EventOrder
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventModel.EventOrder
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

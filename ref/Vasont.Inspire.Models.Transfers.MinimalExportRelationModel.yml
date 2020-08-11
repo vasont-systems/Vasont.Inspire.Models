@@ -1,0 +1,785 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel
+  commentId: T:Vasont.Inspire.Models.Transfers.MinimalExportRelationModel
+  id: MinimalExportRelationModel
+  parent: Vasont.Inspire.Models.Transfers
+  children:
+  - Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ElementId
+  - Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ElementName
+  - Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ExportId
+  - Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ExportRelationId
+  - Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationDescription
+  - Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationId
+  - Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationName
+  - Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.XmlLinkName
+  langs:
+  - csharp
+  - vb
+  name: MinimalExportRelationModel
+  nameWithType: MinimalExportRelationModel
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel
+  type: Class
+  source:
+    remote:
+      path: src/Transfers/MinimalExportRelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: MinimalExportRelationModel
+    path: Transfers/MinimalExportRelationModel.cs
+    startLine: 10
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nThis class represents an export relation record model within the application.\n"
+  example: []
+  syntax:
+    content: public class MinimalExportRelationModel
+    content.vb: Public Class MinimalExportRelationModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ExportRelationId
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ExportRelationId
+  id: ExportRelationId
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel
+  langs:
+  - csharp
+  - vb
+  name: ExportRelationId
+  nameWithType: MinimalExportRelationModel.ExportRelationId
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ExportRelationId
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/MinimalExportRelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ExportRelationId
+    path: Transfers/MinimalExportRelationModel.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the export relation identity.\n"
+  example: []
+  syntax:
+    content: public long ExportRelationId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ExportRelationId As Long
+  overload: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ExportRelationId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ExportId
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ExportId
+  id: ExportId
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel
+  langs:
+  - csharp
+  - vb
+  name: ExportId
+  nameWithType: MinimalExportRelationModel.ExportId
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ExportId
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/MinimalExportRelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ExportId
+    path: Transfers/MinimalExportRelationModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the export id.\n"
+  example: []
+  syntax:
+    content: public long ExportId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ExportId As Long
+  overload: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ExportId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationId
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationId
+  id: RelationId
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel
+  langs:
+  - csharp
+  - vb
+  name: RelationId
+  nameWithType: MinimalExportRelationModel.RelationId
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationId
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/MinimalExportRelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RelationId
+    path: Transfers/MinimalExportRelationModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the related relation model.\n"
+  example: []
+  syntax:
+    content: public long RelationId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property RelationId As Long
+  overload: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationName
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationName
+  id: RelationName
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel
+  langs:
+  - csharp
+  - vb
+  name: RelationName
+  nameWithType: MinimalExportRelationModel.RelationName
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationName
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/MinimalExportRelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RelationName
+    path: Transfers/MinimalExportRelationModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the relation name\n"
+  example: []
+  syntax:
+    content: public string RelationName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RelationName As String
+  overload: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationDescription
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationDescription
+  id: RelationDescription
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel
+  langs:
+  - csharp
+  - vb
+  name: RelationDescription
+  nameWithType: MinimalExportRelationModel.RelationDescription
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationDescription
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/MinimalExportRelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RelationDescription
+    path: Transfers/MinimalExportRelationModel.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the relation description\n"
+  example: []
+  syntax:
+    content: public string RelationDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RelationDescription As String
+  overload: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationDescription*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.XmlLinkName
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.XmlLinkName
+  id: XmlLinkName
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel
+  langs:
+  - csharp
+  - vb
+  name: XmlLinkName
+  nameWithType: MinimalExportRelationModel.XmlLinkName
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.XmlLinkName
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/MinimalExportRelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: XmlLinkName
+    path: Transfers/MinimalExportRelationModel.cs
+    startLine: 40
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the XML Link Name\n"
+  example: []
+  syntax:
+    content: public string XmlLinkName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property XmlLinkName As String
+  overload: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.XmlLinkName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ElementId
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ElementId
+  id: ElementId
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel
+  langs:
+  - csharp
+  - vb
+  name: ElementId
+  nameWithType: MinimalExportRelationModel.ElementId
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ElementId
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/MinimalExportRelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ElementId
+    path: Transfers/MinimalExportRelationModel.cs
+    startLine: 45
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets an optional element identity.\n"
+  example: []
+  syntax:
+    content: public long? ElementId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int64}
+    content.vb: Public Property ElementId As Long?
+  overload: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ElementId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ElementName
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ElementName
+  id: ElementName
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel
+  langs:
+  - csharp
+  - vb
+  name: ElementName
+  nameWithType: MinimalExportRelationModel.ElementName
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ElementName
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/MinimalExportRelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ElementName
+    path: Transfers/MinimalExportRelationModel.cs
+    startLine: 50
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets an optional element name.\n"
+  example: []
+  syntax:
+    content: public string ElementName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ElementName As String
+  overload: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ElementName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Transfers
+  commentId: N:Vasont.Inspire.Models.Transfers
+  name: Vasont.Inspire.Models.Transfers
+  nameWithType: Vasont.Inspire.Models.Transfers
+  fullName: Vasont.Inspire.Models.Transfers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ExportRelationId*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ExportRelationId
+  name: ExportRelationId
+  nameWithType: MinimalExportRelationModel.ExportRelationId
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ExportRelationId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ExportId*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ExportId
+  name: ExportId
+  nameWithType: MinimalExportRelationModel.ExportId
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ExportId
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationId*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationId
+  name: RelationId
+  nameWithType: MinimalExportRelationModel.RelationId
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationId
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationName*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationName
+  name: RelationName
+  nameWithType: MinimalExportRelationModel.RelationName
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationDescription*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationDescription
+  name: RelationDescription
+  nameWithType: MinimalExportRelationModel.RelationDescription
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.RelationDescription
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.XmlLinkName*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.XmlLinkName
+  name: XmlLinkName
+  nameWithType: MinimalExportRelationModel.XmlLinkName
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.XmlLinkName
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ElementId*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ElementId
+  name: ElementId
+  nameWithType: MinimalExportRelationModel.ElementId
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ElementId
+- uid: System.Nullable{System.Int64}
+  commentId: T:System.Nullable{System.Int64}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int64>
+  nameWithType: Nullable<Int64>
+  fullName: System.Nullable<System.Int64>
+  nameWithType.vb: Nullable(Of Int64)
+  fullName.vb: System.Nullable(Of System.Int64)
+  name.vb: Nullable(Of Int64)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ElementName*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ElementName
+  name: ElementName
+  nameWithType: MinimalExportRelationModel.ElementName
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportRelationModel.ElementName

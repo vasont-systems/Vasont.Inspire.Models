@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.ComponentAutoRepairResult
+  commentId: T:Vasont.Inspire.Models.Components.ComponentAutoRepairResult
+  id: ComponentAutoRepairResult
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.ComponentAutoRepairResult.Failed
+  - Vasont.Inspire.Models.Components.ComponentAutoRepairResult.Ignored
+  - Vasont.Inspire.Models.Components.ComponentAutoRepairResult.Success
+  langs:
+  - csharp
+  - vb
+  name: ComponentAutoRepairResult
+  nameWithType: ComponentAutoRepairResult
+  fullName: Vasont.Inspire.Models.Components.ComponentAutoRepairResult
+  type: Enum
+  source:
+    remote:
+      path: src/Components/ComponentAutoRepairModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentAutoRepairResult
+    path: Components/ComponentAutoRepairModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nContains an enumerated set of auto repair results.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum ComponentAutoRepairResult
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum ComponentAutoRepairResult
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Components.ComponentAutoRepairResult.Success
+  commentId: F:Vasont.Inspire.Models.Components.ComponentAutoRepairResult.Success
+  id: Success
+  parent: Vasont.Inspire.Models.Components.ComponentAutoRepairResult
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: ComponentAutoRepairResult.Success
+  fullName: Vasont.Inspire.Models.Components.ComponentAutoRepairResult.Success
+  type: Field
+  source:
+    remote:
+      path: src/Components/ComponentAutoRepairModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Success
+    path: Components/ComponentAutoRepairModel.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThe component relation was successfully repaired.\n"
+  example: []
+  syntax:
+    content: Success = 0
+    return:
+      type: Vasont.Inspire.Models.Components.ComponentAutoRepairResult
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.ComponentAutoRepairResult.Failed
+  commentId: F:Vasont.Inspire.Models.Components.ComponentAutoRepairResult.Failed
+  id: Failed
+  parent: Vasont.Inspire.Models.Components.ComponentAutoRepairResult
+  langs:
+  - csharp
+  - vb
+  name: Failed
+  nameWithType: ComponentAutoRepairResult.Failed
+  fullName: Vasont.Inspire.Models.Components.ComponentAutoRepairResult.Failed
+  type: Field
+  source:
+    remote:
+      path: src/Components/ComponentAutoRepairModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Failed
+    path: Components/ComponentAutoRepairModel.cs
+    startLine: 24
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThe component relation repair failed.\n"
+  example: []
+  syntax:
+    content: Failed = 1
+    return:
+      type: Vasont.Inspire.Models.Components.ComponentAutoRepairResult
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.ComponentAutoRepairResult.Ignored
+  commentId: F:Vasont.Inspire.Models.Components.ComponentAutoRepairResult.Ignored
+  id: Ignored
+  parent: Vasont.Inspire.Models.Components.ComponentAutoRepairResult
+  langs:
+  - csharp
+  - vb
+  name: Ignored
+  nameWithType: ComponentAutoRepairResult.Ignored
+  fullName: Vasont.Inspire.Models.Components.ComponentAutoRepairResult.Ignored
+  type: Field
+  source:
+    remote:
+      path: src/Components/ComponentAutoRepairModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Ignored
+    path: Components/ComponentAutoRepairModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThe component relation repair ignored\nthe component should be repaired manually.\n"
+  example: []
+  syntax:
+    content: Ignored = 2
+    return:
+      type: Vasont.Inspire.Models.Components.ComponentAutoRepairResult
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: Vasont.Inspire.Models.Components.ComponentAutoRepairResult
+  commentId: T:Vasont.Inspire.Models.Components.ComponentAutoRepairResult
+  parent: Vasont.Inspire.Models.Components
+  name: ComponentAutoRepairResult
+  nameWithType: ComponentAutoRepairResult
+  fullName: Vasont.Inspire.Models.Components.ComponentAutoRepairResult

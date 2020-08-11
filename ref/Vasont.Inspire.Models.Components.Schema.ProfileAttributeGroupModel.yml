@@ -1,0 +1,580 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel
+  commentId: T:Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel
+  id: ProfileAttributeGroupModel
+  parent: Vasont.Inspire.Models.Components.Schema
+  children:
+  - Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.AttributeId
+  - Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.Display
+  - Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.ProfileAttributeGroupId
+  - Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.SortOrder
+  - Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.Value
+  langs:
+  - csharp
+  - vb
+  name: ProfileAttributeGroupModel
+  nameWithType: ProfileAttributeGroupModel
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel
+  type: Class
+  source:
+    remote:
+      path: src/Components/Schema/ProfileAttributeGroupModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProfileAttributeGroupModel
+    path: Components/Schema/ProfileAttributeGroupModel.cs
+    startLine: 10
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components.Schema
+  summary: "\nThis class defines the properties of a profile attribute group model.\n"
+  example: []
+  syntax:
+    content: public class ProfileAttributeGroupModel
+    content.vb: Public Class ProfileAttributeGroupModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.ProfileAttributeGroupId
+  commentId: P:Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.ProfileAttributeGroupId
+  id: ProfileAttributeGroupId
+  parent: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel
+  langs:
+  - csharp
+  - vb
+  name: ProfileAttributeGroupId
+  nameWithType: ProfileAttributeGroupModel.ProfileAttributeGroupId
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.ProfileAttributeGroupId
+  type: Property
+  source:
+    remote:
+      path: src/Components/Schema/ProfileAttributeGroupModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProfileAttributeGroupId
+    path: Components/Schema/ProfileAttributeGroupModel.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components.Schema
+  summary: "\nGets or sets the identity of the profile attribute group.\n"
+  example: []
+  syntax:
+    content: public long ProfileAttributeGroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ProfileAttributeGroupId As Long
+  overload: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.ProfileAttributeGroupId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.AttributeId
+  commentId: P:Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.AttributeId
+  id: AttributeId
+  parent: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel
+  langs:
+  - csharp
+  - vb
+  name: AttributeId
+  nameWithType: ProfileAttributeGroupModel.AttributeId
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.AttributeId
+  type: Property
+  source:
+    remote:
+      path: src/Components/Schema/ProfileAttributeGroupModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: AttributeId
+    path: Components/Schema/ProfileAttributeGroupModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components.Schema
+  summary: "\nGets or sets the identity of the attribute that this group is related to.\n"
+  example: []
+  syntax:
+    content: public long AttributeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property AttributeId As Long
+  overload: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.AttributeId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.Display
+  commentId: P:Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.Display
+  id: Display
+  parent: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel
+  langs:
+  - csharp
+  - vb
+  name: Display
+  nameWithType: ProfileAttributeGroupModel.Display
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.Display
+  type: Property
+  source:
+    remote:
+      path: src/Components/Schema/ProfileAttributeGroupModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Display
+    path: Components/Schema/ProfileAttributeGroupModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components.Schema
+  summary: "\nGets or sets the simple display name of the value.\n"
+  example: []
+  syntax:
+    content: public string Display { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Display As String
+  overload: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.Display*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.Value
+  commentId: P:Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.Value
+  id: Value
+  parent: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: ProfileAttributeGroupModel.Value
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.Value
+  type: Property
+  source:
+    remote:
+      path: src/Components/Schema/ProfileAttributeGroupModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Value
+    path: Components/Schema/ProfileAttributeGroupModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components.Schema
+  summary: "\nGets or sets the value of the group.\n"
+  example: []
+  syntax:
+    content: public string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Value As String
+  overload: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.Value*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.SortOrder
+  commentId: P:Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.SortOrder
+  id: SortOrder
+  parent: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel
+  langs:
+  - csharp
+  - vb
+  name: SortOrder
+  nameWithType: ProfileAttributeGroupModel.SortOrder
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.SortOrder
+  type: Property
+  source:
+    remote:
+      path: src/Components/Schema/ProfileAttributeGroupModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SortOrder
+    path: Components/Schema/ProfileAttributeGroupModel.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components.Schema
+  summary: "\nGets or sets the sort order in which the group will be displayed within other groups for the same attribute.\n"
+  example: []
+  syntax:
+    content: public int SortOrder { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SortOrder As Integer
+  overload: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.SortOrder*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Components.Schema
+  commentId: N:Vasont.Inspire.Models.Components.Schema
+  name: Vasont.Inspire.Models.Components.Schema
+  nameWithType: Vasont.Inspire.Models.Components.Schema
+  fullName: Vasont.Inspire.Models.Components.Schema
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.ProfileAttributeGroupId*
+  commentId: Overload:Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.ProfileAttributeGroupId
+  name: ProfileAttributeGroupId
+  nameWithType: ProfileAttributeGroupModel.ProfileAttributeGroupId
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.ProfileAttributeGroupId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.AttributeId*
+  commentId: Overload:Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.AttributeId
+  name: AttributeId
+  nameWithType: ProfileAttributeGroupModel.AttributeId
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.AttributeId
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.Display*
+  commentId: Overload:Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.Display
+  name: Display
+  nameWithType: ProfileAttributeGroupModel.Display
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.Display
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.Value*
+  commentId: Overload:Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.Value
+  name: Value
+  nameWithType: ProfileAttributeGroupModel.Value
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.Value
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.SortOrder*
+  commentId: Overload:Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.SortOrder
+  name: SortOrder
+  nameWithType: ProfileAttributeGroupModel.SortOrder
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel.SortOrder
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

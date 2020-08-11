@@ -1,0 +1,757 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.EditorTransformModel
+  commentId: T:Vasont.Inspire.Models.Components.EditorTransformModel
+  id: EditorTransformModel
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.EditorTransformModel.ComponentId
+  - Vasont.Inspire.Models.Components.EditorTransformModel.Content
+  - Vasont.Inspire.Models.Components.EditorTransformModel.FileName
+  - Vasont.Inspire.Models.Components.EditorTransformModel.From
+  - Vasont.Inspire.Models.Components.EditorTransformModel.PrettyPrint
+  - Vasont.Inspire.Models.Components.EditorTransformModel.SchemaStandard
+  - Vasont.Inspire.Models.Components.EditorTransformModel.Submit
+  - Vasont.Inspire.Models.Components.EditorTransformModel.To
+  langs:
+  - csharp
+  - vb
+  name: EditorTransformModel
+  nameWithType: EditorTransformModel
+  fullName: Vasont.Inspire.Models.Components.EditorTransformModel
+  type: Class
+  source:
+    remote:
+      path: src/Components/EditorTransformModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EditorTransformModel
+    path: Components/EditorTransformModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis class represents a collection of properties used to transform content between xml and html.\n"
+  example: []
+  syntax:
+    content: public class EditorTransformModel
+    content.vb: Public Class EditorTransformModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Components.EditorTransformModel.Content
+  commentId: P:Vasont.Inspire.Models.Components.EditorTransformModel.Content
+  id: Content
+  parent: Vasont.Inspire.Models.Components.EditorTransformModel
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: EditorTransformModel.Content
+  fullName: Vasont.Inspire.Models.Components.EditorTransformModel.Content
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorTransformModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Content
+    path: Components/EditorTransformModel.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the content which may be xml or html.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "content")]
+
+      public string Content { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty(PropertyName:="content")>
+
+      Public Property Content As String
+  overload: Vasont.Inspire.Models.Components.EditorTransformModel.Content*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: content
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorTransformModel.From
+  commentId: P:Vasont.Inspire.Models.Components.EditorTransformModel.From
+  id: From
+  parent: Vasont.Inspire.Models.Components.EditorTransformModel
+  langs:
+  - csharp
+  - vb
+  name: From
+  nameWithType: EditorTransformModel.From
+  fullName: Vasont.Inspire.Models.Components.EditorTransformModel.From
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorTransformModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: From
+    path: Components/EditorTransformModel.cs
+    startLine: 41
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating transform from direction.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "from")]
+
+      public TransformDirectionFormat From { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Components.TransformDirectionFormat
+    content.vb: >-
+      <JsonProperty(PropertyName:="from")>
+
+      Public Property From As TransformDirectionFormat
+  overload: Vasont.Inspire.Models.Components.EditorTransformModel.From*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: from
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorTransformModel.To
+  commentId: P:Vasont.Inspire.Models.Components.EditorTransformModel.To
+  id: To
+  parent: Vasont.Inspire.Models.Components.EditorTransformModel
+  langs:
+  - csharp
+  - vb
+  name: To
+  nameWithType: EditorTransformModel.To
+  fullName: Vasont.Inspire.Models.Components.EditorTransformModel.To
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorTransformModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: To
+    path: Components/EditorTransformModel.cs
+    startLine: 47
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating transform to direction.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "to")]
+
+      public TransformDirectionFormat To { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Components.TransformDirectionFormat
+    content.vb: >-
+      <JsonProperty(PropertyName:="to")>
+
+      Public Property To As TransformDirectionFormat
+  overload: Vasont.Inspire.Models.Components.EditorTransformModel.To*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: to
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorTransformModel.ComponentId
+  commentId: P:Vasont.Inspire.Models.Components.EditorTransformModel.ComponentId
+  id: ComponentId
+  parent: Vasont.Inspire.Models.Components.EditorTransformModel
+  langs:
+  - csharp
+  - vb
+  name: ComponentId
+  nameWithType: EditorTransformModel.ComponentId
+  fullName: Vasont.Inspire.Models.Components.EditorTransformModel.ComponentId
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorTransformModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentId
+    path: Components/EditorTransformModel.cs
+    startLine: 53
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating the component identifier.\n"
+  example: []
+  syntax:
+    content: public long ComponentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ComponentId As Long
+  overload: Vasont.Inspire.Models.Components.EditorTransformModel.ComponentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorTransformModel.FileName
+  commentId: P:Vasont.Inspire.Models.Components.EditorTransformModel.FileName
+  id: FileName
+  parent: Vasont.Inspire.Models.Components.EditorTransformModel
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: EditorTransformModel.FileName
+  fullName: Vasont.Inspire.Models.Components.EditorTransformModel.FileName
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorTransformModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FileName
+    path: Components/EditorTransformModel.cs
+    startLine: 58
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating the component filename.\n"
+  example: []
+  syntax:
+    content: public string FileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FileName As String
+  overload: Vasont.Inspire.Models.Components.EditorTransformModel.FileName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorTransformModel.PrettyPrint
+  commentId: P:Vasont.Inspire.Models.Components.EditorTransformModel.PrettyPrint
+  id: PrettyPrint
+  parent: Vasont.Inspire.Models.Components.EditorTransformModel
+  langs:
+  - csharp
+  - vb
+  name: PrettyPrint
+  nameWithType: EditorTransformModel.PrettyPrint
+  fullName: Vasont.Inspire.Models.Components.EditorTransformModel.PrettyPrint
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorTransformModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PrettyPrint
+    path: Components/EditorTransformModel.cs
+    startLine: 63
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether to pretty print output.\n"
+  example: []
+  syntax:
+    content: public bool PrettyPrint { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PrettyPrint As Boolean
+  overload: Vasont.Inspire.Models.Components.EditorTransformModel.PrettyPrint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorTransformModel.SchemaStandard
+  commentId: P:Vasont.Inspire.Models.Components.EditorTransformModel.SchemaStandard
+  id: SchemaStandard
+  parent: Vasont.Inspire.Models.Components.EditorTransformModel
+  langs:
+  - csharp
+  - vb
+  name: SchemaStandard
+  nameWithType: EditorTransformModel.SchemaStandard
+  fullName: Vasont.Inspire.Models.Components.EditorTransformModel.SchemaStandard
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorTransformModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SchemaStandard
+    path: Components/EditorTransformModel.cs
+    startLine: 68
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating the component schema standard.\n"
+  example: []
+  syntax:
+    content: public string SchemaStandard { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SchemaStandard As String
+  overload: Vasont.Inspire.Models.Components.EditorTransformModel.SchemaStandard*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorTransformModel.Submit
+  commentId: P:Vasont.Inspire.Models.Components.EditorTransformModel.Submit
+  id: Submit
+  parent: Vasont.Inspire.Models.Components.EditorTransformModel
+  langs:
+  - csharp
+  - vb
+  name: Submit
+  nameWithType: EditorTransformModel.Submit
+  fullName: Vasont.Inspire.Models.Components.EditorTransformModel.Submit
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorTransformModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Submit
+    path: Components/EditorTransformModel.cs
+    startLine: 73
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether the transform is for submitted content.\n"
+  example: []
+  syntax:
+    content: public bool Submit { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Submit As Boolean
+  overload: Vasont.Inspire.Models.Components.EditorTransformModel.Submit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Components.EditorTransformModel.Content*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorTransformModel.Content
+  name: Content
+  nameWithType: EditorTransformModel.Content
+  fullName: Vasont.Inspire.Models.Components.EditorTransformModel.Content
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Components.EditorTransformModel.From*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorTransformModel.From
+  name: From
+  nameWithType: EditorTransformModel.From
+  fullName: Vasont.Inspire.Models.Components.EditorTransformModel.From
+- uid: Vasont.Inspire.Models.Components.TransformDirectionFormat
+  commentId: T:Vasont.Inspire.Models.Components.TransformDirectionFormat
+  parent: Vasont.Inspire.Models.Components
+  name: TransformDirectionFormat
+  nameWithType: TransformDirectionFormat
+  fullName: Vasont.Inspire.Models.Components.TransformDirectionFormat
+- uid: Vasont.Inspire.Models.Components.EditorTransformModel.To*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorTransformModel.To
+  name: To
+  nameWithType: EditorTransformModel.To
+  fullName: Vasont.Inspire.Models.Components.EditorTransformModel.To
+- uid: Vasont.Inspire.Models.Components.EditorTransformModel.ComponentId*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorTransformModel.ComponentId
+  name: ComponentId
+  nameWithType: EditorTransformModel.ComponentId
+  fullName: Vasont.Inspire.Models.Components.EditorTransformModel.ComponentId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Components.EditorTransformModel.FileName*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorTransformModel.FileName
+  name: FileName
+  nameWithType: EditorTransformModel.FileName
+  fullName: Vasont.Inspire.Models.Components.EditorTransformModel.FileName
+- uid: Vasont.Inspire.Models.Components.EditorTransformModel.PrettyPrint*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorTransformModel.PrettyPrint
+  name: PrettyPrint
+  nameWithType: EditorTransformModel.PrettyPrint
+  fullName: Vasont.Inspire.Models.Components.EditorTransformModel.PrettyPrint
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Components.EditorTransformModel.SchemaStandard*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorTransformModel.SchemaStandard
+  name: SchemaStandard
+  nameWithType: EditorTransformModel.SchemaStandard
+  fullName: Vasont.Inspire.Models.Components.EditorTransformModel.SchemaStandard
+- uid: Vasont.Inspire.Models.Components.EditorTransformModel.Submit*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorTransformModel.Submit
+  name: Submit
+  nameWithType: EditorTransformModel.Submit
+  fullName: Vasont.Inspire.Models.Components.EditorTransformModel.Submit

@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction
+  commentId: T:Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction
+  id: NotificationComponentAction
+  parent: Vasont.Inspire.Models.Notifications.Types
+  children:
+  - Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction.Added
+  - Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction.Moved
+  - Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction.Removed
+  - Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction.Updated
+  langs:
+  - csharp
+  - vb
+  name: NotificationComponentAction
+  nameWithType: NotificationComponentAction
+  fullName: Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction
+  type: Enum
+  source:
+    remote:
+      path: src/Notifications/Types/NotificationComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: NotificationComponentAction
+    path: Notifications/Types/NotificationComponentModel.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications.Types
+  summary: "\nContains an enumerated list of available component action notifications.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum NotificationComponentAction
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum NotificationComponentAction
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction.Added
+  commentId: F:Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction.Added
+  id: Added
+  parent: Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction
+  langs:
+  - csharp
+  - vb
+  name: Added
+  nameWithType: NotificationComponentAction.Added
+  fullName: Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction.Added
+  type: Field
+  source:
+    remote:
+      path: src/Notifications/Types/NotificationComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Added
+    path: Notifications/Types/NotificationComponentModel.cs
+    startLine: 21
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications.Types
+  summary: "\nThe specified component was added to the specified parent folder.\n"
+  example: []
+  syntax:
+    content: Added = 0
+    return:
+      type: Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction.Updated
+  commentId: F:Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction.Updated
+  id: Updated
+  parent: Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: NotificationComponentAction.Updated
+  fullName: Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction.Updated
+  type: Field
+  source:
+    remote:
+      path: src/Notifications/Types/NotificationComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Updated
+    path: Notifications/Types/NotificationComponentModel.cs
+    startLine: 26
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications.Types
+  summary: "\nThe specified component was updated.\n"
+  example: []
+  syntax:
+    content: Updated = 1
+    return:
+      type: Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction.Removed
+  commentId: F:Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction.Removed
+  id: Removed
+  parent: Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction
+  langs:
+  - csharp
+  - vb
+  name: Removed
+  nameWithType: NotificationComponentAction.Removed
+  fullName: Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction.Removed
+  type: Field
+  source:
+    remote:
+      path: src/Notifications/Types/NotificationComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Removed
+    path: Notifications/Types/NotificationComponentModel.cs
+    startLine: 31
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications.Types
+  summary: "\nThe specified component was removed.\n"
+  example: []
+  syntax:
+    content: Removed = 2
+    return:
+      type: Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction.Moved
+  commentId: F:Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction.Moved
+  id: Moved
+  parent: Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction
+  langs:
+  - csharp
+  - vb
+  name: Moved
+  nameWithType: NotificationComponentAction.Moved
+  fullName: Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction.Moved
+  type: Field
+  source:
+    remote:
+      path: src/Notifications/Types/NotificationComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Moved
+    path: Notifications/Types/NotificationComponentModel.cs
+    startLine: 36
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications.Types
+  summary: "\nThe specified component was moved to the specified parent folder.\n"
+  example: []
+  syntax:
+    content: Moved = 3
+    return:
+      type: Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Notifications.Types
+  commentId: N:Vasont.Inspire.Models.Notifications.Types
+  name: Vasont.Inspire.Models.Notifications.Types
+  nameWithType: Vasont.Inspire.Models.Notifications.Types
+  fullName: Vasont.Inspire.Models.Notifications.Types
+- uid: Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction
+  commentId: T:Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction
+  parent: Vasont.Inspire.Models.Notifications.Types
+  name: NotificationComponentAction
+  nameWithType: NotificationComponentAction
+  fullName: Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction

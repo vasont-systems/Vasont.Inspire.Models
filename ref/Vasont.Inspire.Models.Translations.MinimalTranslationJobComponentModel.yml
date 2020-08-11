@@ -1,0 +1,753 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  commentId: T:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  id: MinimalTranslationJobComponentModel
+  parent: Vasont.Inspire.Models.Translations
+  children:
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.ComponentTypeName
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileName
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Name
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.SourceLanguageCode
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.State
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TargetLanguageCode
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobComponentId
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobId
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobSourceComponentId
+  langs:
+  - csharp
+  - vb
+  name: MinimalTranslationJobComponentModel
+  nameWithType: MinimalTranslationJobComponentModel
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  type: Class
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: MinimalTranslationJobComponentModel
+    path: Translations/MinimalTranslationJobComponentModel.cs
+    startLine: 41
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nThis class represents a minimal translation job component within the application.\n"
+  example: []
+  syntax:
+    content: public class MinimalTranslationJobComponentModel
+    content.vb: Public Class MinimalTranslationJobComponentModel
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Vasont.Inspire.Models.Translations.TranslationJobComponentModel
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobComponentId
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobComponentId
+  id: TranslationJobComponentId
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  langs:
+  - csharp
+  - vb
+  name: TranslationJobComponentId
+  nameWithType: MinimalTranslationJobComponentModel.TranslationJobComponentId
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobComponentId
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TranslationJobComponentId
+    path: Translations/MinimalTranslationJobComponentModel.cs
+    startLine: 46
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the identity of the translation job component.\n"
+  example: []
+  syntax:
+    content: public long TranslationJobComponentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TranslationJobComponentId As Long
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobComponentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobId
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobId
+  id: TranslationJobId
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  langs:
+  - csharp
+  - vb
+  name: TranslationJobId
+  nameWithType: MinimalTranslationJobComponentModel.TranslationJobId
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobId
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TranslationJobId
+    path: Translations/MinimalTranslationJobComponentModel.cs
+    startLine: 51
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the identity of the translation job.\n"
+  example: []
+  syntax:
+    content: public long TranslationJobId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TranslationJobId As Long
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.State
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.State
+  id: State
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: MinimalTranslationJobComponentModel.State
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.State
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: State
+    path: Translations/MinimalTranslationJobComponentModel.cs
+    startLine: 56
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the state of the translation job component.\n"
+  example: []
+  syntax:
+    content: public TranslationJobComponentState State { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Translations.TranslationJobComponentState
+    content.vb: Public Property State As TranslationJobComponentState
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.State*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileName
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileName
+  id: FileName
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: MinimalTranslationJobComponentModel.FileName
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileName
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FileName
+    path: Translations/MinimalTranslationJobComponentModel.cs
+    startLine: 61
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the target file name.\n"
+  example: []
+  syntax:
+    content: public string FileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FileName As String
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.SourceLanguageCode
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.SourceLanguageCode
+  id: SourceLanguageCode
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  langs:
+  - csharp
+  - vb
+  name: SourceLanguageCode
+  nameWithType: MinimalTranslationJobComponentModel.SourceLanguageCode
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.SourceLanguageCode
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SourceLanguageCode
+    path: Translations/MinimalTranslationJobComponentModel.cs
+    startLine: 66
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the source language code.\n"
+  example: []
+  syntax:
+    content: public string SourceLanguageCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SourceLanguageCode As String
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.SourceLanguageCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TargetLanguageCode
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TargetLanguageCode
+  id: TargetLanguageCode
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  langs:
+  - csharp
+  - vb
+  name: TargetLanguageCode
+  nameWithType: MinimalTranslationJobComponentModel.TargetLanguageCode
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TargetLanguageCode
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TargetLanguageCode
+    path: Translations/MinimalTranslationJobComponentModel.cs
+    startLine: 71
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the target language code.\n"
+  example: []
+  syntax:
+    content: public string TargetLanguageCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TargetLanguageCode As String
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TargetLanguageCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobSourceComponentId
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobSourceComponentId
+  id: TranslationJobSourceComponentId
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  langs:
+  - csharp
+  - vb
+  name: TranslationJobSourceComponentId
+  nameWithType: MinimalTranslationJobComponentModel.TranslationJobSourceComponentId
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobSourceComponentId
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TranslationJobSourceComponentId
+    path: Translations/MinimalTranslationJobComponentModel.cs
+    startLine: 76
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the translation job source component identifier.\n"
+  example: []
+  syntax:
+    content: public long TranslationJobSourceComponentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TranslationJobSourceComponentId As Long
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobSourceComponentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Name
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Name
+  id: Name
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: MinimalTranslationJobComponentModel.Name
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Name
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Name
+    path: Translations/MinimalTranslationJobComponentModel.cs
+    startLine: 81
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the name.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.ComponentTypeName
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.ComponentTypeName
+  id: ComponentTypeName
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  langs:
+  - csharp
+  - vb
+  name: ComponentTypeName
+  nameWithType: MinimalTranslationJobComponentModel.ComponentTypeName
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.ComponentTypeName
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentTypeName
+    path: Translations/MinimalTranslationJobComponentModel.cs
+    startLine: 86
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the type of the component.\n"
+  example: []
+  syntax:
+    content: public string ComponentTypeName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ComponentTypeName As String
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.ComponentTypeName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Translations
+  commentId: N:Vasont.Inspire.Models.Translations
+  name: Vasont.Inspire.Models.Translations
+  nameWithType: Vasont.Inspire.Models.Translations
+  fullName: Vasont.Inspire.Models.Translations
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobComponentId*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobComponentId
+  name: TranslationJobComponentId
+  nameWithType: MinimalTranslationJobComponentModel.TranslationJobComponentId
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobComponentId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobId*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobId
+  name: TranslationJobId
+  nameWithType: MinimalTranslationJobComponentModel.TranslationJobId
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobId
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.State*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.State
+  name: State
+  nameWithType: MinimalTranslationJobComponentModel.State
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.State
+- uid: Vasont.Inspire.Models.Translations.TranslationJobComponentState
+  commentId: T:Vasont.Inspire.Models.Translations.TranslationJobComponentState
+  parent: Vasont.Inspire.Models.Translations
+  name: TranslationJobComponentState
+  nameWithType: TranslationJobComponentState
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobComponentState
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileName*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileName
+  name: FileName
+  nameWithType: MinimalTranslationJobComponentModel.FileName
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.SourceLanguageCode*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.SourceLanguageCode
+  name: SourceLanguageCode
+  nameWithType: MinimalTranslationJobComponentModel.SourceLanguageCode
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.SourceLanguageCode
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TargetLanguageCode*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TargetLanguageCode
+  name: TargetLanguageCode
+  nameWithType: MinimalTranslationJobComponentModel.TargetLanguageCode
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TargetLanguageCode
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobSourceComponentId*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobSourceComponentId
+  name: TranslationJobSourceComponentId
+  nameWithType: MinimalTranslationJobComponentModel.TranslationJobSourceComponentId
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobSourceComponentId
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Name*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Name
+  name: Name
+  nameWithType: MinimalTranslationJobComponentModel.Name
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Name
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.ComponentTypeName*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.ComponentTypeName
+  name: ComponentTypeName
+  nameWithType: MinimalTranslationJobComponentModel.ComponentTypeName
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.ComponentTypeName

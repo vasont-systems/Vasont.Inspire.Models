@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType
+  commentId: T:Vasont.Inspire.Models.Versioning.ChangesetSnapshotType
+  id: ChangesetSnapshotType
+  parent: Vasont.Inspire.Models.Versioning
+  children:
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotType.Component
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotType.ComponentProperty
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotType.ComponentTag
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotType.Folder
+  langs:
+  - csharp
+  - vb
+  name: ChangesetSnapshotType
+  nameWithType: ChangesetSnapshotType
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType
+  type: Enum
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ChangesetSnapshotType
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 60
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nContains an enumerated list of available changeset snapshot types.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum ChangesetSnapshotType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum ChangesetSnapshotType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType.Component
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotType.Component
+  id: Component
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType
+  langs:
+  - csharp
+  - vb
+  name: Component
+  nameWithType: ChangesetSnapshotType.Component
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType.Component
+  type: Field
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Component
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 66
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nA Component target of an action within a versioning changeset\n"
+  example: []
+  syntax:
+    content: Component = 0
+    return:
+      type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType.Folder
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotType.Folder
+  id: Folder
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType
+  langs:
+  - csharp
+  - vb
+  name: Folder
+  nameWithType: ChangesetSnapshotType.Folder
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType.Folder
+  type: Field
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Folder
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 71
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nA Folder target of an action within a versioning changeset\n"
+  example: []
+  syntax:
+    content: Folder = 1
+    return:
+      type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType.ComponentTag
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotType.ComponentTag
+  id: ComponentTag
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType
+  langs:
+  - csharp
+  - vb
+  name: ComponentTag
+  nameWithType: ChangesetSnapshotType.ComponentTag
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType.ComponentTag
+  type: Field
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentTag
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 76
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nA Component tag snapshot\n"
+  example: []
+  syntax:
+    content: ComponentTag = 2
+    return:
+      type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType.ComponentProperty
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotType.ComponentProperty
+  id: ComponentProperty
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType
+  langs:
+  - csharp
+  - vb
+  name: ComponentProperty
+  nameWithType: ChangesetSnapshotType.ComponentProperty
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType.ComponentProperty
+  type: Field
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentProperty
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 81
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nA component property snapshot\n"
+  example: []
+  syntax:
+    content: ComponentProperty = 3
+    return:
+      type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Versioning
+  commentId: N:Vasont.Inspire.Models.Versioning
+  name: Vasont.Inspire.Models.Versioning
+  nameWithType: Vasont.Inspire.Models.Versioning
+  fullName: Vasont.Inspire.Models.Versioning
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType
+  commentId: T:Vasont.Inspire.Models.Versioning.ChangesetSnapshotType
+  parent: Vasont.Inspire.Models.Versioning
+  name: ChangesetSnapshotType
+  nameWithType: ChangesetSnapshotType
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType

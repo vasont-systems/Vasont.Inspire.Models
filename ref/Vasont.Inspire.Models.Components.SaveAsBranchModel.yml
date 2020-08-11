@@ -1,0 +1,619 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.SaveAsBranchModel
+  commentId: T:Vasont.Inspire.Models.Components.SaveAsBranchModel
+  id: SaveAsBranchModel
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.SaveAsBranchModel.BranchName
+  - Vasont.Inspire.Models.Components.SaveAsBranchModel.ChildComponentIds
+  - Vasont.Inspire.Models.Components.SaveAsBranchModel.SourceComponentId
+  - Vasont.Inspire.Models.Components.SaveAsBranchModel.TargetFolderId
+  langs:
+  - csharp
+  - vb
+  name: SaveAsBranchModel
+  nameWithType: SaveAsBranchModel
+  fullName: Vasont.Inspire.Models.Components.SaveAsBranchModel
+  type: Class
+  source:
+    remote:
+      path: src/Components/SaveAsBranchModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SaveAsBranchModel
+    path: Components/SaveAsBranchModel.cs
+    startLine: 12
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis class contains properties and information to request the system to create a component branch.\n"
+  example: []
+  syntax:
+    content: public class SaveAsBranchModel
+    content.vb: Public Class SaveAsBranchModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Components.SaveAsBranchModel.BranchName
+  commentId: P:Vasont.Inspire.Models.Components.SaveAsBranchModel.BranchName
+  id: BranchName
+  parent: Vasont.Inspire.Models.Components.SaveAsBranchModel
+  langs:
+  - csharp
+  - vb
+  name: BranchName
+  nameWithType: SaveAsBranchModel.BranchName
+  fullName: Vasont.Inspire.Models.Components.SaveAsBranchModel.BranchName
+  type: Property
+  source:
+    remote:
+      path: src/Components/SaveAsBranchModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: BranchName
+    path: Components/SaveAsBranchModel.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the new branch name to be used.\n"
+  example: []
+  syntax:
+    content: public string BranchName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property BranchName As String
+  overload: Vasont.Inspire.Models.Components.SaveAsBranchModel.BranchName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.SaveAsBranchModel.SourceComponentId
+  commentId: P:Vasont.Inspire.Models.Components.SaveAsBranchModel.SourceComponentId
+  id: SourceComponentId
+  parent: Vasont.Inspire.Models.Components.SaveAsBranchModel
+  langs:
+  - csharp
+  - vb
+  name: SourceComponentId
+  nameWithType: SaveAsBranchModel.SourceComponentId
+  fullName: Vasont.Inspire.Models.Components.SaveAsBranchModel.SourceComponentId
+  type: Property
+  source:
+    remote:
+      path: src/Components/SaveAsBranchModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SourceComponentId
+    path: Components/SaveAsBranchModel.cs
+    startLine: 22
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the identity of the root component of the branch.\n"
+  example: []
+  syntax:
+    content: public long SourceComponentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property SourceComponentId As Long
+  overload: Vasont.Inspire.Models.Components.SaveAsBranchModel.SourceComponentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.SaveAsBranchModel.TargetFolderId
+  commentId: P:Vasont.Inspire.Models.Components.SaveAsBranchModel.TargetFolderId
+  id: TargetFolderId
+  parent: Vasont.Inspire.Models.Components.SaveAsBranchModel
+  langs:
+  - csharp
+  - vb
+  name: TargetFolderId
+  nameWithType: SaveAsBranchModel.TargetFolderId
+  fullName: Vasont.Inspire.Models.Components.SaveAsBranchModel.TargetFolderId
+  type: Property
+  source:
+    remote:
+      path: src/Components/SaveAsBranchModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TargetFolderId
+    path: Components/SaveAsBranchModel.cs
+    startLine: 27
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the identity of the folder of the new branch.\n"
+  example: []
+  syntax:
+    content: public long TargetFolderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TargetFolderId As Long
+  overload: Vasont.Inspire.Models.Components.SaveAsBranchModel.TargetFolderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.SaveAsBranchModel.ChildComponentIds
+  commentId: P:Vasont.Inspire.Models.Components.SaveAsBranchModel.ChildComponentIds
+  id: ChildComponentIds
+  parent: Vasont.Inspire.Models.Components.SaveAsBranchModel
+  langs:
+  - csharp
+  - vb
+  name: ChildComponentIds
+  nameWithType: SaveAsBranchModel.ChildComponentIds
+  fullName: Vasont.Inspire.Models.Components.SaveAsBranchModel.ChildComponentIds
+  type: Property
+  source:
+    remote:
+      path: src/Components/SaveAsBranchModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ChildComponentIds
+    path: Components/SaveAsBranchModel.cs
+    startLine: 32
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the identities of the components related to the source component of the new branch.\n"
+  example: []
+  syntax:
+    content: public List<long> ChildComponentIds { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Int64}
+    content.vb: Public Property ChildComponentIds As List(Of Long)
+  overload: Vasont.Inspire.Models.Components.SaveAsBranchModel.ChildComponentIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Components.SaveAsBranchModel.BranchName*
+  commentId: Overload:Vasont.Inspire.Models.Components.SaveAsBranchModel.BranchName
+  name: BranchName
+  nameWithType: SaveAsBranchModel.BranchName
+  fullName: Vasont.Inspire.Models.Components.SaveAsBranchModel.BranchName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Components.SaveAsBranchModel.SourceComponentId*
+  commentId: Overload:Vasont.Inspire.Models.Components.SaveAsBranchModel.SourceComponentId
+  name: SourceComponentId
+  nameWithType: SaveAsBranchModel.SourceComponentId
+  fullName: Vasont.Inspire.Models.Components.SaveAsBranchModel.SourceComponentId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Components.SaveAsBranchModel.TargetFolderId*
+  commentId: Overload:Vasont.Inspire.Models.Components.SaveAsBranchModel.TargetFolderId
+  name: TargetFolderId
+  nameWithType: SaveAsBranchModel.TargetFolderId
+  fullName: Vasont.Inspire.Models.Components.SaveAsBranchModel.TargetFolderId
+- uid: Vasont.Inspire.Models.Components.SaveAsBranchModel.ChildComponentIds*
+  commentId: Overload:Vasont.Inspire.Models.Components.SaveAsBranchModel.ChildComponentIds
+  name: ChildComponentIds
+  nameWithType: SaveAsBranchModel.ChildComponentIds
+  fullName: Vasont.Inspire.Models.Components.SaveAsBranchModel.ChildComponentIds
+- uid: System.Collections.Generic.List{System.Int64}
+  commentId: T:System.Collections.Generic.List{System.Int64}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Int64>
+  nameWithType: List<Int64>
+  fullName: System.Collections.Generic.List<System.Int64>
+  nameWithType.vb: List(Of Int64)
+  fullName.vb: System.Collections.Generic.List(Of System.Int64)
+  name.vb: List(Of Int64)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

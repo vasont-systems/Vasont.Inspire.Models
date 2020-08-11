@@ -1,0 +1,305 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  commentId: T:Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  id: WebhookConfigurationValueType
+  parent: Vasont.Inspire.Models.Webhooks
+  children:
+  - Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.ComponentType
+  - Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.Folder
+  - Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.Number
+  - Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.Project
+  - Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.ProjectActivity
+  - Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.Secret
+  - Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.Text
+  langs:
+  - csharp
+  - vb
+  name: WebhookConfigurationValueType
+  nameWithType: WebhookConfigurationValueType
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  type: Enum
+  source:
+    remote:
+      path: src/Webhooks/WebhookConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: WebhookConfigurationValueType
+    path: Webhooks/WebhookConfigurationModel.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nContains an enumerated list of webhook configuration value types.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum WebhookConfigurationValueType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum WebhookConfigurationValueType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.Project
+  commentId: F:Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.Project
+  id: Project
+  parent: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: WebhookConfigurationValueType.Project
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.Project
+  type: Field
+  source:
+    remote:
+      path: src/Webhooks/WebhookConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Project
+    path: Webhooks/WebhookConfigurationModel.cs
+    startLine: 41
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nContains the value that indicates the property is related to a project.\n"
+  example: []
+  syntax:
+    content: Project = 0
+    return:
+      type: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.ProjectActivity
+  commentId: F:Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.ProjectActivity
+  id: ProjectActivity
+  parent: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  langs:
+  - csharp
+  - vb
+  name: ProjectActivity
+  nameWithType: WebhookConfigurationValueType.ProjectActivity
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.ProjectActivity
+  type: Field
+  source:
+    remote:
+      path: src/Webhooks/WebhookConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProjectActivity
+    path: Webhooks/WebhookConfigurationModel.cs
+    startLine: 46
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nContains the value that indicates the property is related to a project activity.\n"
+  example: []
+  syntax:
+    content: ProjectActivity = 1
+    return:
+      type: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.ComponentType
+  commentId: F:Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.ComponentType
+  id: ComponentType
+  parent: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  langs:
+  - csharp
+  - vb
+  name: ComponentType
+  nameWithType: WebhookConfigurationValueType.ComponentType
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.ComponentType
+  type: Field
+  source:
+    remote:
+      path: src/Webhooks/WebhookConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentType
+    path: Webhooks/WebhookConfigurationModel.cs
+    startLine: 51
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nContains the value that indicates the property is related to a component type.\n"
+  example: []
+  syntax:
+    content: ComponentType = 2
+    return:
+      type: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.Folder
+  commentId: F:Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.Folder
+  id: Folder
+  parent: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  langs:
+  - csharp
+  - vb
+  name: Folder
+  nameWithType: WebhookConfigurationValueType.Folder
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.Folder
+  type: Field
+  source:
+    remote:
+      path: src/Webhooks/WebhookConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Folder
+    path: Webhooks/WebhookConfigurationModel.cs
+    startLine: 56
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nContains the value that indicates the property is related to a folder.\n"
+  example: []
+  syntax:
+    content: Folder = 3
+    return:
+      type: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.Text
+  commentId: F:Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.Text
+  id: Text
+  parent: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: WebhookConfigurationValueType.Text
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.Text
+  type: Field
+  source:
+    remote:
+      path: src/Webhooks/WebhookConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Text
+    path: Webhooks/WebhookConfigurationModel.cs
+    startLine: 61
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nContains the value that indicates the property is related to a text value.\n"
+  example: []
+  syntax:
+    content: Text = 4
+    return:
+      type: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.Number
+  commentId: F:Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.Number
+  id: Number
+  parent: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  langs:
+  - csharp
+  - vb
+  name: Number
+  nameWithType: WebhookConfigurationValueType.Number
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.Number
+  type: Field
+  source:
+    remote:
+      path: src/Webhooks/WebhookConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Number
+    path: Webhooks/WebhookConfigurationModel.cs
+    startLine: 66
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nContains the value that indicates the property is related to a numeric value.\n"
+  example: []
+  syntax:
+    content: Number = 5
+    return:
+      type: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.Secret
+  commentId: F:Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.Secret
+  id: Secret
+  parent: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  langs:
+  - csharp
+  - vb
+  name: Secret
+  nameWithType: WebhookConfigurationValueType.Secret
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType.Secret
+  type: Field
+  source:
+    remote:
+      path: src/Webhooks/WebhookConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Secret
+    path: Webhooks/WebhookConfigurationModel.cs
+    startLine: 71
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nContains the value that indicates the property is a secret string.\n"
+  example: []
+  syntax:
+    content: Secret = 6
+    return:
+      type: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Webhooks
+  commentId: N:Vasont.Inspire.Models.Webhooks
+  name: Vasont.Inspire.Models.Webhooks
+  nameWithType: Vasont.Inspire.Models.Webhooks
+  fullName: Vasont.Inspire.Models.Webhooks
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  commentId: T:Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  parent: Vasont.Inspire.Models.Webhooks
+  name: WebhookConfigurationValueType
+  nameWithType: WebhookConfigurationValueType
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType

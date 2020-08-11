@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+  id: NotificationMessageAlertStatus
+  parent: Vasont.Inspire.Models.Notifications
+  children:
+  - Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus.Failure
+  - Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus.Finished
+  - Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus.Info
+  - Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus.None
+  - Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus.Warning
+  langs:
+  - csharp
+  - vb
+  name: NotificationMessageAlertStatus
+  nameWithType: NotificationMessageAlertStatus
+  fullName: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+  type: Enum
+  source:
+    remote:
+      path: src/Notifications/NotificationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: NotificationMessageAlertStatus
+    path: Notifications/NotificationModel.cs
+    startLine: 90
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nContains an enumerated list of available notification alert statuses.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum NotificationMessageAlertStatus
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum NotificationMessageAlertStatus
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus.None
+  commentId: F:Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus.None
+  id: None
+  parent: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: NotificationMessageAlertStatus.None
+  fullName: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus.None
+  type: Field
+  source:
+    remote:
+      path: src/Notifications/NotificationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: None
+    path: Notifications/NotificationModel.cs
+    startLine: 97
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nThe specified notification has no alert status.\n"
+  remarks: No icon necessary.
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus.Info
+  commentId: F:Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus.Info
+  id: Info
+  parent: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: NotificationMessageAlertStatus.Info
+  fullName: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus.Info
+  type: Field
+  source:
+    remote:
+      path: src/Notifications/NotificationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Info
+    path: Notifications/NotificationModel.cs
+    startLine: 103
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nThe specified notification is for information.\n"
+  remarks: Can denote with an information icon.
+  example: []
+  syntax:
+    content: Info = 1
+    return:
+      type: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus.Warning
+  commentId: F:Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus.Warning
+  id: Warning
+  parent: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: NotificationMessageAlertStatus.Warning
+  fullName: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus.Warning
+  type: Field
+  source:
+    remote:
+      path: src/Notifications/NotificationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Warning
+    path: Notifications/NotificationModel.cs
+    startLine: 109
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nThe specified notification is for a warning.\n"
+  remarks: Can denote with a yield icon.
+  example: []
+  syntax:
+    content: Warning = 2
+    return:
+      type: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus.Failure
+  commentId: F:Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus.Failure
+  id: Failure
+  parent: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+  langs:
+  - csharp
+  - vb
+  name: Failure
+  nameWithType: NotificationMessageAlertStatus.Failure
+  fullName: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus.Failure
+  type: Field
+  source:
+    remote:
+      path: src/Notifications/NotificationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Failure
+    path: Notifications/NotificationModel.cs
+    startLine: 115
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nThe specified notification is for a failure.\n"
+  remarks: Can denote with a red/stop icon.
+  example: []
+  syntax:
+    content: Failure = 3
+    return:
+      type: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus.Finished
+  commentId: F:Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus.Finished
+  id: Finished
+  parent: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+  langs:
+  - csharp
+  - vb
+  name: Finished
+  nameWithType: NotificationMessageAlertStatus.Finished
+  fullName: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus.Finished
+  type: Field
+  source:
+    remote:
+      path: src/Notifications/NotificationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Finished
+    path: Notifications/NotificationModel.cs
+    startLine: 121
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nThe specified notification is for a finished alert.\n"
+  remarks: Can denote with a checkered flag or green icon.
+  example: []
+  syntax:
+    content: Finished = 4
+    return:
+      type: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Notifications
+  commentId: N:Vasont.Inspire.Models.Notifications
+  name: Vasont.Inspire.Models.Notifications
+  nameWithType: Vasont.Inspire.Models.Notifications
+  fullName: Vasont.Inspire.Models.Notifications
+- uid: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+  parent: Vasont.Inspire.Models.Notifications
+  name: NotificationMessageAlertStatus
+  nameWithType: NotificationMessageAlertStatus
+  fullName: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus

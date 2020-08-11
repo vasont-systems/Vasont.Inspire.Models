@@ -1,0 +1,904 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel
+  commentId: T:Vasont.Inspire.Models.Components.ComponentDependencyModel
+  id: ComponentDependencyModel
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.ComponentDependencyModel.#ctor
+  - Vasont.Inspire.Models.Components.ComponentDependencyModel.#ctor(Vasont.Inspire.Models.Security.PermissionFlags)
+  - Vasont.Inspire.Models.Components.ComponentDependencyModel.ComponentId
+  - Vasont.Inspire.Models.Components.ComponentDependencyModel.ComponentTypeName
+  - Vasont.Inspire.Models.Components.ComponentDependencyModel.FileName
+  - Vasont.Inspire.Models.Components.ComponentDependencyModel.FolderId
+  - Vasont.Inspire.Models.Components.ComponentDependencyModel.IsEditable
+  - Vasont.Inspire.Models.Components.ComponentDependencyModel.Lock
+  - Vasont.Inspire.Models.Components.ComponentDependencyModel.Name
+  - Vasont.Inspire.Models.Components.ComponentDependencyModel.Path
+  - Vasont.Inspire.Models.Components.ComponentDependencyModel.Permissions
+  - Vasont.Inspire.Models.Components.ComponentDependencyModel.State
+  langs:
+  - csharp
+  - vb
+  name: ComponentDependencyModel
+  nameWithType: ComponentDependencyModel
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel
+  type: Class
+  source:
+    remote:
+      path: src/Components/ComponentDependencyModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentDependencyModel
+    path: Components/ComponentDependencyModel.cs
+    startLine: 12
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis class represents a component dependency model that defines a referencing component.\n"
+  example: []
+  syntax:
+    content: public class ComponentDependencyModel
+    content.vb: Public Class ComponentDependencyModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.#ctor
+  commentId: M:Vasont.Inspire.Models.Components.ComponentDependencyModel.#ctor
+  id: '#ctor'
+  parent: Vasont.Inspire.Models.Components.ComponentDependencyModel
+  langs:
+  - csharp
+  - vb
+  name: ComponentDependencyModel()
+  nameWithType: ComponentDependencyModel.ComponentDependencyModel()
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.ComponentDependencyModel()
+  type: Constructor
+  source:
+    remote:
+      path: src/Components/ComponentDependencyModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: .ctor
+    path: Components/ComponentDependencyModel.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nInitializes a new instance of the <xref href=\"Vasont.Inspire.Models.Components.ComponentDependencyModel\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public ComponentDependencyModel()
+    content.vb: Public Sub New
+  overload: Vasont.Inspire.Models.Components.ComponentDependencyModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.#ctor(Vasont.Inspire.Models.Security.PermissionFlags)
+  commentId: M:Vasont.Inspire.Models.Components.ComponentDependencyModel.#ctor(Vasont.Inspire.Models.Security.PermissionFlags)
+  id: '#ctor(Vasont.Inspire.Models.Security.PermissionFlags)'
+  parent: Vasont.Inspire.Models.Components.ComponentDependencyModel
+  langs:
+  - csharp
+  - vb
+  name: ComponentDependencyModel(PermissionFlags)
+  nameWithType: ComponentDependencyModel.ComponentDependencyModel(PermissionFlags)
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.ComponentDependencyModel(Vasont.Inspire.Models.Security.PermissionFlags)
+  type: Constructor
+  source:
+    remote:
+      path: src/Components/ComponentDependencyModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: .ctor
+    path: Components/ComponentDependencyModel.cs
+    startLine: 26
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nInitializes a new instance of the <xref href=\"Vasont.Inspire.Models.Components.ComponentDependencyModel\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public ComponentDependencyModel(PermissionFlags permissions)
+    parameters:
+    - id: permissions
+      type: Vasont.Inspire.Models.Security.PermissionFlags
+      description: Contains the permissions object.
+    content.vb: Public Sub New(permissions As PermissionFlags)
+  overload: Vasont.Inspire.Models.Components.ComponentDependencyModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.ComponentId
+  commentId: P:Vasont.Inspire.Models.Components.ComponentDependencyModel.ComponentId
+  id: ComponentId
+  parent: Vasont.Inspire.Models.Components.ComponentDependencyModel
+  langs:
+  - csharp
+  - vb
+  name: ComponentId
+  nameWithType: ComponentDependencyModel.ComponentId
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.ComponentId
+  type: Property
+  source:
+    remote:
+      path: src/Components/ComponentDependencyModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentId
+    path: Components/ComponentDependencyModel.cs
+    startLine: 34
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the unique identity of the component.\n"
+  example: []
+  syntax:
+    content: public long ComponentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ComponentId As Long
+  overload: Vasont.Inspire.Models.Components.ComponentDependencyModel.ComponentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.Name
+  commentId: P:Vasont.Inspire.Models.Components.ComponentDependencyModel.Name
+  id: Name
+  parent: Vasont.Inspire.Models.Components.ComponentDependencyModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ComponentDependencyModel.Name
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.Name
+  type: Property
+  source:
+    remote:
+      path: src/Components/ComponentDependencyModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Name
+    path: Components/ComponentDependencyModel.cs
+    startLine: 39
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the component name.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Vasont.Inspire.Models.Components.ComponentDependencyModel.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.FileName
+  commentId: P:Vasont.Inspire.Models.Components.ComponentDependencyModel.FileName
+  id: FileName
+  parent: Vasont.Inspire.Models.Components.ComponentDependencyModel
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: ComponentDependencyModel.FileName
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.FileName
+  type: Property
+  source:
+    remote:
+      path: src/Components/ComponentDependencyModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FileName
+    path: Components/ComponentDependencyModel.cs
+    startLine: 44
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the component file name.\n"
+  example: []
+  syntax:
+    content: public string FileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FileName As String
+  overload: Vasont.Inspire.Models.Components.ComponentDependencyModel.FileName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.ComponentTypeName
+  commentId: P:Vasont.Inspire.Models.Components.ComponentDependencyModel.ComponentTypeName
+  id: ComponentTypeName
+  parent: Vasont.Inspire.Models.Components.ComponentDependencyModel
+  langs:
+  - csharp
+  - vb
+  name: ComponentTypeName
+  nameWithType: ComponentDependencyModel.ComponentTypeName
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.ComponentTypeName
+  type: Property
+  source:
+    remote:
+      path: src/Components/ComponentDependencyModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentTypeName
+    path: Components/ComponentDependencyModel.cs
+    startLine: 49
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the component type name.\n"
+  example: []
+  syntax:
+    content: public string ComponentTypeName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ComponentTypeName As String
+  overload: Vasont.Inspire.Models.Components.ComponentDependencyModel.ComponentTypeName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.Path
+  commentId: P:Vasont.Inspire.Models.Components.ComponentDependencyModel.Path
+  id: Path
+  parent: Vasont.Inspire.Models.Components.ComponentDependencyModel
+  langs:
+  - csharp
+  - vb
+  name: Path
+  nameWithType: ComponentDependencyModel.Path
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.Path
+  type: Property
+  source:
+    remote:
+      path: src/Components/ComponentDependencyModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Path
+    path: Components/ComponentDependencyModel.cs
+    startLine: 54
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the component&apos;s folder path.\n"
+  example: []
+  syntax:
+    content: public string Path { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Path As String
+  overload: Vasont.Inspire.Models.Components.ComponentDependencyModel.Path*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.FolderId
+  commentId: P:Vasont.Inspire.Models.Components.ComponentDependencyModel.FolderId
+  id: FolderId
+  parent: Vasont.Inspire.Models.Components.ComponentDependencyModel
+  langs:
+  - csharp
+  - vb
+  name: FolderId
+  nameWithType: ComponentDependencyModel.FolderId
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.FolderId
+  type: Property
+  source:
+    remote:
+      path: src/Components/ComponentDependencyModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FolderId
+    path: Components/ComponentDependencyModel.cs
+    startLine: 59
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the unique identity of the component folder.\n"
+  example: []
+  syntax:
+    content: public long FolderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property FolderId As Long
+  overload: Vasont.Inspire.Models.Components.ComponentDependencyModel.FolderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.State
+  commentId: P:Vasont.Inspire.Models.Components.ComponentDependencyModel.State
+  id: State
+  parent: Vasont.Inspire.Models.Components.ComponentDependencyModel
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: ComponentDependencyModel.State
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.State
+  type: Property
+  source:
+    remote:
+      path: src/Components/ComponentDependencyModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: State
+    path: Components/ComponentDependencyModel.cs
+    startLine: 64
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the component state information.\n"
+  example: []
+  syntax:
+    content: public ComponentStateType State { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Components.ComponentStateType
+    content.vb: Public Property State As ComponentStateType
+  overload: Vasont.Inspire.Models.Components.ComponentDependencyModel.State*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.Lock
+  commentId: P:Vasont.Inspire.Models.Components.ComponentDependencyModel.Lock
+  id: Lock
+  parent: Vasont.Inspire.Models.Components.ComponentDependencyModel
+  langs:
+  - csharp
+  - vb
+  name: Lock
+  nameWithType: ComponentDependencyModel.Lock
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.Lock
+  type: Property
+  source:
+    remote:
+      path: src/Components/ComponentDependencyModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Lock
+    path: Components/ComponentDependencyModel.cs
+    startLine: 69
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the lock information related to the component.\n"
+  example: []
+  syntax:
+    content: public ComponentLockModel Lock { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Components.ComponentLockModel
+    content.vb: Public Property Lock As ComponentLockModel
+  overload: Vasont.Inspire.Models.Components.ComponentDependencyModel.Lock*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.Permissions
+  commentId: P:Vasont.Inspire.Models.Components.ComponentDependencyModel.Permissions
+  id: Permissions
+  parent: Vasont.Inspire.Models.Components.ComponentDependencyModel
+  langs:
+  - csharp
+  - vb
+  name: Permissions
+  nameWithType: ComponentDependencyModel.Permissions
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.Permissions
+  type: Property
+  source:
+    remote:
+      path: src/Components/ComponentDependencyModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Permissions
+    path: Components/ComponentDependencyModel.cs
+    startLine: 74
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the permissions model for the component.\n"
+  example: []
+  syntax:
+    content: public PermissionModel Permissions { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.PermissionModel
+    content.vb: Public Property Permissions As PermissionModel
+  overload: Vasont.Inspire.Models.Components.ComponentDependencyModel.Permissions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.IsEditable
+  commentId: P:Vasont.Inspire.Models.Components.ComponentDependencyModel.IsEditable
+  id: IsEditable
+  parent: Vasont.Inspire.Models.Components.ComponentDependencyModel
+  langs:
+  - csharp
+  - vb
+  name: IsEditable
+  nameWithType: ComponentDependencyModel.IsEditable
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.IsEditable
+  type: Property
+  source:
+    remote:
+      path: src/Components/ComponentDependencyModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IsEditable
+    path: Components/ComponentDependencyModel.cs
+    startLine: 79
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether the component is editable.\n"
+  example: []
+  syntax:
+    content: public bool IsEditable { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsEditable As Boolean
+  overload: Vasont.Inspire.Models.Components.ComponentDependencyModel.IsEditable*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel
+  commentId: T:Vasont.Inspire.Models.Components.ComponentDependencyModel
+  name: ComponentDependencyModel
+  nameWithType: ComponentDependencyModel
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.#ctor*
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentDependencyModel.#ctor
+  name: ComponentDependencyModel
+  nameWithType: ComponentDependencyModel.ComponentDependencyModel
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.ComponentDependencyModel
+- uid: Vasont.Inspire.Models.Security.PermissionFlags
+  commentId: T:Vasont.Inspire.Models.Security.PermissionFlags
+  parent: Vasont.Inspire.Models.Security
+  name: PermissionFlags
+  nameWithType: PermissionFlags
+  fullName: Vasont.Inspire.Models.Security.PermissionFlags
+- uid: Vasont.Inspire.Models.Security
+  commentId: N:Vasont.Inspire.Models.Security
+  name: Vasont.Inspire.Models.Security
+  nameWithType: Vasont.Inspire.Models.Security
+  fullName: Vasont.Inspire.Models.Security
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.ComponentId*
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentDependencyModel.ComponentId
+  name: ComponentId
+  nameWithType: ComponentDependencyModel.ComponentId
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.ComponentId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.Name*
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentDependencyModel.Name
+  name: Name
+  nameWithType: ComponentDependencyModel.Name
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.FileName*
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentDependencyModel.FileName
+  name: FileName
+  nameWithType: ComponentDependencyModel.FileName
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.FileName
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.ComponentTypeName*
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentDependencyModel.ComponentTypeName
+  name: ComponentTypeName
+  nameWithType: ComponentDependencyModel.ComponentTypeName
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.ComponentTypeName
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.Path*
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentDependencyModel.Path
+  name: Path
+  nameWithType: ComponentDependencyModel.Path
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.Path
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.FolderId*
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentDependencyModel.FolderId
+  name: FolderId
+  nameWithType: ComponentDependencyModel.FolderId
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.FolderId
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.State*
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentDependencyModel.State
+  name: State
+  nameWithType: ComponentDependencyModel.State
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.State
+- uid: Vasont.Inspire.Models.Components.ComponentStateType
+  commentId: T:Vasont.Inspire.Models.Components.ComponentStateType
+  parent: Vasont.Inspire.Models.Components
+  name: ComponentStateType
+  nameWithType: ComponentStateType
+  fullName: Vasont.Inspire.Models.Components.ComponentStateType
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.Lock*
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentDependencyModel.Lock
+  name: Lock
+  nameWithType: ComponentDependencyModel.Lock
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.Lock
+- uid: Vasont.Inspire.Models.Components.ComponentLockModel
+  commentId: T:Vasont.Inspire.Models.Components.ComponentLockModel
+  parent: Vasont.Inspire.Models.Components
+  name: ComponentLockModel
+  nameWithType: ComponentLockModel
+  fullName: Vasont.Inspire.Models.Components.ComponentLockModel
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.Permissions*
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentDependencyModel.Permissions
+  name: Permissions
+  nameWithType: ComponentDependencyModel.Permissions
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.Permissions
+- uid: Vasont.Inspire.Models.Security.PermissionModel
+  commentId: T:Vasont.Inspire.Models.Security.PermissionModel
+  parent: Vasont.Inspire.Models.Security
+  name: PermissionModel
+  nameWithType: PermissionModel
+  fullName: Vasont.Inspire.Models.Security.PermissionModel
+- uid: Vasont.Inspire.Models.Components.ComponentDependencyModel.IsEditable*
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentDependencyModel.IsEditable
+  name: IsEditable
+  nameWithType: ComponentDependencyModel.IsEditable
+  fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.IsEditable
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

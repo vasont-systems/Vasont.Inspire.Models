@@ -1,0 +1,545 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Projects.ProjectFilters
+  commentId: T:Vasont.Inspire.Models.Projects.ProjectFilters
+  id: ProjectFilters
+  parent: Vasont.Inspire.Models.Projects
+  children:
+  - Vasont.Inspire.Models.Projects.ProjectFilters.Direction
+  - Vasont.Inspire.Models.Projects.ProjectFilters.MaximumRows
+  - Vasont.Inspire.Models.Projects.ProjectFilters.OrderByName
+  - Vasont.Inspire.Models.Projects.ProjectFilters.Title
+  langs:
+  - csharp
+  - vb
+  name: ProjectFilters
+  nameWithType: ProjectFilters
+  fullName: Vasont.Inspire.Models.Projects.ProjectFilters
+  type: Class
+  source:
+    remote:
+      path: src/Projects/ProjectFilters.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProjectFilters
+    path: Projects/ProjectFilters.cs
+    startLine: 12
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nThis class contains all the filter properties used to modify a project search query.\n"
+  example: []
+  syntax:
+    content: public sealed class ProjectFilters
+    content.vb: Public NotInheritable Class ProjectFilters
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Vasont.Inspire.Models.Projects.ProjectFilters.Title
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFilters.Title
+  id: Title
+  parent: Vasont.Inspire.Models.Projects.ProjectFilters
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: ProjectFilters.Title
+  fullName: Vasont.Inspire.Models.Projects.ProjectFilters.Title
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFilters.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Title
+    path: Projects/ProjectFilters.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the filter on project title.\n"
+  example: []
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: Vasont.Inspire.Models.Projects.ProjectFilters.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFilters.OrderByName
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFilters.OrderByName
+  id: OrderByName
+  parent: Vasont.Inspire.Models.Projects.ProjectFilters
+  langs:
+  - csharp
+  - vb
+  name: OrderByName
+  nameWithType: ProjectFilters.OrderByName
+  fullName: Vasont.Inspire.Models.Projects.ProjectFilters.OrderByName
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFilters.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: OrderByName
+    path: Projects/ProjectFilters.cs
+    startLine: 22
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the filter order by column name.\n"
+  example: []
+  syntax:
+    content: public string OrderByName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OrderByName As String
+  overload: Vasont.Inspire.Models.Projects.ProjectFilters.OrderByName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFilters.Direction
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFilters.Direction
+  id: Direction
+  parent: Vasont.Inspire.Models.Projects.ProjectFilters
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: ProjectFilters.Direction
+  fullName: Vasont.Inspire.Models.Projects.ProjectFilters.Direction
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFilters.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Direction
+    path: Projects/ProjectFilters.cs
+    startLine: 27
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the order by sort direction.\n"
+  example: []
+  syntax:
+    content: public SortDirection Direction { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Core.Extensions.SortDirection
+    content.vb: Public Property Direction As SortDirection
+  overload: Vasont.Inspire.Models.Projects.ProjectFilters.Direction*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFilters.MaximumRows
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFilters.MaximumRows
+  id: MaximumRows
+  parent: Vasont.Inspire.Models.Projects.ProjectFilters
+  langs:
+  - csharp
+  - vb
+  name: MaximumRows
+  nameWithType: ProjectFilters.MaximumRows
+  fullName: Vasont.Inspire.Models.Projects.ProjectFilters.MaximumRows
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFilters.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: MaximumRows
+    path: Projects/ProjectFilters.cs
+    startLine: 32
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the maximum rows to return.\n"
+  example: []
+  syntax:
+    content: public int MaximumRows { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaximumRows As Integer
+  overload: Vasont.Inspire.Models.Projects.ProjectFilters.MaximumRows*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Projects
+  commentId: N:Vasont.Inspire.Models.Projects
+  name: Vasont.Inspire.Models.Projects
+  nameWithType: Vasont.Inspire.Models.Projects
+  fullName: Vasont.Inspire.Models.Projects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Projects.ProjectFilters.Title*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFilters.Title
+  name: Title
+  nameWithType: ProjectFilters.Title
+  fullName: Vasont.Inspire.Models.Projects.ProjectFilters.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Projects.ProjectFilters.OrderByName*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFilters.OrderByName
+  name: OrderByName
+  nameWithType: ProjectFilters.OrderByName
+  fullName: Vasont.Inspire.Models.Projects.ProjectFilters.OrderByName
+- uid: Vasont.Inspire.Models.Projects.ProjectFilters.Direction*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFilters.Direction
+  name: Direction
+  nameWithType: ProjectFilters.Direction
+  fullName: Vasont.Inspire.Models.Projects.ProjectFilters.Direction
+- uid: Vasont.Inspire.Core.Extensions.SortDirection
+  commentId: T:Vasont.Inspire.Core.Extensions.SortDirection
+  parent: Vasont.Inspire.Core.Extensions
+  isExternal: true
+  name: SortDirection
+  nameWithType: SortDirection
+  fullName: Vasont.Inspire.Core.Extensions.SortDirection
+- uid: Vasont.Inspire.Core.Extensions
+  commentId: N:Vasont.Inspire.Core.Extensions
+  isExternal: true
+  name: Vasont.Inspire.Core.Extensions
+  nameWithType: Vasont.Inspire.Core.Extensions
+  fullName: Vasont.Inspire.Core.Extensions
+- uid: Vasont.Inspire.Models.Projects.ProjectFilters.MaximumRows*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFilters.MaximumRows
+  name: MaximumRows
+  nameWithType: ProjectFilters.MaximumRows
+  fullName: Vasont.Inspire.Models.Projects.ProjectFilters.MaximumRows
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

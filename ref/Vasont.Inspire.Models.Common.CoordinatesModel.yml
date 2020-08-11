@@ -1,0 +1,523 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Common.CoordinatesModel
+  commentId: T:Vasont.Inspire.Models.Common.CoordinatesModel
+  id: CoordinatesModel
+  parent: Vasont.Inspire.Models.Common
+  children:
+  - Vasont.Inspire.Models.Common.CoordinatesModel.Height
+  - Vasont.Inspire.Models.Common.CoordinatesModel.Width
+  - Vasont.Inspire.Models.Common.CoordinatesModel.XCoordinate
+  - Vasont.Inspire.Models.Common.CoordinatesModel.YCoordinate
+  langs:
+  - csharp
+  - vb
+  name: CoordinatesModel
+  nameWithType: CoordinatesModel
+  fullName: Vasont.Inspire.Models.Common.CoordinatesModel
+  type: Class
+  source:
+    remote:
+      path: src/Common/CoordinatesModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CoordinatesModel
+    path: Common/CoordinatesModel.cs
+    startLine: 10
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nThis class contains coordinate information and settings to be used by models requiring a graphical interface.\n"
+  example: []
+  syntax:
+    content: public class CoordinatesModel
+    content.vb: Public Class CoordinatesModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Common.CoordinatesModel.XCoordinate
+  commentId: P:Vasont.Inspire.Models.Common.CoordinatesModel.XCoordinate
+  id: XCoordinate
+  parent: Vasont.Inspire.Models.Common.CoordinatesModel
+  langs:
+  - csharp
+  - vb
+  name: XCoordinate
+  nameWithType: CoordinatesModel.XCoordinate
+  fullName: Vasont.Inspire.Models.Common.CoordinatesModel.XCoordinate
+  type: Property
+  source:
+    remote:
+      path: src/Common/CoordinatesModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: XCoordinate
+    path: Common/CoordinatesModel.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the x coordinate.\n"
+  example: []
+  syntax:
+    content: public decimal XCoordinate { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property XCoordinate As Decimal
+  overload: Vasont.Inspire.Models.Common.CoordinatesModel.XCoordinate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.CoordinatesModel.YCoordinate
+  commentId: P:Vasont.Inspire.Models.Common.CoordinatesModel.YCoordinate
+  id: YCoordinate
+  parent: Vasont.Inspire.Models.Common.CoordinatesModel
+  langs:
+  - csharp
+  - vb
+  name: YCoordinate
+  nameWithType: CoordinatesModel.YCoordinate
+  fullName: Vasont.Inspire.Models.Common.CoordinatesModel.YCoordinate
+  type: Property
+  source:
+    remote:
+      path: src/Common/CoordinatesModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: YCoordinate
+    path: Common/CoordinatesModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the y coordinate.\n"
+  example: []
+  syntax:
+    content: public decimal YCoordinate { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property YCoordinate As Decimal
+  overload: Vasont.Inspire.Models.Common.CoordinatesModel.YCoordinate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.CoordinatesModel.Width
+  commentId: P:Vasont.Inspire.Models.Common.CoordinatesModel.Width
+  id: Width
+  parent: Vasont.Inspire.Models.Common.CoordinatesModel
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: CoordinatesModel.Width
+  fullName: Vasont.Inspire.Models.Common.CoordinatesModel.Width
+  type: Property
+  source:
+    remote:
+      path: src/Common/CoordinatesModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Width
+    path: Common/CoordinatesModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the width.\n"
+  example: []
+  syntax:
+    content: public decimal Width { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property Width As Decimal
+  overload: Vasont.Inspire.Models.Common.CoordinatesModel.Width*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.CoordinatesModel.Height
+  commentId: P:Vasont.Inspire.Models.Common.CoordinatesModel.Height
+  id: Height
+  parent: Vasont.Inspire.Models.Common.CoordinatesModel
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: CoordinatesModel.Height
+  fullName: Vasont.Inspire.Models.Common.CoordinatesModel.Height
+  type: Property
+  source:
+    remote:
+      path: src/Common/CoordinatesModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Height
+    path: Common/CoordinatesModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the height.\n"
+  example: []
+  syntax:
+    content: public decimal Height { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property Height As Decimal
+  overload: Vasont.Inspire.Models.Common.CoordinatesModel.Height*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Common
+  commentId: N:Vasont.Inspire.Models.Common
+  name: Vasont.Inspire.Models.Common
+  nameWithType: Vasont.Inspire.Models.Common
+  fullName: Vasont.Inspire.Models.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Common.CoordinatesModel.XCoordinate*
+  commentId: Overload:Vasont.Inspire.Models.Common.CoordinatesModel.XCoordinate
+  name: XCoordinate
+  nameWithType: CoordinatesModel.XCoordinate
+  fullName: Vasont.Inspire.Models.Common.CoordinatesModel.XCoordinate
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: Vasont.Inspire.Models.Common.CoordinatesModel.YCoordinate*
+  commentId: Overload:Vasont.Inspire.Models.Common.CoordinatesModel.YCoordinate
+  name: YCoordinate
+  nameWithType: CoordinatesModel.YCoordinate
+  fullName: Vasont.Inspire.Models.Common.CoordinatesModel.YCoordinate
+- uid: Vasont.Inspire.Models.Common.CoordinatesModel.Width*
+  commentId: Overload:Vasont.Inspire.Models.Common.CoordinatesModel.Width
+  name: Width
+  nameWithType: CoordinatesModel.Width
+  fullName: Vasont.Inspire.Models.Common.CoordinatesModel.Width
+- uid: Vasont.Inspire.Models.Common.CoordinatesModel.Height*
+  commentId: Overload:Vasont.Inspire.Models.Common.CoordinatesModel.Height
+  name: Height
+  nameWithType: CoordinatesModel.Height
+  fullName: Vasont.Inspire.Models.Common.CoordinatesModel.Height

@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType
+  commentId: T:Vasont.Inspire.Models.Projects.ProjectAssignmentStateType
+  id: ProjectAssignmentStateType
+  parent: Vasont.Inspire.Models.Projects
+  children:
+  - Vasont.Inspire.Models.Projects.ProjectAssignmentStateType.Cancelled
+  - Vasont.Inspire.Models.Projects.ProjectAssignmentStateType.Completed
+  - Vasont.Inspire.Models.Projects.ProjectAssignmentStateType.InProgress
+  - Vasont.Inspire.Models.Projects.ProjectAssignmentStateType.ToDo
+  langs:
+  - csharp
+  - vb
+  name: ProjectAssignmentStateType
+  nameWithType: ProjectAssignmentStateType
+  fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType
+  type: Enum
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProjectAssignmentStateType
+    path: Projects/ProjectAssignmentStateModel.cs
+    startLine: 14
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nContains an enumerated list of project assignment state types.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum ProjectAssignmentStateType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum ProjectAssignmentStateType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType.ToDo
+  commentId: F:Vasont.Inspire.Models.Projects.ProjectAssignmentStateType.ToDo
+  id: ToDo
+  parent: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType
+  langs:
+  - csharp
+  - vb
+  name: ToDo
+  nameWithType: ProjectAssignmentStateType.ToDo
+  fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType.ToDo
+  type: Field
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ToDo
+    path: Projects/ProjectAssignmentStateModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nContains a value that indicates the assignment is ready to work on.\n"
+  example: []
+  syntax:
+    content: ToDo = 0
+    return:
+      type: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType.InProgress
+  commentId: F:Vasont.Inspire.Models.Projects.ProjectAssignmentStateType.InProgress
+  id: InProgress
+  parent: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType
+  langs:
+  - csharp
+  - vb
+  name: InProgress
+  nameWithType: ProjectAssignmentStateType.InProgress
+  fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType.InProgress
+  type: Field
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: InProgress
+    path: Projects/ProjectAssignmentStateModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nContains a value that indicates the assignment is being worked on.\n"
+  example: []
+  syntax:
+    content: InProgress = 1
+    return:
+      type: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType.Completed
+  commentId: F:Vasont.Inspire.Models.Projects.ProjectAssignmentStateType.Completed
+  id: Completed
+  parent: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType
+  langs:
+  - csharp
+  - vb
+  name: Completed
+  nameWithType: ProjectAssignmentStateType.Completed
+  fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType.Completed
+  type: Field
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Completed
+    path: Projects/ProjectAssignmentStateModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nContains a value that indicates the assignment has been completed.\n"
+  example: []
+  syntax:
+    content: Completed = 2
+    return:
+      type: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType.Cancelled
+  commentId: F:Vasont.Inspire.Models.Projects.ProjectAssignmentStateType.Cancelled
+  id: Cancelled
+  parent: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType
+  langs:
+  - csharp
+  - vb
+  name: Cancelled
+  nameWithType: ProjectAssignmentStateType.Cancelled
+  fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType.Cancelled
+  type: Field
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Cancelled
+    path: Projects/ProjectAssignmentStateModel.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nContains a value that indicates the assignment has been cancelled.\n"
+  example: []
+  syntax:
+    content: Cancelled = 3
+    return:
+      type: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Projects
+  commentId: N:Vasont.Inspire.Models.Projects
+  name: Vasont.Inspire.Models.Projects
+  nameWithType: Vasont.Inspire.Models.Projects
+  fullName: Vasont.Inspire.Models.Projects
+- uid: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType
+  commentId: T:Vasont.Inspire.Models.Projects.ProjectAssignmentStateType
+  parent: Vasont.Inspire.Models.Projects
+  name: ProjectAssignmentStateType
+  nameWithType: ProjectAssignmentStateType
+  fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType

@@ -1,0 +1,808 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel
+  commentId: T:Vasont.Inspire.Models.Components.UserRolePermissionModel
+  id: UserRolePermissionModel
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.UserRolePermissionModel.#ctor
+  - Vasont.Inspire.Models.Components.UserRolePermissionModel.Description
+  - Vasont.Inspire.Models.Components.UserRolePermissionModel.Id
+  - Vasont.Inspire.Models.Components.UserRolePermissionModel.Name
+  - Vasont.Inspire.Models.Components.UserRolePermissionModel.Permissions
+  - Vasont.Inspire.Models.Components.UserRolePermissionModel.RoleId
+  - Vasont.Inspire.Models.Components.UserRolePermissionModel.ShouldSerializeRoleId
+  - Vasont.Inspire.Models.Components.UserRolePermissionModel.ShouldSerializeUserId
+  - Vasont.Inspire.Models.Components.UserRolePermissionModel.Type
+  - Vasont.Inspire.Models.Components.UserRolePermissionModel.UserId
+  langs:
+  - csharp
+  - vb
+  name: UserRolePermissionModel
+  nameWithType: UserRolePermissionModel
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel
+  type: Class
+  source:
+    remote:
+      path: src/Components/UserRolePermissionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UserRolePermissionModel
+    path: Components/UserRolePermissionModel.cs
+    startLine: 12
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis class is used to define a set of permissions for a given user or role.\n"
+  example: []
+  syntax:
+    content: public class UserRolePermissionModel
+    content.vb: Public Class UserRolePermissionModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.#ctor
+  commentId: M:Vasont.Inspire.Models.Components.UserRolePermissionModel.#ctor
+  id: '#ctor'
+  parent: Vasont.Inspire.Models.Components.UserRolePermissionModel
+  langs:
+  - csharp
+  - vb
+  name: UserRolePermissionModel()
+  nameWithType: UserRolePermissionModel.UserRolePermissionModel()
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.UserRolePermissionModel()
+  type: Constructor
+  source:
+    remote:
+      path: src/Components/UserRolePermissionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: .ctor
+    path: Components/UserRolePermissionModel.cs
+    startLine: 36
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nInitializes a new instance of the <xref href=\"Vasont.Inspire.Models.Components.UserRolePermissionModel\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public UserRolePermissionModel()
+    content.vb: Public Sub New
+  overload: Vasont.Inspire.Models.Components.UserRolePermissionModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.Id
+  commentId: P:Vasont.Inspire.Models.Components.UserRolePermissionModel.Id
+  id: Id
+  parent: Vasont.Inspire.Models.Components.UserRolePermissionModel
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: UserRolePermissionModel.Id
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.Id
+  type: Property
+  source:
+    remote:
+      path: src/Components/UserRolePermissionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Id
+    path: Components/UserRolePermissionModel.cs
+    startLine: 44
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the unique identity of the permission item.\n"
+  example: []
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: Vasont.Inspire.Models.Components.UserRolePermissionModel.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.UserId
+  commentId: P:Vasont.Inspire.Models.Components.UserRolePermissionModel.UserId
+  id: UserId
+  parent: Vasont.Inspire.Models.Components.UserRolePermissionModel
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: UserRolePermissionModel.UserId
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.UserId
+  type: Property
+  source:
+    remote:
+      path: src/Components/UserRolePermissionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UserId
+    path: Components/UserRolePermissionModel.cs
+    startLine: 54
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the unique identity of the user.\n"
+  example: []
+  syntax:
+    content: public long UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property UserId As Long
+  overload: Vasont.Inspire.Models.Components.UserRolePermissionModel.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.RoleId
+  commentId: P:Vasont.Inspire.Models.Components.UserRolePermissionModel.RoleId
+  id: RoleId
+  parent: Vasont.Inspire.Models.Components.UserRolePermissionModel
+  langs:
+  - csharp
+  - vb
+  name: RoleId
+  nameWithType: UserRolePermissionModel.RoleId
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.RoleId
+  type: Property
+  source:
+    remote:
+      path: src/Components/UserRolePermissionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RoleId
+    path: Components/UserRolePermissionModel.cs
+    startLine: 68
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the unique identity of the role.\n"
+  example: []
+  syntax:
+    content: public long RoleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property RoleId As Long
+  overload: Vasont.Inspire.Models.Components.UserRolePermissionModel.RoleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.Type
+  commentId: P:Vasont.Inspire.Models.Components.UserRolePermissionModel.Type
+  id: Type
+  parent: Vasont.Inspire.Models.Components.UserRolePermissionModel
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: UserRolePermissionModel.Type
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.Type
+  type: Property
+  source:
+    remote:
+      path: src/Components/UserRolePermissionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Type
+    path: Components/UserRolePermissionModel.cs
+    startLine: 82
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the type (i.e. User or Role).\n"
+  example: []
+  syntax:
+    content: public SecurityType Type { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.SecurityType
+    content.vb: Public Property Type As SecurityType
+  overload: Vasont.Inspire.Models.Components.UserRolePermissionModel.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.Name
+  commentId: P:Vasont.Inspire.Models.Components.UserRolePermissionModel.Name
+  id: Name
+  parent: Vasont.Inspire.Models.Components.UserRolePermissionModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: UserRolePermissionModel.Name
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.Name
+  type: Property
+  source:
+    remote:
+      path: src/Components/UserRolePermissionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Name
+    path: Components/UserRolePermissionModel.cs
+    startLine: 87
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the name of the user or role.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Vasont.Inspire.Models.Components.UserRolePermissionModel.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.Description
+  commentId: P:Vasont.Inspire.Models.Components.UserRolePermissionModel.Description
+  id: Description
+  parent: Vasont.Inspire.Models.Components.UserRolePermissionModel
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: UserRolePermissionModel.Description
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.Description
+  type: Property
+  source:
+    remote:
+      path: src/Components/UserRolePermissionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Description
+    path: Components/UserRolePermissionModel.cs
+    startLine: 92
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the user or role description.\n"
+  example: []
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Vasont.Inspire.Models.Components.UserRolePermissionModel.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.Permissions
+  commentId: P:Vasont.Inspire.Models.Components.UserRolePermissionModel.Permissions
+  id: Permissions
+  parent: Vasont.Inspire.Models.Components.UserRolePermissionModel
+  langs:
+  - csharp
+  - vb
+  name: Permissions
+  nameWithType: UserRolePermissionModel.Permissions
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.Permissions
+  type: Property
+  source:
+    remote:
+      path: src/Components/UserRolePermissionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Permissions
+    path: Components/UserRolePermissionModel.cs
+    startLine: 97
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the permissions model for the specified user or role.\n"
+  example: []
+  syntax:
+    content: public PermissionModel Permissions { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.PermissionModel
+    content.vb: Public Property Permissions As PermissionModel
+  overload: Vasont.Inspire.Models.Components.UserRolePermissionModel.Permissions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.ShouldSerializeUserId
+  commentId: M:Vasont.Inspire.Models.Components.UserRolePermissionModel.ShouldSerializeUserId
+  id: ShouldSerializeUserId
+  parent: Vasont.Inspire.Models.Components.UserRolePermissionModel
+  langs:
+  - csharp
+  - vb
+  name: ShouldSerializeUserId()
+  nameWithType: UserRolePermissionModel.ShouldSerializeUserId()
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.ShouldSerializeUserId()
+  type: Method
+  source:
+    remote:
+      path: src/Components/UserRolePermissionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ShouldSerializeUserId
+    path: Components/UserRolePermissionModel.cs
+    startLine: 105
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis method is called by the serializer to determine if the property UserId should be rendered.\n"
+  example: []
+  syntax:
+    content: public bool ShouldSerializeUserId()
+    return:
+      type: System.Boolean
+      description: Returns a value indicating whether to render the related property.
+    content.vb: Public Function ShouldSerializeUserId As Boolean
+  overload: Vasont.Inspire.Models.Components.UserRolePermissionModel.ShouldSerializeUserId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.ShouldSerializeRoleId
+  commentId: M:Vasont.Inspire.Models.Components.UserRolePermissionModel.ShouldSerializeRoleId
+  id: ShouldSerializeRoleId
+  parent: Vasont.Inspire.Models.Components.UserRolePermissionModel
+  langs:
+  - csharp
+  - vb
+  name: ShouldSerializeRoleId()
+  nameWithType: UserRolePermissionModel.ShouldSerializeRoleId()
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.ShouldSerializeRoleId()
+  type: Method
+  source:
+    remote:
+      path: src/Components/UserRolePermissionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ShouldSerializeRoleId
+    path: Components/UserRolePermissionModel.cs
+    startLine: 114
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis method is called by the serializer to determine if the property RoleId should be rendered.\n"
+  example: []
+  syntax:
+    content: public bool ShouldSerializeRoleId()
+    return:
+      type: System.Boolean
+      description: Returns a value indicating whether to render the related property.
+    content.vb: Public Function ShouldSerializeRoleId As Boolean
+  overload: Vasont.Inspire.Models.Components.UserRolePermissionModel.ShouldSerializeRoleId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel
+  commentId: T:Vasont.Inspire.Models.Components.UserRolePermissionModel
+  name: UserRolePermissionModel
+  nameWithType: UserRolePermissionModel
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.#ctor*
+  commentId: Overload:Vasont.Inspire.Models.Components.UserRolePermissionModel.#ctor
+  name: UserRolePermissionModel
+  nameWithType: UserRolePermissionModel.UserRolePermissionModel
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.UserRolePermissionModel
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.Id*
+  commentId: Overload:Vasont.Inspire.Models.Components.UserRolePermissionModel.Id
+  name: Id
+  nameWithType: UserRolePermissionModel.Id
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.UserId*
+  commentId: Overload:Vasont.Inspire.Models.Components.UserRolePermissionModel.UserId
+  name: UserId
+  nameWithType: UserRolePermissionModel.UserId
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.UserId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.RoleId*
+  commentId: Overload:Vasont.Inspire.Models.Components.UserRolePermissionModel.RoleId
+  name: RoleId
+  nameWithType: UserRolePermissionModel.RoleId
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.RoleId
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.Type*
+  commentId: Overload:Vasont.Inspire.Models.Components.UserRolePermissionModel.Type
+  name: Type
+  nameWithType: UserRolePermissionModel.Type
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.Type
+- uid: Vasont.Inspire.Models.Security.SecurityType
+  commentId: T:Vasont.Inspire.Models.Security.SecurityType
+  parent: Vasont.Inspire.Models.Security
+  name: SecurityType
+  nameWithType: SecurityType
+  fullName: Vasont.Inspire.Models.Security.SecurityType
+- uid: Vasont.Inspire.Models.Security
+  commentId: N:Vasont.Inspire.Models.Security
+  name: Vasont.Inspire.Models.Security
+  nameWithType: Vasont.Inspire.Models.Security
+  fullName: Vasont.Inspire.Models.Security
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.Name*
+  commentId: Overload:Vasont.Inspire.Models.Components.UserRolePermissionModel.Name
+  name: Name
+  nameWithType: UserRolePermissionModel.Name
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.Name
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.Description*
+  commentId: Overload:Vasont.Inspire.Models.Components.UserRolePermissionModel.Description
+  name: Description
+  nameWithType: UserRolePermissionModel.Description
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.Description
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.Permissions*
+  commentId: Overload:Vasont.Inspire.Models.Components.UserRolePermissionModel.Permissions
+  name: Permissions
+  nameWithType: UserRolePermissionModel.Permissions
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.Permissions
+- uid: Vasont.Inspire.Models.Security.PermissionModel
+  commentId: T:Vasont.Inspire.Models.Security.PermissionModel
+  parent: Vasont.Inspire.Models.Security
+  name: PermissionModel
+  nameWithType: PermissionModel
+  fullName: Vasont.Inspire.Models.Security.PermissionModel
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.ShouldSerializeUserId*
+  commentId: Overload:Vasont.Inspire.Models.Components.UserRolePermissionModel.ShouldSerializeUserId
+  name: ShouldSerializeUserId
+  nameWithType: UserRolePermissionModel.ShouldSerializeUserId
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.ShouldSerializeUserId
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.ShouldSerializeRoleId*
+  commentId: Overload:Vasont.Inspire.Models.Components.UserRolePermissionModel.ShouldSerializeRoleId
+  name: ShouldSerializeRoleId
+  nameWithType: UserRolePermissionModel.ShouldSerializeRoleId
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.ShouldSerializeRoleId

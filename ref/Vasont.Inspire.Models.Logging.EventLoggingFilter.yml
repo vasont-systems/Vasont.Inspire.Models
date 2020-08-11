@@ -1,0 +1,730 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Logging.EventLoggingFilter
+  commentId: T:Vasont.Inspire.Models.Logging.EventLoggingFilter
+  id: EventLoggingFilter
+  parent: Vasont.Inspire.Models.Logging
+  children:
+  - Vasont.Inspire.Models.Logging.EventLoggingFilter.#ctor
+  - Vasont.Inspire.Models.Logging.EventLoggingFilter.Direction
+  - Vasont.Inspire.Models.Logging.EventLoggingFilter.EndDate
+  - Vasont.Inspire.Models.Logging.EventLoggingFilter.LevelsFilter
+  - Vasont.Inspire.Models.Logging.EventLoggingFilter.LoggerName
+  - Vasont.Inspire.Models.Logging.EventLoggingFilter.MaximumRows
+  - Vasont.Inspire.Models.Logging.EventLoggingFilter.OrderByName
+  - Vasont.Inspire.Models.Logging.EventLoggingFilter.StartDate
+  langs:
+  - csharp
+  - vb
+  name: EventLoggingFilter
+  nameWithType: EventLoggingFilter
+  fullName: Vasont.Inspire.Models.Logging.EventLoggingFilter
+  type: Class
+  source:
+    remote:
+      path: src/Logging/EventLoggingFilter.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EventLoggingFilter
+    path: Logging/EventLoggingFilter.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nThis class contains all the filter properties used to modify an event log query\n"
+  example: []
+  syntax:
+    content: public sealed class EventLoggingFilter
+    content.vb: Public NotInheritable Class EventLoggingFilter
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Vasont.Inspire.Models.Logging.EventLoggingFilter.#ctor
+  commentId: M:Vasont.Inspire.Models.Logging.EventLoggingFilter.#ctor
+  id: '#ctor'
+  parent: Vasont.Inspire.Models.Logging.EventLoggingFilter
+  langs:
+  - csharp
+  - vb
+  name: EventLoggingFilter()
+  nameWithType: EventLoggingFilter.EventLoggingFilter()
+  fullName: Vasont.Inspire.Models.Logging.EventLoggingFilter.EventLoggingFilter()
+  type: Constructor
+  source:
+    remote:
+      path: src/Logging/EventLoggingFilter.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: .ctor
+    path: Logging/EventLoggingFilter.cs
+    startLine: 18
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nInitializes a new instance of the <xref href=\"Vasont.Inspire.Models.Logging.EventLoggingFilter\" data-throw-if-not-resolved=\"false\"></xref> class\n"
+  example: []
+  syntax:
+    content: public EventLoggingFilter()
+    content.vb: Public Sub New
+  overload: Vasont.Inspire.Models.Logging.EventLoggingFilter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Logging.EventLoggingFilter.StartDate
+  commentId: P:Vasont.Inspire.Models.Logging.EventLoggingFilter.StartDate
+  id: StartDate
+  parent: Vasont.Inspire.Models.Logging.EventLoggingFilter
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: EventLoggingFilter.StartDate
+  fullName: Vasont.Inspire.Models.Logging.EventLoggingFilter.StartDate
+  type: Property
+  source:
+    remote:
+      path: src/Logging/EventLoggingFilter.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: StartDate
+    path: Logging/EventLoggingFilter.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nGets or sets the filter start date\n"
+  example: []
+  syntax:
+    content: public DateTime StartDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property StartDate As Date
+  overload: Vasont.Inspire.Models.Logging.EventLoggingFilter.StartDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Logging.EventLoggingFilter.EndDate
+  commentId: P:Vasont.Inspire.Models.Logging.EventLoggingFilter.EndDate
+  id: EndDate
+  parent: Vasont.Inspire.Models.Logging.EventLoggingFilter
+  langs:
+  - csharp
+  - vb
+  name: EndDate
+  nameWithType: EventLoggingFilter.EndDate
+  fullName: Vasont.Inspire.Models.Logging.EventLoggingFilter.EndDate
+  type: Property
+  source:
+    remote:
+      path: src/Logging/EventLoggingFilter.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EndDate
+    path: Logging/EventLoggingFilter.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nGets or sets the filter end date\n"
+  example: []
+  syntax:
+    content: public DateTime EndDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property EndDate As Date
+  overload: Vasont.Inspire.Models.Logging.EventLoggingFilter.EndDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Logging.EventLoggingFilter.OrderByName
+  commentId: P:Vasont.Inspire.Models.Logging.EventLoggingFilter.OrderByName
+  id: OrderByName
+  parent: Vasont.Inspire.Models.Logging.EventLoggingFilter
+  langs:
+  - csharp
+  - vb
+  name: OrderByName
+  nameWithType: EventLoggingFilter.OrderByName
+  fullName: Vasont.Inspire.Models.Logging.EventLoggingFilter.OrderByName
+  type: Property
+  source:
+    remote:
+      path: src/Logging/EventLoggingFilter.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: OrderByName
+    path: Logging/EventLoggingFilter.cs
+    startLine: 40
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nGets or sets the filter order by column name\n"
+  example: []
+  syntax:
+    content: public string OrderByName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OrderByName As String
+  overload: Vasont.Inspire.Models.Logging.EventLoggingFilter.OrderByName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Logging.EventLoggingFilter.Direction
+  commentId: P:Vasont.Inspire.Models.Logging.EventLoggingFilter.Direction
+  id: Direction
+  parent: Vasont.Inspire.Models.Logging.EventLoggingFilter
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: EventLoggingFilter.Direction
+  fullName: Vasont.Inspire.Models.Logging.EventLoggingFilter.Direction
+  type: Property
+  source:
+    remote:
+      path: src/Logging/EventLoggingFilter.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Direction
+    path: Logging/EventLoggingFilter.cs
+    startLine: 45
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nGets or sets the order by sort direction\n"
+  example: []
+  syntax:
+    content: public SortDirection Direction { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Core.Extensions.SortDirection
+    content.vb: Public Property Direction As SortDirection
+  overload: Vasont.Inspire.Models.Logging.EventLoggingFilter.Direction*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Logging.EventLoggingFilter.MaximumRows
+  commentId: P:Vasont.Inspire.Models.Logging.EventLoggingFilter.MaximumRows
+  id: MaximumRows
+  parent: Vasont.Inspire.Models.Logging.EventLoggingFilter
+  langs:
+  - csharp
+  - vb
+  name: MaximumRows
+  nameWithType: EventLoggingFilter.MaximumRows
+  fullName: Vasont.Inspire.Models.Logging.EventLoggingFilter.MaximumRows
+  type: Property
+  source:
+    remote:
+      path: src/Logging/EventLoggingFilter.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: MaximumRows
+    path: Logging/EventLoggingFilter.cs
+    startLine: 50
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nGets or sets the maximum rows to return\n"
+  example: []
+  syntax:
+    content: public int MaximumRows { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaximumRows As Integer
+  overload: Vasont.Inspire.Models.Logging.EventLoggingFilter.MaximumRows*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Logging.EventLoggingFilter.LoggerName
+  commentId: P:Vasont.Inspire.Models.Logging.EventLoggingFilter.LoggerName
+  id: LoggerName
+  parent: Vasont.Inspire.Models.Logging.EventLoggingFilter
+  langs:
+  - csharp
+  - vb
+  name: LoggerName
+  nameWithType: EventLoggingFilter.LoggerName
+  fullName: Vasont.Inspire.Models.Logging.EventLoggingFilter.LoggerName
+  type: Property
+  source:
+    remote:
+      path: src/Logging/EventLoggingFilter.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: LoggerName
+    path: Logging/EventLoggingFilter.cs
+    startLine: 55
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nGets or sets the logger name filter\n"
+  example: []
+  syntax:
+    content: public string LoggerName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LoggerName As String
+  overload: Vasont.Inspire.Models.Logging.EventLoggingFilter.LoggerName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Logging.EventLoggingFilter.LevelsFilter
+  commentId: P:Vasont.Inspire.Models.Logging.EventLoggingFilter.LevelsFilter
+  id: LevelsFilter
+  parent: Vasont.Inspire.Models.Logging.EventLoggingFilter
+  langs:
+  - csharp
+  - vb
+  name: LevelsFilter
+  nameWithType: EventLoggingFilter.LevelsFilter
+  fullName: Vasont.Inspire.Models.Logging.EventLoggingFilter.LevelsFilter
+  type: Property
+  source:
+    remote:
+      path: src/Logging/EventLoggingFilter.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: LevelsFilter
+    path: Logging/EventLoggingFilter.cs
+    startLine: 60
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nGets or sets the event log level filter\n"
+  example: []
+  syntax:
+    content: public EventLogLevel LevelsFilter { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Logging.EventLogLevel
+    content.vb: Public Property LevelsFilter As EventLogLevel
+  overload: Vasont.Inspire.Models.Logging.EventLoggingFilter.LevelsFilter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Logging
+  commentId: N:Vasont.Inspire.Models.Logging
+  name: Vasont.Inspire.Models.Logging
+  nameWithType: Vasont.Inspire.Models.Logging
+  fullName: Vasont.Inspire.Models.Logging
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Logging.EventLoggingFilter
+  commentId: T:Vasont.Inspire.Models.Logging.EventLoggingFilter
+  name: EventLoggingFilter
+  nameWithType: EventLoggingFilter
+  fullName: Vasont.Inspire.Models.Logging.EventLoggingFilter
+- uid: Vasont.Inspire.Models.Logging.EventLoggingFilter.#ctor*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLoggingFilter.#ctor
+  name: EventLoggingFilter
+  nameWithType: EventLoggingFilter.EventLoggingFilter
+  fullName: Vasont.Inspire.Models.Logging.EventLoggingFilter.EventLoggingFilter
+- uid: Vasont.Inspire.Models.Logging.EventLoggingFilter.StartDate*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLoggingFilter.StartDate
+  name: StartDate
+  nameWithType: EventLoggingFilter.StartDate
+  fullName: Vasont.Inspire.Models.Logging.EventLoggingFilter.StartDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Vasont.Inspire.Models.Logging.EventLoggingFilter.EndDate*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLoggingFilter.EndDate
+  name: EndDate
+  nameWithType: EventLoggingFilter.EndDate
+  fullName: Vasont.Inspire.Models.Logging.EventLoggingFilter.EndDate
+- uid: Vasont.Inspire.Models.Logging.EventLoggingFilter.OrderByName*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLoggingFilter.OrderByName
+  name: OrderByName
+  nameWithType: EventLoggingFilter.OrderByName
+  fullName: Vasont.Inspire.Models.Logging.EventLoggingFilter.OrderByName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Logging.EventLoggingFilter.Direction*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLoggingFilter.Direction
+  name: Direction
+  nameWithType: EventLoggingFilter.Direction
+  fullName: Vasont.Inspire.Models.Logging.EventLoggingFilter.Direction
+- uid: Vasont.Inspire.Core.Extensions.SortDirection
+  commentId: T:Vasont.Inspire.Core.Extensions.SortDirection
+  parent: Vasont.Inspire.Core.Extensions
+  isExternal: true
+  name: SortDirection
+  nameWithType: SortDirection
+  fullName: Vasont.Inspire.Core.Extensions.SortDirection
+- uid: Vasont.Inspire.Core.Extensions
+  commentId: N:Vasont.Inspire.Core.Extensions
+  isExternal: true
+  name: Vasont.Inspire.Core.Extensions
+  nameWithType: Vasont.Inspire.Core.Extensions
+  fullName: Vasont.Inspire.Core.Extensions
+- uid: Vasont.Inspire.Models.Logging.EventLoggingFilter.MaximumRows*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLoggingFilter.MaximumRows
+  name: MaximumRows
+  nameWithType: EventLoggingFilter.MaximumRows
+  fullName: Vasont.Inspire.Models.Logging.EventLoggingFilter.MaximumRows
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Vasont.Inspire.Models.Logging.EventLoggingFilter.LoggerName*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLoggingFilter.LoggerName
+  name: LoggerName
+  nameWithType: EventLoggingFilter.LoggerName
+  fullName: Vasont.Inspire.Models.Logging.EventLoggingFilter.LoggerName
+- uid: Vasont.Inspire.Models.Logging.EventLoggingFilter.LevelsFilter*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLoggingFilter.LevelsFilter
+  name: LevelsFilter
+  nameWithType: EventLoggingFilter.LevelsFilter
+  fullName: Vasont.Inspire.Models.Logging.EventLoggingFilter.LevelsFilter
+- uid: Vasont.Inspire.Models.Logging.EventLogLevel
+  commentId: T:Vasont.Inspire.Models.Logging.EventLogLevel
+  parent: Vasont.Inspire.Models.Logging
+  name: EventLogLevel
+  nameWithType: EventLogLevel
+  fullName: Vasont.Inspire.Models.Logging.EventLogLevel

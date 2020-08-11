@@ -1,0 +1,821 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel
+  commentId: T:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel
+  id: ReviewAssignmentModel
+  parent: Vasont.Inspire.Models.Reviews
+  children:
+  - Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.Coordinator
+  - Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DueDate
+  - Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.PercentageCompleted
+  - Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.ReviewerUserId
+  - Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.ReviewId
+  - Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.StartDate
+  - Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.State
+  - Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.Title
+  langs:
+  - csharp
+  - vb
+  name: ReviewAssignmentModel
+  nameWithType: ReviewAssignmentModel
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel
+  type: Class
+  source:
+    remote:
+      path: src/Reviews/ReviewAssignmentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewAssignmentModel
+    path: Reviews/ReviewAssignmentModel.cs
+    startLine: 14
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nThis class represents a review assignment within the application.\n"
+  example: []
+  syntax:
+    content: public class ReviewAssignmentModel
+    content.vb: Public Class ReviewAssignmentModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.ReviewId
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.ReviewId
+  id: ReviewId
+  parent: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel
+  langs:
+  - csharp
+  - vb
+  name: ReviewId
+  nameWithType: ReviewAssignmentModel.ReviewId
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.ReviewId
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewAssignmentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewId
+    path: Reviews/ReviewAssignmentModel.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the review identity value.\n"
+  example: []
+  syntax:
+    content: public long ReviewId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ReviewId As Long
+  overload: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.ReviewId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.Title
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.Title
+  id: Title
+  parent: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: ReviewAssignmentModel.Title
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.Title
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewAssignmentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Title
+    path: Reviews/ReviewAssignmentModel.cs
+    startLine: 24
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the review title.\n"
+  example: []
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.Coordinator
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.Coordinator
+  id: Coordinator
+  parent: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel
+  langs:
+  - csharp
+  - vb
+  name: Coordinator
+  nameWithType: ReviewAssignmentModel.Coordinator
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.Coordinator
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewAssignmentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Coordinator
+    path: Reviews/ReviewAssignmentModel.cs
+    startLine: 29
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the review coordinator user information.\n"
+  example: []
+  syntax:
+    content: public MinimalUserModel Coordinator { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.MinimalUserModel
+    content.vb: Public Property Coordinator As MinimalUserModel
+  overload: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.Coordinator*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.State
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.State
+  id: State
+  parent: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: ReviewAssignmentModel.State
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.State
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewAssignmentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: State
+    path: Reviews/ReviewAssignmentModel.cs
+    startLine: 34
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the review state information.\n"
+  example: []
+  syntax:
+    content: public ReviewStateType State { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Reviews.ReviewStateType
+    content.vb: Public Property State As ReviewStateType
+  overload: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.State*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.StartDate
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.StartDate
+  id: StartDate
+  parent: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: ReviewAssignmentModel.StartDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.StartDate
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewAssignmentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: StartDate
+    path: Reviews/ReviewAssignmentModel.cs
+    startLine: 39
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the date time when the review should be started.\n"
+  example: []
+  syntax:
+    content: public DateTime? StartDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property StartDate As Date?
+  overload: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.StartDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DueDate
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DueDate
+  id: DueDate
+  parent: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel
+  langs:
+  - csharp
+  - vb
+  name: DueDate
+  nameWithType: ReviewAssignmentModel.DueDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DueDate
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewAssignmentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DueDate
+    path: Reviews/ReviewAssignmentModel.cs
+    startLine: 44
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the review due date time.\n"
+  example: []
+  syntax:
+    content: public DateTime? DueDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property DueDate As Date?
+  overload: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DueDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.PercentageCompleted
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.PercentageCompleted
+  id: PercentageCompleted
+  parent: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel
+  langs:
+  - csharp
+  - vb
+  name: PercentageCompleted
+  nameWithType: ReviewAssignmentModel.PercentageCompleted
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.PercentageCompleted
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewAssignmentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PercentageCompleted
+    path: Reviews/ReviewAssignmentModel.cs
+    startLine: 49
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the percentage of components reviewed by the reviewer.\n"
+  example: []
+  syntax:
+    content: public virtual int PercentageCompleted { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PercentageCompleted As Integer
+  overload: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.PercentageCompleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.ReviewerUserId
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.ReviewerUserId
+  id: ReviewerUserId
+  parent: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel
+  langs:
+  - csharp
+  - vb
+  name: ReviewerUserId
+  nameWithType: ReviewAssignmentModel.ReviewerUserId
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.ReviewerUserId
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewAssignmentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewerUserId
+    path: Reviews/ReviewAssignmentModel.cs
+    startLine: 54
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the review user identity.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public long ReviewerUserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property ReviewerUserId As Long
+  overload: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.ReviewerUserId*
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Reviews
+  commentId: N:Vasont.Inspire.Models.Reviews
+  name: Vasont.Inspire.Models.Reviews
+  nameWithType: Vasont.Inspire.Models.Reviews
+  fullName: Vasont.Inspire.Models.Reviews
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.ReviewId*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.ReviewId
+  name: ReviewId
+  nameWithType: ReviewAssignmentModel.ReviewId
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.ReviewId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.Title*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.Title
+  name: Title
+  nameWithType: ReviewAssignmentModel.Title
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.Coordinator*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.Coordinator
+  name: Coordinator
+  nameWithType: ReviewAssignmentModel.Coordinator
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.Coordinator
+- uid: Vasont.Inspire.Models.Security.MinimalUserModel
+  commentId: T:Vasont.Inspire.Models.Security.MinimalUserModel
+  parent: Vasont.Inspire.Models.Security
+  name: MinimalUserModel
+  nameWithType: MinimalUserModel
+  fullName: Vasont.Inspire.Models.Security.MinimalUserModel
+- uid: Vasont.Inspire.Models.Security
+  commentId: N:Vasont.Inspire.Models.Security
+  name: Vasont.Inspire.Models.Security
+  nameWithType: Vasont.Inspire.Models.Security
+  fullName: Vasont.Inspire.Models.Security
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.State*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.State
+  name: State
+  nameWithType: ReviewAssignmentModel.State
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.State
+- uid: Vasont.Inspire.Models.Reviews.ReviewStateType
+  commentId: T:Vasont.Inspire.Models.Reviews.ReviewStateType
+  parent: Vasont.Inspire.Models.Reviews
+  name: ReviewStateType
+  nameWithType: ReviewStateType
+  fullName: Vasont.Inspire.Models.Reviews.ReviewStateType
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.StartDate*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.StartDate
+  name: StartDate
+  nameWithType: ReviewAssignmentModel.StartDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.StartDate
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DueDate*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DueDate
+  name: DueDate
+  nameWithType: ReviewAssignmentModel.DueDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DueDate
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.PercentageCompleted*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.PercentageCompleted
+  name: PercentageCompleted
+  nameWithType: ReviewAssignmentModel.PercentageCompleted
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.PercentageCompleted
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.ReviewerUserId*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.ReviewerUserId
+  name: ReviewerUserId
+  nameWithType: ReviewAssignmentModel.ReviewerUserId
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.ReviewerUserId

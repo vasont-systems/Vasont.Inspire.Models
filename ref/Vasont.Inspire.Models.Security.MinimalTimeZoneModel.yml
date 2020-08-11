@@ -1,0 +1,539 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Security.MinimalTimeZoneModel
+  commentId: T:Vasont.Inspire.Models.Security.MinimalTimeZoneModel
+  id: MinimalTimeZoneModel
+  parent: Vasont.Inspire.Models.Security
+  children:
+  - Vasont.Inspire.Models.Security.MinimalTimeZoneModel.Default
+  - Vasont.Inspire.Models.Security.MinimalTimeZoneModel.IanaName
+  - Vasont.Inspire.Models.Security.MinimalTimeZoneModel.ShortName
+  - Vasont.Inspire.Models.Security.MinimalTimeZoneModel.TimeZoneId
+  langs:
+  - csharp
+  - vb
+  name: MinimalTimeZoneModel
+  nameWithType: MinimalTimeZoneModel
+  fullName: Vasont.Inspire.Models.Security.MinimalTimeZoneModel
+  type: Class
+  source:
+    remote:
+      path: src/Security/MinimalTimeZoneModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: MinimalTimeZoneModel
+    path: Security/MinimalTimeZoneModel.cs
+    startLine: 10
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nThis class represents a minimal set of time zone model information.\n"
+  example: []
+  syntax:
+    content: public class MinimalTimeZoneModel
+    content.vb: Public Class MinimalTimeZoneModel
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Vasont.Inspire.Models.Security.TimeZoneModel
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Security.MinimalTimeZoneModel.TimeZoneId
+  commentId: P:Vasont.Inspire.Models.Security.MinimalTimeZoneModel.TimeZoneId
+  id: TimeZoneId
+  parent: Vasont.Inspire.Models.Security.MinimalTimeZoneModel
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneId
+  nameWithType: MinimalTimeZoneModel.TimeZoneId
+  fullName: Vasont.Inspire.Models.Security.MinimalTimeZoneModel.TimeZoneId
+  type: Property
+  source:
+    remote:
+      path: src/Security/MinimalTimeZoneModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TimeZoneId
+    path: Security/MinimalTimeZoneModel.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets the time zone identity value.\n"
+  example: []
+  syntax:
+    content: public int TimeZoneId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TimeZoneId As Integer
+  overload: Vasont.Inspire.Models.Security.MinimalTimeZoneModel.TimeZoneId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Security.MinimalTimeZoneModel.ShortName
+  commentId: P:Vasont.Inspire.Models.Security.MinimalTimeZoneModel.ShortName
+  id: ShortName
+  parent: Vasont.Inspire.Models.Security.MinimalTimeZoneModel
+  langs:
+  - csharp
+  - vb
+  name: ShortName
+  nameWithType: MinimalTimeZoneModel.ShortName
+  fullName: Vasont.Inspire.Models.Security.MinimalTimeZoneModel.ShortName
+  type: Property
+  source:
+    remote:
+      path: src/Security/MinimalTimeZoneModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ShortName
+    path: Security/MinimalTimeZoneModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets the time zone short name.\n"
+  example: []
+  syntax:
+    content: public string ShortName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ShortName As String
+  overload: Vasont.Inspire.Models.Security.MinimalTimeZoneModel.ShortName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Security.MinimalTimeZoneModel.Default
+  commentId: P:Vasont.Inspire.Models.Security.MinimalTimeZoneModel.Default
+  id: Default
+  parent: Vasont.Inspire.Models.Security.MinimalTimeZoneModel
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: MinimalTimeZoneModel.Default
+  fullName: Vasont.Inspire.Models.Security.MinimalTimeZoneModel.Default
+  type: Property
+  source:
+    remote:
+      path: src/Security/MinimalTimeZoneModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Default
+    path: Security/MinimalTimeZoneModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets a value indicating whether the time zone is the default selection.\n"
+  example: []
+  syntax:
+    content: public bool Default { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Default As Boolean
+  overload: Vasont.Inspire.Models.Security.MinimalTimeZoneModel.Default*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Security.MinimalTimeZoneModel.IanaName
+  commentId: P:Vasont.Inspire.Models.Security.MinimalTimeZoneModel.IanaName
+  id: IanaName
+  parent: Vasont.Inspire.Models.Security.MinimalTimeZoneModel
+  langs:
+  - csharp
+  - vb
+  name: IanaName
+  nameWithType: MinimalTimeZoneModel.IanaName
+  fullName: Vasont.Inspire.Models.Security.MinimalTimeZoneModel.IanaName
+  type: Property
+  source:
+    remote:
+      path: src/Security/MinimalTimeZoneModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IanaName
+    path: Security/MinimalTimeZoneModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets the IANA name for the time zone.\n"
+  example: []
+  syntax:
+    content: public string IanaName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IanaName As String
+  overload: Vasont.Inspire.Models.Security.MinimalTimeZoneModel.IanaName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Security
+  commentId: N:Vasont.Inspire.Models.Security
+  name: Vasont.Inspire.Models.Security
+  nameWithType: Vasont.Inspire.Models.Security
+  fullName: Vasont.Inspire.Models.Security
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Security.MinimalTimeZoneModel.TimeZoneId*
+  commentId: Overload:Vasont.Inspire.Models.Security.MinimalTimeZoneModel.TimeZoneId
+  name: TimeZoneId
+  nameWithType: MinimalTimeZoneModel.TimeZoneId
+  fullName: Vasont.Inspire.Models.Security.MinimalTimeZoneModel.TimeZoneId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Vasont.Inspire.Models.Security.MinimalTimeZoneModel.ShortName*
+  commentId: Overload:Vasont.Inspire.Models.Security.MinimalTimeZoneModel.ShortName
+  name: ShortName
+  nameWithType: MinimalTimeZoneModel.ShortName
+  fullName: Vasont.Inspire.Models.Security.MinimalTimeZoneModel.ShortName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Security.MinimalTimeZoneModel.Default*
+  commentId: Overload:Vasont.Inspire.Models.Security.MinimalTimeZoneModel.Default
+  name: Default
+  nameWithType: MinimalTimeZoneModel.Default
+  fullName: Vasont.Inspire.Models.Security.MinimalTimeZoneModel.Default
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Security.MinimalTimeZoneModel.IanaName*
+  commentId: Overload:Vasont.Inspire.Models.Security.MinimalTimeZoneModel.IanaName
+  name: IanaName
+  nameWithType: MinimalTimeZoneModel.IanaName
+  fullName: Vasont.Inspire.Models.Security.MinimalTimeZoneModel.IanaName

@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction
+  commentId: T:Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction
+  id: WorkflowActivityEventAction
+  parent: Vasont.Inspire.Models.Workflow
+  children:
+  - Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction.EmailAssignees
+  - Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction.EmailOwner
+  - Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction.ExecutePlugin
+  langs:
+  - csharp
+  - vb
+  name: WorkflowActivityEventAction
+  nameWithType: WorkflowActivityEventAction
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction
+  type: Enum
+  source:
+    remote:
+      path: src/Workflow/WorkflowActivityEventModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: WorkflowActivityEventAction
+    path: Workflow/WorkflowActivityEventModel.cs
+    startLine: 41
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nContains an enumerated list of workflow activity event actions\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum WorkflowActivityEventAction
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum WorkflowActivityEventAction
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction.EmailAssignees
+  commentId: F:Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction.EmailAssignees
+  id: EmailAssignees
+  parent: Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction
+  langs:
+  - csharp
+  - vb
+  name: EmailAssignees
+  nameWithType: WorkflowActivityEventAction.EmailAssignees
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction.EmailAssignees
+  type: Field
+  source:
+    remote:
+      path: src/Workflow/WorkflowActivityEventModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EmailAssignees
+    path: Workflow/WorkflowActivityEventModel.cs
+    startLine: 47
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nThe Activity action will e-mail assignees notifying them the activity requires their attention.\n"
+  example: []
+  syntax:
+    content: EmailAssignees = 0
+    return:
+      type: Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction.EmailOwner
+  commentId: F:Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction.EmailOwner
+  id: EmailOwner
+  parent: Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction
+  langs:
+  - csharp
+  - vb
+  name: EmailOwner
+  nameWithType: WorkflowActivityEventAction.EmailOwner
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction.EmailOwner
+  type: Field
+  source:
+    remote:
+      path: src/Workflow/WorkflowActivityEventModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EmailOwner
+    path: Workflow/WorkflowActivityEventModel.cs
+    startLine: 52
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nThe Activity action will e-mail the workflow owner.\n"
+  example: []
+  syntax:
+    content: EmailOwner = 1
+    return:
+      type: Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction.ExecutePlugin
+  commentId: F:Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction.ExecutePlugin
+  id: ExecutePlugin
+  parent: Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction
+  langs:
+  - csharp
+  - vb
+  name: ExecutePlugin
+  nameWithType: WorkflowActivityEventAction.ExecutePlugin
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction.ExecutePlugin
+  type: Field
+  source:
+    remote:
+      path: src/Workflow/WorkflowActivityEventModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ExecutePlugin
+    path: Workflow/WorkflowActivityEventModel.cs
+    startLine: 57
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nThe Activity action will execute a plugin specified within the parameters section of the event.\n"
+  example: []
+  syntax:
+    content: ExecutePlugin = 2
+    return:
+      type: Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Workflow
+  commentId: N:Vasont.Inspire.Models.Workflow
+  name: Vasont.Inspire.Models.Workflow
+  nameWithType: Vasont.Inspire.Models.Workflow
+  fullName: Vasont.Inspire.Models.Workflow
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction
+  commentId: T:Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction
+  parent: Vasont.Inspire.Models.Workflow
+  name: WorkflowActivityEventAction
+  nameWithType: WorkflowActivityEventAction
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventAction

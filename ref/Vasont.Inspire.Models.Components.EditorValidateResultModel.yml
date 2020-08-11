@@ -1,0 +1,705 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.EditorValidateResultModel
+  commentId: T:Vasont.Inspire.Models.Components.EditorValidateResultModel
+  id: EditorValidateResultModel
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.EditorValidateResultModel.#ctor
+  - Vasont.Inspire.Models.Components.EditorValidateResultModel.Error
+  - Vasont.Inspire.Models.Components.EditorValidateResultModel.Status
+  - Vasont.Inspire.Models.Components.EditorValidateResultModel.Text
+  - Vasont.Inspire.Models.Components.EditorValidateResultModel.Valid
+  - Vasont.Inspire.Models.Components.EditorValidateResultModel.Xml
+  langs:
+  - csharp
+  - vb
+  name: EditorValidateResultModel
+  nameWithType: EditorValidateResultModel
+  fullName: Vasont.Inspire.Models.Components.EditorValidateResultModel
+  type: Class
+  source:
+    remote:
+      path: src/Components/EditorValidateResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EditorValidateResultModel
+    path: Components/EditorValidateResultModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis class represents a collection of properties used for xml validation.\n"
+  example: []
+  syntax:
+    content: public class EditorValidateResultModel
+    content.vb: Public Class EditorValidateResultModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Components.EditorValidateResultModel.#ctor
+  commentId: M:Vasont.Inspire.Models.Components.EditorValidateResultModel.#ctor
+  id: '#ctor'
+  parent: Vasont.Inspire.Models.Components.EditorValidateResultModel
+  langs:
+  - csharp
+  - vb
+  name: EditorValidateResultModel()
+  nameWithType: EditorValidateResultModel.EditorValidateResultModel()
+  fullName: Vasont.Inspire.Models.Components.EditorValidateResultModel.EditorValidateResultModel()
+  type: Constructor
+  source:
+    remote:
+      path: src/Components/EditorValidateResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: .ctor
+    path: Components/EditorValidateResultModel.cs
+    startLine: 18
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nInitializes a new instance of the <xref href=\"Vasont.Inspire.Models.Components.EditorValidateResultModel\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public EditorValidateResultModel()
+    content.vb: Public Sub New
+  overload: Vasont.Inspire.Models.Components.EditorValidateResultModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorValidateResultModel.Error
+  commentId: P:Vasont.Inspire.Models.Components.EditorValidateResultModel.Error
+  id: Error
+  parent: Vasont.Inspire.Models.Components.EditorValidateResultModel
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: EditorValidateResultModel.Error
+  fullName: Vasont.Inspire.Models.Components.EditorValidateResultModel.Error
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorValidateResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Error
+    path: Components/EditorValidateResultModel.cs
+    startLine: 29
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the validation error message.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "error")]
+
+      public EditorXmlErrorModel Error { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Components.EditorXmlErrorModel
+    content.vb: >-
+      <JsonProperty(PropertyName:="error")>
+
+      Public Property Error As EditorXmlErrorModel
+  overload: Vasont.Inspire.Models.Components.EditorValidateResultModel.Error*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: error
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorValidateResultModel.Status
+  commentId: P:Vasont.Inspire.Models.Components.EditorValidateResultModel.Status
+  id: Status
+  parent: Vasont.Inspire.Models.Components.EditorValidateResultModel
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: EditorValidateResultModel.Status
+  fullName: Vasont.Inspire.Models.Components.EditorValidateResultModel.Status
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorValidateResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Status
+    path: Components/EditorValidateResultModel.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the status of the validation request.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "status")]
+
+      public HttpStatusCode Status { get; set; }
+    parameters: []
+    return:
+      type: System.Net.HttpStatusCode
+    content.vb: >-
+      <JsonProperty(PropertyName:="status")>
+
+      Public Property Status As HttpStatusCode
+  overload: Vasont.Inspire.Models.Components.EditorValidateResultModel.Status*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: status
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorValidateResultModel.Text
+  commentId: P:Vasont.Inspire.Models.Components.EditorValidateResultModel.Text
+  id: Text
+  parent: Vasont.Inspire.Models.Components.EditorValidateResultModel
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: EditorValidateResultModel.Text
+  fullName: Vasont.Inspire.Models.Components.EditorValidateResultModel.Text
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorValidateResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Text
+    path: Components/EditorValidateResultModel.cs
+    startLine: 41
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the error type text.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "text")]
+
+      public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty(PropertyName:="text")>
+
+      Public Property Text As String
+  overload: Vasont.Inspire.Models.Components.EditorValidateResultModel.Text*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: text
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorValidateResultModel.Xml
+  commentId: P:Vasont.Inspire.Models.Components.EditorValidateResultModel.Xml
+  id: Xml
+  parent: Vasont.Inspire.Models.Components.EditorValidateResultModel
+  langs:
+  - csharp
+  - vb
+  name: Xml
+  nameWithType: EditorValidateResultModel.Xml
+  fullName: Vasont.Inspire.Models.Components.EditorValidateResultModel.Xml
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorValidateResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Xml
+    path: Components/EditorValidateResultModel.cs
+    startLine: 47
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets xml returned to editor.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "xml")]
+
+      public string Xml { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty(PropertyName:="xml")>
+
+      Public Property Xml As String
+  overload: Vasont.Inspire.Models.Components.EditorValidateResultModel.Xml*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: xml
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorValidateResultModel.Valid
+  commentId: P:Vasont.Inspire.Models.Components.EditorValidateResultModel.Valid
+  id: Valid
+  parent: Vasont.Inspire.Models.Components.EditorValidateResultModel
+  langs:
+  - csharp
+  - vb
+  name: Valid
+  nameWithType: EditorValidateResultModel.Valid
+  fullName: Vasont.Inspire.Models.Components.EditorValidateResultModel.Valid
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorValidateResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Valid
+    path: Components/EditorValidateResultModel.cs
+    startLine: 53
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether xml is valid.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "valid")]
+
+      public bool Valid { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonProperty(PropertyName:="valid")>
+
+      Public Property Valid As Boolean
+  overload: Vasont.Inspire.Models.Components.EditorValidateResultModel.Valid*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: valid
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Components.EditorValidateResultModel
+  commentId: T:Vasont.Inspire.Models.Components.EditorValidateResultModel
+  name: EditorValidateResultModel
+  nameWithType: EditorValidateResultModel
+  fullName: Vasont.Inspire.Models.Components.EditorValidateResultModel
+- uid: Vasont.Inspire.Models.Components.EditorValidateResultModel.#ctor*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorValidateResultModel.#ctor
+  name: EditorValidateResultModel
+  nameWithType: EditorValidateResultModel.EditorValidateResultModel
+  fullName: Vasont.Inspire.Models.Components.EditorValidateResultModel.EditorValidateResultModel
+- uid: Vasont.Inspire.Models.Components.EditorValidateResultModel.Error*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorValidateResultModel.Error
+  name: Error
+  nameWithType: EditorValidateResultModel.Error
+  fullName: Vasont.Inspire.Models.Components.EditorValidateResultModel.Error
+- uid: Vasont.Inspire.Models.Components.EditorXmlErrorModel
+  commentId: T:Vasont.Inspire.Models.Components.EditorXmlErrorModel
+  parent: Vasont.Inspire.Models.Components
+  name: EditorXmlErrorModel
+  nameWithType: EditorXmlErrorModel
+  fullName: Vasont.Inspire.Models.Components.EditorXmlErrorModel
+- uid: Vasont.Inspire.Models.Components.EditorValidateResultModel.Status*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorValidateResultModel.Status
+  name: Status
+  nameWithType: EditorValidateResultModel.Status
+  fullName: Vasont.Inspire.Models.Components.EditorValidateResultModel.Status
+- uid: System.Net.HttpStatusCode
+  commentId: T:System.Net.HttpStatusCode
+  parent: System.Net
+  isExternal: true
+  name: HttpStatusCode
+  nameWithType: HttpStatusCode
+  fullName: System.Net.HttpStatusCode
+- uid: System.Net
+  commentId: N:System.Net
+  isExternal: true
+  name: System.Net
+  nameWithType: System.Net
+  fullName: System.Net
+- uid: Vasont.Inspire.Models.Components.EditorValidateResultModel.Text*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorValidateResultModel.Text
+  name: Text
+  nameWithType: EditorValidateResultModel.Text
+  fullName: Vasont.Inspire.Models.Components.EditorValidateResultModel.Text
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Components.EditorValidateResultModel.Xml*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorValidateResultModel.Xml
+  name: Xml
+  nameWithType: EditorValidateResultModel.Xml
+  fullName: Vasont.Inspire.Models.Components.EditorValidateResultModel.Xml
+- uid: Vasont.Inspire.Models.Components.EditorValidateResultModel.Valid*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorValidateResultModel.Valid
+  name: Valid
+  nameWithType: EditorValidateResultModel.Valid
+  fullName: Vasont.Inspire.Models.Components.EditorValidateResultModel.Valid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

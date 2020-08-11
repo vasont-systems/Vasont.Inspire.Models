@@ -1,0 +1,558 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  commentId: T:Vasont.Inspire.Models.Search.SearchExpressionOperator
+  id: SearchExpressionOperator
+  parent: Vasont.Inspire.Models.Search
+  children:
+  - Vasont.Inspire.Models.Search.SearchExpressionOperator.Contains
+  - Vasont.Inspire.Models.Search.SearchExpressionOperator.DoesNotContain
+  - Vasont.Inspire.Models.Search.SearchExpressionOperator.DoesNotEndWith
+  - Vasont.Inspire.Models.Search.SearchExpressionOperator.DoesNotStartWith
+  - Vasont.Inspire.Models.Search.SearchExpressionOperator.EndsWith
+  - Vasont.Inspire.Models.Search.SearchExpressionOperator.Equals
+  - Vasont.Inspire.Models.Search.SearchExpressionOperator.GreaterThan
+  - Vasont.Inspire.Models.Search.SearchExpressionOperator.GreaterThanOrEqual
+  - Vasont.Inspire.Models.Search.SearchExpressionOperator.LessThan
+  - Vasont.Inspire.Models.Search.SearchExpressionOperator.LessThanOrEqual
+  - Vasont.Inspire.Models.Search.SearchExpressionOperator.NotEquals
+  - Vasont.Inspire.Models.Search.SearchExpressionOperator.StartsWith
+  langs:
+  - csharp
+  - vb
+  name: SearchExpressionOperator
+  nameWithType: SearchExpressionOperator
+  fullName: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  type: Enum
+  source:
+    remote:
+      path: src/Search/SearchExpressionOperator.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SearchExpressionOperator
+    path: Search/SearchExpressionOperator.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nGets or sets an enumerated list of available operators\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum SearchExpressionOperator
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum SearchExpressionOperator
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Search.SearchExpressionOperator.Equals
+  commentId: F:Vasont.Inspire.Models.Search.SearchExpressionOperator.Equals
+  id: Equals
+  parent: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  langs:
+  - csharp
+  - vb
+  name: Equals
+  nameWithType: SearchExpressionOperator.Equals
+  fullName: Vasont.Inspire.Models.Search.SearchExpressionOperator.Equals
+  type: Field
+  source:
+    remote:
+      path: src/Search/SearchExpressionOperator.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Equals
+    path: Search/SearchExpressionOperator.cs
+    startLine: 23
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nDoes equal\n"
+  example: []
+  syntax:
+    content: Equals = 0
+    return:
+      type: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Search.SearchExpressionOperator.NotEquals
+  commentId: F:Vasont.Inspire.Models.Search.SearchExpressionOperator.NotEquals
+  id: NotEquals
+  parent: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  langs:
+  - csharp
+  - vb
+  name: NotEquals
+  nameWithType: SearchExpressionOperator.NotEquals
+  fullName: Vasont.Inspire.Models.Search.SearchExpressionOperator.NotEquals
+  type: Field
+  source:
+    remote:
+      path: src/Search/SearchExpressionOperator.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: NotEquals
+    path: Search/SearchExpressionOperator.cs
+    startLine: 29
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nDoes not equal\n"
+  example: []
+  syntax:
+    content: NotEquals = 1
+    return:
+      type: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Search.SearchExpressionOperator.GreaterThan
+  commentId: F:Vasont.Inspire.Models.Search.SearchExpressionOperator.GreaterThan
+  id: GreaterThan
+  parent: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  langs:
+  - csharp
+  - vb
+  name: GreaterThan
+  nameWithType: SearchExpressionOperator.GreaterThan
+  fullName: Vasont.Inspire.Models.Search.SearchExpressionOperator.GreaterThan
+  type: Field
+  source:
+    remote:
+      path: src/Search/SearchExpressionOperator.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: GreaterThan
+    path: Search/SearchExpressionOperator.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nGreater than\n"
+  example: []
+  syntax:
+    content: GreaterThan = 2
+    return:
+      type: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Search.SearchExpressionOperator.LessThan
+  commentId: F:Vasont.Inspire.Models.Search.SearchExpressionOperator.LessThan
+  id: LessThan
+  parent: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  langs:
+  - csharp
+  - vb
+  name: LessThan
+  nameWithType: SearchExpressionOperator.LessThan
+  fullName: Vasont.Inspire.Models.Search.SearchExpressionOperator.LessThan
+  type: Field
+  source:
+    remote:
+      path: src/Search/SearchExpressionOperator.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: LessThan
+    path: Search/SearchExpressionOperator.cs
+    startLine: 41
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nLess than\n"
+  example: []
+  syntax:
+    content: LessThan = 3
+    return:
+      type: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Search.SearchExpressionOperator.GreaterThanOrEqual
+  commentId: F:Vasont.Inspire.Models.Search.SearchExpressionOperator.GreaterThanOrEqual
+  id: GreaterThanOrEqual
+  parent: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  langs:
+  - csharp
+  - vb
+  name: GreaterThanOrEqual
+  nameWithType: SearchExpressionOperator.GreaterThanOrEqual
+  fullName: Vasont.Inspire.Models.Search.SearchExpressionOperator.GreaterThanOrEqual
+  type: Field
+  source:
+    remote:
+      path: src/Search/SearchExpressionOperator.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: GreaterThanOrEqual
+    path: Search/SearchExpressionOperator.cs
+    startLine: 47
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nGreater than or does equal\n"
+  example: []
+  syntax:
+    content: GreaterThanOrEqual = 4
+    return:
+      type: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Search.SearchExpressionOperator.LessThanOrEqual
+  commentId: F:Vasont.Inspire.Models.Search.SearchExpressionOperator.LessThanOrEqual
+  id: LessThanOrEqual
+  parent: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  langs:
+  - csharp
+  - vb
+  name: LessThanOrEqual
+  nameWithType: SearchExpressionOperator.LessThanOrEqual
+  fullName: Vasont.Inspire.Models.Search.SearchExpressionOperator.LessThanOrEqual
+  type: Field
+  source:
+    remote:
+      path: src/Search/SearchExpressionOperator.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: LessThanOrEqual
+    path: Search/SearchExpressionOperator.cs
+    startLine: 53
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nLess than or does equal\n"
+  example: []
+  syntax:
+    content: LessThanOrEqual = 5
+    return:
+      type: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Search.SearchExpressionOperator.Contains
+  commentId: F:Vasont.Inspire.Models.Search.SearchExpressionOperator.Contains
+  id: Contains
+  parent: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  langs:
+  - csharp
+  - vb
+  name: Contains
+  nameWithType: SearchExpressionOperator.Contains
+  fullName: Vasont.Inspire.Models.Search.SearchExpressionOperator.Contains
+  type: Field
+  source:
+    remote:
+      path: src/Search/SearchExpressionOperator.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Contains
+    path: Search/SearchExpressionOperator.cs
+    startLine: 59
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nContains a value\n"
+  example: []
+  syntax:
+    content: >-
+      [LocalizedDescription("LabelContainsText")]
+
+      Contains = 6
+    return:
+      type: Vasont.Inspire.Models.Search.SearchExpressionOperator
+    content.vb: >-
+      <LocalizedDescription("LabelContainsText")>
+
+      Contains = 6
+  attributes:
+  - type: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute
+    ctor: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LabelContainsText
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Search.SearchExpressionOperator.DoesNotContain
+  commentId: F:Vasont.Inspire.Models.Search.SearchExpressionOperator.DoesNotContain
+  id: DoesNotContain
+  parent: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  langs:
+  - csharp
+  - vb
+  name: DoesNotContain
+  nameWithType: SearchExpressionOperator.DoesNotContain
+  fullName: Vasont.Inspire.Models.Search.SearchExpressionOperator.DoesNotContain
+  type: Field
+  source:
+    remote:
+      path: src/Search/SearchExpressionOperator.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DoesNotContain
+    path: Search/SearchExpressionOperator.cs
+    startLine: 65
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nDoes not contain a value\n"
+  example: []
+  syntax:
+    content: >-
+      [LocalizedDescription("LabelDoesNotContainText")]
+
+      DoesNotContain = 7
+    return:
+      type: Vasont.Inspire.Models.Search.SearchExpressionOperator
+    content.vb: >-
+      <LocalizedDescription("LabelDoesNotContainText")>
+
+      DoesNotContain = 7
+  attributes:
+  - type: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute
+    ctor: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LabelDoesNotContainText
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Search.SearchExpressionOperator.StartsWith
+  commentId: F:Vasont.Inspire.Models.Search.SearchExpressionOperator.StartsWith
+  id: StartsWith
+  parent: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  langs:
+  - csharp
+  - vb
+  name: StartsWith
+  nameWithType: SearchExpressionOperator.StartsWith
+  fullName: Vasont.Inspire.Models.Search.SearchExpressionOperator.StartsWith
+  type: Field
+  source:
+    remote:
+      path: src/Search/SearchExpressionOperator.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: StartsWith
+    path: Search/SearchExpressionOperator.cs
+    startLine: 71
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nStarts with a value\n"
+  example: []
+  syntax:
+    content: >-
+      [LocalizedDescription("LabelStartsWithText")]
+
+      StartsWith = 8
+    return:
+      type: Vasont.Inspire.Models.Search.SearchExpressionOperator
+    content.vb: >-
+      <LocalizedDescription("LabelStartsWithText")>
+
+      StartsWith = 8
+  attributes:
+  - type: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute
+    ctor: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LabelStartsWithText
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Search.SearchExpressionOperator.DoesNotStartWith
+  commentId: F:Vasont.Inspire.Models.Search.SearchExpressionOperator.DoesNotStartWith
+  id: DoesNotStartWith
+  parent: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  langs:
+  - csharp
+  - vb
+  name: DoesNotStartWith
+  nameWithType: SearchExpressionOperator.DoesNotStartWith
+  fullName: Vasont.Inspire.Models.Search.SearchExpressionOperator.DoesNotStartWith
+  type: Field
+  source:
+    remote:
+      path: src/Search/SearchExpressionOperator.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DoesNotStartWith
+    path: Search/SearchExpressionOperator.cs
+    startLine: 77
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nDoes not start with a value\n"
+  example: []
+  syntax:
+    content: >-
+      [LocalizedDescription("LabelDoesNotStartWithText")]
+
+      DoesNotStartWith = 9
+    return:
+      type: Vasont.Inspire.Models.Search.SearchExpressionOperator
+    content.vb: >-
+      <LocalizedDescription("LabelDoesNotStartWithText")>
+
+      DoesNotStartWith = 9
+  attributes:
+  - type: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute
+    ctor: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LabelDoesNotStartWithText
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Search.SearchExpressionOperator.EndsWith
+  commentId: F:Vasont.Inspire.Models.Search.SearchExpressionOperator.EndsWith
+  id: EndsWith
+  parent: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  langs:
+  - csharp
+  - vb
+  name: EndsWith
+  nameWithType: SearchExpressionOperator.EndsWith
+  fullName: Vasont.Inspire.Models.Search.SearchExpressionOperator.EndsWith
+  type: Field
+  source:
+    remote:
+      path: src/Search/SearchExpressionOperator.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EndsWith
+    path: Search/SearchExpressionOperator.cs
+    startLine: 83
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nEnds with a value\n"
+  example: []
+  syntax:
+    content: >-
+      [LocalizedDescription("LabelEndsWithText")]
+
+      EndsWith = 10
+    return:
+      type: Vasont.Inspire.Models.Search.SearchExpressionOperator
+    content.vb: >-
+      <LocalizedDescription("LabelEndsWithText")>
+
+      EndsWith = 10
+  attributes:
+  - type: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute
+    ctor: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LabelEndsWithText
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Search.SearchExpressionOperator.DoesNotEndWith
+  commentId: F:Vasont.Inspire.Models.Search.SearchExpressionOperator.DoesNotEndWith
+  id: DoesNotEndWith
+  parent: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  langs:
+  - csharp
+  - vb
+  name: DoesNotEndWith
+  nameWithType: SearchExpressionOperator.DoesNotEndWith
+  fullName: Vasont.Inspire.Models.Search.SearchExpressionOperator.DoesNotEndWith
+  type: Field
+  source:
+    remote:
+      path: src/Search/SearchExpressionOperator.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DoesNotEndWith
+    path: Search/SearchExpressionOperator.cs
+    startLine: 89
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nDoes not end with a value\n"
+  example: []
+  syntax:
+    content: >-
+      [LocalizedDescription("LabelDoesNotEndWithText")]
+
+      DoesNotEndWith = 11
+    return:
+      type: Vasont.Inspire.Models.Search.SearchExpressionOperator
+    content.vb: >-
+      <LocalizedDescription("LabelDoesNotEndWithText")>
+
+      DoesNotEndWith = 11
+  attributes:
+  - type: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute
+    ctor: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LabelDoesNotEndWithText
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Search
+  commentId: N:Vasont.Inspire.Models.Search
+  name: Vasont.Inspire.Models.Search
+  nameWithType: Vasont.Inspire.Models.Search
+  fullName: Vasont.Inspire.Models.Search
+- uid: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  commentId: T:Vasont.Inspire.Models.Search.SearchExpressionOperator
+  parent: Vasont.Inspire.Models.Search
+  name: SearchExpressionOperator
+  nameWithType: SearchExpressionOperator
+  fullName: Vasont.Inspire.Models.Search.SearchExpressionOperator

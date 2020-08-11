@@ -1,0 +1,1067 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel
+  commentId: T:Vasont.Inspire.Models.Reviews.ReviewerEditModel
+  id: ReviewerEditModel
+  parent: Vasont.Inspire.Models.Reviews
+  children:
+  - Vasont.Inspire.Models.Reviews.ReviewerEditModel.CanComment
+  - Vasont.Inspire.Models.Reviews.ReviewerEditModel.CanTrackChanges
+  - Vasont.Inspire.Models.Reviews.ReviewerEditModel.CompletedDate
+  - Vasont.Inspire.Models.Reviews.ReviewerEditModel.Coordinator
+  - Vasont.Inspire.Models.Reviews.ReviewerEditModel.DueDate
+  - Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerComponents
+  - Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerState
+  - Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerUserId
+  - Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewId
+  - Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewTitle
+  - Vasont.Inspire.Models.Reviews.ReviewerEditModel.Transitions
+  langs:
+  - csharp
+  - vb
+  name: ReviewerEditModel
+  nameWithType: ReviewerEditModel
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel
+  type: Class
+  source:
+    remote:
+      path: src/Reviews/ReviewerEditModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewerEditModel
+    path: Reviews/ReviewerEditModel.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nThis class represents a reviewer edit within the application.\n"
+  example: []
+  syntax:
+    content: public class ReviewerEditModel
+    content.vb: Public Class ReviewerEditModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewId
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewId
+  id: ReviewId
+  parent: Vasont.Inspire.Models.Reviews.ReviewerEditModel
+  langs:
+  - csharp
+  - vb
+  name: ReviewId
+  nameWithType: ReviewerEditModel.ReviewId
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewId
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewerEditModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewId
+    path: Reviews/ReviewerEditModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the identity of the review.\n"
+  example: []
+  syntax:
+    content: public long ReviewId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ReviewId As Long
+  overload: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewTitle
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewTitle
+  id: ReviewTitle
+  parent: Vasont.Inspire.Models.Reviews.ReviewerEditModel
+  langs:
+  - csharp
+  - vb
+  name: ReviewTitle
+  nameWithType: ReviewerEditModel.ReviewTitle
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewTitle
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewerEditModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewTitle
+    path: Reviews/ReviewerEditModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the review title.\n"
+  example: []
+  syntax:
+    content: public string ReviewTitle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ReviewTitle As String
+  overload: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewTitle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel.Coordinator
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewerEditModel.Coordinator
+  id: Coordinator
+  parent: Vasont.Inspire.Models.Reviews.ReviewerEditModel
+  langs:
+  - csharp
+  - vb
+  name: Coordinator
+  nameWithType: ReviewerEditModel.Coordinator
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel.Coordinator
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewerEditModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Coordinator
+    path: Reviews/ReviewerEditModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the review coordinator user information.\n"
+  example: []
+  syntax:
+    content: public MinimalUserModel Coordinator { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.MinimalUserModel
+    content.vb: Public Property Coordinator As MinimalUserModel
+  overload: Vasont.Inspire.Models.Reviews.ReviewerEditModel.Coordinator*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel.DueDate
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewerEditModel.DueDate
+  id: DueDate
+  parent: Vasont.Inspire.Models.Reviews.ReviewerEditModel
+  langs:
+  - csharp
+  - vb
+  name: DueDate
+  nameWithType: ReviewerEditModel.DueDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel.DueDate
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewerEditModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DueDate
+    path: Reviews/ReviewerEditModel.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the data and time the review is due.\n"
+  example: []
+  syntax:
+    content: public DateTime? DueDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property DueDate As Date?
+  overload: Vasont.Inspire.Models.Reviews.ReviewerEditModel.DueDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerUserId
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerUserId
+  id: ReviewerUserId
+  parent: Vasont.Inspire.Models.Reviews.ReviewerEditModel
+  langs:
+  - csharp
+  - vb
+  name: ReviewerUserId
+  nameWithType: ReviewerEditModel.ReviewerUserId
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerUserId
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewerEditModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewerUserId
+    path: Reviews/ReviewerEditModel.cs
+    startLine: 40
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the reviewer identity.\n"
+  example: []
+  syntax:
+    content: public long ReviewerUserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ReviewerUserId As Long
+  overload: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerUserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerState
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerState
+  id: ReviewerState
+  parent: Vasont.Inspire.Models.Reviews.ReviewerEditModel
+  langs:
+  - csharp
+  - vb
+  name: ReviewerState
+  nameWithType: ReviewerEditModel.ReviewerState
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerState
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewerEditModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewerState
+    path: Reviews/ReviewerEditModel.cs
+    startLine: 45
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the state of the reviewer.\n"
+  example: []
+  syntax:
+    content: public ReviewerStateType ReviewerState { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Reviews.ReviewerStateType
+    content.vb: Public Property ReviewerState As ReviewerStateType
+  overload: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerState*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel.CanComment
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewerEditModel.CanComment
+  id: CanComment
+  parent: Vasont.Inspire.Models.Reviews.ReviewerEditModel
+  langs:
+  - csharp
+  - vb
+  name: CanComment
+  nameWithType: ReviewerEditModel.CanComment
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel.CanComment
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewerEditModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CanComment
+    path: Reviews/ReviewerEditModel.cs
+    startLine: 50
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets a value indicating whether the reviewer can make comments.\n"
+  example: []
+  syntax:
+    content: public bool CanComment { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CanComment As Boolean
+  overload: Vasont.Inspire.Models.Reviews.ReviewerEditModel.CanComment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel.CanTrackChanges
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewerEditModel.CanTrackChanges
+  id: CanTrackChanges
+  parent: Vasont.Inspire.Models.Reviews.ReviewerEditModel
+  langs:
+  - csharp
+  - vb
+  name: CanTrackChanges
+  nameWithType: ReviewerEditModel.CanTrackChanges
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel.CanTrackChanges
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewerEditModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CanTrackChanges
+    path: Reviews/ReviewerEditModel.cs
+    startLine: 55
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets a value indicating whether the reviewer can make track changes.\n"
+  example: []
+  syntax:
+    content: public bool CanTrackChanges { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CanTrackChanges As Boolean
+  overload: Vasont.Inspire.Models.Reviews.ReviewerEditModel.CanTrackChanges*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel.CompletedDate
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewerEditModel.CompletedDate
+  id: CompletedDate
+  parent: Vasont.Inspire.Models.Reviews.ReviewerEditModel
+  langs:
+  - csharp
+  - vb
+  name: CompletedDate
+  nameWithType: ReviewerEditModel.CompletedDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel.CompletedDate
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewerEditModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CompletedDate
+    path: Reviews/ReviewerEditModel.cs
+    startLine: 60
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the date and time when the reviewer component was completed.\n"
+  example: []
+  syntax:
+    content: public DateTime? CompletedDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property CompletedDate As Date?
+  overload: Vasont.Inspire.Models.Reviews.ReviewerEditModel.CompletedDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerComponents
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerComponents
+  id: ReviewerComponents
+  parent: Vasont.Inspire.Models.Reviews.ReviewerEditModel
+  langs:
+  - csharp
+  - vb
+  name: ReviewerComponents
+  nameWithType: ReviewerEditModel.ReviewerComponents
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerComponents
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewerEditModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewerComponents
+    path: Reviews/ReviewerEditModel.cs
+    startLine: 65
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the reviewer components associated with this review.\n"
+  example: []
+  syntax:
+    content: public List<ReviewerComponentEditModel> ReviewerComponents { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Reviews.ReviewerComponentEditModel}
+    content.vb: Public Property ReviewerComponents As List(Of ReviewerComponentEditModel)
+  overload: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerComponents*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel.Transitions
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewerEditModel.Transitions
+  id: Transitions
+  parent: Vasont.Inspire.Models.Reviews.ReviewerEditModel
+  langs:
+  - csharp
+  - vb
+  name: Transitions
+  nameWithType: ReviewerEditModel.Transitions
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel.Transitions
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewerEditModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Transitions
+    path: Reviews/ReviewerEditModel.cs
+    startLine: 70
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets a list of transitions that can occur after the user completes their reviewer session.\n"
+  example: []
+  syntax:
+    content: public List<WorkflowNextTransitionModel> Transitions { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel}
+    content.vb: Public Property Transitions As List(Of WorkflowNextTransitionModel)
+  overload: Vasont.Inspire.Models.Reviews.ReviewerEditModel.Transitions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Reviews
+  commentId: N:Vasont.Inspire.Models.Reviews
+  name: Vasont.Inspire.Models.Reviews
+  nameWithType: Vasont.Inspire.Models.Reviews
+  fullName: Vasont.Inspire.Models.Reviews
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewId*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewId
+  name: ReviewId
+  nameWithType: ReviewerEditModel.ReviewId
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewTitle*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewTitle
+  name: ReviewTitle
+  nameWithType: ReviewerEditModel.ReviewTitle
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewTitle
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel.Coordinator*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewerEditModel.Coordinator
+  name: Coordinator
+  nameWithType: ReviewerEditModel.Coordinator
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel.Coordinator
+- uid: Vasont.Inspire.Models.Security.MinimalUserModel
+  commentId: T:Vasont.Inspire.Models.Security.MinimalUserModel
+  parent: Vasont.Inspire.Models.Security
+  name: MinimalUserModel
+  nameWithType: MinimalUserModel
+  fullName: Vasont.Inspire.Models.Security.MinimalUserModel
+- uid: Vasont.Inspire.Models.Security
+  commentId: N:Vasont.Inspire.Models.Security
+  name: Vasont.Inspire.Models.Security
+  nameWithType: Vasont.Inspire.Models.Security
+  fullName: Vasont.Inspire.Models.Security
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel.DueDate*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewerEditModel.DueDate
+  name: DueDate
+  nameWithType: ReviewerEditModel.DueDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel.DueDate
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerUserId*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerUserId
+  name: ReviewerUserId
+  nameWithType: ReviewerEditModel.ReviewerUserId
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerUserId
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerState*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerState
+  name: ReviewerState
+  nameWithType: ReviewerEditModel.ReviewerState
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerState
+- uid: Vasont.Inspire.Models.Reviews.ReviewerStateType
+  commentId: T:Vasont.Inspire.Models.Reviews.ReviewerStateType
+  parent: Vasont.Inspire.Models.Reviews
+  name: ReviewerStateType
+  nameWithType: ReviewerStateType
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerStateType
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel.CanComment*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewerEditModel.CanComment
+  name: CanComment
+  nameWithType: ReviewerEditModel.CanComment
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel.CanComment
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel.CanTrackChanges*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewerEditModel.CanTrackChanges
+  name: CanTrackChanges
+  nameWithType: ReviewerEditModel.CanTrackChanges
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel.CanTrackChanges
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel.CompletedDate*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewerEditModel.CompletedDate
+  name: CompletedDate
+  nameWithType: ReviewerEditModel.CompletedDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel.CompletedDate
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerComponents*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerComponents
+  name: ReviewerComponents
+  nameWithType: ReviewerEditModel.ReviewerComponents
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel.ReviewerComponents
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Reviews.ReviewerComponentEditModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Reviews.ReviewerComponentEditModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ReviewerComponentEditModel>
+  nameWithType: List<ReviewerComponentEditModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Reviews.ReviewerComponentEditModel>
+  nameWithType.vb: List(Of ReviewerComponentEditModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Reviews.ReviewerComponentEditModel)
+  name.vb: List(Of ReviewerComponentEditModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Reviews.ReviewerComponentEditModel
+    name: ReviewerComponentEditModel
+    nameWithType: ReviewerComponentEditModel
+    fullName: Vasont.Inspire.Models.Reviews.ReviewerComponentEditModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Reviews.ReviewerComponentEditModel
+    name: ReviewerComponentEditModel
+    nameWithType: ReviewerComponentEditModel
+    fullName: Vasont.Inspire.Models.Reviews.ReviewerComponentEditModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Reviews.ReviewerEditModel.Transitions*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewerEditModel.Transitions
+  name: Transitions
+  nameWithType: ReviewerEditModel.Transitions
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerEditModel.Transitions
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<WorkflowNextTransitionModel>
+  nameWithType: List<WorkflowNextTransitionModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel>
+  nameWithType.vb: List(Of WorkflowNextTransitionModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel)
+  name.vb: List(Of WorkflowNextTransitionModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel
+    name: WorkflowNextTransitionModel
+    nameWithType: WorkflowNextTransitionModel
+    fullName: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel
+    name: WorkflowNextTransitionModel
+    nameWithType: WorkflowNextTransitionModel
+    fullName: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel
+  - name: )
+    nameWithType: )
+    fullName: )

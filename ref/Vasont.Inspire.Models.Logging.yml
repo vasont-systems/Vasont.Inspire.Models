@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Logging
+  commentId: N:Vasont.Inspire.Models.Logging
+  id: Vasont.Inspire.Models.Logging
+  children:
+  - Vasont.Inspire.Models.Logging.EventLoggingFilter
+  - Vasont.Inspire.Models.Logging.EventLogLevel
+  - Vasont.Inspire.Models.Logging.EventLogModel
+  - Vasont.Inspire.Models.Logging.EventLogQueryModel
+  - Vasont.Inspire.Models.Logging.EventLogResultModel
+  - Vasont.Inspire.Models.Logging.LoggingExtensions
+  langs:
+  - csharp
+  - vb
+  name: Vasont.Inspire.Models.Logging
+  nameWithType: Vasont.Inspire.Models.Logging
+  fullName: Vasont.Inspire.Models.Logging
+  type: Namespace
+  assemblies:
+  - Vasont.Inspire.Models
+references:
+- uid: Vasont.Inspire.Models.Logging.EventLoggingFilter
+  commentId: T:Vasont.Inspire.Models.Logging.EventLoggingFilter
+  name: EventLoggingFilter
+  nameWithType: EventLoggingFilter
+  fullName: Vasont.Inspire.Models.Logging.EventLoggingFilter
+- uid: Vasont.Inspire.Models.Logging.EventLogLevel
+  commentId: T:Vasont.Inspire.Models.Logging.EventLogLevel
+  parent: Vasont.Inspire.Models.Logging
+  name: EventLogLevel
+  nameWithType: EventLogLevel
+  fullName: Vasont.Inspire.Models.Logging.EventLogLevel
+- uid: Vasont.Inspire.Models.Logging.EventLogModel
+  commentId: T:Vasont.Inspire.Models.Logging.EventLogModel
+  name: EventLogModel
+  nameWithType: EventLogModel
+  fullName: Vasont.Inspire.Models.Logging.EventLogModel
+- uid: Vasont.Inspire.Models.Logging.EventLogQueryModel
+  commentId: T:Vasont.Inspire.Models.Logging.EventLogQueryModel
+  name: EventLogQueryModel
+  nameWithType: EventLogQueryModel
+  fullName: Vasont.Inspire.Models.Logging.EventLogQueryModel
+- uid: Vasont.Inspire.Models.Logging.EventLogResultModel
+  commentId: T:Vasont.Inspire.Models.Logging.EventLogResultModel
+  name: EventLogResultModel
+  nameWithType: EventLogResultModel
+  fullName: Vasont.Inspire.Models.Logging.EventLogResultModel
+- uid: Vasont.Inspire.Models.Logging.LoggingExtensions
+  commentId: T:Vasont.Inspire.Models.Logging.LoggingExtensions
+  name: LoggingExtensions
+  nameWithType: LoggingExtensions
+  fullName: Vasont.Inspire.Models.Logging.LoggingExtensions
+- uid: Vasont.Inspire.Models.Logging
+  commentId: N:Vasont.Inspire.Models.Logging
+  name: Vasont.Inspire.Models.Logging
+  nameWithType: Vasont.Inspire.Models.Logging
+  fullName: Vasont.Inspire.Models.Logging

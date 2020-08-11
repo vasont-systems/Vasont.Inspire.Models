@@ -1,0 +1,587 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Plugins.PluginModel
+  commentId: T:Vasont.Inspire.Models.Plugins.PluginModel
+  id: PluginModel
+  parent: Vasont.Inspire.Models.Plugins
+  children:
+  - Vasont.Inspire.Models.Plugins.PluginModel.#ctor
+  - Vasont.Inspire.Models.Plugins.PluginModel.Name
+  - Vasont.Inspire.Models.Plugins.PluginModel.PluginId
+  - Vasont.Inspire.Models.Plugins.PluginModel.Repeatable
+  - Vasont.Inspire.Models.Plugins.PluginModel.SystemEvent
+  langs:
+  - csharp
+  - vb
+  name: PluginModel
+  nameWithType: PluginModel
+  fullName: Vasont.Inspire.Models.Plugins.PluginModel
+  type: Class
+  source:
+    remote:
+      path: src/Plugins/PluginModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PluginModel
+    path: Plugins/PluginModel.cs
+    startLine: 10
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nThis class represents a plugin within the application.\n"
+  example: []
+  syntax:
+    content: public class PluginModel
+    content.vb: Public Class PluginModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Plugins.PluginModel.#ctor
+  commentId: M:Vasont.Inspire.Models.Plugins.PluginModel.#ctor
+  id: '#ctor'
+  parent: Vasont.Inspire.Models.Plugins.PluginModel
+  langs:
+  - csharp
+  - vb
+  name: PluginModel()
+  nameWithType: PluginModel.PluginModel()
+  fullName: Vasont.Inspire.Models.Plugins.PluginModel.PluginModel()
+  type: Constructor
+  source:
+    remote:
+      path: src/Plugins/PluginModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: .ctor
+    path: Plugins/PluginModel.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nInitializes a new instance of the <xref href=\"Vasont.Inspire.Models.Plugins.PluginModel\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public PluginModel()
+    content.vb: Public Sub New
+  overload: Vasont.Inspire.Models.Plugins.PluginModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.PluginModel.PluginId
+  commentId: P:Vasont.Inspire.Models.Plugins.PluginModel.PluginId
+  id: PluginId
+  parent: Vasont.Inspire.Models.Plugins.PluginModel
+  langs:
+  - csharp
+  - vb
+  name: PluginId
+  nameWithType: PluginModel.PluginId
+  fullName: Vasont.Inspire.Models.Plugins.PluginModel.PluginId
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PluginModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PluginId
+    path: Plugins/PluginModel.cs
+    startLine: 23
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the identity of the plugin.\n"
+  example: []
+  syntax:
+    content: public long PluginId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property PluginId As Long
+  overload: Vasont.Inspire.Models.Plugins.PluginModel.PluginId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.PluginModel.Name
+  commentId: P:Vasont.Inspire.Models.Plugins.PluginModel.Name
+  id: Name
+  parent: Vasont.Inspire.Models.Plugins.PluginModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: PluginModel.Name
+  fullName: Vasont.Inspire.Models.Plugins.PluginModel.Name
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PluginModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Name
+    path: Plugins/PluginModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the name of the plugin.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Vasont.Inspire.Models.Plugins.PluginModel.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.PluginModel.Repeatable
+  commentId: P:Vasont.Inspire.Models.Plugins.PluginModel.Repeatable
+  id: Repeatable
+  parent: Vasont.Inspire.Models.Plugins.PluginModel
+  langs:
+  - csharp
+  - vb
+  name: Repeatable
+  nameWithType: PluginModel.Repeatable
+  fullName: Vasont.Inspire.Models.Plugins.PluginModel.Repeatable
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PluginModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Repeatable
+    path: Plugins/PluginModel.cs
+    startLine: 33
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets a value indicating whether the plugin is repeatable for a specific export.\n"
+  example: []
+  syntax:
+    content: public bool Repeatable { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Repeatable As Boolean
+  overload: Vasont.Inspire.Models.Plugins.PluginModel.Repeatable*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.PluginModel.SystemEvent
+  commentId: P:Vasont.Inspire.Models.Plugins.PluginModel.SystemEvent
+  id: SystemEvent
+  parent: Vasont.Inspire.Models.Plugins.PluginModel
+  langs:
+  - csharp
+  - vb
+  name: SystemEvent
+  nameWithType: PluginModel.SystemEvent
+  fullName: Vasont.Inspire.Models.Plugins.PluginModel.SystemEvent
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PluginModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SystemEvent
+    path: Plugins/PluginModel.cs
+    startLine: 38
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the system event associated with the plugin.\n"
+  example: []
+  syntax:
+    content: public SystemEventModel SystemEvent { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Plugins.SystemEventModel
+    content.vb: Public Property SystemEvent As SystemEventModel
+  overload: Vasont.Inspire.Models.Plugins.PluginModel.SystemEvent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Plugins
+  commentId: N:Vasont.Inspire.Models.Plugins
+  name: Vasont.Inspire.Models.Plugins
+  nameWithType: Vasont.Inspire.Models.Plugins
+  fullName: Vasont.Inspire.Models.Plugins
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Plugins.PluginModel
+  commentId: T:Vasont.Inspire.Models.Plugins.PluginModel
+  parent: Vasont.Inspire.Models.Plugins
+  name: PluginModel
+  nameWithType: PluginModel
+  fullName: Vasont.Inspire.Models.Plugins.PluginModel
+- uid: Vasont.Inspire.Models.Plugins.PluginModel.#ctor*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PluginModel.#ctor
+  name: PluginModel
+  nameWithType: PluginModel.PluginModel
+  fullName: Vasont.Inspire.Models.Plugins.PluginModel.PluginModel
+- uid: Vasont.Inspire.Models.Plugins.PluginModel.PluginId*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PluginModel.PluginId
+  name: PluginId
+  nameWithType: PluginModel.PluginId
+  fullName: Vasont.Inspire.Models.Plugins.PluginModel.PluginId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Plugins.PluginModel.Name*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PluginModel.Name
+  name: Name
+  nameWithType: PluginModel.Name
+  fullName: Vasont.Inspire.Models.Plugins.PluginModel.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Plugins.PluginModel.Repeatable*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PluginModel.Repeatable
+  name: Repeatable
+  nameWithType: PluginModel.Repeatable
+  fullName: Vasont.Inspire.Models.Plugins.PluginModel.Repeatable
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Plugins.PluginModel.SystemEvent*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PluginModel.SystemEvent
+  name: SystemEvent
+  nameWithType: PluginModel.SystemEvent
+  fullName: Vasont.Inspire.Models.Plugins.PluginModel.SystemEvent
+- uid: Vasont.Inspire.Models.Plugins.SystemEventModel
+  commentId: T:Vasont.Inspire.Models.Plugins.SystemEventModel
+  parent: Vasont.Inspire.Models.Plugins
+  name: SystemEventModel
+  nameWithType: SystemEventModel
+  fullName: Vasont.Inspire.Models.Plugins.SystemEventModel

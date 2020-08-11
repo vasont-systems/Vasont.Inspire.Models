@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Configuration.RelationKeyName
+  commentId: T:Vasont.Inspire.Models.Configuration.RelationKeyName
+  id: RelationKeyName
+  parent: Vasont.Inspire.Models.Configuration
+  children:
+  - Vasont.Inspire.Models.Configuration.RelationKeyName.Branch
+  - Vasont.Inspire.Models.Configuration.RelationKeyName.None
+  - Vasont.Inspire.Models.Configuration.RelationKeyName.Translation
+  langs:
+  - csharp
+  - vb
+  name: RelationKeyName
+  nameWithType: RelationKeyName
+  fullName: Vasont.Inspire.Models.Configuration.RelationKeyName
+  type: Enum
+  source:
+    remote:
+      path: src/Configuration/RelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RelationKeyName
+    path: Configuration/RelationModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nContains an enumerated list of relation key names.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum RelationKeyName
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum RelationKeyName
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Configuration.RelationKeyName.None
+  commentId: F:Vasont.Inspire.Models.Configuration.RelationKeyName.None
+  id: None
+  parent: Vasont.Inspire.Models.Configuration.RelationKeyName
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: RelationKeyName.None
+  fullName: Vasont.Inspire.Models.Configuration.RelationKeyName.None
+  type: Field
+  source:
+    remote:
+      path: src/Configuration/RelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: None
+    path: Configuration/RelationModel.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nNo Key Name\n"
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Vasont.Inspire.Models.Configuration.RelationKeyName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Configuration.RelationKeyName.Branch
+  commentId: F:Vasont.Inspire.Models.Configuration.RelationKeyName.Branch
+  id: Branch
+  parent: Vasont.Inspire.Models.Configuration.RelationKeyName
+  langs:
+  - csharp
+  - vb
+  name: Branch
+  nameWithType: RelationKeyName.Branch
+  fullName: Vasont.Inspire.Models.Configuration.RelationKeyName.Branch
+  type: Field
+  source:
+    remote:
+      path: src/Configuration/RelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Branch
+    path: Configuration/RelationModel.cs
+    startLine: 24
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nIdentifies a relation created from a branch.\n"
+  example: []
+  syntax:
+    content: Branch = 1
+    return:
+      type: Vasont.Inspire.Models.Configuration.RelationKeyName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Configuration.RelationKeyName.Translation
+  commentId: F:Vasont.Inspire.Models.Configuration.RelationKeyName.Translation
+  id: Translation
+  parent: Vasont.Inspire.Models.Configuration.RelationKeyName
+  langs:
+  - csharp
+  - vb
+  name: Translation
+  nameWithType: RelationKeyName.Translation
+  fullName: Vasont.Inspire.Models.Configuration.RelationKeyName.Translation
+  type: Field
+  source:
+    remote:
+      path: src/Configuration/RelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Translation
+    path: Configuration/RelationModel.cs
+    startLine: 29
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nIdentifies a relation created from a translation.\n"
+  example: []
+  syntax:
+    content: Translation = 2
+    return:
+      type: Vasont.Inspire.Models.Configuration.RelationKeyName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Configuration
+  commentId: N:Vasont.Inspire.Models.Configuration
+  name: Vasont.Inspire.Models.Configuration
+  nameWithType: Vasont.Inspire.Models.Configuration
+  fullName: Vasont.Inspire.Models.Configuration
+- uid: Vasont.Inspire.Models.Configuration.RelationKeyName
+  commentId: T:Vasont.Inspire.Models.Configuration.RelationKeyName
+  parent: Vasont.Inspire.Models.Configuration
+  name: RelationKeyName
+  nameWithType: RelationKeyName
+  fullName: Vasont.Inspire.Models.Configuration.RelationKeyName

@@ -1,0 +1,567 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreResultModel
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationStoreResultModel
+  id: NotificationStoreResultModel
+  parent: Vasont.Inspire.Models.Notifications
+  children:
+  - Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.Notifications
+  - Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.TotalCount
+  - Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.TotalUnreadCount
+  langs:
+  - csharp
+  - vb
+  name: NotificationStoreResultModel
+  nameWithType: NotificationStoreResultModel
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreResultModel
+  type: Class
+  source:
+    remote:
+      path: src/Notifications/NotificationStoreResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: NotificationStoreResultModel
+    path: Notifications/NotificationStoreResultModel.cs
+    startLine: 12
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nThis class represents the results of a notifications store query request.\n"
+  example: []
+  syntax:
+    content: public class NotificationStoreResultModel
+    content.vb: Public Class NotificationStoreResultModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.TotalCount
+  commentId: P:Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.TotalCount
+  id: TotalCount
+  parent: Vasont.Inspire.Models.Notifications.NotificationStoreResultModel
+  langs:
+  - csharp
+  - vb
+  name: TotalCount
+  nameWithType: NotificationStoreResultModel.TotalCount
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.TotalCount
+  type: Property
+  source:
+    remote:
+      path: src/Notifications/NotificationStoreResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TotalCount
+    path: Notifications/NotificationStoreResultModel.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nGets or sets the total number of notifications for the user.\n"
+  example: []
+  syntax:
+    content: public long TotalCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TotalCount As Long
+  overload: Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.TotalCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.TotalUnreadCount
+  commentId: P:Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.TotalUnreadCount
+  id: TotalUnreadCount
+  parent: Vasont.Inspire.Models.Notifications.NotificationStoreResultModel
+  langs:
+  - csharp
+  - vb
+  name: TotalUnreadCount
+  nameWithType: NotificationStoreResultModel.TotalUnreadCount
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.TotalUnreadCount
+  type: Property
+  source:
+    remote:
+      path: src/Notifications/NotificationStoreResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TotalUnreadCount
+    path: Notifications/NotificationStoreResultModel.cs
+    startLine: 22
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nGets or sets the total number of unread notification messages for the user.\n"
+  example: []
+  syntax:
+    content: public long TotalUnreadCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TotalUnreadCount As Long
+  overload: Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.TotalUnreadCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.Notifications
+  commentId: P:Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.Notifications
+  id: Notifications
+  parent: Vasont.Inspire.Models.Notifications.NotificationStoreResultModel
+  langs:
+  - csharp
+  - vb
+  name: Notifications
+  nameWithType: NotificationStoreResultModel.Notifications
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.Notifications
+  type: Property
+  source:
+    remote:
+      path: src/Notifications/NotificationStoreResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Notifications
+    path: Notifications/NotificationStoreResultModel.cs
+    startLine: 27
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nGets or sets the resulting notifications from the query request.\n"
+  example: []
+  syntax:
+    content: public List<NotificationStoreModel> Notifications { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Notifications.NotificationStoreModel}
+    content.vb: Public Property Notifications As List(Of NotificationStoreModel)
+  overload: Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.Notifications*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Notifications
+  commentId: N:Vasont.Inspire.Models.Notifications
+  name: Vasont.Inspire.Models.Notifications
+  nameWithType: Vasont.Inspire.Models.Notifications
+  fullName: Vasont.Inspire.Models.Notifications
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.TotalCount*
+  commentId: Overload:Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.TotalCount
+  name: TotalCount
+  nameWithType: NotificationStoreResultModel.TotalCount
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.TotalCount
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.TotalUnreadCount*
+  commentId: Overload:Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.TotalUnreadCount
+  name: TotalUnreadCount
+  nameWithType: NotificationStoreResultModel.TotalUnreadCount
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.TotalUnreadCount
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.Notifications*
+  commentId: Overload:Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.Notifications
+  name: Notifications
+  nameWithType: NotificationStoreResultModel.Notifications
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreResultModel.Notifications
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Notifications.NotificationStoreModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Notifications.NotificationStoreModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<NotificationStoreModel>
+  nameWithType: List<NotificationStoreModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Notifications.NotificationStoreModel>
+  nameWithType.vb: List(Of NotificationStoreModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Notifications.NotificationStoreModel)
+  name.vb: List(Of NotificationStoreModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Notifications.NotificationStoreModel
+    name: NotificationStoreModel
+    nameWithType: NotificationStoreModel
+    fullName: Vasont.Inspire.Models.Notifications.NotificationStoreModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Notifications.NotificationStoreModel
+    name: NotificationStoreModel
+    nameWithType: NotificationStoreModel
+    fullName: Vasont.Inspire.Models.Notifications.NotificationStoreModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

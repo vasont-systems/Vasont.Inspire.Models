@@ -1,0 +1,623 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel
+  commentId: T:Vasont.Inspire.Models.Plugins.PublishResultModel
+  id: PublishResultModel
+  parent: Vasont.Inspire.Models.Plugins
+  children:
+  - Vasont.Inspire.Models.Plugins.PublishResultModel.PublishInitiated
+  - Vasont.Inspire.Models.Plugins.PublishResultModel.PublishInitiateErrors
+  - Vasont.Inspire.Models.Plugins.PublishResultModel.ResultFilePath
+  - Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentId
+  - Vasont.Inspire.Models.Plugins.PublishResultModel.RootFileName
+  - Vasont.Inspire.Models.Plugins.PublishResultModel.UserEmail
+  langs:
+  - csharp
+  - vb
+  name: PublishResultModel
+  nameWithType: PublishResultModel
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel
+  type: Class
+  source:
+    remote:
+      path: src/Plugins/PublishResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PublishResultModel
+    path: Plugins/PublishResultModel.cs
+    startLine: 10
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nThis class represents a Publishing Request.\n"
+  example: []
+  syntax:
+    content: public class PublishResultModel
+    content.vb: Public Class PublishResultModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentId
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentId
+  id: RootComponentId
+  parent: Vasont.Inspire.Models.Plugins.PublishResultModel
+  langs:
+  - csharp
+  - vb
+  name: RootComponentId
+  nameWithType: PublishResultModel.RootComponentId
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentId
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PublishResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RootComponentId
+    path: Plugins/PublishResultModel.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the identity of the identity of the root component to be published.\n"
+  example: []
+  syntax:
+    content: public long RootComponentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property RootComponentId As Long
+  overload: Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.RootFileName
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishResultModel.RootFileName
+  id: RootFileName
+  parent: Vasont.Inspire.Models.Plugins.PublishResultModel
+  langs:
+  - csharp
+  - vb
+  name: RootFileName
+  nameWithType: PublishResultModel.RootFileName
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.RootFileName
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PublishResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RootFileName
+    path: Plugins/PublishResultModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the root file name value.\n"
+  example: []
+  syntax:
+    content: public string RootFileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RootFileName As String
+  overload: Vasont.Inspire.Models.Plugins.PublishResultModel.RootFileName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.UserEmail
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishResultModel.UserEmail
+  id: UserEmail
+  parent: Vasont.Inspire.Models.Plugins.PublishResultModel
+  langs:
+  - csharp
+  - vb
+  name: UserEmail
+  nameWithType: PublishResultModel.UserEmail
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.UserEmail
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PublishResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UserEmail
+    path: Plugins/PublishResultModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the email address of the user who requested the publish.\n"
+  example: []
+  syntax:
+    content: public string UserEmail { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserEmail As String
+  overload: Vasont.Inspire.Models.Plugins.PublishResultModel.UserEmail*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishInitiated
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishResultModel.PublishInitiated
+  id: PublishInitiated
+  parent: Vasont.Inspire.Models.Plugins.PublishResultModel
+  langs:
+  - csharp
+  - vb
+  name: PublishInitiated
+  nameWithType: PublishResultModel.PublishInitiated
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishInitiated
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PublishResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PublishInitiated
+    path: Plugins/PublishResultModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets a value indicating whether the publish process was successfully initiated.\n"
+  example: []
+  syntax:
+    content: public bool PublishInitiated { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PublishInitiated As Boolean
+  overload: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishInitiated*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishInitiateErrors
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishResultModel.PublishInitiateErrors
+  id: PublishInitiateErrors
+  parent: Vasont.Inspire.Models.Plugins.PublishResultModel
+  langs:
+  - csharp
+  - vb
+  name: PublishInitiateErrors
+  nameWithType: PublishResultModel.PublishInitiateErrors
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishInitiateErrors
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PublishResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PublishInitiateErrors
+    path: Plugins/PublishResultModel.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets a value containing errors that occurred when attempting to initiate publishing.\n"
+  example: []
+  syntax:
+    content: public string PublishInitiateErrors { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PublishInitiateErrors As String
+  overload: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishInitiateErrors*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.ResultFilePath
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishResultModel.ResultFilePath
+  id: ResultFilePath
+  parent: Vasont.Inspire.Models.Plugins.PublishResultModel
+  langs:
+  - csharp
+  - vb
+  name: ResultFilePath
+  nameWithType: PublishResultModel.ResultFilePath
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.ResultFilePath
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PublishResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ResultFilePath
+    path: Plugins/PublishResultModel.cs
+    startLine: 40
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets a value containing the full path of the published file.\n"
+  example: []
+  syntax:
+    content: public string ResultFilePath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ResultFilePath As String
+  overload: Vasont.Inspire.Models.Plugins.PublishResultModel.ResultFilePath*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Plugins
+  commentId: N:Vasont.Inspire.Models.Plugins
+  name: Vasont.Inspire.Models.Plugins
+  nameWithType: Vasont.Inspire.Models.Plugins
+  fullName: Vasont.Inspire.Models.Plugins
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentId*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentId
+  name: RootComponentId
+  nameWithType: PublishResultModel.RootComponentId
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.RootFileName*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishResultModel.RootFileName
+  name: RootFileName
+  nameWithType: PublishResultModel.RootFileName
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.RootFileName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.UserEmail*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishResultModel.UserEmail
+  name: UserEmail
+  nameWithType: PublishResultModel.UserEmail
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.UserEmail
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishInitiated*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishResultModel.PublishInitiated
+  name: PublishInitiated
+  nameWithType: PublishResultModel.PublishInitiated
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishInitiated
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishInitiateErrors*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishResultModel.PublishInitiateErrors
+  name: PublishInitiateErrors
+  nameWithType: PublishResultModel.PublishInitiateErrors
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishInitiateErrors
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.ResultFilePath*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishResultModel.ResultFilePath
+  name: ResultFilePath
+  nameWithType: PublishResultModel.ResultFilePath
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.ResultFilePath

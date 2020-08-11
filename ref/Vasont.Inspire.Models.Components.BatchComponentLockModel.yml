@@ -1,0 +1,538 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.BatchComponentLockModel
+  commentId: T:Vasont.Inspire.Models.Components.BatchComponentLockModel
+  id: BatchComponentLockModel
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.BatchComponentLockModel.ComponentName
+  - Vasont.Inspire.Models.Components.BatchComponentLockModel.FailedMessage
+  - Vasont.Inspire.Models.Components.BatchComponentLockModel.LockSucceeded
+  langs:
+  - csharp
+  - vb
+  name: BatchComponentLockModel
+  nameWithType: BatchComponentLockModel
+  fullName: Vasont.Inspire.Models.Components.BatchComponentLockModel
+  type: Class
+  source:
+    remote:
+      path: src/Components/BatchComponentLockModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: BatchComponentLockModel
+    path: Components/BatchComponentLockModel.cs
+    startLine: 10
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis class represents a batched component lock for a component within the application.\n"
+  example: []
+  syntax:
+    content: 'public class BatchComponentLockModel : ComponentLockModel'
+    content.vb: >-
+      Public Class BatchComponentLockModel
+          Inherits ComponentLockModel
+  inheritance:
+  - System.Object
+  - Vasont.Inspire.Models.Components.ComponentLockModel
+  inheritedMembers:
+  - Vasont.Inspire.Models.Components.ComponentLockModel.ComponentId
+  - Vasont.Inspire.Models.Components.ComponentLockModel.Type
+  - Vasont.Inspire.Models.Components.ComponentLockModel.LockedDate
+  - Vasont.Inspire.Models.Components.ComponentLockModel.LockedBy
+  - Vasont.Inspire.Models.Components.ComponentLockModel.LockReason
+  - Vasont.Inspire.Models.Components.ComponentLockModel.SystemLock
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Components.BatchComponentLockModel.ComponentName
+  commentId: P:Vasont.Inspire.Models.Components.BatchComponentLockModel.ComponentName
+  id: ComponentName
+  parent: Vasont.Inspire.Models.Components.BatchComponentLockModel
+  langs:
+  - csharp
+  - vb
+  name: ComponentName
+  nameWithType: BatchComponentLockModel.ComponentName
+  fullName: Vasont.Inspire.Models.Components.BatchComponentLockModel.ComponentName
+  type: Property
+  source:
+    remote:
+      path: src/Components/BatchComponentLockModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentName
+    path: Components/BatchComponentLockModel.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the name of the locking component.\n"
+  example: []
+  syntax:
+    content: public string ComponentName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ComponentName As String
+  overload: Vasont.Inspire.Models.Components.BatchComponentLockModel.ComponentName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.BatchComponentLockModel.LockSucceeded
+  commentId: P:Vasont.Inspire.Models.Components.BatchComponentLockModel.LockSucceeded
+  id: LockSucceeded
+  parent: Vasont.Inspire.Models.Components.BatchComponentLockModel
+  langs:
+  - csharp
+  - vb
+  name: LockSucceeded
+  nameWithType: BatchComponentLockModel.LockSucceeded
+  fullName: Vasont.Inspire.Models.Components.BatchComponentLockModel.LockSucceeded
+  type: Property
+  source:
+    remote:
+      path: src/Components/BatchComponentLockModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: LockSucceeded
+    path: Components/BatchComponentLockModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether [lock succeeded].\n"
+  example: []
+  syntax:
+    content: public bool LockSucceeded { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LockSucceeded As Boolean
+  overload: Vasont.Inspire.Models.Components.BatchComponentLockModel.LockSucceeded*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.BatchComponentLockModel.FailedMessage
+  commentId: P:Vasont.Inspire.Models.Components.BatchComponentLockModel.FailedMessage
+  id: FailedMessage
+  parent: Vasont.Inspire.Models.Components.BatchComponentLockModel
+  langs:
+  - csharp
+  - vb
+  name: FailedMessage
+  nameWithType: BatchComponentLockModel.FailedMessage
+  fullName: Vasont.Inspire.Models.Components.BatchComponentLockModel.FailedMessage
+  type: Property
+  source:
+    remote:
+      path: src/Components/BatchComponentLockModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FailedMessage
+    path: Components/BatchComponentLockModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the failed message.\n"
+  example: []
+  syntax:
+    content: public string FailedMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FailedMessage As String
+  overload: Vasont.Inspire.Models.Components.BatchComponentLockModel.FailedMessage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vasont.Inspire.Models.Components.ComponentLockModel
+  commentId: T:Vasont.Inspire.Models.Components.ComponentLockModel
+  parent: Vasont.Inspire.Models.Components
+  name: ComponentLockModel
+  nameWithType: ComponentLockModel
+  fullName: Vasont.Inspire.Models.Components.ComponentLockModel
+- uid: Vasont.Inspire.Models.Components.ComponentLockModel.ComponentId
+  commentId: P:Vasont.Inspire.Models.Components.ComponentLockModel.ComponentId
+  parent: Vasont.Inspire.Models.Components.ComponentLockModel
+  name: ComponentId
+  nameWithType: ComponentLockModel.ComponentId
+  fullName: Vasont.Inspire.Models.Components.ComponentLockModel.ComponentId
+- uid: Vasont.Inspire.Models.Components.ComponentLockModel.Type
+  commentId: P:Vasont.Inspire.Models.Components.ComponentLockModel.Type
+  parent: Vasont.Inspire.Models.Components.ComponentLockModel
+  name: Type
+  nameWithType: ComponentLockModel.Type
+  fullName: Vasont.Inspire.Models.Components.ComponentLockModel.Type
+- uid: Vasont.Inspire.Models.Components.ComponentLockModel.LockedDate
+  commentId: P:Vasont.Inspire.Models.Components.ComponentLockModel.LockedDate
+  parent: Vasont.Inspire.Models.Components.ComponentLockModel
+  name: LockedDate
+  nameWithType: ComponentLockModel.LockedDate
+  fullName: Vasont.Inspire.Models.Components.ComponentLockModel.LockedDate
+- uid: Vasont.Inspire.Models.Components.ComponentLockModel.LockedBy
+  commentId: P:Vasont.Inspire.Models.Components.ComponentLockModel.LockedBy
+  parent: Vasont.Inspire.Models.Components.ComponentLockModel
+  name: LockedBy
+  nameWithType: ComponentLockModel.LockedBy
+  fullName: Vasont.Inspire.Models.Components.ComponentLockModel.LockedBy
+- uid: Vasont.Inspire.Models.Components.ComponentLockModel.LockReason
+  commentId: P:Vasont.Inspire.Models.Components.ComponentLockModel.LockReason
+  parent: Vasont.Inspire.Models.Components.ComponentLockModel
+  name: LockReason
+  nameWithType: ComponentLockModel.LockReason
+  fullName: Vasont.Inspire.Models.Components.ComponentLockModel.LockReason
+- uid: Vasont.Inspire.Models.Components.ComponentLockModel.SystemLock
+  commentId: P:Vasont.Inspire.Models.Components.ComponentLockModel.SystemLock
+  parent: Vasont.Inspire.Models.Components.ComponentLockModel
+  name: SystemLock
+  nameWithType: ComponentLockModel.SystemLock
+  fullName: Vasont.Inspire.Models.Components.ComponentLockModel.SystemLock
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Components.BatchComponentLockModel.ComponentName*
+  commentId: Overload:Vasont.Inspire.Models.Components.BatchComponentLockModel.ComponentName
+  name: ComponentName
+  nameWithType: BatchComponentLockModel.ComponentName
+  fullName: Vasont.Inspire.Models.Components.BatchComponentLockModel.ComponentName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Components.BatchComponentLockModel.LockSucceeded*
+  commentId: Overload:Vasont.Inspire.Models.Components.BatchComponentLockModel.LockSucceeded
+  name: LockSucceeded
+  nameWithType: BatchComponentLockModel.LockSucceeded
+  fullName: Vasont.Inspire.Models.Components.BatchComponentLockModel.LockSucceeded
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Components.BatchComponentLockModel.FailedMessage*
+  commentId: Overload:Vasont.Inspire.Models.Components.BatchComponentLockModel.FailedMessage
+  name: FailedMessage
+  nameWithType: BatchComponentLockModel.FailedMessage
+  fullName: Vasont.Inspire.Models.Components.BatchComponentLockModel.FailedMessage

@@ -1,0 +1,616 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel
+  commentId: T:Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel
+  id: ProfileFilterAttributeModel
+  parent: Vasont.Inspire.Models.ProfileFilters
+  children:
+  - Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeId
+  - Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeName
+  - Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeNameDisplay
+  - Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValue
+  - Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValueDisplay
+  - Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValueId
+  langs:
+  - csharp
+  - vb
+  name: ProfileFilterAttributeModel
+  nameWithType: ProfileFilterAttributeModel
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel
+  type: Class
+  source:
+    remote:
+      path: src/ProfileFilters/ProfileFilterAttributeModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProfileFilterAttributeModel
+    path: ProfileFilters/ProfileFilterAttributeModel.cs
+    startLine: 11
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.ProfileFilters
+  summary: "\nThis class defines the properties of a profile filter attribute model.\n"
+  example: []
+  syntax:
+    content: public class ProfileFilterAttributeModel
+    content.vb: Public Class ProfileFilterAttributeModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeId
+  commentId: P:Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeId
+  id: AttributeId
+  parent: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel
+  langs:
+  - csharp
+  - vb
+  name: AttributeId
+  nameWithType: ProfileFilterAttributeModel.AttributeId
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeId
+  type: Property
+  source:
+    remote:
+      path: src/ProfileFilters/ProfileFilterAttributeModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: AttributeId
+    path: ProfileFilters/ProfileFilterAttributeModel.cs
+    startLine: 16
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.ProfileFilters
+  summary: "\nGets or sets the identity of the attribute.\n"
+  example: []
+  syntax:
+    content: public long AttributeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property AttributeId As Long
+  overload: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeName
+  commentId: P:Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeName
+  id: AttributeName
+  parent: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel
+  langs:
+  - csharp
+  - vb
+  name: AttributeName
+  nameWithType: ProfileFilterAttributeModel.AttributeName
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeName
+  type: Property
+  source:
+    remote:
+      path: src/ProfileFilters/ProfileFilterAttributeModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: AttributeName
+    path: ProfileFilters/ProfileFilterAttributeModel.cs
+    startLine: 21
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.ProfileFilters
+  summary: "\nGets or sets the attribute name.\n"
+  example: []
+  syntax:
+    content: public string AttributeName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AttributeName As String
+  overload: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeNameDisplay
+  commentId: P:Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeNameDisplay
+  id: AttributeNameDisplay
+  parent: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel
+  langs:
+  - csharp
+  - vb
+  name: AttributeNameDisplay
+  nameWithType: ProfileFilterAttributeModel.AttributeNameDisplay
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeNameDisplay
+  type: Property
+  source:
+    remote:
+      path: src/ProfileFilters/ProfileFilterAttributeModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: AttributeNameDisplay
+    path: ProfileFilters/ProfileFilterAttributeModel.cs
+    startLine: 26
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.ProfileFilters
+  summary: "\nGets or sets the attribute display name.\n"
+  example: []
+  syntax:
+    content: public string AttributeNameDisplay { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AttributeNameDisplay As String
+  overload: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeNameDisplay*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValueId
+  commentId: P:Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValueId
+  id: AttributeValueId
+  parent: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel
+  langs:
+  - csharp
+  - vb
+  name: AttributeValueId
+  nameWithType: ProfileFilterAttributeModel.AttributeValueId
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValueId
+  type: Property
+  source:
+    remote:
+      path: src/ProfileFilters/ProfileFilterAttributeModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: AttributeValueId
+    path: ProfileFilters/ProfileFilterAttributeModel.cs
+    startLine: 31
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.ProfileFilters
+  summary: "\nGets or sets the identity of the attribute value.\n"
+  example: []
+  syntax:
+    content: public long AttributeValueId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property AttributeValueId As Long
+  overload: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValueId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValue
+  commentId: P:Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValue
+  id: AttributeValue
+  parent: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel
+  langs:
+  - csharp
+  - vb
+  name: AttributeValue
+  nameWithType: ProfileFilterAttributeModel.AttributeValue
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValue
+  type: Property
+  source:
+    remote:
+      path: src/ProfileFilters/ProfileFilterAttributeModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: AttributeValue
+    path: ProfileFilters/ProfileFilterAttributeModel.cs
+    startLine: 36
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.ProfileFilters
+  summary: "\nGets or sets the attribute value.\n"
+  example: []
+  syntax:
+    content: public string AttributeValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AttributeValue As String
+  overload: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValueDisplay
+  commentId: P:Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValueDisplay
+  id: AttributeValueDisplay
+  parent: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel
+  langs:
+  - csharp
+  - vb
+  name: AttributeValueDisplay
+  nameWithType: ProfileFilterAttributeModel.AttributeValueDisplay
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValueDisplay
+  type: Property
+  source:
+    remote:
+      path: src/ProfileFilters/ProfileFilterAttributeModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: AttributeValueDisplay
+    path: ProfileFilters/ProfileFilterAttributeModel.cs
+    startLine: 41
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.ProfileFilters
+  summary: "\nGets or sets the attribute display value.\n"
+  example: []
+  syntax:
+    content: public string AttributeValueDisplay { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AttributeValueDisplay As String
+  overload: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValueDisplay*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.ProfileFilters
+  commentId: N:Vasont.Inspire.Models.ProfileFilters
+  name: Vasont.Inspire.Models.ProfileFilters
+  nameWithType: Vasont.Inspire.Models.ProfileFilters
+  fullName: Vasont.Inspire.Models.ProfileFilters
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeId*
+  commentId: Overload:Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeId
+  name: AttributeId
+  nameWithType: ProfileFilterAttributeModel.AttributeId
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeName*
+  commentId: Overload:Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeName
+  name: AttributeName
+  nameWithType: ProfileFilterAttributeModel.AttributeName
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeNameDisplay*
+  commentId: Overload:Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeNameDisplay
+  name: AttributeNameDisplay
+  nameWithType: ProfileFilterAttributeModel.AttributeNameDisplay
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeNameDisplay
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValueId*
+  commentId: Overload:Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValueId
+  name: AttributeValueId
+  nameWithType: ProfileFilterAttributeModel.AttributeValueId
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValueId
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValue*
+  commentId: Overload:Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValue
+  name: AttributeValue
+  nameWithType: ProfileFilterAttributeModel.AttributeValue
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValue
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValueDisplay*
+  commentId: Overload:Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValueDisplay
+  name: AttributeValueDisplay
+  nameWithType: ProfileFilterAttributeModel.AttributeValueDisplay
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel.AttributeValueDisplay

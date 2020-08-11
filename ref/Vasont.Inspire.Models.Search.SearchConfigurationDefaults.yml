@@ -1,0 +1,1164 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults
+  commentId: T:Vasont.Inspire.Models.Search.SearchConfigurationDefaults
+  id: SearchConfigurationDefaults
+  parent: Vasont.Inspire.Models.Search
+  children:
+  - Vasont.Inspire.Models.Search.SearchConfigurationDefaults.BooleanOperators
+  - Vasont.Inspire.Models.Search.SearchConfigurationDefaults.BooleanValidValues
+  - Vasont.Inspire.Models.Search.SearchConfigurationDefaults.ContentOperators
+  - Vasont.Inspire.Models.Search.SearchConfigurationDefaults.DateTimeOperators
+  - Vasont.Inspire.Models.Search.SearchConfigurationDefaults.IntegerOperators
+  - Vasont.Inspire.Models.Search.SearchConfigurationDefaults.LongOperators
+  - Vasont.Inspire.Models.Search.SearchConfigurationDefaults.SimplifiedIntegerOperators
+  - Vasont.Inspire.Models.Search.SearchConfigurationDefaults.SimplifiedLongOperators
+  - Vasont.Inspire.Models.Search.SearchConfigurationDefaults.StringOperators
+  - Vasont.Inspire.Models.Search.SearchConfigurationDefaults.TypeOperators(Vasont.Inspire.Models.Search.SearchConfigurationDataType)
+  - Vasont.Inspire.Models.Search.SearchConfigurationDefaults.ValidValueOperators
+  langs:
+  - csharp
+  - vb
+  name: SearchConfigurationDefaults
+  nameWithType: SearchConfigurationDefaults
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults
+  type: Class
+  source:
+    remote:
+      path: src/Search/SearchConfigurationDefaults.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SearchConfigurationDefaults
+    path: Search/SearchConfigurationDefaults.cs
+    startLine: 16
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nThis class contains statically defined search configurations for operator lists.\n"
+  example: []
+  syntax:
+    content: public static class SearchConfigurationDefaults
+    content.vb: Public Module SearchConfigurationDefaults
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.StringOperators
+  commentId: P:Vasont.Inspire.Models.Search.SearchConfigurationDefaults.StringOperators
+  id: StringOperators
+  parent: Vasont.Inspire.Models.Search.SearchConfigurationDefaults
+  langs:
+  - csharp
+  - vb
+  name: StringOperators
+  nameWithType: SearchConfigurationDefaults.StringOperators
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.StringOperators
+  type: Property
+  source:
+    remote:
+      path: src/Search/SearchConfigurationDefaults.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: StringOperators
+    path: Search/SearchConfigurationDefaults.cs
+    startLine: 21
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nGets a list of operators used for the string data type.\n"
+  example: []
+  syntax:
+    content: public static Dictionary<SearchExpressionOperator, string> StringOperators { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{Vasont.Inspire.Models.Search.SearchExpressionOperator,System.String}
+    content.vb: Public Shared ReadOnly Property StringOperators As Dictionary(Of SearchExpressionOperator, String)
+  overload: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.StringOperators*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.LongOperators
+  commentId: P:Vasont.Inspire.Models.Search.SearchConfigurationDefaults.LongOperators
+  id: LongOperators
+  parent: Vasont.Inspire.Models.Search.SearchConfigurationDefaults
+  langs:
+  - csharp
+  - vb
+  name: LongOperators
+  nameWithType: SearchConfigurationDefaults.LongOperators
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.LongOperators
+  type: Property
+  source:
+    remote:
+      path: src/Search/SearchConfigurationDefaults.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: LongOperators
+    path: Search/SearchConfigurationDefaults.cs
+    startLine: 36
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nGets a list of operators used for the short integer data type.\n"
+  example: []
+  syntax:
+    content: public static Dictionary<SearchExpressionOperator, string> LongOperators { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{Vasont.Inspire.Models.Search.SearchExpressionOperator,System.String}
+    content.vb: Public Shared ReadOnly Property LongOperators As Dictionary(Of SearchExpressionOperator, String)
+  overload: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.LongOperators*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.SimplifiedLongOperators
+  commentId: P:Vasont.Inspire.Models.Search.SearchConfigurationDefaults.SimplifiedLongOperators
+  id: SimplifiedLongOperators
+  parent: Vasont.Inspire.Models.Search.SearchConfigurationDefaults
+  langs:
+  - csharp
+  - vb
+  name: SimplifiedLongOperators
+  nameWithType: SearchConfigurationDefaults.SimplifiedLongOperators
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.SimplifiedLongOperators
+  type: Property
+  source:
+    remote:
+      path: src/Search/SearchConfigurationDefaults.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SimplifiedLongOperators
+    path: Search/SearchConfigurationDefaults.cs
+    startLine: 50
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nGets a list of operators used for the simplified short integer data type.\n"
+  example: []
+  syntax:
+    content: public static Dictionary<SearchExpressionOperator, string> SimplifiedLongOperators { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{Vasont.Inspire.Models.Search.SearchExpressionOperator,System.String}
+    content.vb: Public Shared ReadOnly Property SimplifiedLongOperators As Dictionary(Of SearchExpressionOperator, String)
+  overload: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.SimplifiedLongOperators*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.IntegerOperators
+  commentId: P:Vasont.Inspire.Models.Search.SearchConfigurationDefaults.IntegerOperators
+  id: IntegerOperators
+  parent: Vasont.Inspire.Models.Search.SearchConfigurationDefaults
+  langs:
+  - csharp
+  - vb
+  name: IntegerOperators
+  nameWithType: SearchConfigurationDefaults.IntegerOperators
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.IntegerOperators
+  type: Property
+  source:
+    remote:
+      path: src/Search/SearchConfigurationDefaults.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IntegerOperators
+    path: Search/SearchConfigurationDefaults.cs
+    startLine: 60
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nGets a list of operators used for the integer data type.\n"
+  example: []
+  syntax:
+    content: public static Dictionary<SearchExpressionOperator, string> IntegerOperators { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{Vasont.Inspire.Models.Search.SearchExpressionOperator,System.String}
+    content.vb: Public Shared ReadOnly Property IntegerOperators As Dictionary(Of SearchExpressionOperator, String)
+  overload: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.IntegerOperators*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.SimplifiedIntegerOperators
+  commentId: P:Vasont.Inspire.Models.Search.SearchConfigurationDefaults.SimplifiedIntegerOperators
+  id: SimplifiedIntegerOperators
+  parent: Vasont.Inspire.Models.Search.SearchConfigurationDefaults
+  langs:
+  - csharp
+  - vb
+  name: SimplifiedIntegerOperators
+  nameWithType: SearchConfigurationDefaults.SimplifiedIntegerOperators
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.SimplifiedIntegerOperators
+  type: Property
+  source:
+    remote:
+      path: src/Search/SearchConfigurationDefaults.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SimplifiedIntegerOperators
+    path: Search/SearchConfigurationDefaults.cs
+    startLine: 74
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nGets a list of operators used for the simplified integer data type.\n"
+  example: []
+  syntax:
+    content: public static Dictionary<SearchExpressionOperator, string> SimplifiedIntegerOperators { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{Vasont.Inspire.Models.Search.SearchExpressionOperator,System.String}
+    content.vb: Public Shared ReadOnly Property SimplifiedIntegerOperators As Dictionary(Of SearchExpressionOperator, String)
+  overload: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.SimplifiedIntegerOperators*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.BooleanOperators
+  commentId: P:Vasont.Inspire.Models.Search.SearchConfigurationDefaults.BooleanOperators
+  id: BooleanOperators
+  parent: Vasont.Inspire.Models.Search.SearchConfigurationDefaults
+  langs:
+  - csharp
+  - vb
+  name: BooleanOperators
+  nameWithType: SearchConfigurationDefaults.BooleanOperators
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.BooleanOperators
+  type: Property
+  source:
+    remote:
+      path: src/Search/SearchConfigurationDefaults.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: BooleanOperators
+    path: Search/SearchConfigurationDefaults.cs
+    startLine: 84
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nGets a list of operators used for the boolean data type.\n"
+  example: []
+  syntax:
+    content: public static Dictionary<SearchExpressionOperator, string> BooleanOperators { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{Vasont.Inspire.Models.Search.SearchExpressionOperator,System.String}
+    content.vb: Public Shared ReadOnly Property BooleanOperators As Dictionary(Of SearchExpressionOperator, String)
+  overload: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.BooleanOperators*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.DateTimeOperators
+  commentId: P:Vasont.Inspire.Models.Search.SearchConfigurationDefaults.DateTimeOperators
+  id: DateTimeOperators
+  parent: Vasont.Inspire.Models.Search.SearchConfigurationDefaults
+  langs:
+  - csharp
+  - vb
+  name: DateTimeOperators
+  nameWithType: SearchConfigurationDefaults.DateTimeOperators
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.DateTimeOperators
+  type: Property
+  source:
+    remote:
+      path: src/Search/SearchConfigurationDefaults.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DateTimeOperators
+    path: Search/SearchConfigurationDefaults.cs
+    startLine: 94
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nGets a list of operators used for the date time data type.\n"
+  example: []
+  syntax:
+    content: public static Dictionary<SearchExpressionOperator, string> DateTimeOperators { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{Vasont.Inspire.Models.Search.SearchExpressionOperator,System.String}
+    content.vb: Public Shared ReadOnly Property DateTimeOperators As Dictionary(Of SearchExpressionOperator, String)
+  overload: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.DateTimeOperators*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.ValidValueOperators
+  commentId: P:Vasont.Inspire.Models.Search.SearchConfigurationDefaults.ValidValueOperators
+  id: ValidValueOperators
+  parent: Vasont.Inspire.Models.Search.SearchConfigurationDefaults
+  langs:
+  - csharp
+  - vb
+  name: ValidValueOperators
+  nameWithType: SearchConfigurationDefaults.ValidValueOperators
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.ValidValueOperators
+  type: Property
+  source:
+    remote:
+      path: src/Search/SearchConfigurationDefaults.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ValidValueOperators
+    path: Search/SearchConfigurationDefaults.cs
+    startLine: 108
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nGets a list of operators used for models that utilize valid values.\n"
+  example: []
+  syntax:
+    content: public static Dictionary<SearchExpressionOperator, string> ValidValueOperators { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{Vasont.Inspire.Models.Search.SearchExpressionOperator,System.String}
+    content.vb: Public Shared ReadOnly Property ValidValueOperators As Dictionary(Of SearchExpressionOperator, String)
+  overload: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.ValidValueOperators*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.ContentOperators
+  commentId: P:Vasont.Inspire.Models.Search.SearchConfigurationDefaults.ContentOperators
+  id: ContentOperators
+  parent: Vasont.Inspire.Models.Search.SearchConfigurationDefaults
+  langs:
+  - csharp
+  - vb
+  name: ContentOperators
+  nameWithType: SearchConfigurationDefaults.ContentOperators
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.ContentOperators
+  type: Property
+  source:
+    remote:
+      path: src/Search/SearchConfigurationDefaults.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ContentOperators
+    path: Search/SearchConfigurationDefaults.cs
+    startLine: 122
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nGets a list of operators used for content searches\n"
+  example: []
+  syntax:
+    content: public static Dictionary<SearchExpressionOperator, string> ContentOperators { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{Vasont.Inspire.Models.Search.SearchExpressionOperator,System.String}
+    content.vb: Public Shared ReadOnly Property ContentOperators As Dictionary(Of SearchExpressionOperator, String)
+  overload: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.ContentOperators*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.BooleanValidValues
+  commentId: P:Vasont.Inspire.Models.Search.SearchConfigurationDefaults.BooleanValidValues
+  id: BooleanValidValues
+  parent: Vasont.Inspire.Models.Search.SearchConfigurationDefaults
+  langs:
+  - csharp
+  - vb
+  name: BooleanValidValues
+  nameWithType: SearchConfigurationDefaults.BooleanValidValues
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.BooleanValidValues
+  type: Property
+  source:
+    remote:
+      path: src/Search/SearchConfigurationDefaults.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: BooleanValidValues
+    path: Search/SearchConfigurationDefaults.cs
+    startLine: 131
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nGets a list of operators used for the boolean data type.\n"
+  example: []
+  syntax:
+    content: public static List<KeyValuePair<string, string>> BooleanValidValues { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}}
+    content.vb: Public Shared ReadOnly Property BooleanValidValues As List(Of KeyValuePair(Of String, String))
+  overload: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.BooleanValidValues*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.TypeOperators(Vasont.Inspire.Models.Search.SearchConfigurationDataType)
+  commentId: M:Vasont.Inspire.Models.Search.SearchConfigurationDefaults.TypeOperators(Vasont.Inspire.Models.Search.SearchConfigurationDataType)
+  id: TypeOperators(Vasont.Inspire.Models.Search.SearchConfigurationDataType)
+  parent: Vasont.Inspire.Models.Search.SearchConfigurationDefaults
+  langs:
+  - csharp
+  - vb
+  name: TypeOperators(SearchConfigurationDataType)
+  nameWithType: SearchConfigurationDefaults.TypeOperators(SearchConfigurationDataType)
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.TypeOperators(Vasont.Inspire.Models.Search.SearchConfigurationDataType)
+  type: Method
+  source:
+    remote:
+      path: src/Search/SearchConfigurationDefaults.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TypeOperators
+    path: Search/SearchConfigurationDefaults.cs
+    startLine: 142
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nThis method is used to build a list of search expression operators based on the specified type.\n"
+  example: []
+  syntax:
+    content: public static List<KeyValuePair<SearchExpressionOperator, string>> TypeOperators(SearchConfigurationDataType type)
+    parameters:
+    - id: type
+      type: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+      description: Contains the type to build expression operators for.
+    return:
+      type: System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{Vasont.Inspire.Models.Search.SearchExpressionOperator,System.String}}
+      description: Returns a list of expression operators.
+    content.vb: Public Shared Function TypeOperators(type As SearchConfigurationDataType) As List(Of KeyValuePair(Of SearchExpressionOperator, String))
+  overload: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.TypeOperators*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Vasont.Inspire.Models.Search
+  commentId: N:Vasont.Inspire.Models.Search
+  name: Vasont.Inspire.Models.Search
+  nameWithType: Vasont.Inspire.Models.Search
+  fullName: Vasont.Inspire.Models.Search
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.StringOperators*
+  commentId: Overload:Vasont.Inspire.Models.Search.SearchConfigurationDefaults.StringOperators
+  name: StringOperators
+  nameWithType: SearchConfigurationDefaults.StringOperators
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.StringOperators
+- uid: System.Collections.Generic.Dictionary{Vasont.Inspire.Models.Search.SearchExpressionOperator,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{Vasont.Inspire.Models.Search.SearchExpressionOperator,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<SearchExpressionOperator, String>
+  nameWithType: Dictionary<SearchExpressionOperator, String>
+  fullName: System.Collections.Generic.Dictionary<Vasont.Inspire.Models.Search.SearchExpressionOperator, System.String>
+  nameWithType.vb: Dictionary(Of SearchExpressionOperator, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of Vasont.Inspire.Models.Search.SearchExpressionOperator, System.String)
+  name.vb: Dictionary(Of SearchExpressionOperator, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Search.SearchExpressionOperator
+    name: SearchExpressionOperator
+    nameWithType: SearchExpressionOperator
+    fullName: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Search.SearchExpressionOperator
+    name: SearchExpressionOperator
+    nameWithType: SearchExpressionOperator
+    fullName: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.LongOperators*
+  commentId: Overload:Vasont.Inspire.Models.Search.SearchConfigurationDefaults.LongOperators
+  name: LongOperators
+  nameWithType: SearchConfigurationDefaults.LongOperators
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.LongOperators
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.SimplifiedLongOperators*
+  commentId: Overload:Vasont.Inspire.Models.Search.SearchConfigurationDefaults.SimplifiedLongOperators
+  name: SimplifiedLongOperators
+  nameWithType: SearchConfigurationDefaults.SimplifiedLongOperators
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.SimplifiedLongOperators
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.IntegerOperators*
+  commentId: Overload:Vasont.Inspire.Models.Search.SearchConfigurationDefaults.IntegerOperators
+  name: IntegerOperators
+  nameWithType: SearchConfigurationDefaults.IntegerOperators
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.IntegerOperators
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.SimplifiedIntegerOperators*
+  commentId: Overload:Vasont.Inspire.Models.Search.SearchConfigurationDefaults.SimplifiedIntegerOperators
+  name: SimplifiedIntegerOperators
+  nameWithType: SearchConfigurationDefaults.SimplifiedIntegerOperators
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.SimplifiedIntegerOperators
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.BooleanOperators*
+  commentId: Overload:Vasont.Inspire.Models.Search.SearchConfigurationDefaults.BooleanOperators
+  name: BooleanOperators
+  nameWithType: SearchConfigurationDefaults.BooleanOperators
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.BooleanOperators
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.DateTimeOperators*
+  commentId: Overload:Vasont.Inspire.Models.Search.SearchConfigurationDefaults.DateTimeOperators
+  name: DateTimeOperators
+  nameWithType: SearchConfigurationDefaults.DateTimeOperators
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.DateTimeOperators
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.ValidValueOperators*
+  commentId: Overload:Vasont.Inspire.Models.Search.SearchConfigurationDefaults.ValidValueOperators
+  name: ValidValueOperators
+  nameWithType: SearchConfigurationDefaults.ValidValueOperators
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.ValidValueOperators
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.ContentOperators*
+  commentId: Overload:Vasont.Inspire.Models.Search.SearchConfigurationDefaults.ContentOperators
+  name: ContentOperators
+  nameWithType: SearchConfigurationDefaults.ContentOperators
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.ContentOperators
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.BooleanValidValues*
+  commentId: Overload:Vasont.Inspire.Models.Search.SearchConfigurationDefaults.BooleanValidValues
+  name: BooleanValidValues
+  nameWithType: SearchConfigurationDefaults.BooleanValidValues
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.BooleanValidValues
+- uid: System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}}
+  commentId: T:System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<KeyValuePair<String, String>>
+  nameWithType: List<KeyValuePair<String, String>>
+  fullName: System.Collections.Generic.List<System.Collections.Generic.KeyValuePair<System.String, System.String>>
+  nameWithType.vb: List(Of KeyValuePair(Of String, String))
+  fullName.vb: System.Collections.Generic.List(Of System.Collections.Generic.KeyValuePair(Of System.String, System.String))
+  name.vb: List(Of KeyValuePair(Of String, String))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.TypeOperators*
+  commentId: Overload:Vasont.Inspire.Models.Search.SearchConfigurationDefaults.TypeOperators
+  name: TypeOperators
+  nameWithType: SearchConfigurationDefaults.TypeOperators
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults.TypeOperators
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  commentId: T:Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  parent: Vasont.Inspire.Models.Search
+  name: SearchConfigurationDataType
+  nameWithType: SearchConfigurationDataType
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+- uid: System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{Vasont.Inspire.Models.Search.SearchExpressionOperator,System.String}}
+  commentId: T:System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{Vasont.Inspire.Models.Search.SearchExpressionOperator,System.String}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<KeyValuePair<SearchExpressionOperator, String>>
+  nameWithType: List<KeyValuePair<SearchExpressionOperator, String>>
+  fullName: System.Collections.Generic.List<System.Collections.Generic.KeyValuePair<Vasont.Inspire.Models.Search.SearchExpressionOperator, System.String>>
+  nameWithType.vb: List(Of KeyValuePair(Of SearchExpressionOperator, String))
+  fullName.vb: System.Collections.Generic.List(Of System.Collections.Generic.KeyValuePair(Of Vasont.Inspire.Models.Search.SearchExpressionOperator, System.String))
+  name.vb: List(Of KeyValuePair(Of SearchExpressionOperator, String))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Search.SearchExpressionOperator
+    name: SearchExpressionOperator
+    nameWithType: SearchExpressionOperator
+    fullName: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Search.SearchExpressionOperator
+    name: SearchExpressionOperator
+    nameWithType: SearchExpressionOperator
+    fullName: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.ComponentStateType
+  commentId: T:Vasont.Inspire.Models.Components.ComponentStateType
+  id: ComponentStateType
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.ComponentStateType.Approved
+  - Vasont.Inspire.Models.Components.ComponentStateType.Draft
+  - Vasont.Inspire.Models.Components.ComponentStateType.Invalid
+  langs:
+  - csharp
+  - vb
+  name: ComponentStateType
+  nameWithType: ComponentStateType
+  fullName: Vasont.Inspire.Models.Components.ComponentStateType
+  type: Enum
+  source:
+    remote:
+      path: src/Components/MinimalComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentStateType
+    path: Components/MinimalComponentModel.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nContains an enumerated list of component state types.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum ComponentStateType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum ComponentStateType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Components.ComponentStateType.Draft
+  commentId: F:Vasont.Inspire.Models.Components.ComponentStateType.Draft
+  id: Draft
+  parent: Vasont.Inspire.Models.Components.ComponentStateType
+  langs:
+  - csharp
+  - vb
+  name: Draft
+  nameWithType: ComponentStateType.Draft
+  fullName: Vasont.Inspire.Models.Components.ComponentStateType.Draft
+  type: Field
+  source:
+    remote:
+      path: src/Components/MinimalComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Draft
+    path: Components/MinimalComponentModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nContains a value that indicates the component is draft.\n"
+  example: []
+  syntax:
+    content: Draft = 0
+    return:
+      type: Vasont.Inspire.Models.Components.ComponentStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.ComponentStateType.Approved
+  commentId: F:Vasont.Inspire.Models.Components.ComponentStateType.Approved
+  id: Approved
+  parent: Vasont.Inspire.Models.Components.ComponentStateType
+  langs:
+  - csharp
+  - vb
+  name: Approved
+  nameWithType: ComponentStateType.Approved
+  fullName: Vasont.Inspire.Models.Components.ComponentStateType.Approved
+  type: Field
+  source:
+    remote:
+      path: src/Components/MinimalComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Approved
+    path: Components/MinimalComponentModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nContains a value that indicates the component has been approved.\n"
+  example: []
+  syntax:
+    content: Approved = 1
+    return:
+      type: Vasont.Inspire.Models.Components.ComponentStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.ComponentStateType.Invalid
+  commentId: F:Vasont.Inspire.Models.Components.ComponentStateType.Invalid
+  id: Invalid
+  parent: Vasont.Inspire.Models.Components.ComponentStateType
+  langs:
+  - csharp
+  - vb
+  name: Invalid
+  nameWithType: ComponentStateType.Invalid
+  fullName: Vasont.Inspire.Models.Components.ComponentStateType.Invalid
+  type: Field
+  source:
+    remote:
+      path: src/Components/MinimalComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Invalid
+    path: Components/MinimalComponentModel.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nContains a value that indicates the component has invalid relationships.\n"
+  example: []
+  syntax:
+    content: Invalid = 2
+    return:
+      type: Vasont.Inspire.Models.Components.ComponentStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: Vasont.Inspire.Models.Components.ComponentStateType
+  commentId: T:Vasont.Inspire.Models.Components.ComponentStateType
+  parent: Vasont.Inspire.Models.Components
+  name: ComponentStateType
+  nameWithType: ComponentStateType
+  fullName: Vasont.Inspire.Models.Components.ComponentStateType

@@ -1,0 +1,835 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel
+  commentId: T:Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel
+  id: MinimalProjectAssignmentModel
+  parent: Vasont.Inspire.Models.Projects
+  children:
+  - Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.Components
+  - Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.DueDate
+  - Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectActivity
+  - Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectAssignmentId
+  - Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectId
+  - Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectTitle
+  - Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.StateName
+  langs:
+  - csharp
+  - vb
+  name: MinimalProjectAssignmentModel
+  nameWithType: MinimalProjectAssignmentModel
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel
+  type: Class
+  source:
+    remote:
+      path: src/Projects/MinimalProjectAssignmentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: MinimalProjectAssignmentModel
+    path: Projects/MinimalProjectAssignmentModel.cs
+    startLine: 14
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nThis class represents a minimal project assignment within the application.\n"
+  example: []
+  syntax:
+    content: public class MinimalProjectAssignmentModel
+    content.vb: Public Class MinimalProjectAssignmentModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectAssignmentId
+  commentId: P:Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectAssignmentId
+  id: ProjectAssignmentId
+  parent: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel
+  langs:
+  - csharp
+  - vb
+  name: ProjectAssignmentId
+  nameWithType: MinimalProjectAssignmentModel.ProjectAssignmentId
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectAssignmentId
+  type: Property
+  source:
+    remote:
+      path: src/Projects/MinimalProjectAssignmentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProjectAssignmentId
+    path: Projects/MinimalProjectAssignmentModel.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the project assignment identity value.\n"
+  example: []
+  syntax:
+    content: public long ProjectAssignmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ProjectAssignmentId As Long
+  overload: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectAssignmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectId
+  commentId: P:Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectId
+  id: ProjectId
+  parent: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: MinimalProjectAssignmentModel.ProjectId
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectId
+  type: Property
+  source:
+    remote:
+      path: src/Projects/MinimalProjectAssignmentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProjectId
+    path: Projects/MinimalProjectAssignmentModel.cs
+    startLine: 24
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the associated project identity value.\n"
+  example: []
+  syntax:
+    content: public long ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ProjectId As Long
+  overload: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectTitle
+  commentId: P:Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectTitle
+  id: ProjectTitle
+  parent: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel
+  langs:
+  - csharp
+  - vb
+  name: ProjectTitle
+  nameWithType: MinimalProjectAssignmentModel.ProjectTitle
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectTitle
+  type: Property
+  source:
+    remote:
+      path: src/Projects/MinimalProjectAssignmentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProjectTitle
+    path: Projects/MinimalProjectAssignmentModel.cs
+    startLine: 29
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the associated project title value.\n"
+  example: []
+  syntax:
+    content: public string ProjectTitle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProjectTitle As String
+  overload: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectTitle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectActivity
+  commentId: P:Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectActivity
+  id: ProjectActivity
+  parent: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel
+  langs:
+  - csharp
+  - vb
+  name: ProjectActivity
+  nameWithType: MinimalProjectAssignmentModel.ProjectActivity
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectActivity
+  type: Property
+  source:
+    remote:
+      path: src/Projects/MinimalProjectAssignmentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProjectActivity
+    path: Projects/MinimalProjectAssignmentModel.cs
+    startLine: 34
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets a related project assignment activity object.\n"
+  example: []
+  syntax:
+    content: public MinimalProjectActivityModel ProjectActivity { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Projects.MinimalProjectActivityModel
+    content.vb: Public Property ProjectActivity As MinimalProjectActivityModel
+  overload: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectActivity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.DueDate
+  commentId: P:Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.DueDate
+  id: DueDate
+  parent: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel
+  langs:
+  - csharp
+  - vb
+  name: DueDate
+  nameWithType: MinimalProjectAssignmentModel.DueDate
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.DueDate
+  type: Property
+  source:
+    remote:
+      path: src/Projects/MinimalProjectAssignmentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DueDate
+    path: Projects/MinimalProjectAssignmentModel.cs
+    startLine: 39
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets a date time indicating when the assignment is due.\n"
+  example: []
+  syntax:
+    content: public DateTime? DueDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property DueDate As Date?
+  overload: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.DueDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.StateName
+  commentId: P:Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.StateName
+  id: StateName
+  parent: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel
+  langs:
+  - csharp
+  - vb
+  name: StateName
+  nameWithType: MinimalProjectAssignmentModel.StateName
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.StateName
+  type: Property
+  source:
+    remote:
+      path: src/Projects/MinimalProjectAssignmentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: StateName
+    path: Projects/MinimalProjectAssignmentModel.cs
+    startLine: 44
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the assignment state name.\n"
+  example: []
+  syntax:
+    content: public string StateName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StateName As String
+  overload: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.StateName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.Components
+  commentId: P:Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.Components
+  id: Components
+  parent: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel
+  langs:
+  - csharp
+  - vb
+  name: Components
+  nameWithType: MinimalProjectAssignmentModel.Components
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.Components
+  type: Property
+  source:
+    remote:
+      path: src/Projects/MinimalProjectAssignmentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Components
+    path: Projects/MinimalProjectAssignmentModel.cs
+    startLine: 49
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets a list of components related to the assignment.\n"
+  example: []
+  syntax:
+    content: public List<MinimalComponentModel> Components { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Components.MinimalComponentModel}
+    content.vb: Public Property Components As List(Of MinimalComponentModel)
+  overload: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.Components*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Projects
+  commentId: N:Vasont.Inspire.Models.Projects
+  name: Vasont.Inspire.Models.Projects
+  nameWithType: Vasont.Inspire.Models.Projects
+  fullName: Vasont.Inspire.Models.Projects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectAssignmentId*
+  commentId: Overload:Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectAssignmentId
+  name: ProjectAssignmentId
+  nameWithType: MinimalProjectAssignmentModel.ProjectAssignmentId
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectAssignmentId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectId*
+  commentId: Overload:Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectId
+  name: ProjectId
+  nameWithType: MinimalProjectAssignmentModel.ProjectId
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectId
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectTitle*
+  commentId: Overload:Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectTitle
+  name: ProjectTitle
+  nameWithType: MinimalProjectAssignmentModel.ProjectTitle
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectTitle
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectActivity*
+  commentId: Overload:Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectActivity
+  name: ProjectActivity
+  nameWithType: MinimalProjectAssignmentModel.ProjectActivity
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.ProjectActivity
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectActivityModel
+  commentId: T:Vasont.Inspire.Models.Projects.MinimalProjectActivityModel
+  parent: Vasont.Inspire.Models.Projects
+  name: MinimalProjectActivityModel
+  nameWithType: MinimalProjectActivityModel
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectActivityModel
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.DueDate*
+  commentId: Overload:Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.DueDate
+  name: DueDate
+  nameWithType: MinimalProjectAssignmentModel.DueDate
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.DueDate
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.StateName*
+  commentId: Overload:Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.StateName
+  name: StateName
+  nameWithType: MinimalProjectAssignmentModel.StateName
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.StateName
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.Components*
+  commentId: Overload:Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.Components
+  name: Components
+  nameWithType: MinimalProjectAssignmentModel.Components
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel.Components
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Components.MinimalComponentModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Components.MinimalComponentModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<MinimalComponentModel>
+  nameWithType: List<MinimalComponentModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Components.MinimalComponentModel>
+  nameWithType.vb: List(Of MinimalComponentModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Components.MinimalComponentModel)
+  name.vb: List(Of MinimalComponentModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Components.MinimalComponentModel
+    name: MinimalComponentModel
+    nameWithType: MinimalComponentModel
+    fullName: Vasont.Inspire.Models.Components.MinimalComponentModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Components.MinimalComponentModel
+    name: MinimalComponentModel
+    nameWithType: MinimalComponentModel
+    fullName: Vasont.Inspire.Models.Components.MinimalComponentModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

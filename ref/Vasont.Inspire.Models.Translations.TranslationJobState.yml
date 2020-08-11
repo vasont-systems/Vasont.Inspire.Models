@@ -1,0 +1,396 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Translations.TranslationJobState
+  commentId: T:Vasont.Inspire.Models.Translations.TranslationJobState
+  id: TranslationJobState
+  parent: Vasont.Inspire.Models.Translations
+  children:
+  - Vasont.Inspire.Models.Translations.TranslationJobState.AtVendor
+  - Vasont.Inspire.Models.Translations.TranslationJobState.Cancelled
+  - Vasont.Inspire.Models.Translations.TranslationJobState.Completed
+  - Vasont.Inspire.Models.Translations.TranslationJobState.Exporting
+  - Vasont.Inspire.Models.Translations.TranslationJobState.FailedRetrieving
+  - Vasont.Inspire.Models.Translations.TranslationJobState.FailedSending
+  - Vasont.Inspire.Models.Translations.TranslationJobState.Translating
+  langs:
+  - csharp
+  - vb
+  name: TranslationJobState
+  nameWithType: TranslationJobState
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobState
+  type: Enum
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TranslationJobState
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nContains an enumerated list of translation job states.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum TranslationJobState
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum TranslationJobState
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Translations.TranslationJobState.Translating
+  commentId: F:Vasont.Inspire.Models.Translations.TranslationJobState.Translating
+  id: Translating
+  parent: Vasont.Inspire.Models.Translations.TranslationJobState
+  langs:
+  - csharp
+  - vb
+  name: Translating
+  nameWithType: TranslationJobState.Translating
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobState.Translating
+  type: Field
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Translating
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 26
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nThe translation job is translating.\n"
+  example: []
+  syntax:
+    content: >-
+      [LocalizedDescription("LabelTranslatingText")]
+
+      Translating = 0
+    return:
+      type: Vasont.Inspire.Models.Translations.TranslationJobState
+    content.vb: >-
+      <LocalizedDescription("LabelTranslatingText")>
+
+      Translating = 0
+  attributes:
+  - type: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute
+    ctor: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LabelTranslatingText
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Translations.TranslationJobState.Completed
+  commentId: F:Vasont.Inspire.Models.Translations.TranslationJobState.Completed
+  id: Completed
+  parent: Vasont.Inspire.Models.Translations.TranslationJobState
+  langs:
+  - csharp
+  - vb
+  name: Completed
+  nameWithType: TranslationJobState.Completed
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobState.Completed
+  type: Field
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Completed
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 32
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nThe translation job has been completed.\n"
+  example: []
+  syntax:
+    content: >-
+      [LocalizedDescription("LabelCompletedText")]
+
+      Completed = 1
+    return:
+      type: Vasont.Inspire.Models.Translations.TranslationJobState
+    content.vb: >-
+      <LocalizedDescription("LabelCompletedText")>
+
+      Completed = 1
+  attributes:
+  - type: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute
+    ctor: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LabelCompletedText
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Translations.TranslationJobState.Cancelled
+  commentId: F:Vasont.Inspire.Models.Translations.TranslationJobState.Cancelled
+  id: Cancelled
+  parent: Vasont.Inspire.Models.Translations.TranslationJobState
+  langs:
+  - csharp
+  - vb
+  name: Cancelled
+  nameWithType: TranslationJobState.Cancelled
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobState.Cancelled
+  type: Field
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Cancelled
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 38
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nThe translation job has been cancelled.\n"
+  example: []
+  syntax:
+    content: >-
+      [LocalizedDescription("LabelCancelledText")]
+
+      Cancelled = 2
+    return:
+      type: Vasont.Inspire.Models.Translations.TranslationJobState
+    content.vb: >-
+      <LocalizedDescription("LabelCancelledText")>
+
+      Cancelled = 2
+  attributes:
+  - type: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute
+    ctor: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LabelCancelledText
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Translations.TranslationJobState.Exporting
+  commentId: F:Vasont.Inspire.Models.Translations.TranslationJobState.Exporting
+  id: Exporting
+  parent: Vasont.Inspire.Models.Translations.TranslationJobState
+  langs:
+  - csharp
+  - vb
+  name: Exporting
+  nameWithType: TranslationJobState.Exporting
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobState.Exporting
+  type: Field
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Exporting
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 44
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nThe translation job is exporting\n"
+  example: []
+  syntax:
+    content: >-
+      [LocalizedDescription("LabelExportingText")]
+
+      Exporting = 3
+    return:
+      type: Vasont.Inspire.Models.Translations.TranslationJobState
+    content.vb: >-
+      <LocalizedDescription("LabelExportingText")>
+
+      Exporting = 3
+  attributes:
+  - type: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute
+    ctor: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LabelExportingText
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Translations.TranslationJobState.AtVendor
+  commentId: F:Vasont.Inspire.Models.Translations.TranslationJobState.AtVendor
+  id: AtVendor
+  parent: Vasont.Inspire.Models.Translations.TranslationJobState
+  langs:
+  - csharp
+  - vb
+  name: AtVendor
+  nameWithType: TranslationJobState.AtVendor
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobState.AtVendor
+  type: Field
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: AtVendor
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 50
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nThe translation job at vendor\n"
+  example: []
+  syntax:
+    content: >-
+      [LocalizedDescription("LabelAtVendorText")]
+
+      AtVendor = 4
+    return:
+      type: Vasont.Inspire.Models.Translations.TranslationJobState
+    content.vb: >-
+      <LocalizedDescription("LabelAtVendorText")>
+
+      AtVendor = 4
+  attributes:
+  - type: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute
+    ctor: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LabelAtVendorText
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Translations.TranslationJobState.FailedSending
+  commentId: F:Vasont.Inspire.Models.Translations.TranslationJobState.FailedSending
+  id: FailedSending
+  parent: Vasont.Inspire.Models.Translations.TranslationJobState
+  langs:
+  - csharp
+  - vb
+  name: FailedSending
+  nameWithType: TranslationJobState.FailedSending
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobState.FailedSending
+  type: Field
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FailedSending
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 56
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nThe translation job failed sending\n"
+  example: []
+  syntax:
+    content: >-
+      [LocalizedDescription("LabelFailedSendingText")]
+
+      FailedSending = 5
+    return:
+      type: Vasont.Inspire.Models.Translations.TranslationJobState
+    content.vb: >-
+      <LocalizedDescription("LabelFailedSendingText")>
+
+      FailedSending = 5
+  attributes:
+  - type: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute
+    ctor: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LabelFailedSendingText
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Translations.TranslationJobState.FailedRetrieving
+  commentId: F:Vasont.Inspire.Models.Translations.TranslationJobState.FailedRetrieving
+  id: FailedRetrieving
+  parent: Vasont.Inspire.Models.Translations.TranslationJobState
+  langs:
+  - csharp
+  - vb
+  name: FailedRetrieving
+  nameWithType: TranslationJobState.FailedRetrieving
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobState.FailedRetrieving
+  type: Field
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FailedRetrieving
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 62
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nThe translation job failed retrieving\n"
+  example: []
+  syntax:
+    content: >-
+      [LocalizedDescription("LabelFailedRetrievingText")]
+
+      FailedRetrieving = 6
+    return:
+      type: Vasont.Inspire.Models.Translations.TranslationJobState
+    content.vb: >-
+      <LocalizedDescription("LabelFailedRetrievingText")>
+
+      FailedRetrieving = 6
+  attributes:
+  - type: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute
+    ctor: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LabelFailedRetrievingText
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Translations
+  commentId: N:Vasont.Inspire.Models.Translations
+  name: Vasont.Inspire.Models.Translations
+  nameWithType: Vasont.Inspire.Models.Translations
+  fullName: Vasont.Inspire.Models.Translations
+- uid: Vasont.Inspire.Models.Translations.TranslationJobState
+  commentId: T:Vasont.Inspire.Models.Translations.TranslationJobState
+  parent: Vasont.Inspire.Models.Translations
+  name: TranslationJobState
+  nameWithType: TranslationJobState
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobState

@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Search
+  commentId: N:Vasont.Inspire.Models.Search
+  id: Vasont.Inspire.Models.Search
+  children:
+  - Vasont.Inspire.Models.Search.AdHocQueryFilterModel
+  - Vasont.Inspire.Models.Search.ConfigurationModel
+  - Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  - Vasont.Inspire.Models.Search.SearchConfigurationDefaults
+  - Vasont.Inspire.Models.Search.SearchConfigurationModel
+  - Vasont.Inspire.Models.Search.SearchExpressionOperator
+  - Vasont.Inspire.Models.Search.SearchLogicOperator
+  langs:
+  - csharp
+  - vb
+  name: Vasont.Inspire.Models.Search
+  nameWithType: Vasont.Inspire.Models.Search
+  fullName: Vasont.Inspire.Models.Search
+  type: Namespace
+  assemblies:
+  - Vasont.Inspire.Models
+references:
+- uid: Vasont.Inspire.Models.Search.AdHocQueryFilterModel
+  commentId: T:Vasont.Inspire.Models.Search.AdHocQueryFilterModel
+  name: AdHocQueryFilterModel
+  nameWithType: AdHocQueryFilterModel
+  fullName: Vasont.Inspire.Models.Search.AdHocQueryFilterModel
+- uid: Vasont.Inspire.Models.Search.ConfigurationModel
+  commentId: T:Vasont.Inspire.Models.Search.ConfigurationModel
+  name: ConfigurationModel
+  nameWithType: ConfigurationModel
+  fullName: Vasont.Inspire.Models.Search.ConfigurationModel
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  commentId: T:Vasont.Inspire.Models.Search.SearchConfigurationDataType
+  parent: Vasont.Inspire.Models.Search
+  name: SearchConfigurationDataType
+  nameWithType: SearchConfigurationDataType
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDataType
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationDefaults
+  commentId: T:Vasont.Inspire.Models.Search.SearchConfigurationDefaults
+  name: SearchConfigurationDefaults
+  nameWithType: SearchConfigurationDefaults
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationDefaults
+- uid: Vasont.Inspire.Models.Search.SearchConfigurationModel
+  commentId: T:Vasont.Inspire.Models.Search.SearchConfigurationModel
+  name: SearchConfigurationModel
+  nameWithType: SearchConfigurationModel
+  fullName: Vasont.Inspire.Models.Search.SearchConfigurationModel
+- uid: Vasont.Inspire.Models.Search.SearchExpressionOperator
+  commentId: T:Vasont.Inspire.Models.Search.SearchExpressionOperator
+  parent: Vasont.Inspire.Models.Search
+  name: SearchExpressionOperator
+  nameWithType: SearchExpressionOperator
+  fullName: Vasont.Inspire.Models.Search.SearchExpressionOperator
+- uid: Vasont.Inspire.Models.Search.SearchLogicOperator
+  commentId: T:Vasont.Inspire.Models.Search.SearchLogicOperator
+  parent: Vasont.Inspire.Models.Search
+  name: SearchLogicOperator
+  nameWithType: SearchLogicOperator
+  fullName: Vasont.Inspire.Models.Search.SearchLogicOperator
+- uid: Vasont.Inspire.Models.Search
+  commentId: N:Vasont.Inspire.Models.Search
+  name: Vasont.Inspire.Models.Search
+  nameWithType: Vasont.Inspire.Models.Search
+  fullName: Vasont.Inspire.Models.Search

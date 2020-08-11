@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Reviews.ReviewStateType
+  commentId: T:Vasont.Inspire.Models.Reviews.ReviewStateType
+  id: ReviewStateType
+  parent: Vasont.Inspire.Models.Reviews
+  children:
+  - Vasont.Inspire.Models.Reviews.ReviewStateType.Cancelled
+  - Vasont.Inspire.Models.Reviews.ReviewStateType.Completed
+  - Vasont.Inspire.Models.Reviews.ReviewStateType.Resolving
+  - Vasont.Inspire.Models.Reviews.ReviewStateType.Reviewing
+  langs:
+  - csharp
+  - vb
+  name: ReviewStateType
+  nameWithType: ReviewStateType
+  fullName: Vasont.Inspire.Models.Reviews.ReviewStateType
+  type: Enum
+  source:
+    remote:
+      path: src/Reviews/ReviewModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewStateType
+    path: Reviews/ReviewModel.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nContains an enumerated list of review state types.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum ReviewStateType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum ReviewStateType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Reviews.ReviewStateType.Reviewing
+  commentId: F:Vasont.Inspire.Models.Reviews.ReviewStateType.Reviewing
+  id: Reviewing
+  parent: Vasont.Inspire.Models.Reviews.ReviewStateType
+  langs:
+  - csharp
+  - vb
+  name: Reviewing
+  nameWithType: ReviewStateType.Reviewing
+  fullName: Vasont.Inspire.Models.Reviews.ReviewStateType.Reviewing
+  type: Field
+  source:
+    remote:
+      path: src/Reviews/ReviewModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Reviewing
+    path: Reviews/ReviewModel.cs
+    startLine: 23
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nContains a value that indicates reviewing is active.\n"
+  example: []
+  syntax:
+    content: Reviewing = 0
+    return:
+      type: Vasont.Inspire.Models.Reviews.ReviewStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Reviews.ReviewStateType.Resolving
+  commentId: F:Vasont.Inspire.Models.Reviews.ReviewStateType.Resolving
+  id: Resolving
+  parent: Vasont.Inspire.Models.Reviews.ReviewStateType
+  langs:
+  - csharp
+  - vb
+  name: Resolving
+  nameWithType: ReviewStateType.Resolving
+  fullName: Vasont.Inspire.Models.Reviews.ReviewStateType.Resolving
+  type: Field
+  source:
+    remote:
+      path: src/Reviews/ReviewModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Resolving
+    path: Reviews/ReviewModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nContains a value that indicates resolving is active.\n"
+  example: []
+  syntax:
+    content: Resolving = 1
+    return:
+      type: Vasont.Inspire.Models.Reviews.ReviewStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Reviews.ReviewStateType.Completed
+  commentId: F:Vasont.Inspire.Models.Reviews.ReviewStateType.Completed
+  id: Completed
+  parent: Vasont.Inspire.Models.Reviews.ReviewStateType
+  langs:
+  - csharp
+  - vb
+  name: Completed
+  nameWithType: ReviewStateType.Completed
+  fullName: Vasont.Inspire.Models.Reviews.ReviewStateType.Completed
+  type: Field
+  source:
+    remote:
+      path: src/Reviews/ReviewModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Completed
+    path: Reviews/ReviewModel.cs
+    startLine: 33
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nContains a value that indicates the review has been completed.\n"
+  example: []
+  syntax:
+    content: Completed = 2
+    return:
+      type: Vasont.Inspire.Models.Reviews.ReviewStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Reviews.ReviewStateType.Cancelled
+  commentId: F:Vasont.Inspire.Models.Reviews.ReviewStateType.Cancelled
+  id: Cancelled
+  parent: Vasont.Inspire.Models.Reviews.ReviewStateType
+  langs:
+  - csharp
+  - vb
+  name: Cancelled
+  nameWithType: ReviewStateType.Cancelled
+  fullName: Vasont.Inspire.Models.Reviews.ReviewStateType.Cancelled
+  type: Field
+  source:
+    remote:
+      path: src/Reviews/ReviewModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Cancelled
+    path: Reviews/ReviewModel.cs
+    startLine: 38
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nContains a value that indicates the review has been cancelled.\n"
+  example: []
+  syntax:
+    content: Cancelled = 3
+    return:
+      type: Vasont.Inspire.Models.Reviews.ReviewStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Reviews
+  commentId: N:Vasont.Inspire.Models.Reviews
+  name: Vasont.Inspire.Models.Reviews
+  nameWithType: Vasont.Inspire.Models.Reviews
+  fullName: Vasont.Inspire.Models.Reviews
+- uid: Vasont.Inspire.Models.Reviews.ReviewStateType
+  commentId: T:Vasont.Inspire.Models.Reviews.ReviewStateType
+  parent: Vasont.Inspire.Models.Reviews
+  name: ReviewStateType
+  nameWithType: ReviewStateType
+  fullName: Vasont.Inspire.Models.Reviews.ReviewStateType

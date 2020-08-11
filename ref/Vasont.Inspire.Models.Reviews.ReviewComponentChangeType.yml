@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Reviews.ReviewComponentChangeType
+  commentId: T:Vasont.Inspire.Models.Reviews.ReviewComponentChangeType
+  id: ReviewComponentChangeType
+  parent: Vasont.Inspire.Models.Reviews
+  children:
+  - Vasont.Inspire.Models.Reviews.ReviewComponentChangeType.Insert
+  - Vasont.Inspire.Models.Reviews.ReviewComponentChangeType.Remove
+  langs:
+  - csharp
+  - vb
+  name: ReviewComponentChangeType
+  nameWithType: ReviewComponentChangeType
+  fullName: Vasont.Inspire.Models.Reviews.ReviewComponentChangeType
+  type: Enum
+  source:
+    remote:
+      path: src/Reviews/ReviewComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewComponentChangeType
+    path: Reviews/ReviewComponentModel.cs
+    startLine: 43
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nContains an enumerated list of review component change types.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum ReviewComponentChangeType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum ReviewComponentChangeType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Reviews.ReviewComponentChangeType.Insert
+  commentId: F:Vasont.Inspire.Models.Reviews.ReviewComponentChangeType.Insert
+  id: Insert
+  parent: Vasont.Inspire.Models.Reviews.ReviewComponentChangeType
+  langs:
+  - csharp
+  - vb
+  name: Insert
+  nameWithType: ReviewComponentChangeType.Insert
+  fullName: Vasont.Inspire.Models.Reviews.ReviewComponentChangeType.Insert
+  type: Field
+  source:
+    remote:
+      path: src/Reviews/ReviewComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Insert
+    path: Reviews/ReviewComponentModel.cs
+    startLine: 49
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nContains a value that indicates the change was an insert.\n"
+  example: []
+  syntax:
+    content: Insert = 0
+    return:
+      type: Vasont.Inspire.Models.Reviews.ReviewComponentChangeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Reviews.ReviewComponentChangeType.Remove
+  commentId: F:Vasont.Inspire.Models.Reviews.ReviewComponentChangeType.Remove
+  id: Remove
+  parent: Vasont.Inspire.Models.Reviews.ReviewComponentChangeType
+  langs:
+  - csharp
+  - vb
+  name: Remove
+  nameWithType: ReviewComponentChangeType.Remove
+  fullName: Vasont.Inspire.Models.Reviews.ReviewComponentChangeType.Remove
+  type: Field
+  source:
+    remote:
+      path: src/Reviews/ReviewComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Remove
+    path: Reviews/ReviewComponentModel.cs
+    startLine: 54
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nContains a value that indicates the change was a remove.\n"
+  example: []
+  syntax:
+    content: Remove = 1
+    return:
+      type: Vasont.Inspire.Models.Reviews.ReviewComponentChangeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Reviews
+  commentId: N:Vasont.Inspire.Models.Reviews
+  name: Vasont.Inspire.Models.Reviews
+  nameWithType: Vasont.Inspire.Models.Reviews
+  fullName: Vasont.Inspire.Models.Reviews
+- uid: Vasont.Inspire.Models.Reviews.ReviewComponentChangeType
+  commentId: T:Vasont.Inspire.Models.Reviews.ReviewComponentChangeType
+  parent: Vasont.Inspire.Models.Reviews
+  name: ReviewComponentChangeType
+  nameWithType: ReviewComponentChangeType
+  fullName: Vasont.Inspire.Models.Reviews.ReviewComponentChangeType

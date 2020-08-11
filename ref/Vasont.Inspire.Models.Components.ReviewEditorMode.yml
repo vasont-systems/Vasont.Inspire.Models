@@ -1,0 +1,235 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.ReviewEditorMode
+  commentId: T:Vasont.Inspire.Models.Components.ReviewEditorMode
+  id: ReviewEditorMode
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.ReviewEditorMode.Annotate
+  - Vasont.Inspire.Models.Components.ReviewEditorMode.NotReview
+  - Vasont.Inspire.Models.Components.ReviewEditorMode.Resolve
+  - Vasont.Inspire.Models.Components.ReviewEditorMode.Review
+  - Vasont.Inspire.Models.Components.ReviewEditorMode.View
+  langs:
+  - csharp
+  - vb
+  name: ReviewEditorMode
+  nameWithType: ReviewEditorMode
+  fullName: Vasont.Inspire.Models.Components.ReviewEditorMode
+  type: Enum
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewEditorMode
+    path: Components/EditorLoadModel.cs
+    startLine: 62
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nContains an enumerated list of review editor modes.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum ReviewEditorMode
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum ReviewEditorMode
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Components.ReviewEditorMode.NotReview
+  commentId: F:Vasont.Inspire.Models.Components.ReviewEditorMode.NotReview
+  id: NotReview
+  parent: Vasont.Inspire.Models.Components.ReviewEditorMode
+  langs:
+  - csharp
+  - vb
+  name: NotReview
+  nameWithType: ReviewEditorMode.NotReview
+  fullName: Vasont.Inspire.Models.Components.ReviewEditorMode.NotReview
+  type: Field
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: NotReview
+    path: Components/EditorLoadModel.cs
+    startLine: 68
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nMode not used.\n"
+  example: []
+  syntax:
+    content: NotReview = 0
+    return:
+      type: Vasont.Inspire.Models.Components.ReviewEditorMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.ReviewEditorMode.Annotate
+  commentId: F:Vasont.Inspire.Models.Components.ReviewEditorMode.Annotate
+  id: Annotate
+  parent: Vasont.Inspire.Models.Components.ReviewEditorMode
+  langs:
+  - csharp
+  - vb
+  name: Annotate
+  nameWithType: ReviewEditorMode.Annotate
+  fullName: Vasont.Inspire.Models.Components.ReviewEditorMode.Annotate
+  type: Field
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Annotate
+    path: Components/EditorLoadModel.cs
+    startLine: 73
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nMode for an active reviewer with comment only rights.\n"
+  example: []
+  syntax:
+    content: Annotate = 1
+    return:
+      type: Vasont.Inspire.Models.Components.ReviewEditorMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.ReviewEditorMode.Review
+  commentId: F:Vasont.Inspire.Models.Components.ReviewEditorMode.Review
+  id: Review
+  parent: Vasont.Inspire.Models.Components.ReviewEditorMode
+  langs:
+  - csharp
+  - vb
+  name: Review
+  nameWithType: ReviewEditorMode.Review
+  fullName: Vasont.Inspire.Models.Components.ReviewEditorMode.Review
+  type: Field
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Review
+    path: Components/EditorLoadModel.cs
+    startLine: 78
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nMode for an active reviewer with full review rights.\n"
+  example: []
+  syntax:
+    content: Review = 2
+    return:
+      type: Vasont.Inspire.Models.Components.ReviewEditorMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.ReviewEditorMode.Resolve
+  commentId: F:Vasont.Inspire.Models.Components.ReviewEditorMode.Resolve
+  id: Resolve
+  parent: Vasont.Inspire.Models.Components.ReviewEditorMode
+  langs:
+  - csharp
+  - vb
+  name: Resolve
+  nameWithType: ReviewEditorMode.Resolve
+  fullName: Vasont.Inspire.Models.Components.ReviewEditorMode.Resolve
+  type: Field
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Resolve
+    path: Components/EditorLoadModel.cs
+    startLine: 83
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nMode for a coordinator when remove is in Resolving state.\n"
+  example: []
+  syntax:
+    content: Resolve = 3
+    return:
+      type: Vasont.Inspire.Models.Components.ReviewEditorMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.ReviewEditorMode.View
+  commentId: F:Vasont.Inspire.Models.Components.ReviewEditorMode.View
+  id: View
+  parent: Vasont.Inspire.Models.Components.ReviewEditorMode
+  langs:
+  - csharp
+  - vb
+  name: View
+  nameWithType: ReviewEditorMode.View
+  fullName: Vasont.Inspire.Models.Components.ReviewEditorMode.View
+  type: Field
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: View
+    path: Components/EditorLoadModel.cs
+    startLine: 88
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nRead only mode.\n"
+  example: []
+  syntax:
+    content: View = 4
+    return:
+      type: Vasont.Inspire.Models.Components.ReviewEditorMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: Vasont.Inspire.Models.Components.ReviewEditorMode
+  commentId: T:Vasont.Inspire.Models.Components.ReviewEditorMode
+  parent: Vasont.Inspire.Models.Components
+  name: ReviewEditorMode
+  nameWithType: ReviewEditorMode
+  fullName: Vasont.Inspire.Models.Components.ReviewEditorMode

@@ -1,0 +1,561 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel
+  commentId: T:Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel
+  id: MinimalFolderHistoryModel
+  parent: Vasont.Inspire.Models.Versioning
+  children:
+  - Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.Action
+  - Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.ChangesetId
+  - Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.Restored
+  langs:
+  - csharp
+  - vb
+  name: MinimalFolderHistoryModel
+  nameWithType: MinimalFolderHistoryModel
+  fullName: Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel
+  type: Class
+  source:
+    remote:
+      path: src/Versioning/MinimalFolderHistoryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: MinimalFolderHistoryModel
+    path: Versioning/MinimalFolderHistoryModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nThis class represents a minimal implementation of a component history model.\n"
+  example: []
+  syntax:
+    content: 'public class MinimalFolderHistoryModel : MinimalFolderModel, IChangesetSnapshot'
+    content.vb: >-
+      Public Class MinimalFolderHistoryModel
+          Inherits MinimalFolderModel
+          Implements IChangesetSnapshot
+  inheritance:
+  - System.Object
+  - Vasont.Inspire.Models.Components.MinimalFolderModel
+  implements:
+  - Vasont.Inspire.Models.Versioning.IChangesetSnapshot
+  inheritedMembers:
+  - Vasont.Inspire.Models.Components.MinimalFolderModel.FolderId
+  - Vasont.Inspire.Models.Components.MinimalFolderModel.Name
+  - Vasont.Inspire.Models.Components.MinimalFolderModel.Path
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.ChangesetId
+  commentId: P:Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.ChangesetId
+  id: ChangesetId
+  parent: Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: ChangesetId
+  nameWithType: MinimalFolderHistoryModel.ChangesetId
+  fullName: Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.ChangesetId
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/MinimalFolderHistoryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ChangesetId
+    path: Versioning/MinimalFolderHistoryModel.cs
+    startLine: 18
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the associated changeset identity.\n"
+  example: []
+  syntax:
+    content: public Guid ChangesetId { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property ChangesetId As Guid
+  overload: Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.ChangesetId*
+  implements:
+  - Vasont.Inspire.Models.Versioning.IChangesetSnapshot.ChangesetId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.Action
+  commentId: P:Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.Action
+  id: Action
+  parent: Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: MinimalFolderHistoryModel.Action
+  fullName: Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.Action
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/MinimalFolderHistoryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Action
+    path: Versioning/MinimalFolderHistoryModel.cs
+    startLine: 23
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the action type to execute against the changeset action target.\n"
+  example: []
+  syntax:
+    content: public ChangesetSnapshotActionType Action { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+    content.vb: Public Property Action As ChangesetSnapshotActionType
+  overload: Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.Action*
+  implements:
+  - Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Action
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.Restored
+  commentId: P:Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.Restored
+  id: Restored
+  parent: Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: Restored
+  nameWithType: MinimalFolderHistoryModel.Restored
+  fullName: Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.Restored
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/MinimalFolderHistoryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Restored
+    path: Versioning/MinimalFolderHistoryModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets a value indicating whether the history record was a restoral.\n"
+  example: []
+  syntax:
+    content: public bool Restored { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Restored As Boolean
+  overload: Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.Restored*
+  implements:
+  - Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Restored
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Versioning
+  commentId: N:Vasont.Inspire.Models.Versioning
+  name: Vasont.Inspire.Models.Versioning
+  nameWithType: Vasont.Inspire.Models.Versioning
+  fullName: Vasont.Inspire.Models.Versioning
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vasont.Inspire.Models.Components.MinimalFolderModel
+  commentId: T:Vasont.Inspire.Models.Components.MinimalFolderModel
+  parent: Vasont.Inspire.Models.Components
+  name: MinimalFolderModel
+  nameWithType: MinimalFolderModel
+  fullName: Vasont.Inspire.Models.Components.MinimalFolderModel
+- uid: Vasont.Inspire.Models.Versioning.IChangesetSnapshot
+  commentId: T:Vasont.Inspire.Models.Versioning.IChangesetSnapshot
+  parent: Vasont.Inspire.Models.Versioning
+  name: IChangesetSnapshot
+  nameWithType: IChangesetSnapshot
+  fullName: Vasont.Inspire.Models.Versioning.IChangesetSnapshot
+- uid: Vasont.Inspire.Models.Components.MinimalFolderModel.FolderId
+  commentId: P:Vasont.Inspire.Models.Components.MinimalFolderModel.FolderId
+  parent: Vasont.Inspire.Models.Components.MinimalFolderModel
+  name: FolderId
+  nameWithType: MinimalFolderModel.FolderId
+  fullName: Vasont.Inspire.Models.Components.MinimalFolderModel.FolderId
+- uid: Vasont.Inspire.Models.Components.MinimalFolderModel.Name
+  commentId: P:Vasont.Inspire.Models.Components.MinimalFolderModel.Name
+  parent: Vasont.Inspire.Models.Components.MinimalFolderModel
+  name: Name
+  nameWithType: MinimalFolderModel.Name
+  fullName: Vasont.Inspire.Models.Components.MinimalFolderModel.Name
+- uid: Vasont.Inspire.Models.Components.MinimalFolderModel.Path
+  commentId: P:Vasont.Inspire.Models.Components.MinimalFolderModel.Path
+  parent: Vasont.Inspire.Models.Components.MinimalFolderModel
+  name: Path
+  nameWithType: MinimalFolderModel.Path
+  fullName: Vasont.Inspire.Models.Components.MinimalFolderModel.Path
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.ChangesetId*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.ChangesetId
+  name: ChangesetId
+  nameWithType: MinimalFolderHistoryModel.ChangesetId
+  fullName: Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.ChangesetId
+- uid: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.ChangesetId
+  commentId: P:Vasont.Inspire.Models.Versioning.IChangesetSnapshot.ChangesetId
+  parent: Vasont.Inspire.Models.Versioning.IChangesetSnapshot
+  name: ChangesetId
+  nameWithType: IChangesetSnapshot.ChangesetId
+  fullName: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.ChangesetId
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.Action*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.Action
+  name: Action
+  nameWithType: MinimalFolderHistoryModel.Action
+  fullName: Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.Action
+- uid: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Action
+  commentId: P:Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Action
+  parent: Vasont.Inspire.Models.Versioning.IChangesetSnapshot
+  name: Action
+  nameWithType: IChangesetSnapshot.Action
+  fullName: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Action
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  commentId: T:Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  parent: Vasont.Inspire.Models.Versioning
+  name: ChangesetSnapshotActionType
+  nameWithType: ChangesetSnapshotActionType
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+- uid: Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.Restored*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.Restored
+  name: Restored
+  nameWithType: MinimalFolderHistoryModel.Restored
+  fullName: Vasont.Inspire.Models.Versioning.MinimalFolderHistoryModel.Restored
+- uid: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Restored
+  commentId: P:Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Restored
+  parent: Vasont.Inspire.Models.Versioning.IChangesetSnapshot
+  name: Restored
+  nameWithType: IChangesetSnapshot.Restored
+  fullName: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Restored
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

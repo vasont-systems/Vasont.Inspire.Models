@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Transfers.ImportType
+  commentId: T:Vasont.Inspire.Models.Transfers.ImportType
+  id: ImportType
+  parent: Vasont.Inspire.Models.Transfers
+  children:
+  - Vasont.Inspire.Models.Transfers.ImportType.Edit
+  - Vasont.Inspire.Models.Transfers.ImportType.Standard
+  - Vasont.Inspire.Models.Transfers.ImportType.Translate
+  langs:
+  - csharp
+  - vb
+  name: ImportType
+  nameWithType: ImportType
+  fullName: Vasont.Inspire.Models.Transfers.ImportType
+  type: Enum
+  source:
+    remote:
+      path: src/Transfers/ImportConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ImportType
+    path: Transfers/ImportConfigurationModel.cs
+    startLine: 16
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nContains an enumerated list of import types.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum ImportType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum ImportType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Transfers.ImportType.Standard
+  commentId: F:Vasont.Inspire.Models.Transfers.ImportType.Standard
+  id: Standard
+  parent: Vasont.Inspire.Models.Transfers.ImportType
+  langs:
+  - csharp
+  - vb
+  name: Standard
+  nameWithType: ImportType.Standard
+  fullName: Vasont.Inspire.Models.Transfers.ImportType.Standard
+  type: Field
+  source:
+    remote:
+      path: src/Transfers/ImportConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Standard
+    path: Transfers/ImportConfigurationModel.cs
+    startLine: 22
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nThe import is standard.\n"
+  example: []
+  syntax:
+    content: Standard = 0
+    return:
+      type: Vasont.Inspire.Models.Transfers.ImportType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Transfers.ImportType.Edit
+  commentId: F:Vasont.Inspire.Models.Transfers.ImportType.Edit
+  id: Edit
+  parent: Vasont.Inspire.Models.Transfers.ImportType
+  langs:
+  - csharp
+  - vb
+  name: Edit
+  nameWithType: ImportType.Edit
+  fullName: Vasont.Inspire.Models.Transfers.ImportType.Edit
+  type: Field
+  source:
+    remote:
+      path: src/Transfers/ImportConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Edit
+    path: Transfers/ImportConfigurationModel.cs
+    startLine: 27
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nThe import is used to edit.\n"
+  example: []
+  syntax:
+    content: Edit = 1
+    return:
+      type: Vasont.Inspire.Models.Transfers.ImportType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Transfers.ImportType.Translate
+  commentId: F:Vasont.Inspire.Models.Transfers.ImportType.Translate
+  id: Translate
+  parent: Vasont.Inspire.Models.Transfers.ImportType
+  langs:
+  - csharp
+  - vb
+  name: Translate
+  nameWithType: ImportType.Translate
+  fullName: Vasont.Inspire.Models.Transfers.ImportType.Translate
+  type: Field
+  source:
+    remote:
+      path: src/Transfers/ImportConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Translate
+    path: Transfers/ImportConfigurationModel.cs
+    startLine: 32
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nThe import is used to translate.\n"
+  example: []
+  syntax:
+    content: Translate = 2
+    return:
+      type: Vasont.Inspire.Models.Transfers.ImportType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Transfers
+  commentId: N:Vasont.Inspire.Models.Transfers
+  name: Vasont.Inspire.Models.Transfers
+  nameWithType: Vasont.Inspire.Models.Transfers
+  fullName: Vasont.Inspire.Models.Transfers
+- uid: Vasont.Inspire.Models.Transfers.ImportType
+  commentId: T:Vasont.Inspire.Models.Transfers.ImportType
+  parent: Vasont.Inspire.Models.Transfers
+  name: ImportType
+  nameWithType: ImportType
+  fullName: Vasont.Inspire.Models.Transfers.ImportType

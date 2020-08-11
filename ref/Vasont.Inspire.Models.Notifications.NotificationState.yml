@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Notifications.NotificationState
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationState
+  id: NotificationState
+  parent: Vasont.Inspire.Models.Notifications
+  children:
+  - Vasont.Inspire.Models.Notifications.NotificationState.Archived
+  - Vasont.Inspire.Models.Notifications.NotificationState.Read
+  - Vasont.Inspire.Models.Notifications.NotificationState.Unread
+  langs:
+  - csharp
+  - vb
+  name: NotificationState
+  nameWithType: NotificationState
+  fullName: Vasont.Inspire.Models.Notifications.NotificationState
+  type: Enum
+  source:
+    remote:
+      path: src/Notifications/NotificationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: NotificationState
+    path: Notifications/NotificationModel.cs
+    startLine: 68
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nContains an enumerated list of notification states.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum NotificationState
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum NotificationState
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Notifications.NotificationState.Unread
+  commentId: F:Vasont.Inspire.Models.Notifications.NotificationState.Unread
+  id: Unread
+  parent: Vasont.Inspire.Models.Notifications.NotificationState
+  langs:
+  - csharp
+  - vb
+  name: Unread
+  nameWithType: NotificationState.Unread
+  fullName: Vasont.Inspire.Models.Notifications.NotificationState.Unread
+  type: Field
+  source:
+    remote:
+      path: src/Notifications/NotificationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Unread
+    path: Notifications/NotificationModel.cs
+    startLine: 74
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nThe notification is unread.\n"
+  example: []
+  syntax:
+    content: Unread = 0
+    return:
+      type: Vasont.Inspire.Models.Notifications.NotificationState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Notifications.NotificationState.Read
+  commentId: F:Vasont.Inspire.Models.Notifications.NotificationState.Read
+  id: Read
+  parent: Vasont.Inspire.Models.Notifications.NotificationState
+  langs:
+  - csharp
+  - vb
+  name: Read
+  nameWithType: NotificationState.Read
+  fullName: Vasont.Inspire.Models.Notifications.NotificationState.Read
+  type: Field
+  source:
+    remote:
+      path: src/Notifications/NotificationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Read
+    path: Notifications/NotificationModel.cs
+    startLine: 79
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nThe notification is read.\n"
+  example: []
+  syntax:
+    content: Read = 1
+    return:
+      type: Vasont.Inspire.Models.Notifications.NotificationState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Notifications.NotificationState.Archived
+  commentId: F:Vasont.Inspire.Models.Notifications.NotificationState.Archived
+  id: Archived
+  parent: Vasont.Inspire.Models.Notifications.NotificationState
+  langs:
+  - csharp
+  - vb
+  name: Archived
+  nameWithType: NotificationState.Archived
+  fullName: Vasont.Inspire.Models.Notifications.NotificationState.Archived
+  type: Field
+  source:
+    remote:
+      path: src/Notifications/NotificationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Archived
+    path: Notifications/NotificationModel.cs
+    startLine: 84
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nThe notification is archived.\n"
+  example: []
+  syntax:
+    content: Archived = 2
+    return:
+      type: Vasont.Inspire.Models.Notifications.NotificationState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Notifications
+  commentId: N:Vasont.Inspire.Models.Notifications
+  name: Vasont.Inspire.Models.Notifications
+  nameWithType: Vasont.Inspire.Models.Notifications
+  fullName: Vasont.Inspire.Models.Notifications
+- uid: Vasont.Inspire.Models.Notifications.NotificationState
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationState
+  parent: Vasont.Inspire.Models.Notifications
+  name: NotificationState
+  nameWithType: NotificationState
+  fullName: Vasont.Inspire.Models.Notifications.NotificationState

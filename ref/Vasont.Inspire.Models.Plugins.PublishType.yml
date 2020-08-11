@@ -1,0 +1,235 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Plugins.PublishType
+  commentId: T:Vasont.Inspire.Models.Plugins.PublishType
+  id: PublishType
+  parent: Vasont.Inspire.Models.Plugins
+  children:
+  - Vasont.Inspire.Models.Plugins.PublishType.AntennaHousePdf
+  - Vasont.Inspire.Models.Plugins.PublishType.DocBook
+  - Vasont.Inspire.Models.Plugins.PublishType.Html
+  - Vasont.Inspire.Models.Plugins.PublishType.Pdf
+  - Vasont.Inspire.Models.Plugins.PublishType.Zoomin
+  langs:
+  - csharp
+  - vb
+  name: PublishType
+  nameWithType: PublishType
+  fullName: Vasont.Inspire.Models.Plugins.PublishType
+  type: Enum
+  source:
+    remote:
+      path: src/Plugins/PublishRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PublishType
+    path: Plugins/PublishRequestModel.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nContains an enumerated list of publish types.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum PublishType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum PublishType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Plugins.PublishType.Pdf
+  commentId: F:Vasont.Inspire.Models.Plugins.PublishType.Pdf
+  id: Pdf
+  parent: Vasont.Inspire.Models.Plugins.PublishType
+  langs:
+  - csharp
+  - vb
+  name: Pdf
+  nameWithType: PublishType.Pdf
+  fullName: Vasont.Inspire.Models.Plugins.PublishType.Pdf
+  type: Field
+  source:
+    remote:
+      path: src/Plugins/PublishRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Pdf
+    path: Plugins/PublishRequestModel.cs
+    startLine: 21
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nContains a value that indicates publishing a PDF.\n"
+  example: []
+  syntax:
+    content: Pdf = 0
+    return:
+      type: Vasont.Inspire.Models.Plugins.PublishType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Plugins.PublishType.Html
+  commentId: F:Vasont.Inspire.Models.Plugins.PublishType.Html
+  id: Html
+  parent: Vasont.Inspire.Models.Plugins.PublishType
+  langs:
+  - csharp
+  - vb
+  name: Html
+  nameWithType: PublishType.Html
+  fullName: Vasont.Inspire.Models.Plugins.PublishType.Html
+  type: Field
+  source:
+    remote:
+      path: src/Plugins/PublishRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Html
+    path: Plugins/PublishRequestModel.cs
+    startLine: 26
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nContains a value that indicates publishing to HTML.\n"
+  example: []
+  syntax:
+    content: Html = 1
+    return:
+      type: Vasont.Inspire.Models.Plugins.PublishType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Plugins.PublishType.Zoomin
+  commentId: F:Vasont.Inspire.Models.Plugins.PublishType.Zoomin
+  id: Zoomin
+  parent: Vasont.Inspire.Models.Plugins.PublishType
+  langs:
+  - csharp
+  - vb
+  name: Zoomin
+  nameWithType: PublishType.Zoomin
+  fullName: Vasont.Inspire.Models.Plugins.PublishType.Zoomin
+  type: Field
+  source:
+    remote:
+      path: src/Plugins/PublishRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Zoomin
+    path: Plugins/PublishRequestModel.cs
+    startLine: 31
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nContains a value that indicates publishing to the Zoomin web site.\n"
+  example: []
+  syntax:
+    content: Zoomin = 2
+    return:
+      type: Vasont.Inspire.Models.Plugins.PublishType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Plugins.PublishType.DocBook
+  commentId: F:Vasont.Inspire.Models.Plugins.PublishType.DocBook
+  id: DocBook
+  parent: Vasont.Inspire.Models.Plugins.PublishType
+  langs:
+  - csharp
+  - vb
+  name: DocBook
+  nameWithType: PublishType.DocBook
+  fullName: Vasont.Inspire.Models.Plugins.PublishType.DocBook
+  type: Field
+  source:
+    remote:
+      path: src/Plugins/PublishRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DocBook
+    path: Plugins/PublishRequestModel.cs
+    startLine: 36
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nContains a value that indicates publishing to DocBook.\n"
+  example: []
+  syntax:
+    content: DocBook = 3
+    return:
+      type: Vasont.Inspire.Models.Plugins.PublishType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Plugins.PublishType.AntennaHousePdf
+  commentId: F:Vasont.Inspire.Models.Plugins.PublishType.AntennaHousePdf
+  id: AntennaHousePdf
+  parent: Vasont.Inspire.Models.Plugins.PublishType
+  langs:
+  - csharp
+  - vb
+  name: AntennaHousePdf
+  nameWithType: PublishType.AntennaHousePdf
+  fullName: Vasont.Inspire.Models.Plugins.PublishType.AntennaHousePdf
+  type: Field
+  source:
+    remote:
+      path: src/Plugins/PublishRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: AntennaHousePdf
+    path: Plugins/PublishRequestModel.cs
+    startLine: 41
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nContains a value that indicates publishing to AntennaHouse PDF.\n"
+  example: []
+  syntax:
+    content: AntennaHousePdf = 4
+    return:
+      type: Vasont.Inspire.Models.Plugins.PublishType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Plugins
+  commentId: N:Vasont.Inspire.Models.Plugins
+  name: Vasont.Inspire.Models.Plugins
+  nameWithType: Vasont.Inspire.Models.Plugins
+  fullName: Vasont.Inspire.Models.Plugins
+- uid: Vasont.Inspire.Models.Plugins.PublishType
+  commentId: T:Vasont.Inspire.Models.Plugins.PublishType
+  parent: Vasont.Inspire.Models.Plugins
+  name: PublishType
+  nameWithType: PublishType
+  fullName: Vasont.Inspire.Models.Plugins.PublishType

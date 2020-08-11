@@ -1,0 +1,489 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties
+  commentId: T:Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties
+  id: FolderSnapshotExtendedProperties
+  parent: Vasont.Inspire.Models.Versioning
+  children:
+  - Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.Description
+  - Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.Path
+  - Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.UniqueId
+  langs:
+  - csharp
+  - vb
+  name: FolderSnapshotExtendedProperties
+  nameWithType: FolderSnapshotExtendedProperties
+  fullName: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties
+  type: Class
+  source:
+    remote:
+      path: src/Versioning/FolderSnapshotExtendedProperties.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FolderSnapshotExtendedProperties
+    path: Versioning/FolderSnapshotExtendedProperties.cs
+    startLine: 12
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nThis class contains folder specific properties for a changeset snapshot model.\n"
+  example: []
+  syntax:
+    content: public sealed class FolderSnapshotExtendedProperties
+    content.vb: Public NotInheritable Class FolderSnapshotExtendedProperties
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.UniqueId
+  commentId: P:Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.UniqueId
+  id: UniqueId
+  parent: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties
+  langs:
+  - csharp
+  - vb
+  name: UniqueId
+  nameWithType: FolderSnapshotExtendedProperties.UniqueId
+  fullName: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.UniqueId
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/FolderSnapshotExtendedProperties.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UniqueId
+    path: Versioning/FolderSnapshotExtendedProperties.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the unique identity of the folder.\n"
+  example: []
+  syntax:
+    content: public Guid UniqueId { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property UniqueId As Guid
+  overload: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.UniqueId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.Description
+  commentId: P:Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.Description
+  id: Description
+  parent: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: FolderSnapshotExtendedProperties.Description
+  fullName: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.Description
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/FolderSnapshotExtendedProperties.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Description
+    path: Versioning/FolderSnapshotExtendedProperties.cs
+    startLine: 22
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets an optional description about the folder.\n"
+  example: []
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.Path
+  commentId: P:Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.Path
+  id: Path
+  parent: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties
+  langs:
+  - csharp
+  - vb
+  name: Path
+  nameWithType: FolderSnapshotExtendedProperties.Path
+  fullName: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.Path
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/FolderSnapshotExtendedProperties.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Path
+    path: Versioning/FolderSnapshotExtendedProperties.cs
+    startLine: 27
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the path of the folder.\n"
+  example: []
+  syntax:
+    content: public string Path { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Path As String
+  overload: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.Path*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Versioning
+  commentId: N:Vasont.Inspire.Models.Versioning
+  name: Vasont.Inspire.Models.Versioning
+  nameWithType: Vasont.Inspire.Models.Versioning
+  fullName: Vasont.Inspire.Models.Versioning
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.UniqueId*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.UniqueId
+  name: UniqueId
+  nameWithType: FolderSnapshotExtendedProperties.UniqueId
+  fullName: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.UniqueId
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.Description*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.Description
+  name: Description
+  nameWithType: FolderSnapshotExtendedProperties.Description
+  fullName: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.Description
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.Path*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.Path
+  name: Path
+  nameWithType: FolderSnapshotExtendedProperties.Path
+  fullName: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties.Path

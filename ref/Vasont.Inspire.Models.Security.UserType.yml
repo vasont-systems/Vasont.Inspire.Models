@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Security.UserType
+  commentId: T:Vasont.Inspire.Models.Security.UserType
+  id: UserType
+  parent: Vasont.Inspire.Models.Security
+  children:
+  - Vasont.Inspire.Models.Security.UserType.ReviewOnly
+  - Vasont.Inspire.Models.Security.UserType.Standard
+  - Vasont.Inspire.Models.Security.UserType.Support
+  langs:
+  - csharp
+  - vb
+  name: UserType
+  nameWithType: UserType
+  fullName: Vasont.Inspire.Models.Security.UserType
+  type: Enum
+  source:
+    remote:
+      path: src/Security/UserType.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UserType
+    path: Security/UserType.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nContains an enumerated list of inspire users types.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum UserType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum UserType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Security.UserType.Standard
+  commentId: F:Vasont.Inspire.Models.Security.UserType.Standard
+  id: Standard
+  parent: Vasont.Inspire.Models.Security.UserType
+  langs:
+  - csharp
+  - vb
+  name: Standard
+  nameWithType: UserType.Standard
+  fullName: Vasont.Inspire.Models.Security.UserType.Standard
+  type: Field
+  source:
+    remote:
+      path: src/Security/UserType.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Standard
+    path: Security/UserType.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nUser is a basic user.\n"
+  example: []
+  syntax:
+    content: Standard = 1
+    return:
+      type: Vasont.Inspire.Models.Security.UserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Security.UserType.ReviewOnly
+  commentId: F:Vasont.Inspire.Models.Security.UserType.ReviewOnly
+  id: ReviewOnly
+  parent: Vasont.Inspire.Models.Security.UserType
+  langs:
+  - csharp
+  - vb
+  name: ReviewOnly
+  nameWithType: UserType.ReviewOnly
+  fullName: Vasont.Inspire.Models.Security.UserType.ReviewOnly
+  type: Field
+  source:
+    remote:
+      path: src/Security/UserType.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewOnly
+    path: Security/UserType.cs
+    startLine: 24
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nUser is a basic Inspire seat license\n"
+  example: []
+  syntax:
+    content: ReviewOnly = 2
+    return:
+      type: Vasont.Inspire.Models.Security.UserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Security.UserType.Support
+  commentId: F:Vasont.Inspire.Models.Security.UserType.Support
+  id: Support
+  parent: Vasont.Inspire.Models.Security.UserType
+  langs:
+  - csharp
+  - vb
+  name: Support
+  nameWithType: UserType.Support
+  fullName: Vasont.Inspire.Models.Security.UserType.Support
+  type: Field
+  source:
+    remote:
+      path: src/Security/UserType.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Support
+    path: Security/UserType.cs
+    startLine: 29
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nUser is a Vasont support user.\n"
+  example: []
+  syntax:
+    content: Support = 3
+    return:
+      type: Vasont.Inspire.Models.Security.UserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Security
+  commentId: N:Vasont.Inspire.Models.Security
+  name: Vasont.Inspire.Models.Security
+  nameWithType: Vasont.Inspire.Models.Security
+  fullName: Vasont.Inspire.Models.Security
+- uid: Vasont.Inspire.Models.Security.UserType
+  commentId: T:Vasont.Inspire.Models.Security.UserType
+  parent: Vasont.Inspire.Models.Security
+  name: UserType
+  nameWithType: UserType
+  fullName: Vasont.Inspire.Models.Security.UserType

@@ -1,0 +1,745 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Security.ModulePropertyModel
+  commentId: T:Vasont.Inspire.Models.Security.ModulePropertyModel
+  id: ModulePropertyModel
+  parent: Vasont.Inspire.Models.Security
+  children:
+  - Vasont.Inspire.Models.Security.ModulePropertyModel.Description
+  - Vasont.Inspire.Models.Security.ModulePropertyModel.ModuleId
+  - Vasont.Inspire.Models.Security.ModulePropertyModel.ModulePropertyId
+  - Vasont.Inspire.Models.Security.ModulePropertyModel.Name
+  - Vasont.Inspire.Models.Security.ModulePropertyModel.Roles
+  - Vasont.Inspire.Models.Security.ModulePropertyModel.Users
+  langs:
+  - csharp
+  - vb
+  name: ModulePropertyModel
+  nameWithType: ModulePropertyModel
+  fullName: Vasont.Inspire.Models.Security.ModulePropertyModel
+  type: Class
+  source:
+    remote:
+      path: src/Security/ModulePropertyModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ModulePropertyModel
+    path: Security/ModulePropertyModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nThis class represents a module property definition within the application.\n"
+  example: []
+  syntax:
+    content: public class ModulePropertyModel
+    content.vb: Public Class ModulePropertyModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Security.ModulePropertyModel.ModulePropertyId
+  commentId: P:Vasont.Inspire.Models.Security.ModulePropertyModel.ModulePropertyId
+  id: ModulePropertyId
+  parent: Vasont.Inspire.Models.Security.ModulePropertyModel
+  langs:
+  - csharp
+  - vb
+  name: ModulePropertyId
+  nameWithType: ModulePropertyModel.ModulePropertyId
+  fullName: Vasont.Inspire.Models.Security.ModulePropertyModel.ModulePropertyId
+  type: Property
+  source:
+    remote:
+      path: src/Security/ModulePropertyModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ModulePropertyId
+    path: Security/ModulePropertyModel.cs
+    startLine: 18
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets the module property unique identity.\n"
+  example: []
+  syntax:
+    content: public long ModulePropertyId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ModulePropertyId As Long
+  overload: Vasont.Inspire.Models.Security.ModulePropertyModel.ModulePropertyId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Security.ModulePropertyModel.ModuleId
+  commentId: P:Vasont.Inspire.Models.Security.ModulePropertyModel.ModuleId
+  id: ModuleId
+  parent: Vasont.Inspire.Models.Security.ModulePropertyModel
+  langs:
+  - csharp
+  - vb
+  name: ModuleId
+  nameWithType: ModulePropertyModel.ModuleId
+  fullName: Vasont.Inspire.Models.Security.ModulePropertyModel.ModuleId
+  type: Property
+  source:
+    remote:
+      path: src/Security/ModulePropertyModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ModuleId
+    path: Security/ModulePropertyModel.cs
+    startLine: 23
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets the associated module identity.\n"
+  example: []
+  syntax:
+    content: public long ModuleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ModuleId As Long
+  overload: Vasont.Inspire.Models.Security.ModulePropertyModel.ModuleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Security.ModulePropertyModel.Name
+  commentId: P:Vasont.Inspire.Models.Security.ModulePropertyModel.Name
+  id: Name
+  parent: Vasont.Inspire.Models.Security.ModulePropertyModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ModulePropertyModel.Name
+  fullName: Vasont.Inspire.Models.Security.ModulePropertyModel.Name
+  type: Property
+  source:
+    remote:
+      path: src/Security/ModulePropertyModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Name
+    path: Security/ModulePropertyModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets the unique property Name for the module.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Vasont.Inspire.Models.Security.ModulePropertyModel.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Security.ModulePropertyModel.Description
+  commentId: P:Vasont.Inspire.Models.Security.ModulePropertyModel.Description
+  id: Description
+  parent: Vasont.Inspire.Models.Security.ModulePropertyModel
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: ModulePropertyModel.Description
+  fullName: Vasont.Inspire.Models.Security.ModulePropertyModel.Description
+  type: Property
+  source:
+    remote:
+      path: src/Security/ModulePropertyModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Description
+    path: Security/ModulePropertyModel.cs
+    startLine: 33
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets an optional description for the module.\n"
+  example: []
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Vasont.Inspire.Models.Security.ModulePropertyModel.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Security.ModulePropertyModel.Roles
+  commentId: P:Vasont.Inspire.Models.Security.ModulePropertyModel.Roles
+  id: Roles
+  parent: Vasont.Inspire.Models.Security.ModulePropertyModel
+  langs:
+  - csharp
+  - vb
+  name: Roles
+  nameWithType: ModulePropertyModel.Roles
+  fullName: Vasont.Inspire.Models.Security.ModulePropertyModel.Roles
+  type: Property
+  source:
+    remote:
+      path: src/Security/ModulePropertyModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Roles
+    path: Security/ModulePropertyModel.cs
+    startLine: 38
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets a list of roles assigned access to the property.\n"
+  example: []
+  syntax:
+    content: public List<MinimalRoleModel> Roles { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Security.MinimalRoleModel}
+    content.vb: Public Property Roles As List(Of MinimalRoleModel)
+  overload: Vasont.Inspire.Models.Security.ModulePropertyModel.Roles*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Security.ModulePropertyModel.Users
+  commentId: P:Vasont.Inspire.Models.Security.ModulePropertyModel.Users
+  id: Users
+  parent: Vasont.Inspire.Models.Security.ModulePropertyModel
+  langs:
+  - csharp
+  - vb
+  name: Users
+  nameWithType: ModulePropertyModel.Users
+  fullName: Vasont.Inspire.Models.Security.ModulePropertyModel.Users
+  type: Property
+  source:
+    remote:
+      path: src/Security/ModulePropertyModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Users
+    path: Security/ModulePropertyModel.cs
+    startLine: 43
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets a list of users assigned access to the property.\n"
+  example: []
+  syntax:
+    content: public List<MinimalUserModel> Users { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Security.MinimalUserModel}
+    content.vb: Public Property Users As List(Of MinimalUserModel)
+  overload: Vasont.Inspire.Models.Security.ModulePropertyModel.Users*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Security
+  commentId: N:Vasont.Inspire.Models.Security
+  name: Vasont.Inspire.Models.Security
+  nameWithType: Vasont.Inspire.Models.Security
+  fullName: Vasont.Inspire.Models.Security
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Security.ModulePropertyModel.ModulePropertyId*
+  commentId: Overload:Vasont.Inspire.Models.Security.ModulePropertyModel.ModulePropertyId
+  name: ModulePropertyId
+  nameWithType: ModulePropertyModel.ModulePropertyId
+  fullName: Vasont.Inspire.Models.Security.ModulePropertyModel.ModulePropertyId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Security.ModulePropertyModel.ModuleId*
+  commentId: Overload:Vasont.Inspire.Models.Security.ModulePropertyModel.ModuleId
+  name: ModuleId
+  nameWithType: ModulePropertyModel.ModuleId
+  fullName: Vasont.Inspire.Models.Security.ModulePropertyModel.ModuleId
+- uid: Vasont.Inspire.Models.Security.ModulePropertyModel.Name*
+  commentId: Overload:Vasont.Inspire.Models.Security.ModulePropertyModel.Name
+  name: Name
+  nameWithType: ModulePropertyModel.Name
+  fullName: Vasont.Inspire.Models.Security.ModulePropertyModel.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Security.ModulePropertyModel.Description*
+  commentId: Overload:Vasont.Inspire.Models.Security.ModulePropertyModel.Description
+  name: Description
+  nameWithType: ModulePropertyModel.Description
+  fullName: Vasont.Inspire.Models.Security.ModulePropertyModel.Description
+- uid: Vasont.Inspire.Models.Security.ModulePropertyModel.Roles*
+  commentId: Overload:Vasont.Inspire.Models.Security.ModulePropertyModel.Roles
+  name: Roles
+  nameWithType: ModulePropertyModel.Roles
+  fullName: Vasont.Inspire.Models.Security.ModulePropertyModel.Roles
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Security.MinimalRoleModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Security.MinimalRoleModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<MinimalRoleModel>
+  nameWithType: List<MinimalRoleModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Security.MinimalRoleModel>
+  nameWithType.vb: List(Of MinimalRoleModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Security.MinimalRoleModel)
+  name.vb: List(Of MinimalRoleModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Security.MinimalRoleModel
+    name: MinimalRoleModel
+    nameWithType: MinimalRoleModel
+    fullName: Vasont.Inspire.Models.Security.MinimalRoleModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Security.MinimalRoleModel
+    name: MinimalRoleModel
+    nameWithType: MinimalRoleModel
+    fullName: Vasont.Inspire.Models.Security.MinimalRoleModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Security.ModulePropertyModel.Users*
+  commentId: Overload:Vasont.Inspire.Models.Security.ModulePropertyModel.Users
+  name: Users
+  nameWithType: ModulePropertyModel.Users
+  fullName: Vasont.Inspire.Models.Security.ModulePropertyModel.Users
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Security.MinimalUserModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Security.MinimalUserModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<MinimalUserModel>
+  nameWithType: List<MinimalUserModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Security.MinimalUserModel>
+  nameWithType.vb: List(Of MinimalUserModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Security.MinimalUserModel)
+  name.vb: List(Of MinimalUserModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Security.MinimalUserModel
+    name: MinimalUserModel
+    nameWithType: MinimalUserModel
+    fullName: Vasont.Inspire.Models.Security.MinimalUserModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Security.MinimalUserModel
+    name: MinimalUserModel
+    nameWithType: MinimalUserModel
+    fullName: Vasont.Inspire.Models.Security.MinimalUserModel
+  - name: )
+    nameWithType: )
+    fullName: )

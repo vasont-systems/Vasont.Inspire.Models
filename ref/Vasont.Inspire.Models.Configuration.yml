@@ -1,0 +1,67 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Configuration
+  commentId: N:Vasont.Inspire.Models.Configuration
+  id: Vasont.Inspire.Models.Configuration
+  children:
+  - Vasont.Inspire.Models.Configuration.AttributeModel
+  - Vasont.Inspire.Models.Configuration.ElementModel
+  - Vasont.Inspire.Models.Configuration.LinkMethodModel
+  - Vasont.Inspire.Models.Configuration.MinimalRelationModel
+  - Vasont.Inspire.Models.Configuration.RelationKeyName
+  - Vasont.Inspire.Models.Configuration.RelationModel
+  - Vasont.Inspire.Models.Configuration.XmlLinkTypeModel
+  langs:
+  - csharp
+  - vb
+  name: Vasont.Inspire.Models.Configuration
+  nameWithType: Vasont.Inspire.Models.Configuration
+  fullName: Vasont.Inspire.Models.Configuration
+  type: Namespace
+  assemblies:
+  - Vasont.Inspire.Models
+references:
+- uid: Vasont.Inspire.Models.Configuration.AttributeModel
+  commentId: T:Vasont.Inspire.Models.Configuration.AttributeModel
+  parent: Vasont.Inspire.Models.Configuration
+  name: AttributeModel
+  nameWithType: AttributeModel
+  fullName: Vasont.Inspire.Models.Configuration.AttributeModel
+- uid: Vasont.Inspire.Models.Configuration.ElementModel
+  commentId: T:Vasont.Inspire.Models.Configuration.ElementModel
+  name: ElementModel
+  nameWithType: ElementModel
+  fullName: Vasont.Inspire.Models.Configuration.ElementModel
+- uid: Vasont.Inspire.Models.Configuration.LinkMethodModel
+  commentId: T:Vasont.Inspire.Models.Configuration.LinkMethodModel
+  parent: Vasont.Inspire.Models.Configuration
+  name: LinkMethodModel
+  nameWithType: LinkMethodModel
+  fullName: Vasont.Inspire.Models.Configuration.LinkMethodModel
+- uid: Vasont.Inspire.Models.Configuration.MinimalRelationModel
+  commentId: T:Vasont.Inspire.Models.Configuration.MinimalRelationModel
+  name: MinimalRelationModel
+  nameWithType: MinimalRelationModel
+  fullName: Vasont.Inspire.Models.Configuration.MinimalRelationModel
+- uid: Vasont.Inspire.Models.Configuration.RelationKeyName
+  commentId: T:Vasont.Inspire.Models.Configuration.RelationKeyName
+  parent: Vasont.Inspire.Models.Configuration
+  name: RelationKeyName
+  nameWithType: RelationKeyName
+  fullName: Vasont.Inspire.Models.Configuration.RelationKeyName
+- uid: Vasont.Inspire.Models.Configuration.RelationModel
+  commentId: T:Vasont.Inspire.Models.Configuration.RelationModel
+  name: RelationModel
+  nameWithType: RelationModel
+  fullName: Vasont.Inspire.Models.Configuration.RelationModel
+- uid: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel
+  commentId: T:Vasont.Inspire.Models.Configuration.XmlLinkTypeModel
+  parent: Vasont.Inspire.Models.Configuration
+  name: XmlLinkTypeModel
+  nameWithType: XmlLinkTypeModel
+  fullName: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel
+- uid: Vasont.Inspire.Models.Configuration
+  commentId: N:Vasont.Inspire.Models.Configuration
+  name: Vasont.Inspire.Models.Configuration
+  nameWithType: Vasont.Inspire.Models.Configuration
+  fullName: Vasont.Inspire.Models.Configuration

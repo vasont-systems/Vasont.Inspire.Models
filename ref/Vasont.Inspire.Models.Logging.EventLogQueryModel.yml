@@ -1,0 +1,605 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Logging.EventLogQueryModel
+  commentId: T:Vasont.Inspire.Models.Logging.EventLogQueryModel
+  id: EventLogQueryModel
+  parent: Vasont.Inspire.Models.Logging
+  children:
+  - Vasont.Inspire.Models.Logging.EventLogQueryModel.EndDate
+  - Vasont.Inspire.Models.Logging.EventLogQueryModel.SearchText
+  - Vasont.Inspire.Models.Logging.EventLogQueryModel.StartDate
+  langs:
+  - csharp
+  - vb
+  name: EventLogQueryModel
+  nameWithType: EventLogQueryModel
+  fullName: Vasont.Inspire.Models.Logging.EventLogQueryModel
+  type: Class
+  source:
+    remote:
+      path: src/Logging/EventLogQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EventLogQueryModel
+    path: Logging/EventLogQueryModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nThis class contains parameters passed to the query for filtering.\n"
+  example: []
+  syntax:
+    content: 'public class EventLogQueryModel : PaginatedQueryRequestModel'
+    content.vb: >-
+      Public Class EventLogQueryModel
+          Inherits PaginatedQueryRequestModel
+  inheritance:
+  - System.Object
+  - Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  inheritedMembers:
+  - Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Page
+  - Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Limit
+  - Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Sort
+  - Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Dir
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Logging.EventLogQueryModel.SearchText
+  commentId: P:Vasont.Inspire.Models.Logging.EventLogQueryModel.SearchText
+  id: SearchText
+  parent: Vasont.Inspire.Models.Logging.EventLogQueryModel
+  langs:
+  - csharp
+  - vb
+  name: SearchText
+  nameWithType: EventLogQueryModel.SearchText
+  fullName: Vasont.Inspire.Models.Logging.EventLogQueryModel.SearchText
+  type: Property
+  source:
+    remote:
+      path: src/Logging/EventLogQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SearchText
+    path: Logging/EventLogQueryModel.cs
+    startLine: 18
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nGets or sets the search text of the paged query.\n"
+  example: []
+  syntax:
+    content: public string SearchText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SearchText As String
+  overload: Vasont.Inspire.Models.Logging.EventLogQueryModel.SearchText*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Logging.EventLogQueryModel.StartDate
+  commentId: P:Vasont.Inspire.Models.Logging.EventLogQueryModel.StartDate
+  id: StartDate
+  parent: Vasont.Inspire.Models.Logging.EventLogQueryModel
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: EventLogQueryModel.StartDate
+  fullName: Vasont.Inspire.Models.Logging.EventLogQueryModel.StartDate
+  type: Property
+  source:
+    remote:
+      path: src/Logging/EventLogQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: StartDate
+    path: Logging/EventLogQueryModel.cs
+    startLine: 23
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nGets or sets the start date of the paged query.\n"
+  example: []
+  syntax:
+    content: public DateTime? StartDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property StartDate As Date?
+  overload: Vasont.Inspire.Models.Logging.EventLogQueryModel.StartDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Logging.EventLogQueryModel.EndDate
+  commentId: P:Vasont.Inspire.Models.Logging.EventLogQueryModel.EndDate
+  id: EndDate
+  parent: Vasont.Inspire.Models.Logging.EventLogQueryModel
+  langs:
+  - csharp
+  - vb
+  name: EndDate
+  nameWithType: EventLogQueryModel.EndDate
+  fullName: Vasont.Inspire.Models.Logging.EventLogQueryModel.EndDate
+  type: Property
+  source:
+    remote:
+      path: src/Logging/EventLogQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EndDate
+    path: Logging/EventLogQueryModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nGets or sets the end date of the paged query.\n"
+  example: []
+  syntax:
+    content: public DateTime? EndDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property EndDate As Date?
+  overload: Vasont.Inspire.Models.Logging.EventLogQueryModel.EndDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Logging
+  commentId: N:Vasont.Inspire.Models.Logging
+  name: Vasont.Inspire.Models.Logging
+  nameWithType: Vasont.Inspire.Models.Logging
+  fullName: Vasont.Inspire.Models.Logging
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  commentId: T:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  parent: Vasont.Inspire.Models.Common
+  name: PaginatedQueryRequestModel
+  nameWithType: PaginatedQueryRequestModel
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Page
+  commentId: P:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Page
+  parent: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  name: Page
+  nameWithType: PaginatedQueryRequestModel.Page
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Page
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Limit
+  commentId: P:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Limit
+  parent: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  name: Limit
+  nameWithType: PaginatedQueryRequestModel.Limit
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Limit
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Sort
+  commentId: P:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Sort
+  parent: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  name: Sort
+  nameWithType: PaginatedQueryRequestModel.Sort
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Sort
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Dir
+  commentId: P:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Dir
+  parent: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  name: Dir
+  nameWithType: PaginatedQueryRequestModel.Dir
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Dir
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Common
+  commentId: N:Vasont.Inspire.Models.Common
+  name: Vasont.Inspire.Models.Common
+  nameWithType: Vasont.Inspire.Models.Common
+  fullName: Vasont.Inspire.Models.Common
+- uid: Vasont.Inspire.Models.Logging.EventLogQueryModel.SearchText*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLogQueryModel.SearchText
+  name: SearchText
+  nameWithType: EventLogQueryModel.SearchText
+  fullName: Vasont.Inspire.Models.Logging.EventLogQueryModel.SearchText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Logging.EventLogQueryModel.StartDate*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLogQueryModel.StartDate
+  name: StartDate
+  nameWithType: EventLogQueryModel.StartDate
+  fullName: Vasont.Inspire.Models.Logging.EventLogQueryModel.StartDate
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Logging.EventLogQueryModel.EndDate*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLogQueryModel.EndDate
+  name: EndDate
+  nameWithType: EventLogQueryModel.EndDate
+  fullName: Vasont.Inspire.Models.Logging.EventLogQueryModel.EndDate

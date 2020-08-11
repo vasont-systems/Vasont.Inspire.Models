@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType
+  commentId: T:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType
+  id: ProfileAttributeItemType
+  parent: Vasont.Inspire.Models.Components.Schema
+  children:
+  - Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType.Attribute
+  - Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType.Group
+  - Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType.Value
+  langs:
+  - csharp
+  - vb
+  name: ProfileAttributeItemType
+  nameWithType: ProfileAttributeItemType
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType
+  type: Enum
+  source:
+    remote:
+      path: src/Components/Schema/ProfileAttributeItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProfileAttributeItemType
+    path: Components/Schema/ProfileAttributeItemModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components.Schema
+  summary: "\nContains an enumerated list of profile attribute item types.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum ProfileAttributeItemType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum ProfileAttributeItemType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType.Attribute
+  commentId: F:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType.Attribute
+  id: Attribute
+  parent: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType
+  langs:
+  - csharp
+  - vb
+  name: Attribute
+  nameWithType: ProfileAttributeItemType.Attribute
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType.Attribute
+  type: Field
+  source:
+    remote:
+      path: src/Components/Schema/ProfileAttributeItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Attribute
+    path: Components/Schema/ProfileAttributeItemModel.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components.Schema
+  summary: "\nThe selector item is an attribute.\n"
+  example: []
+  syntax:
+    content: Attribute = 0
+    return:
+      type: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType.Group
+  commentId: F:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType.Group
+  id: Group
+  parent: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType
+  langs:
+  - csharp
+  - vb
+  name: Group
+  nameWithType: ProfileAttributeItemType.Group
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType.Group
+  type: Field
+  source:
+    remote:
+      path: src/Components/Schema/ProfileAttributeItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Group
+    path: Components/Schema/ProfileAttributeItemModel.cs
+    startLine: 24
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components.Schema
+  summary: "\nThe selector item is a group.\n"
+  example: []
+  syntax:
+    content: Group = 1
+    return:
+      type: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType.Value
+  commentId: F:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType.Value
+  id: Value
+  parent: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: ProfileAttributeItemType.Value
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType.Value
+  type: Field
+  source:
+    remote:
+      path: src/Components/Schema/ProfileAttributeItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Value
+    path: Components/Schema/ProfileAttributeItemModel.cs
+    startLine: 29
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components.Schema
+  summary: "\nThe selector item is a value.\n"
+  example: []
+  syntax:
+    content: Value = 2
+    return:
+      type: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Components.Schema
+  commentId: N:Vasont.Inspire.Models.Components.Schema
+  name: Vasont.Inspire.Models.Components.Schema
+  nameWithType: Vasont.Inspire.Models.Components.Schema
+  fullName: Vasont.Inspire.Models.Components.Schema
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType
+  commentId: T:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType
+  parent: Vasont.Inspire.Models.Components.Schema
+  name: ProfileAttributeItemType
+  nameWithType: ProfileAttributeItemType
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemType

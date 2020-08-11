@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.EditorMode
+  commentId: T:Vasont.Inspire.Models.Components.EditorMode
+  id: EditorMode
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.EditorMode.Edit
+  - Vasont.Inspire.Models.Components.EditorMode.Review
+  - Vasont.Inspire.Models.Components.EditorMode.View
+  langs:
+  - csharp
+  - vb
+  name: EditorMode
+  nameWithType: EditorMode
+  fullName: Vasont.Inspire.Models.Components.EditorMode
+  type: Enum
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EditorMode
+    path: Components/EditorLoadModel.cs
+    startLine: 40
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nContains an enumerated list of editor modes.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum EditorMode
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum EditorMode
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Components.EditorMode.Edit
+  commentId: F:Vasont.Inspire.Models.Components.EditorMode.Edit
+  id: Edit
+  parent: Vasont.Inspire.Models.Components.EditorMode
+  langs:
+  - csharp
+  - vb
+  name: Edit
+  nameWithType: EditorMode.Edit
+  fullName: Vasont.Inspire.Models.Components.EditorMode.Edit
+  type: Field
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Edit
+    path: Components/EditorLoadModel.cs
+    startLine: 46
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThe editor is in editing mode.\n"
+  example: []
+  syntax:
+    content: Edit = 0
+    return:
+      type: Vasont.Inspire.Models.Components.EditorMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.EditorMode.View
+  commentId: F:Vasont.Inspire.Models.Components.EditorMode.View
+  id: View
+  parent: Vasont.Inspire.Models.Components.EditorMode
+  langs:
+  - csharp
+  - vb
+  name: View
+  nameWithType: EditorMode.View
+  fullName: Vasont.Inspire.Models.Components.EditorMode.View
+  type: Field
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: View
+    path: Components/EditorLoadModel.cs
+    startLine: 51
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThe editor is in viewing mode.\n"
+  example: []
+  syntax:
+    content: View = 1
+    return:
+      type: Vasont.Inspire.Models.Components.EditorMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.EditorMode.Review
+  commentId: F:Vasont.Inspire.Models.Components.EditorMode.Review
+  id: Review
+  parent: Vasont.Inspire.Models.Components.EditorMode
+  langs:
+  - csharp
+  - vb
+  name: Review
+  nameWithType: EditorMode.Review
+  fullName: Vasont.Inspire.Models.Components.EditorMode.Review
+  type: Field
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Review
+    path: Components/EditorLoadModel.cs
+    startLine: 56
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThe editor is in reviewing mode.\n"
+  example: []
+  syntax:
+    content: Review = 2
+    return:
+      type: Vasont.Inspire.Models.Components.EditorMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: Vasont.Inspire.Models.Components.EditorMode
+  commentId: T:Vasont.Inspire.Models.Components.EditorMode
+  parent: Vasont.Inspire.Models.Components
+  name: EditorMode
+  nameWithType: EditorMode
+  fullName: Vasont.Inspire.Models.Components.EditorMode

@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Reviews.ReviewComponentType
+  commentId: T:Vasont.Inspire.Models.Reviews.ReviewComponentType
+  id: ReviewComponentType
+  parent: Vasont.Inspire.Models.Reviews
+  children:
+  - Vasont.Inspire.Models.Reviews.ReviewComponentType.Final
+  - Vasont.Inspire.Models.Reviews.ReviewComponentType.Merged
+  - Vasont.Inspire.Models.Reviews.ReviewComponentType.Original
+  - Vasont.Inspire.Models.Reviews.ReviewComponentType.Resolving
+  langs:
+  - csharp
+  - vb
+  name: ReviewComponentType
+  nameWithType: ReviewComponentType
+  fullName: Vasont.Inspire.Models.Reviews.ReviewComponentType
+  type: Enum
+  source:
+    remote:
+      path: src/Reviews/ReviewComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewComponentType
+    path: Reviews/ReviewComponentModel.cs
+    startLine: 16
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nContains an enumerated list of review component types.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum ReviewComponentType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum ReviewComponentType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Reviews.ReviewComponentType.Original
+  commentId: F:Vasont.Inspire.Models.Reviews.ReviewComponentType.Original
+  id: Original
+  parent: Vasont.Inspire.Models.Reviews.ReviewComponentType
+  langs:
+  - csharp
+  - vb
+  name: Original
+  nameWithType: ReviewComponentType.Original
+  fullName: Vasont.Inspire.Models.Reviews.ReviewComponentType.Original
+  type: Field
+  source:
+    remote:
+      path: src/Reviews/ReviewComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Original
+    path: Reviews/ReviewComponentModel.cs
+    startLine: 22
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nContains a value that indicates the original review component content.\n"
+  example: []
+  syntax:
+    content: Original = 0
+    return:
+      type: Vasont.Inspire.Models.Reviews.ReviewComponentType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Reviews.ReviewComponentType.Merged
+  commentId: F:Vasont.Inspire.Models.Reviews.ReviewComponentType.Merged
+  id: Merged
+  parent: Vasont.Inspire.Models.Reviews.ReviewComponentType
+  langs:
+  - csharp
+  - vb
+  name: Merged
+  nameWithType: ReviewComponentType.Merged
+  fullName: Vasont.Inspire.Models.Reviews.ReviewComponentType.Merged
+  type: Field
+  source:
+    remote:
+      path: src/Reviews/ReviewComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Merged
+    path: Reviews/ReviewComponentModel.cs
+    startLine: 27
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nContains a value that indicates the merged review component content.\n"
+  example: []
+  syntax:
+    content: Merged = 1
+    return:
+      type: Vasont.Inspire.Models.Reviews.ReviewComponentType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Reviews.ReviewComponentType.Resolving
+  commentId: F:Vasont.Inspire.Models.Reviews.ReviewComponentType.Resolving
+  id: Resolving
+  parent: Vasont.Inspire.Models.Reviews.ReviewComponentType
+  langs:
+  - csharp
+  - vb
+  name: Resolving
+  nameWithType: ReviewComponentType.Resolving
+  fullName: Vasont.Inspire.Models.Reviews.ReviewComponentType.Resolving
+  type: Field
+  source:
+    remote:
+      path: src/Reviews/ReviewComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Resolving
+    path: Reviews/ReviewComponentModel.cs
+    startLine: 32
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nContains a value that indicates the merged review component is being resolved.\n"
+  example: []
+  syntax:
+    content: Resolving = 2
+    return:
+      type: Vasont.Inspire.Models.Reviews.ReviewComponentType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Reviews.ReviewComponentType.Final
+  commentId: F:Vasont.Inspire.Models.Reviews.ReviewComponentType.Final
+  id: Final
+  parent: Vasont.Inspire.Models.Reviews.ReviewComponentType
+  langs:
+  - csharp
+  - vb
+  name: Final
+  nameWithType: ReviewComponentType.Final
+  fullName: Vasont.Inspire.Models.Reviews.ReviewComponentType.Final
+  type: Field
+  source:
+    remote:
+      path: src/Reviews/ReviewComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Final
+    path: Reviews/ReviewComponentModel.cs
+    startLine: 37
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nContains a value that indicates the final review component content.\n"
+  example: []
+  syntax:
+    content: Final = 3
+    return:
+      type: Vasont.Inspire.Models.Reviews.ReviewComponentType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Reviews
+  commentId: N:Vasont.Inspire.Models.Reviews
+  name: Vasont.Inspire.Models.Reviews
+  nameWithType: Vasont.Inspire.Models.Reviews
+  fullName: Vasont.Inspire.Models.Reviews
+- uid: Vasont.Inspire.Models.Reviews.ReviewComponentType
+  commentId: T:Vasont.Inspire.Models.Reviews.ReviewComponentType
+  parent: Vasont.Inspire.Models.Reviews
+  name: ReviewComponentType
+  nameWithType: ReviewComponentType
+  fullName: Vasont.Inspire.Models.Reviews.ReviewComponentType

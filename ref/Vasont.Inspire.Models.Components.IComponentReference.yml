@@ -1,0 +1,259 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.IComponentReference
+  commentId: T:Vasont.Inspire.Models.Components.IComponentReference
+  id: IComponentReference
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.IComponentReference.Address
+  - Vasont.Inspire.Models.Components.IComponentReference.TargetElementId
+  - Vasont.Inspire.Models.Components.IComponentReference.TargetName
+  - Vasont.Inspire.Models.Components.IComponentReference.TargetRootId
+  - Vasont.Inspire.Models.Components.IComponentReference.ToString
+  langs:
+  - csharp
+  - vb
+  name: IComponentReference
+  nameWithType: IComponentReference
+  fullName: Vasont.Inspire.Models.Components.IComponentReference
+  type: Interface
+  source:
+    remote:
+      path: src/Components/IComponentReference.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IComponentReference
+    path: Components/IComponentReference.cs
+    startLine: 12
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis interface defines a minimum implementation of a component reference model within the application.\n"
+  example: []
+  syntax:
+    content: public interface IComponentReference
+    content.vb: Public Interface IComponentReference
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Vasont.Inspire.Models.Components.IComponentReference.TargetName
+  commentId: P:Vasont.Inspire.Models.Components.IComponentReference.TargetName
+  id: TargetName
+  parent: Vasont.Inspire.Models.Components.IComponentReference
+  langs:
+  - csharp
+  - vb
+  name: TargetName
+  nameWithType: IComponentReference.TargetName
+  fullName: Vasont.Inspire.Models.Components.IComponentReference.TargetName
+  type: Property
+  source:
+    remote:
+      path: src/Components/IComponentReference.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TargetName
+    path: Components/IComponentReference.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the file name.\n"
+  example: []
+  syntax:
+    content: string TargetName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property TargetName As String
+  overload: Vasont.Inspire.Models.Components.IComponentReference.TargetName*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Vasont.Inspire.Models.Components.IComponentReference.TargetRootId
+  commentId: P:Vasont.Inspire.Models.Components.IComponentReference.TargetRootId
+  id: TargetRootId
+  parent: Vasont.Inspire.Models.Components.IComponentReference
+  langs:
+  - csharp
+  - vb
+  name: TargetRootId
+  nameWithType: IComponentReference.TargetRootId
+  fullName: Vasont.Inspire.Models.Components.IComponentReference.TargetRootId
+  type: Property
+  source:
+    remote:
+      path: src/Components/IComponentReference.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TargetRootId
+    path: Components/IComponentReference.cs
+    startLine: 24
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the root identity.\n"
+  example: []
+  syntax:
+    content: string TargetRootId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property TargetRootId As String
+  overload: Vasont.Inspire.Models.Components.IComponentReference.TargetRootId*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Vasont.Inspire.Models.Components.IComponentReference.TargetElementId
+  commentId: P:Vasont.Inspire.Models.Components.IComponentReference.TargetElementId
+  id: TargetElementId
+  parent: Vasont.Inspire.Models.Components.IComponentReference
+  langs:
+  - csharp
+  - vb
+  name: TargetElementId
+  nameWithType: IComponentReference.TargetElementId
+  fullName: Vasont.Inspire.Models.Components.IComponentReference.TargetElementId
+  type: Property
+  source:
+    remote:
+      path: src/Components/IComponentReference.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TargetElementId
+    path: Components/IComponentReference.cs
+    startLine: 29
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the element identity.\n"
+  example: []
+  syntax:
+    content: string TargetElementId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property TargetElementId As String
+  overload: Vasont.Inspire.Models.Components.IComponentReference.TargetElementId*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Vasont.Inspire.Models.Components.IComponentReference.Address
+  commentId: P:Vasont.Inspire.Models.Components.IComponentReference.Address
+  id: Address
+  parent: Vasont.Inspire.Models.Components.IComponentReference
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: IComponentReference.Address
+  fullName: Vasont.Inspire.Models.Components.IComponentReference.Address
+  type: Property
+  source:
+    remote:
+      path: src/Components/IComponentReference.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Address
+    path: Components/IComponentReference.cs
+    startLine: 34
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a Uri object for the reference.\n"
+  example: []
+  syntax:
+    content: Uri Address { get; set; }
+    parameters: []
+    return:
+      type: System.Uri
+    content.vb: Property Address As Uri
+  overload: Vasont.Inspire.Models.Components.IComponentReference.Address*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Vasont.Inspire.Models.Components.IComponentReference.ToString
+  commentId: M:Vasont.Inspire.Models.Components.IComponentReference.ToString
+  id: ToString
+  parent: Vasont.Inspire.Models.Components.IComponentReference
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: IComponentReference.ToString()
+  fullName: Vasont.Inspire.Models.Components.IComponentReference.ToString()
+  type: Method
+  source:
+    remote:
+      path: src/Components/IComponentReference.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ToString
+    path: Components/IComponentReference.cs
+    startLine: 44
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis method is used to convert the object to a content reference pointer string.\n"
+  example: []
+  syntax:
+    content: string ToString()
+    return:
+      type: System.String
+      description: Returns the object properties as a formatted string for the definition.
+    content.vb: Function ToString As String
+  overload: Vasont.Inspire.Models.Components.IComponentReference.ToString*
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: Vasont.Inspire.Models.Components.IComponentReference.TargetName*
+  commentId: Overload:Vasont.Inspire.Models.Components.IComponentReference.TargetName
+  name: TargetName
+  nameWithType: IComponentReference.TargetName
+  fullName: Vasont.Inspire.Models.Components.IComponentReference.TargetName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Components.IComponentReference.TargetRootId*
+  commentId: Overload:Vasont.Inspire.Models.Components.IComponentReference.TargetRootId
+  name: TargetRootId
+  nameWithType: IComponentReference.TargetRootId
+  fullName: Vasont.Inspire.Models.Components.IComponentReference.TargetRootId
+- uid: Vasont.Inspire.Models.Components.IComponentReference.TargetElementId*
+  commentId: Overload:Vasont.Inspire.Models.Components.IComponentReference.TargetElementId
+  name: TargetElementId
+  nameWithType: IComponentReference.TargetElementId
+  fullName: Vasont.Inspire.Models.Components.IComponentReference.TargetElementId
+- uid: Vasont.Inspire.Models.Components.IComponentReference.Address*
+  commentId: Overload:Vasont.Inspire.Models.Components.IComponentReference.Address
+  name: Address
+  nameWithType: IComponentReference.Address
+  fullName: Vasont.Inspire.Models.Components.IComponentReference.Address
+- uid: System.Uri
+  commentId: T:System.Uri
+  parent: System
+  isExternal: true
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri
+- uid: Vasont.Inspire.Models.Components.IComponentReference.ToString*
+  commentId: Overload:Vasont.Inspire.Models.Components.IComponentReference.ToString
+  name: ToString
+  nameWithType: IComponentReference.ToString
+  fullName: Vasont.Inspire.Models.Components.IComponentReference.ToString

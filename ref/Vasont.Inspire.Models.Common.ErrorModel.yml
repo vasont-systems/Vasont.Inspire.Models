@@ -1,0 +1,683 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Common.ErrorModel
+  commentId: T:Vasont.Inspire.Models.Common.ErrorModel
+  id: ErrorModel
+  parent: Vasont.Inspire.Models.Common
+  children:
+  - Vasont.Inspire.Models.Common.ErrorModel.#ctor
+  - Vasont.Inspire.Models.Common.ErrorModel.#ctor(System.String,Vasont.Inspire.Core.Errors.ErrorType,System.DateTime,System.String,System.String)
+  - Vasont.Inspire.Models.Common.ErrorModel.ErrorType
+  - Vasont.Inspire.Models.Common.ErrorModel.EventDate
+  - Vasont.Inspire.Models.Common.ErrorModel.Message
+  - Vasont.Inspire.Models.Common.ErrorModel.PropertyName
+  - Vasont.Inspire.Models.Common.ErrorModel.StackTrace
+  langs:
+  - csharp
+  - vb
+  name: ErrorModel
+  nameWithType: ErrorModel
+  fullName: Vasont.Inspire.Models.Common.ErrorModel
+  type: Class
+  source:
+    remote:
+      path: src/Common/ErrorModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ErrorModel
+    path: Common/ErrorModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nThis class represents an error message within the <xref href=\"Vasont.Inspire.Models.Common.ErrorResponseModel\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public class ErrorModel
+    content.vb: Public Class ErrorModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Common.ErrorModel.#ctor
+  commentId: M:Vasont.Inspire.Models.Common.ErrorModel.#ctor
+  id: '#ctor'
+  parent: Vasont.Inspire.Models.Common.ErrorModel
+  langs:
+  - csharp
+  - vb
+  name: ErrorModel()
+  nameWithType: ErrorModel.ErrorModel()
+  fullName: Vasont.Inspire.Models.Common.ErrorModel.ErrorModel()
+  type: Constructor
+  source:
+    remote:
+      path: src/Common/ErrorModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: .ctor
+    path: Common/ErrorModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nInitializes a new instance of the <xref href=\"Vasont.Inspire.Models.Common.ErrorModel\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public ErrorModel()
+    content.vb: Public Sub New
+  overload: Vasont.Inspire.Models.Common.ErrorModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.ErrorModel.#ctor(System.String,Vasont.Inspire.Core.Errors.ErrorType,System.DateTime,System.String,System.String)
+  commentId: M:Vasont.Inspire.Models.Common.ErrorModel.#ctor(System.String,Vasont.Inspire.Core.Errors.ErrorType,System.DateTime,System.String,System.String)
+  id: '#ctor(System.String,Vasont.Inspire.Core.Errors.ErrorType,System.DateTime,System.String,System.String)'
+  parent: Vasont.Inspire.Models.Common.ErrorModel
+  langs:
+  - csharp
+  - vb
+  name: ErrorModel(String, ErrorType, DateTime, String, String)
+  nameWithType: ErrorModel.ErrorModel(String, ErrorType, DateTime, String, String)
+  fullName: Vasont.Inspire.Models.Common.ErrorModel.ErrorModel(System.String, Vasont.Inspire.Core.Errors.ErrorType, System.DateTime, System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: src/Common/ErrorModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: .ctor
+    path: Common/ErrorModel.cs
+    startLine: 33
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nInitializes a new instance of the <xref href=\"Vasont.Inspire.Models.Common.ErrorModel\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public ErrorModel(string message, ErrorType type, DateTime eventDate, string stackTrace, string propertyName = "")
+    parameters:
+    - id: message
+      type: System.String
+      description: Contains the error message text.
+    - id: type
+      type: Vasont.Inspire.Core.Errors.ErrorType
+      description: Contains the error message type.
+    - id: eventDate
+      type: System.DateTime
+      description: Contains the date time when the error was created.
+    - id: stackTrace
+      type: System.String
+      description: Contains an error stack trace message.
+    - id: propertyName
+      type: System.String
+      description: Contains the property name for validation errors.
+    content.vb: Public Sub New(message As String, type As ErrorType, eventDate As Date, stackTrace As String, propertyName As String = "")
+  overload: Vasont.Inspire.Models.Common.ErrorModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.ErrorModel.ErrorType
+  commentId: P:Vasont.Inspire.Models.Common.ErrorModel.ErrorType
+  id: ErrorType
+  parent: Vasont.Inspire.Models.Common.ErrorModel
+  langs:
+  - csharp
+  - vb
+  name: ErrorType
+  nameWithType: ErrorModel.ErrorType
+  fullName: Vasont.Inspire.Models.Common.ErrorModel.ErrorType
+  type: Property
+  source:
+    remote:
+      path: src/Common/ErrorModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ErrorType
+    path: Common/ErrorModel.cs
+    startLine: 49
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the error message type.\n"
+  example: []
+  syntax:
+    content: public ErrorType ErrorType { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Core.Errors.ErrorType
+    content.vb: Public Property ErrorType As ErrorType
+  overload: Vasont.Inspire.Models.Common.ErrorModel.ErrorType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.ErrorModel.Message
+  commentId: P:Vasont.Inspire.Models.Common.ErrorModel.Message
+  id: Message
+  parent: Vasont.Inspire.Models.Common.ErrorModel
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: ErrorModel.Message
+  fullName: Vasont.Inspire.Models.Common.ErrorModel.Message
+  type: Property
+  source:
+    remote:
+      path: src/Common/ErrorModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Message
+    path: Common/ErrorModel.cs
+    startLine: 54
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the error message text.\n"
+  example: []
+  syntax:
+    content: public string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Message As String
+  overload: Vasont.Inspire.Models.Common.ErrorModel.Message*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.ErrorModel.PropertyName
+  commentId: P:Vasont.Inspire.Models.Common.ErrorModel.PropertyName
+  id: PropertyName
+  parent: Vasont.Inspire.Models.Common.ErrorModel
+  langs:
+  - csharp
+  - vb
+  name: PropertyName
+  nameWithType: ErrorModel.PropertyName
+  fullName: Vasont.Inspire.Models.Common.ErrorModel.PropertyName
+  type: Property
+  source:
+    remote:
+      path: src/Common/ErrorModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PropertyName
+    path: Common/ErrorModel.cs
+    startLine: 59
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets a related property name.\n"
+  example: []
+  syntax:
+    content: public string PropertyName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PropertyName As String
+  overload: Vasont.Inspire.Models.Common.ErrorModel.PropertyName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.ErrorModel.EventDate
+  commentId: P:Vasont.Inspire.Models.Common.ErrorModel.EventDate
+  id: EventDate
+  parent: Vasont.Inspire.Models.Common.ErrorModel
+  langs:
+  - csharp
+  - vb
+  name: EventDate
+  nameWithType: ErrorModel.EventDate
+  fullName: Vasont.Inspire.Models.Common.ErrorModel.EventDate
+  type: Property
+  source:
+    remote:
+      path: src/Common/ErrorModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EventDate
+    path: Common/ErrorModel.cs
+    startLine: 64
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the date time when the error was generated.\n"
+  example: []
+  syntax:
+    content: public DateTime EventDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property EventDate As Date
+  overload: Vasont.Inspire.Models.Common.ErrorModel.EventDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.ErrorModel.StackTrace
+  commentId: P:Vasont.Inspire.Models.Common.ErrorModel.StackTrace
+  id: StackTrace
+  parent: Vasont.Inspire.Models.Common.ErrorModel
+  langs:
+  - csharp
+  - vb
+  name: StackTrace
+  nameWithType: ErrorModel.StackTrace
+  fullName: Vasont.Inspire.Models.Common.ErrorModel.StackTrace
+  type: Property
+  source:
+    remote:
+      path: src/Common/ErrorModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: StackTrace
+    path: Common/ErrorModel.cs
+    startLine: 69
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the error stack trace generated if any.\n"
+  example: []
+  syntax:
+    content: public string StackTrace { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StackTrace As String
+  overload: Vasont.Inspire.Models.Common.ErrorModel.StackTrace*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Common.ErrorResponseModel
+  commentId: T:Vasont.Inspire.Models.Common.ErrorResponseModel
+  name: ErrorResponseModel
+  nameWithType: ErrorResponseModel
+  fullName: Vasont.Inspire.Models.Common.ErrorResponseModel
+- uid: Vasont.Inspire.Models.Common
+  commentId: N:Vasont.Inspire.Models.Common
+  name: Vasont.Inspire.Models.Common
+  nameWithType: Vasont.Inspire.Models.Common
+  fullName: Vasont.Inspire.Models.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Common.ErrorModel
+  commentId: T:Vasont.Inspire.Models.Common.ErrorModel
+  name: ErrorModel
+  nameWithType: ErrorModel
+  fullName: Vasont.Inspire.Models.Common.ErrorModel
+- uid: Vasont.Inspire.Models.Common.ErrorModel.#ctor*
+  commentId: Overload:Vasont.Inspire.Models.Common.ErrorModel.#ctor
+  name: ErrorModel
+  nameWithType: ErrorModel.ErrorModel
+  fullName: Vasont.Inspire.Models.Common.ErrorModel.ErrorModel
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Core.Errors.ErrorType
+  commentId: T:Vasont.Inspire.Core.Errors.ErrorType
+  parent: Vasont.Inspire.Core.Errors
+  isExternal: true
+  name: ErrorType
+  nameWithType: ErrorType
+  fullName: Vasont.Inspire.Core.Errors.ErrorType
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Vasont.Inspire.Core.Errors
+  commentId: N:Vasont.Inspire.Core.Errors
+  isExternal: true
+  name: Vasont.Inspire.Core.Errors
+  nameWithType: Vasont.Inspire.Core.Errors
+  fullName: Vasont.Inspire.Core.Errors
+- uid: Vasont.Inspire.Models.Common.ErrorModel.ErrorType*
+  commentId: Overload:Vasont.Inspire.Models.Common.ErrorModel.ErrorType
+  name: ErrorType
+  nameWithType: ErrorModel.ErrorType
+  fullName: Vasont.Inspire.Models.Common.ErrorModel.ErrorType
+- uid: Vasont.Inspire.Models.Common.ErrorModel.Message*
+  commentId: Overload:Vasont.Inspire.Models.Common.ErrorModel.Message
+  name: Message
+  nameWithType: ErrorModel.Message
+  fullName: Vasont.Inspire.Models.Common.ErrorModel.Message
+- uid: Vasont.Inspire.Models.Common.ErrorModel.PropertyName*
+  commentId: Overload:Vasont.Inspire.Models.Common.ErrorModel.PropertyName
+  name: PropertyName
+  nameWithType: ErrorModel.PropertyName
+  fullName: Vasont.Inspire.Models.Common.ErrorModel.PropertyName
+- uid: Vasont.Inspire.Models.Common.ErrorModel.EventDate*
+  commentId: Overload:Vasont.Inspire.Models.Common.ErrorModel.EventDate
+  name: EventDate
+  nameWithType: ErrorModel.EventDate
+  fullName: Vasont.Inspire.Models.Common.ErrorModel.EventDate
+- uid: Vasont.Inspire.Models.Common.ErrorModel.StackTrace*
+  commentId: Overload:Vasont.Inspire.Models.Common.ErrorModel.StackTrace
+  name: StackTrace
+  nameWithType: ErrorModel.StackTrace
+  fullName: Vasont.Inspire.Models.Common.ErrorModel.StackTrace

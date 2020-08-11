@@ -1,0 +1,537 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Versioning.CreateSnapshotModel
+  commentId: T:Vasont.Inspire.Models.Versioning.CreateSnapshotModel
+  id: CreateSnapshotModel
+  parent: Vasont.Inspire.Models.Versioning
+  children:
+  - Vasont.Inspire.Models.Versioning.CreateSnapshotModel.Comment
+  - Vasont.Inspire.Models.Versioning.CreateSnapshotModel.ComponentId
+  - Vasont.Inspire.Models.Versioning.CreateSnapshotModel.IncludeReferencedContent
+  - Vasont.Inspire.Models.Versioning.CreateSnapshotModel.Label
+  langs:
+  - csharp
+  - vb
+  name: CreateSnapshotModel
+  nameWithType: CreateSnapshotModel
+  fullName: Vasont.Inspire.Models.Versioning.CreateSnapshotModel
+  type: Class
+  source:
+    remote:
+      path: src/Versioning/CreateSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CreateSnapshotModel
+    path: Versioning/CreateSnapshotModel.cs
+    startLine: 10
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nThis class contains values for creating a new snapshot.\n"
+  example: []
+  syntax:
+    content: public class CreateSnapshotModel
+    content.vb: Public Class CreateSnapshotModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Versioning.CreateSnapshotModel.ComponentId
+  commentId: P:Vasont.Inspire.Models.Versioning.CreateSnapshotModel.ComponentId
+  id: ComponentId
+  parent: Vasont.Inspire.Models.Versioning.CreateSnapshotModel
+  langs:
+  - csharp
+  - vb
+  name: ComponentId
+  nameWithType: CreateSnapshotModel.ComponentId
+  fullName: Vasont.Inspire.Models.Versioning.CreateSnapshotModel.ComponentId
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/CreateSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentId
+    path: Versioning/CreateSnapshotModel.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the identity of the component.\n"
+  example: []
+  syntax:
+    content: public long ComponentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ComponentId As Long
+  overload: Vasont.Inspire.Models.Versioning.CreateSnapshotModel.ComponentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.CreateSnapshotModel.IncludeReferencedContent
+  commentId: P:Vasont.Inspire.Models.Versioning.CreateSnapshotModel.IncludeReferencedContent
+  id: IncludeReferencedContent
+  parent: Vasont.Inspire.Models.Versioning.CreateSnapshotModel
+  langs:
+  - csharp
+  - vb
+  name: IncludeReferencedContent
+  nameWithType: CreateSnapshotModel.IncludeReferencedContent
+  fullName: Vasont.Inspire.Models.Versioning.CreateSnapshotModel.IncludeReferencedContent
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/CreateSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IncludeReferencedContent
+    path: Versioning/CreateSnapshotModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets a value indicating whether or not to include referenced content.\n"
+  example: []
+  syntax:
+    content: public bool IncludeReferencedContent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeReferencedContent As Boolean
+  overload: Vasont.Inspire.Models.Versioning.CreateSnapshotModel.IncludeReferencedContent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.CreateSnapshotModel.Label
+  commentId: P:Vasont.Inspire.Models.Versioning.CreateSnapshotModel.Label
+  id: Label
+  parent: Vasont.Inspire.Models.Versioning.CreateSnapshotModel
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: CreateSnapshotModel.Label
+  fullName: Vasont.Inspire.Models.Versioning.CreateSnapshotModel.Label
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/CreateSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Label
+    path: Versioning/CreateSnapshotModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets an optional name for the snapshot.\n"
+  example: []
+  syntax:
+    content: public string Label { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Label As String
+  overload: Vasont.Inspire.Models.Versioning.CreateSnapshotModel.Label*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.CreateSnapshotModel.Comment
+  commentId: P:Vasont.Inspire.Models.Versioning.CreateSnapshotModel.Comment
+  id: Comment
+  parent: Vasont.Inspire.Models.Versioning.CreateSnapshotModel
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: CreateSnapshotModel.Comment
+  fullName: Vasont.Inspire.Models.Versioning.CreateSnapshotModel.Comment
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/CreateSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Comment
+    path: Versioning/CreateSnapshotModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets an optional comment for the snapshot.\n"
+  example: []
+  syntax:
+    content: public string Comment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Comment As String
+  overload: Vasont.Inspire.Models.Versioning.CreateSnapshotModel.Comment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Versioning
+  commentId: N:Vasont.Inspire.Models.Versioning
+  name: Vasont.Inspire.Models.Versioning
+  nameWithType: Vasont.Inspire.Models.Versioning
+  fullName: Vasont.Inspire.Models.Versioning
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Versioning.CreateSnapshotModel.ComponentId*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.CreateSnapshotModel.ComponentId
+  name: ComponentId
+  nameWithType: CreateSnapshotModel.ComponentId
+  fullName: Vasont.Inspire.Models.Versioning.CreateSnapshotModel.ComponentId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Versioning.CreateSnapshotModel.IncludeReferencedContent*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.CreateSnapshotModel.IncludeReferencedContent
+  name: IncludeReferencedContent
+  nameWithType: CreateSnapshotModel.IncludeReferencedContent
+  fullName: Vasont.Inspire.Models.Versioning.CreateSnapshotModel.IncludeReferencedContent
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Versioning.CreateSnapshotModel.Label*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.CreateSnapshotModel.Label
+  name: Label
+  nameWithType: CreateSnapshotModel.Label
+  fullName: Vasont.Inspire.Models.Versioning.CreateSnapshotModel.Label
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Versioning.CreateSnapshotModel.Comment*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.CreateSnapshotModel.Comment
+  name: Comment
+  nameWithType: CreateSnapshotModel.Comment
+  fullName: Vasont.Inspire.Models.Versioning.CreateSnapshotModel.Comment

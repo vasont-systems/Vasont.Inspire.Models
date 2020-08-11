@@ -1,0 +1,900 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel
+  commentId: T:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel
+  id: MinimalWorkerStateModel
+  parent: Vasont.Inspire.Models.Worker
+  children:
+  - Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.CacheLifeInMinutes
+  - Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.DefaultLanguage
+  - Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Issues
+  - Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Key
+  - Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Message
+  - Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.ProcessId
+  - Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Runtime
+  - Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Status
+  - Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.SubmittedUtcDate
+  - Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.TenantDomainKey
+  langs:
+  - csharp
+  - vb
+  name: MinimalWorkerStateModel
+  nameWithType: MinimalWorkerStateModel
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel
+  type: Class
+  source:
+    remote:
+      path: src/Worker/MinimalWorkerStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: MinimalWorkerStateModel
+    path: Worker/MinimalWorkerStateModel.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Worker
+  summary: "\nThis class represents a minimal representation of a background worker state.\n"
+  example: []
+  syntax:
+    content: public class MinimalWorkerStateModel
+    content.vb: Public Class MinimalWorkerStateModel
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Vasont.Inspire.Models.Worker.MinimalWorkerStateModel`1
+  - Vasont.Inspire.Models.Worker.WorkerStateModel
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.CacheLifeInMinutes
+  commentId: P:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.CacheLifeInMinutes
+  id: CacheLifeInMinutes
+  parent: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel
+  langs:
+  - csharp
+  - vb
+  name: CacheLifeInMinutes
+  nameWithType: MinimalWorkerStateModel.CacheLifeInMinutes
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.CacheLifeInMinutes
+  type: Property
+  source:
+    remote:
+      path: src/Worker/MinimalWorkerStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CacheLifeInMinutes
+    path: Worker/MinimalWorkerStateModel.cs
+    startLine: 22
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Worker
+  summary: "\nGets or sets the worker cache life in minutes.\n"
+  example: []
+  syntax:
+    content: public int CacheLifeInMinutes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CacheLifeInMinutes As Integer
+  overload: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.CacheLifeInMinutes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.TenantDomainKey
+  commentId: P:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.TenantDomainKey
+  id: TenantDomainKey
+  parent: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel
+  langs:
+  - csharp
+  - vb
+  name: TenantDomainKey
+  nameWithType: MinimalWorkerStateModel.TenantDomainKey
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.TenantDomainKey
+  type: Property
+  source:
+    remote:
+      path: src/Worker/MinimalWorkerStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TenantDomainKey
+    path: Worker/MinimalWorkerStateModel.cs
+    startLine: 27
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Worker
+  summary: "\nGets or sets the tenant domain key of the owning tenant.\n"
+  example: []
+  syntax:
+    content: public string TenantDomainKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TenantDomainKey As String
+  overload: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.TenantDomainKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Key
+  commentId: P:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Key
+  id: Key
+  parent: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: MinimalWorkerStateModel.Key
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Key
+  type: Property
+  source:
+    remote:
+      path: src/Worker/MinimalWorkerStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Key
+    path: Worker/MinimalWorkerStateModel.cs
+    startLine: 32
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Worker
+  summary: "\nGets or sets a unique key for the worker process.\n"
+  example: []
+  syntax:
+    content: public string Key { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Key As String
+  overload: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Key*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.ProcessId
+  commentId: P:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.ProcessId
+  id: ProcessId
+  parent: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel
+  langs:
+  - csharp
+  - vb
+  name: ProcessId
+  nameWithType: MinimalWorkerStateModel.ProcessId
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.ProcessId
+  type: Property
+  source:
+    remote:
+      path: src/Worker/MinimalWorkerStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProcessId
+    path: Worker/MinimalWorkerStateModel.cs
+    startLine: 37
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Worker
+  summary: "\nGets or sets the unique identity of the worker process.\n"
+  example: []
+  syntax:
+    content: public Guid ProcessId { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property ProcessId As Guid
+  overload: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.ProcessId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.DefaultLanguage
+  commentId: P:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.DefaultLanguage
+  id: DefaultLanguage
+  parent: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel
+  langs:
+  - csharp
+  - vb
+  name: DefaultLanguage
+  nameWithType: MinimalWorkerStateModel.DefaultLanguage
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.DefaultLanguage
+  type: Property
+  source:
+    remote:
+      path: src/Worker/MinimalWorkerStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DefaultLanguage
+    path: Worker/MinimalWorkerStateModel.cs
+    startLine: 42
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Worker
+  summary: "\nGets or sets the default language for the worker process.\n"
+  example: []
+  syntax:
+    content: public string DefaultLanguage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DefaultLanguage As String
+  overload: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.DefaultLanguage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Status
+  commentId: P:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Status
+  id: Status
+  parent: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: MinimalWorkerStateModel.Status
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Status
+  type: Property
+  source:
+    remote:
+      path: src/Worker/MinimalWorkerStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Status
+    path: Worker/MinimalWorkerStateModel.cs
+    startLine: 47
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Worker
+  summary: "\nGets or sets the worker state status.\n"
+  example: []
+  syntax:
+    content: public WorkerStatus Status { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Worker.WorkerStatus
+    content.vb: Public Property Status As WorkerStatus
+  overload: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.SubmittedUtcDate
+  commentId: P:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.SubmittedUtcDate
+  id: SubmittedUtcDate
+  parent: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel
+  langs:
+  - csharp
+  - vb
+  name: SubmittedUtcDate
+  nameWithType: MinimalWorkerStateModel.SubmittedUtcDate
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.SubmittedUtcDate
+  type: Property
+  source:
+    remote:
+      path: src/Worker/MinimalWorkerStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SubmittedUtcDate
+    path: Worker/MinimalWorkerStateModel.cs
+    startLine: 52
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Worker
+  summary: "\nGets or sets the date when the process was executed.\n"
+  example: []
+  syntax:
+    content: public DateTime SubmittedUtcDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property SubmittedUtcDate As Date
+  overload: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.SubmittedUtcDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Runtime
+  commentId: P:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Runtime
+  id: Runtime
+  parent: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel
+  langs:
+  - csharp
+  - vb
+  name: Runtime
+  nameWithType: MinimalWorkerStateModel.Runtime
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Runtime
+  type: Property
+  source:
+    remote:
+      path: src/Worker/MinimalWorkerStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Runtime
+    path: Worker/MinimalWorkerStateModel.cs
+    startLine: 57
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Worker
+  summary: "\nGets a string of the length of time the process has been running.\n"
+  example: []
+  syntax:
+    content: public string Runtime { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Runtime As String
+  overload: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Runtime*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Message
+  commentId: P:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Message
+  id: Message
+  parent: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: MinimalWorkerStateModel.Message
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Message
+  type: Property
+  source:
+    remote:
+      path: src/Worker/MinimalWorkerStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Message
+    path: Worker/MinimalWorkerStateModel.cs
+    startLine: 69
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Worker
+  summary: "\nGets or sets a message value used for multi-purpose messaging for the process.\n"
+  example: []
+  syntax:
+    content: public string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Message As String
+  overload: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Message*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Issues
+  commentId: P:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Issues
+  id: Issues
+  parent: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel
+  langs:
+  - csharp
+  - vb
+  name: Issues
+  nameWithType: MinimalWorkerStateModel.Issues
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Issues
+  type: Property
+  source:
+    remote:
+      path: src/Worker/MinimalWorkerStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Issues
+    path: Worker/MinimalWorkerStateModel.cs
+    startLine: 74
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Worker
+  summary: "\nGets or sets a list of issues from the import process.\n"
+  example: []
+  syntax:
+    content: public List<ErrorMessage> Issues { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Core.Errors.ErrorMessage}
+    content.vb: Public Property Issues As List(Of ErrorMessage)
+  overload: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Issues*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Worker
+  commentId: N:Vasont.Inspire.Models.Worker
+  name: Vasont.Inspire.Models.Worker
+  nameWithType: Vasont.Inspire.Models.Worker
+  fullName: Vasont.Inspire.Models.Worker
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.CacheLifeInMinutes*
+  commentId: Overload:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.CacheLifeInMinutes
+  name: CacheLifeInMinutes
+  nameWithType: MinimalWorkerStateModel.CacheLifeInMinutes
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.CacheLifeInMinutes
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.TenantDomainKey*
+  commentId: Overload:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.TenantDomainKey
+  name: TenantDomainKey
+  nameWithType: MinimalWorkerStateModel.TenantDomainKey
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.TenantDomainKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Key*
+  commentId: Overload:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Key
+  name: Key
+  nameWithType: MinimalWorkerStateModel.Key
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Key
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.ProcessId*
+  commentId: Overload:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.ProcessId
+  name: ProcessId
+  nameWithType: MinimalWorkerStateModel.ProcessId
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.ProcessId
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.DefaultLanguage*
+  commentId: Overload:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.DefaultLanguage
+  name: DefaultLanguage
+  nameWithType: MinimalWorkerStateModel.DefaultLanguage
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.DefaultLanguage
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Status*
+  commentId: Overload:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Status
+  name: Status
+  nameWithType: MinimalWorkerStateModel.Status
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Status
+- uid: Vasont.Inspire.Models.Worker.WorkerStatus
+  commentId: T:Vasont.Inspire.Models.Worker.WorkerStatus
+  parent: Vasont.Inspire.Models.Worker
+  name: WorkerStatus
+  nameWithType: WorkerStatus
+  fullName: Vasont.Inspire.Models.Worker.WorkerStatus
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.SubmittedUtcDate*
+  commentId: Overload:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.SubmittedUtcDate
+  name: SubmittedUtcDate
+  nameWithType: MinimalWorkerStateModel.SubmittedUtcDate
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.SubmittedUtcDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Runtime*
+  commentId: Overload:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Runtime
+  name: Runtime
+  nameWithType: MinimalWorkerStateModel.Runtime
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Runtime
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Message*
+  commentId: Overload:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Message
+  name: Message
+  nameWithType: MinimalWorkerStateModel.Message
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Message
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Issues*
+  commentId: Overload:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Issues
+  name: Issues
+  nameWithType: MinimalWorkerStateModel.Issues
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel.Issues
+- uid: System.Collections.Generic.List{Vasont.Inspire.Core.Errors.ErrorMessage}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Core.Errors.ErrorMessage}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ErrorMessage>
+  nameWithType: List<ErrorMessage>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Core.Errors.ErrorMessage>
+  nameWithType.vb: List(Of ErrorMessage)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Core.Errors.ErrorMessage)
+  name.vb: List(Of ErrorMessage)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Core.Errors.ErrorMessage
+    name: ErrorMessage
+    nameWithType: ErrorMessage
+    fullName: Vasont.Inspire.Core.Errors.ErrorMessage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Core.Errors.ErrorMessage
+    name: ErrorMessage
+    nameWithType: ErrorMessage
+    fullName: Vasont.Inspire.Core.Errors.ErrorMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

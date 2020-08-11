@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.TransformDirectionFormat
+  commentId: T:Vasont.Inspire.Models.Components.TransformDirectionFormat
+  id: TransformDirectionFormat
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.TransformDirectionFormat.Html
+  - Vasont.Inspire.Models.Components.TransformDirectionFormat.Xml
+  langs:
+  - csharp
+  - vb
+  name: TransformDirectionFormat
+  nameWithType: TransformDirectionFormat
+  fullName: Vasont.Inspire.Models.Components.TransformDirectionFormat
+  type: Enum
+  source:
+    remote:
+      path: src/Components/EditorTransformModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TransformDirectionFormat
+    path: Components/EditorTransformModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nContains an enumerated list of transform direction formats.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum TransformDirectionFormat
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum TransformDirectionFormat
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Components.TransformDirectionFormat.Xml
+  commentId: F:Vasont.Inspire.Models.Components.TransformDirectionFormat.Xml
+  id: Xml
+  parent: Vasont.Inspire.Models.Components.TransformDirectionFormat
+  langs:
+  - csharp
+  - vb
+  name: Xml
+  nameWithType: TransformDirectionFormat.Xml
+  fullName: Vasont.Inspire.Models.Components.TransformDirectionFormat.Xml
+  type: Field
+  source:
+    remote:
+      path: src/Components/EditorTransformModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Xml
+    path: Components/EditorTransformModel.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nContent is XML\n"
+  example: []
+  syntax:
+    content: Xml = 0
+    return:
+      type: Vasont.Inspire.Models.Components.TransformDirectionFormat
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.TransformDirectionFormat.Html
+  commentId: F:Vasont.Inspire.Models.Components.TransformDirectionFormat.Html
+  id: Html
+  parent: Vasont.Inspire.Models.Components.TransformDirectionFormat
+  langs:
+  - csharp
+  - vb
+  name: Html
+  nameWithType: TransformDirectionFormat.Html
+  fullName: Vasont.Inspire.Models.Components.TransformDirectionFormat.Html
+  type: Field
+  source:
+    remote:
+      path: src/Components/EditorTransformModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Html
+    path: Components/EditorTransformModel.cs
+    startLine: 24
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nContent is HTML\n"
+  example: []
+  syntax:
+    content: Html = 1
+    return:
+      type: Vasont.Inspire.Models.Components.TransformDirectionFormat
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: Vasont.Inspire.Models.Components.TransformDirectionFormat
+  commentId: T:Vasont.Inspire.Models.Components.TransformDirectionFormat
+  parent: Vasont.Inspire.Models.Components
+  name: TransformDirectionFormat
+  nameWithType: TransformDirectionFormat
+  fullName: Vasont.Inspire.Models.Components.TransformDirectionFormat

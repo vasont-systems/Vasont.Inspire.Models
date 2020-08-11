@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.EditorType
+  commentId: T:Vasont.Inspire.Models.Components.EditorType
+  id: EditorType
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.EditorType.AuthorBridge
+  - Vasont.Inspire.Models.Components.EditorType.Generic
+  - Vasont.Inspire.Models.Components.EditorType.OxygenWeb
+  - Vasont.Inspire.Models.Components.EditorType.XEditor
+  langs:
+  - csharp
+  - vb
+  name: EditorType
+  nameWithType: EditorType
+  fullName: Vasont.Inspire.Models.Components.EditorType
+  type: Enum
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EditorType
+    path: Components/EditorLoadModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nContains an enumerated list of external editor types.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum EditorType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum EditorType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Components.EditorType.Generic
+  commentId: F:Vasont.Inspire.Models.Components.EditorType.Generic
+  id: Generic
+  parent: Vasont.Inspire.Models.Components.EditorType
+  langs:
+  - csharp
+  - vb
+  name: Generic
+  nameWithType: EditorType.Generic
+  fullName: Vasont.Inspire.Models.Components.EditorType.Generic
+  type: Field
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Generic
+    path: Components/EditorLoadModel.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nContent is returned as plain XML.\n"
+  example: []
+  syntax:
+    content: Generic = 0
+    return:
+      type: Vasont.Inspire.Models.Components.EditorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.EditorType.XEditor
+  commentId: F:Vasont.Inspire.Models.Components.EditorType.XEditor
+  id: XEditor
+  parent: Vasont.Inspire.Models.Components.EditorType
+  langs:
+  - csharp
+  - vb
+  name: XEditor
+  nameWithType: EditorType.XEditor
+  fullName: Vasont.Inspire.Models.Components.EditorType.XEditor
+  type: Field
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: XEditor
+    path: Components/EditorLoadModel.cs
+    startLine: 24
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nContent is transformed using XEditor-transforms to XEditor HTML editor standard.\n"
+  example: []
+  syntax:
+    content: XEditor = 1
+    return:
+      type: Vasont.Inspire.Models.Components.EditorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.EditorType.OxygenWeb
+  commentId: F:Vasont.Inspire.Models.Components.EditorType.OxygenWeb
+  id: OxygenWeb
+  parent: Vasont.Inspire.Models.Components.EditorType
+  langs:
+  - csharp
+  - vb
+  name: OxygenWeb
+  nameWithType: EditorType.OxygenWeb
+  fullName: Vasont.Inspire.Models.Components.EditorType.OxygenWeb
+  type: Field
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: OxygenWeb
+    path: Components/EditorLoadModel.cs
+    startLine: 29
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nContent is transformed using Oxygen WebApp-specific HTML editor standard.\n"
+  example: []
+  syntax:
+    content: OxygenWeb = 2
+    return:
+      type: Vasont.Inspire.Models.Components.EditorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.EditorType.AuthorBridge
+  commentId: F:Vasont.Inspire.Models.Components.EditorType.AuthorBridge
+  id: AuthorBridge
+  parent: Vasont.Inspire.Models.Components.EditorType
+  langs:
+  - csharp
+  - vb
+  name: AuthorBridge
+  nameWithType: EditorType.AuthorBridge
+  fullName: Vasont.Inspire.Models.Components.EditorType.AuthorBridge
+  type: Field
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: AuthorBridge
+    path: Components/EditorLoadModel.cs
+    startLine: 34
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nContent is transformed using AuthorBridge-specific HTML editor standard.\n"
+  example: []
+  syntax:
+    content: AuthorBridge = 3
+    return:
+      type: Vasont.Inspire.Models.Components.EditorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: Vasont.Inspire.Models.Components.EditorType
+  commentId: T:Vasont.Inspire.Models.Components.EditorType
+  parent: Vasont.Inspire.Models.Components
+  name: EditorType
+  nameWithType: EditorType
+  fullName: Vasont.Inspire.Models.Components.EditorType

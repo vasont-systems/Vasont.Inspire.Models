@@ -1,0 +1,537 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Utilities.ExportResultModel
+  commentId: T:Vasont.Inspire.Models.Utilities.ExportResultModel
+  id: ExportResultModel
+  parent: Vasont.Inspire.Models.Utilities
+  children:
+  - Vasont.Inspire.Models.Utilities.ExportResultModel.Default
+  - Vasont.Inspire.Models.Utilities.ExportResultModel.Description
+  - Vasont.Inspire.Models.Utilities.ExportResultModel.ExportId
+  - Vasont.Inspire.Models.Utilities.ExportResultModel.Name
+  langs:
+  - csharp
+  - vb
+  name: ExportResultModel
+  nameWithType: ExportResultModel
+  fullName: Vasont.Inspire.Models.Utilities.ExportResultModel
+  type: Class
+  source:
+    remote:
+      path: src/Utilities/ExportResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ExportResultModel
+    path: Utilities/ExportResultModel.cs
+    startLine: 12
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Utilities
+  summary: "\nThis class represents an export returned from the exports API query.\n"
+  example: []
+  syntax:
+    content: public class ExportResultModel
+    content.vb: Public Class ExportResultModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Utilities.ExportResultModel.ExportId
+  commentId: P:Vasont.Inspire.Models.Utilities.ExportResultModel.ExportId
+  id: ExportId
+  parent: Vasont.Inspire.Models.Utilities.ExportResultModel
+  langs:
+  - csharp
+  - vb
+  name: ExportId
+  nameWithType: ExportResultModel.ExportId
+  fullName: Vasont.Inspire.Models.Utilities.ExportResultModel.ExportId
+  type: Property
+  source:
+    remote:
+      path: src/Utilities/ExportResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ExportId
+    path: Utilities/ExportResultModel.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Utilities
+  summary: "\nGets or sets the unique identity for this export.\n"
+  example: []
+  syntax:
+    content: public long ExportId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ExportId As Long
+  overload: Vasont.Inspire.Models.Utilities.ExportResultModel.ExportId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Utilities.ExportResultModel.Name
+  commentId: P:Vasont.Inspire.Models.Utilities.ExportResultModel.Name
+  id: Name
+  parent: Vasont.Inspire.Models.Utilities.ExportResultModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ExportResultModel.Name
+  fullName: Vasont.Inspire.Models.Utilities.ExportResultModel.Name
+  type: Property
+  source:
+    remote:
+      path: src/Utilities/ExportResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Name
+    path: Utilities/ExportResultModel.cs
+    startLine: 22
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Utilities
+  summary: "\nGets or sets the export name.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Vasont.Inspire.Models.Utilities.ExportResultModel.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Utilities.ExportResultModel.Description
+  commentId: P:Vasont.Inspire.Models.Utilities.ExportResultModel.Description
+  id: Description
+  parent: Vasont.Inspire.Models.Utilities.ExportResultModel
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: ExportResultModel.Description
+  fullName: Vasont.Inspire.Models.Utilities.ExportResultModel.Description
+  type: Property
+  source:
+    remote:
+      path: src/Utilities/ExportResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Description
+    path: Utilities/ExportResultModel.cs
+    startLine: 27
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Utilities
+  summary: "\nGets or sets the export description.\n"
+  example: []
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Vasont.Inspire.Models.Utilities.ExportResultModel.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Utilities.ExportResultModel.Default
+  commentId: P:Vasont.Inspire.Models.Utilities.ExportResultModel.Default
+  id: Default
+  parent: Vasont.Inspire.Models.Utilities.ExportResultModel
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: ExportResultModel.Default
+  fullName: Vasont.Inspire.Models.Utilities.ExportResultModel.Default
+  type: Property
+  source:
+    remote:
+      path: src/Utilities/ExportResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Default
+    path: Utilities/ExportResultModel.cs
+    startLine: 32
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Utilities
+  summary: "\nGets or sets a value indicating whether the export is a default.\n"
+  example: []
+  syntax:
+    content: public bool Default { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Default As Boolean
+  overload: Vasont.Inspire.Models.Utilities.ExportResultModel.Default*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Utilities
+  commentId: N:Vasont.Inspire.Models.Utilities
+  name: Vasont.Inspire.Models.Utilities
+  nameWithType: Vasont.Inspire.Models.Utilities
+  fullName: Vasont.Inspire.Models.Utilities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Utilities.ExportResultModel.ExportId*
+  commentId: Overload:Vasont.Inspire.Models.Utilities.ExportResultModel.ExportId
+  name: ExportId
+  nameWithType: ExportResultModel.ExportId
+  fullName: Vasont.Inspire.Models.Utilities.ExportResultModel.ExportId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Utilities.ExportResultModel.Name*
+  commentId: Overload:Vasont.Inspire.Models.Utilities.ExportResultModel.Name
+  name: Name
+  nameWithType: ExportResultModel.Name
+  fullName: Vasont.Inspire.Models.Utilities.ExportResultModel.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Utilities.ExportResultModel.Description*
+  commentId: Overload:Vasont.Inspire.Models.Utilities.ExportResultModel.Description
+  name: Description
+  nameWithType: ExportResultModel.Description
+  fullName: Vasont.Inspire.Models.Utilities.ExportResultModel.Description
+- uid: Vasont.Inspire.Models.Utilities.ExportResultModel.Default*
+  commentId: Overload:Vasont.Inspire.Models.Utilities.ExportResultModel.Default
+  name: Default
+  nameWithType: ExportResultModel.Default
+  fullName: Vasont.Inspire.Models.Utilities.ExportResultModel.Default
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
