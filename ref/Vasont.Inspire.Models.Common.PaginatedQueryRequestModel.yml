@@ -1,0 +1,670 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  commentId: T:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  id: PaginatedQueryRequestModel
+  parent: Vasont.Inspire.Models.Common
+  children:
+  - Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.#ctor
+  - Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.#ctor(System.Int32,System.Int32)
+  - Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Dir
+  - Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Limit
+  - Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Page
+  - Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Sort
+  langs:
+  - csharp
+  - vb
+  name: PaginatedQueryRequestModel
+  nameWithType: PaginatedQueryRequestModel
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  type: Class
+  source:
+    remote:
+      path: src/Common/PaginatedQueryRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PaginatedQueryRequestModel
+    path: Common/PaginatedQueryRequestModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nThis class contains parameters passed to the query for filtering.\n"
+  example: []
+  syntax:
+    content: public class PaginatedQueryRequestModel
+    content.vb: Public Class PaginatedQueryRequestModel
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Vasont.Inspire.Models.Components.ComponentRelationsQueryModel
+  - Vasont.Inspire.Models.Components.FolderComponentsQueryModel
+  - Vasont.Inspire.Models.Logging.EventLogQueryModel
+  - Vasont.Inspire.Models.Notifications.NotificationStoreQueryModel
+  - Vasont.Inspire.Models.Projects.ProjectBrowseQueryModel
+  - Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel
+  - Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel
+  - Vasont.Inspire.Models.Versioning.ChangesetQueryModel
+  - Vasont.Inspire.Models.Versioning.ComponentHistoryQueryModel
+  - Vasont.Inspire.Models.Versioning.FolderHistoryQueryModel
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.#ctor
+  commentId: M:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.#ctor
+  id: '#ctor'
+  parent: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  langs:
+  - csharp
+  - vb
+  name: PaginatedQueryRequestModel()
+  nameWithType: PaginatedQueryRequestModel.PaginatedQueryRequestModel()
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.PaginatedQueryRequestModel()
+  type: Constructor
+  source:
+    remote:
+      path: src/Common/PaginatedQueryRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: .ctor
+    path: Common/PaginatedQueryRequestModel.cs
+    startLine: 18
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nInitializes a new instance of the <xref href=\"Vasont.Inspire.Models.Common.PaginatedQueryRequestModel\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public PaginatedQueryRequestModel()
+    content.vb: Public Sub New
+  overload: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.#ctor(System.Int32,System.Int32)
+  commentId: M:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.#ctor(System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32)'
+  parent: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  langs:
+  - csharp
+  - vb
+  name: PaginatedQueryRequestModel(Int32, Int32)
+  nameWithType: PaginatedQueryRequestModel.PaginatedQueryRequestModel(Int32, Int32)
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.PaginatedQueryRequestModel(System.Int32, System.Int32)
+  type: Constructor
+  source:
+    remote:
+      path: src/Common/PaginatedQueryRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: .ctor
+    path: Common/PaginatedQueryRequestModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nInitializes a new instance of the <xref href=\"Vasont.Inspire.Models.Common.PaginatedQueryRequestModel\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public PaginatedQueryRequestModel(int maxPageSize, int currentPage = 1)
+    parameters:
+    - id: maxPageSize
+      type: System.Int32
+      description: Contains the maximum page size.
+    - id: currentPage
+      type: System.Int32
+      description: Contains an optional current page number.
+    content.vb: Public Sub New(maxPageSize As Integer, currentPage As Integer = 1)
+  overload: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Page
+  commentId: P:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Page
+  id: Page
+  parent: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  langs:
+  - csharp
+  - vb
+  name: Page
+  nameWithType: PaginatedQueryRequestModel.Page
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Page
+  type: Property
+  source:
+    remote:
+      path: src/Common/PaginatedQueryRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Page
+    path: Common/PaginatedQueryRequestModel.cs
+    startLine: 39
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets current page number.\n"
+  example: []
+  syntax:
+    content: public int Page { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Page As Integer
+  overload: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Page*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Limit
+  commentId: P:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Limit
+  id: Limit
+  parent: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  langs:
+  - csharp
+  - vb
+  name: Limit
+  nameWithType: PaginatedQueryRequestModel.Limit
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Limit
+  type: Property
+  source:
+    remote:
+      path: src/Common/PaginatedQueryRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Limit
+    path: Common/PaginatedQueryRequestModel.cs
+    startLine: 44
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the result limit.\n"
+  example: []
+  syntax:
+    content: public int Limit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Limit As Integer
+  overload: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Limit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Sort
+  commentId: P:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Sort
+  id: Sort
+  parent: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  langs:
+  - csharp
+  - vb
+  name: Sort
+  nameWithType: PaginatedQueryRequestModel.Sort
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Sort
+  type: Property
+  source:
+    remote:
+      path: src/Common/PaginatedQueryRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Sort
+    path: Common/PaginatedQueryRequestModel.cs
+    startLine: 49
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the name of the column to sort by.\n"
+  example: []
+  syntax:
+    content: public string[] Sort { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property Sort As String()
+  overload: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Sort*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Dir
+  commentId: P:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Dir
+  id: Dir
+  parent: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  langs:
+  - csharp
+  - vb
+  name: Dir
+  nameWithType: PaginatedQueryRequestModel.Dir
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Dir
+  type: Property
+  source:
+    remote:
+      path: src/Common/PaginatedQueryRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Dir
+    path: Common/PaginatedQueryRequestModel.cs
+    startLine: 54
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the sort direction.\n"
+  example: []
+  syntax:
+    content: public SortDirection[] Dir { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Core.Extensions.SortDirection[]
+    content.vb: Public Property Dir As SortDirection()
+  overload: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Dir*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Common
+  commentId: N:Vasont.Inspire.Models.Common
+  name: Vasont.Inspire.Models.Common
+  nameWithType: Vasont.Inspire.Models.Common
+  fullName: Vasont.Inspire.Models.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  commentId: T:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  parent: Vasont.Inspire.Models.Common
+  name: PaginatedQueryRequestModel
+  nameWithType: PaginatedQueryRequestModel
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.#ctor*
+  commentId: Overload:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.#ctor
+  name: PaginatedQueryRequestModel
+  nameWithType: PaginatedQueryRequestModel.PaginatedQueryRequestModel
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.PaginatedQueryRequestModel
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Page*
+  commentId: Overload:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Page
+  name: Page
+  nameWithType: PaginatedQueryRequestModel.Page
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Page
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Limit*
+  commentId: Overload:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Limit
+  name: Limit
+  nameWithType: PaginatedQueryRequestModel.Limit
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Limit
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Sort*
+  commentId: Overload:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Sort
+  name: Sort
+  nameWithType: PaginatedQueryRequestModel.Sort
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Sort
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Dir*
+  commentId: Overload:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Dir
+  name: Dir
+  nameWithType: PaginatedQueryRequestModel.Dir
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Dir
+- uid: Vasont.Inspire.Core.Extensions.SortDirection[]
+  isExternal: true
+  name: SortDirection[]
+  nameWithType: SortDirection[]
+  fullName: Vasont.Inspire.Core.Extensions.SortDirection[]
+  nameWithType.vb: SortDirection()
+  fullName.vb: Vasont.Inspire.Core.Extensions.SortDirection()
+  name.vb: SortDirection()
+  spec.csharp:
+  - uid: Vasont.Inspire.Core.Extensions.SortDirection
+    name: SortDirection
+    nameWithType: SortDirection
+    fullName: Vasont.Inspire.Core.Extensions.SortDirection
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Vasont.Inspire.Core.Extensions.SortDirection
+    name: SortDirection
+    nameWithType: SortDirection
+    fullName: Vasont.Inspire.Core.Extensions.SortDirection
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

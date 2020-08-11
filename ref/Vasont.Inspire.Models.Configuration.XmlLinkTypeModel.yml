@@ -1,0 +1,628 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel
+  commentId: T:Vasont.Inspire.Models.Configuration.XmlLinkTypeModel
+  id: XmlLinkTypeModel
+  parent: Vasont.Inspire.Models.Configuration
+  children:
+  - Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.LinkMethod
+  - Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.Name
+  - Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.SchemaStandard
+  - Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.SourceAttribute
+  - Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.TargetAttribute
+  - Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.XmlLinkTypeId
+  langs:
+  - csharp
+  - vb
+  name: XmlLinkTypeModel
+  nameWithType: XmlLinkTypeModel
+  fullName: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel
+  type: Class
+  source:
+    remote:
+      path: src/Configuration/XmlLinkTypeModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: XmlLinkTypeModel
+    path: Configuration/XmlLinkTypeModel.cs
+    startLine: 11
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nThis class represents an XML link type model within the system and is to be used for resolving component relationships.\n"
+  example: []
+  syntax:
+    content: public class XmlLinkTypeModel
+    content.vb: Public Class XmlLinkTypeModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.XmlLinkTypeId
+  commentId: P:Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.XmlLinkTypeId
+  id: XmlLinkTypeId
+  parent: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel
+  langs:
+  - csharp
+  - vb
+  name: XmlLinkTypeId
+  nameWithType: XmlLinkTypeModel.XmlLinkTypeId
+  fullName: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.XmlLinkTypeId
+  type: Property
+  source:
+    remote:
+      path: src/Configuration/XmlLinkTypeModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: XmlLinkTypeId
+    path: Configuration/XmlLinkTypeModel.cs
+    startLine: 16
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nGets or sets the Id of the xml link type.\n"
+  example: []
+  syntax:
+    content: public long XmlLinkTypeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property XmlLinkTypeId As Long
+  overload: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.XmlLinkTypeId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.Name
+  commentId: P:Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.Name
+  id: Name
+  parent: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: XmlLinkTypeModel.Name
+  fullName: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.Name
+  type: Property
+  source:
+    remote:
+      path: src/Configuration/XmlLinkTypeModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Name
+    path: Configuration/XmlLinkTypeModel.cs
+    startLine: 21
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nGets or sets the name of the xml link type.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.LinkMethod
+  commentId: P:Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.LinkMethod
+  id: LinkMethod
+  parent: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel
+  langs:
+  - csharp
+  - vb
+  name: LinkMethod
+  nameWithType: XmlLinkTypeModel.LinkMethod
+  fullName: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.LinkMethod
+  type: Property
+  source:
+    remote:
+      path: src/Configuration/XmlLinkTypeModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: LinkMethod
+    path: Configuration/XmlLinkTypeModel.cs
+    startLine: 26
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nGets or sets the link method.\n"
+  example: []
+  syntax:
+    content: public LinkMethodModel LinkMethod { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Configuration.LinkMethodModel
+    content.vb: Public Property LinkMethod As LinkMethodModel
+  overload: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.LinkMethod*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.SourceAttribute
+  commentId: P:Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.SourceAttribute
+  id: SourceAttribute
+  parent: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel
+  langs:
+  - csharp
+  - vb
+  name: SourceAttribute
+  nameWithType: XmlLinkTypeModel.SourceAttribute
+  fullName: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.SourceAttribute
+  type: Property
+  source:
+    remote:
+      path: src/Configuration/XmlLinkTypeModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SourceAttribute
+    path: Configuration/XmlLinkTypeModel.cs
+    startLine: 31
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nGets or sets the source attribute.\n"
+  example: []
+  syntax:
+    content: public AttributeModel SourceAttribute { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Configuration.AttributeModel
+    content.vb: Public Property SourceAttribute As AttributeModel
+  overload: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.SourceAttribute*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.TargetAttribute
+  commentId: P:Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.TargetAttribute
+  id: TargetAttribute
+  parent: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel
+  langs:
+  - csharp
+  - vb
+  name: TargetAttribute
+  nameWithType: XmlLinkTypeModel.TargetAttribute
+  fullName: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.TargetAttribute
+  type: Property
+  source:
+    remote:
+      path: src/Configuration/XmlLinkTypeModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TargetAttribute
+    path: Configuration/XmlLinkTypeModel.cs
+    startLine: 36
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nGets or sets the target attribute.\n"
+  example: []
+  syntax:
+    content: public AttributeModel TargetAttribute { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Configuration.AttributeModel
+    content.vb: Public Property TargetAttribute As AttributeModel
+  overload: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.TargetAttribute*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.SchemaStandard
+  commentId: P:Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.SchemaStandard
+  id: SchemaStandard
+  parent: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel
+  langs:
+  - csharp
+  - vb
+  name: SchemaStandard
+  nameWithType: XmlLinkTypeModel.SchemaStandard
+  fullName: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.SchemaStandard
+  type: Property
+  source:
+    remote:
+      path: src/Configuration/XmlLinkTypeModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SchemaStandard
+    path: Configuration/XmlLinkTypeModel.cs
+    startLine: 41
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nGets or sets the schema standard type.\n"
+  example: []
+  syntax:
+    content: public string SchemaStandard { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SchemaStandard As String
+  overload: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.SchemaStandard*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Configuration
+  commentId: N:Vasont.Inspire.Models.Configuration
+  name: Vasont.Inspire.Models.Configuration
+  nameWithType: Vasont.Inspire.Models.Configuration
+  fullName: Vasont.Inspire.Models.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.XmlLinkTypeId*
+  commentId: Overload:Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.XmlLinkTypeId
+  name: XmlLinkTypeId
+  nameWithType: XmlLinkTypeModel.XmlLinkTypeId
+  fullName: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.XmlLinkTypeId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.Name*
+  commentId: Overload:Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.Name
+  name: Name
+  nameWithType: XmlLinkTypeModel.Name
+  fullName: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.LinkMethod*
+  commentId: Overload:Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.LinkMethod
+  name: LinkMethod
+  nameWithType: XmlLinkTypeModel.LinkMethod
+  fullName: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.LinkMethod
+- uid: Vasont.Inspire.Models.Configuration.LinkMethodModel
+  commentId: T:Vasont.Inspire.Models.Configuration.LinkMethodModel
+  parent: Vasont.Inspire.Models.Configuration
+  name: LinkMethodModel
+  nameWithType: LinkMethodModel
+  fullName: Vasont.Inspire.Models.Configuration.LinkMethodModel
+- uid: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.SourceAttribute*
+  commentId: Overload:Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.SourceAttribute
+  name: SourceAttribute
+  nameWithType: XmlLinkTypeModel.SourceAttribute
+  fullName: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.SourceAttribute
+- uid: Vasont.Inspire.Models.Configuration.AttributeModel
+  commentId: T:Vasont.Inspire.Models.Configuration.AttributeModel
+  parent: Vasont.Inspire.Models.Configuration
+  name: AttributeModel
+  nameWithType: AttributeModel
+  fullName: Vasont.Inspire.Models.Configuration.AttributeModel
+- uid: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.TargetAttribute*
+  commentId: Overload:Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.TargetAttribute
+  name: TargetAttribute
+  nameWithType: XmlLinkTypeModel.TargetAttribute
+  fullName: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.TargetAttribute
+- uid: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.SchemaStandard*
+  commentId: Overload:Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.SchemaStandard
+  name: SchemaStandard
+  nameWithType: XmlLinkTypeModel.SchemaStandard
+  fullName: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.SchemaStandard

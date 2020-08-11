@@ -1,0 +1,583 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.ComponentRolePermissionModel
+  commentId: T:Vasont.Inspire.Models.Components.ComponentRolePermissionModel
+  id: ComponentRolePermissionModel
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.ComponentRolePermissionModel.AssignedRoleName
+  - Vasont.Inspire.Models.Components.ComponentRolePermissionModel.ComponentId
+  - Vasont.Inspire.Models.Components.ComponentRolePermissionModel.Permission
+  - Vasont.Inspire.Models.Components.ComponentRolePermissionModel.RoleId
+  langs:
+  - csharp
+  - vb
+  name: ComponentRolePermissionModel
+  nameWithType: ComponentRolePermissionModel
+  fullName: Vasont.Inspire.Models.Components.ComponentRolePermissionModel
+  type: Class
+  source:
+    remote:
+      path: src/Components/ComponentRolePermissionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentRolePermissionModel
+    path: Components/ComponentRolePermissionModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis class represents a component role permission configuration within the application.\n"
+  example: []
+  syntax:
+    content: 'public class ComponentRolePermissionModel : MicroCreatedUpdaterModelBase'
+    content.vb: >-
+      Public Class ComponentRolePermissionModel
+          Inherits MicroCreatedUpdaterModelBase
+  inheritance:
+  - System.Object
+  - Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase
+  inheritedMembers:
+  - Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.CreatedDate
+  - Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.CreatedBy
+  - Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.UpdatedDate
+  - Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.UpdatedBy
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Components.ComponentRolePermissionModel.ComponentId
+  commentId: P:Vasont.Inspire.Models.Components.ComponentRolePermissionModel.ComponentId
+  id: ComponentId
+  parent: Vasont.Inspire.Models.Components.ComponentRolePermissionModel
+  langs:
+  - csharp
+  - vb
+  name: ComponentId
+  nameWithType: ComponentRolePermissionModel.ComponentId
+  fullName: Vasont.Inspire.Models.Components.ComponentRolePermissionModel.ComponentId
+  type: Property
+  source:
+    remote:
+      path: src/Components/ComponentRolePermissionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentId
+    path: Components/ComponentRolePermissionModel.cs
+    startLine: 18
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the associated component that the role is assigned to with the permission.\n"
+  example: []
+  syntax:
+    content: public long ComponentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ComponentId As Long
+  overload: Vasont.Inspire.Models.Components.ComponentRolePermissionModel.ComponentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.ComponentRolePermissionModel.RoleId
+  commentId: P:Vasont.Inspire.Models.Components.ComponentRolePermissionModel.RoleId
+  id: RoleId
+  parent: Vasont.Inspire.Models.Components.ComponentRolePermissionModel
+  langs:
+  - csharp
+  - vb
+  name: RoleId
+  nameWithType: ComponentRolePermissionModel.RoleId
+  fullName: Vasont.Inspire.Models.Components.ComponentRolePermissionModel.RoleId
+  type: Property
+  source:
+    remote:
+      path: src/Components/ComponentRolePermissionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RoleId
+    path: Components/ComponentRolePermissionModel.cs
+    startLine: 23
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the associated role that is assigned the permission to a component.\n"
+  example: []
+  syntax:
+    content: public long RoleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property RoleId As Long
+  overload: Vasont.Inspire.Models.Components.ComponentRolePermissionModel.RoleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.ComponentRolePermissionModel.AssignedRoleName
+  commentId: P:Vasont.Inspire.Models.Components.ComponentRolePermissionModel.AssignedRoleName
+  id: AssignedRoleName
+  parent: Vasont.Inspire.Models.Components.ComponentRolePermissionModel
+  langs:
+  - csharp
+  - vb
+  name: AssignedRoleName
+  nameWithType: ComponentRolePermissionModel.AssignedRoleName
+  fullName: Vasont.Inspire.Models.Components.ComponentRolePermissionModel.AssignedRoleName
+  type: Property
+  source:
+    remote:
+      path: src/Components/ComponentRolePermissionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: AssignedRoleName
+    path: Components/ComponentRolePermissionModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the name of the granted role.\n"
+  example: []
+  syntax:
+    content: public string AssignedRoleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AssignedRoleName As String
+  overload: Vasont.Inspire.Models.Components.ComponentRolePermissionModel.AssignedRoleName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.ComponentRolePermissionModel.Permission
+  commentId: P:Vasont.Inspire.Models.Components.ComponentRolePermissionModel.Permission
+  id: Permission
+  parent: Vasont.Inspire.Models.Components.ComponentRolePermissionModel
+  langs:
+  - csharp
+  - vb
+  name: Permission
+  nameWithType: ComponentRolePermissionModel.Permission
+  fullName: Vasont.Inspire.Models.Components.ComponentRolePermissionModel.Permission
+  type: Property
+  source:
+    remote:
+      path: src/Components/ComponentRolePermissionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Permission
+    path: Components/ComponentRolePermissionModel.cs
+    startLine: 33
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the permission code.\n"
+  example: []
+  syntax:
+    content: public PermissionFlags Permission { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.PermissionFlags
+    content.vb: Public Property Permission As PermissionFlags
+  overload: Vasont.Inspire.Models.Components.ComponentRolePermissionModel.Permission*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase
+  commentId: T:Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase
+  parent: Vasont.Inspire.Models.Common
+  name: MicroCreatedUpdaterModelBase
+  nameWithType: MicroCreatedUpdaterModelBase
+  fullName: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase
+- uid: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.CreatedDate
+  commentId: P:Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.CreatedDate
+  parent: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase
+  name: CreatedDate
+  nameWithType: MicroCreatedUpdaterModelBase.CreatedDate
+  fullName: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.CreatedDate
+- uid: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.CreatedBy
+  commentId: P:Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.CreatedBy
+  parent: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase
+  name: CreatedBy
+  nameWithType: MicroCreatedUpdaterModelBase.CreatedBy
+  fullName: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.CreatedBy
+- uid: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.UpdatedDate
+  commentId: P:Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.UpdatedDate
+  parent: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase
+  name: UpdatedDate
+  nameWithType: MicroCreatedUpdaterModelBase.UpdatedDate
+  fullName: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.UpdatedDate
+- uid: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.UpdatedBy
+  commentId: P:Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.UpdatedBy
+  parent: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase
+  name: UpdatedBy
+  nameWithType: MicroCreatedUpdaterModelBase.UpdatedBy
+  fullName: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.UpdatedBy
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Common
+  commentId: N:Vasont.Inspire.Models.Common
+  name: Vasont.Inspire.Models.Common
+  nameWithType: Vasont.Inspire.Models.Common
+  fullName: Vasont.Inspire.Models.Common
+- uid: Vasont.Inspire.Models.Components.ComponentRolePermissionModel.ComponentId*
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentRolePermissionModel.ComponentId
+  name: ComponentId
+  nameWithType: ComponentRolePermissionModel.ComponentId
+  fullName: Vasont.Inspire.Models.Components.ComponentRolePermissionModel.ComponentId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Components.ComponentRolePermissionModel.RoleId*
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentRolePermissionModel.RoleId
+  name: RoleId
+  nameWithType: ComponentRolePermissionModel.RoleId
+  fullName: Vasont.Inspire.Models.Components.ComponentRolePermissionModel.RoleId
+- uid: Vasont.Inspire.Models.Components.ComponentRolePermissionModel.AssignedRoleName*
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentRolePermissionModel.AssignedRoleName
+  name: AssignedRoleName
+  nameWithType: ComponentRolePermissionModel.AssignedRoleName
+  fullName: Vasont.Inspire.Models.Components.ComponentRolePermissionModel.AssignedRoleName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Components.ComponentRolePermissionModel.Permission*
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentRolePermissionModel.Permission
+  name: Permission
+  nameWithType: ComponentRolePermissionModel.Permission
+  fullName: Vasont.Inspire.Models.Components.ComponentRolePermissionModel.Permission
+- uid: Vasont.Inspire.Models.Security.PermissionFlags
+  commentId: T:Vasont.Inspire.Models.Security.PermissionFlags
+  parent: Vasont.Inspire.Models.Security
+  name: PermissionFlags
+  nameWithType: PermissionFlags
+  fullName: Vasont.Inspire.Models.Security.PermissionFlags
+- uid: Vasont.Inspire.Models.Security
+  commentId: N:Vasont.Inspire.Models.Security
+  name: Vasont.Inspire.Models.Security
+  nameWithType: Vasont.Inspire.Models.Security
+  fullName: Vasont.Inspire.Models.Security

@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Notifications.Types
+  commentId: N:Vasont.Inspire.Models.Notifications.Types
+  id: Vasont.Inspire.Models.Notifications.Types
+  children:
+  - Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction
+  - Vasont.Inspire.Models.Notifications.Types.NotificationComponentModel
+  - Vasont.Inspire.Models.Notifications.Types.NotificationFolderAction
+  - Vasont.Inspire.Models.Notifications.Types.NotificationFolderModel
+  - Vasont.Inspire.Models.Notifications.Types.NotificationMessageModel
+  - Vasont.Inspire.Models.Notifications.Types.NotificationModelBase
+  langs:
+  - csharp
+  - vb
+  name: Vasont.Inspire.Models.Notifications.Types
+  nameWithType: Vasont.Inspire.Models.Notifications.Types
+  fullName: Vasont.Inspire.Models.Notifications.Types
+  type: Namespace
+  assemblies:
+  - Vasont.Inspire.Models
+references:
+- uid: Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction
+  commentId: T:Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction
+  parent: Vasont.Inspire.Models.Notifications.Types
+  name: NotificationComponentAction
+  nameWithType: NotificationComponentAction
+  fullName: Vasont.Inspire.Models.Notifications.Types.NotificationComponentAction
+- uid: Vasont.Inspire.Models.Notifications.Types.NotificationComponentModel
+  commentId: T:Vasont.Inspire.Models.Notifications.Types.NotificationComponentModel
+  name: NotificationComponentModel
+  nameWithType: NotificationComponentModel
+  fullName: Vasont.Inspire.Models.Notifications.Types.NotificationComponentModel
+- uid: Vasont.Inspire.Models.Notifications.Types.NotificationFolderAction
+  commentId: T:Vasont.Inspire.Models.Notifications.Types.NotificationFolderAction
+  parent: Vasont.Inspire.Models.Notifications.Types
+  name: NotificationFolderAction
+  nameWithType: NotificationFolderAction
+  fullName: Vasont.Inspire.Models.Notifications.Types.NotificationFolderAction
+- uid: Vasont.Inspire.Models.Notifications.Types.NotificationFolderModel
+  commentId: T:Vasont.Inspire.Models.Notifications.Types.NotificationFolderModel
+  name: NotificationFolderModel
+  nameWithType: NotificationFolderModel
+  fullName: Vasont.Inspire.Models.Notifications.Types.NotificationFolderModel
+- uid: Vasont.Inspire.Models.Notifications.Types.NotificationMessageModel
+  commentId: T:Vasont.Inspire.Models.Notifications.Types.NotificationMessageModel
+  parent: Vasont.Inspire.Models.Notifications.Types
+  name: NotificationMessageModel
+  nameWithType: NotificationMessageModel
+  fullName: Vasont.Inspire.Models.Notifications.Types.NotificationMessageModel
+- uid: Vasont.Inspire.Models.Notifications.Types.NotificationModelBase
+  commentId: T:Vasont.Inspire.Models.Notifications.Types.NotificationModelBase
+  parent: Vasont.Inspire.Models.Notifications.Types
+  name: NotificationModelBase
+  nameWithType: NotificationModelBase
+  fullName: Vasont.Inspire.Models.Notifications.Types.NotificationModelBase
+- uid: Vasont.Inspire.Models.Notifications.Types
+  commentId: N:Vasont.Inspire.Models.Notifications.Types
+  name: Vasont.Inspire.Models.Notifications.Types
+  nameWithType: Vasont.Inspire.Models.Notifications.Types
+  fullName: Vasont.Inspire.Models.Notifications.Types

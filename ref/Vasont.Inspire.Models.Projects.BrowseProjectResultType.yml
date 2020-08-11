@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Projects.BrowseProjectResultType
+  commentId: T:Vasont.Inspire.Models.Projects.BrowseProjectResultType
+  id: BrowseProjectResultType
+  parent: Vasont.Inspire.Models.Projects
+  children:
+  - Vasont.Inspire.Models.Projects.BrowseProjectResultType.Admin
+  - Vasont.Inspire.Models.Projects.BrowseProjectResultType.All
+  - Vasont.Inspire.Models.Projects.BrowseProjectResultType.Owned
+  - Vasont.Inspire.Models.Projects.BrowseProjectResultType.Participating
+  langs:
+  - csharp
+  - vb
+  name: BrowseProjectResultType
+  nameWithType: BrowseProjectResultType
+  fullName: Vasont.Inspire.Models.Projects.BrowseProjectResultType
+  type: Enum
+  source:
+    remote:
+      path: src/Projects/ProjectBrowseQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: BrowseProjectResultType
+    path: Projects/ProjectBrowseQueryModel.cs
+    startLine: 14
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nContains an enumerated list of project type flags\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum BrowseProjectResultType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum BrowseProjectResultType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Projects.BrowseProjectResultType.All
+  commentId: F:Vasont.Inspire.Models.Projects.BrowseProjectResultType.All
+  id: All
+  parent: Vasont.Inspire.Models.Projects.BrowseProjectResultType
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: BrowseProjectResultType.All
+  fullName: Vasont.Inspire.Models.Projects.BrowseProjectResultType.All
+  type: Field
+  source:
+    remote:
+      path: src/Projects/ProjectBrowseQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: All
+    path: Projects/ProjectBrowseQueryModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nAll Projects\n"
+  example: []
+  syntax:
+    content: All = 0
+    return:
+      type: Vasont.Inspire.Models.Projects.BrowseProjectResultType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Projects.BrowseProjectResultType.Participating
+  commentId: F:Vasont.Inspire.Models.Projects.BrowseProjectResultType.Participating
+  id: Participating
+  parent: Vasont.Inspire.Models.Projects.BrowseProjectResultType
+  langs:
+  - csharp
+  - vb
+  name: Participating
+  nameWithType: BrowseProjectResultType.Participating
+  fullName: Vasont.Inspire.Models.Projects.BrowseProjectResultType.Participating
+  type: Field
+  source:
+    remote:
+      path: src/Projects/ProjectBrowseQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Participating
+    path: Projects/ProjectBrowseQueryModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nProject Participants\n"
+  example: []
+  syntax:
+    content: Participating = 1
+    return:
+      type: Vasont.Inspire.Models.Projects.BrowseProjectResultType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Projects.BrowseProjectResultType.Owned
+  commentId: F:Vasont.Inspire.Models.Projects.BrowseProjectResultType.Owned
+  id: Owned
+  parent: Vasont.Inspire.Models.Projects.BrowseProjectResultType
+  langs:
+  - csharp
+  - vb
+  name: Owned
+  nameWithType: BrowseProjectResultType.Owned
+  fullName: Vasont.Inspire.Models.Projects.BrowseProjectResultType.Owned
+  type: Field
+  source:
+    remote:
+      path: src/Projects/ProjectBrowseQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Owned
+    path: Projects/ProjectBrowseQueryModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nProject Owner\n"
+  example: []
+  syntax:
+    content: Owned = 2
+    return:
+      type: Vasont.Inspire.Models.Projects.BrowseProjectResultType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Projects.BrowseProjectResultType.Admin
+  commentId: F:Vasont.Inspire.Models.Projects.BrowseProjectResultType.Admin
+  id: Admin
+  parent: Vasont.Inspire.Models.Projects.BrowseProjectResultType
+  langs:
+  - csharp
+  - vb
+  name: Admin
+  nameWithType: BrowseProjectResultType.Admin
+  fullName: Vasont.Inspire.Models.Projects.BrowseProjectResultType.Admin
+  type: Field
+  source:
+    remote:
+      path: src/Projects/ProjectBrowseQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Admin
+    path: Projects/ProjectBrowseQueryModel.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nSystem Administrators\n"
+  example: []
+  syntax:
+    content: Admin = 3
+    return:
+      type: Vasont.Inspire.Models.Projects.BrowseProjectResultType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Projects
+  commentId: N:Vasont.Inspire.Models.Projects
+  name: Vasont.Inspire.Models.Projects
+  nameWithType: Vasont.Inspire.Models.Projects
+  fullName: Vasont.Inspire.Models.Projects
+- uid: Vasont.Inspire.Models.Projects.BrowseProjectResultType
+  commentId: T:Vasont.Inspire.Models.Projects.BrowseProjectResultType
+  parent: Vasont.Inspire.Models.Projects
+  name: BrowseProjectResultType
+  nameWithType: BrowseProjectResultType
+  fullName: Vasont.Inspire.Models.Projects.BrowseProjectResultType

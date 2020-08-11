@@ -1,0 +1,2263 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  commentId: T:Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  id: ProjectFolderItemModel
+  parent: Vasont.Inspire.Models.Projects
+  children:
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.#ctor
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.CanTranslate
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Children
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ComponentId
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ComponentType
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.CreatedDate
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.DefaultFolder
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Description
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.FileName
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.FolderId
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Id
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.IsImage
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.LanguageCode
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Lock
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Name
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.OrderIndex
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ParentFolderId
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ParentId
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Permissions
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ProjectId
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldPermissions
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeApproved
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeComponentId
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeComponentType
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeDefaultFolder
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeDescription
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeFileName
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeFolderId
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeLanguageCode
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeLock
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeOrderIndex
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.State
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.StateText
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Type
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.TypeText
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.UpdatedBy
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemModel.UpdatedDate
+  langs:
+  - csharp
+  - vb
+  name: ProjectFolderItemModel
+  nameWithType: ProjectFolderItemModel
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  type: Class
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProjectFolderItemModel
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 46
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nThis class represents a project folder within the application.\n"
+  example: []
+  syntax:
+    content: public class ProjectFolderItemModel
+    content.vb: Public Class ProjectFolderItemModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.#ctor
+  commentId: M:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.#ctor
+  id: '#ctor'
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: ProjectFolderItemModel()
+  nameWithType: ProjectFolderItemModel.ProjectFolderItemModel()
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ProjectFolderItemModel()
+  type: Constructor
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: .ctor
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 80
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nInitializes a new instance of the <xref href=\"Vasont.Inspire.Models.Projects.ProjectFolderItemModel\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public ProjectFolderItemModel()
+    content.vb: Public Sub New
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Id
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Id
+  id: Id
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ProjectFolderItemModel.Id
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Id
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Id
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 92
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the unique identifier of the project folder item.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(Order = 1)]
+
+      public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty(Order:=1)>
+
+      Public Property Id As String
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Id*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 1
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.IsImage
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.IsImage
+  id: IsImage
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: IsImage
+  nameWithType: ProjectFolderItemModel.IsImage
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.IsImage
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IsImage
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 103
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets a value indicating whether the folder item is an image component.\n"
+  example: []
+  syntax:
+    content: public bool IsImage { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsImage As Boolean
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.IsImage*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Type
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Type
+  id: Type
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: ProjectFolderItemModel.Type
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Type
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Type
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 108
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the project item type.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(Order = 2)]
+
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public ProjectFolderItemType Type { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Projects.ProjectFolderItemType
+    content.vb: >-
+      <JsonProperty(Order:=2)>
+
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Property Type As ProjectFolderItemType
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Type*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 2
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.TypeText
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.TypeText
+  id: TypeText
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: TypeText
+  nameWithType: ProjectFolderItemModel.TypeText
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.TypeText
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TypeText
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 128
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the folder item type via a text string.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public string TypeText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property TypeText As String
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.TypeText*
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ParentId
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ParentId
+  id: ParentId
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: ParentId
+  nameWithType: ProjectFolderItemModel.ParentId
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ParentId
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ParentId
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 138
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the parent project folder item identity value.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(Order = 3)]
+
+      public string ParentId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty(Order:=3)>
+
+      Public Property ParentId As String
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ParentId*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 3
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ProjectId
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ProjectId
+  id: ProjectId
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: ProjectFolderItemModel.ProjectId
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ProjectId
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProjectId
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 144
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the associated project identity value.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(Order = 4)]
+
+      public long ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: >-
+      <JsonProperty(Order:=4)>
+
+      Public Property ProjectId As Long
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ProjectId*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 4
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Name
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Name
+  id: Name
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ProjectFolderItemModel.Name
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Name
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Name
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 150
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the project folder name.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(Order = 5)]
+
+      public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty(Order:=5)>
+
+      Public Property Name As String
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Name*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 5
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ComponentId
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ComponentId
+  id: ComponentId
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: ComponentId
+  nameWithType: ProjectFolderItemModel.ComponentId
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ComponentId
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentId
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 156
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the component identity value.\n"
+  example: []
+  syntax:
+    content: public long ComponentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ComponentId As Long
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ComponentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.FolderId
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.FolderId
+  id: FolderId
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: FolderId
+  nameWithType: ProjectFolderItemModel.FolderId
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.FolderId
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FolderId
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 170
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the folder identity value.\n"
+  example: []
+  syntax:
+    content: public long FolderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property FolderId As Long
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.FolderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ParentFolderId
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ParentFolderId
+  id: ParentFolderId
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: ParentFolderId
+  nameWithType: ProjectFolderItemModel.ParentFolderId
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ParentFolderId
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ParentFolderId
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 184
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the related parent folder identity value.\n"
+  example: []
+  syntax:
+    content: public long? ParentFolderId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int64}
+    content.vb: Public Property ParentFolderId As Long?
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ParentFolderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.CreatedDate
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.CreatedDate
+  id: CreatedDate
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: ProjectFolderItemModel.CreatedDate
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.CreatedDate
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CreatedDate
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 198
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the date time when the project folder item was created.\n"
+  example: []
+  syntax:
+    content: public DateTime CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property CreatedDate As Date
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.CreatedDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.UpdatedDate
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.UpdatedDate
+  id: UpdatedDate
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: UpdatedDate
+  nameWithType: ProjectFolderItemModel.UpdatedDate
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.UpdatedDate
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UpdatedDate
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 203
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the date time when the project folder item was last updated.\n"
+  example: []
+  syntax:
+    content: public DateTime UpdatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property UpdatedDate As Date
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.UpdatedDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.UpdatedBy
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.UpdatedBy
+  id: UpdatedBy
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: ProjectFolderItemModel.UpdatedBy
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.UpdatedBy
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UpdatedBy
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 208
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the updater user information model.\n"
+  example: []
+  syntax:
+    content: public MinimalUserModel UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.MinimalUserModel
+    content.vb: Public Property UpdatedBy As MinimalUserModel
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Children
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Children
+  id: Children
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: Children
+  nameWithType: ProjectFolderItemModel.Children
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Children
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Children
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 213
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets a list of <xref href=\"Vasont.Inspire.Models.Projects.ProjectFolderItemModel\" data-throw-if-not-resolved=\"false\"></xref> objects representing sub-folders and/or components within this project folder item.\n"
+  example: []
+  syntax:
+    content: public List<ProjectFolderItemModel> Children { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Projects.ProjectFolderItemModel}
+    content.vb: Public Property Children As List(Of ProjectFolderItemModel)
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Children*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ComponentType
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ComponentType
+  id: ComponentType
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: ComponentType
+  nameWithType: ProjectFolderItemModel.ComponentType
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ComponentType
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentType
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 222
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the component type.\n"
+  example: []
+  syntax:
+    content: public MinimalComponentTypeModel ComponentType { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+    content.vb: Public Property ComponentType As MinimalComponentTypeModel
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ComponentType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.LanguageCode
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.LanguageCode
+  id: LanguageCode
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: LanguageCode
+  nameWithType: ProjectFolderItemModel.LanguageCode
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.LanguageCode
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: LanguageCode
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 227
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the language code of component content.\n"
+  example: []
+  syntax:
+    content: public string LanguageCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LanguageCode As String
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.LanguageCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.FileName
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.FileName
+  id: FileName
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: ProjectFolderItemModel.FileName
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.FileName
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FileName
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 232
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the file name of the component.\n"
+  example: []
+  syntax:
+    content: public string FileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FileName As String
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.FileName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.State
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.State
+  id: State
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: ProjectFolderItemModel.State
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.State
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: State
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 237
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the component state information.\n"
+  example: []
+  syntax:
+    content: public ComponentStateType State { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Components.ComponentStateType
+    content.vb: Public Property State As ComponentStateType
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.State*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.StateText
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.StateText
+  id: StateText
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: StateText
+  nameWithType: ProjectFolderItemModel.StateText
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.StateText
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: StateText
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 242
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the state via a text value.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public string StateText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property StateText As String
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.StateText*
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Lock
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Lock
+  id: Lock
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: Lock
+  nameWithType: ProjectFolderItemModel.Lock
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Lock
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Lock
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 252
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets a value indicating the locked state of the component.\n"
+  example: []
+  syntax:
+    content: public ComponentLockModel Lock { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Components.ComponentLockModel
+    content.vb: Public Property Lock As ComponentLockModel
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Lock*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Permissions
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Permissions
+  id: Permissions
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: Permissions
+  nameWithType: ProjectFolderItemModel.Permissions
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Permissions
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Permissions
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 257
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the permissions information for the specified component.\n"
+  example: []
+  syntax:
+    content: public PermissionModel Permissions { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.PermissionModel
+    content.vb: Public Property Permissions As PermissionModel
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Permissions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.CanTranslate
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.CanTranslate
+  id: CanTranslate
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: CanTranslate
+  nameWithType: ProjectFolderItemModel.CanTranslate
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.CanTranslate
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CanTranslate
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 262
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets a value indicating whether this component can translate.\n"
+  example: []
+  syntax:
+    content: public bool CanTranslate { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CanTranslate As Boolean
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.CanTranslate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Description
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Description
+  id: Description
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: ProjectFolderItemModel.Description
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Description
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Description
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 271
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the project folder description.\n"
+  example: []
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.DefaultFolder
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.DefaultFolder
+  id: DefaultFolder
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: DefaultFolder
+  nameWithType: ProjectFolderItemModel.DefaultFolder
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.DefaultFolder
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DefaultFolder
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 276
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets a value indicating whether this project folder will be considered the default folder when adding new content.\n"
+  example: []
+  syntax:
+    content: public bool DefaultFolder { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property DefaultFolder As Boolean
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.DefaultFolder*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.OrderIndex
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.OrderIndex
+  id: OrderIndex
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: OrderIndex
+  nameWithType: ProjectFolderItemModel.OrderIndex
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.OrderIndex
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: OrderIndex
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 281
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the folder ordering index override.\n"
+  example: []
+  syntax:
+    content: public int OrderIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property OrderIndex As Integer
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.OrderIndex*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeDefaultFolder
+  commentId: M:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeDefaultFolder
+  id: ShouldSerializeDefaultFolder
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: ShouldSerializeDefaultFolder()
+  nameWithType: ProjectFolderItemModel.ShouldSerializeDefaultFolder()
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeDefaultFolder()
+  type: Method
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ShouldSerializeDefaultFolder
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 305
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nThis method is called by the serializer to determine if the property DefaultFolder should be rendered.\n"
+  example: []
+  syntax:
+    content: public bool ShouldSerializeDefaultFolder()
+    return:
+      type: System.Boolean
+      description: Returns a value indicating whether to render the related property.
+    content.vb: Public Function ShouldSerializeDefaultFolder As Boolean
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeDefaultFolder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeDescription
+  commentId: M:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeDescription
+  id: ShouldSerializeDescription
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: ShouldSerializeDescription()
+  nameWithType: ProjectFolderItemModel.ShouldSerializeDescription()
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeDescription()
+  type: Method
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ShouldSerializeDescription
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 314
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nThis method is called by the serializer to determine if the property Description should be rendered.\n"
+  example: []
+  syntax:
+    content: public bool ShouldSerializeDescription()
+    return:
+      type: System.Boolean
+      description: Returns a value indicating whether to render the related property.
+    content.vb: Public Function ShouldSerializeDescription As Boolean
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeDescription*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeOrderIndex
+  commentId: M:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeOrderIndex
+  id: ShouldSerializeOrderIndex
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: ShouldSerializeOrderIndex()
+  nameWithType: ProjectFolderItemModel.ShouldSerializeOrderIndex()
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeOrderIndex()
+  type: Method
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ShouldSerializeOrderIndex
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 323
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nThis method is called by the serializer to determine if the property Description should be rendered.\n"
+  example: []
+  syntax:
+    content: public bool ShouldSerializeOrderIndex()
+    return:
+      type: System.Boolean
+      description: Returns a value indicating whether to render the related property.
+    content.vb: Public Function ShouldSerializeOrderIndex As Boolean
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeOrderIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeFolderId
+  commentId: M:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeFolderId
+  id: ShouldSerializeFolderId
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: ShouldSerializeFolderId()
+  nameWithType: ProjectFolderItemModel.ShouldSerializeFolderId()
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeFolderId()
+  type: Method
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ShouldSerializeFolderId
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 332
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nThis method is called by the serializer to determine if the property FolderId should be rendered.\n"
+  example: []
+  syntax:
+    content: public bool ShouldSerializeFolderId()
+    return:
+      type: System.Boolean
+      description: Returns a value indicating whether to render the related property.
+    content.vb: Public Function ShouldSerializeFolderId As Boolean
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeFolderId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldPermissions
+  commentId: M:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldPermissions
+  id: ShouldPermissions
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: ShouldPermissions()
+  nameWithType: ProjectFolderItemModel.ShouldPermissions()
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldPermissions()
+  type: Method
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ShouldPermissions
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 345
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nThis method is called by the serializer to determine if the property Permissions should be rendered.\n"
+  example: []
+  syntax:
+    content: public bool ShouldPermissions()
+    return:
+      type: System.Boolean
+      description: Returns a value indicating whether to render the related property.
+    content.vb: Public Function ShouldPermissions As Boolean
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldPermissions*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeComponentType
+  commentId: M:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeComponentType
+  id: ShouldSerializeComponentType
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: ShouldSerializeComponentType()
+  nameWithType: ProjectFolderItemModel.ShouldSerializeComponentType()
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeComponentType()
+  type: Method
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ShouldSerializeComponentType
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 354
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nThis method is called by the serializer to determine if the property ComponentType should be rendered.\n"
+  example: []
+  syntax:
+    content: public bool ShouldSerializeComponentType()
+    return:
+      type: System.Boolean
+      description: Returns a value indicating whether to render the related property.
+    content.vb: Public Function ShouldSerializeComponentType As Boolean
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeComponentType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeLanguageCode
+  commentId: M:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeLanguageCode
+  id: ShouldSerializeLanguageCode
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: ShouldSerializeLanguageCode()
+  nameWithType: ProjectFolderItemModel.ShouldSerializeLanguageCode()
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeLanguageCode()
+  type: Method
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ShouldSerializeLanguageCode
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 363
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nThis method is called by the serializer to determine if the property LanguageCode should be rendered.\n"
+  example: []
+  syntax:
+    content: public bool ShouldSerializeLanguageCode()
+    return:
+      type: System.Boolean
+      description: Returns a value indicating whether to render the related property.
+    content.vb: Public Function ShouldSerializeLanguageCode As Boolean
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeLanguageCode*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeFileName
+  commentId: M:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeFileName
+  id: ShouldSerializeFileName
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: ShouldSerializeFileName()
+  nameWithType: ProjectFolderItemModel.ShouldSerializeFileName()
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeFileName()
+  type: Method
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ShouldSerializeFileName
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 372
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nThis method is called by the serializer to determine if the property FileName should be rendered.\n"
+  example: []
+  syntax:
+    content: public bool ShouldSerializeFileName()
+    return:
+      type: System.Boolean
+      description: Returns a value indicating whether to render the related property.
+    content.vb: Public Function ShouldSerializeFileName As Boolean
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeFileName*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeApproved
+  commentId: M:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeApproved
+  id: ShouldSerializeApproved
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: ShouldSerializeApproved()
+  nameWithType: ProjectFolderItemModel.ShouldSerializeApproved()
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeApproved()
+  type: Method
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ShouldSerializeApproved
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 381
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nThis method is called by the serializer to determine if the property Approved should be rendered.\n"
+  example: []
+  syntax:
+    content: public bool ShouldSerializeApproved()
+    return:
+      type: System.Boolean
+      description: Returns a value indicating whether to render the related property.
+    content.vb: Public Function ShouldSerializeApproved As Boolean
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeApproved*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeLock
+  commentId: M:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeLock
+  id: ShouldSerializeLock
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: ShouldSerializeLock()
+  nameWithType: ProjectFolderItemModel.ShouldSerializeLock()
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeLock()
+  type: Method
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ShouldSerializeLock
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 390
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nThis method is called by the serializer to determine if the property Lock should be rendered.\n"
+  example: []
+  syntax:
+    content: public bool ShouldSerializeLock()
+    return:
+      type: System.Boolean
+      description: Returns a value indicating whether to render the related property.
+    content.vb: Public Function ShouldSerializeLock As Boolean
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeLock*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeComponentId
+  commentId: M:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeComponentId
+  id: ShouldSerializeComponentId
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  langs:
+  - csharp
+  - vb
+  name: ShouldSerializeComponentId()
+  nameWithType: ProjectFolderItemModel.ShouldSerializeComponentId()
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeComponentId()
+  type: Method
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ShouldSerializeComponentId
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 399
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nThis method is called by the serializer to determine if the property ComponentId should be rendered.\n"
+  example: []
+  syntax:
+    content: public bool ShouldSerializeComponentId()
+    return:
+      type: System.Boolean
+      description: Returns a value indicating whether to render the related property.
+    content.vb: Public Function ShouldSerializeComponentId As Boolean
+  overload: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeComponentId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Projects
+  commentId: N:Vasont.Inspire.Models.Projects
+  name: Vasont.Inspire.Models.Projects
+  nameWithType: Vasont.Inspire.Models.Projects
+  fullName: Vasont.Inspire.Models.Projects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  commentId: T:Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  name: ProjectFolderItemModel
+  nameWithType: ProjectFolderItemModel
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.#ctor*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.#ctor
+  name: ProjectFolderItemModel
+  nameWithType: ProjectFolderItemModel.ProjectFolderItemModel
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ProjectFolderItemModel
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Id*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Id
+  name: Id
+  nameWithType: ProjectFolderItemModel.Id
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.IsImage*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.IsImage
+  name: IsImage
+  nameWithType: ProjectFolderItemModel.IsImage
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.IsImage
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Type*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Type
+  name: Type
+  nameWithType: ProjectFolderItemModel.Type
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Type
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemType
+  commentId: T:Vasont.Inspire.Models.Projects.ProjectFolderItemType
+  parent: Vasont.Inspire.Models.Projects
+  name: ProjectFolderItemType
+  nameWithType: ProjectFolderItemType
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemType
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.TypeText*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.TypeText
+  name: TypeText
+  nameWithType: ProjectFolderItemModel.TypeText
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.TypeText
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ParentId*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ParentId
+  name: ParentId
+  nameWithType: ProjectFolderItemModel.ParentId
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ParentId
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ProjectId*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ProjectId
+  name: ProjectId
+  nameWithType: ProjectFolderItemModel.ProjectId
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ProjectId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Name*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Name
+  name: Name
+  nameWithType: ProjectFolderItemModel.Name
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Name
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ComponentId*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ComponentId
+  name: ComponentId
+  nameWithType: ProjectFolderItemModel.ComponentId
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ComponentId
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.FolderId*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.FolderId
+  name: FolderId
+  nameWithType: ProjectFolderItemModel.FolderId
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.FolderId
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ParentFolderId*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ParentFolderId
+  name: ParentFolderId
+  nameWithType: ProjectFolderItemModel.ParentFolderId
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ParentFolderId
+- uid: System.Nullable{System.Int64}
+  commentId: T:System.Nullable{System.Int64}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int64>
+  nameWithType: Nullable<Int64>
+  fullName: System.Nullable<System.Int64>
+  nameWithType.vb: Nullable(Of Int64)
+  fullName.vb: System.Nullable(Of System.Int64)
+  name.vb: Nullable(Of Int64)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.CreatedDate*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.CreatedDate
+  name: CreatedDate
+  nameWithType: ProjectFolderItemModel.CreatedDate
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.CreatedDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.UpdatedDate*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.UpdatedDate
+  name: UpdatedDate
+  nameWithType: ProjectFolderItemModel.UpdatedDate
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.UpdatedDate
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.UpdatedBy*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.UpdatedBy
+  name: UpdatedBy
+  nameWithType: ProjectFolderItemModel.UpdatedBy
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.UpdatedBy
+- uid: Vasont.Inspire.Models.Security.MinimalUserModel
+  commentId: T:Vasont.Inspire.Models.Security.MinimalUserModel
+  parent: Vasont.Inspire.Models.Security
+  name: MinimalUserModel
+  nameWithType: MinimalUserModel
+  fullName: Vasont.Inspire.Models.Security.MinimalUserModel
+- uid: Vasont.Inspire.Models.Security
+  commentId: N:Vasont.Inspire.Models.Security
+  name: Vasont.Inspire.Models.Security
+  nameWithType: Vasont.Inspire.Models.Security
+  fullName: Vasont.Inspire.Models.Security
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Children*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Children
+  name: Children
+  nameWithType: ProjectFolderItemModel.Children
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Children
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Projects.ProjectFolderItemModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Projects.ProjectFolderItemModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ProjectFolderItemModel>
+  nameWithType: List<ProjectFolderItemModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Projects.ProjectFolderItemModel>
+  nameWithType.vb: List(Of ProjectFolderItemModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Projects.ProjectFolderItemModel)
+  name.vb: List(Of ProjectFolderItemModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+    name: ProjectFolderItemModel
+    nameWithType: ProjectFolderItemModel
+    fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+    name: ProjectFolderItemModel
+    nameWithType: ProjectFolderItemModel
+    fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ComponentType*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ComponentType
+  name: ComponentType
+  nameWithType: ProjectFolderItemModel.ComponentType
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ComponentType
+- uid: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+  commentId: T:Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+  parent: Vasont.Inspire.Models.Components
+  name: MinimalComponentTypeModel
+  nameWithType: MinimalComponentTypeModel
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.LanguageCode*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.LanguageCode
+  name: LanguageCode
+  nameWithType: ProjectFolderItemModel.LanguageCode
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.LanguageCode
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.FileName*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.FileName
+  name: FileName
+  nameWithType: ProjectFolderItemModel.FileName
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.FileName
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.State*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.State
+  name: State
+  nameWithType: ProjectFolderItemModel.State
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.State
+- uid: Vasont.Inspire.Models.Components.ComponentStateType
+  commentId: T:Vasont.Inspire.Models.Components.ComponentStateType
+  parent: Vasont.Inspire.Models.Components
+  name: ComponentStateType
+  nameWithType: ComponentStateType
+  fullName: Vasont.Inspire.Models.Components.ComponentStateType
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.StateText*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.StateText
+  name: StateText
+  nameWithType: ProjectFolderItemModel.StateText
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.StateText
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Lock*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Lock
+  name: Lock
+  nameWithType: ProjectFolderItemModel.Lock
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Lock
+- uid: Vasont.Inspire.Models.Components.ComponentLockModel
+  commentId: T:Vasont.Inspire.Models.Components.ComponentLockModel
+  parent: Vasont.Inspire.Models.Components
+  name: ComponentLockModel
+  nameWithType: ComponentLockModel
+  fullName: Vasont.Inspire.Models.Components.ComponentLockModel
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Permissions*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Permissions
+  name: Permissions
+  nameWithType: ProjectFolderItemModel.Permissions
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Permissions
+- uid: Vasont.Inspire.Models.Security.PermissionModel
+  commentId: T:Vasont.Inspire.Models.Security.PermissionModel
+  parent: Vasont.Inspire.Models.Security
+  name: PermissionModel
+  nameWithType: PermissionModel
+  fullName: Vasont.Inspire.Models.Security.PermissionModel
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.CanTranslate*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.CanTranslate
+  name: CanTranslate
+  nameWithType: ProjectFolderItemModel.CanTranslate
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.CanTranslate
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Description*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Description
+  name: Description
+  nameWithType: ProjectFolderItemModel.Description
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.Description
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.DefaultFolder*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.DefaultFolder
+  name: DefaultFolder
+  nameWithType: ProjectFolderItemModel.DefaultFolder
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.DefaultFolder
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.OrderIndex*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.OrderIndex
+  name: OrderIndex
+  nameWithType: ProjectFolderItemModel.OrderIndex
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.OrderIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeDefaultFolder*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeDefaultFolder
+  name: ShouldSerializeDefaultFolder
+  nameWithType: ProjectFolderItemModel.ShouldSerializeDefaultFolder
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeDefaultFolder
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeDescription*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeDescription
+  name: ShouldSerializeDescription
+  nameWithType: ProjectFolderItemModel.ShouldSerializeDescription
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeDescription
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeOrderIndex*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeOrderIndex
+  name: ShouldSerializeOrderIndex
+  nameWithType: ProjectFolderItemModel.ShouldSerializeOrderIndex
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeOrderIndex
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeFolderId*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeFolderId
+  name: ShouldSerializeFolderId
+  nameWithType: ProjectFolderItemModel.ShouldSerializeFolderId
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeFolderId
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldPermissions*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldPermissions
+  name: ShouldPermissions
+  nameWithType: ProjectFolderItemModel.ShouldPermissions
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldPermissions
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeComponentType*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeComponentType
+  name: ShouldSerializeComponentType
+  nameWithType: ProjectFolderItemModel.ShouldSerializeComponentType
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeComponentType
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeLanguageCode*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeLanguageCode
+  name: ShouldSerializeLanguageCode
+  nameWithType: ProjectFolderItemModel.ShouldSerializeLanguageCode
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeLanguageCode
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeFileName*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeFileName
+  name: ShouldSerializeFileName
+  nameWithType: ProjectFolderItemModel.ShouldSerializeFileName
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeFileName
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeApproved*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeApproved
+  name: ShouldSerializeApproved
+  nameWithType: ProjectFolderItemModel.ShouldSerializeApproved
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeApproved
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeLock*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeLock
+  name: ShouldSerializeLock
+  nameWithType: ProjectFolderItemModel.ShouldSerializeLock
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeLock
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeComponentId*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeComponentId
+  name: ShouldSerializeComponentId
+  nameWithType: ProjectFolderItemModel.ShouldSerializeComponentId
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel.ShouldSerializeComponentId

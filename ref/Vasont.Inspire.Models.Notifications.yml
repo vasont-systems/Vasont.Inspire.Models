@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Notifications
+  commentId: N:Vasont.Inspire.Models.Notifications
+  id: Vasont.Inspire.Models.Notifications
+  children:
+  - Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+  - Vasont.Inspire.Models.Notifications.NotificationModel`2
+  - Vasont.Inspire.Models.Notifications.NotificationState
+  - Vasont.Inspire.Models.Notifications.NotificationStoreModel
+  - Vasont.Inspire.Models.Notifications.NotificationStoreQueryModel
+  - Vasont.Inspire.Models.Notifications.NotificationStoreResultModel
+  - Vasont.Inspire.Models.Notifications.NotificationTarget
+  - Vasont.Inspire.Models.Notifications.NotificationType
+  - Vasont.Inspire.Models.Notifications.NotificationUpdateModel
+  langs:
+  - csharp
+  - vb
+  name: Vasont.Inspire.Models.Notifications
+  nameWithType: Vasont.Inspire.Models.Notifications
+  fullName: Vasont.Inspire.Models.Notifications
+  type: Namespace
+  assemblies:
+  - Vasont.Inspire.Models
+references:
+- uid: Vasont.Inspire.Models.Notifications.NotificationType
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationType
+  parent: Vasont.Inspire.Models.Notifications
+  name: NotificationType
+  nameWithType: NotificationType
+  fullName: Vasont.Inspire.Models.Notifications.NotificationType
+- uid: Vasont.Inspire.Models.Notifications.NotificationTarget
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationTarget
+  parent: Vasont.Inspire.Models.Notifications
+  name: NotificationTarget
+  nameWithType: NotificationTarget
+  fullName: Vasont.Inspire.Models.Notifications.NotificationTarget
+- uid: Vasont.Inspire.Models.Notifications.NotificationState
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationState
+  parent: Vasont.Inspire.Models.Notifications
+  name: NotificationState
+  nameWithType: NotificationState
+  fullName: Vasont.Inspire.Models.Notifications.NotificationState
+- uid: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+  parent: Vasont.Inspire.Models.Notifications
+  name: NotificationMessageAlertStatus
+  nameWithType: NotificationMessageAlertStatus
+  fullName: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+- uid: Vasont.Inspire.Models.Notifications.NotificationModel`2
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationModel`2
+  name: NotificationModel<TModel, TTargetId>
+  nameWithType: NotificationModel<TModel, TTargetId>
+  fullName: Vasont.Inspire.Models.Notifications.NotificationModel<TModel, TTargetId>
+  nameWithType.vb: NotificationModel(Of TModel, TTargetId)
+  fullName.vb: Vasont.Inspire.Models.Notifications.NotificationModel(Of TModel, TTargetId)
+  name.vb: NotificationModel(Of TModel, TTargetId)
+  spec.csharp:
+  - uid: Vasont.Inspire.Models.Notifications.NotificationModel`2
+    name: NotificationModel
+    nameWithType: NotificationModel
+    fullName: Vasont.Inspire.Models.Notifications.NotificationModel
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TTargetId
+    nameWithType: TTargetId
+    fullName: TTargetId
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vasont.Inspire.Models.Notifications.NotificationModel`2
+    name: NotificationModel
+    nameWithType: NotificationModel
+    fullName: Vasont.Inspire.Models.Notifications.NotificationModel
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TTargetId
+    nameWithType: TTargetId
+    fullName: TTargetId
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreModel
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationStoreModel
+  name: NotificationStoreModel
+  nameWithType: NotificationStoreModel
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreModel
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreQueryModel
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationStoreQueryModel
+  name: NotificationStoreQueryModel
+  nameWithType: NotificationStoreQueryModel
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreQueryModel
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreResultModel
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationStoreResultModel
+  name: NotificationStoreResultModel
+  nameWithType: NotificationStoreResultModel
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreResultModel
+- uid: Vasont.Inspire.Models.Notifications.NotificationUpdateModel
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationUpdateModel
+  name: NotificationUpdateModel
+  nameWithType: NotificationUpdateModel
+  fullName: Vasont.Inspire.Models.Notifications.NotificationUpdateModel
+- uid: Vasont.Inspire.Models.Notifications
+  commentId: N:Vasont.Inspire.Models.Notifications
+  name: Vasont.Inspire.Models.Notifications
+  nameWithType: Vasont.Inspire.Models.Notifications
+  fullName: Vasont.Inspire.Models.Notifications

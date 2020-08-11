@@ -1,0 +1,592 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties
+  commentId: T:Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties
+  id: ComponentSnapshotExtendedProperties
+  parent: Vasont.Inspire.Models.Versioning
+  children:
+  - Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.ComponentType
+  - Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.ContentChanged
+  - Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.FileName
+  - Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.LanguageCode
+  - Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.State
+  langs:
+  - csharp
+  - vb
+  name: ComponentSnapshotExtendedProperties
+  nameWithType: ComponentSnapshotExtendedProperties
+  fullName: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties
+  type: Class
+  source:
+    remote:
+      path: src/Versioning/ComponentSnapshotExtendedProperties.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentSnapshotExtendedProperties
+    path: Versioning/ComponentSnapshotExtendedProperties.cs
+    startLine: 12
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nThis class contains component specific properties for a changeset snapshot model.\n"
+  example: []
+  syntax:
+    content: public sealed class ComponentSnapshotExtendedProperties
+    content.vb: Public NotInheritable Class ComponentSnapshotExtendedProperties
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.LanguageCode
+  commentId: P:Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.LanguageCode
+  id: LanguageCode
+  parent: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties
+  langs:
+  - csharp
+  - vb
+  name: LanguageCode
+  nameWithType: ComponentSnapshotExtendedProperties.LanguageCode
+  fullName: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.LanguageCode
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ComponentSnapshotExtendedProperties.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: LanguageCode
+    path: Versioning/ComponentSnapshotExtendedProperties.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the component language code.\n"
+  example: []
+  syntax:
+    content: public string LanguageCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LanguageCode As String
+  overload: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.LanguageCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.ComponentType
+  commentId: P:Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.ComponentType
+  id: ComponentType
+  parent: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties
+  langs:
+  - csharp
+  - vb
+  name: ComponentType
+  nameWithType: ComponentSnapshotExtendedProperties.ComponentType
+  fullName: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.ComponentType
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ComponentSnapshotExtendedProperties.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentType
+    path: Versioning/ComponentSnapshotExtendedProperties.cs
+    startLine: 22
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the component type information.\n"
+  example: []
+  syntax:
+    content: public MinimalComponentTypeModel ComponentType { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+    content.vb: Public Property ComponentType As MinimalComponentTypeModel
+  overload: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.ComponentType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.FileName
+  commentId: P:Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.FileName
+  id: FileName
+  parent: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: ComponentSnapshotExtendedProperties.FileName
+  fullName: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.FileName
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ComponentSnapshotExtendedProperties.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FileName
+    path: Versioning/ComponentSnapshotExtendedProperties.cs
+    startLine: 27
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the component file name.\n"
+  example: []
+  syntax:
+    content: public string FileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FileName As String
+  overload: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.FileName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.State
+  commentId: P:Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.State
+  id: State
+  parent: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: ComponentSnapshotExtendedProperties.State
+  fullName: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.State
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ComponentSnapshotExtendedProperties.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: State
+    path: Versioning/ComponentSnapshotExtendedProperties.cs
+    startLine: 32
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the component state information.\n"
+  example: []
+  syntax:
+    content: public ComponentStateType State { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Components.ComponentStateType
+    content.vb: Public Property State As ComponentStateType
+  overload: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.State*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.ContentChanged
+  commentId: P:Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.ContentChanged
+  id: ContentChanged
+  parent: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties
+  langs:
+  - csharp
+  - vb
+  name: ContentChanged
+  nameWithType: ComponentSnapshotExtendedProperties.ContentChanged
+  fullName: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.ContentChanged
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ComponentSnapshotExtendedProperties.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ContentChanged
+    path: Versioning/ComponentSnapshotExtendedProperties.cs
+    startLine: 37
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets a value indicating whether the component content changed during this snapshot and therefore has new content for this particular history record.\n"
+  example: []
+  syntax:
+    content: public bool ContentChanged { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ContentChanged As Boolean
+  overload: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.ContentChanged*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Versioning
+  commentId: N:Vasont.Inspire.Models.Versioning
+  name: Vasont.Inspire.Models.Versioning
+  nameWithType: Vasont.Inspire.Models.Versioning
+  fullName: Vasont.Inspire.Models.Versioning
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.LanguageCode*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.LanguageCode
+  name: LanguageCode
+  nameWithType: ComponentSnapshotExtendedProperties.LanguageCode
+  fullName: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.LanguageCode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.ComponentType*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.ComponentType
+  name: ComponentType
+  nameWithType: ComponentSnapshotExtendedProperties.ComponentType
+  fullName: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.ComponentType
+- uid: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+  commentId: T:Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+  parent: Vasont.Inspire.Models.Components
+  name: MinimalComponentTypeModel
+  nameWithType: MinimalComponentTypeModel
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.FileName*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.FileName
+  name: FileName
+  nameWithType: ComponentSnapshotExtendedProperties.FileName
+  fullName: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.FileName
+- uid: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.State*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.State
+  name: State
+  nameWithType: ComponentSnapshotExtendedProperties.State
+  fullName: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.State
+- uid: Vasont.Inspire.Models.Components.ComponentStateType
+  commentId: T:Vasont.Inspire.Models.Components.ComponentStateType
+  parent: Vasont.Inspire.Models.Components
+  name: ComponentStateType
+  nameWithType: ComponentStateType
+  fullName: Vasont.Inspire.Models.Components.ComponentStateType
+- uid: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.ContentChanged*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.ContentChanged
+  name: ContentChanged
+  nameWithType: ComponentSnapshotExtendedProperties.ContentChanged
+  fullName: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties.ContentChanged
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

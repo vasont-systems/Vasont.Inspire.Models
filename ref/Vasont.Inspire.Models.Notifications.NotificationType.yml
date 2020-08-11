@@ -1,0 +1,235 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Notifications.NotificationType
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationType
+  id: NotificationType
+  parent: Vasont.Inspire.Models.Notifications
+  children:
+  - Vasont.Inspire.Models.Notifications.NotificationType.Component
+  - Vasont.Inspire.Models.Notifications.NotificationType.Folder
+  - Vasont.Inspire.Models.Notifications.NotificationType.Message
+  - Vasont.Inspire.Models.Notifications.NotificationType.Project
+  - Vasont.Inspire.Models.Notifications.NotificationType.Review
+  langs:
+  - csharp
+  - vb
+  name: NotificationType
+  nameWithType: NotificationType
+  fullName: Vasont.Inspire.Models.Notifications.NotificationType
+  type: Enum
+  source:
+    remote:
+      path: src/Notifications/NotificationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: NotificationType
+    path: Notifications/NotificationModel.cs
+    startLine: 14
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nContains an enumerated list of available notification types.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum NotificationType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum NotificationType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Notifications.NotificationType.Message
+  commentId: F:Vasont.Inspire.Models.Notifications.NotificationType.Message
+  id: Message
+  parent: Vasont.Inspire.Models.Notifications.NotificationType
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: NotificationType.Message
+  fullName: Vasont.Inspire.Models.Notifications.NotificationType.Message
+  type: Field
+  source:
+    remote:
+      path: src/Notifications/NotificationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Message
+    path: Notifications/NotificationModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nA notification message alert.\n"
+  example: []
+  syntax:
+    content: Message = 0
+    return:
+      type: Vasont.Inspire.Models.Notifications.NotificationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Notifications.NotificationType.Folder
+  commentId: F:Vasont.Inspire.Models.Notifications.NotificationType.Folder
+  id: Folder
+  parent: Vasont.Inspire.Models.Notifications.NotificationType
+  langs:
+  - csharp
+  - vb
+  name: Folder
+  nameWithType: NotificationType.Folder
+  fullName: Vasont.Inspire.Models.Notifications.NotificationType.Folder
+  type: Field
+  source:
+    remote:
+      path: src/Notifications/NotificationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Folder
+    path: Notifications/NotificationModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nA notification about a given folder.\n"
+  example: []
+  syntax:
+    content: Folder = 1
+    return:
+      type: Vasont.Inspire.Models.Notifications.NotificationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Notifications.NotificationType.Component
+  commentId: F:Vasont.Inspire.Models.Notifications.NotificationType.Component
+  id: Component
+  parent: Vasont.Inspire.Models.Notifications.NotificationType
+  langs:
+  - csharp
+  - vb
+  name: Component
+  nameWithType: NotificationType.Component
+  fullName: Vasont.Inspire.Models.Notifications.NotificationType.Component
+  type: Field
+  source:
+    remote:
+      path: src/Notifications/NotificationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Component
+    path: Notifications/NotificationModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nA notification about a given component.\n"
+  example: []
+  syntax:
+    content: Component = 2
+    return:
+      type: Vasont.Inspire.Models.Notifications.NotificationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Notifications.NotificationType.Review
+  commentId: F:Vasont.Inspire.Models.Notifications.NotificationType.Review
+  id: Review
+  parent: Vasont.Inspire.Models.Notifications.NotificationType
+  langs:
+  - csharp
+  - vb
+  name: Review
+  nameWithType: NotificationType.Review
+  fullName: Vasont.Inspire.Models.Notifications.NotificationType.Review
+  type: Field
+  source:
+    remote:
+      path: src/Notifications/NotificationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Review
+    path: Notifications/NotificationModel.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nA notification about a given review.\n"
+  example: []
+  syntax:
+    content: Review = 3
+    return:
+      type: Vasont.Inspire.Models.Notifications.NotificationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Notifications.NotificationType.Project
+  commentId: F:Vasont.Inspire.Models.Notifications.NotificationType.Project
+  id: Project
+  parent: Vasont.Inspire.Models.Notifications.NotificationType
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: NotificationType.Project
+  fullName: Vasont.Inspire.Models.Notifications.NotificationType.Project
+  type: Field
+  source:
+    remote:
+      path: src/Notifications/NotificationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Project
+    path: Notifications/NotificationModel.cs
+    startLine: 40
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nA notification about a given project.\n"
+  example: []
+  syntax:
+    content: Project = 4
+    return:
+      type: Vasont.Inspire.Models.Notifications.NotificationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Notifications
+  commentId: N:Vasont.Inspire.Models.Notifications
+  name: Vasont.Inspire.Models.Notifications
+  nameWithType: Vasont.Inspire.Models.Notifications
+  fullName: Vasont.Inspire.Models.Notifications
+- uid: Vasont.Inspire.Models.Notifications.NotificationType
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationType
+  parent: Vasont.Inspire.Models.Notifications
+  name: NotificationType
+  nameWithType: NotificationType
+  fullName: Vasont.Inspire.Models.Notifications.NotificationType

@@ -1,0 +1,851 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel
+  commentId: T:Vasont.Inspire.Models.Common.TenantDetailModel
+  id: TenantDetailModel
+  parent: Vasont.Inspire.Models.Common
+  children:
+  - Vasont.Inspire.Models.Common.TenantDetailModel.Copyright
+  - Vasont.Inspire.Models.Common.TenantDetailModel.DefaultLanguage
+  - Vasont.Inspire.Models.Common.TenantDetailModel.DomainKey
+  - Vasont.Inspire.Models.Common.TenantDetailModel.Name
+  - Vasont.Inspire.Models.Common.TenantDetailModel.SessionTimeout
+  - Vasont.Inspire.Models.Common.TenantDetailModel.SubscriptionLevel
+  - Vasont.Inspire.Models.Common.TenantDetailModel.SupportEmail
+  - Vasont.Inspire.Models.Common.TenantDetailModel.SupportInfo
+  - Vasont.Inspire.Models.Common.TenantDetailModel.TranslationFilteringEnabled
+  - Vasont.Inspire.Models.Common.TenantDetailModel.TranslationLockSourceDisabled
+  - Vasont.Inspire.Models.Common.TenantDetailModel.Version
+  langs:
+  - csharp
+  - vb
+  name: TenantDetailModel
+  nameWithType: TenantDetailModel
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel
+  type: Class
+  source:
+    remote:
+      path: src/Common/TenantDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TenantDetailModel
+    path: Common/TenantDetailModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nThis class represents the basic tenant information needed for the web application.\n"
+  example: []
+  syntax:
+    content: public class TenantDetailModel
+    content.vb: Public Class TenantDetailModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.DomainKey
+  commentId: P:Vasont.Inspire.Models.Common.TenantDetailModel.DomainKey
+  id: DomainKey
+  parent: Vasont.Inspire.Models.Common.TenantDetailModel
+  langs:
+  - csharp
+  - vb
+  name: DomainKey
+  nameWithType: TenantDetailModel.DomainKey
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.DomainKey
+  type: Property
+  source:
+    remote:
+      path: src/Common/TenantDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DomainKey
+    path: Common/TenantDetailModel.cs
+    startLine: 18
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the domain key.\n"
+  example: []
+  syntax:
+    content: public string DomainKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DomainKey As String
+  overload: Vasont.Inspire.Models.Common.TenantDetailModel.DomainKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.Name
+  commentId: P:Vasont.Inspire.Models.Common.TenantDetailModel.Name
+  id: Name
+  parent: Vasont.Inspire.Models.Common.TenantDetailModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TenantDetailModel.Name
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.Name
+  type: Property
+  source:
+    remote:
+      path: src/Common/TenantDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Name
+    path: Common/TenantDetailModel.cs
+    startLine: 23
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the tenant name.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Vasont.Inspire.Models.Common.TenantDetailModel.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.SubscriptionLevel
+  commentId: P:Vasont.Inspire.Models.Common.TenantDetailModel.SubscriptionLevel
+  id: SubscriptionLevel
+  parent: Vasont.Inspire.Models.Common.TenantDetailModel
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionLevel
+  nameWithType: TenantDetailModel.SubscriptionLevel
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.SubscriptionLevel
+  type: Property
+  source:
+    remote:
+      path: src/Common/TenantDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SubscriptionLevel
+    path: Common/TenantDetailModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the tenant account type.\n"
+  example: []
+  syntax:
+    content: public ApplicationSubscriptionLevel SubscriptionLevel { get; set; }
+    parameters: []
+    return:
+      type: Vasont.IdentityServer.Backchannel.Models.ApplicationSubscriptionLevel
+    content.vb: Public Property SubscriptionLevel As ApplicationSubscriptionLevel
+  overload: Vasont.Inspire.Models.Common.TenantDetailModel.SubscriptionLevel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.SupportInfo
+  commentId: P:Vasont.Inspire.Models.Common.TenantDetailModel.SupportInfo
+  id: SupportInfo
+  parent: Vasont.Inspire.Models.Common.TenantDetailModel
+  langs:
+  - csharp
+  - vb
+  name: SupportInfo
+  nameWithType: TenantDetailModel.SupportInfo
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.SupportInfo
+  type: Property
+  source:
+    remote:
+      path: src/Common/TenantDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SupportInfo
+    path: Common/TenantDetailModel.cs
+    startLine: 33
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the support information about the Tenant.\n"
+  example: []
+  syntax:
+    content: public string SupportInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SupportInfo As String
+  overload: Vasont.Inspire.Models.Common.TenantDetailModel.SupportInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.SupportEmail
+  commentId: P:Vasont.Inspire.Models.Common.TenantDetailModel.SupportEmail
+  id: SupportEmail
+  parent: Vasont.Inspire.Models.Common.TenantDetailModel
+  langs:
+  - csharp
+  - vb
+  name: SupportEmail
+  nameWithType: TenantDetailModel.SupportEmail
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.SupportEmail
+  type: Property
+  source:
+    remote:
+      path: src/Common/TenantDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SupportEmail
+    path: Common/TenantDetailModel.cs
+    startLine: 38
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the support contact e-mail address for the Tenant.\n"
+  example: []
+  syntax:
+    content: public string SupportEmail { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SupportEmail As String
+  overload: Vasont.Inspire.Models.Common.TenantDetailModel.SupportEmail*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.DefaultLanguage
+  commentId: P:Vasont.Inspire.Models.Common.TenantDetailModel.DefaultLanguage
+  id: DefaultLanguage
+  parent: Vasont.Inspire.Models.Common.TenantDetailModel
+  langs:
+  - csharp
+  - vb
+  name: DefaultLanguage
+  nameWithType: TenantDetailModel.DefaultLanguage
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.DefaultLanguage
+  type: Property
+  source:
+    remote:
+      path: src/Common/TenantDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DefaultLanguage
+    path: Common/TenantDetailModel.cs
+    startLine: 43
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the default language to use for the tenant application.\n"
+  example: []
+  syntax:
+    content: public string DefaultLanguage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DefaultLanguage As String
+  overload: Vasont.Inspire.Models.Common.TenantDetailModel.DefaultLanguage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.SessionTimeout
+  commentId: P:Vasont.Inspire.Models.Common.TenantDetailModel.SessionTimeout
+  id: SessionTimeout
+  parent: Vasont.Inspire.Models.Common.TenantDetailModel
+  langs:
+  - csharp
+  - vb
+  name: SessionTimeout
+  nameWithType: TenantDetailModel.SessionTimeout
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.SessionTimeout
+  type: Property
+  source:
+    remote:
+      path: src/Common/TenantDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SessionTimeout
+    path: Common/TenantDetailModel.cs
+    startLine: 48
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the server&apos;s session timeout in minutes.\n"
+  example: []
+  syntax:
+    content: public int SessionTimeout { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SessionTimeout As Integer
+  overload: Vasont.Inspire.Models.Common.TenantDetailModel.SessionTimeout*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.TranslationFilteringEnabled
+  commentId: P:Vasont.Inspire.Models.Common.TenantDetailModel.TranslationFilteringEnabled
+  id: TranslationFilteringEnabled
+  parent: Vasont.Inspire.Models.Common.TenantDetailModel
+  langs:
+  - csharp
+  - vb
+  name: TranslationFilteringEnabled
+  nameWithType: TenantDetailModel.TranslationFilteringEnabled
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.TranslationFilteringEnabled
+  type: Property
+  source:
+    remote:
+      path: src/Common/TenantDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TranslationFilteringEnabled
+    path: Common/TenantDetailModel.cs
+    startLine: 53
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets a value indicating whether to filter translation submissions or not.\n"
+  example: []
+  syntax:
+    content: public bool TranslationFilteringEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property TranslationFilteringEnabled As Boolean
+  overload: Vasont.Inspire.Models.Common.TenantDetailModel.TranslationFilteringEnabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.TranslationLockSourceDisabled
+  commentId: P:Vasont.Inspire.Models.Common.TenantDetailModel.TranslationLockSourceDisabled
+  id: TranslationLockSourceDisabled
+  parent: Vasont.Inspire.Models.Common.TenantDetailModel
+  langs:
+  - csharp
+  - vb
+  name: TranslationLockSourceDisabled
+  nameWithType: TenantDetailModel.TranslationLockSourceDisabled
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.TranslationLockSourceDisabled
+  type: Property
+  source:
+    remote:
+      path: src/Common/TenantDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TranslationLockSourceDisabled
+    path: Common/TenantDetailModel.cs
+    startLine: 58
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets a value indicating whether to lock english sources a translation submission.\n"
+  example: []
+  syntax:
+    content: public bool TranslationLockSourceDisabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property TranslationLockSourceDisabled As Boolean
+  overload: Vasont.Inspire.Models.Common.TenantDetailModel.TranslationLockSourceDisabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.Copyright
+  commentId: P:Vasont.Inspire.Models.Common.TenantDetailModel.Copyright
+  id: Copyright
+  parent: Vasont.Inspire.Models.Common.TenantDetailModel
+  langs:
+  - csharp
+  - vb
+  name: Copyright
+  nameWithType: TenantDetailModel.Copyright
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.Copyright
+  type: Property
+  source:
+    remote:
+      path: src/Common/TenantDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Copyright
+    path: Common/TenantDetailModel.cs
+    startLine: 63
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the copyright of the tenant application.\n"
+  example: []
+  syntax:
+    content: public string Copyright { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Copyright As String
+  overload: Vasont.Inspire.Models.Common.TenantDetailModel.Copyright*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.Version
+  commentId: P:Vasont.Inspire.Models.Common.TenantDetailModel.Version
+  id: Version
+  parent: Vasont.Inspire.Models.Common.TenantDetailModel
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: TenantDetailModel.Version
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.Version
+  type: Property
+  source:
+    remote:
+      path: src/Common/TenantDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Version
+    path: Common/TenantDetailModel.cs
+    startLine: 68
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the version of the tenant application.\n"
+  example: []
+  syntax:
+    content: public string Version { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Version As String
+  overload: Vasont.Inspire.Models.Common.TenantDetailModel.Version*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Common
+  commentId: N:Vasont.Inspire.Models.Common
+  name: Vasont.Inspire.Models.Common
+  nameWithType: Vasont.Inspire.Models.Common
+  fullName: Vasont.Inspire.Models.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.DomainKey*
+  commentId: Overload:Vasont.Inspire.Models.Common.TenantDetailModel.DomainKey
+  name: DomainKey
+  nameWithType: TenantDetailModel.DomainKey
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.DomainKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.Name*
+  commentId: Overload:Vasont.Inspire.Models.Common.TenantDetailModel.Name
+  name: Name
+  nameWithType: TenantDetailModel.Name
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.Name
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.SubscriptionLevel*
+  commentId: Overload:Vasont.Inspire.Models.Common.TenantDetailModel.SubscriptionLevel
+  name: SubscriptionLevel
+  nameWithType: TenantDetailModel.SubscriptionLevel
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.SubscriptionLevel
+- uid: Vasont.IdentityServer.Backchannel.Models.ApplicationSubscriptionLevel
+  commentId: T:Vasont.IdentityServer.Backchannel.Models.ApplicationSubscriptionLevel
+  parent: Vasont.IdentityServer.Backchannel.Models
+  isExternal: true
+  name: ApplicationSubscriptionLevel
+  nameWithType: ApplicationSubscriptionLevel
+  fullName: Vasont.IdentityServer.Backchannel.Models.ApplicationSubscriptionLevel
+- uid: Vasont.IdentityServer.Backchannel.Models
+  commentId: N:Vasont.IdentityServer.Backchannel.Models
+  isExternal: true
+  name: Vasont.IdentityServer.Backchannel.Models
+  nameWithType: Vasont.IdentityServer.Backchannel.Models
+  fullName: Vasont.IdentityServer.Backchannel.Models
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.SupportInfo*
+  commentId: Overload:Vasont.Inspire.Models.Common.TenantDetailModel.SupportInfo
+  name: SupportInfo
+  nameWithType: TenantDetailModel.SupportInfo
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.SupportInfo
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.SupportEmail*
+  commentId: Overload:Vasont.Inspire.Models.Common.TenantDetailModel.SupportEmail
+  name: SupportEmail
+  nameWithType: TenantDetailModel.SupportEmail
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.SupportEmail
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.DefaultLanguage*
+  commentId: Overload:Vasont.Inspire.Models.Common.TenantDetailModel.DefaultLanguage
+  name: DefaultLanguage
+  nameWithType: TenantDetailModel.DefaultLanguage
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.DefaultLanguage
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.SessionTimeout*
+  commentId: Overload:Vasont.Inspire.Models.Common.TenantDetailModel.SessionTimeout
+  name: SessionTimeout
+  nameWithType: TenantDetailModel.SessionTimeout
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.SessionTimeout
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.TranslationFilteringEnabled*
+  commentId: Overload:Vasont.Inspire.Models.Common.TenantDetailModel.TranslationFilteringEnabled
+  name: TranslationFilteringEnabled
+  nameWithType: TenantDetailModel.TranslationFilteringEnabled
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.TranslationFilteringEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.TranslationLockSourceDisabled*
+  commentId: Overload:Vasont.Inspire.Models.Common.TenantDetailModel.TranslationLockSourceDisabled
+  name: TranslationLockSourceDisabled
+  nameWithType: TenantDetailModel.TranslationLockSourceDisabled
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.TranslationLockSourceDisabled
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.Copyright*
+  commentId: Overload:Vasont.Inspire.Models.Common.TenantDetailModel.Copyright
+  name: Copyright
+  nameWithType: TenantDetailModel.Copyright
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.Copyright
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.Version*
+  commentId: Overload:Vasont.Inspire.Models.Common.TenantDetailModel.Version
+  name: Version
+  nameWithType: TenantDetailModel.Version
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.Version

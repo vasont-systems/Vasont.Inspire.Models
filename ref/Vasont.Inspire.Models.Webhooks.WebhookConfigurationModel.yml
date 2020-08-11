@@ -1,0 +1,535 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel
+  commentId: T:Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel
+  id: WebhookConfigurationModel
+  parent: Vasont.Inspire.Models.Webhooks
+  children:
+  - Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.Name
+  - Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.PropertyName
+  - Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.PropertyValue
+  - Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.ValueType
+  langs:
+  - csharp
+  - vb
+  name: WebhookConfigurationModel
+  nameWithType: WebhookConfigurationModel
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel
+  type: Class
+  source:
+    remote:
+      path: src/Webhooks/WebhookConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: WebhookConfigurationModel
+    path: Webhooks/WebhookConfigurationModel.cs
+    startLine: 77
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nThis class represents a webhook configuration used with webhook API calls.\n"
+  example: []
+  syntax:
+    content: public class WebhookConfigurationModel
+    content.vb: Public Class WebhookConfigurationModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.Name
+  commentId: P:Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.Name
+  id: Name
+  parent: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: WebhookConfigurationModel.Name
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.Name
+  type: Property
+  source:
+    remote:
+      path: src/Webhooks/WebhookConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Name
+    path: Webhooks/WebhookConfigurationModel.cs
+    startLine: 82
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nGets or sets the webhook name.\n"
+  example: []
+  syntax:
+    content: public WebhookConfigurationNameType Name { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+    content.vb: Public Property Name As WebhookConfigurationNameType
+  overload: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.PropertyName
+  commentId: P:Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.PropertyName
+  id: PropertyName
+  parent: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel
+  langs:
+  - csharp
+  - vb
+  name: PropertyName
+  nameWithType: WebhookConfigurationModel.PropertyName
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.PropertyName
+  type: Property
+  source:
+    remote:
+      path: src/Webhooks/WebhookConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PropertyName
+    path: Webhooks/WebhookConfigurationModel.cs
+    startLine: 87
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nGets or sets the property name.\n"
+  example: []
+  syntax:
+    content: public string PropertyName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PropertyName As String
+  overload: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.PropertyName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.PropertyValue
+  commentId: P:Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.PropertyValue
+  id: PropertyValue
+  parent: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel
+  langs:
+  - csharp
+  - vb
+  name: PropertyValue
+  nameWithType: WebhookConfigurationModel.PropertyValue
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.PropertyValue
+  type: Property
+  source:
+    remote:
+      path: src/Webhooks/WebhookConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PropertyValue
+    path: Webhooks/WebhookConfigurationModel.cs
+    startLine: 92
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nGets or sets the property value.\n"
+  example: []
+  syntax:
+    content: public string PropertyValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PropertyValue As String
+  overload: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.PropertyValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.ValueType
+  commentId: P:Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.ValueType
+  id: ValueType
+  parent: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel
+  langs:
+  - csharp
+  - vb
+  name: ValueType
+  nameWithType: WebhookConfigurationModel.ValueType
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.ValueType
+  type: Property
+  source:
+    remote:
+      path: src/Webhooks/WebhookConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ValueType
+    path: Webhooks/WebhookConfigurationModel.cs
+    startLine: 97
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nGets or sets the value type.\n"
+  example: []
+  syntax:
+    content: public WebhookConfigurationValueType ValueType { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+    content.vb: Public Property ValueType As WebhookConfigurationValueType
+  overload: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.ValueType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Webhooks
+  commentId: N:Vasont.Inspire.Models.Webhooks
+  name: Vasont.Inspire.Models.Webhooks
+  nameWithType: Vasont.Inspire.Models.Webhooks
+  fullName: Vasont.Inspire.Models.Webhooks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.Name*
+  commentId: Overload:Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.Name
+  name: Name
+  nameWithType: WebhookConfigurationModel.Name
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.Name
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  commentId: T:Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  parent: Vasont.Inspire.Models.Webhooks
+  name: WebhookConfigurationNameType
+  nameWithType: WebhookConfigurationNameType
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.PropertyName*
+  commentId: Overload:Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.PropertyName
+  name: PropertyName
+  nameWithType: WebhookConfigurationModel.PropertyName
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.PropertyName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.PropertyValue*
+  commentId: Overload:Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.PropertyValue
+  name: PropertyValue
+  nameWithType: WebhookConfigurationModel.PropertyValue
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.PropertyValue
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.ValueType*
+  commentId: Overload:Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.ValueType
+  name: ValueType
+  nameWithType: WebhookConfigurationModel.ValueType
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel.ValueType
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  commentId: T:Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  parent: Vasont.Inspire.Models.Webhooks
+  name: WebhookConfigurationValueType
+  nameWithType: WebhookConfigurationValueType
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType

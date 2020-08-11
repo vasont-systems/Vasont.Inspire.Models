@@ -1,0 +1,609 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading
+  commentId: T:Vasont.Inspire.Models.Diagnostics.DiagnosticThreading
+  id: DiagnosticThreading
+  parent: Vasont.Inspire.Models.Diagnostics
+  children:
+  - Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MaximumCompletionPorts
+  - Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MaximumThreads
+  - Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MinimumCompletionPorts
+  - Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MinimumThreads
+  - Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.SettingsMaxParallel
+  - Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.SettingsMaxPorts
+  langs:
+  - csharp
+  - vb
+  name: DiagnosticThreading
+  nameWithType: DiagnosticThreading
+  fullName: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading
+  type: Class
+  source:
+    remote:
+      path: src/Diagnostics/DiagnosticThreading.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DiagnosticThreading
+    path: Diagnostics/DiagnosticThreading.cs
+    startLine: 10
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Diagnostics
+  summary: "\nThis class is represents a diagnostic threading information\n"
+  example: []
+  syntax:
+    content: public class DiagnosticThreading
+    content.vb: Public Class DiagnosticThreading
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MinimumThreads
+  commentId: P:Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MinimumThreads
+  id: MinimumThreads
+  parent: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading
+  langs:
+  - csharp
+  - vb
+  name: MinimumThreads
+  nameWithType: DiagnosticThreading.MinimumThreads
+  fullName: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MinimumThreads
+  type: Property
+  source:
+    remote:
+      path: src/Diagnostics/DiagnosticThreading.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: MinimumThreads
+    path: Diagnostics/DiagnosticThreading.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Diagnostics
+  summary: "\nGets or sets minimum threads count\n"
+  example: []
+  syntax:
+    content: public int MinimumThreads { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MinimumThreads As Integer
+  overload: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MinimumThreads*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MaximumThreads
+  commentId: P:Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MaximumThreads
+  id: MaximumThreads
+  parent: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading
+  langs:
+  - csharp
+  - vb
+  name: MaximumThreads
+  nameWithType: DiagnosticThreading.MaximumThreads
+  fullName: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MaximumThreads
+  type: Property
+  source:
+    remote:
+      path: src/Diagnostics/DiagnosticThreading.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: MaximumThreads
+    path: Diagnostics/DiagnosticThreading.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Diagnostics
+  summary: "\nGets or sets maximum threads count\n"
+  example: []
+  syntax:
+    content: public int MaximumThreads { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaximumThreads As Integer
+  overload: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MaximumThreads*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MinimumCompletionPorts
+  commentId: P:Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MinimumCompletionPorts
+  id: MinimumCompletionPorts
+  parent: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading
+  langs:
+  - csharp
+  - vb
+  name: MinimumCompletionPorts
+  nameWithType: DiagnosticThreading.MinimumCompletionPorts
+  fullName: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MinimumCompletionPorts
+  type: Property
+  source:
+    remote:
+      path: src/Diagnostics/DiagnosticThreading.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: MinimumCompletionPorts
+    path: Diagnostics/DiagnosticThreading.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Diagnostics
+  summary: "\nGets or sets minimum completion ports\n"
+  example: []
+  syntax:
+    content: public int MinimumCompletionPorts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MinimumCompletionPorts As Integer
+  overload: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MinimumCompletionPorts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MaximumCompletionPorts
+  commentId: P:Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MaximumCompletionPorts
+  id: MaximumCompletionPorts
+  parent: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading
+  langs:
+  - csharp
+  - vb
+  name: MaximumCompletionPorts
+  nameWithType: DiagnosticThreading.MaximumCompletionPorts
+  fullName: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MaximumCompletionPorts
+  type: Property
+  source:
+    remote:
+      path: src/Diagnostics/DiagnosticThreading.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: MaximumCompletionPorts
+    path: Diagnostics/DiagnosticThreading.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Diagnostics
+  summary: "\nGets or sets maximum completion ports\n"
+  example: []
+  syntax:
+    content: public int MaximumCompletionPorts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaximumCompletionPorts As Integer
+  overload: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MaximumCompletionPorts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.SettingsMaxPorts
+  commentId: P:Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.SettingsMaxPorts
+  id: SettingsMaxPorts
+  parent: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading
+  langs:
+  - csharp
+  - vb
+  name: SettingsMaxPorts
+  nameWithType: DiagnosticThreading.SettingsMaxPorts
+  fullName: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.SettingsMaxPorts
+  type: Property
+  source:
+    remote:
+      path: src/Diagnostics/DiagnosticThreading.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SettingsMaxPorts
+    path: Diagnostics/DiagnosticThreading.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Diagnostics
+  summary: "\nGets or sets settings max ports\n"
+  example: []
+  syntax:
+    content: public int SettingsMaxPorts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SettingsMaxPorts As Integer
+  overload: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.SettingsMaxPorts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.SettingsMaxParallel
+  commentId: P:Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.SettingsMaxParallel
+  id: SettingsMaxParallel
+  parent: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading
+  langs:
+  - csharp
+  - vb
+  name: SettingsMaxParallel
+  nameWithType: DiagnosticThreading.SettingsMaxParallel
+  fullName: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.SettingsMaxParallel
+  type: Property
+  source:
+    remote:
+      path: src/Diagnostics/DiagnosticThreading.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SettingsMaxParallel
+    path: Diagnostics/DiagnosticThreading.cs
+    startLine: 40
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Diagnostics
+  summary: "\nGets or sets settings max parallel\n"
+  example: []
+  syntax:
+    content: public int SettingsMaxParallel { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SettingsMaxParallel As Integer
+  overload: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.SettingsMaxParallel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Diagnostics
+  commentId: N:Vasont.Inspire.Models.Diagnostics
+  name: Vasont.Inspire.Models.Diagnostics
+  nameWithType: Vasont.Inspire.Models.Diagnostics
+  fullName: Vasont.Inspire.Models.Diagnostics
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MinimumThreads*
+  commentId: Overload:Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MinimumThreads
+  name: MinimumThreads
+  nameWithType: DiagnosticThreading.MinimumThreads
+  fullName: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MinimumThreads
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MaximumThreads*
+  commentId: Overload:Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MaximumThreads
+  name: MaximumThreads
+  nameWithType: DiagnosticThreading.MaximumThreads
+  fullName: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MaximumThreads
+- uid: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MinimumCompletionPorts*
+  commentId: Overload:Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MinimumCompletionPorts
+  name: MinimumCompletionPorts
+  nameWithType: DiagnosticThreading.MinimumCompletionPorts
+  fullName: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MinimumCompletionPorts
+- uid: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MaximumCompletionPorts*
+  commentId: Overload:Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MaximumCompletionPorts
+  name: MaximumCompletionPorts
+  nameWithType: DiagnosticThreading.MaximumCompletionPorts
+  fullName: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.MaximumCompletionPorts
+- uid: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.SettingsMaxPorts*
+  commentId: Overload:Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.SettingsMaxPorts
+  name: SettingsMaxPorts
+  nameWithType: DiagnosticThreading.SettingsMaxPorts
+  fullName: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.SettingsMaxPorts
+- uid: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.SettingsMaxParallel*
+  commentId: Overload:Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.SettingsMaxParallel
+  name: SettingsMaxParallel
+  nameWithType: DiagnosticThreading.SettingsMaxParallel
+  fullName: Vasont.Inspire.Models.Diagnostics.DiagnosticThreading.SettingsMaxParallel

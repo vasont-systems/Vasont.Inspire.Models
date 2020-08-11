@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Search.SearchLogicOperator
+  commentId: T:Vasont.Inspire.Models.Search.SearchLogicOperator
+  id: SearchLogicOperator
+  parent: Vasont.Inspire.Models.Search
+  children:
+  - Vasont.Inspire.Models.Search.SearchLogicOperator.And
+  - Vasont.Inspire.Models.Search.SearchLogicOperator.Or
+  langs:
+  - csharp
+  - vb
+  name: SearchLogicOperator
+  nameWithType: SearchLogicOperator
+  fullName: Vasont.Inspire.Models.Search.SearchLogicOperator
+  type: Enum
+  source:
+    remote:
+      path: src/Search/SearchLogicOperator.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SearchLogicOperator
+    path: Search/SearchLogicOperator.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nGets or sets an enumerated list of available operators\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum SearchLogicOperator
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum SearchLogicOperator
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Search.SearchLogicOperator.And
+  commentId: F:Vasont.Inspire.Models.Search.SearchLogicOperator.And
+  id: And
+  parent: Vasont.Inspire.Models.Search.SearchLogicOperator
+  langs:
+  - csharp
+  - vb
+  name: And
+  nameWithType: SearchLogicOperator.And
+  fullName: Vasont.Inspire.Models.Search.SearchLogicOperator.And
+  type: Field
+  source:
+    remote:
+      path: src/Search/SearchLogicOperator.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: And
+    path: Search/SearchLogicOperator.cs
+    startLine: 21
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nJoin filters via AND operator\n"
+  example: []
+  syntax:
+    content: >-
+      [LocalizedDescription("LabelAndText")]
+
+      And = 0
+    return:
+      type: Vasont.Inspire.Models.Search.SearchLogicOperator
+    content.vb: >-
+      <LocalizedDescription("LabelAndText")>
+
+      And = 0
+  attributes:
+  - type: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute
+    ctor: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LabelAndText
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Search.SearchLogicOperator.Or
+  commentId: F:Vasont.Inspire.Models.Search.SearchLogicOperator.Or
+  id: Or
+  parent: Vasont.Inspire.Models.Search.SearchLogicOperator
+  langs:
+  - csharp
+  - vb
+  name: Or
+  nameWithType: SearchLogicOperator.Or
+  fullName: Vasont.Inspire.Models.Search.SearchLogicOperator.Or
+  type: Field
+  source:
+    remote:
+      path: src/Search/SearchLogicOperator.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Or
+    path: Search/SearchLogicOperator.cs
+    startLine: 27
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Search
+  summary: "\nJoin filters via OR operator\n"
+  example: []
+  syntax:
+    content: >-
+      [LocalizedDescription("LabelOrText")]
+
+      Or = 1
+    return:
+      type: Vasont.Inspire.Models.Search.SearchLogicOperator
+    content.vb: >-
+      <LocalizedDescription("LabelOrText")>
+
+      Or = 1
+  attributes:
+  - type: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute
+    ctor: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LabelOrText
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Search
+  commentId: N:Vasont.Inspire.Models.Search
+  name: Vasont.Inspire.Models.Search
+  nameWithType: Vasont.Inspire.Models.Search
+  fullName: Vasont.Inspire.Models.Search
+- uid: Vasont.Inspire.Models.Search.SearchLogicOperator
+  commentId: T:Vasont.Inspire.Models.Search.SearchLogicOperator
+  parent: Vasont.Inspire.Models.Search
+  name: SearchLogicOperator
+  nameWithType: SearchLogicOperator
+  fullName: Vasont.Inspire.Models.Search.SearchLogicOperator

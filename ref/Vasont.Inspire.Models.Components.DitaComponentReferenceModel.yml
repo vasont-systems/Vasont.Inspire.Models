@@ -1,0 +1,695 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.DitaComponentReferenceModel
+  commentId: T:Vasont.Inspire.Models.Components.DitaComponentReferenceModel
+  id: DitaComponentReferenceModel
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.DitaComponentReferenceModel.#ctor(System.String,System.String)
+  - Vasont.Inspire.Models.Components.DitaComponentReferenceModel.Address
+  - Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetElementId
+  - Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetName
+  - Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetRootId
+  - Vasont.Inspire.Models.Components.DitaComponentReferenceModel.ToString
+  langs:
+  - csharp
+  - vb
+  name: DitaComponentReferenceModel
+  nameWithType: DitaComponentReferenceModel
+  fullName: Vasont.Inspire.Models.Components.DitaComponentReferenceModel
+  type: Class
+  source:
+    remote:
+      path: src/Components/DitaComponentReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DitaComponentReferenceModel
+    path: Components/DitaComponentReferenceModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis class represents a content reference within a document.\n"
+  example: []
+  syntax:
+    content: 'public class DitaComponentReferenceModel : IComponentReference'
+    content.vb: >-
+      Public Class DitaComponentReferenceModel
+          Implements IComponentReference
+  inheritance:
+  - System.Object
+  implements:
+  - Vasont.Inspire.Models.Components.IComponentReference
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.#ctor(System.String,System.String)
+  commentId: M:Vasont.Inspire.Models.Components.DitaComponentReferenceModel.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: Vasont.Inspire.Models.Components.DitaComponentReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: DitaComponentReferenceModel(String, String)
+  nameWithType: DitaComponentReferenceModel.DitaComponentReferenceModel(String, String)
+  fullName: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.DitaComponentReferenceModel(System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: src/Components/DitaComponentReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: .ctor
+    path: Components/DitaComponentReferenceModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nInitializes a new instance of the <xref href=\"Vasont.Inspire.Models.Components.DitaComponentReferenceModel\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public DitaComponentReferenceModel(string conrefInput = "", string defaultTargetName = "")
+    parameters:
+    - id: conrefInput
+      type: System.String
+      description: Contains the initial conref input string.
+    - id: defaultTargetName
+      type: System.String
+      description: Contains an optional default target file name for empty file positions.
+    content.vb: Public Sub New(conrefInput As String = "", defaultTargetName As String = "")
+  overload: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetName
+  commentId: P:Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetName
+  id: TargetName
+  parent: Vasont.Inspire.Models.Components.DitaComponentReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: TargetName
+  nameWithType: DitaComponentReferenceModel.TargetName
+  fullName: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetName
+  type: Property
+  source:
+    remote:
+      path: src/Components/DitaComponentReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TargetName
+    path: Components/DitaComponentReferenceModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the file name\n"
+  example: []
+  syntax:
+    content: public string TargetName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TargetName As String
+  overload: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetName*
+  implements:
+  - Vasont.Inspire.Models.Components.IComponentReference.TargetName
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetRootId
+  commentId: P:Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetRootId
+  id: TargetRootId
+  parent: Vasont.Inspire.Models.Components.DitaComponentReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: TargetRootId
+  nameWithType: DitaComponentReferenceModel.TargetRootId
+  fullName: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetRootId
+  type: Property
+  source:
+    remote:
+      path: src/Components/DitaComponentReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TargetRootId
+    path: Components/DitaComponentReferenceModel.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the root identity\n"
+  example: []
+  syntax:
+    content: public string TargetRootId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TargetRootId As String
+  overload: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetRootId*
+  implements:
+  - Vasont.Inspire.Models.Components.IComponentReference.TargetRootId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetElementId
+  commentId: P:Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetElementId
+  id: TargetElementId
+  parent: Vasont.Inspire.Models.Components.DitaComponentReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: TargetElementId
+  nameWithType: DitaComponentReferenceModel.TargetElementId
+  fullName: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetElementId
+  type: Property
+  source:
+    remote:
+      path: src/Components/DitaComponentReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TargetElementId
+    path: Components/DitaComponentReferenceModel.cs
+    startLine: 40
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the element identity\n"
+  example: []
+  syntax:
+    content: public string TargetElementId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TargetElementId As String
+  overload: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetElementId*
+  implements:
+  - Vasont.Inspire.Models.Components.IComponentReference.TargetElementId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.Address
+  commentId: P:Vasont.Inspire.Models.Components.DitaComponentReferenceModel.Address
+  id: Address
+  parent: Vasont.Inspire.Models.Components.DitaComponentReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: DitaComponentReferenceModel.Address
+  fullName: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.Address
+  type: Property
+  source:
+    remote:
+      path: src/Components/DitaComponentReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Address
+    path: Components/DitaComponentReferenceModel.cs
+    startLine: 45
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a Uri object for the reference.\n"
+  example: []
+  syntax:
+    content: public Uri Address { get; set; }
+    parameters: []
+    return:
+      type: System.Uri
+    content.vb: Public Property Address As Uri
+  overload: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.Address*
+  implements:
+  - Vasont.Inspire.Models.Components.IComponentReference.Address
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.ToString
+  commentId: M:Vasont.Inspire.Models.Components.DitaComponentReferenceModel.ToString
+  id: ToString
+  parent: Vasont.Inspire.Models.Components.DitaComponentReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: DitaComponentReferenceModel.ToString()
+  fullName: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.ToString()
+  type: Method
+  source:
+    remote:
+      path: src/Components/DitaComponentReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ToString
+    path: Components/DitaComponentReferenceModel.cs
+    startLine: 55
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis method is used to convert the object to a content reference pointer string.\n"
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: Returns the object formatted as {filename}#{rootId}/{targetId}
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.ToString*
+  implements:
+  - Vasont.Inspire.Models.Components.IComponentReference.ToString
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vasont.Inspire.Models.Components.IComponentReference
+  commentId: T:Vasont.Inspire.Models.Components.IComponentReference
+  parent: Vasont.Inspire.Models.Components
+  name: IComponentReference
+  nameWithType: IComponentReference
+  fullName: Vasont.Inspire.Models.Components.IComponentReference
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Components.DitaComponentReferenceModel
+  commentId: T:Vasont.Inspire.Models.Components.DitaComponentReferenceModel
+  name: DitaComponentReferenceModel
+  nameWithType: DitaComponentReferenceModel
+  fullName: Vasont.Inspire.Models.Components.DitaComponentReferenceModel
+- uid: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.#ctor*
+  commentId: Overload:Vasont.Inspire.Models.Components.DitaComponentReferenceModel.#ctor
+  name: DitaComponentReferenceModel
+  nameWithType: DitaComponentReferenceModel.DitaComponentReferenceModel
+  fullName: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.DitaComponentReferenceModel
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetName*
+  commentId: Overload:Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetName
+  name: TargetName
+  nameWithType: DitaComponentReferenceModel.TargetName
+  fullName: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetName
+- uid: Vasont.Inspire.Models.Components.IComponentReference.TargetName
+  commentId: P:Vasont.Inspire.Models.Components.IComponentReference.TargetName
+  parent: Vasont.Inspire.Models.Components.IComponentReference
+  name: TargetName
+  nameWithType: IComponentReference.TargetName
+  fullName: Vasont.Inspire.Models.Components.IComponentReference.TargetName
+- uid: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetRootId*
+  commentId: Overload:Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetRootId
+  name: TargetRootId
+  nameWithType: DitaComponentReferenceModel.TargetRootId
+  fullName: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetRootId
+- uid: Vasont.Inspire.Models.Components.IComponentReference.TargetRootId
+  commentId: P:Vasont.Inspire.Models.Components.IComponentReference.TargetRootId
+  parent: Vasont.Inspire.Models.Components.IComponentReference
+  name: TargetRootId
+  nameWithType: IComponentReference.TargetRootId
+  fullName: Vasont.Inspire.Models.Components.IComponentReference.TargetRootId
+- uid: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetElementId*
+  commentId: Overload:Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetElementId
+  name: TargetElementId
+  nameWithType: DitaComponentReferenceModel.TargetElementId
+  fullName: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.TargetElementId
+- uid: Vasont.Inspire.Models.Components.IComponentReference.TargetElementId
+  commentId: P:Vasont.Inspire.Models.Components.IComponentReference.TargetElementId
+  parent: Vasont.Inspire.Models.Components.IComponentReference
+  name: TargetElementId
+  nameWithType: IComponentReference.TargetElementId
+  fullName: Vasont.Inspire.Models.Components.IComponentReference.TargetElementId
+- uid: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.Address*
+  commentId: Overload:Vasont.Inspire.Models.Components.DitaComponentReferenceModel.Address
+  name: Address
+  nameWithType: DitaComponentReferenceModel.Address
+  fullName: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.Address
+- uid: Vasont.Inspire.Models.Components.IComponentReference.Address
+  commentId: P:Vasont.Inspire.Models.Components.IComponentReference.Address
+  parent: Vasont.Inspire.Models.Components.IComponentReference
+  name: Address
+  nameWithType: IComponentReference.Address
+  fullName: Vasont.Inspire.Models.Components.IComponentReference.Address
+- uid: System.Uri
+  commentId: T:System.Uri
+  parent: System
+  isExternal: true
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.ToString*
+  commentId: Overload:Vasont.Inspire.Models.Components.DitaComponentReferenceModel.ToString
+  name: ToString
+  nameWithType: DitaComponentReferenceModel.ToString
+  fullName: Vasont.Inspire.Models.Components.DitaComponentReferenceModel.ToString
+- uid: Vasont.Inspire.Models.Components.IComponentReference.ToString
+  commentId: M:Vasont.Inspire.Models.Components.IComponentReference.ToString
+  parent: Vasont.Inspire.Models.Components.IComponentReference
+  name: ToString()
+  nameWithType: IComponentReference.ToString()
+  fullName: Vasont.Inspire.Models.Components.IComponentReference.ToString()
+  spec.csharp:
+  - uid: Vasont.Inspire.Models.Components.IComponentReference.ToString
+    name: ToString
+    nameWithType: IComponentReference.ToString
+    fullName: Vasont.Inspire.Models.Components.IComponentReference.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vasont.Inspire.Models.Components.IComponentReference.ToString
+    name: ToString
+    nameWithType: IComponentReference.ToString
+    fullName: Vasont.Inspire.Models.Components.IComponentReference.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

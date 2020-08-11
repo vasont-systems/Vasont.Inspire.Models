@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Security.SecurityType
+  commentId: T:Vasont.Inspire.Models.Security.SecurityType
+  id: SecurityType
+  parent: Vasont.Inspire.Models.Security
+  children:
+  - Vasont.Inspire.Models.Security.SecurityType.Role
+  - Vasont.Inspire.Models.Security.SecurityType.User
+  langs:
+  - csharp
+  - vb
+  name: SecurityType
+  nameWithType: SecurityType
+  fullName: Vasont.Inspire.Models.Security.SecurityType
+  type: Enum
+  source:
+    remote:
+      path: src/Security/UserRoleAssociationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SecurityType
+    path: Security/UserRoleAssociationModel.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nContains an enumerated list of security types.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum SecurityType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum SecurityType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Security.SecurityType.User
+  commentId: F:Vasont.Inspire.Models.Security.SecurityType.User
+  id: User
+  parent: Vasont.Inspire.Models.Security.SecurityType
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: SecurityType.User
+  fullName: Vasont.Inspire.Models.Security.SecurityType.User
+  type: Field
+  source:
+    remote:
+      path: src/Security/UserRoleAssociationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: User
+    path: Security/UserRoleAssociationModel.cs
+    startLine: 21
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nThe security type is a system user.\n"
+  example: []
+  syntax:
+    content: User = 0
+    return:
+      type: Vasont.Inspire.Models.Security.SecurityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Security.SecurityType.Role
+  commentId: F:Vasont.Inspire.Models.Security.SecurityType.Role
+  id: Role
+  parent: Vasont.Inspire.Models.Security.SecurityType
+  langs:
+  - csharp
+  - vb
+  name: Role
+  nameWithType: SecurityType.Role
+  fullName: Vasont.Inspire.Models.Security.SecurityType.Role
+  type: Field
+  source:
+    remote:
+      path: src/Security/UserRoleAssociationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Role
+    path: Security/UserRoleAssociationModel.cs
+    startLine: 26
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nThe security type is a system role.\n"
+  example: []
+  syntax:
+    content: Role = 1
+    return:
+      type: Vasont.Inspire.Models.Security.SecurityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Security
+  commentId: N:Vasont.Inspire.Models.Security
+  name: Vasont.Inspire.Models.Security
+  nameWithType: Vasont.Inspire.Models.Security
+  fullName: Vasont.Inspire.Models.Security
+- uid: Vasont.Inspire.Models.Security.SecurityType
+  commentId: T:Vasont.Inspire.Models.Security.SecurityType
+  parent: Vasont.Inspire.Models.Security
+  name: SecurityType
+  nameWithType: SecurityType
+  fullName: Vasont.Inspire.Models.Security.SecurityType

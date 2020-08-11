@@ -1,0 +1,709 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Plugins.ImportPluginModel
+  commentId: T:Vasont.Inspire.Models.Plugins.ImportPluginModel
+  id: ImportPluginModel
+  parent: Vasont.Inspire.Models.Plugins
+  children:
+  - Vasont.Inspire.Models.Plugins.ImportPluginModel.ImportId
+  - Vasont.Inspire.Models.Plugins.ImportPluginModel.ImportPluginId
+  - Vasont.Inspire.Models.Plugins.ImportPluginModel.Plugin
+  - Vasont.Inspire.Models.Plugins.ImportPluginModel.PluginId
+  - Vasont.Inspire.Models.Plugins.ImportPluginModel.PluginParameterValues
+  - Vasont.Inspire.Models.Plugins.ImportPluginModel.SortOrder
+  langs:
+  - csharp
+  - vb
+  name: ImportPluginModel
+  nameWithType: ImportPluginModel
+  fullName: Vasont.Inspire.Models.Plugins.ImportPluginModel
+  type: Class
+  source:
+    remote:
+      path: src/Plugins/ImportPluginModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ImportPluginModel
+    path: Plugins/ImportPluginModel.cs
+    startLine: 12
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nThis class represents an import plugin within the application.\n"
+  example: []
+  syntax:
+    content: public class ImportPluginModel
+    content.vb: Public Class ImportPluginModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Plugins.ImportPluginModel.ImportPluginId
+  commentId: P:Vasont.Inspire.Models.Plugins.ImportPluginModel.ImportPluginId
+  id: ImportPluginId
+  parent: Vasont.Inspire.Models.Plugins.ImportPluginModel
+  langs:
+  - csharp
+  - vb
+  name: ImportPluginId
+  nameWithType: ImportPluginModel.ImportPluginId
+  fullName: Vasont.Inspire.Models.Plugins.ImportPluginModel.ImportPluginId
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/ImportPluginModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ImportPluginId
+    path: Plugins/ImportPluginModel.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the identity of the import plugin.\n"
+  example: []
+  syntax:
+    content: public long ImportPluginId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ImportPluginId As Long
+  overload: Vasont.Inspire.Models.Plugins.ImportPluginModel.ImportPluginId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.ImportPluginModel.ImportId
+  commentId: P:Vasont.Inspire.Models.Plugins.ImportPluginModel.ImportId
+  id: ImportId
+  parent: Vasont.Inspire.Models.Plugins.ImportPluginModel
+  langs:
+  - csharp
+  - vb
+  name: ImportId
+  nameWithType: ImportPluginModel.ImportId
+  fullName: Vasont.Inspire.Models.Plugins.ImportPluginModel.ImportId
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/ImportPluginModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ImportId
+    path: Plugins/ImportPluginModel.cs
+    startLine: 22
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the identity of the import.\n"
+  example: []
+  syntax:
+    content: public long ImportId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ImportId As Long
+  overload: Vasont.Inspire.Models.Plugins.ImportPluginModel.ImportId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.ImportPluginModel.PluginId
+  commentId: P:Vasont.Inspire.Models.Plugins.ImportPluginModel.PluginId
+  id: PluginId
+  parent: Vasont.Inspire.Models.Plugins.ImportPluginModel
+  langs:
+  - csharp
+  - vb
+  name: PluginId
+  nameWithType: ImportPluginModel.PluginId
+  fullName: Vasont.Inspire.Models.Plugins.ImportPluginModel.PluginId
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/ImportPluginModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PluginId
+    path: Plugins/ImportPluginModel.cs
+    startLine: 27
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the identity of the plugin.\n"
+  example: []
+  syntax:
+    content: public long PluginId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property PluginId As Long
+  overload: Vasont.Inspire.Models.Plugins.ImportPluginModel.PluginId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.ImportPluginModel.Plugin
+  commentId: P:Vasont.Inspire.Models.Plugins.ImportPluginModel.Plugin
+  id: Plugin
+  parent: Vasont.Inspire.Models.Plugins.ImportPluginModel
+  langs:
+  - csharp
+  - vb
+  name: Plugin
+  nameWithType: ImportPluginModel.Plugin
+  fullName: Vasont.Inspire.Models.Plugins.ImportPluginModel.Plugin
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/ImportPluginModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Plugin
+    path: Plugins/ImportPluginModel.cs
+    startLine: 32
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the plugin.\n"
+  example: []
+  syntax:
+    content: public PluginModel Plugin { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Plugins.PluginModel
+    content.vb: Public Property Plugin As PluginModel
+  overload: Vasont.Inspire.Models.Plugins.ImportPluginModel.Plugin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.ImportPluginModel.PluginParameterValues
+  commentId: P:Vasont.Inspire.Models.Plugins.ImportPluginModel.PluginParameterValues
+  id: PluginParameterValues
+  parent: Vasont.Inspire.Models.Plugins.ImportPluginModel
+  langs:
+  - csharp
+  - vb
+  name: PluginParameterValues
+  nameWithType: ImportPluginModel.PluginParameterValues
+  fullName: Vasont.Inspire.Models.Plugins.ImportPluginModel.PluginParameterValues
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/ImportPluginModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PluginParameterValues
+    path: Plugins/ImportPluginModel.cs
+    startLine: 37
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the plugin parameter values.\n"
+  example: []
+  syntax:
+    content: public List<ImportPluginParameterValueModel> PluginParameterValues { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Plugins.ImportPluginParameterValueModel}
+    content.vb: Public Property PluginParameterValues As List(Of ImportPluginParameterValueModel)
+  overload: Vasont.Inspire.Models.Plugins.ImportPluginModel.PluginParameterValues*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.ImportPluginModel.SortOrder
+  commentId: P:Vasont.Inspire.Models.Plugins.ImportPluginModel.SortOrder
+  id: SortOrder
+  parent: Vasont.Inspire.Models.Plugins.ImportPluginModel
+  langs:
+  - csharp
+  - vb
+  name: SortOrder
+  nameWithType: ImportPluginModel.SortOrder
+  fullName: Vasont.Inspire.Models.Plugins.ImportPluginModel.SortOrder
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/ImportPluginModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SortOrder
+    path: Plugins/ImportPluginModel.cs
+    startLine: 42
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the sort order in which this plugin will be processed.\n"
+  example: []
+  syntax:
+    content: public int SortOrder { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SortOrder As Integer
+  overload: Vasont.Inspire.Models.Plugins.ImportPluginModel.SortOrder*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Plugins
+  commentId: N:Vasont.Inspire.Models.Plugins
+  name: Vasont.Inspire.Models.Plugins
+  nameWithType: Vasont.Inspire.Models.Plugins
+  fullName: Vasont.Inspire.Models.Plugins
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Plugins.ImportPluginModel.ImportPluginId*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.ImportPluginModel.ImportPluginId
+  name: ImportPluginId
+  nameWithType: ImportPluginModel.ImportPluginId
+  fullName: Vasont.Inspire.Models.Plugins.ImportPluginModel.ImportPluginId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Plugins.ImportPluginModel.ImportId*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.ImportPluginModel.ImportId
+  name: ImportId
+  nameWithType: ImportPluginModel.ImportId
+  fullName: Vasont.Inspire.Models.Plugins.ImportPluginModel.ImportId
+- uid: Vasont.Inspire.Models.Plugins.ImportPluginModel.PluginId*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.ImportPluginModel.PluginId
+  name: PluginId
+  nameWithType: ImportPluginModel.PluginId
+  fullName: Vasont.Inspire.Models.Plugins.ImportPluginModel.PluginId
+- uid: Vasont.Inspire.Models.Plugins.ImportPluginModel.Plugin*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.ImportPluginModel.Plugin
+  name: Plugin
+  nameWithType: ImportPluginModel.Plugin
+  fullName: Vasont.Inspire.Models.Plugins.ImportPluginModel.Plugin
+- uid: Vasont.Inspire.Models.Plugins.PluginModel
+  commentId: T:Vasont.Inspire.Models.Plugins.PluginModel
+  parent: Vasont.Inspire.Models.Plugins
+  name: PluginModel
+  nameWithType: PluginModel
+  fullName: Vasont.Inspire.Models.Plugins.PluginModel
+- uid: Vasont.Inspire.Models.Plugins.ImportPluginModel.PluginParameterValues*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.ImportPluginModel.PluginParameterValues
+  name: PluginParameterValues
+  nameWithType: ImportPluginModel.PluginParameterValues
+  fullName: Vasont.Inspire.Models.Plugins.ImportPluginModel.PluginParameterValues
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Plugins.ImportPluginParameterValueModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Plugins.ImportPluginParameterValueModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ImportPluginParameterValueModel>
+  nameWithType: List<ImportPluginParameterValueModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Plugins.ImportPluginParameterValueModel>
+  nameWithType.vb: List(Of ImportPluginParameterValueModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Plugins.ImportPluginParameterValueModel)
+  name.vb: List(Of ImportPluginParameterValueModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Plugins.ImportPluginParameterValueModel
+    name: ImportPluginParameterValueModel
+    nameWithType: ImportPluginParameterValueModel
+    fullName: Vasont.Inspire.Models.Plugins.ImportPluginParameterValueModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Plugins.ImportPluginParameterValueModel
+    name: ImportPluginParameterValueModel
+    nameWithType: ImportPluginParameterValueModel
+    fullName: Vasont.Inspire.Models.Plugins.ImportPluginParameterValueModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Plugins.ImportPluginModel.SortOrder*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.ImportPluginModel.SortOrder
+  name: SortOrder
+  nameWithType: ImportPluginModel.SortOrder
+  fullName: Vasont.Inspire.Models.Plugins.ImportPluginModel.SortOrder
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,451 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Transfers.ExportComponentModel
+  commentId: T:Vasont.Inspire.Models.Transfers.ExportComponentModel
+  id: ExportComponentModel
+  parent: Vasont.Inspire.Models.Transfers
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ExportComponentModel
+  nameWithType: ExportComponentModel
+  fullName: Vasont.Inspire.Models.Transfers.ExportComponentModel
+  type: Class
+  source:
+    remote:
+      path: src/Transfers/ExportComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ExportComponentModel
+    path: Transfers/ExportComponentModel.cs
+    startLine: 10
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nThis class represents a component that has been exported by an extract service.\n"
+  example: []
+  syntax:
+    content: 'public class ExportComponentModel : MinimalExportComponentModel'
+    content.vb: >-
+      Public Class ExportComponentModel
+          Inherits MinimalExportComponentModel
+  inheritance:
+  - System.Object
+  - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel
+  inheritedMembers:
+  - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ChangesetId
+  - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ComponentId
+  - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FileName
+  - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.LanguageCode
+  - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ComponentType
+  - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FilteredElements
+  - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.RequiresProcessing
+  - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ExportResult
+  - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ExtractedFilePath
+  - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.CreatedDate
+  - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.UpdatedDate
+  - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FilteredTargetIds
+  - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.Name
+  - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.IsLocked
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Vasont.Inspire.Models.Transfers
+  commentId: N:Vasont.Inspire.Models.Transfers
+  name: Vasont.Inspire.Models.Transfers
+  nameWithType: Vasont.Inspire.Models.Transfers
+  fullName: Vasont.Inspire.Models.Transfers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel
+  commentId: T:Vasont.Inspire.Models.Transfers.MinimalExportComponentModel
+  parent: Vasont.Inspire.Models.Transfers
+  name: MinimalExportComponentModel
+  nameWithType: MinimalExportComponentModel
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ChangesetId
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ChangesetId
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel
+  name: ChangesetId
+  nameWithType: MinimalExportComponentModel.ChangesetId
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ChangesetId
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ComponentId
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ComponentId
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel
+  name: ComponentId
+  nameWithType: MinimalExportComponentModel.ComponentId
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ComponentId
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FileName
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FileName
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel
+  name: FileName
+  nameWithType: MinimalExportComponentModel.FileName
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FileName
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.LanguageCode
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.LanguageCode
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel
+  name: LanguageCode
+  nameWithType: MinimalExportComponentModel.LanguageCode
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.LanguageCode
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ComponentType
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ComponentType
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel
+  name: ComponentType
+  nameWithType: MinimalExportComponentModel.ComponentType
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ComponentType
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FilteredElements
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FilteredElements
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel
+  name: FilteredElements
+  nameWithType: MinimalExportComponentModel.FilteredElements
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FilteredElements
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.RequiresProcessing
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.RequiresProcessing
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel
+  name: RequiresProcessing
+  nameWithType: MinimalExportComponentModel.RequiresProcessing
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.RequiresProcessing
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ExportResult
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ExportResult
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel
+  name: ExportResult
+  nameWithType: MinimalExportComponentModel.ExportResult
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ExportResult
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ExtractedFilePath
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ExtractedFilePath
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel
+  name: ExtractedFilePath
+  nameWithType: MinimalExportComponentModel.ExtractedFilePath
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ExtractedFilePath
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.CreatedDate
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.CreatedDate
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel
+  name: CreatedDate
+  nameWithType: MinimalExportComponentModel.CreatedDate
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.CreatedDate
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.UpdatedDate
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.UpdatedDate
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel
+  name: UpdatedDate
+  nameWithType: MinimalExportComponentModel.UpdatedDate
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.UpdatedDate
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FilteredTargetIds
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FilteredTargetIds
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel
+  name: FilteredTargetIds
+  nameWithType: MinimalExportComponentModel.FilteredTargetIds
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FilteredTargetIds
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.Name
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.Name
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel
+  name: Name
+  nameWithType: MinimalExportComponentModel.Name
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.Name
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.IsLocked
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.IsLocked
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel
+  name: IsLocked
+  nameWithType: MinimalExportComponentModel.IsLocked
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.IsLocked
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

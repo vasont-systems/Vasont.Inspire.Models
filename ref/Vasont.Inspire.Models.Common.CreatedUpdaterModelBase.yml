@@ -1,0 +1,543 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  commentId: T:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  id: CreatedUpdaterModelBase
+  parent: Vasont.Inspire.Models.Common
+  children:
+  - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedBy
+  - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
+  - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedBy
+  - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedDate
+  langs:
+  - csharp
+  - vb
+  name: CreatedUpdaterModelBase
+  nameWithType: CreatedUpdaterModelBase
+  fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  type: Class
+  source:
+    remote:
+      path: src/Common/CreatedUpdaterModelBase.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CreatedUpdaterModelBase
+    path: Common/CreatedUpdaterModelBase.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nThis class contains basic created and updater properties for model records.\n"
+  example: []
+  syntax:
+    content: public abstract class CreatedUpdaterModelBase
+    content.vb: Public MustInherit Class CreatedUpdaterModelBase
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Vasont.Inspire.Models.Components.FolderModel
+  - Vasont.Inspire.Models.Components.MinimalComponentModel
+  - Vasont.Inspire.Models.Components.QueryModel
+  - Vasont.Inspire.Models.Projects.ProjectActivityModel
+  - Vasont.Inspire.Models.Security.ModuleModel
+  - Vasont.Inspire.Models.Security.ModulePermissionModel
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
+  commentId: P:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
+  id: CreatedDate
+  parent: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: CreatedUpdaterModelBase.CreatedDate
+  fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
+  type: Property
+  source:
+    remote:
+      path: src/Common/CreatedUpdaterModelBase.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CreatedDate
+    path: Common/CreatedUpdaterModelBase.cs
+    startLine: 18
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the record created date time.\n"
+  example: []
+  syntax:
+    content: public DateTime CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property CreatedDate As Date
+  overload: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedBy
+  commentId: P:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedBy
+  id: CreatedBy
+  parent: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: CreatedUpdaterModelBase.CreatedBy
+  fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedBy
+  type: Property
+  source:
+    remote:
+      path: src/Common/CreatedUpdaterModelBase.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CreatedBy
+    path: Common/CreatedUpdaterModelBase.cs
+    startLine: 23
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the record creator model object.\n"
+  example: []
+  syntax:
+    content: public MinimalUserModel CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.MinimalUserModel
+    content.vb: Public Property CreatedBy As MinimalUserModel
+  overload: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedDate
+  commentId: P:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedDate
+  id: UpdatedDate
+  parent: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  langs:
+  - csharp
+  - vb
+  name: UpdatedDate
+  nameWithType: CreatedUpdaterModelBase.UpdatedDate
+  fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedDate
+  type: Property
+  source:
+    remote:
+      path: src/Common/CreatedUpdaterModelBase.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UpdatedDate
+    path: Common/CreatedUpdaterModelBase.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the record last updated date time.\n"
+  example: []
+  syntax:
+    content: public DateTime UpdatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property UpdatedDate As Date
+  overload: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedBy
+  commentId: P:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedBy
+  id: UpdatedBy
+  parent: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: CreatedUpdaterModelBase.UpdatedBy
+  fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedBy
+  type: Property
+  source:
+    remote:
+      path: src/Common/CreatedUpdaterModelBase.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UpdatedBy
+    path: Common/CreatedUpdaterModelBase.cs
+    startLine: 33
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the record updater model object.\n"
+  example: []
+  syntax:
+    content: public MinimalUserModel UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.MinimalUserModel
+    content.vb: Public Property UpdatedBy As MinimalUserModel
+  overload: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Common
+  commentId: N:Vasont.Inspire.Models.Common
+  name: Vasont.Inspire.Models.Common
+  nameWithType: Vasont.Inspire.Models.Common
+  fullName: Vasont.Inspire.Models.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate*
+  commentId: Overload:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
+  name: CreatedDate
+  nameWithType: CreatedUpdaterModelBase.CreatedDate
+  fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedBy*
+  commentId: Overload:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedBy
+  name: CreatedBy
+  nameWithType: CreatedUpdaterModelBase.CreatedBy
+  fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedBy
+- uid: Vasont.Inspire.Models.Security.MinimalUserModel
+  commentId: T:Vasont.Inspire.Models.Security.MinimalUserModel
+  parent: Vasont.Inspire.Models.Security
+  name: MinimalUserModel
+  nameWithType: MinimalUserModel
+  fullName: Vasont.Inspire.Models.Security.MinimalUserModel
+- uid: Vasont.Inspire.Models.Security
+  commentId: N:Vasont.Inspire.Models.Security
+  name: Vasont.Inspire.Models.Security
+  nameWithType: Vasont.Inspire.Models.Security
+  fullName: Vasont.Inspire.Models.Security
+- uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedDate*
+  commentId: Overload:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedDate
+  name: UpdatedDate
+  nameWithType: CreatedUpdaterModelBase.UpdatedDate
+  fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedDate
+- uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedBy*
+  commentId: Overload:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedBy
+  name: UpdatedBy
+  nameWithType: CreatedUpdaterModelBase.UpdatedBy
+  fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedBy

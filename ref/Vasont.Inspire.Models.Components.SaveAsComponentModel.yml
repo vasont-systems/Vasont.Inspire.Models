@@ -1,0 +1,752 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel
+  commentId: T:Vasont.Inspire.Models.Components.SaveAsComponentModel
+  id: SaveAsComponentModel
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.SaveAsComponentModel.ComponentId
+  - Vasont.Inspire.Models.Components.SaveAsComponentModel.LanguageCode
+  - Vasont.Inspire.Models.Components.SaveAsComponentModel.NewComponentName
+  - Vasont.Inspire.Models.Components.SaveAsComponentModel.ProjectFolderId
+  - Vasont.Inspire.Models.Components.SaveAsComponentModel.ProjectId
+  - Vasont.Inspire.Models.Components.SaveAsComponentModel.RepairLinks
+  - Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetFileName
+  - Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetFolderId
+  - Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetXml
+  langs:
+  - csharp
+  - vb
+  name: SaveAsComponentModel
+  nameWithType: SaveAsComponentModel
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel
+  type: Class
+  source:
+    remote:
+      path: src/Components/SaveAsComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SaveAsComponentModel
+    path: Components/SaveAsComponentModel.cs
+    startLine: 11
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis class contains properties and information to request the system to create a component from a template.\n"
+  example: []
+  syntax:
+    content: public class SaveAsComponentModel
+    content.vb: Public Class SaveAsComponentModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.NewComponentName
+  commentId: P:Vasont.Inspire.Models.Components.SaveAsComponentModel.NewComponentName
+  id: NewComponentName
+  parent: Vasont.Inspire.Models.Components.SaveAsComponentModel
+  langs:
+  - csharp
+  - vb
+  name: NewComponentName
+  nameWithType: SaveAsComponentModel.NewComponentName
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.NewComponentName
+  type: Property
+  source:
+    remote:
+      path: src/Components/SaveAsComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: NewComponentName
+    path: Components/SaveAsComponentModel.cs
+    startLine: 16
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the new component name that&apos;s used to create the new component.\n"
+  example: []
+  syntax:
+    content: public string NewComponentName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NewComponentName As String
+  overload: Vasont.Inspire.Models.Components.SaveAsComponentModel.NewComponentName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.ComponentId
+  commentId: P:Vasont.Inspire.Models.Components.SaveAsComponentModel.ComponentId
+  id: ComponentId
+  parent: Vasont.Inspire.Models.Components.SaveAsComponentModel
+  langs:
+  - csharp
+  - vb
+  name: ComponentId
+  nameWithType: SaveAsComponentModel.ComponentId
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.ComponentId
+  type: Property
+  source:
+    remote:
+      path: src/Components/SaveAsComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentId
+    path: Components/SaveAsComponentModel.cs
+    startLine: 21
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the identity of the existing template component.\n"
+  example: []
+  syntax:
+    content: public long ComponentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ComponentId As Long
+  overload: Vasont.Inspire.Models.Components.SaveAsComponentModel.ComponentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetFolderId
+  commentId: P:Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetFolderId
+  id: TargetFolderId
+  parent: Vasont.Inspire.Models.Components.SaveAsComponentModel
+  langs:
+  - csharp
+  - vb
+  name: TargetFolderId
+  nameWithType: SaveAsComponentModel.TargetFolderId
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetFolderId
+  type: Property
+  source:
+    remote:
+      path: src/Components/SaveAsComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TargetFolderId
+    path: Components/SaveAsComponentModel.cs
+    startLine: 26
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the identity of the folder of the new component.\n"
+  example: []
+  syntax:
+    content: public long TargetFolderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TargetFolderId As Long
+  overload: Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetFolderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetFileName
+  commentId: P:Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetFileName
+  id: TargetFileName
+  parent: Vasont.Inspire.Models.Components.SaveAsComponentModel
+  langs:
+  - csharp
+  - vb
+  name: TargetFileName
+  nameWithType: SaveAsComponentModel.TargetFileName
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetFileName
+  type: Property
+  source:
+    remote:
+      path: src/Components/SaveAsComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TargetFileName
+    path: Components/SaveAsComponentModel.cs
+    startLine: 31
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the file name of the new component.\n"
+  example: []
+  syntax:
+    content: public string TargetFileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TargetFileName As String
+  overload: Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetFileName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetXml
+  commentId: P:Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetXml
+  id: TargetXml
+  parent: Vasont.Inspire.Models.Components.SaveAsComponentModel
+  langs:
+  - csharp
+  - vb
+  name: TargetXml
+  nameWithType: SaveAsComponentModel.TargetXml
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetXml
+  type: Property
+  source:
+    remote:
+      path: src/Components/SaveAsComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TargetXml
+    path: Components/SaveAsComponentModel.cs
+    startLine: 36
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the XML content of of the new component.\n"
+  example: []
+  syntax:
+    content: public string TargetXml { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TargetXml As String
+  overload: Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetXml*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.LanguageCode
+  commentId: P:Vasont.Inspire.Models.Components.SaveAsComponentModel.LanguageCode
+  id: LanguageCode
+  parent: Vasont.Inspire.Models.Components.SaveAsComponentModel
+  langs:
+  - csharp
+  - vb
+  name: LanguageCode
+  nameWithType: SaveAsComponentModel.LanguageCode
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.LanguageCode
+  type: Property
+  source:
+    remote:
+      path: src/Components/SaveAsComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: LanguageCode
+    path: Components/SaveAsComponentModel.cs
+    startLine: 41
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the language of the new component.\n"
+  example: []
+  syntax:
+    content: public string LanguageCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LanguageCode As String
+  overload: Vasont.Inspire.Models.Components.SaveAsComponentModel.LanguageCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.ProjectId
+  commentId: P:Vasont.Inspire.Models.Components.SaveAsComponentModel.ProjectId
+  id: ProjectId
+  parent: Vasont.Inspire.Models.Components.SaveAsComponentModel
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: SaveAsComponentModel.ProjectId
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.ProjectId
+  type: Property
+  source:
+    remote:
+      path: src/Components/SaveAsComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProjectId
+    path: Components/SaveAsComponentModel.cs
+    startLine: 46
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the identity of the project to be added to.\n"
+  example: []
+  syntax:
+    content: public long ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ProjectId As Long
+  overload: Vasont.Inspire.Models.Components.SaveAsComponentModel.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.ProjectFolderId
+  commentId: P:Vasont.Inspire.Models.Components.SaveAsComponentModel.ProjectFolderId
+  id: ProjectFolderId
+  parent: Vasont.Inspire.Models.Components.SaveAsComponentModel
+  langs:
+  - csharp
+  - vb
+  name: ProjectFolderId
+  nameWithType: SaveAsComponentModel.ProjectFolderId
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.ProjectFolderId
+  type: Property
+  source:
+    remote:
+      path: src/Components/SaveAsComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProjectFolderId
+    path: Components/SaveAsComponentModel.cs
+    startLine: 51
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the identity of the project folder to be added to.\n"
+  example: []
+  syntax:
+    content: public long ProjectFolderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ProjectFolderId As Long
+  overload: Vasont.Inspire.Models.Components.SaveAsComponentModel.ProjectFolderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.RepairLinks
+  commentId: P:Vasont.Inspire.Models.Components.SaveAsComponentModel.RepairLinks
+  id: RepairLinks
+  parent: Vasont.Inspire.Models.Components.SaveAsComponentModel
+  langs:
+  - csharp
+  - vb
+  name: RepairLinks
+  nameWithType: SaveAsComponentModel.RepairLinks
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.RepairLinks
+  type: Property
+  source:
+    remote:
+      path: src/Components/SaveAsComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RepairLinks
+    path: Components/SaveAsComponentModel.cs
+    startLine: 56
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether the component create process will repair internal links.\n"
+  example: []
+  syntax:
+    content: public bool RepairLinks { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property RepairLinks As Boolean
+  overload: Vasont.Inspire.Models.Components.SaveAsComponentModel.RepairLinks*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.NewComponentName*
+  commentId: Overload:Vasont.Inspire.Models.Components.SaveAsComponentModel.NewComponentName
+  name: NewComponentName
+  nameWithType: SaveAsComponentModel.NewComponentName
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.NewComponentName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.ComponentId*
+  commentId: Overload:Vasont.Inspire.Models.Components.SaveAsComponentModel.ComponentId
+  name: ComponentId
+  nameWithType: SaveAsComponentModel.ComponentId
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.ComponentId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetFolderId*
+  commentId: Overload:Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetFolderId
+  name: TargetFolderId
+  nameWithType: SaveAsComponentModel.TargetFolderId
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetFolderId
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetFileName*
+  commentId: Overload:Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetFileName
+  name: TargetFileName
+  nameWithType: SaveAsComponentModel.TargetFileName
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetFileName
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetXml*
+  commentId: Overload:Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetXml
+  name: TargetXml
+  nameWithType: SaveAsComponentModel.TargetXml
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.TargetXml
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.LanguageCode*
+  commentId: Overload:Vasont.Inspire.Models.Components.SaveAsComponentModel.LanguageCode
+  name: LanguageCode
+  nameWithType: SaveAsComponentModel.LanguageCode
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.LanguageCode
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.ProjectId*
+  commentId: Overload:Vasont.Inspire.Models.Components.SaveAsComponentModel.ProjectId
+  name: ProjectId
+  nameWithType: SaveAsComponentModel.ProjectId
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.ProjectId
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.ProjectFolderId*
+  commentId: Overload:Vasont.Inspire.Models.Components.SaveAsComponentModel.ProjectFolderId
+  name: ProjectFolderId
+  nameWithType: SaveAsComponentModel.ProjectFolderId
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.ProjectFolderId
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.RepairLinks*
+  commentId: Overload:Vasont.Inspire.Models.Components.SaveAsComponentModel.RepairLinks
+  name: RepairLinks
+  nameWithType: SaveAsComponentModel.RepairLinks
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.RepairLinks
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

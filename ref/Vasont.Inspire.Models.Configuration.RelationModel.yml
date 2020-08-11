@@ -1,0 +1,678 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Configuration.RelationModel
+  commentId: T:Vasont.Inspire.Models.Configuration.RelationModel
+  id: RelationModel
+  parent: Vasont.Inspire.Models.Configuration
+  children:
+  - Vasont.Inspire.Models.Configuration.RelationModel.Active
+  - Vasont.Inspire.Models.Configuration.RelationModel.Description
+  - Vasont.Inspire.Models.Configuration.RelationModel.KeyName
+  - Vasont.Inspire.Models.Configuration.RelationModel.Name
+  - Vasont.Inspire.Models.Configuration.RelationModel.RelationId
+  - Vasont.Inspire.Models.Configuration.RelationModel.SystemRelation
+  - Vasont.Inspire.Models.Configuration.RelationModel.XmlLinkType
+  langs:
+  - csharp
+  - vb
+  name: RelationModel
+  nameWithType: RelationModel
+  fullName: Vasont.Inspire.Models.Configuration.RelationModel
+  type: Class
+  source:
+    remote:
+      path: src/Configuration/RelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RelationModel
+    path: Configuration/RelationModel.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nThis class represents a relation model within the system.\n"
+  example: []
+  syntax:
+    content: public class RelationModel
+    content.vb: Public Class RelationModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Configuration.RelationModel.RelationId
+  commentId: P:Vasont.Inspire.Models.Configuration.RelationModel.RelationId
+  id: RelationId
+  parent: Vasont.Inspire.Models.Configuration.RelationModel
+  langs:
+  - csharp
+  - vb
+  name: RelationId
+  nameWithType: RelationModel.RelationId
+  fullName: Vasont.Inspire.Models.Configuration.RelationModel.RelationId
+  type: Property
+  source:
+    remote:
+      path: src/Configuration/RelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RelationId
+    path: Configuration/RelationModel.cs
+    startLine: 40
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nGets or sets the identity of the relation.\n"
+  example: []
+  syntax:
+    content: public long RelationId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property RelationId As Long
+  overload: Vasont.Inspire.Models.Configuration.RelationModel.RelationId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Configuration.RelationModel.Name
+  commentId: P:Vasont.Inspire.Models.Configuration.RelationModel.Name
+  id: Name
+  parent: Vasont.Inspire.Models.Configuration.RelationModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: RelationModel.Name
+  fullName: Vasont.Inspire.Models.Configuration.RelationModel.Name
+  type: Property
+  source:
+    remote:
+      path: src/Configuration/RelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Name
+    path: Configuration/RelationModel.cs
+    startLine: 45
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nGets or sets the name of the relation.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Vasont.Inspire.Models.Configuration.RelationModel.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Configuration.RelationModel.Description
+  commentId: P:Vasont.Inspire.Models.Configuration.RelationModel.Description
+  id: Description
+  parent: Vasont.Inspire.Models.Configuration.RelationModel
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: RelationModel.Description
+  fullName: Vasont.Inspire.Models.Configuration.RelationModel.Description
+  type: Property
+  source:
+    remote:
+      path: src/Configuration/RelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Description
+    path: Configuration/RelationModel.cs
+    startLine: 50
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nGets or sets the description of the relation.\n"
+  example: []
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Vasont.Inspire.Models.Configuration.RelationModel.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Configuration.RelationModel.XmlLinkType
+  commentId: P:Vasont.Inspire.Models.Configuration.RelationModel.XmlLinkType
+  id: XmlLinkType
+  parent: Vasont.Inspire.Models.Configuration.RelationModel
+  langs:
+  - csharp
+  - vb
+  name: XmlLinkType
+  nameWithType: RelationModel.XmlLinkType
+  fullName: Vasont.Inspire.Models.Configuration.RelationModel.XmlLinkType
+  type: Property
+  source:
+    remote:
+      path: src/Configuration/RelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: XmlLinkType
+    path: Configuration/RelationModel.cs
+    startLine: 55
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nGets or sets the XML link type model.\n"
+  example: []
+  syntax:
+    content: public XmlLinkTypeModel XmlLinkType { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel
+    content.vb: Public Property XmlLinkType As XmlLinkTypeModel
+  overload: Vasont.Inspire.Models.Configuration.RelationModel.XmlLinkType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Configuration.RelationModel.Active
+  commentId: P:Vasont.Inspire.Models.Configuration.RelationModel.Active
+  id: Active
+  parent: Vasont.Inspire.Models.Configuration.RelationModel
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: RelationModel.Active
+  fullName: Vasont.Inspire.Models.Configuration.RelationModel.Active
+  type: Property
+  source:
+    remote:
+      path: src/Configuration/RelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Active
+    path: Configuration/RelationModel.cs
+    startLine: 60
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nGets or sets a value indicating whether the relation is currently active.\n"
+  example: []
+  syntax:
+    content: public bool Active { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Active As Boolean
+  overload: Vasont.Inspire.Models.Configuration.RelationModel.Active*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Configuration.RelationModel.SystemRelation
+  commentId: P:Vasont.Inspire.Models.Configuration.RelationModel.SystemRelation
+  id: SystemRelation
+  parent: Vasont.Inspire.Models.Configuration.RelationModel
+  langs:
+  - csharp
+  - vb
+  name: SystemRelation
+  nameWithType: RelationModel.SystemRelation
+  fullName: Vasont.Inspire.Models.Configuration.RelationModel.SystemRelation
+  type: Property
+  source:
+    remote:
+      path: src/Configuration/RelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SystemRelation
+    path: Configuration/RelationModel.cs
+    startLine: 65
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nGets or sets a value indicating whether this is a system relation.\n"
+  example: []
+  syntax:
+    content: public bool SystemRelation { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SystemRelation As Boolean
+  overload: Vasont.Inspire.Models.Configuration.RelationModel.SystemRelation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Configuration.RelationModel.KeyName
+  commentId: P:Vasont.Inspire.Models.Configuration.RelationModel.KeyName
+  id: KeyName
+  parent: Vasont.Inspire.Models.Configuration.RelationModel
+  langs:
+  - csharp
+  - vb
+  name: KeyName
+  nameWithType: RelationModel.KeyName
+  fullName: Vasont.Inspire.Models.Configuration.RelationModel.KeyName
+  type: Property
+  source:
+    remote:
+      path: src/Configuration/RelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: KeyName
+    path: Configuration/RelationModel.cs
+    startLine: 70
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nGets or sets the key name of the relation.\n"
+  example: []
+  syntax:
+    content: public RelationKeyName KeyName { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Configuration.RelationKeyName
+    content.vb: Public Property KeyName As RelationKeyName
+  overload: Vasont.Inspire.Models.Configuration.RelationModel.KeyName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Configuration
+  commentId: N:Vasont.Inspire.Models.Configuration
+  name: Vasont.Inspire.Models.Configuration
+  nameWithType: Vasont.Inspire.Models.Configuration
+  fullName: Vasont.Inspire.Models.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Configuration.RelationModel.RelationId*
+  commentId: Overload:Vasont.Inspire.Models.Configuration.RelationModel.RelationId
+  name: RelationId
+  nameWithType: RelationModel.RelationId
+  fullName: Vasont.Inspire.Models.Configuration.RelationModel.RelationId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Configuration.RelationModel.Name*
+  commentId: Overload:Vasont.Inspire.Models.Configuration.RelationModel.Name
+  name: Name
+  nameWithType: RelationModel.Name
+  fullName: Vasont.Inspire.Models.Configuration.RelationModel.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Configuration.RelationModel.Description*
+  commentId: Overload:Vasont.Inspire.Models.Configuration.RelationModel.Description
+  name: Description
+  nameWithType: RelationModel.Description
+  fullName: Vasont.Inspire.Models.Configuration.RelationModel.Description
+- uid: Vasont.Inspire.Models.Configuration.RelationModel.XmlLinkType*
+  commentId: Overload:Vasont.Inspire.Models.Configuration.RelationModel.XmlLinkType
+  name: XmlLinkType
+  nameWithType: RelationModel.XmlLinkType
+  fullName: Vasont.Inspire.Models.Configuration.RelationModel.XmlLinkType
+- uid: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel
+  commentId: T:Vasont.Inspire.Models.Configuration.XmlLinkTypeModel
+  parent: Vasont.Inspire.Models.Configuration
+  name: XmlLinkTypeModel
+  nameWithType: XmlLinkTypeModel
+  fullName: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel
+- uid: Vasont.Inspire.Models.Configuration.RelationModel.Active*
+  commentId: Overload:Vasont.Inspire.Models.Configuration.RelationModel.Active
+  name: Active
+  nameWithType: RelationModel.Active
+  fullName: Vasont.Inspire.Models.Configuration.RelationModel.Active
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Configuration.RelationModel.SystemRelation*
+  commentId: Overload:Vasont.Inspire.Models.Configuration.RelationModel.SystemRelation
+  name: SystemRelation
+  nameWithType: RelationModel.SystemRelation
+  fullName: Vasont.Inspire.Models.Configuration.RelationModel.SystemRelation
+- uid: Vasont.Inspire.Models.Configuration.RelationModel.KeyName*
+  commentId: Overload:Vasont.Inspire.Models.Configuration.RelationModel.KeyName
+  name: KeyName
+  nameWithType: RelationModel.KeyName
+  fullName: Vasont.Inspire.Models.Configuration.RelationModel.KeyName
+- uid: Vasont.Inspire.Models.Configuration.RelationKeyName
+  commentId: T:Vasont.Inspire.Models.Configuration.RelationKeyName
+  parent: Vasont.Inspire.Models.Configuration
+  name: RelationKeyName
+  nameWithType: RelationKeyName
+  fullName: Vasont.Inspire.Models.Configuration.RelationKeyName

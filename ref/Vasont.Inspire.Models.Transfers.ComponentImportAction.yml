@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Transfers.ComponentImportAction
+  commentId: T:Vasont.Inspire.Models.Transfers.ComponentImportAction
+  id: ComponentImportAction
+  parent: Vasont.Inspire.Models.Transfers
+  children:
+  - Vasont.Inspire.Models.Transfers.ComponentImportAction.Create
+  - Vasont.Inspire.Models.Transfers.ComponentImportAction.Ignore
+  - Vasont.Inspire.Models.Transfers.ComponentImportAction.Update
+  - Vasont.Inspire.Models.Transfers.ComponentImportAction.UpdateReferencesOnly
+  langs:
+  - csharp
+  - vb
+  name: ComponentImportAction
+  nameWithType: ComponentImportAction
+  fullName: Vasont.Inspire.Models.Transfers.ComponentImportAction
+  type: Enum
+  source:
+    remote:
+      path: src/Transfers/MinimalImportComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentImportAction
+    path: Transfers/MinimalImportComponentModel.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nContains an enumerated list of actions to perform for the component.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum ComponentImportAction
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum ComponentImportAction
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Transfers.ComponentImportAction.Create
+  commentId: F:Vasont.Inspire.Models.Transfers.ComponentImportAction.Create
+  id: Create
+  parent: Vasont.Inspire.Models.Transfers.ComponentImportAction
+  langs:
+  - csharp
+  - vb
+  name: Create
+  nameWithType: ComponentImportAction.Create
+  fullName: Vasont.Inspire.Models.Transfers.ComponentImportAction.Create
+  type: Field
+  source:
+    remote:
+      path: src/Transfers/MinimalImportComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Create
+    path: Transfers/MinimalImportComponentModel.cs
+    startLine: 21
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nCreate a new component record.\n"
+  example: []
+  syntax:
+    content: Create = 0
+    return:
+      type: Vasont.Inspire.Models.Transfers.ComponentImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Transfers.ComponentImportAction.Update
+  commentId: F:Vasont.Inspire.Models.Transfers.ComponentImportAction.Update
+  id: Update
+  parent: Vasont.Inspire.Models.Transfers.ComponentImportAction
+  langs:
+  - csharp
+  - vb
+  name: Update
+  nameWithType: ComponentImportAction.Update
+  fullName: Vasont.Inspire.Models.Transfers.ComponentImportAction.Update
+  type: Field
+  source:
+    remote:
+      path: src/Transfers/MinimalImportComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Update
+    path: Transfers/MinimalImportComponentModel.cs
+    startLine: 26
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nUpdate an existing component.\n"
+  example: []
+  syntax:
+    content: Update = 1
+    return:
+      type: Vasont.Inspire.Models.Transfers.ComponentImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Transfers.ComponentImportAction.UpdateReferencesOnly
+  commentId: F:Vasont.Inspire.Models.Transfers.ComponentImportAction.UpdateReferencesOnly
+  id: UpdateReferencesOnly
+  parent: Vasont.Inspire.Models.Transfers.ComponentImportAction
+  langs:
+  - csharp
+  - vb
+  name: UpdateReferencesOnly
+  nameWithType: ComponentImportAction.UpdateReferencesOnly
+  fullName: Vasont.Inspire.Models.Transfers.ComponentImportAction.UpdateReferencesOnly
+  type: Field
+  source:
+    remote:
+      path: src/Transfers/MinimalImportComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UpdateReferencesOnly
+    path: Transfers/MinimalImportComponentModel.cs
+    startLine: 31
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nThe component exists, but there&apos;s no need to update content, so just ensure references are up to date.\n"
+  example: []
+  syntax:
+    content: UpdateReferencesOnly = 2
+    return:
+      type: Vasont.Inspire.Models.Transfers.ComponentImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Transfers.ComponentImportAction.Ignore
+  commentId: F:Vasont.Inspire.Models.Transfers.ComponentImportAction.Ignore
+  id: Ignore
+  parent: Vasont.Inspire.Models.Transfers.ComponentImportAction
+  langs:
+  - csharp
+  - vb
+  name: Ignore
+  nameWithType: ComponentImportAction.Ignore
+  fullName: Vasont.Inspire.Models.Transfers.ComponentImportAction.Ignore
+  type: Field
+  source:
+    remote:
+      path: src/Transfers/MinimalImportComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Ignore
+    path: Transfers/MinimalImportComponentModel.cs
+    startLine: 36
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nDo nothing with this content as it exists but nothing has changed.\n"
+  example: []
+  syntax:
+    content: Ignore = 3
+    return:
+      type: Vasont.Inspire.Models.Transfers.ComponentImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Transfers
+  commentId: N:Vasont.Inspire.Models.Transfers
+  name: Vasont.Inspire.Models.Transfers
+  nameWithType: Vasont.Inspire.Models.Transfers
+  fullName: Vasont.Inspire.Models.Transfers
+- uid: Vasont.Inspire.Models.Transfers.ComponentImportAction
+  commentId: T:Vasont.Inspire.Models.Transfers.ComponentImportAction
+  parent: Vasont.Inspire.Models.Transfers
+  name: ComponentImportAction
+  nameWithType: ComponentImportAction
+  fullName: Vasont.Inspire.Models.Transfers.ComponentImportAction

@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.ComponentLockType
+  commentId: T:Vasont.Inspire.Models.Components.ComponentLockType
+  id: ComponentLockType
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.ComponentLockType.Edit
+  - Vasont.Inspire.Models.Components.ComponentLockType.Review
+  - Vasont.Inspire.Models.Components.ComponentLockType.Standard
+  - Vasont.Inspire.Models.Components.ComponentLockType.Translation
+  langs:
+  - csharp
+  - vb
+  name: ComponentLockType
+  nameWithType: ComponentLockType
+  fullName: Vasont.Inspire.Models.Components.ComponentLockType
+  type: Enum
+  source:
+    remote:
+      path: src/Components/ComponentLockModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentLockType
+    path: Components/ComponentLockModel.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nContains an enumerated list of component lock types\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum ComponentLockType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum ComponentLockType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Components.ComponentLockType.Standard
+  commentId: F:Vasont.Inspire.Models.Components.ComponentLockType.Standard
+  id: Standard
+  parent: Vasont.Inspire.Models.Components.ComponentLockType
+  langs:
+  - csharp
+  - vb
+  name: Standard
+  nameWithType: ComponentLockType.Standard
+  fullName: Vasont.Inspire.Models.Components.ComponentLockType.Standard
+  type: Field
+  source:
+    remote:
+      path: src/Components/ComponentLockModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Standard
+    path: Components/ComponentLockModel.cs
+    startLine: 23
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThe component lock is standard and is locked by a user for editing.\n"
+  example: []
+  syntax:
+    content: Standard = 0
+    return:
+      type: Vasont.Inspire.Models.Components.ComponentLockType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.ComponentLockType.Review
+  commentId: F:Vasont.Inspire.Models.Components.ComponentLockType.Review
+  id: Review
+  parent: Vasont.Inspire.Models.Components.ComponentLockType
+  langs:
+  - csharp
+  - vb
+  name: Review
+  nameWithType: ComponentLockType.Review
+  fullName: Vasont.Inspire.Models.Components.ComponentLockType.Review
+  type: Field
+  source:
+    remote:
+      path: src/Components/ComponentLockModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Review
+    path: Components/ComponentLockModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThe component lock is review and is locked because it is part of a review.\n"
+  example: []
+  syntax:
+    content: Review = 1
+    return:
+      type: Vasont.Inspire.Models.Components.ComponentLockType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.ComponentLockType.Translation
+  commentId: F:Vasont.Inspire.Models.Components.ComponentLockType.Translation
+  id: Translation
+  parent: Vasont.Inspire.Models.Components.ComponentLockType
+  langs:
+  - csharp
+  - vb
+  name: Translation
+  nameWithType: ComponentLockType.Translation
+  fullName: Vasont.Inspire.Models.Components.ComponentLockType.Translation
+  type: Field
+  source:
+    remote:
+      path: src/Components/ComponentLockModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Translation
+    path: Components/ComponentLockModel.cs
+    startLine: 33
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThe component lock is translation and is locked because it is part of a translation.\n"
+  example: []
+  syntax:
+    content: Translation = 2
+    return:
+      type: Vasont.Inspire.Models.Components.ComponentLockType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.ComponentLockType.Edit
+  commentId: F:Vasont.Inspire.Models.Components.ComponentLockType.Edit
+  id: Edit
+  parent: Vasont.Inspire.Models.Components.ComponentLockType
+  langs:
+  - csharp
+  - vb
+  name: Edit
+  nameWithType: ComponentLockType.Edit
+  fullName: Vasont.Inspire.Models.Components.ComponentLockType.Edit
+  type: Field
+  source:
+    remote:
+      path: src/Components/ComponentLockModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Edit
+    path: Components/ComponentLockModel.cs
+    startLine: 38
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThe component lock is edit and is locked by a user for external editing.\n"
+  example: []
+  syntax:
+    content: Edit = 3
+    return:
+      type: Vasont.Inspire.Models.Components.ComponentLockType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: Vasont.Inspire.Models.Components.ComponentLockType
+  commentId: T:Vasont.Inspire.Models.Components.ComponentLockType
+  parent: Vasont.Inspire.Models.Components
+  name: ComponentLockType
+  nameWithType: ComponentLockType
+  fullName: Vasont.Inspire.Models.Components.ComponentLockType

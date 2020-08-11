@@ -1,0 +1,423 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.MapTargetComponentTypeModel
+  commentId: T:Vasont.Inspire.Models.Components.MapTargetComponentTypeModel
+  id: MapTargetComponentTypeModel
+  parent: Vasont.Inspire.Models.Components
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: MapTargetComponentTypeModel
+  nameWithType: MapTargetComponentTypeModel
+  fullName: Vasont.Inspire.Models.Components.MapTargetComponentTypeModel
+  type: Class
+  source:
+    remote:
+      path: src/Components/MapTargetComponentTypeModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: MapTargetComponentTypeModel
+    path: Components/MapTargetComponentTypeModel.cs
+    startLine: 10
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis class represents a component type for a map target model.\n"
+  example: []
+  syntax:
+    content: 'public class MapTargetComponentTypeModel : MinimalComponentTypeModel'
+    content.vb: >-
+      Public Class MapTargetComponentTypeModel
+          Inherits MinimalComponentTypeModel
+  inheritance:
+  - System.Object
+  - Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+  inheritedMembers:
+  - Vasont.Inspire.Models.Components.MinimalComponentTypeModel.ComponentTypeId
+  - Vasont.Inspire.Models.Components.MinimalComponentTypeModel.Name
+  - Vasont.Inspire.Models.Components.MinimalComponentTypeModel.Description
+  - Vasont.Inspire.Models.Components.MinimalComponentTypeModel.Binary
+  - Vasont.Inspire.Models.Components.MinimalComponentTypeModel.DocumentType
+  - Vasont.Inspire.Models.Components.MinimalComponentTypeModel.SchemaStandard
+  - Vasont.Inspire.Models.Components.MinimalComponentTypeModel.IsEditable
+  - Vasont.Inspire.Models.Components.MinimalComponentTypeModel.IsMap
+  - Vasont.Inspire.Models.Components.MinimalComponentTypeModel.CanPublish
+  - Vasont.Inspire.Models.Components.MinimalComponentTypeModel.IsWorkflow
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+  commentId: T:Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+  parent: Vasont.Inspire.Models.Components
+  name: MinimalComponentTypeModel
+  nameWithType: MinimalComponentTypeModel
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+- uid: Vasont.Inspire.Models.Components.MinimalComponentTypeModel.ComponentTypeId
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentTypeModel.ComponentTypeId
+  parent: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+  name: ComponentTypeId
+  nameWithType: MinimalComponentTypeModel.ComponentTypeId
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentTypeModel.ComponentTypeId
+- uid: Vasont.Inspire.Models.Components.MinimalComponentTypeModel.Name
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentTypeModel.Name
+  parent: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+  name: Name
+  nameWithType: MinimalComponentTypeModel.Name
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentTypeModel.Name
+- uid: Vasont.Inspire.Models.Components.MinimalComponentTypeModel.Description
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentTypeModel.Description
+  parent: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+  name: Description
+  nameWithType: MinimalComponentTypeModel.Description
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentTypeModel.Description
+- uid: Vasont.Inspire.Models.Components.MinimalComponentTypeModel.Binary
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentTypeModel.Binary
+  parent: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+  name: Binary
+  nameWithType: MinimalComponentTypeModel.Binary
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentTypeModel.Binary
+- uid: Vasont.Inspire.Models.Components.MinimalComponentTypeModel.DocumentType
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentTypeModel.DocumentType
+  parent: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+  name: DocumentType
+  nameWithType: MinimalComponentTypeModel.DocumentType
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentTypeModel.DocumentType
+- uid: Vasont.Inspire.Models.Components.MinimalComponentTypeModel.SchemaStandard
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentTypeModel.SchemaStandard
+  parent: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+  name: SchemaStandard
+  nameWithType: MinimalComponentTypeModel.SchemaStandard
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentTypeModel.SchemaStandard
+- uid: Vasont.Inspire.Models.Components.MinimalComponentTypeModel.IsEditable
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentTypeModel.IsEditable
+  parent: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+  name: IsEditable
+  nameWithType: MinimalComponentTypeModel.IsEditable
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentTypeModel.IsEditable
+- uid: Vasont.Inspire.Models.Components.MinimalComponentTypeModel.IsMap
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentTypeModel.IsMap
+  parent: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+  name: IsMap
+  nameWithType: MinimalComponentTypeModel.IsMap
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentTypeModel.IsMap
+- uid: Vasont.Inspire.Models.Components.MinimalComponentTypeModel.CanPublish
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentTypeModel.CanPublish
+  parent: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+  name: CanPublish
+  nameWithType: MinimalComponentTypeModel.CanPublish
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentTypeModel.CanPublish
+- uid: Vasont.Inspire.Models.Components.MinimalComponentTypeModel.IsWorkflow
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentTypeModel.IsWorkflow
+  parent: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+  name: IsWorkflow
+  nameWithType: MinimalComponentTypeModel.IsWorkflow
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentTypeModel.IsWorkflow
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

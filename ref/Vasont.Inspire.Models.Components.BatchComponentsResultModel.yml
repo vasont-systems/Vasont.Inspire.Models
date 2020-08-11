@@ -1,0 +1,563 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.BatchComponentsResultModel
+  commentId: T:Vasont.Inspire.Models.Components.BatchComponentsResultModel
+  id: BatchComponentsResultModel
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.BatchComponentsResultModel.#ctor
+  - Vasont.Inspire.Models.Components.BatchComponentsResultModel.#ctor(System.Collections.Generic.List{Vasont.Inspire.Models.Components.MinimalComponentModel})
+  - Vasont.Inspire.Models.Components.BatchComponentsResultModel.Components
+  langs:
+  - csharp
+  - vb
+  name: BatchComponentsResultModel
+  nameWithType: BatchComponentsResultModel
+  fullName: Vasont.Inspire.Models.Components.BatchComponentsResultModel
+  type: Class
+  source:
+    remote:
+      path: src/Components/BatchComponentsResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: BatchComponentsResultModel
+    path: Components/BatchComponentsResultModel.cs
+    startLine: 12
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis class represents the components returned from the batch component API.\n"
+  example: []
+  syntax:
+    content: public class BatchComponentsResultModel
+    content.vb: Public Class BatchComponentsResultModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Components.BatchComponentsResultModel.#ctor
+  commentId: M:Vasont.Inspire.Models.Components.BatchComponentsResultModel.#ctor
+  id: '#ctor'
+  parent: Vasont.Inspire.Models.Components.BatchComponentsResultModel
+  langs:
+  - csharp
+  - vb
+  name: BatchComponentsResultModel()
+  nameWithType: BatchComponentsResultModel.BatchComponentsResultModel()
+  fullName: Vasont.Inspire.Models.Components.BatchComponentsResultModel.BatchComponentsResultModel()
+  type: Constructor
+  source:
+    remote:
+      path: src/Components/BatchComponentsResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: .ctor
+    path: Components/BatchComponentsResultModel.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nInitializes a new instance of the <xref href=\"Vasont.Inspire.Models.Components.BatchComponentsResultModel\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public BatchComponentsResultModel()
+    content.vb: Public Sub New
+  overload: Vasont.Inspire.Models.Components.BatchComponentsResultModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.BatchComponentsResultModel.#ctor(System.Collections.Generic.List{Vasont.Inspire.Models.Components.MinimalComponentModel})
+  commentId: M:Vasont.Inspire.Models.Components.BatchComponentsResultModel.#ctor(System.Collections.Generic.List{Vasont.Inspire.Models.Components.MinimalComponentModel})
+  id: '#ctor(System.Collections.Generic.List{Vasont.Inspire.Models.Components.MinimalComponentModel})'
+  parent: Vasont.Inspire.Models.Components.BatchComponentsResultModel
+  langs:
+  - csharp
+  - vb
+  name: BatchComponentsResultModel(List<MinimalComponentModel>)
+  nameWithType: BatchComponentsResultModel.BatchComponentsResultModel(List<MinimalComponentModel>)
+  fullName: Vasont.Inspire.Models.Components.BatchComponentsResultModel.BatchComponentsResultModel(System.Collections.Generic.List<Vasont.Inspire.Models.Components.MinimalComponentModel>)
+  type: Constructor
+  source:
+    remote:
+      path: src/Components/BatchComponentsResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: .ctor
+    path: Components/BatchComponentsResultModel.cs
+    startLine: 26
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nInitializes a new instance of the <xref href=\"Vasont.Inspire.Models.Components.BatchComponentsResultModel\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public BatchComponentsResultModel(List<MinimalComponentModel> components)
+    parameters:
+    - id: components
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Components.MinimalComponentModel}
+      description: Contains a list of <xref href="Vasont.Inspire.Models.Components.MinimalComponentModel" data-throw-if-not-resolved="false"></xref> objects.
+    content.vb: Public Sub New(components As List(Of MinimalComponentModel))
+  overload: Vasont.Inspire.Models.Components.BatchComponentsResultModel.#ctor*
+  nameWithType.vb: BatchComponentsResultModel.BatchComponentsResultModel(List(Of MinimalComponentModel))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Vasont.Inspire.Models.Components.BatchComponentsResultModel.BatchComponentsResultModel(System.Collections.Generic.List(Of Vasont.Inspire.Models.Components.MinimalComponentModel))
+  name.vb: BatchComponentsResultModel(List(Of MinimalComponentModel))
+- uid: Vasont.Inspire.Models.Components.BatchComponentsResultModel.Components
+  commentId: P:Vasont.Inspire.Models.Components.BatchComponentsResultModel.Components
+  id: Components
+  parent: Vasont.Inspire.Models.Components.BatchComponentsResultModel
+  langs:
+  - csharp
+  - vb
+  name: Components
+  nameWithType: BatchComponentsResultModel.Components
+  fullName: Vasont.Inspire.Models.Components.BatchComponentsResultModel.Components
+  type: Property
+  source:
+    remote:
+      path: src/Components/BatchComponentsResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Components
+    path: Components/BatchComponentsResultModel.cs
+    startLine: 34
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets the list of component identifiers.\n"
+  example: []
+  syntax:
+    content: public List<MinimalComponentModel> Components { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Components.MinimalComponentModel}
+    content.vb: Public ReadOnly Property Components As List(Of MinimalComponentModel)
+  overload: Vasont.Inspire.Models.Components.BatchComponentsResultModel.Components*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Components.BatchComponentsResultModel
+  commentId: T:Vasont.Inspire.Models.Components.BatchComponentsResultModel
+  name: BatchComponentsResultModel
+  nameWithType: BatchComponentsResultModel
+  fullName: Vasont.Inspire.Models.Components.BatchComponentsResultModel
+- uid: Vasont.Inspire.Models.Components.BatchComponentsResultModel.#ctor*
+  commentId: Overload:Vasont.Inspire.Models.Components.BatchComponentsResultModel.#ctor
+  name: BatchComponentsResultModel
+  nameWithType: BatchComponentsResultModel.BatchComponentsResultModel
+  fullName: Vasont.Inspire.Models.Components.BatchComponentsResultModel.BatchComponentsResultModel
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel
+  commentId: T:Vasont.Inspire.Models.Components.MinimalComponentModel
+  parent: Vasont.Inspire.Models.Components
+  name: MinimalComponentModel
+  nameWithType: MinimalComponentModel
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Components.MinimalComponentModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Components.MinimalComponentModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<MinimalComponentModel>
+  nameWithType: List<MinimalComponentModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Components.MinimalComponentModel>
+  nameWithType.vb: List(Of MinimalComponentModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Components.MinimalComponentModel)
+  name.vb: List(Of MinimalComponentModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Components.MinimalComponentModel
+    name: MinimalComponentModel
+    nameWithType: MinimalComponentModel
+    fullName: Vasont.Inspire.Models.Components.MinimalComponentModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Components.MinimalComponentModel
+    name: MinimalComponentModel
+    nameWithType: MinimalComponentModel
+    fullName: Vasont.Inspire.Models.Components.MinimalComponentModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Components.BatchComponentsResultModel.Components*
+  commentId: Overload:Vasont.Inspire.Models.Components.BatchComponentsResultModel.Components
+  name: Components
+  nameWithType: BatchComponentsResultModel.Components
+  fullName: Vasont.Inspire.Models.Components.BatchComponentsResultModel.Components

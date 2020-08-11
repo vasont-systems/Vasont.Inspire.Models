@@ -1,0 +1,934 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel
+  commentId: T:Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel
+  id: ProfileFilterModel
+  parent: Vasont.Inspire.Models.ProfileFilters
+  children:
+  - Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Active
+  - Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.AttributeValues
+  - Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Description
+  - Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Owner
+  - Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.ProfileFilterId
+  - Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SharedRoles
+  - Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SharedUsers
+  - Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SystemShared
+  - Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Title
+  langs:
+  - csharp
+  - vb
+  name: ProfileFilterModel
+  nameWithType: ProfileFilterModel
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel
+  type: Class
+  source:
+    remote:
+      path: src/ProfileFilters/ProfileFilterModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProfileFilterModel
+    path: ProfileFilters/ProfileFilterModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.ProfileFilters
+  summary: "\nThis class defines the properties of a profile filter model.\n"
+  example: []
+  syntax:
+    content: public class ProfileFilterModel
+    content.vb: Public Class ProfileFilterModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.ProfileFilterId
+  commentId: P:Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.ProfileFilterId
+  id: ProfileFilterId
+  parent: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel
+  langs:
+  - csharp
+  - vb
+  name: ProfileFilterId
+  nameWithType: ProfileFilterModel.ProfileFilterId
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.ProfileFilterId
+  type: Property
+  source:
+    remote:
+      path: src/ProfileFilters/ProfileFilterModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProfileFilterId
+    path: ProfileFilters/ProfileFilterModel.cs
+    startLine: 18
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.ProfileFilters
+  summary: "\nGets or sets the identity of the profile filter.\n"
+  example: []
+  syntax:
+    content: public long ProfileFilterId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ProfileFilterId As Long
+  overload: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.ProfileFilterId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Owner
+  commentId: P:Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Owner
+  id: Owner
+  parent: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel
+  langs:
+  - csharp
+  - vb
+  name: Owner
+  nameWithType: ProfileFilterModel.Owner
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Owner
+  type: Property
+  source:
+    remote:
+      path: src/ProfileFilters/ProfileFilterModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Owner
+    path: ProfileFilters/ProfileFilterModel.cs
+    startLine: 23
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.ProfileFilters
+  summary: "\nGets or sets the owner of the profile filter.\n"
+  example: []
+  syntax:
+    content: public MicroUserModel Owner { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.MicroUserModel
+    content.vb: Public Property Owner As MicroUserModel
+  overload: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Owner*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Title
+  commentId: P:Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Title
+  id: Title
+  parent: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: ProfileFilterModel.Title
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Title
+  type: Property
+  source:
+    remote:
+      path: src/ProfileFilters/ProfileFilterModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Title
+    path: ProfileFilters/ProfileFilterModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.ProfileFilters
+  summary: "\nGets or sets the title of the profile filter.\n"
+  example: []
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Description
+  commentId: P:Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Description
+  id: Description
+  parent: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: ProfileFilterModel.Description
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Description
+  type: Property
+  source:
+    remote:
+      path: src/ProfileFilters/ProfileFilterModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Description
+    path: ProfileFilters/ProfileFilterModel.cs
+    startLine: 33
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.ProfileFilters
+  summary: "\nGets or sets the description of the profile filter.\n"
+  example: []
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SystemShared
+  commentId: P:Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SystemShared
+  id: SystemShared
+  parent: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel
+  langs:
+  - csharp
+  - vb
+  name: SystemShared
+  nameWithType: ProfileFilterModel.SystemShared
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SystemShared
+  type: Property
+  source:
+    remote:
+      path: src/ProfileFilters/ProfileFilterModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SystemShared
+    path: ProfileFilters/ProfileFilterModel.cs
+    startLine: 38
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.ProfileFilters
+  summary: "\nGets or sets a value indicating whether the profile filter is shared.\n"
+  example: []
+  syntax:
+    content: public bool SystemShared { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SystemShared As Boolean
+  overload: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SystemShared*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Active
+  commentId: P:Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Active
+  id: Active
+  parent: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: ProfileFilterModel.Active
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Active
+  type: Property
+  source:
+    remote:
+      path: src/ProfileFilters/ProfileFilterModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Active
+    path: ProfileFilters/ProfileFilterModel.cs
+    startLine: 43
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.ProfileFilters
+  summary: "\nGets or sets a value indicating whether the profile filter is currently active.\n"
+  example: []
+  syntax:
+    content: public bool Active { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Active As Boolean
+  overload: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Active*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.AttributeValues
+  commentId: P:Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.AttributeValues
+  id: AttributeValues
+  parent: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel
+  langs:
+  - csharp
+  - vb
+  name: AttributeValues
+  nameWithType: ProfileFilterModel.AttributeValues
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.AttributeValues
+  type: Property
+  source:
+    remote:
+      path: src/ProfileFilters/ProfileFilterModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: AttributeValues
+    path: ProfileFilters/ProfileFilterModel.cs
+    startLine: 48
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.ProfileFilters
+  summary: "\nGets or sets a list attribute values that are included in the profile filter.\n"
+  example: []
+  syntax:
+    content: public List<ProfileFilterAttributeModel> AttributeValues { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel}
+    content.vb: Public Property AttributeValues As List(Of ProfileFilterAttributeModel)
+  overload: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.AttributeValues*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SharedUsers
+  commentId: P:Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SharedUsers
+  id: SharedUsers
+  parent: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel
+  langs:
+  - csharp
+  - vb
+  name: SharedUsers
+  nameWithType: ProfileFilterModel.SharedUsers
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SharedUsers
+  type: Property
+  source:
+    remote:
+      path: src/ProfileFilters/ProfileFilterModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SharedUsers
+    path: ProfileFilters/ProfileFilterModel.cs
+    startLine: 53
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.ProfileFilters
+  summary: "\nGets or sets a list of users that this profile filter is shared with.\n"
+  example: []
+  syntax:
+    content: public List<MicroUserModel> SharedUsers { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Security.MicroUserModel}
+    content.vb: Public Property SharedUsers As List(Of MicroUserModel)
+  overload: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SharedUsers*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SharedRoles
+  commentId: P:Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SharedRoles
+  id: SharedRoles
+  parent: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel
+  langs:
+  - csharp
+  - vb
+  name: SharedRoles
+  nameWithType: ProfileFilterModel.SharedRoles
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SharedRoles
+  type: Property
+  source:
+    remote:
+      path: src/ProfileFilters/ProfileFilterModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SharedRoles
+    path: ProfileFilters/ProfileFilterModel.cs
+    startLine: 58
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.ProfileFilters
+  summary: "\nGets or sets a list of roles that this profile filter is shared with.\n"
+  example: []
+  syntax:
+    content: public List<MinimalRoleModel> SharedRoles { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Security.MinimalRoleModel}
+    content.vb: Public Property SharedRoles As List(Of MinimalRoleModel)
+  overload: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SharedRoles*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.ProfileFilters
+  commentId: N:Vasont.Inspire.Models.ProfileFilters
+  name: Vasont.Inspire.Models.ProfileFilters
+  nameWithType: Vasont.Inspire.Models.ProfileFilters
+  fullName: Vasont.Inspire.Models.ProfileFilters
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.ProfileFilterId*
+  commentId: Overload:Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.ProfileFilterId
+  name: ProfileFilterId
+  nameWithType: ProfileFilterModel.ProfileFilterId
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.ProfileFilterId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Owner*
+  commentId: Overload:Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Owner
+  name: Owner
+  nameWithType: ProfileFilterModel.Owner
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Owner
+- uid: Vasont.Inspire.Models.Security.MicroUserModel
+  commentId: T:Vasont.Inspire.Models.Security.MicroUserModel
+  parent: Vasont.Inspire.Models.Security
+  name: MicroUserModel
+  nameWithType: MicroUserModel
+  fullName: Vasont.Inspire.Models.Security.MicroUserModel
+- uid: Vasont.Inspire.Models.Security
+  commentId: N:Vasont.Inspire.Models.Security
+  name: Vasont.Inspire.Models.Security
+  nameWithType: Vasont.Inspire.Models.Security
+  fullName: Vasont.Inspire.Models.Security
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Title*
+  commentId: Overload:Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Title
+  name: Title
+  nameWithType: ProfileFilterModel.Title
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Description*
+  commentId: Overload:Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Description
+  name: Description
+  nameWithType: ProfileFilterModel.Description
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Description
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SystemShared*
+  commentId: Overload:Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SystemShared
+  name: SystemShared
+  nameWithType: ProfileFilterModel.SystemShared
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SystemShared
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Active*
+  commentId: Overload:Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Active
+  name: Active
+  nameWithType: ProfileFilterModel.Active
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.Active
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.AttributeValues*
+  commentId: Overload:Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.AttributeValues
+  name: AttributeValues
+  nameWithType: ProfileFilterModel.AttributeValues
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.AttributeValues
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ProfileFilterAttributeModel>
+  nameWithType: List<ProfileFilterAttributeModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel>
+  nameWithType.vb: List(Of ProfileFilterAttributeModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel)
+  name.vb: List(Of ProfileFilterAttributeModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel
+    name: ProfileFilterAttributeModel
+    nameWithType: ProfileFilterAttributeModel
+    fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel
+    name: ProfileFilterAttributeModel
+    nameWithType: ProfileFilterAttributeModel
+    fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SharedUsers*
+  commentId: Overload:Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SharedUsers
+  name: SharedUsers
+  nameWithType: ProfileFilterModel.SharedUsers
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SharedUsers
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Security.MicroUserModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Security.MicroUserModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<MicroUserModel>
+  nameWithType: List<MicroUserModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Security.MicroUserModel>
+  nameWithType.vb: List(Of MicroUserModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Security.MicroUserModel)
+  name.vb: List(Of MicroUserModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Security.MicroUserModel
+    name: MicroUserModel
+    nameWithType: MicroUserModel
+    fullName: Vasont.Inspire.Models.Security.MicroUserModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Security.MicroUserModel
+    name: MicroUserModel
+    nameWithType: MicroUserModel
+    fullName: Vasont.Inspire.Models.Security.MicroUserModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SharedRoles*
+  commentId: Overload:Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SharedRoles
+  name: SharedRoles
+  nameWithType: ProfileFilterModel.SharedRoles
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel.SharedRoles
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Security.MinimalRoleModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Security.MinimalRoleModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<MinimalRoleModel>
+  nameWithType: List<MinimalRoleModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Security.MinimalRoleModel>
+  nameWithType.vb: List(Of MinimalRoleModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Security.MinimalRoleModel)
+  name.vb: List(Of MinimalRoleModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Security.MinimalRoleModel
+    name: MinimalRoleModel
+    nameWithType: MinimalRoleModel
+    fullName: Vasont.Inspire.Models.Security.MinimalRoleModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Security.MinimalRoleModel
+    name: MinimalRoleModel
+    nameWithType: MinimalRoleModel
+    fullName: Vasont.Inspire.Models.Security.MinimalRoleModel
+  - name: )
+    nameWithType: )
+    fullName: )

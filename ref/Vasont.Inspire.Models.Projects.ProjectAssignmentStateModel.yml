@@ -1,0 +1,496 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel
+  commentId: T:Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel
+  id: ProjectAssignmentStateModel
+  parent: Vasont.Inspire.Models.Projects
+  children:
+  - Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.AssignmentState
+  - Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.Name
+  - Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.ProjectAssignmentStateId
+  langs:
+  - csharp
+  - vb
+  name: ProjectAssignmentStateModel
+  nameWithType: ProjectAssignmentStateModel
+  fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel
+  type: Class
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProjectAssignmentStateModel
+    path: Projects/ProjectAssignmentStateModel.cs
+    startLine: 41
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nThis class represents a project assignment state model within projects.\n"
+  example: []
+  syntax:
+    content: public class ProjectAssignmentStateModel
+    content.vb: Public Class ProjectAssignmentStateModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.AssignmentState
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.AssignmentState
+  id: AssignmentState
+  parent: Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel
+  langs:
+  - csharp
+  - vb
+  name: AssignmentState
+  nameWithType: ProjectAssignmentStateModel.AssignmentState
+  fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.AssignmentState
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: AssignmentState
+    path: Projects/ProjectAssignmentStateModel.cs
+    startLine: 46
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the project assignment state identity.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public ProjectAssignmentStateType AssignmentState { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property AssignmentState As ProjectAssignmentStateType
+  overload: Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.AssignmentState*
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.Name
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.Name
+  id: Name
+  parent: Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ProjectAssignmentStateModel.Name
+  fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.Name
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Name
+    path: Projects/ProjectAssignmentStateModel.cs
+    startLine: 52
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the project assignment state name.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.ProjectAssignmentStateId
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.ProjectAssignmentStateId
+  id: ProjectAssignmentStateId
+  parent: Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel
+  langs:
+  - csharp
+  - vb
+  name: ProjectAssignmentStateId
+  nameWithType: ProjectAssignmentStateModel.ProjectAssignmentStateId
+  fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.ProjectAssignmentStateId
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProjectAssignmentStateId
+    path: Projects/ProjectAssignmentStateModel.cs
+    startLine: 57
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the project assignment state via a textual value.\n"
+  example: []
+  syntax:
+    content: public string ProjectAssignmentStateId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProjectAssignmentStateId As String
+  overload: Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.ProjectAssignmentStateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Projects
+  commentId: N:Vasont.Inspire.Models.Projects
+  name: Vasont.Inspire.Models.Projects
+  nameWithType: Vasont.Inspire.Models.Projects
+  fullName: Vasont.Inspire.Models.Projects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.AssignmentState*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.AssignmentState
+  name: AssignmentState
+  nameWithType: ProjectAssignmentStateModel.AssignmentState
+  fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.AssignmentState
+- uid: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType
+  commentId: T:Vasont.Inspire.Models.Projects.ProjectAssignmentStateType
+  parent: Vasont.Inspire.Models.Projects
+  name: ProjectAssignmentStateType
+  nameWithType: ProjectAssignmentStateType
+  fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentStateType
+- uid: Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.Name*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.Name
+  name: Name
+  nameWithType: ProjectAssignmentStateModel.Name
+  fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.ProjectAssignmentStateId*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.ProjectAssignmentStateId
+  name: ProjectAssignmentStateId
+  nameWithType: ProjectAssignmentStateModel.ProjectAssignmentStateId
+  fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentStateModel.ProjectAssignmentStateId

@@ -1,0 +1,530 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.ComponentMetricsModel
+  commentId: T:Vasont.Inspire.Models.Components.ComponentMetricsModel
+  id: ComponentMetricsModel
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.ComponentMetricsModel.CharCount
+  - Vasont.Inspire.Models.Components.ComponentMetricsModel.CharCountNoSpace
+  - Vasont.Inspire.Models.Components.ComponentMetricsModel.FileSize
+  - Vasont.Inspire.Models.Components.ComponentMetricsModel.WordCount
+  langs:
+  - csharp
+  - vb
+  name: ComponentMetricsModel
+  nameWithType: ComponentMetricsModel
+  fullName: Vasont.Inspire.Models.Components.ComponentMetricsModel
+  type: Class
+  source:
+    remote:
+      path: src/Components/ComponentMetricsModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentMetricsModel
+    path: Components/ComponentMetricsModel.cs
+    startLine: 10
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis class represents metrics for a component within the system and is to be used for interaction with application user interfaces.\n"
+  example: []
+  syntax:
+    content: public class ComponentMetricsModel
+    content.vb: Public Class ComponentMetricsModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Components.ComponentMetricsModel.WordCount
+  commentId: P:Vasont.Inspire.Models.Components.ComponentMetricsModel.WordCount
+  id: WordCount
+  parent: Vasont.Inspire.Models.Components.ComponentMetricsModel
+  langs:
+  - csharp
+  - vb
+  name: WordCount
+  nameWithType: ComponentMetricsModel.WordCount
+  fullName: Vasont.Inspire.Models.Components.ComponentMetricsModel.WordCount
+  type: Property
+  source:
+    remote:
+      path: src/Components/ComponentMetricsModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: WordCount
+    path: Components/ComponentMetricsModel.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the XML Component Word Count.\n"
+  example: []
+  syntax:
+    content: public int WordCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property WordCount As Integer
+  overload: Vasont.Inspire.Models.Components.ComponentMetricsModel.WordCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.ComponentMetricsModel.CharCount
+  commentId: P:Vasont.Inspire.Models.Components.ComponentMetricsModel.CharCount
+  id: CharCount
+  parent: Vasont.Inspire.Models.Components.ComponentMetricsModel
+  langs:
+  - csharp
+  - vb
+  name: CharCount
+  nameWithType: ComponentMetricsModel.CharCount
+  fullName: Vasont.Inspire.Models.Components.ComponentMetricsModel.CharCount
+  type: Property
+  source:
+    remote:
+      path: src/Components/ComponentMetricsModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CharCount
+    path: Components/ComponentMetricsModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the XML Component Character Count.\n"
+  example: []
+  syntax:
+    content: public int CharCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CharCount As Integer
+  overload: Vasont.Inspire.Models.Components.ComponentMetricsModel.CharCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.ComponentMetricsModel.CharCountNoSpace
+  commentId: P:Vasont.Inspire.Models.Components.ComponentMetricsModel.CharCountNoSpace
+  id: CharCountNoSpace
+  parent: Vasont.Inspire.Models.Components.ComponentMetricsModel
+  langs:
+  - csharp
+  - vb
+  name: CharCountNoSpace
+  nameWithType: ComponentMetricsModel.CharCountNoSpace
+  fullName: Vasont.Inspire.Models.Components.ComponentMetricsModel.CharCountNoSpace
+  type: Property
+  source:
+    remote:
+      path: src/Components/ComponentMetricsModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CharCountNoSpace
+    path: Components/ComponentMetricsModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the XML Component Character Count Without Spaces.\n"
+  example: []
+  syntax:
+    content: public int CharCountNoSpace { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CharCountNoSpace As Integer
+  overload: Vasont.Inspire.Models.Components.ComponentMetricsModel.CharCountNoSpace*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.ComponentMetricsModel.FileSize
+  commentId: P:Vasont.Inspire.Models.Components.ComponentMetricsModel.FileSize
+  id: FileSize
+  parent: Vasont.Inspire.Models.Components.ComponentMetricsModel
+  langs:
+  - csharp
+  - vb
+  name: FileSize
+  nameWithType: ComponentMetricsModel.FileSize
+  fullName: Vasont.Inspire.Models.Components.ComponentMetricsModel.FileSize
+  type: Property
+  source:
+    remote:
+      path: src/Components/ComponentMetricsModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FileSize
+    path: Components/ComponentMetricsModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the Component Size.\n"
+  example: []
+  syntax:
+    content: public long FileSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property FileSize As Long
+  overload: Vasont.Inspire.Models.Components.ComponentMetricsModel.FileSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Components.ComponentMetricsModel.WordCount*
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentMetricsModel.WordCount
+  name: WordCount
+  nameWithType: ComponentMetricsModel.WordCount
+  fullName: Vasont.Inspire.Models.Components.ComponentMetricsModel.WordCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Vasont.Inspire.Models.Components.ComponentMetricsModel.CharCount*
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentMetricsModel.CharCount
+  name: CharCount
+  nameWithType: ComponentMetricsModel.CharCount
+  fullName: Vasont.Inspire.Models.Components.ComponentMetricsModel.CharCount
+- uid: Vasont.Inspire.Models.Components.ComponentMetricsModel.CharCountNoSpace*
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentMetricsModel.CharCountNoSpace
+  name: CharCountNoSpace
+  nameWithType: ComponentMetricsModel.CharCountNoSpace
+  fullName: Vasont.Inspire.Models.Components.ComponentMetricsModel.CharCountNoSpace
+- uid: Vasont.Inspire.Models.Components.ComponentMetricsModel.FileSize*
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentMetricsModel.FileSize
+  name: FileSize
+  nameWithType: ComponentMetricsModel.FileSize
+  fullName: Vasont.Inspire.Models.Components.ComponentMetricsModel.FileSize
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64

@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  commentId: T:Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  id: WebhookConfigurationNameType
+  parent: Vasont.Inspire.Models.Webhooks
+  children:
+  - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.PublishResult
+  - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ZoominFeedback
+  - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ZoominNewContent
+  langs:
+  - csharp
+  - vb
+  name: WebhookConfigurationNameType
+  nameWithType: WebhookConfigurationNameType
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  type: Enum
+  source:
+    remote:
+      path: src/Webhooks/WebhookConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: WebhookConfigurationNameType
+    path: Webhooks/WebhookConfigurationModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nContains an enumerated list of webhook names.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum WebhookConfigurationNameType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum WebhookConfigurationNameType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ZoominFeedback
+  commentId: F:Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ZoominFeedback
+  id: ZoominFeedback
+  parent: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  langs:
+  - csharp
+  - vb
+  name: ZoominFeedback
+  nameWithType: WebhookConfigurationNameType.ZoominFeedback
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ZoominFeedback
+  type: Field
+  source:
+    remote:
+      path: src/Webhooks/WebhookConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ZoominFeedback
+    path: Webhooks/WebhookConfigurationModel.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nThe Zoomin Feedback webhook.\n"
+  example: []
+  syntax:
+    content: ZoominFeedback = 0
+    return:
+      type: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ZoominNewContent
+  commentId: F:Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ZoominNewContent
+  id: ZoominNewContent
+  parent: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  langs:
+  - csharp
+  - vb
+  name: ZoominNewContent
+  nameWithType: WebhookConfigurationNameType.ZoominNewContent
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ZoominNewContent
+  type: Field
+  source:
+    remote:
+      path: src/Webhooks/WebhookConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ZoominNewContent
+    path: Webhooks/WebhookConfigurationModel.cs
+    startLine: 24
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nThe Zoomin new content webhook.\n"
+  example: []
+  syntax:
+    content: ZoominNewContent = 1
+    return:
+      type: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.PublishResult
+  commentId: F:Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.PublishResult
+  id: PublishResult
+  parent: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  langs:
+  - csharp
+  - vb
+  name: PublishResult
+  nameWithType: WebhookConfigurationNameType.PublishResult
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.PublishResult
+  type: Field
+  source:
+    remote:
+      path: src/Webhooks/WebhookConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PublishResult
+    path: Webhooks/WebhookConfigurationModel.cs
+    startLine: 29
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nThe Publish result webhook.\n"
+  example: []
+  syntax:
+    content: PublishResult = 2
+    return:
+      type: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Webhooks
+  commentId: N:Vasont.Inspire.Models.Webhooks
+  name: Vasont.Inspire.Models.Webhooks
+  nameWithType: Vasont.Inspire.Models.Webhooks
+  fullName: Vasont.Inspire.Models.Webhooks
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  commentId: T:Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  parent: Vasont.Inspire.Models.Webhooks
+  name: WebhookConfigurationNameType
+  nameWithType: WebhookConfigurationNameType
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType

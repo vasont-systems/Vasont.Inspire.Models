@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Versioning.IChangesetSnapshot
+  commentId: T:Vasont.Inspire.Models.Versioning.IChangesetSnapshot
+  id: IChangesetSnapshot
+  parent: Vasont.Inspire.Models.Versioning
+  children:
+  - Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Action
+  - Vasont.Inspire.Models.Versioning.IChangesetSnapshot.ChangesetId
+  - Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Restored
+  langs:
+  - csharp
+  - vb
+  name: IChangesetSnapshot
+  nameWithType: IChangesetSnapshot
+  fullName: Vasont.Inspire.Models.Versioning.IChangesetSnapshot
+  type: Interface
+  source:
+    remote:
+      path: src/Versioning/IChangesetSnapshot.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IChangesetSnapshot
+    path: Versioning/IChangesetSnapshot.cs
+    startLine: 12
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nContains a minimum implementation of the baseline history table properties.\n"
+  example: []
+  syntax:
+    content: public interface IChangesetSnapshot
+    content.vb: Public Interface IChangesetSnapshot
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.ChangesetId
+  commentId: P:Vasont.Inspire.Models.Versioning.IChangesetSnapshot.ChangesetId
+  id: ChangesetId
+  parent: Vasont.Inspire.Models.Versioning.IChangesetSnapshot
+  langs:
+  - csharp
+  - vb
+  name: ChangesetId
+  nameWithType: IChangesetSnapshot.ChangesetId
+  fullName: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.ChangesetId
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/IChangesetSnapshot.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ChangesetId
+    path: Versioning/IChangesetSnapshot.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the associated changeset identity.\n"
+  example: []
+  syntax:
+    content: Guid ChangesetId { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Property ChangesetId As Guid
+  overload: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.ChangesetId*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Action
+  commentId: P:Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Action
+  id: Action
+  parent: Vasont.Inspire.Models.Versioning.IChangesetSnapshot
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: IChangesetSnapshot.Action
+  fullName: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Action
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/IChangesetSnapshot.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Action
+    path: Versioning/IChangesetSnapshot.cs
+    startLine: 22
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the action type to execute against the changeset action target.\n"
+  example: []
+  syntax:
+    content: ChangesetSnapshotActionType Action { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+    content.vb: Property Action As ChangesetSnapshotActionType
+  overload: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Action*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Restored
+  commentId: P:Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Restored
+  id: Restored
+  parent: Vasont.Inspire.Models.Versioning.IChangesetSnapshot
+  langs:
+  - csharp
+  - vb
+  name: Restored
+  nameWithType: IChangesetSnapshot.Restored
+  fullName: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Restored
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/IChangesetSnapshot.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Restored
+    path: Versioning/IChangesetSnapshot.cs
+    startLine: 27
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets a value indicating whether the history record was a restoral.\n"
+  example: []
+  syntax:
+    content: bool Restored { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Restored As Boolean
+  overload: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Restored*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: Vasont.Inspire.Models.Versioning
+  commentId: N:Vasont.Inspire.Models.Versioning
+  name: Vasont.Inspire.Models.Versioning
+  nameWithType: Vasont.Inspire.Models.Versioning
+  fullName: Vasont.Inspire.Models.Versioning
+- uid: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.ChangesetId*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.IChangesetSnapshot.ChangesetId
+  name: ChangesetId
+  nameWithType: IChangesetSnapshot.ChangesetId
+  fullName: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.ChangesetId
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Action*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Action
+  name: Action
+  nameWithType: IChangesetSnapshot.Action
+  fullName: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Action
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  commentId: T:Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  parent: Vasont.Inspire.Models.Versioning
+  name: ChangesetSnapshotActionType
+  nameWithType: ChangesetSnapshotActionType
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+- uid: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Restored*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Restored
+  name: Restored
+  nameWithType: IChangesetSnapshot.Restored
+  fullName: Vasont.Inspire.Models.Versioning.IChangesetSnapshot.Restored
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

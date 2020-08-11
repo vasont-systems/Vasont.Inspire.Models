@@ -1,0 +1,715 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions
+  commentId: T:Vasont.Inspire.Models.Security.PermissionExtensions
+  id: PermissionExtensions
+  parent: Vasont.Inspire.Models.Security
+  children:
+  - Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate(Vasont.Inspire.Models.Security.PermissionFlags)
+  - Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete(Vasont.Inspire.Models.Security.PermissionFlags)
+  - Vasont.Inspire.Models.Security.PermissionExtensions.CanRead(Vasont.Inspire.Models.Security.PermissionFlags)
+  - Vasont.Inspire.Models.Security.PermissionExtensions.CanRename(Vasont.Inspire.Models.Security.PermissionFlags)
+  - Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+  - Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate(Vasont.Inspire.Models.Security.PermissionFlags)
+  - Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+  langs:
+  - csharp
+  - vb
+  name: PermissionExtensions
+  nameWithType: PermissionExtensions
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions
+  type: Class
+  source:
+    remote:
+      path: src/Security/PermissionExtensions.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PermissionExtensions
+    path: Security/PermissionExtensions.cs
+    startLine: 10
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nThis class contains extensions for the permissions flags enumeration.\n"
+  example: []
+  syntax:
+    content: public static class PermissionExtensions
+    content.vb: Public Module PermissionExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate(Vasont.Inspire.Models.Security.PermissionFlags)
+  commentId: M:Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate(Vasont.Inspire.Models.Security.PermissionFlags)
+  id: CanCreate(Vasont.Inspire.Models.Security.PermissionFlags)
+  isExtensionMethod: true
+  parent: Vasont.Inspire.Models.Security.PermissionExtensions
+  langs:
+  - csharp
+  - vb
+  name: CanCreate(PermissionFlags)
+  nameWithType: PermissionExtensions.CanCreate(PermissionFlags)
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate(Vasont.Inspire.Models.Security.PermissionFlags)
+  type: Method
+  source:
+    remote:
+      path: src/Security/PermissionExtensions.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CanCreate
+    path: Security/PermissionExtensions.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nDetermine if the permissions contains a Create permission.\n"
+  example: []
+  syntax:
+    content: public static bool CanCreate(this PermissionFlags permission)
+    parameters:
+    - id: permission
+      type: Vasont.Inspire.Models.Security.PermissionFlags
+      description: Contains the <xref href="Vasont.Inspire.Models.Security.PermissionFlags" data-throw-if-not-resolved="false"></xref> enumeration to evaluate.
+    return:
+      type: System.Boolean
+      description: Returns a value indicating whether the flags contains a Create permission.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CanCreate(permission As PermissionFlags) As Boolean
+  overload: Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanRead(Vasont.Inspire.Models.Security.PermissionFlags)
+  commentId: M:Vasont.Inspire.Models.Security.PermissionExtensions.CanRead(Vasont.Inspire.Models.Security.PermissionFlags)
+  id: CanRead(Vasont.Inspire.Models.Security.PermissionFlags)
+  isExtensionMethod: true
+  parent: Vasont.Inspire.Models.Security.PermissionExtensions
+  langs:
+  - csharp
+  - vb
+  name: CanRead(PermissionFlags)
+  nameWithType: PermissionExtensions.CanRead(PermissionFlags)
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanRead(Vasont.Inspire.Models.Security.PermissionFlags)
+  type: Method
+  source:
+    remote:
+      path: src/Security/PermissionExtensions.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CanRead
+    path: Security/PermissionExtensions.cs
+    startLine: 27
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nDetermine if the permissions contains a Read permission.\n"
+  example: []
+  syntax:
+    content: public static bool CanRead(this PermissionFlags permission)
+    parameters:
+    - id: permission
+      type: Vasont.Inspire.Models.Security.PermissionFlags
+      description: Contains the <xref href="Vasont.Inspire.Models.Security.PermissionFlags" data-throw-if-not-resolved="false"></xref> enumeration to evaluate.
+    return:
+      type: System.Boolean
+      description: Returns a value indicating whether the flags contains a Read permission.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CanRead(permission As PermissionFlags) As Boolean
+  overload: Vasont.Inspire.Models.Security.PermissionExtensions.CanRead*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate(Vasont.Inspire.Models.Security.PermissionFlags)
+  commentId: M:Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate(Vasont.Inspire.Models.Security.PermissionFlags)
+  id: CanUpdate(Vasont.Inspire.Models.Security.PermissionFlags)
+  isExtensionMethod: true
+  parent: Vasont.Inspire.Models.Security.PermissionExtensions
+  langs:
+  - csharp
+  - vb
+  name: CanUpdate(PermissionFlags)
+  nameWithType: PermissionExtensions.CanUpdate(PermissionFlags)
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate(Vasont.Inspire.Models.Security.PermissionFlags)
+  type: Method
+  source:
+    remote:
+      path: src/Security/PermissionExtensions.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CanUpdate
+    path: Security/PermissionExtensions.cs
+    startLine: 37
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nDetermine if the permissions contains a Update permission.\n"
+  example: []
+  syntax:
+    content: public static bool CanUpdate(this PermissionFlags permission)
+    parameters:
+    - id: permission
+      type: Vasont.Inspire.Models.Security.PermissionFlags
+      description: Contains the <xref href="Vasont.Inspire.Models.Security.PermissionFlags" data-throw-if-not-resolved="false"></xref> enumeration to evaluate.
+    return:
+      type: System.Boolean
+      description: Returns a value indicating whether the flags contains a Update permission.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CanUpdate(permission As PermissionFlags) As Boolean
+  overload: Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete(Vasont.Inspire.Models.Security.PermissionFlags)
+  commentId: M:Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete(Vasont.Inspire.Models.Security.PermissionFlags)
+  id: CanDelete(Vasont.Inspire.Models.Security.PermissionFlags)
+  isExtensionMethod: true
+  parent: Vasont.Inspire.Models.Security.PermissionExtensions
+  langs:
+  - csharp
+  - vb
+  name: CanDelete(PermissionFlags)
+  nameWithType: PermissionExtensions.CanDelete(PermissionFlags)
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete(Vasont.Inspire.Models.Security.PermissionFlags)
+  type: Method
+  source:
+    remote:
+      path: src/Security/PermissionExtensions.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CanDelete
+    path: Security/PermissionExtensions.cs
+    startLine: 47
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nDetermine if the permissions contains a Delete permission.\n"
+  example: []
+  syntax:
+    content: public static bool CanDelete(this PermissionFlags permission)
+    parameters:
+    - id: permission
+      type: Vasont.Inspire.Models.Security.PermissionFlags
+      description: Contains the <xref href="Vasont.Inspire.Models.Security.PermissionFlags" data-throw-if-not-resolved="false"></xref> enumeration to evaluate.
+    return:
+      type: System.Boolean
+      description: Returns a value indicating whether the flags contains a Delete permission.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CanDelete(permission As PermissionFlags) As Boolean
+  overload: Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+  commentId: M:Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+  id: CanSetPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+  isExtensionMethod: true
+  parent: Vasont.Inspire.Models.Security.PermissionExtensions
+  langs:
+  - csharp
+  - vb
+  name: CanSetPermissions(PermissionFlags)
+  nameWithType: PermissionExtensions.CanSetPermissions(PermissionFlags)
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+  type: Method
+  source:
+    remote:
+      path: src/Security/PermissionExtensions.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CanSetPermissions
+    path: Security/PermissionExtensions.cs
+    startLine: 57
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nDetermine if the permissions contains a SetPermissions permission.\n"
+  example: []
+  syntax:
+    content: public static bool CanSetPermissions(this PermissionFlags permission)
+    parameters:
+    - id: permission
+      type: Vasont.Inspire.Models.Security.PermissionFlags
+      description: Contains the <xref href="Vasont.Inspire.Models.Security.PermissionFlags" data-throw-if-not-resolved="false"></xref> enumeration to evaluate.
+    return:
+      type: System.Boolean
+      description: Returns a value indicating whether the flags contains a SetPermissions permission.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CanSetPermissions(permission As PermissionFlags) As Boolean
+  overload: Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanRename(Vasont.Inspire.Models.Security.PermissionFlags)
+  commentId: M:Vasont.Inspire.Models.Security.PermissionExtensions.CanRename(Vasont.Inspire.Models.Security.PermissionFlags)
+  id: CanRename(Vasont.Inspire.Models.Security.PermissionFlags)
+  isExtensionMethod: true
+  parent: Vasont.Inspire.Models.Security.PermissionExtensions
+  langs:
+  - csharp
+  - vb
+  name: CanRename(PermissionFlags)
+  nameWithType: PermissionExtensions.CanRename(PermissionFlags)
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanRename(Vasont.Inspire.Models.Security.PermissionFlags)
+  type: Method
+  source:
+    remote:
+      path: src/Security/PermissionExtensions.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CanRename
+    path: Security/PermissionExtensions.cs
+    startLine: 67
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nDetermine if the permissions contains a Rename permission.\n"
+  example: []
+  syntax:
+    content: public static bool CanRename(this PermissionFlags permission)
+    parameters:
+    - id: permission
+      type: Vasont.Inspire.Models.Security.PermissionFlags
+      description: Contains the <xref href="Vasont.Inspire.Models.Security.PermissionFlags" data-throw-if-not-resolved="false"></xref> enumeration to evaluate.
+    return:
+      type: System.Boolean
+      description: Returns a value indicating whether the flags contains a Rename permission.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CanRename(permission As PermissionFlags) As Boolean
+  overload: Vasont.Inspire.Models.Security.PermissionExtensions.CanRename*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+  commentId: M:Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+  id: HasAllPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+  isExtensionMethod: true
+  parent: Vasont.Inspire.Models.Security.PermissionExtensions
+  langs:
+  - csharp
+  - vb
+  name: HasAllPermissions(PermissionFlags)
+  nameWithType: PermissionExtensions.HasAllPermissions(PermissionFlags)
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+  type: Method
+  source:
+    remote:
+      path: src/Security/PermissionExtensions.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: HasAllPermissions
+    path: Security/PermissionExtensions.cs
+    startLine: 77
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nDetermine if the permissions contains all permissions.\n"
+  example: []
+  syntax:
+    content: public static bool HasAllPermissions(this PermissionFlags permission)
+    parameters:
+    - id: permission
+      type: Vasont.Inspire.Models.Security.PermissionFlags
+      description: Contains the <xref href="Vasont.Inspire.Models.Security.PermissionFlags" data-throw-if-not-resolved="false"></xref> enumeration to evaluate.
+    return:
+      type: System.Boolean
+      description: Returns a value indicating whether the flags contains all permissions.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HasAllPermissions(permission As PermissionFlags) As Boolean
+  overload: Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Vasont.Inspire.Models.Security
+  commentId: N:Vasont.Inspire.Models.Security
+  name: Vasont.Inspire.Models.Security
+  nameWithType: Vasont.Inspire.Models.Security
+  fullName: Vasont.Inspire.Models.Security
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Security.PermissionFlags
+  commentId: T:Vasont.Inspire.Models.Security.PermissionFlags
+  parent: Vasont.Inspire.Models.Security
+  name: PermissionFlags
+  nameWithType: PermissionFlags
+  fullName: Vasont.Inspire.Models.Security.PermissionFlags
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate*
+  commentId: Overload:Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate
+  name: CanCreate
+  nameWithType: PermissionExtensions.CanCreate
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanRead*
+  commentId: Overload:Vasont.Inspire.Models.Security.PermissionExtensions.CanRead
+  name: CanRead
+  nameWithType: PermissionExtensions.CanRead
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanRead
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate*
+  commentId: Overload:Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate
+  name: CanUpdate
+  nameWithType: PermissionExtensions.CanUpdate
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete*
+  commentId: Overload:Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete
+  name: CanDelete
+  nameWithType: PermissionExtensions.CanDelete
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions*
+  commentId: Overload:Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions
+  name: CanSetPermissions
+  nameWithType: PermissionExtensions.CanSetPermissions
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanRename*
+  commentId: Overload:Vasont.Inspire.Models.Security.PermissionExtensions.CanRename
+  name: CanRename
+  nameWithType: PermissionExtensions.CanRename
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanRename
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions*
+  commentId: Overload:Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions
+  name: HasAllPermissions
+  nameWithType: PermissionExtensions.HasAllPermissions
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions

@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Workflow.WorkflowType
+  commentId: T:Vasont.Inspire.Models.Workflow.WorkflowType
+  id: WorkflowType
+  parent: Vasont.Inspire.Models.Workflow
+  children:
+  - Vasont.Inspire.Models.Workflow.WorkflowType.Project
+  - Vasont.Inspire.Models.Workflow.WorkflowType.Review
+  langs:
+  - csharp
+  - vb
+  name: WorkflowType
+  nameWithType: WorkflowType
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowType
+  type: Enum
+  source:
+    remote:
+      path: src/Workflow/WorkflowModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: WorkflowType
+    path: Workflow/WorkflowModel.cs
+    startLine: 38
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nContains an enumerated list of workflow types.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum WorkflowType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum WorkflowType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Workflow.WorkflowType.Project
+  commentId: F:Vasont.Inspire.Models.Workflow.WorkflowType.Project
+  id: Project
+  parent: Vasont.Inspire.Models.Workflow.WorkflowType
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: WorkflowType.Project
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowType.Project
+  type: Field
+  source:
+    remote:
+      path: src/Workflow/WorkflowModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Project
+    path: Workflow/WorkflowModel.cs
+    startLine: 44
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nThe workflow is related to project assignments.\n"
+  example: []
+  syntax:
+    content: Project = 0
+    return:
+      type: Vasont.Inspire.Models.Workflow.WorkflowType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Workflow.WorkflowType.Review
+  commentId: F:Vasont.Inspire.Models.Workflow.WorkflowType.Review
+  id: Review
+  parent: Vasont.Inspire.Models.Workflow.WorkflowType
+  langs:
+  - csharp
+  - vb
+  name: Review
+  nameWithType: WorkflowType.Review
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowType.Review
+  type: Field
+  source:
+    remote:
+      path: src/Workflow/WorkflowModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Review
+    path: Workflow/WorkflowModel.cs
+    startLine: 49
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nThe workflow is related to a review.\n"
+  example: []
+  syntax:
+    content: Review = 1
+    return:
+      type: Vasont.Inspire.Models.Workflow.WorkflowType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Workflow
+  commentId: N:Vasont.Inspire.Models.Workflow
+  name: Vasont.Inspire.Models.Workflow
+  nameWithType: Vasont.Inspire.Models.Workflow
+  fullName: Vasont.Inspire.Models.Workflow
+- uid: Vasont.Inspire.Models.Workflow.WorkflowType
+  commentId: T:Vasont.Inspire.Models.Workflow.WorkflowType
+  parent: Vasont.Inspire.Models.Workflow
+  name: WorkflowType
+  nameWithType: WorkflowType
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowType

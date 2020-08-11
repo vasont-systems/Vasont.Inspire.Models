@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.ProfileFilters
+  commentId: N:Vasont.Inspire.Models.ProfileFilters
+  id: Vasont.Inspire.Models.ProfileFilters
+  children:
+  - Vasont.Inspire.Models.ProfileFilters.MinimalProfileFilterModel
+  - Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel
+  - Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel
+  langs:
+  - csharp
+  - vb
+  name: Vasont.Inspire.Models.ProfileFilters
+  nameWithType: Vasont.Inspire.Models.ProfileFilters
+  fullName: Vasont.Inspire.Models.ProfileFilters
+  type: Namespace
+  assemblies:
+  - Vasont.Inspire.Models
+references:
+- uid: Vasont.Inspire.Models.ProfileFilters.MinimalProfileFilterModel
+  commentId: T:Vasont.Inspire.Models.ProfileFilters.MinimalProfileFilterModel
+  name: MinimalProfileFilterModel
+  nameWithType: MinimalProfileFilterModel
+  fullName: Vasont.Inspire.Models.ProfileFilters.MinimalProfileFilterModel
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel
+  commentId: T:Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel
+  name: ProfileFilterAttributeModel
+  nameWithType: ProfileFilterAttributeModel
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterAttributeModel
+- uid: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel
+  commentId: T:Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel
+  name: ProfileFilterModel
+  nameWithType: ProfileFilterModel
+  fullName: Vasont.Inspire.Models.ProfileFilters.ProfileFilterModel

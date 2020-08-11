@@ -1,0 +1,968 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
+  commentId: T:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
+  id: ChangesetSnapshotModel
+  parent: Vasont.Inspire.Models.Versioning
+  children:
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor(Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType,System.Boolean)
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Action
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ChangesetId
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ComponentProperties
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.FolderProperties
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Id
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Name
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ParentFolder
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.PropertyProperties
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Restored
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.SnapshotType
+  langs:
+  - csharp
+  - vb
+  name: ChangesetSnapshotModel
+  nameWithType: ChangesetSnapshotModel
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
+  type: Class
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ChangesetSnapshotModel
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 87
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nThis model represents an individual changeset snapshot target within an overall history changeset.\n"
+  example: []
+  syntax:
+    content: 'public class ChangesetSnapshotModel : MicroCreatedUpdaterModelBase'
+    content.vb: >-
+      Public Class ChangesetSnapshotModel
+          Inherits MicroCreatedUpdaterModelBase
+  inheritance:
+  - System.Object
+  - Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase
+  inheritedMembers:
+  - Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.CreatedDate
+  - Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.CreatedBy
+  - Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.UpdatedDate
+  - Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.UpdatedBy
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor
+  commentId: M:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor
+  id: '#ctor'
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
+  langs:
+  - csharp
+  - vb
+  name: ChangesetSnapshotModel()
+  nameWithType: ChangesetSnapshotModel.ChangesetSnapshotModel()
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ChangesetSnapshotModel()
+  type: Constructor
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: .ctor
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 94
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nInitializes a new instance of the <xref href=\"Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public ChangesetSnapshotModel()
+    content.vb: Public Sub New
+  overload: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor(Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType,System.Boolean)
+  commentId: M:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor(Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType,System.Boolean)
+  id: '#ctor(Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType,System.Boolean)'
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
+  langs:
+  - csharp
+  - vb
+  name: ChangesetSnapshotModel(ChangesetSnapshotActionType, Boolean)
+  nameWithType: ChangesetSnapshotModel.ChangesetSnapshotModel(ChangesetSnapshotActionType, Boolean)
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ChangesetSnapshotModel(Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType, System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: .ctor
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 104
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nInitializes a new instance of the <xref href=\"Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public ChangesetSnapshotModel(ChangesetSnapshotActionType actionType, bool restored = false)
+    parameters:
+    - id: actionType
+      type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+      description: Contains the action on the target model.
+    - id: restored
+      type: System.Boolean
+      description: Contains a value indicating whether the snapshot action was a restoral of a previous history record.
+    content.vb: Public Sub New(actionType As ChangesetSnapshotActionType, restored As Boolean = False)
+  overload: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Action
+  commentId: P:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Action
+  id: Action
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: ChangesetSnapshotModel.Action
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Action
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Action
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 117
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the action type to execute against the changeset action target.\n"
+  example: []
+  syntax:
+    content: public ChangesetSnapshotActionType Action { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+    content.vb: Public Property Action As ChangesetSnapshotActionType
+  overload: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Action*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.SnapshotType
+  commentId: P:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.SnapshotType
+  id: SnapshotType
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
+  langs:
+  - csharp
+  - vb
+  name: SnapshotType
+  nameWithType: ChangesetSnapshotModel.SnapshotType
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.SnapshotType
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SnapshotType
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 122
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the target type of the changeset snapshot type.\n"
+  example: []
+  syntax:
+    content: public ChangesetSnapshotType SnapshotType { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType
+    content.vb: Public Property SnapshotType As ChangesetSnapshotType
+  overload: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.SnapshotType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Id
+  commentId: P:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Id
+  id: Id
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ChangesetSnapshotModel.Id
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Id
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Id
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 127
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the identity of the changeset target object.\n"
+  example: []
+  syntax:
+    content: public long Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Id As Long
+  overload: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ChangesetId
+  commentId: P:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ChangesetId
+  id: ChangesetId
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
+  langs:
+  - csharp
+  - vb
+  name: ChangesetId
+  nameWithType: ChangesetSnapshotModel.ChangesetId
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ChangesetId
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ChangesetId
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 132
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the related changeset identity.\n"
+  example: []
+  syntax:
+    content: public Guid ChangesetId { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property ChangesetId As Guid
+  overload: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ChangesetId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Name
+  commentId: P:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Name
+  id: Name
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ChangesetSnapshotModel.Name
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Name
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Name
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 137
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the name of the snapshot.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ParentFolder
+  commentId: P:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ParentFolder
+  id: ParentFolder
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
+  langs:
+  - csharp
+  - vb
+  name: ParentFolder
+  nameWithType: ChangesetSnapshotModel.ParentFolder
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ParentFolder
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ParentFolder
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 142
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the parent folder model.\n"
+  example: []
+  syntax:
+    content: public MinimalFolderModel ParentFolder { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Components.MinimalFolderModel
+    content.vb: Public Property ParentFolder As MinimalFolderModel
+  overload: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ParentFolder*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Restored
+  commentId: P:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Restored
+  id: Restored
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
+  langs:
+  - csharp
+  - vb
+  name: Restored
+  nameWithType: ChangesetSnapshotModel.Restored
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Restored
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Restored
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 147
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets a value indicating whether this snapshot was a restoral from a previous history record.\n"
+  example: []
+  syntax:
+    content: public bool Restored { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Restored As Boolean
+  overload: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Restored*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ComponentProperties
+  commentId: P:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ComponentProperties
+  id: ComponentProperties
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
+  langs:
+  - csharp
+  - vb
+  name: ComponentProperties
+  nameWithType: ChangesetSnapshotModel.ComponentProperties
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ComponentProperties
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentProperties
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 156
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the component specific properties for the changeset target model.\n"
+  example: []
+  syntax:
+    content: public ComponentSnapshotExtendedProperties ComponentProperties { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties
+    content.vb: Public Property ComponentProperties As ComponentSnapshotExtendedProperties
+  overload: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ComponentProperties*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.FolderProperties
+  commentId: P:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.FolderProperties
+  id: FolderProperties
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
+  langs:
+  - csharp
+  - vb
+  name: FolderProperties
+  nameWithType: ChangesetSnapshotModel.FolderProperties
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.FolderProperties
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FolderProperties
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 161
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the folder specific properties for the changeset target model.\n"
+  example: []
+  syntax:
+    content: public FolderSnapshotExtendedProperties FolderProperties { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties
+    content.vb: Public Property FolderProperties As FolderSnapshotExtendedProperties
+  overload: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.FolderProperties*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.PropertyProperties
+  commentId: P:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.PropertyProperties
+  id: PropertyProperties
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
+  langs:
+  - csharp
+  - vb
+  name: PropertyProperties
+  nameWithType: ChangesetSnapshotModel.PropertyProperties
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.PropertyProperties
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PropertyProperties
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 166
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the component property specific properties for the changeset target model.\n"
+  example: []
+  syntax:
+    content: public PropertySnapshotExtendedProperties PropertyProperties { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Versioning.PropertySnapshotExtendedProperties
+    content.vb: Public Property PropertyProperties As PropertySnapshotExtendedProperties
+  overload: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.PropertyProperties*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Versioning
+  commentId: N:Vasont.Inspire.Models.Versioning
+  name: Vasont.Inspire.Models.Versioning
+  nameWithType: Vasont.Inspire.Models.Versioning
+  fullName: Vasont.Inspire.Models.Versioning
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase
+  commentId: T:Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase
+  parent: Vasont.Inspire.Models.Common
+  name: MicroCreatedUpdaterModelBase
+  nameWithType: MicroCreatedUpdaterModelBase
+  fullName: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase
+- uid: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.CreatedDate
+  commentId: P:Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.CreatedDate
+  parent: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase
+  name: CreatedDate
+  nameWithType: MicroCreatedUpdaterModelBase.CreatedDate
+  fullName: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.CreatedDate
+- uid: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.CreatedBy
+  commentId: P:Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.CreatedBy
+  parent: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase
+  name: CreatedBy
+  nameWithType: MicroCreatedUpdaterModelBase.CreatedBy
+  fullName: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.CreatedBy
+- uid: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.UpdatedDate
+  commentId: P:Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.UpdatedDate
+  parent: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase
+  name: UpdatedDate
+  nameWithType: MicroCreatedUpdaterModelBase.UpdatedDate
+  fullName: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.UpdatedDate
+- uid: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.UpdatedBy
+  commentId: P:Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.UpdatedBy
+  parent: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase
+  name: UpdatedBy
+  nameWithType: MicroCreatedUpdaterModelBase.UpdatedBy
+  fullName: Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase.UpdatedBy
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Common
+  commentId: N:Vasont.Inspire.Models.Common
+  name: Vasont.Inspire.Models.Common
+  nameWithType: Vasont.Inspire.Models.Common
+  fullName: Vasont.Inspire.Models.Common
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
+  commentId: T:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
+  name: ChangesetSnapshotModel
+  nameWithType: ChangesetSnapshotModel
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor
+  name: ChangesetSnapshotModel
+  nameWithType: ChangesetSnapshotModel.ChangesetSnapshotModel
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ChangesetSnapshotModel
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  commentId: T:Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  parent: Vasont.Inspire.Models.Versioning
+  name: ChangesetSnapshotActionType
+  nameWithType: ChangesetSnapshotActionType
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Action*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Action
+  name: Action
+  nameWithType: ChangesetSnapshotModel.Action
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Action
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.SnapshotType*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.SnapshotType
+  name: SnapshotType
+  nameWithType: ChangesetSnapshotModel.SnapshotType
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.SnapshotType
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType
+  commentId: T:Vasont.Inspire.Models.Versioning.ChangesetSnapshotType
+  parent: Vasont.Inspire.Models.Versioning
+  name: ChangesetSnapshotType
+  nameWithType: ChangesetSnapshotType
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Id*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Id
+  name: Id
+  nameWithType: ChangesetSnapshotModel.Id
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Id
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ChangesetId*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ChangesetId
+  name: ChangesetId
+  nameWithType: ChangesetSnapshotModel.ChangesetId
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ChangesetId
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Name*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Name
+  name: Name
+  nameWithType: ChangesetSnapshotModel.Name
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ParentFolder*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ParentFolder
+  name: ParentFolder
+  nameWithType: ChangesetSnapshotModel.ParentFolder
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ParentFolder
+- uid: Vasont.Inspire.Models.Components.MinimalFolderModel
+  commentId: T:Vasont.Inspire.Models.Components.MinimalFolderModel
+  parent: Vasont.Inspire.Models.Components
+  name: MinimalFolderModel
+  nameWithType: MinimalFolderModel
+  fullName: Vasont.Inspire.Models.Components.MinimalFolderModel
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Restored*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Restored
+  name: Restored
+  nameWithType: ChangesetSnapshotModel.Restored
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Restored
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ComponentProperties*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ComponentProperties
+  name: ComponentProperties
+  nameWithType: ChangesetSnapshotModel.ComponentProperties
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ComponentProperties
+- uid: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties
+  commentId: T:Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties
+  parent: Vasont.Inspire.Models.Versioning
+  name: ComponentSnapshotExtendedProperties
+  nameWithType: ComponentSnapshotExtendedProperties
+  fullName: Vasont.Inspire.Models.Versioning.ComponentSnapshotExtendedProperties
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.FolderProperties*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.FolderProperties
+  name: FolderProperties
+  nameWithType: ChangesetSnapshotModel.FolderProperties
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.FolderProperties
+- uid: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties
+  commentId: T:Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties
+  parent: Vasont.Inspire.Models.Versioning
+  name: FolderSnapshotExtendedProperties
+  nameWithType: FolderSnapshotExtendedProperties
+  fullName: Vasont.Inspire.Models.Versioning.FolderSnapshotExtendedProperties
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.PropertyProperties*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.PropertyProperties
+  name: PropertyProperties
+  nameWithType: ChangesetSnapshotModel.PropertyProperties
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.PropertyProperties
+- uid: Vasont.Inspire.Models.Versioning.PropertySnapshotExtendedProperties
+  commentId: T:Vasont.Inspire.Models.Versioning.PropertySnapshotExtendedProperties
+  parent: Vasont.Inspire.Models.Versioning
+  name: PropertySnapshotExtendedProperties
+  nameWithType: PropertySnapshotExtendedProperties
+  fullName: Vasont.Inspire.Models.Versioning.PropertySnapshotExtendedProperties

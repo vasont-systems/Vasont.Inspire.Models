@@ -1,0 +1,744 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreModel
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationStoreModel
+  id: NotificationStoreModel
+  parent: Vasont.Inspire.Models.Notifications
+  children:
+  - Vasont.Inspire.Models.Notifications.NotificationStoreModel.Alert
+  - Vasont.Inspire.Models.Notifications.NotificationStoreModel.Message
+  - Vasont.Inspire.Models.Notifications.NotificationStoreModel.NotificationDate
+  - Vasont.Inspire.Models.Notifications.NotificationStoreModel.NotificationId
+  - Vasont.Inspire.Models.Notifications.NotificationStoreModel.State
+  - Vasont.Inspire.Models.Notifications.NotificationStoreModel.Target
+  - Vasont.Inspire.Models.Notifications.NotificationStoreModel.Type
+  - Vasont.Inspire.Models.Notifications.NotificationStoreModel.UserId
+  langs:
+  - csharp
+  - vb
+  name: NotificationStoreModel
+  nameWithType: NotificationStoreModel
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreModel
+  type: Class
+  source:
+    remote:
+      path: src/Notifications/NotificationStoreModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: NotificationStoreModel
+    path: Notifications/NotificationStoreModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nThis model represents a notification alert that has been stored in the user&apos;s store for load on UI/Profile startup.\n"
+  example: []
+  syntax:
+    content: public class NotificationStoreModel
+    content.vb: Public Class NotificationStoreModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreModel.NotificationId
+  commentId: P:Vasont.Inspire.Models.Notifications.NotificationStoreModel.NotificationId
+  id: NotificationId
+  parent: Vasont.Inspire.Models.Notifications.NotificationStoreModel
+  langs:
+  - csharp
+  - vb
+  name: NotificationId
+  nameWithType: NotificationStoreModel.NotificationId
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreModel.NotificationId
+  type: Property
+  source:
+    remote:
+      path: src/Notifications/NotificationStoreModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: NotificationId
+    path: Notifications/NotificationStoreModel.cs
+    startLine: 18
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nGets or sets the Notification identity.\n"
+  example: []
+  syntax:
+    content: public Guid NotificationId { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property NotificationId As Guid
+  overload: Vasont.Inspire.Models.Notifications.NotificationStoreModel.NotificationId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreModel.UserId
+  commentId: P:Vasont.Inspire.Models.Notifications.NotificationStoreModel.UserId
+  id: UserId
+  parent: Vasont.Inspire.Models.Notifications.NotificationStoreModel
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: NotificationStoreModel.UserId
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreModel.UserId
+  type: Property
+  source:
+    remote:
+      path: src/Notifications/NotificationStoreModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UserId
+    path: Notifications/NotificationStoreModel.cs
+    startLine: 23
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nGets or sets the user identity.\n"
+  example: []
+  syntax:
+    content: public long UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property UserId As Long
+  overload: Vasont.Inspire.Models.Notifications.NotificationStoreModel.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreModel.NotificationDate
+  commentId: P:Vasont.Inspire.Models.Notifications.NotificationStoreModel.NotificationDate
+  id: NotificationDate
+  parent: Vasont.Inspire.Models.Notifications.NotificationStoreModel
+  langs:
+  - csharp
+  - vb
+  name: NotificationDate
+  nameWithType: NotificationStoreModel.NotificationDate
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreModel.NotificationDate
+  type: Property
+  source:
+    remote:
+      path: src/Notifications/NotificationStoreModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: NotificationDate
+    path: Notifications/NotificationStoreModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nGets or sets the notification date.\n"
+  example: []
+  syntax:
+    content: public DateTime NotificationDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property NotificationDate As Date
+  overload: Vasont.Inspire.Models.Notifications.NotificationStoreModel.NotificationDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreModel.Alert
+  commentId: P:Vasont.Inspire.Models.Notifications.NotificationStoreModel.Alert
+  id: Alert
+  parent: Vasont.Inspire.Models.Notifications.NotificationStoreModel
+  langs:
+  - csharp
+  - vb
+  name: Alert
+  nameWithType: NotificationStoreModel.Alert
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreModel.Alert
+  type: Property
+  source:
+    remote:
+      path: src/Notifications/NotificationStoreModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Alert
+    path: Notifications/NotificationStoreModel.cs
+    startLine: 33
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nGets or sets the alert state of the notification.\n"
+  example: []
+  syntax:
+    content: public NotificationMessageAlertStatus Alert { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+    content.vb: Public Property Alert As NotificationMessageAlertStatus
+  overload: Vasont.Inspire.Models.Notifications.NotificationStoreModel.Alert*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreModel.State
+  commentId: P:Vasont.Inspire.Models.Notifications.NotificationStoreModel.State
+  id: State
+  parent: Vasont.Inspire.Models.Notifications.NotificationStoreModel
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: NotificationStoreModel.State
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreModel.State
+  type: Property
+  source:
+    remote:
+      path: src/Notifications/NotificationStoreModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: State
+    path: Notifications/NotificationStoreModel.cs
+    startLine: 38
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nGets or sets the notification state.\n"
+  example: []
+  syntax:
+    content: public NotificationState State { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Notifications.NotificationState
+    content.vb: Public Property State As NotificationState
+  overload: Vasont.Inspire.Models.Notifications.NotificationStoreModel.State*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreModel.Target
+  commentId: P:Vasont.Inspire.Models.Notifications.NotificationStoreModel.Target
+  id: Target
+  parent: Vasont.Inspire.Models.Notifications.NotificationStoreModel
+  langs:
+  - csharp
+  - vb
+  name: Target
+  nameWithType: NotificationStoreModel.Target
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreModel.Target
+  type: Property
+  source:
+    remote:
+      path: src/Notifications/NotificationStoreModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Target
+    path: Notifications/NotificationStoreModel.cs
+    startLine: 43
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nGets or sets the target type.\n"
+  example: []
+  syntax:
+    content: public NotificationTarget Target { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Notifications.NotificationTarget
+    content.vb: Public Property Target As NotificationTarget
+  overload: Vasont.Inspire.Models.Notifications.NotificationStoreModel.Target*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreModel.Type
+  commentId: P:Vasont.Inspire.Models.Notifications.NotificationStoreModel.Type
+  id: Type
+  parent: Vasont.Inspire.Models.Notifications.NotificationStoreModel
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: NotificationStoreModel.Type
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreModel.Type
+  type: Property
+  source:
+    remote:
+      path: src/Notifications/NotificationStoreModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Type
+    path: Notifications/NotificationStoreModel.cs
+    startLine: 48
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nGets or sets the type of notification.\n"
+  example: []
+  syntax:
+    content: public NotificationType Type { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Notifications.NotificationType
+    content.vb: Public Property Type As NotificationType
+  overload: Vasont.Inspire.Models.Notifications.NotificationStoreModel.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreModel.Message
+  commentId: P:Vasont.Inspire.Models.Notifications.NotificationStoreModel.Message
+  id: Message
+  parent: Vasont.Inspire.Models.Notifications.NotificationStoreModel
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: NotificationStoreModel.Message
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreModel.Message
+  type: Property
+  source:
+    remote:
+      path: src/Notifications/NotificationStoreModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Message
+    path: Notifications/NotificationStoreModel.cs
+    startLine: 53
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nGets or sets the message model properties.\n"
+  example: []
+  syntax:
+    content: public NotificationMessageModel Message { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Notifications.Types.NotificationMessageModel
+    content.vb: Public Property Message As NotificationMessageModel
+  overload: Vasont.Inspire.Models.Notifications.NotificationStoreModel.Message*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Notifications
+  commentId: N:Vasont.Inspire.Models.Notifications
+  name: Vasont.Inspire.Models.Notifications
+  nameWithType: Vasont.Inspire.Models.Notifications
+  fullName: Vasont.Inspire.Models.Notifications
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreModel.NotificationId*
+  commentId: Overload:Vasont.Inspire.Models.Notifications.NotificationStoreModel.NotificationId
+  name: NotificationId
+  nameWithType: NotificationStoreModel.NotificationId
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreModel.NotificationId
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreModel.UserId*
+  commentId: Overload:Vasont.Inspire.Models.Notifications.NotificationStoreModel.UserId
+  name: UserId
+  nameWithType: NotificationStoreModel.UserId
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreModel.UserId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreModel.NotificationDate*
+  commentId: Overload:Vasont.Inspire.Models.Notifications.NotificationStoreModel.NotificationDate
+  name: NotificationDate
+  nameWithType: NotificationStoreModel.NotificationDate
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreModel.NotificationDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreModel.Alert*
+  commentId: Overload:Vasont.Inspire.Models.Notifications.NotificationStoreModel.Alert
+  name: Alert
+  nameWithType: NotificationStoreModel.Alert
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreModel.Alert
+- uid: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+  parent: Vasont.Inspire.Models.Notifications
+  name: NotificationMessageAlertStatus
+  nameWithType: NotificationMessageAlertStatus
+  fullName: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreModel.State*
+  commentId: Overload:Vasont.Inspire.Models.Notifications.NotificationStoreModel.State
+  name: State
+  nameWithType: NotificationStoreModel.State
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreModel.State
+- uid: Vasont.Inspire.Models.Notifications.NotificationState
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationState
+  parent: Vasont.Inspire.Models.Notifications
+  name: NotificationState
+  nameWithType: NotificationState
+  fullName: Vasont.Inspire.Models.Notifications.NotificationState
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreModel.Target*
+  commentId: Overload:Vasont.Inspire.Models.Notifications.NotificationStoreModel.Target
+  name: Target
+  nameWithType: NotificationStoreModel.Target
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreModel.Target
+- uid: Vasont.Inspire.Models.Notifications.NotificationTarget
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationTarget
+  parent: Vasont.Inspire.Models.Notifications
+  name: NotificationTarget
+  nameWithType: NotificationTarget
+  fullName: Vasont.Inspire.Models.Notifications.NotificationTarget
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreModel.Type*
+  commentId: Overload:Vasont.Inspire.Models.Notifications.NotificationStoreModel.Type
+  name: Type
+  nameWithType: NotificationStoreModel.Type
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreModel.Type
+- uid: Vasont.Inspire.Models.Notifications.NotificationType
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationType
+  parent: Vasont.Inspire.Models.Notifications
+  name: NotificationType
+  nameWithType: NotificationType
+  fullName: Vasont.Inspire.Models.Notifications.NotificationType
+- uid: Vasont.Inspire.Models.Notifications.NotificationStoreModel.Message*
+  commentId: Overload:Vasont.Inspire.Models.Notifications.NotificationStoreModel.Message
+  name: Message
+  nameWithType: NotificationStoreModel.Message
+  fullName: Vasont.Inspire.Models.Notifications.NotificationStoreModel.Message
+- uid: Vasont.Inspire.Models.Notifications.Types.NotificationMessageModel
+  commentId: T:Vasont.Inspire.Models.Notifications.Types.NotificationMessageModel
+  parent: Vasont.Inspire.Models.Notifications.Types
+  name: NotificationMessageModel
+  nameWithType: NotificationMessageModel
+  fullName: Vasont.Inspire.Models.Notifications.Types.NotificationMessageModel
+- uid: Vasont.Inspire.Models.Notifications.Types
+  commentId: N:Vasont.Inspire.Models.Notifications.Types
+  name: Vasont.Inspire.Models.Notifications.Types
+  nameWithType: Vasont.Inspire.Models.Notifications.Types
+  fullName: Vasont.Inspire.Models.Notifications.Types

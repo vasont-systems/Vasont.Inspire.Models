@@ -1,0 +1,270 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  commentId: T:Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  id: ChangesetSnapshotActionType
+  parent: Vasont.Inspire.Models.Versioning
+  children:
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Create
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Delete
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Move
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.OnDemand
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Update
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.UpdateWithContent
+  langs:
+  - csharp
+  - vb
+  name: ChangesetSnapshotActionType
+  nameWithType: ChangesetSnapshotActionType
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  type: Enum
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ChangesetSnapshotActionType
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nContains an enumerated list of available changeset snapshot action types.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum ChangesetSnapshotActionType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum ChangesetSnapshotActionType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Create
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Create
+  id: Create
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  langs:
+  - csharp
+  - vb
+  name: Create
+  nameWithType: ChangesetSnapshotActionType.Create
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Create
+  type: Field
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Create
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 23
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nCreate a target\n"
+  example: []
+  syntax:
+    content: Create = 0
+    return:
+      type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Update
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Update
+  id: Update
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  langs:
+  - csharp
+  - vb
+  name: Update
+  nameWithType: ChangesetSnapshotActionType.Update
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Update
+  type: Field
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Update
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 29
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nUpdate a target\n"
+  example: []
+  syntax:
+    content: Update = 1
+    return:
+      type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.UpdateWithContent
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.UpdateWithContent
+  id: UpdateWithContent
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  langs:
+  - csharp
+  - vb
+  name: UpdateWithContent
+  nameWithType: ChangesetSnapshotActionType.UpdateWithContent
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.UpdateWithContent
+  type: Field
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UpdateWithContent
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nUpdate a component target including content\n"
+  example: []
+  syntax:
+    content: UpdateWithContent = 2
+    return:
+      type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Delete
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Delete
+  id: Delete
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  langs:
+  - csharp
+  - vb
+  name: Delete
+  nameWithType: ChangesetSnapshotActionType.Delete
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Delete
+  type: Field
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Delete
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 41
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nDelete a target\n"
+  example: []
+  syntax:
+    content: Delete = 3
+    return:
+      type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Move
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Move
+  id: Move
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  langs:
+  - csharp
+  - vb
+  name: Move
+  nameWithType: ChangesetSnapshotActionType.Move
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Move
+  type: Field
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Move
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 47
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nMove a target\n"
+  example: []
+  syntax:
+    content: Move = 4
+    return:
+      type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.OnDemand
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.OnDemand
+  id: OnDemand
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  langs:
+  - csharp
+  - vb
+  name: OnDemand
+  nameWithType: ChangesetSnapshotActionType.OnDemand
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.OnDemand
+  type: Field
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: OnDemand
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 53
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nCreate a target on demand\n"
+  example: []
+  syntax:
+    content: OnDemand = 5
+    return:
+      type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Versioning
+  commentId: N:Vasont.Inspire.Models.Versioning
+  name: Vasont.Inspire.Models.Versioning
+  nameWithType: Vasont.Inspire.Models.Versioning
+  fullName: Vasont.Inspire.Models.Versioning
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  commentId: T:Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  parent: Vasont.Inspire.Models.Versioning
+  name: ChangesetSnapshotActionType
+  nameWithType: ChangesetSnapshotActionType
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType

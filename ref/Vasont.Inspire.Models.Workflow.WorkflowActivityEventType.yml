@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType
+  commentId: T:Vasont.Inspire.Models.Workflow.WorkflowActivityEventType
+  id: WorkflowActivityEventType
+  parent: Vasont.Inspire.Models.Workflow
+  children:
+  - Vasont.Inspire.Models.Workflow.WorkflowActivityEventType.Command
+  - Vasont.Inspire.Models.Workflow.WorkflowActivityEventType.EnterActivity
+  - Vasont.Inspire.Models.Workflow.WorkflowActivityEventType.ExitActivity
+  - Vasont.Inspire.Models.Workflow.WorkflowActivityEventType.Timer
+  langs:
+  - csharp
+  - vb
+  name: WorkflowActivityEventType
+  nameWithType: WorkflowActivityEventType
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType
+  type: Enum
+  source:
+    remote:
+      path: src/Workflow/WorkflowActivityEventModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: WorkflowActivityEventType
+    path: Workflow/WorkflowActivityEventModel.cs
+    startLine: 14
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nContains an enumerated list of workflow activity events.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum WorkflowActivityEventType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum WorkflowActivityEventType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType.EnterActivity
+  commentId: F:Vasont.Inspire.Models.Workflow.WorkflowActivityEventType.EnterActivity
+  id: EnterActivity
+  parent: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType
+  langs:
+  - csharp
+  - vb
+  name: EnterActivity
+  nameWithType: WorkflowActivityEventType.EnterActivity
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType.EnterActivity
+  type: Field
+  source:
+    remote:
+      path: src/Workflow/WorkflowActivityEventModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EnterActivity
+    path: Workflow/WorkflowActivityEventModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nThe Pre-activity execution event.\n"
+  example: []
+  syntax:
+    content: EnterActivity = 0
+    return:
+      type: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType.ExitActivity
+  commentId: F:Vasont.Inspire.Models.Workflow.WorkflowActivityEventType.ExitActivity
+  id: ExitActivity
+  parent: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType
+  langs:
+  - csharp
+  - vb
+  name: ExitActivity
+  nameWithType: WorkflowActivityEventType.ExitActivity
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType.ExitActivity
+  type: Field
+  source:
+    remote:
+      path: src/Workflow/WorkflowActivityEventModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ExitActivity
+    path: Workflow/WorkflowActivityEventModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nThe post-activity execution event.\n"
+  example: []
+  syntax:
+    content: ExitActivity = 1
+    return:
+      type: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType.Command
+  commentId: F:Vasont.Inspire.Models.Workflow.WorkflowActivityEventType.Command
+  id: Command
+  parent: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType
+  langs:
+  - csharp
+  - vb
+  name: Command
+  nameWithType: WorkflowActivityEventType.Command
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType.Command
+  type: Field
+  source:
+    remote:
+      path: src/Workflow/WorkflowActivityEventModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Command
+    path: Workflow/WorkflowActivityEventModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nThe event is related to a command.\n"
+  example: []
+  syntax:
+    content: Command = 2
+    return:
+      type: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType.Timer
+  commentId: F:Vasont.Inspire.Models.Workflow.WorkflowActivityEventType.Timer
+  id: Timer
+  parent: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType
+  langs:
+  - csharp
+  - vb
+  name: Timer
+  nameWithType: WorkflowActivityEventType.Timer
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType.Timer
+  type: Field
+  source:
+    remote:
+      path: src/Workflow/WorkflowActivityEventModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Timer
+    path: Workflow/WorkflowActivityEventModel.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nThe event is related to an activity timer event firing.\n"
+  example: []
+  syntax:
+    content: Timer = 3
+    return:
+      type: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Workflow
+  commentId: N:Vasont.Inspire.Models.Workflow
+  name: Vasont.Inspire.Models.Workflow
+  nameWithType: Vasont.Inspire.Models.Workflow
+  fullName: Vasont.Inspire.Models.Workflow
+- uid: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType
+  commentId: T:Vasont.Inspire.Models.Workflow.WorkflowActivityEventType
+  parent: Vasont.Inspire.Models.Workflow
+  name: WorkflowActivityEventType
+  nameWithType: WorkflowActivityEventType
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowActivityEventType

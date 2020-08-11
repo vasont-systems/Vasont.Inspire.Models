@@ -1,0 +1,800 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Security.PermissionFlags
+  commentId: T:Vasont.Inspire.Models.Security.PermissionFlags
+  id: PermissionFlags
+  parent: Vasont.Inspire.Models.Security
+  children:
+  - Vasont.Inspire.Models.Security.PermissionFlags.All
+  - Vasont.Inspire.Models.Security.PermissionFlags.Create
+  - Vasont.Inspire.Models.Security.PermissionFlags.Delete
+  - Vasont.Inspire.Models.Security.PermissionFlags.None
+  - Vasont.Inspire.Models.Security.PermissionFlags.Read
+  - Vasont.Inspire.Models.Security.PermissionFlags.Rename
+  - Vasont.Inspire.Models.Security.PermissionFlags.SetPermissions
+  - Vasont.Inspire.Models.Security.PermissionFlags.Update
+  langs:
+  - csharp
+  - vb
+  name: PermissionFlags
+  nameWithType: PermissionFlags
+  fullName: Vasont.Inspire.Models.Security.PermissionFlags
+  type: Enum
+  source:
+    remote:
+      path: src/Security/PermissionFlags.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PermissionFlags
+    path: Security/PermissionFlags.cs
+    startLine: 12
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nContains an enumerated list of permission flags.\n"
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum PermissionFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum PermissionFlags
+  extensionMethods:
+  - Vasont.Inspire.Models.Security.PermissionFlags.Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate
+  - Vasont.Inspire.Models.Security.PermissionFlags.Vasont.Inspire.Models.Security.PermissionExtensions.CanRead
+  - Vasont.Inspire.Models.Security.PermissionFlags.Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate
+  - Vasont.Inspire.Models.Security.PermissionFlags.Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete
+  - Vasont.Inspire.Models.Security.PermissionFlags.Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions
+  - Vasont.Inspire.Models.Security.PermissionFlags.Vasont.Inspire.Models.Security.PermissionExtensions.CanRename
+  - Vasont.Inspire.Models.Security.PermissionFlags.Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Security.PermissionFlags.None
+  commentId: F:Vasont.Inspire.Models.Security.PermissionFlags.None
+  id: None
+  parent: Vasont.Inspire.Models.Security.PermissionFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: PermissionFlags.None
+  fullName: Vasont.Inspire.Models.Security.PermissionFlags.None
+  type: Field
+  source:
+    remote:
+      path: src/Security/PermissionFlags.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: None
+    path: Security/PermissionFlags.cs
+    startLine: 18
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nNo permissions\n"
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Vasont.Inspire.Models.Security.PermissionFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Security.PermissionFlags.Read
+  commentId: F:Vasont.Inspire.Models.Security.PermissionFlags.Read
+  id: Read
+  parent: Vasont.Inspire.Models.Security.PermissionFlags
+  langs:
+  - csharp
+  - vb
+  name: Read
+  nameWithType: PermissionFlags.Read
+  fullName: Vasont.Inspire.Models.Security.PermissionFlags.Read
+  type: Field
+  source:
+    remote:
+      path: src/Security/PermissionFlags.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Read
+    path: Security/PermissionFlags.cs
+    startLine: 23
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nRead data permission.\n"
+  example: []
+  syntax:
+    content: Read = 1
+    return:
+      type: Vasont.Inspire.Models.Security.PermissionFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Security.PermissionFlags.Create
+  commentId: F:Vasont.Inspire.Models.Security.PermissionFlags.Create
+  id: Create
+  parent: Vasont.Inspire.Models.Security.PermissionFlags
+  langs:
+  - csharp
+  - vb
+  name: Create
+  nameWithType: PermissionFlags.Create
+  fullName: Vasont.Inspire.Models.Security.PermissionFlags.Create
+  type: Field
+  source:
+    remote:
+      path: src/Security/PermissionFlags.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Create
+    path: Security/PermissionFlags.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nCreate data permission.\n"
+  example: []
+  syntax:
+    content: Create = 2
+    return:
+      type: Vasont.Inspire.Models.Security.PermissionFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Security.PermissionFlags.Update
+  commentId: F:Vasont.Inspire.Models.Security.PermissionFlags.Update
+  id: Update
+  parent: Vasont.Inspire.Models.Security.PermissionFlags
+  langs:
+  - csharp
+  - vb
+  name: Update
+  nameWithType: PermissionFlags.Update
+  fullName: Vasont.Inspire.Models.Security.PermissionFlags.Update
+  type: Field
+  source:
+    remote:
+      path: src/Security/PermissionFlags.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Update
+    path: Security/PermissionFlags.cs
+    startLine: 33
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nUpdate data permission.\n"
+  example: []
+  syntax:
+    content: Update = 4
+    return:
+      type: Vasont.Inspire.Models.Security.PermissionFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Security.PermissionFlags.Delete
+  commentId: F:Vasont.Inspire.Models.Security.PermissionFlags.Delete
+  id: Delete
+  parent: Vasont.Inspire.Models.Security.PermissionFlags
+  langs:
+  - csharp
+  - vb
+  name: Delete
+  nameWithType: PermissionFlags.Delete
+  fullName: Vasont.Inspire.Models.Security.PermissionFlags.Delete
+  type: Field
+  source:
+    remote:
+      path: src/Security/PermissionFlags.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Delete
+    path: Security/PermissionFlags.cs
+    startLine: 38
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nDelete data permission.\n"
+  example: []
+  syntax:
+    content: Delete = 8
+    return:
+      type: Vasont.Inspire.Models.Security.PermissionFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Security.PermissionFlags.SetPermissions
+  commentId: F:Vasont.Inspire.Models.Security.PermissionFlags.SetPermissions
+  id: SetPermissions
+  parent: Vasont.Inspire.Models.Security.PermissionFlags
+  langs:
+  - csharp
+  - vb
+  name: SetPermissions
+  nameWithType: PermissionFlags.SetPermissions
+  fullName: Vasont.Inspire.Models.Security.PermissionFlags.SetPermissions
+  type: Field
+  source:
+    remote:
+      path: src/Security/PermissionFlags.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SetPermissions
+    path: Security/PermissionFlags.cs
+    startLine: 43
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nCan Set security data permission.\n"
+  example: []
+  syntax:
+    content: SetPermissions = 16
+    return:
+      type: Vasont.Inspire.Models.Security.PermissionFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Security.PermissionFlags.Rename
+  commentId: F:Vasont.Inspire.Models.Security.PermissionFlags.Rename
+  id: Rename
+  parent: Vasont.Inspire.Models.Security.PermissionFlags
+  langs:
+  - csharp
+  - vb
+  name: Rename
+  nameWithType: PermissionFlags.Rename
+  fullName: Vasont.Inspire.Models.Security.PermissionFlags.Rename
+  type: Field
+  source:
+    remote:
+      path: src/Security/PermissionFlags.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Rename
+    path: Security/PermissionFlags.cs
+    startLine: 48
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nHas rename data permission.\n"
+  example: []
+  syntax:
+    content: Rename = 32
+    return:
+      type: Vasont.Inspire.Models.Security.PermissionFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Security.PermissionFlags.All
+  commentId: F:Vasont.Inspire.Models.Security.PermissionFlags.All
+  id: All
+  parent: Vasont.Inspire.Models.Security.PermissionFlags
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: PermissionFlags.All
+  fullName: Vasont.Inspire.Models.Security.PermissionFlags.All
+  type: Field
+  source:
+    remote:
+      path: src/Security/PermissionFlags.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: All
+    path: Security/PermissionFlags.cs
+    startLine: 53
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nContains all permissions\n"
+  example: []
+  syntax:
+    content: All = 63
+    return:
+      type: Vasont.Inspire.Models.Security.PermissionFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Security
+  commentId: N:Vasont.Inspire.Models.Security
+  name: Vasont.Inspire.Models.Security
+  nameWithType: Vasont.Inspire.Models.Security
+  fullName: Vasont.Inspire.Models.Security
+- uid: Vasont.Inspire.Models.Security.PermissionFlags.Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate
+  commentId: M:Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate(Vasont.Inspire.Models.Security.PermissionFlags)
+  parent: Vasont.Inspire.Models.Security.PermissionExtensions
+  definition: Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate(Vasont.Inspire.Models.Security.PermissionFlags)
+  name: CanCreate()
+  nameWithType: PermissionExtensions.CanCreate()
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate()
+  spec.csharp:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate
+    name: CanCreate
+    nameWithType: PermissionExtensions.CanCreate
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate
+    name: CanCreate
+    nameWithType: PermissionExtensions.CanCreate
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Security.PermissionFlags.Vasont.Inspire.Models.Security.PermissionExtensions.CanRead
+  commentId: M:Vasont.Inspire.Models.Security.PermissionExtensions.CanRead(Vasont.Inspire.Models.Security.PermissionFlags)
+  parent: Vasont.Inspire.Models.Security.PermissionExtensions
+  definition: Vasont.Inspire.Models.Security.PermissionExtensions.CanRead(Vasont.Inspire.Models.Security.PermissionFlags)
+  name: CanRead()
+  nameWithType: PermissionExtensions.CanRead()
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanRead()
+  spec.csharp:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanRead
+    name: CanRead
+    nameWithType: PermissionExtensions.CanRead
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanRead
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanRead
+    name: CanRead
+    nameWithType: PermissionExtensions.CanRead
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanRead
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Security.PermissionFlags.Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate
+  commentId: M:Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate(Vasont.Inspire.Models.Security.PermissionFlags)
+  parent: Vasont.Inspire.Models.Security.PermissionExtensions
+  definition: Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate(Vasont.Inspire.Models.Security.PermissionFlags)
+  name: CanUpdate()
+  nameWithType: PermissionExtensions.CanUpdate()
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate()
+  spec.csharp:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate
+    name: CanUpdate
+    nameWithType: PermissionExtensions.CanUpdate
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate
+    name: CanUpdate
+    nameWithType: PermissionExtensions.CanUpdate
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Security.PermissionFlags.Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete
+  commentId: M:Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete(Vasont.Inspire.Models.Security.PermissionFlags)
+  parent: Vasont.Inspire.Models.Security.PermissionExtensions
+  definition: Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete(Vasont.Inspire.Models.Security.PermissionFlags)
+  name: CanDelete()
+  nameWithType: PermissionExtensions.CanDelete()
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete()
+  spec.csharp:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete
+    name: CanDelete
+    nameWithType: PermissionExtensions.CanDelete
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete
+    name: CanDelete
+    nameWithType: PermissionExtensions.CanDelete
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Security.PermissionFlags.Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions
+  commentId: M:Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+  parent: Vasont.Inspire.Models.Security.PermissionExtensions
+  definition: Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+  name: CanSetPermissions()
+  nameWithType: PermissionExtensions.CanSetPermissions()
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions()
+  spec.csharp:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions
+    name: CanSetPermissions
+    nameWithType: PermissionExtensions.CanSetPermissions
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions
+    name: CanSetPermissions
+    nameWithType: PermissionExtensions.CanSetPermissions
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Security.PermissionFlags.Vasont.Inspire.Models.Security.PermissionExtensions.CanRename
+  commentId: M:Vasont.Inspire.Models.Security.PermissionExtensions.CanRename(Vasont.Inspire.Models.Security.PermissionFlags)
+  parent: Vasont.Inspire.Models.Security.PermissionExtensions
+  definition: Vasont.Inspire.Models.Security.PermissionExtensions.CanRename(Vasont.Inspire.Models.Security.PermissionFlags)
+  name: CanRename()
+  nameWithType: PermissionExtensions.CanRename()
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanRename()
+  spec.csharp:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanRename
+    name: CanRename
+    nameWithType: PermissionExtensions.CanRename
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanRename
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanRename
+    name: CanRename
+    nameWithType: PermissionExtensions.CanRename
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanRename
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Security.PermissionFlags.Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions
+  commentId: M:Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+  parent: Vasont.Inspire.Models.Security.PermissionExtensions
+  definition: Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+  name: HasAllPermissions()
+  nameWithType: PermissionExtensions.HasAllPermissions()
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions()
+  spec.csharp:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions
+    name: HasAllPermissions
+    nameWithType: PermissionExtensions.HasAllPermissions
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions
+    name: HasAllPermissions
+    nameWithType: PermissionExtensions.HasAllPermissions
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate(Vasont.Inspire.Models.Security.PermissionFlags)
+  commentId: M:Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate(Vasont.Inspire.Models.Security.PermissionFlags)
+  name: CanCreate(PermissionFlags)
+  nameWithType: PermissionExtensions.CanCreate(PermissionFlags)
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate(Vasont.Inspire.Models.Security.PermissionFlags)
+  spec.csharp:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate(Vasont.Inspire.Models.Security.PermissionFlags)
+    name: CanCreate
+    nameWithType: PermissionExtensions.CanCreate
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vasont.Inspire.Models.Security.PermissionFlags
+    name: PermissionFlags
+    nameWithType: PermissionFlags
+    fullName: Vasont.Inspire.Models.Security.PermissionFlags
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate(Vasont.Inspire.Models.Security.PermissionFlags)
+    name: CanCreate
+    nameWithType: PermissionExtensions.CanCreate
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanCreate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vasont.Inspire.Models.Security.PermissionFlags
+    name: PermissionFlags
+    nameWithType: PermissionFlags
+    fullName: Vasont.Inspire.Models.Security.PermissionFlags
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions
+  commentId: T:Vasont.Inspire.Models.Security.PermissionExtensions
+  parent: Vasont.Inspire.Models.Security
+  name: PermissionExtensions
+  nameWithType: PermissionExtensions
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanRead(Vasont.Inspire.Models.Security.PermissionFlags)
+  commentId: M:Vasont.Inspire.Models.Security.PermissionExtensions.CanRead(Vasont.Inspire.Models.Security.PermissionFlags)
+  name: CanRead(PermissionFlags)
+  nameWithType: PermissionExtensions.CanRead(PermissionFlags)
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanRead(Vasont.Inspire.Models.Security.PermissionFlags)
+  spec.csharp:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanRead(Vasont.Inspire.Models.Security.PermissionFlags)
+    name: CanRead
+    nameWithType: PermissionExtensions.CanRead
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanRead
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vasont.Inspire.Models.Security.PermissionFlags
+    name: PermissionFlags
+    nameWithType: PermissionFlags
+    fullName: Vasont.Inspire.Models.Security.PermissionFlags
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanRead(Vasont.Inspire.Models.Security.PermissionFlags)
+    name: CanRead
+    nameWithType: PermissionExtensions.CanRead
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanRead
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vasont.Inspire.Models.Security.PermissionFlags
+    name: PermissionFlags
+    nameWithType: PermissionFlags
+    fullName: Vasont.Inspire.Models.Security.PermissionFlags
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate(Vasont.Inspire.Models.Security.PermissionFlags)
+  commentId: M:Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate(Vasont.Inspire.Models.Security.PermissionFlags)
+  name: CanUpdate(PermissionFlags)
+  nameWithType: PermissionExtensions.CanUpdate(PermissionFlags)
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate(Vasont.Inspire.Models.Security.PermissionFlags)
+  spec.csharp:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate(Vasont.Inspire.Models.Security.PermissionFlags)
+    name: CanUpdate
+    nameWithType: PermissionExtensions.CanUpdate
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vasont.Inspire.Models.Security.PermissionFlags
+    name: PermissionFlags
+    nameWithType: PermissionFlags
+    fullName: Vasont.Inspire.Models.Security.PermissionFlags
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate(Vasont.Inspire.Models.Security.PermissionFlags)
+    name: CanUpdate
+    nameWithType: PermissionExtensions.CanUpdate
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vasont.Inspire.Models.Security.PermissionFlags
+    name: PermissionFlags
+    nameWithType: PermissionFlags
+    fullName: Vasont.Inspire.Models.Security.PermissionFlags
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete(Vasont.Inspire.Models.Security.PermissionFlags)
+  commentId: M:Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete(Vasont.Inspire.Models.Security.PermissionFlags)
+  name: CanDelete(PermissionFlags)
+  nameWithType: PermissionExtensions.CanDelete(PermissionFlags)
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete(Vasont.Inspire.Models.Security.PermissionFlags)
+  spec.csharp:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete(Vasont.Inspire.Models.Security.PermissionFlags)
+    name: CanDelete
+    nameWithType: PermissionExtensions.CanDelete
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vasont.Inspire.Models.Security.PermissionFlags
+    name: PermissionFlags
+    nameWithType: PermissionFlags
+    fullName: Vasont.Inspire.Models.Security.PermissionFlags
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete(Vasont.Inspire.Models.Security.PermissionFlags)
+    name: CanDelete
+    nameWithType: PermissionExtensions.CanDelete
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanDelete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vasont.Inspire.Models.Security.PermissionFlags
+    name: PermissionFlags
+    nameWithType: PermissionFlags
+    fullName: Vasont.Inspire.Models.Security.PermissionFlags
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+  commentId: M:Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+  name: CanSetPermissions(PermissionFlags)
+  nameWithType: PermissionExtensions.CanSetPermissions(PermissionFlags)
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+  spec.csharp:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+    name: CanSetPermissions
+    nameWithType: PermissionExtensions.CanSetPermissions
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vasont.Inspire.Models.Security.PermissionFlags
+    name: PermissionFlags
+    nameWithType: PermissionFlags
+    fullName: Vasont.Inspire.Models.Security.PermissionFlags
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+    name: CanSetPermissions
+    nameWithType: PermissionExtensions.CanSetPermissions
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanSetPermissions
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vasont.Inspire.Models.Security.PermissionFlags
+    name: PermissionFlags
+    nameWithType: PermissionFlags
+    fullName: Vasont.Inspire.Models.Security.PermissionFlags
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanRename(Vasont.Inspire.Models.Security.PermissionFlags)
+  commentId: M:Vasont.Inspire.Models.Security.PermissionExtensions.CanRename(Vasont.Inspire.Models.Security.PermissionFlags)
+  name: CanRename(PermissionFlags)
+  nameWithType: PermissionExtensions.CanRename(PermissionFlags)
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanRename(Vasont.Inspire.Models.Security.PermissionFlags)
+  spec.csharp:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanRename(Vasont.Inspire.Models.Security.PermissionFlags)
+    name: CanRename
+    nameWithType: PermissionExtensions.CanRename
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanRename
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vasont.Inspire.Models.Security.PermissionFlags
+    name: PermissionFlags
+    nameWithType: PermissionFlags
+    fullName: Vasont.Inspire.Models.Security.PermissionFlags
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.CanRename(Vasont.Inspire.Models.Security.PermissionFlags)
+    name: CanRename
+    nameWithType: PermissionExtensions.CanRename
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.CanRename
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vasont.Inspire.Models.Security.PermissionFlags
+    name: PermissionFlags
+    nameWithType: PermissionFlags
+    fullName: Vasont.Inspire.Models.Security.PermissionFlags
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+  commentId: M:Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+  name: HasAllPermissions(PermissionFlags)
+  nameWithType: PermissionExtensions.HasAllPermissions(PermissionFlags)
+  fullName: Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+  spec.csharp:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+    name: HasAllPermissions
+    nameWithType: PermissionExtensions.HasAllPermissions
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vasont.Inspire.Models.Security.PermissionFlags
+    name: PermissionFlags
+    nameWithType: PermissionFlags
+    fullName: Vasont.Inspire.Models.Security.PermissionFlags
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions(Vasont.Inspire.Models.Security.PermissionFlags)
+    name: HasAllPermissions
+    nameWithType: PermissionExtensions.HasAllPermissions
+    fullName: Vasont.Inspire.Models.Security.PermissionExtensions.HasAllPermissions
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vasont.Inspire.Models.Security.PermissionFlags
+    name: PermissionFlags
+    nameWithType: PermissionFlags
+    fullName: Vasont.Inspire.Models.Security.PermissionFlags
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Security.PermissionFlags
+  commentId: T:Vasont.Inspire.Models.Security.PermissionFlags
+  parent: Vasont.Inspire.Models.Security
+  name: PermissionFlags
+  nameWithType: PermissionFlags
+  fullName: Vasont.Inspire.Models.Security.PermissionFlags

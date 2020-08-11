@@ -1,0 +1,375 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  commentId: T:Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  id: AssignmentNoticeType
+  parent: Vasont.Inspire.Models.Projects
+  children:
+  - Vasont.Inspire.Models.Projects.AssignmentNoticeType.CancelledAssignment
+  - Vasont.Inspire.Models.Projects.AssignmentNoticeType.CancelledChangeRequest
+  - Vasont.Inspire.Models.Projects.AssignmentNoticeType.CompletedAssignment
+  - Vasont.Inspire.Models.Projects.AssignmentNoticeType.CompletedChangeRequest
+  - Vasont.Inspire.Models.Projects.AssignmentNoticeType.CreatedAssignment
+  - Vasont.Inspire.Models.Projects.AssignmentNoticeType.CreatedChangeRequest
+  - Vasont.Inspire.Models.Projects.AssignmentNoticeType.DeletedAssignment
+  - Vasont.Inspire.Models.Projects.AssignmentNoticeType.NewAssignment
+  - Vasont.Inspire.Models.Projects.AssignmentNoticeType.Reassignment
+  langs:
+  - csharp
+  - vb
+  name: AssignmentNoticeType
+  nameWithType: AssignmentNoticeType
+  fullName: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  type: Enum
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentEmailTemplateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: AssignmentNoticeType
+    path: Projects/ProjectAssignmentEmailTemplateModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nContains an enumerated list of assignment notification types\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum AssignmentNoticeType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum AssignmentNoticeType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Projects.AssignmentNoticeType.NewAssignment
+  commentId: F:Vasont.Inspire.Models.Projects.AssignmentNoticeType.NewAssignment
+  id: NewAssignment
+  parent: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  langs:
+  - csharp
+  - vb
+  name: NewAssignment
+  nameWithType: AssignmentNoticeType.NewAssignment
+  fullName: Vasont.Inspire.Models.Projects.AssignmentNoticeType.NewAssignment
+  type: Field
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentEmailTemplateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: NewAssignment
+    path: Projects/ProjectAssignmentEmailTemplateModel.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nNew assignment notification.\n"
+  example: []
+  syntax:
+    content: NewAssignment = 0
+    return:
+      type: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Projects.AssignmentNoticeType.Reassignment
+  commentId: F:Vasont.Inspire.Models.Projects.AssignmentNoticeType.Reassignment
+  id: Reassignment
+  parent: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  langs:
+  - csharp
+  - vb
+  name: Reassignment
+  nameWithType: AssignmentNoticeType.Reassignment
+  fullName: Vasont.Inspire.Models.Projects.AssignmentNoticeType.Reassignment
+  type: Field
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentEmailTemplateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Reassignment
+    path: Projects/ProjectAssignmentEmailTemplateModel.cs
+    startLine: 24
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nReassignment notification.\n"
+  example: []
+  syntax:
+    content: Reassignment = 1
+    return:
+      type: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Projects.AssignmentNoticeType.DeletedAssignment
+  commentId: F:Vasont.Inspire.Models.Projects.AssignmentNoticeType.DeletedAssignment
+  id: DeletedAssignment
+  parent: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  langs:
+  - csharp
+  - vb
+  name: DeletedAssignment
+  nameWithType: AssignmentNoticeType.DeletedAssignment
+  fullName: Vasont.Inspire.Models.Projects.AssignmentNoticeType.DeletedAssignment
+  type: Field
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentEmailTemplateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DeletedAssignment
+    path: Projects/ProjectAssignmentEmailTemplateModel.cs
+    startLine: 29
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nDeleted assignment notification.\n"
+  example: []
+  syntax:
+    content: DeletedAssignment = 2
+    return:
+      type: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Projects.AssignmentNoticeType.CompletedAssignment
+  commentId: F:Vasont.Inspire.Models.Projects.AssignmentNoticeType.CompletedAssignment
+  id: CompletedAssignment
+  parent: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  langs:
+  - csharp
+  - vb
+  name: CompletedAssignment
+  nameWithType: AssignmentNoticeType.CompletedAssignment
+  fullName: Vasont.Inspire.Models.Projects.AssignmentNoticeType.CompletedAssignment
+  type: Field
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentEmailTemplateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CompletedAssignment
+    path: Projects/ProjectAssignmentEmailTemplateModel.cs
+    startLine: 34
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nCompleted assignment notification.\n"
+  example: []
+  syntax:
+    content: CompletedAssignment = 3
+    return:
+      type: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Projects.AssignmentNoticeType.CancelledAssignment
+  commentId: F:Vasont.Inspire.Models.Projects.AssignmentNoticeType.CancelledAssignment
+  id: CancelledAssignment
+  parent: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  langs:
+  - csharp
+  - vb
+  name: CancelledAssignment
+  nameWithType: AssignmentNoticeType.CancelledAssignment
+  fullName: Vasont.Inspire.Models.Projects.AssignmentNoticeType.CancelledAssignment
+  type: Field
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentEmailTemplateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CancelledAssignment
+    path: Projects/ProjectAssignmentEmailTemplateModel.cs
+    startLine: 39
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nCancelled assignment notification.\n"
+  example: []
+  syntax:
+    content: CancelledAssignment = 4
+    return:
+      type: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Projects.AssignmentNoticeType.CreatedAssignment
+  commentId: F:Vasont.Inspire.Models.Projects.AssignmentNoticeType.CreatedAssignment
+  id: CreatedAssignment
+  parent: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  langs:
+  - csharp
+  - vb
+  name: CreatedAssignment
+  nameWithType: AssignmentNoticeType.CreatedAssignment
+  fullName: Vasont.Inspire.Models.Projects.AssignmentNoticeType.CreatedAssignment
+  type: Field
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentEmailTemplateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CreatedAssignment
+    path: Projects/ProjectAssignmentEmailTemplateModel.cs
+    startLine: 45
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nCreated assignment notification.\nThis is typically used to notify somebody other than the assignee about a created assignment.\n"
+  example: []
+  syntax:
+    content: CreatedAssignment = 5
+    return:
+      type: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Projects.AssignmentNoticeType.CreatedChangeRequest
+  commentId: F:Vasont.Inspire.Models.Projects.AssignmentNoticeType.CreatedChangeRequest
+  id: CreatedChangeRequest
+  parent: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  langs:
+  - csharp
+  - vb
+  name: CreatedChangeRequest
+  nameWithType: AssignmentNoticeType.CreatedChangeRequest
+  fullName: Vasont.Inspire.Models.Projects.AssignmentNoticeType.CreatedChangeRequest
+  type: Field
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentEmailTemplateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CreatedChangeRequest
+    path: Projects/ProjectAssignmentEmailTemplateModel.cs
+    startLine: 51
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nCreated assignment for a change request.\nThis is used to notify any additional notification users that are specified on the assignment.\n"
+  example: []
+  syntax:
+    content: CreatedChangeRequest = 6
+    return:
+      type: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Projects.AssignmentNoticeType.CompletedChangeRequest
+  commentId: F:Vasont.Inspire.Models.Projects.AssignmentNoticeType.CompletedChangeRequest
+  id: CompletedChangeRequest
+  parent: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  langs:
+  - csharp
+  - vb
+  name: CompletedChangeRequest
+  nameWithType: AssignmentNoticeType.CompletedChangeRequest
+  fullName: Vasont.Inspire.Models.Projects.AssignmentNoticeType.CompletedChangeRequest
+  type: Field
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentEmailTemplateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CompletedChangeRequest
+    path: Projects/ProjectAssignmentEmailTemplateModel.cs
+    startLine: 57
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nCompleted assignment for a change request.\nThis is used to notify any additional notification users that are specified on the assignment.\n"
+  example: []
+  syntax:
+    content: CompletedChangeRequest = 7
+    return:
+      type: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Projects.AssignmentNoticeType.CancelledChangeRequest
+  commentId: F:Vasont.Inspire.Models.Projects.AssignmentNoticeType.CancelledChangeRequest
+  id: CancelledChangeRequest
+  parent: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  langs:
+  - csharp
+  - vb
+  name: CancelledChangeRequest
+  nameWithType: AssignmentNoticeType.CancelledChangeRequest
+  fullName: Vasont.Inspire.Models.Projects.AssignmentNoticeType.CancelledChangeRequest
+  type: Field
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentEmailTemplateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CancelledChangeRequest
+    path: Projects/ProjectAssignmentEmailTemplateModel.cs
+    startLine: 63
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nCancelled assignment for a change request.\nThis is used to notify any additional notification users that are specified on the assignment.\n"
+  example: []
+  syntax:
+    content: CancelledChangeRequest = 8
+    return:
+      type: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Projects
+  commentId: N:Vasont.Inspire.Models.Projects
+  name: Vasont.Inspire.Models.Projects
+  nameWithType: Vasont.Inspire.Models.Projects
+  fullName: Vasont.Inspire.Models.Projects
+- uid: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  commentId: T:Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  parent: Vasont.Inspire.Models.Projects
+  name: AssignmentNoticeType
+  nameWithType: AssignmentNoticeType
+  fullName: Vasont.Inspire.Models.Projects.AssignmentNoticeType

@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Worker
+  commentId: N:Vasont.Inspire.Models.Worker
+  id: Vasont.Inspire.Models.Worker
+  children:
+  - Vasont.Inspire.Models.Worker.MinimalWorkerStateModel
+  - Vasont.Inspire.Models.Worker.MinimalWorkerStateModel`1
+  - Vasont.Inspire.Models.Worker.WorkerStateModel
+  - Vasont.Inspire.Models.Worker.WorkerStateModel`1
+  - Vasont.Inspire.Models.Worker.WorkerStatus
+  langs:
+  - csharp
+  - vb
+  name: Vasont.Inspire.Models.Worker
+  nameWithType: Vasont.Inspire.Models.Worker
+  fullName: Vasont.Inspire.Models.Worker
+  type: Namespace
+  assemblies:
+  - Vasont.Inspire.Models
+references:
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel
+  commentId: T:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel
+  parent: Vasont.Inspire.Models.Worker
+  name: MinimalWorkerStateModel
+  nameWithType: MinimalWorkerStateModel
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel
+- uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel`1
+  commentId: T:Vasont.Inspire.Models.Worker.MinimalWorkerStateModel`1
+  name: MinimalWorkerStateModel<T>
+  nameWithType: MinimalWorkerStateModel<T>
+  fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel<T>
+  nameWithType.vb: MinimalWorkerStateModel(Of T)
+  fullName.vb: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel(Of T)
+  name.vb: MinimalWorkerStateModel(Of T)
+  spec.csharp:
+  - uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel`1
+    name: MinimalWorkerStateModel
+    nameWithType: MinimalWorkerStateModel
+    fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel`1
+    name: MinimalWorkerStateModel
+    nameWithType: MinimalWorkerStateModel
+    fullName: Vasont.Inspire.Models.Worker.MinimalWorkerStateModel
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Worker.WorkerStatus
+  commentId: T:Vasont.Inspire.Models.Worker.WorkerStatus
+  parent: Vasont.Inspire.Models.Worker
+  name: WorkerStatus
+  nameWithType: WorkerStatus
+  fullName: Vasont.Inspire.Models.Worker.WorkerStatus
+- uid: Vasont.Inspire.Models.Worker.WorkerStateModel
+  commentId: T:Vasont.Inspire.Models.Worker.WorkerStateModel
+  parent: Vasont.Inspire.Models.Worker
+  name: WorkerStateModel
+  nameWithType: WorkerStateModel
+  fullName: Vasont.Inspire.Models.Worker.WorkerStateModel
+- uid: Vasont.Inspire.Models.Worker.WorkerStateModel`1
+  commentId: T:Vasont.Inspire.Models.Worker.WorkerStateModel`1
+  name: WorkerStateModel<T>
+  nameWithType: WorkerStateModel<T>
+  fullName: Vasont.Inspire.Models.Worker.WorkerStateModel<T>
+  nameWithType.vb: WorkerStateModel(Of T)
+  fullName.vb: Vasont.Inspire.Models.Worker.WorkerStateModel(Of T)
+  name.vb: WorkerStateModel(Of T)
+  spec.csharp:
+  - uid: Vasont.Inspire.Models.Worker.WorkerStateModel`1
+    name: WorkerStateModel
+    nameWithType: WorkerStateModel
+    fullName: Vasont.Inspire.Models.Worker.WorkerStateModel
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vasont.Inspire.Models.Worker.WorkerStateModel`1
+    name: WorkerStateModel
+    nameWithType: WorkerStateModel
+    fullName: Vasont.Inspire.Models.Worker.WorkerStateModel
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Worker
+  commentId: N:Vasont.Inspire.Models.Worker
+  name: Vasont.Inspire.Models.Worker
+  nameWithType: Vasont.Inspire.Models.Worker
+  fullName: Vasont.Inspire.Models.Worker

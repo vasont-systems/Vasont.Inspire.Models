@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Transfers.ExportContentResult
+  commentId: T:Vasont.Inspire.Models.Transfers.ExportContentResult
+  id: ExportContentResult
+  parent: Vasont.Inspire.Models.Transfers
+  children:
+  - Vasont.Inspire.Models.Transfers.ExportContentResult.Failed
+  - Vasont.Inspire.Models.Transfers.ExportContentResult.Modified
+  - Vasont.Inspire.Models.Transfers.ExportContentResult.Removed
+  - Vasont.Inspire.Models.Transfers.ExportContentResult.Success
+  langs:
+  - csharp
+  - vb
+  name: ExportContentResult
+  nameWithType: ExportContentResult
+  fullName: Vasont.Inspire.Models.Transfers.ExportContentResult
+  type: Enum
+  source:
+    remote:
+      path: src/Transfers/MinimalExportComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ExportContentResult
+    path: Transfers/MinimalExportComponentModel.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nContains an enumerated set of export content results.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum ExportContentResult
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum ExportContentResult
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Transfers.ExportContentResult.Success
+  commentId: F:Vasont.Inspire.Models.Transfers.ExportContentResult.Success
+  id: Success
+  parent: Vasont.Inspire.Models.Transfers.ExportContentResult
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: ExportContentResult.Success
+  fullName: Vasont.Inspire.Models.Transfers.ExportContentResult.Success
+  type: Field
+  source:
+    remote:
+      path: src/Transfers/MinimalExportComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Success
+    path: Transfers/MinimalExportComponentModel.cs
+    startLine: 23
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nThe component content was successfully exported to the working folder.\n"
+  example: []
+  syntax:
+    content: Success = 0
+    return:
+      type: Vasont.Inspire.Models.Transfers.ExportContentResult
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Transfers.ExportContentResult.Failed
+  commentId: F:Vasont.Inspire.Models.Transfers.ExportContentResult.Failed
+  id: Failed
+  parent: Vasont.Inspire.Models.Transfers.ExportContentResult
+  langs:
+  - csharp
+  - vb
+  name: Failed
+  nameWithType: ExportContentResult.Failed
+  fullName: Vasont.Inspire.Models.Transfers.ExportContentResult.Failed
+  type: Field
+  source:
+    remote:
+      path: src/Transfers/MinimalExportComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Failed
+    path: Transfers/MinimalExportComponentModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nThe component content failed to be exported to the working folder.\n"
+  example: []
+  syntax:
+    content: Failed = 1
+    return:
+      type: Vasont.Inspire.Models.Transfers.ExportContentResult
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Transfers.ExportContentResult.Modified
+  commentId: F:Vasont.Inspire.Models.Transfers.ExportContentResult.Modified
+  id: Modified
+  parent: Vasont.Inspire.Models.Transfers.ExportContentResult
+  langs:
+  - csharp
+  - vb
+  name: Modified
+  nameWithType: ExportContentResult.Modified
+  fullName: Vasont.Inspire.Models.Transfers.ExportContentResult.Modified
+  type: Field
+  source:
+    remote:
+      path: src/Transfers/MinimalExportComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Modified
+    path: Transfers/MinimalExportComponentModel.cs
+    startLine: 34
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nThe component content was successfully exported but was modified due to filtering and therefore the component should be flagged as needing\nrelationship evaluation before export can complete.\n"
+  example: []
+  syntax:
+    content: Modified = 2
+    return:
+      type: Vasont.Inspire.Models.Transfers.ExportContentResult
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Transfers.ExportContentResult.Removed
+  commentId: F:Vasont.Inspire.Models.Transfers.ExportContentResult.Removed
+  id: Removed
+  parent: Vasont.Inspire.Models.Transfers.ExportContentResult
+  langs:
+  - csharp
+  - vb
+  name: Removed
+  nameWithType: ExportContentResult.Removed
+  fullName: Vasont.Inspire.Models.Transfers.ExportContentResult.Removed
+  type: Field
+  source:
+    remote:
+      path: src/Transfers/MinimalExportComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Removed
+    path: Transfers/MinimalExportComponentModel.cs
+    startLine: 39
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nThe component content was successfully exported but the content was filtered and therefore the component should be removed from the export.\n"
+  example: []
+  syntax:
+    content: Removed = 3
+    return:
+      type: Vasont.Inspire.Models.Transfers.ExportContentResult
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Transfers
+  commentId: N:Vasont.Inspire.Models.Transfers
+  name: Vasont.Inspire.Models.Transfers
+  nameWithType: Vasont.Inspire.Models.Transfers
+  fullName: Vasont.Inspire.Models.Transfers
+- uid: Vasont.Inspire.Models.Transfers.ExportContentResult
+  commentId: T:Vasont.Inspire.Models.Transfers.ExportContentResult
+  parent: Vasont.Inspire.Models.Transfers
+  name: ExportContentResult
+  nameWithType: ExportContentResult
+  fullName: Vasont.Inspire.Models.Transfers.ExportContentResult

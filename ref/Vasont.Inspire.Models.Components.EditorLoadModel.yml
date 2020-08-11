@@ -1,0 +1,757 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel
+  commentId: T:Vasont.Inspire.Models.Components.EditorLoadModel
+  id: EditorLoadModel
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.EditorLoadModel.EditorMode
+  - Vasont.Inspire.Models.Components.EditorLoadModel.EditorType
+  - Vasont.Inspire.Models.Components.EditorLoadModel.MapReferenceId
+  - Vasont.Inspire.Models.Components.EditorLoadModel.ResolveReferences
+  - Vasont.Inspire.Models.Components.EditorLoadModel.ReviewMode
+  - Vasont.Inspire.Models.Components.EditorLoadModel.SchemaType
+  - Vasont.Inspire.Models.Components.EditorLoadModel.Unresolved
+  - Vasont.Inspire.Models.Components.EditorLoadModel.Version
+  langs:
+  - csharp
+  - vb
+  name: EditorLoadModel
+  nameWithType: EditorLoadModel
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel
+  type: Class
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EditorLoadModel
+    path: Components/EditorLoadModel.cs
+    startLine: 94
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis class represents the editor load parameters for an external editor query to load content from Inspire for editing/viewing.\n"
+  example: []
+  syntax:
+    content: 'public class EditorLoadModel : BaseLoadModel'
+    content.vb: >-
+      Public Class EditorLoadModel
+          Inherits BaseLoadModel
+  inheritance:
+  - System.Object
+  - Vasont.Inspire.Models.Components.BaseLoadModel
+  inheritedMembers:
+  - Vasont.Inspire.Models.Components.BaseLoadModel.Href
+  - Vasont.Inspire.Models.Components.BaseLoadModel.ComponentId
+  - Vasont.Inspire.Models.Components.BaseLoadModel.ChangesetId
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.EditorType
+  commentId: P:Vasont.Inspire.Models.Components.EditorLoadModel.EditorType
+  id: EditorType
+  parent: Vasont.Inspire.Models.Components.EditorLoadModel
+  langs:
+  - csharp
+  - vb
+  name: EditorType
+  nameWithType: EditorLoadModel.EditorType
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.EditorType
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EditorType
+    path: Components/EditorLoadModel.cs
+    startLine: 99
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the editor type to use.\n"
+  example: []
+  syntax:
+    content: public EditorType EditorType { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Components.EditorType
+    content.vb: Public Property EditorType As EditorType
+  overload: Vasont.Inspire.Models.Components.EditorLoadModel.EditorType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.EditorMode
+  commentId: P:Vasont.Inspire.Models.Components.EditorLoadModel.EditorMode
+  id: EditorMode
+  parent: Vasont.Inspire.Models.Components.EditorLoadModel
+  langs:
+  - csharp
+  - vb
+  name: EditorMode
+  nameWithType: EditorLoadModel.EditorMode
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.EditorMode
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EditorMode
+    path: Components/EditorLoadModel.cs
+    startLine: 104
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the editor mode.\n"
+  example: []
+  syntax:
+    content: public EditorMode EditorMode { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Components.EditorMode
+    content.vb: Public Property EditorMode As EditorMode
+  overload: Vasont.Inspire.Models.Components.EditorLoadModel.EditorMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.ReviewMode
+  commentId: P:Vasont.Inspire.Models.Components.EditorLoadModel.ReviewMode
+  id: ReviewMode
+  parent: Vasont.Inspire.Models.Components.EditorLoadModel
+  langs:
+  - csharp
+  - vb
+  name: ReviewMode
+  nameWithType: EditorLoadModel.ReviewMode
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.ReviewMode
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewMode
+    path: Components/EditorLoadModel.cs
+    startLine: 109
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the review editor mode.\n"
+  example: []
+  syntax:
+    content: public ReviewEditorMode ReviewMode { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Components.ReviewEditorMode
+    content.vb: Public Property ReviewMode As ReviewEditorMode
+  overload: Vasont.Inspire.Models.Components.EditorLoadModel.ReviewMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.SchemaType
+  commentId: P:Vasont.Inspire.Models.Components.EditorLoadModel.SchemaType
+  id: SchemaType
+  parent: Vasont.Inspire.Models.Components.EditorLoadModel
+  langs:
+  - csharp
+  - vb
+  name: SchemaType
+  nameWithType: EditorLoadModel.SchemaType
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.SchemaType
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SchemaType
+    path: Components/EditorLoadModel.cs
+    startLine: 114
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the schema type to use for transform.\n"
+  example: []
+  syntax:
+    content: public string SchemaType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SchemaType As String
+  overload: Vasont.Inspire.Models.Components.EditorLoadModel.SchemaType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.Version
+  commentId: P:Vasont.Inspire.Models.Components.EditorLoadModel.Version
+  id: Version
+  parent: Vasont.Inspire.Models.Components.EditorLoadModel
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: EditorLoadModel.Version
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.Version
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Version
+    path: Components/EditorLoadModel.cs
+    startLine: 119
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the schema version to use for transform.\n"
+  example: []
+  syntax:
+    content: public string Version { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Version As String
+  overload: Vasont.Inspire.Models.Components.EditorLoadModel.Version*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.ResolveReferences
+  commentId: P:Vasont.Inspire.Models.Components.EditorLoadModel.ResolveReferences
+  id: ResolveReferences
+  parent: Vasont.Inspire.Models.Components.EditorLoadModel
+  langs:
+  - csharp
+  - vb
+  name: ResolveReferences
+  nameWithType: EditorLoadModel.ResolveReferences
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.ResolveReferences
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ResolveReferences
+    path: Components/EditorLoadModel.cs
+    startLine: 124
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether references are resolved server-side.\n"
+  example: []
+  syntax:
+    content: public bool ResolveReferences { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ResolveReferences As Boolean
+  overload: Vasont.Inspire.Models.Components.EditorLoadModel.ResolveReferences*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.Unresolved
+  commentId: P:Vasont.Inspire.Models.Components.EditorLoadModel.Unresolved
+  id: Unresolved
+  parent: Vasont.Inspire.Models.Components.EditorLoadModel
+  langs:
+  - csharp
+  - vb
+  name: Unresolved
+  nameWithType: EditorLoadModel.Unresolved
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.Unresolved
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Unresolved
+    path: Components/EditorLoadModel.cs
+    startLine: 129
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether unresolved content should be displayed for a completed review.\n"
+  example: []
+  syntax:
+    content: public bool Unresolved { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Unresolved As Boolean
+  overload: Vasont.Inspire.Models.Components.EditorLoadModel.Unresolved*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.MapReferenceId
+  commentId: P:Vasont.Inspire.Models.Components.EditorLoadModel.MapReferenceId
+  id: MapReferenceId
+  parent: Vasont.Inspire.Models.Components.EditorLoadModel
+  langs:
+  - csharp
+  - vb
+  name: MapReferenceId
+  nameWithType: EditorLoadModel.MapReferenceId
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.MapReferenceId
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: MapReferenceId
+    path: Components/EditorLoadModel.cs
+    startLine: 134
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the map identity where the component was opened from.\n"
+  example: []
+  syntax:
+    content: public long MapReferenceId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property MapReferenceId As Long
+  overload: Vasont.Inspire.Models.Components.EditorLoadModel.MapReferenceId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vasont.Inspire.Models.Components.BaseLoadModel
+  commentId: T:Vasont.Inspire.Models.Components.BaseLoadModel
+  parent: Vasont.Inspire.Models.Components
+  name: BaseLoadModel
+  nameWithType: BaseLoadModel
+  fullName: Vasont.Inspire.Models.Components.BaseLoadModel
+- uid: Vasont.Inspire.Models.Components.BaseLoadModel.Href
+  commentId: P:Vasont.Inspire.Models.Components.BaseLoadModel.Href
+  parent: Vasont.Inspire.Models.Components.BaseLoadModel
+  name: Href
+  nameWithType: BaseLoadModel.Href
+  fullName: Vasont.Inspire.Models.Components.BaseLoadModel.Href
+- uid: Vasont.Inspire.Models.Components.BaseLoadModel.ComponentId
+  commentId: P:Vasont.Inspire.Models.Components.BaseLoadModel.ComponentId
+  parent: Vasont.Inspire.Models.Components.BaseLoadModel
+  name: ComponentId
+  nameWithType: BaseLoadModel.ComponentId
+  fullName: Vasont.Inspire.Models.Components.BaseLoadModel.ComponentId
+- uid: Vasont.Inspire.Models.Components.BaseLoadModel.ChangesetId
+  commentId: P:Vasont.Inspire.Models.Components.BaseLoadModel.ChangesetId
+  parent: Vasont.Inspire.Models.Components.BaseLoadModel
+  name: ChangesetId
+  nameWithType: BaseLoadModel.ChangesetId
+  fullName: Vasont.Inspire.Models.Components.BaseLoadModel.ChangesetId
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.EditorType*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorLoadModel.EditorType
+  name: EditorType
+  nameWithType: EditorLoadModel.EditorType
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.EditorType
+- uid: Vasont.Inspire.Models.Components.EditorType
+  commentId: T:Vasont.Inspire.Models.Components.EditorType
+  parent: Vasont.Inspire.Models.Components
+  name: EditorType
+  nameWithType: EditorType
+  fullName: Vasont.Inspire.Models.Components.EditorType
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.EditorMode*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorLoadModel.EditorMode
+  name: EditorMode
+  nameWithType: EditorLoadModel.EditorMode
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.EditorMode
+- uid: Vasont.Inspire.Models.Components.EditorMode
+  commentId: T:Vasont.Inspire.Models.Components.EditorMode
+  parent: Vasont.Inspire.Models.Components
+  name: EditorMode
+  nameWithType: EditorMode
+  fullName: Vasont.Inspire.Models.Components.EditorMode
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.ReviewMode*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorLoadModel.ReviewMode
+  name: ReviewMode
+  nameWithType: EditorLoadModel.ReviewMode
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.ReviewMode
+- uid: Vasont.Inspire.Models.Components.ReviewEditorMode
+  commentId: T:Vasont.Inspire.Models.Components.ReviewEditorMode
+  parent: Vasont.Inspire.Models.Components
+  name: ReviewEditorMode
+  nameWithType: ReviewEditorMode
+  fullName: Vasont.Inspire.Models.Components.ReviewEditorMode
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.SchemaType*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorLoadModel.SchemaType
+  name: SchemaType
+  nameWithType: EditorLoadModel.SchemaType
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.SchemaType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.Version*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorLoadModel.Version
+  name: Version
+  nameWithType: EditorLoadModel.Version
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.Version
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.ResolveReferences*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorLoadModel.ResolveReferences
+  name: ResolveReferences
+  nameWithType: EditorLoadModel.ResolveReferences
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.ResolveReferences
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.Unresolved*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorLoadModel.Unresolved
+  name: Unresolved
+  nameWithType: EditorLoadModel.Unresolved
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.Unresolved
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.MapReferenceId*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorLoadModel.MapReferenceId
+  name: MapReferenceId
+  nameWithType: EditorLoadModel.MapReferenceId
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.MapReferenceId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64

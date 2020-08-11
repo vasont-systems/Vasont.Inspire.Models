@@ -1,0 +1,335 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Logging.EventLogLevel
+  commentId: T:Vasont.Inspire.Models.Logging.EventLogLevel
+  id: EventLogLevel
+  parent: Vasont.Inspire.Models.Logging
+  children:
+  - Vasont.Inspire.Models.Logging.EventLogLevel.All
+  - Vasont.Inspire.Models.Logging.EventLogLevel.Debug
+  - Vasont.Inspire.Models.Logging.EventLogLevel.Error
+  - Vasont.Inspire.Models.Logging.EventLogLevel.Fatal
+  - Vasont.Inspire.Models.Logging.EventLogLevel.Info
+  - Vasont.Inspire.Models.Logging.EventLogLevel.Warn
+  langs:
+  - csharp
+  - vb
+  name: EventLogLevel
+  nameWithType: EventLogLevel
+  fullName: Vasont.Inspire.Models.Logging.EventLogLevel
+  type: Enum
+  source:
+    remote:
+      path: src/Logging/EventLogModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EventLogLevel
+    path: Logging/EventLogModel.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nContains an enumerated list of event logging levels.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum EventLogLevel
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum EventLogLevel
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Logging.EventLogLevel.All
+  commentId: F:Vasont.Inspire.Models.Logging.EventLogLevel.All
+  id: All
+  parent: Vasont.Inspire.Models.Logging.EventLogLevel
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: EventLogLevel.All
+  fullName: Vasont.Inspire.Models.Logging.EventLogLevel.All
+  type: Field
+  source:
+    remote:
+      path: src/Logging/EventLogModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: All
+    path: Logging/EventLogModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nDisplay all warning levels.\n"
+  example: []
+  syntax:
+    content: All = 0
+    return:
+      type: Vasont.Inspire.Models.Logging.EventLogLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Logging.EventLogLevel.Debug
+  commentId: F:Vasont.Inspire.Models.Logging.EventLogLevel.Debug
+  id: Debug
+  parent: Vasont.Inspire.Models.Logging.EventLogLevel
+  langs:
+  - csharp
+  - vb
+  name: Debug
+  nameWithType: EventLogLevel.Debug
+  fullName: Vasont.Inspire.Models.Logging.EventLogLevel.Debug
+  type: Field
+  source:
+    remote:
+      path: src/Logging/EventLogModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Debug
+    path: Logging/EventLogModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nDesignates fine-grained informational events that are useful during application debugging.\n"
+  example: []
+  syntax:
+    content: >-
+      [LocalizedDescription("LabelDebugText")]
+
+      Debug = 1
+    return:
+      type: Vasont.Inspire.Models.Logging.EventLogLevel
+    content.vb: >-
+      <LocalizedDescription("LabelDebugText")>
+
+      Debug = 1
+  attributes:
+  - type: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute
+    ctor: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LabelDebugText
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Logging.EventLogLevel.Info
+  commentId: F:Vasont.Inspire.Models.Logging.EventLogLevel.Info
+  id: Info
+  parent: Vasont.Inspire.Models.Logging.EventLogLevel
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: EventLogLevel.Info
+  fullName: Vasont.Inspire.Models.Logging.EventLogLevel.Info
+  type: Field
+  source:
+    remote:
+      path: src/Logging/EventLogModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Info
+    path: Logging/EventLogModel.cs
+    startLine: 36
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nDesignates informational events not related to a specific issue.\n"
+  example: []
+  syntax:
+    content: >-
+      [LocalizedDescription("LabelInformationText")]
+
+      Info = 2
+    return:
+      type: Vasont.Inspire.Models.Logging.EventLogLevel
+    content.vb: >-
+      <LocalizedDescription("LabelInformationText")>
+
+      Info = 2
+  attributes:
+  - type: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute
+    ctor: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LabelInformationText
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Logging.EventLogLevel.Warn
+  commentId: F:Vasont.Inspire.Models.Logging.EventLogLevel.Warn
+  id: Warn
+  parent: Vasont.Inspire.Models.Logging.EventLogLevel
+  langs:
+  - csharp
+  - vb
+  name: Warn
+  nameWithType: EventLogLevel.Warn
+  fullName: Vasont.Inspire.Models.Logging.EventLogLevel.Warn
+  type: Field
+  source:
+    remote:
+      path: src/Logging/EventLogModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Warn
+    path: Logging/EventLogModel.cs
+    startLine: 42
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nDesignates potentially harmful situations.\n"
+  example: []
+  syntax:
+    content: >-
+      [LocalizedDescription("LabelWarningText")]
+
+      Warn = 3
+    return:
+      type: Vasont.Inspire.Models.Logging.EventLogLevel
+    content.vb: >-
+      <LocalizedDescription("LabelWarningText")>
+
+      Warn = 3
+  attributes:
+  - type: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute
+    ctor: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LabelWarningText
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Logging.EventLogLevel.Error
+  commentId: F:Vasont.Inspire.Models.Logging.EventLogLevel.Error
+  id: Error
+  parent: Vasont.Inspire.Models.Logging.EventLogLevel
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: EventLogLevel.Error
+  fullName: Vasont.Inspire.Models.Logging.EventLogLevel.Error
+  type: Field
+  source:
+    remote:
+      path: src/Logging/EventLogModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Error
+    path: Logging/EventLogModel.cs
+    startLine: 48
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nDesignates error events that might still allow the application to continue running.\n"
+  example: []
+  syntax:
+    content: >-
+      [LocalizedDescription("LabelErrorText")]
+
+      Error = 4
+    return:
+      type: Vasont.Inspire.Models.Logging.EventLogLevel
+    content.vb: >-
+      <LocalizedDescription("LabelErrorText")>
+
+      Error = 4
+  attributes:
+  - type: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute
+    ctor: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LabelErrorText
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Logging.EventLogLevel.Fatal
+  commentId: F:Vasont.Inspire.Models.Logging.EventLogLevel.Fatal
+  id: Fatal
+  parent: Vasont.Inspire.Models.Logging.EventLogLevel
+  langs:
+  - csharp
+  - vb
+  name: Fatal
+  nameWithType: EventLogLevel.Fatal
+  fullName: Vasont.Inspire.Models.Logging.EventLogLevel.Fatal
+  type: Field
+  source:
+    remote:
+      path: src/Logging/EventLogModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Fatal
+    path: Logging/EventLogModel.cs
+    startLine: 54
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nDesignates very severe error events that will presumably lead the application to abort.\n"
+  example: []
+  syntax:
+    content: >-
+      [LocalizedDescription("LabelFatalText")]
+
+      Fatal = 5
+    return:
+      type: Vasont.Inspire.Models.Logging.EventLogLevel
+    content.vb: >-
+      <LocalizedDescription("LabelFatalText")>
+
+      Fatal = 5
+  attributes:
+  - type: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute
+    ctor: Vasont.Inspire.Core.Extensions.LocalizedDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LabelFatalText
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Logging
+  commentId: N:Vasont.Inspire.Models.Logging
+  name: Vasont.Inspire.Models.Logging
+  nameWithType: Vasont.Inspire.Models.Logging
+  fullName: Vasont.Inspire.Models.Logging
+- uid: Vasont.Inspire.Models.Logging.EventLogLevel
+  commentId: T:Vasont.Inspire.Models.Logging.EventLogLevel
+  parent: Vasont.Inspire.Models.Logging
+  name: EventLogLevel
+  nameWithType: EventLogLevel
+  fullName: Vasont.Inspire.Models.Logging.EventLogLevel

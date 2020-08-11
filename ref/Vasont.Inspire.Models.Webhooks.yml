@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Webhooks
+  commentId: N:Vasont.Inspire.Models.Webhooks
+  id: Vasont.Inspire.Models.Webhooks
+  children:
+  - Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel
+  - Vasont.Inspire.Models.Webhooks.ComponentRequestModel
+  - Vasont.Inspire.Models.Webhooks.NewComponentRequestModel
+  - Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel
+  - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  - Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  langs:
+  - csharp
+  - vb
+  name: Vasont.Inspire.Models.Webhooks
+  nameWithType: Vasont.Inspire.Models.Webhooks
+  fullName: Vasont.Inspire.Models.Webhooks
+  type: Namespace
+  assemblies:
+  - Vasont.Inspire.Models
+references:
+- uid: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel
+  commentId: T:Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel
+  name: ChangeComponentRequestModel
+  nameWithType: ChangeComponentRequestModel
+  fullName: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel
+- uid: Vasont.Inspire.Models.Webhooks.ComponentRequestModel
+  commentId: T:Vasont.Inspire.Models.Webhooks.ComponentRequestModel
+  parent: Vasont.Inspire.Models.Webhooks
+  name: ComponentRequestModel
+  nameWithType: ComponentRequestModel
+  fullName: Vasont.Inspire.Models.Webhooks.ComponentRequestModel
+- uid: Vasont.Inspire.Models.Webhooks.NewComponentRequestModel
+  commentId: T:Vasont.Inspire.Models.Webhooks.NewComponentRequestModel
+  name: NewComponentRequestModel
+  nameWithType: NewComponentRequestModel
+  fullName: Vasont.Inspire.Models.Webhooks.NewComponentRequestModel
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  commentId: T:Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  parent: Vasont.Inspire.Models.Webhooks
+  name: WebhookConfigurationNameType
+  nameWithType: WebhookConfigurationNameType
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  commentId: T:Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+  parent: Vasont.Inspire.Models.Webhooks
+  name: WebhookConfigurationValueType
+  nameWithType: WebhookConfigurationValueType
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel
+  commentId: T:Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel
+  name: WebhookConfigurationModel
+  nameWithType: WebhookConfigurationModel
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel
+- uid: Vasont.Inspire.Models.Webhooks
+  commentId: N:Vasont.Inspire.Models.Webhooks
+  name: Vasont.Inspire.Models.Webhooks
+  nameWithType: Vasont.Inspire.Models.Webhooks
+  fullName: Vasont.Inspire.Models.Webhooks

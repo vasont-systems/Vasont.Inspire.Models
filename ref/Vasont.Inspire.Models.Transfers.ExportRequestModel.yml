@@ -1,0 +1,832 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel
+  commentId: T:Vasont.Inspire.Models.Transfers.ExportRequestModel
+  id: ExportRequestModel
+  parent: Vasont.Inspire.Models.Transfers
+  children:
+  - Vasont.Inspire.Models.Transfers.ExportRequestModel.AlwaysZipResults
+  - Vasont.Inspire.Models.Transfers.ExportRequestModel.ChangesetsToExport
+  - Vasont.Inspire.Models.Transfers.ExportRequestModel.ComponentIdsToExport
+  - Vasont.Inspire.Models.Transfers.ExportRequestModel.ExportId
+  - Vasont.Inspire.Models.Transfers.ExportRequestModel.LockForEdit
+  - Vasont.Inspire.Models.Transfers.ExportRequestModel.ProfileFilters
+  - Vasont.Inspire.Models.Transfers.ExportRequestModel.SendNotification
+  langs:
+  - csharp
+  - vb
+  name: ExportRequestModel
+  nameWithType: ExportRequestModel
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel
+  type: Class
+  source:
+    remote:
+      path: src/Transfers/ExportRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ExportRequestModel
+    path: Transfers/ExportRequestModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nThis class contains properties and information to request the system to start an export process.\n"
+  example: []
+  syntax:
+    content: public class ExportRequestModel
+    content.vb: Public Class ExportRequestModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.ChangesetsToExport
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportRequestModel.ChangesetsToExport
+  id: ChangesetsToExport
+  parent: Vasont.Inspire.Models.Transfers.ExportRequestModel
+  langs:
+  - csharp
+  - vb
+  name: ChangesetsToExport
+  nameWithType: ExportRequestModel.ChangesetsToExport
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.ChangesetsToExport
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ExportRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ChangesetsToExport
+    path: Transfers/ExportRequestModel.cs
+    startLine: 18
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the changeset identity related to the components that are to be exported.\n"
+  example: []
+  syntax:
+    content: public List<ChangesetRequestModel> ChangesetsToExport { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Versioning.ChangesetRequestModel}
+    content.vb: Public Property ChangesetsToExport As List(Of ChangesetRequestModel)
+  overload: Vasont.Inspire.Models.Transfers.ExportRequestModel.ChangesetsToExport*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.ExportId
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportRequestModel.ExportId
+  id: ExportId
+  parent: Vasont.Inspire.Models.Transfers.ExportRequestModel
+  langs:
+  - csharp
+  - vb
+  name: ExportId
+  nameWithType: ExportRequestModel.ExportId
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.ExportId
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ExportRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ExportId
+    path: Transfers/ExportRequestModel.cs
+    startLine: 23
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the export identity used for the exporting of the components specified.\n"
+  example: []
+  syntax:
+    content: public long ExportId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ExportId As Long
+  overload: Vasont.Inspire.Models.Transfers.ExportRequestModel.ExportId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.ComponentIdsToExport
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportRequestModel.ComponentIdsToExport
+  id: ComponentIdsToExport
+  parent: Vasont.Inspire.Models.Transfers.ExportRequestModel
+  langs:
+  - csharp
+  - vb
+  name: ComponentIdsToExport
+  nameWithType: ExportRequestModel.ComponentIdsToExport
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.ComponentIdsToExport
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ExportRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentIdsToExport
+    path: Transfers/ExportRequestModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets a list of component identities to export.\n"
+  example: []
+  syntax:
+    content: public List<long> ComponentIdsToExport { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Int64}
+    content.vb: Public Property ComponentIdsToExport As List(Of Long)
+  overload: Vasont.Inspire.Models.Transfers.ExportRequestModel.ComponentIdsToExport*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.AlwaysZipResults
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportRequestModel.AlwaysZipResults
+  id: AlwaysZipResults
+  parent: Vasont.Inspire.Models.Transfers.ExportRequestModel
+  langs:
+  - csharp
+  - vb
+  name: AlwaysZipResults
+  nameWithType: ExportRequestModel.AlwaysZipResults
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.AlwaysZipResults
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ExportRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: AlwaysZipResults
+    path: Transfers/ExportRequestModel.cs
+    startLine: 33
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets a value indicating whether the exported content is always archived to a zip file.\n"
+  example: []
+  syntax:
+    content: public bool AlwaysZipResults { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AlwaysZipResults As Boolean
+  overload: Vasont.Inspire.Models.Transfers.ExportRequestModel.AlwaysZipResults*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.SendNotification
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportRequestModel.SendNotification
+  id: SendNotification
+  parent: Vasont.Inspire.Models.Transfers.ExportRequestModel
+  langs:
+  - csharp
+  - vb
+  name: SendNotification
+  nameWithType: ExportRequestModel.SendNotification
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.SendNotification
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ExportRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SendNotification
+    path: Transfers/ExportRequestModel.cs
+    startLine: 38
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets a value indicating whether notifications are sent.\n"
+  example: []
+  syntax:
+    content: public bool SendNotification { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SendNotification As Boolean
+  overload: Vasont.Inspire.Models.Transfers.ExportRequestModel.SendNotification*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.ProfileFilters
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportRequestModel.ProfileFilters
+  id: ProfileFilters
+  parent: Vasont.Inspire.Models.Transfers.ExportRequestModel
+  langs:
+  - csharp
+  - vb
+  name: ProfileFilters
+  nameWithType: ExportRequestModel.ProfileFilters
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.ProfileFilters
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ExportRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProfileFilters
+    path: Transfers/ExportRequestModel.cs
+    startLine: 43
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets an optional list of profile filters.\n"
+  example: []
+  syntax:
+    content: public List<ExportProfileAttributeFilterModel> ProfileFilters { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel}
+    content.vb: Public Property ProfileFilters As List(Of ExportProfileAttributeFilterModel)
+  overload: Vasont.Inspire.Models.Transfers.ExportRequestModel.ProfileFilters*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.LockForEdit
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportRequestModel.LockForEdit
+  id: LockForEdit
+  parent: Vasont.Inspire.Models.Transfers.ExportRequestModel
+  langs:
+  - csharp
+  - vb
+  name: LockForEdit
+  nameWithType: ExportRequestModel.LockForEdit
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.LockForEdit
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ExportRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: LockForEdit
+    path: Transfers/ExportRequestModel.cs
+    startLine: 48
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets a value indicating whether the exported content should be locked.\n"
+  example: []
+  syntax:
+    content: public bool LockForEdit { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LockForEdit As Boolean
+  overload: Vasont.Inspire.Models.Transfers.ExportRequestModel.LockForEdit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Transfers
+  commentId: N:Vasont.Inspire.Models.Transfers
+  name: Vasont.Inspire.Models.Transfers
+  nameWithType: Vasont.Inspire.Models.Transfers
+  fullName: Vasont.Inspire.Models.Transfers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.ChangesetsToExport*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportRequestModel.ChangesetsToExport
+  name: ChangesetsToExport
+  nameWithType: ExportRequestModel.ChangesetsToExport
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.ChangesetsToExport
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Versioning.ChangesetRequestModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Versioning.ChangesetRequestModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ChangesetRequestModel>
+  nameWithType: List<ChangesetRequestModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Versioning.ChangesetRequestModel>
+  nameWithType.vb: List(Of ChangesetRequestModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Versioning.ChangesetRequestModel)
+  name.vb: List(Of ChangesetRequestModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Versioning.ChangesetRequestModel
+    name: ChangesetRequestModel
+    nameWithType: ChangesetRequestModel
+    fullName: Vasont.Inspire.Models.Versioning.ChangesetRequestModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Versioning.ChangesetRequestModel
+    name: ChangesetRequestModel
+    nameWithType: ChangesetRequestModel
+    fullName: Vasont.Inspire.Models.Versioning.ChangesetRequestModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.ExportId*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportRequestModel.ExportId
+  name: ExportId
+  nameWithType: ExportRequestModel.ExportId
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.ExportId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.ComponentIdsToExport*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportRequestModel.ComponentIdsToExport
+  name: ComponentIdsToExport
+  nameWithType: ExportRequestModel.ComponentIdsToExport
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.ComponentIdsToExport
+- uid: System.Collections.Generic.List{System.Int64}
+  commentId: T:System.Collections.Generic.List{System.Int64}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Int64>
+  nameWithType: List<Int64>
+  fullName: System.Collections.Generic.List<System.Int64>
+  nameWithType.vb: List(Of Int64)
+  fullName.vb: System.Collections.Generic.List(Of System.Int64)
+  name.vb: List(Of Int64)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.AlwaysZipResults*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportRequestModel.AlwaysZipResults
+  name: AlwaysZipResults
+  nameWithType: ExportRequestModel.AlwaysZipResults
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.AlwaysZipResults
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.SendNotification*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportRequestModel.SendNotification
+  name: SendNotification
+  nameWithType: ExportRequestModel.SendNotification
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.SendNotification
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.ProfileFilters*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportRequestModel.ProfileFilters
+  name: ProfileFilters
+  nameWithType: ExportRequestModel.ProfileFilters
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.ProfileFilters
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ExportProfileAttributeFilterModel>
+  nameWithType: List<ExportProfileAttributeFilterModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel>
+  nameWithType.vb: List(Of ExportProfileAttributeFilterModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel)
+  name.vb: List(Of ExportProfileAttributeFilterModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel
+    name: ExportProfileAttributeFilterModel
+    nameWithType: ExportProfileAttributeFilterModel
+    fullName: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel
+    name: ExportProfileAttributeFilterModel
+    nameWithType: ExportProfileAttributeFilterModel
+    fullName: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.LockForEdit*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportRequestModel.LockForEdit
+  name: LockForEdit
+  nameWithType: ExportRequestModel.LockForEdit
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.LockForEdit

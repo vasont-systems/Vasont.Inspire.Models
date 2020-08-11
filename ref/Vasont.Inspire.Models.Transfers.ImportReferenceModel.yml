@@ -1,0 +1,1002 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel
+  commentId: T:Vasont.Inspire.Models.Transfers.ImportReferenceModel
+  id: ImportReferenceModel
+  parent: Vasont.Inspire.Models.Transfers
+  children:
+  - Vasont.Inspire.Models.Transfers.ImportReferenceModel.ComponentReference
+  - Vasont.Inspire.Models.Transfers.ImportReferenceModel.CreatorUserId
+  - Vasont.Inspire.Models.Transfers.ImportReferenceModel.Invalid
+  - Vasont.Inspire.Models.Transfers.ImportReferenceModel.RelationId
+  - Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceAttributeName
+  - Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceAttributeValue
+  - Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceComponentId
+  - Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceElementName
+  - Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetAttributeName
+  - Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetAttributeValue
+  - Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetComponentId
+  - Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetElementName
+  - Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetUniqueId
+  - Vasont.Inspire.Models.Transfers.ImportReferenceModel.WordCount
+  langs:
+  - csharp
+  - vb
+  name: ImportReferenceModel
+  nameWithType: ImportReferenceModel
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel
+  type: Class
+  source:
+    remote:
+      path: src/Transfers/ImportReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ImportReferenceModel
+    path: Transfers/ImportReferenceModel.cs
+    startLine: 14
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nThis class represents a reference between one component and another component.\n"
+  example: []
+  syntax:
+    content: public class ImportReferenceModel
+    content.vb: Public Class ImportReferenceModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetComponentId
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetComponentId
+  id: TargetComponentId
+  parent: Vasont.Inspire.Models.Transfers.ImportReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: TargetComponentId
+  nameWithType: ImportReferenceModel.TargetComponentId
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetComponentId
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ImportReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TargetComponentId
+    path: Transfers/ImportReferenceModel.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the identity of the target component.\n"
+  example: []
+  syntax:
+    content: public long TargetComponentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TargetComponentId As Long
+  overload: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetComponentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetUniqueId
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetUniqueId
+  id: TargetUniqueId
+  parent: Vasont.Inspire.Models.Transfers.ImportReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: TargetUniqueId
+  nameWithType: ImportReferenceModel.TargetUniqueId
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetUniqueId
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ImportReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TargetUniqueId
+    path: Transfers/ImportReferenceModel.cs
+    startLine: 24
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the unique identity of the target component content record.\n"
+  example: []
+  syntax:
+    content: public Guid TargetUniqueId { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property TargetUniqueId As Guid
+  overload: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetUniqueId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.RelationId
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportReferenceModel.RelationId
+  id: RelationId
+  parent: Vasont.Inspire.Models.Transfers.ImportReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: RelationId
+  nameWithType: ImportReferenceModel.RelationId
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.RelationId
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ImportReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RelationId
+    path: Transfers/ImportReferenceModel.cs
+    startLine: 29
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the relation identity used for the relationship.\n"
+  example: []
+  syntax:
+    content: public long RelationId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property RelationId As Long
+  overload: Vasont.Inspire.Models.Transfers.ImportReferenceModel.RelationId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceComponentId
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceComponentId
+  id: SourceComponentId
+  parent: Vasont.Inspire.Models.Transfers.ImportReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: SourceComponentId
+  nameWithType: ImportReferenceModel.SourceComponentId
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceComponentId
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ImportReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SourceComponentId
+    path: Transfers/ImportReferenceModel.cs
+    startLine: 34
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the source component identity.\n"
+  example: []
+  syntax:
+    content: public long SourceComponentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property SourceComponentId As Long
+  overload: Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceComponentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceElementName
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceElementName
+  id: SourceElementName
+  parent: Vasont.Inspire.Models.Transfers.ImportReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: SourceElementName
+  nameWithType: ImportReferenceModel.SourceElementName
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceElementName
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ImportReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SourceElementName
+    path: Transfers/ImportReferenceModel.cs
+    startLine: 39
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the element name of the element that points to the target component.\n"
+  example: []
+  syntax:
+    content: public string SourceElementName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SourceElementName As String
+  overload: Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceElementName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceAttributeName
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceAttributeName
+  id: SourceAttributeName
+  parent: Vasont.Inspire.Models.Transfers.ImportReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: SourceAttributeName
+  nameWithType: ImportReferenceModel.SourceAttributeName
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceAttributeName
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ImportReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SourceAttributeName
+    path: Transfers/ImportReferenceModel.cs
+    startLine: 44
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the element attribute name of the element that points to the target component.\n"
+  example: []
+  syntax:
+    content: public string SourceAttributeName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SourceAttributeName As String
+  overload: Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceAttributeName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceAttributeValue
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceAttributeValue
+  id: SourceAttributeValue
+  parent: Vasont.Inspire.Models.Transfers.ImportReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: SourceAttributeValue
+  nameWithType: ImportReferenceModel.SourceAttributeValue
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceAttributeValue
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ImportReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SourceAttributeValue
+    path: Transfers/ImportReferenceModel.cs
+    startLine: 49
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the element attribute value of the element attribute that points to the target component.\n"
+  example: []
+  syntax:
+    content: public string SourceAttributeValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SourceAttributeValue As String
+  overload: Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceAttributeValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetElementName
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetElementName
+  id: TargetElementName
+  parent: Vasont.Inspire.Models.Transfers.ImportReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: TargetElementName
+  nameWithType: ImportReferenceModel.TargetElementName
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetElementName
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ImportReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TargetElementName
+    path: Transfers/ImportReferenceModel.cs
+    startLine: 54
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the element name of the target element within the target component.\n"
+  example: []
+  syntax:
+    content: public string TargetElementName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TargetElementName As String
+  overload: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetElementName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetAttributeName
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetAttributeName
+  id: TargetAttributeName
+  parent: Vasont.Inspire.Models.Transfers.ImportReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: TargetAttributeName
+  nameWithType: ImportReferenceModel.TargetAttributeName
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetAttributeName
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ImportReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TargetAttributeName
+    path: Transfers/ImportReferenceModel.cs
+    startLine: 59
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the element attribute name of the target element within the target component.\n"
+  example: []
+  syntax:
+    content: public string TargetAttributeName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TargetAttributeName As String
+  overload: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetAttributeName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetAttributeValue
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetAttributeValue
+  id: TargetAttributeValue
+  parent: Vasont.Inspire.Models.Transfers.ImportReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: TargetAttributeValue
+  nameWithType: ImportReferenceModel.TargetAttributeValue
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetAttributeValue
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ImportReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TargetAttributeValue
+    path: Transfers/ImportReferenceModel.cs
+    startLine: 64
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the attribute value of the target element within the target component.\n"
+  example: []
+  syntax:
+    content: public string TargetAttributeValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TargetAttributeValue As String
+  overload: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetAttributeValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.Invalid
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportReferenceModel.Invalid
+  id: Invalid
+  parent: Vasont.Inspire.Models.Transfers.ImportReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: Invalid
+  nameWithType: ImportReferenceModel.Invalid
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.Invalid
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ImportReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Invalid
+    path: Transfers/ImportReferenceModel.cs
+    startLine: 69
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets a value indicating whether the reference is invalid.\n"
+  example: []
+  syntax:
+    content: public bool Invalid { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Invalid As Boolean
+  overload: Vasont.Inspire.Models.Transfers.ImportReferenceModel.Invalid*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.CreatorUserId
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportReferenceModel.CreatorUserId
+  id: CreatorUserId
+  parent: Vasont.Inspire.Models.Transfers.ImportReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: CreatorUserId
+  nameWithType: ImportReferenceModel.CreatorUserId
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.CreatorUserId
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ImportReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CreatorUserId
+    path: Transfers/ImportReferenceModel.cs
+    startLine: 74
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the user identity used for the creator of the relationship record.\n"
+  example: []
+  syntax:
+    content: public long CreatorUserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property CreatorUserId As Long
+  overload: Vasont.Inspire.Models.Transfers.ImportReferenceModel.CreatorUserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.WordCount
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportReferenceModel.WordCount
+  id: WordCount
+  parent: Vasont.Inspire.Models.Transfers.ImportReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: WordCount
+  nameWithType: ImportReferenceModel.WordCount
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.WordCount
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ImportReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: WordCount
+    path: Transfers/ImportReferenceModel.cs
+    startLine: 79
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the word count of the component relation text.\n"
+  example: []
+  syntax:
+    content: public int WordCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property WordCount As Integer
+  overload: Vasont.Inspire.Models.Transfers.ImportReferenceModel.WordCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.ComponentReference
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportReferenceModel.ComponentReference
+  id: ComponentReference
+  parent: Vasont.Inspire.Models.Transfers.ImportReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: ComponentReference
+  nameWithType: ImportReferenceModel.ComponentReference
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.ComponentReference
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ImportReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentReference
+    path: Transfers/ImportReferenceModel.cs
+    startLine: 84
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the component reference of the specified type.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public IComponentReference ComponentReference { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Components.IComponentReference
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property ComponentReference As IComponentReference
+  overload: Vasont.Inspire.Models.Transfers.ImportReferenceModel.ComponentReference*
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Transfers
+  commentId: N:Vasont.Inspire.Models.Transfers
+  name: Vasont.Inspire.Models.Transfers
+  nameWithType: Vasont.Inspire.Models.Transfers
+  fullName: Vasont.Inspire.Models.Transfers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetComponentId*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetComponentId
+  name: TargetComponentId
+  nameWithType: ImportReferenceModel.TargetComponentId
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetComponentId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetUniqueId*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetUniqueId
+  name: TargetUniqueId
+  nameWithType: ImportReferenceModel.TargetUniqueId
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetUniqueId
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.RelationId*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportReferenceModel.RelationId
+  name: RelationId
+  nameWithType: ImportReferenceModel.RelationId
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.RelationId
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceComponentId*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceComponentId
+  name: SourceComponentId
+  nameWithType: ImportReferenceModel.SourceComponentId
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceComponentId
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceElementName*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceElementName
+  name: SourceElementName
+  nameWithType: ImportReferenceModel.SourceElementName
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceElementName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceAttributeName*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceAttributeName
+  name: SourceAttributeName
+  nameWithType: ImportReferenceModel.SourceAttributeName
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceAttributeName
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceAttributeValue*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceAttributeValue
+  name: SourceAttributeValue
+  nameWithType: ImportReferenceModel.SourceAttributeValue
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.SourceAttributeValue
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetElementName*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetElementName
+  name: TargetElementName
+  nameWithType: ImportReferenceModel.TargetElementName
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetElementName
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetAttributeName*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetAttributeName
+  name: TargetAttributeName
+  nameWithType: ImportReferenceModel.TargetAttributeName
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetAttributeName
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetAttributeValue*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetAttributeValue
+  name: TargetAttributeValue
+  nameWithType: ImportReferenceModel.TargetAttributeValue
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.TargetAttributeValue
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.Invalid*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportReferenceModel.Invalid
+  name: Invalid
+  nameWithType: ImportReferenceModel.Invalid
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.Invalid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.CreatorUserId*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportReferenceModel.CreatorUserId
+  name: CreatorUserId
+  nameWithType: ImportReferenceModel.CreatorUserId
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.CreatorUserId
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.WordCount*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportReferenceModel.WordCount
+  name: WordCount
+  nameWithType: ImportReferenceModel.WordCount
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.WordCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Vasont.Inspire.Models.Transfers.ImportReferenceModel.ComponentReference*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportReferenceModel.ComponentReference
+  name: ComponentReference
+  nameWithType: ImportReferenceModel.ComponentReference
+  fullName: Vasont.Inspire.Models.Transfers.ImportReferenceModel.ComponentReference
+- uid: Vasont.Inspire.Models.Components.IComponentReference
+  commentId: T:Vasont.Inspire.Models.Components.IComponentReference
+  parent: Vasont.Inspire.Models.Components
+  name: IComponentReference
+  nameWithType: IComponentReference
+  fullName: Vasont.Inspire.Models.Components.IComponentReference
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components

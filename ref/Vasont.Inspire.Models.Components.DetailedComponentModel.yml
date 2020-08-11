@@ -1,0 +1,1017 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel
+  commentId: T:Vasont.Inspire.Models.Components.DetailedComponentModel
+  id: DetailedComponentModel
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.DetailedComponentModel.#ctor
+  - Vasont.Inspire.Models.Components.DetailedComponentModel.#ctor(Vasont.Inspire.Models.Security.PermissionFlags)
+  - Vasont.Inspire.Models.Components.DetailedComponentModel.Dependencies
+  - Vasont.Inspire.Models.Components.DetailedComponentModel.LanguageNameCode
+  - Vasont.Inspire.Models.Components.DetailedComponentModel.Properties
+  - Vasont.Inspire.Models.Components.DetailedComponentModel.TagIds
+  - Vasont.Inspire.Models.Components.DetailedComponentModel.Tags
+  langs:
+  - csharp
+  - vb
+  name: DetailedComponentModel
+  nameWithType: DetailedComponentModel
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel
+  type: Class
+  source:
+    remote:
+      path: src/Components/DetailedComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DetailedComponentModel
+    path: Components/DetailedComponentModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis class represents a detailed component model with information that will used for interaction with application user interfaces.\n"
+  example: []
+  syntax:
+    content: 'public class DetailedComponentModel : MinimalComponentModel'
+    content.vb: >-
+      Public Class DetailedComponentModel
+          Inherits MinimalComponentModel
+  inheritance:
+  - System.Object
+  - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  - Vasont.Inspire.Models.Components.MinimalComponentModel
+  inheritedMembers:
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentId
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentTypeId
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentType
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.Metrics
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.Folder
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.IsImage
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.ContentType
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.Name
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.LanguageCode
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.LanguageName
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.FileName
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.State
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.StateName
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.UniqueId
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.HashKey
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.Lock
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.Permissions
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.VirtualPath
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.Type
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate
+  - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
+  - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedBy
+  - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedDate
+  - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedBy
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel.#ctor
+  commentId: M:Vasont.Inspire.Models.Components.DetailedComponentModel.#ctor
+  id: '#ctor'
+  parent: Vasont.Inspire.Models.Components.DetailedComponentModel
+  langs:
+  - csharp
+  - vb
+  name: DetailedComponentModel()
+  nameWithType: DetailedComponentModel.DetailedComponentModel()
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel.DetailedComponentModel()
+  type: Constructor
+  source:
+    remote:
+      path: src/Components/DetailedComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: .ctor
+    path: Components/DetailedComponentModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nInitializes a new instance of the <xref href=\"Vasont.Inspire.Models.Components.DetailedComponentModel\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public DetailedComponentModel()
+    content.vb: Public Sub New
+  overload: Vasont.Inspire.Models.Components.DetailedComponentModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel.#ctor(Vasont.Inspire.Models.Security.PermissionFlags)
+  commentId: M:Vasont.Inspire.Models.Components.DetailedComponentModel.#ctor(Vasont.Inspire.Models.Security.PermissionFlags)
+  id: '#ctor(Vasont.Inspire.Models.Security.PermissionFlags)'
+  parent: Vasont.Inspire.Models.Components.DetailedComponentModel
+  langs:
+  - csharp
+  - vb
+  name: DetailedComponentModel(PermissionFlags)
+  nameWithType: DetailedComponentModel.DetailedComponentModel(PermissionFlags)
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel.DetailedComponentModel(Vasont.Inspire.Models.Security.PermissionFlags)
+  type: Constructor
+  source:
+    remote:
+      path: src/Components/DetailedComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: .ctor
+    path: Components/DetailedComponentModel.cs
+    startLine: 29
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nInitializes a new instance of the <xref href=\"Vasont.Inspire.Models.Components.DetailedComponentModel\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public DetailedComponentModel(PermissionFlags permissions)
+    parameters:
+    - id: permissions
+      type: Vasont.Inspire.Models.Security.PermissionFlags
+      description: Contains an optional permissions value for the detailed component model.
+    content.vb: Public Sub New(permissions As PermissionFlags)
+  overload: Vasont.Inspire.Models.Components.DetailedComponentModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel.LanguageNameCode
+  commentId: P:Vasont.Inspire.Models.Components.DetailedComponentModel.LanguageNameCode
+  id: LanguageNameCode
+  parent: Vasont.Inspire.Models.Components.DetailedComponentModel
+  langs:
+  - csharp
+  - vb
+  name: LanguageNameCode
+  nameWithType: DetailedComponentModel.LanguageNameCode
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel.LanguageNameCode
+  type: Property
+  source:
+    remote:
+      path: src/Components/DetailedComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: LanguageNameCode
+    path: Components/DetailedComponentModel.cs
+    startLine: 44
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the language name and code appended together associated with the component.\n"
+  example: []
+  syntax:
+    content: public string LanguageNameCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LanguageNameCode As String
+  overload: Vasont.Inspire.Models.Components.DetailedComponentModel.LanguageNameCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel.Tags
+  commentId: P:Vasont.Inspire.Models.Components.DetailedComponentModel.Tags
+  id: Tags
+  parent: Vasont.Inspire.Models.Components.DetailedComponentModel
+  langs:
+  - csharp
+  - vb
+  name: Tags
+  nameWithType: DetailedComponentModel.Tags
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel.Tags
+  type: Property
+  source:
+    remote:
+      path: src/Components/DetailedComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Tags
+    path: Components/DetailedComponentModel.cs
+    startLine: 49
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a list of tags associated with the component.\n"
+  example: []
+  syntax:
+    content: public List<TagModel> Tags { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Components.TagModel}
+    content.vb: Public Property Tags As List(Of TagModel)
+  overload: Vasont.Inspire.Models.Components.DetailedComponentModel.Tags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel.TagIds
+  commentId: P:Vasont.Inspire.Models.Components.DetailedComponentModel.TagIds
+  id: TagIds
+  parent: Vasont.Inspire.Models.Components.DetailedComponentModel
+  langs:
+  - csharp
+  - vb
+  name: TagIds
+  nameWithType: DetailedComponentModel.TagIds
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel.TagIds
+  type: Property
+  source:
+    remote:
+      path: src/Components/DetailedComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TagIds
+    path: Components/DetailedComponentModel.cs
+    startLine: 54
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a comma delimited list of tag identities.\n"
+  example: []
+  syntax:
+    content: public string TagIds { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TagIds As String
+  overload: Vasont.Inspire.Models.Components.DetailedComponentModel.TagIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel.Properties
+  commentId: P:Vasont.Inspire.Models.Components.DetailedComponentModel.Properties
+  id: Properties
+  parent: Vasont.Inspire.Models.Components.DetailedComponentModel
+  langs:
+  - csharp
+  - vb
+  name: Properties
+  nameWithType: DetailedComponentModel.Properties
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel.Properties
+  type: Property
+  source:
+    remote:
+      path: src/Components/DetailedComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Properties
+    path: Components/DetailedComponentModel.cs
+    startLine: 59
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a list of properties associated with the component.\n"
+  example: []
+  syntax:
+    content: public List<ComponentPropertyModel> Properties { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Components.ComponentPropertyModel}
+    content.vb: Public Property Properties As List(Of ComponentPropertyModel)
+  overload: Vasont.Inspire.Models.Components.DetailedComponentModel.Properties*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel.Dependencies
+  commentId: P:Vasont.Inspire.Models.Components.DetailedComponentModel.Dependencies
+  id: Dependencies
+  parent: Vasont.Inspire.Models.Components.DetailedComponentModel
+  langs:
+  - csharp
+  - vb
+  name: Dependencies
+  nameWithType: DetailedComponentModel.Dependencies
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel.Dependencies
+  type: Property
+  source:
+    remote:
+      path: src/Components/DetailedComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Dependencies
+    path: Components/DetailedComponentModel.cs
+    startLine: 64
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a list of dependencies associated with the component.\n"
+  example: []
+  syntax:
+    content: public List<ComponentDependencyModel> Dependencies { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Components.ComponentDependencyModel}
+    content.vb: Public Property Dependencies As List(Of ComponentDependencyModel)
+  overload: Vasont.Inspire.Models.Components.DetailedComponentModel.Dependencies*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  commentId: T:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  parent: Vasont.Inspire.Models.Common
+  name: CreatedUpdaterModelBase
+  nameWithType: CreatedUpdaterModelBase
+  fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel
+  commentId: T:Vasont.Inspire.Models.Components.MinimalComponentModel
+  parent: Vasont.Inspire.Models.Components
+  name: MinimalComponentModel
+  nameWithType: MinimalComponentModel
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentId
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentId
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: ComponentId
+  nameWithType: MinimalComponentModel.ComponentId
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentId
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentTypeId
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentTypeId
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: ComponentTypeId
+  nameWithType: MinimalComponentModel.ComponentTypeId
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentTypeId
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentType
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentType
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: ComponentType
+  nameWithType: MinimalComponentModel.ComponentType
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentType
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.Metrics
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.Metrics
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: Metrics
+  nameWithType: MinimalComponentModel.Metrics
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.Metrics
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.Folder
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.Folder
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: Folder
+  nameWithType: MinimalComponentModel.Folder
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.Folder
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.IsImage
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.IsImage
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: IsImage
+  nameWithType: MinimalComponentModel.IsImage
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.IsImage
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.ContentType
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.ContentType
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: ContentType
+  nameWithType: MinimalComponentModel.ContentType
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.ContentType
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.Name
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.Name
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: Name
+  nameWithType: MinimalComponentModel.Name
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.Name
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.LanguageCode
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.LanguageCode
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: LanguageCode
+  nameWithType: MinimalComponentModel.LanguageCode
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.LanguageCode
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.LanguageName
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.LanguageName
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: LanguageName
+  nameWithType: MinimalComponentModel.LanguageName
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.LanguageName
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.FileName
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.FileName
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: FileName
+  nameWithType: MinimalComponentModel.FileName
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.FileName
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.State
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.State
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: State
+  nameWithType: MinimalComponentModel.State
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.State
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.StateName
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.StateName
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: StateName
+  nameWithType: MinimalComponentModel.StateName
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.StateName
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.UniqueId
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.UniqueId
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: UniqueId
+  nameWithType: MinimalComponentModel.UniqueId
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.UniqueId
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.HashKey
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.HashKey
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: HashKey
+  nameWithType: MinimalComponentModel.HashKey
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.HashKey
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.Lock
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.Lock
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: Lock
+  nameWithType: MinimalComponentModel.Lock
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.Lock
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.Permissions
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.Permissions
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: Permissions
+  nameWithType: MinimalComponentModel.Permissions
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.Permissions
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.VirtualPath
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.VirtualPath
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: VirtualPath
+  nameWithType: MinimalComponentModel.VirtualPath
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.VirtualPath
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.Type
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.Type
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: Type
+  nameWithType: MinimalComponentModel.Type
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.Type
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: CanTranslate
+  nameWithType: MinimalComponentModel.CanTranslate
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate
+- uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
+  commentId: P:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
+  parent: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  name: CreatedDate
+  nameWithType: CreatedUpdaterModelBase.CreatedDate
+  fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
+- uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedBy
+  commentId: P:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedBy
+  parent: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  name: CreatedBy
+  nameWithType: CreatedUpdaterModelBase.CreatedBy
+  fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedBy
+- uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedDate
+  commentId: P:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedDate
+  parent: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  name: UpdatedDate
+  nameWithType: CreatedUpdaterModelBase.UpdatedDate
+  fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedDate
+- uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedBy
+  commentId: P:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedBy
+  parent: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
+  name: UpdatedBy
+  nameWithType: CreatedUpdaterModelBase.UpdatedBy
+  fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedBy
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Common
+  commentId: N:Vasont.Inspire.Models.Common
+  name: Vasont.Inspire.Models.Common
+  nameWithType: Vasont.Inspire.Models.Common
+  fullName: Vasont.Inspire.Models.Common
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel
+  commentId: T:Vasont.Inspire.Models.Components.DetailedComponentModel
+  name: DetailedComponentModel
+  nameWithType: DetailedComponentModel
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel.#ctor*
+  commentId: Overload:Vasont.Inspire.Models.Components.DetailedComponentModel.#ctor
+  name: DetailedComponentModel
+  nameWithType: DetailedComponentModel.DetailedComponentModel
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel.DetailedComponentModel
+- uid: Vasont.Inspire.Models.Security.PermissionFlags
+  commentId: T:Vasont.Inspire.Models.Security.PermissionFlags
+  parent: Vasont.Inspire.Models.Security
+  name: PermissionFlags
+  nameWithType: PermissionFlags
+  fullName: Vasont.Inspire.Models.Security.PermissionFlags
+- uid: Vasont.Inspire.Models.Security
+  commentId: N:Vasont.Inspire.Models.Security
+  name: Vasont.Inspire.Models.Security
+  nameWithType: Vasont.Inspire.Models.Security
+  fullName: Vasont.Inspire.Models.Security
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel.LanguageNameCode*
+  commentId: Overload:Vasont.Inspire.Models.Components.DetailedComponentModel.LanguageNameCode
+  name: LanguageNameCode
+  nameWithType: DetailedComponentModel.LanguageNameCode
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel.LanguageNameCode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel.Tags*
+  commentId: Overload:Vasont.Inspire.Models.Components.DetailedComponentModel.Tags
+  name: Tags
+  nameWithType: DetailedComponentModel.Tags
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel.Tags
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Components.TagModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Components.TagModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<TagModel>
+  nameWithType: List<TagModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Components.TagModel>
+  nameWithType.vb: List(Of TagModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Components.TagModel)
+  name.vb: List(Of TagModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Components.TagModel
+    name: TagModel
+    nameWithType: TagModel
+    fullName: Vasont.Inspire.Models.Components.TagModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Components.TagModel
+    name: TagModel
+    nameWithType: TagModel
+    fullName: Vasont.Inspire.Models.Components.TagModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel.TagIds*
+  commentId: Overload:Vasont.Inspire.Models.Components.DetailedComponentModel.TagIds
+  name: TagIds
+  nameWithType: DetailedComponentModel.TagIds
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel.TagIds
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel.Properties*
+  commentId: Overload:Vasont.Inspire.Models.Components.DetailedComponentModel.Properties
+  name: Properties
+  nameWithType: DetailedComponentModel.Properties
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel.Properties
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Components.ComponentPropertyModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Components.ComponentPropertyModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ComponentPropertyModel>
+  nameWithType: List<ComponentPropertyModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Components.ComponentPropertyModel>
+  nameWithType.vb: List(Of ComponentPropertyModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Components.ComponentPropertyModel)
+  name.vb: List(Of ComponentPropertyModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Components.ComponentPropertyModel
+    name: ComponentPropertyModel
+    nameWithType: ComponentPropertyModel
+    fullName: Vasont.Inspire.Models.Components.ComponentPropertyModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Components.ComponentPropertyModel
+    name: ComponentPropertyModel
+    nameWithType: ComponentPropertyModel
+    fullName: Vasont.Inspire.Models.Components.ComponentPropertyModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel.Dependencies*
+  commentId: Overload:Vasont.Inspire.Models.Components.DetailedComponentModel.Dependencies
+  name: Dependencies
+  nameWithType: DetailedComponentModel.Dependencies
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel.Dependencies
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Components.ComponentDependencyModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Components.ComponentDependencyModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ComponentDependencyModel>
+  nameWithType: List<ComponentDependencyModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Components.ComponentDependencyModel>
+  nameWithType.vb: List(Of ComponentDependencyModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Components.ComponentDependencyModel)
+  name.vb: List(Of ComponentDependencyModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Components.ComponentDependencyModel
+    name: ComponentDependencyModel
+    nameWithType: ComponentDependencyModel
+    fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Components.ComponentDependencyModel
+    name: ComponentDependencyModel
+    nameWithType: ComponentDependencyModel
+    fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel
+  - name: )
+    nameWithType: )
+    fullName: )

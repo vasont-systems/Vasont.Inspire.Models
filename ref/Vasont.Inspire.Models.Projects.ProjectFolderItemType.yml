@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemType
+  commentId: T:Vasont.Inspire.Models.Projects.ProjectFolderItemType
+  id: ProjectFolderItemType
+  parent: Vasont.Inspire.Models.Projects
+  children:
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemType.Binary
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemType.Component
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemType.Folder
+  - Vasont.Inspire.Models.Projects.ProjectFolderItemType.Image
+  langs:
+  - csharp
+  - vb
+  name: ProjectFolderItemType
+  nameWithType: ProjectFolderItemType
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemType
+  type: Enum
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProjectFolderItemType
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nContains an enumerated list of project folder item types.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum ProjectFolderItemType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum ProjectFolderItemType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemType.Folder
+  commentId: F:Vasont.Inspire.Models.Projects.ProjectFolderItemType.Folder
+  id: Folder
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemType
+  langs:
+  - csharp
+  - vb
+  name: Folder
+  nameWithType: ProjectFolderItemType.Folder
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemType.Folder
+  type: Field
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Folder
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nThe folder item is a folder.\n"
+  example: []
+  syntax:
+    content: Folder = 0
+    return:
+      type: Vasont.Inspire.Models.Projects.ProjectFolderItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemType.Component
+  commentId: F:Vasont.Inspire.Models.Projects.ProjectFolderItemType.Component
+  id: Component
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemType
+  langs:
+  - csharp
+  - vb
+  name: Component
+  nameWithType: ProjectFolderItemType.Component
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemType.Component
+  type: Field
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Component
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nThe folder item is a component.\n"
+  example: []
+  syntax:
+    content: Component = 1
+    return:
+      type: Vasont.Inspire.Models.Projects.ProjectFolderItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemType.Image
+  commentId: F:Vasont.Inspire.Models.Projects.ProjectFolderItemType.Image
+  id: Image
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemType
+  langs:
+  - csharp
+  - vb
+  name: Image
+  nameWithType: ProjectFolderItemType.Image
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemType.Image
+  type: Field
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Image
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nThe folder item is a binary image component.\n"
+  example: []
+  syntax:
+    content: Image = 2
+    return:
+      type: Vasont.Inspire.Models.Projects.ProjectFolderItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemType.Binary
+  commentId: F:Vasont.Inspire.Models.Projects.ProjectFolderItemType.Binary
+  id: Binary
+  parent: Vasont.Inspire.Models.Projects.ProjectFolderItemType
+  langs:
+  - csharp
+  - vb
+  name: Binary
+  nameWithType: ProjectFolderItemType.Binary
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemType.Binary
+  type: Field
+  source:
+    remote:
+      path: src/Projects/ProjectFolderItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Binary
+    path: Projects/ProjectFolderItemModel.cs
+    startLine: 40
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nThe folder item is a binary component.\n"
+  example: []
+  syntax:
+    content: Binary = 3
+    return:
+      type: Vasont.Inspire.Models.Projects.ProjectFolderItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Projects
+  commentId: N:Vasont.Inspire.Models.Projects
+  name: Vasont.Inspire.Models.Projects
+  nameWithType: Vasont.Inspire.Models.Projects
+  fullName: Vasont.Inspire.Models.Projects
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemType
+  commentId: T:Vasont.Inspire.Models.Projects.ProjectFolderItemType
+  parent: Vasont.Inspire.Models.Projects
+  name: ProjectFolderItemType
+  nameWithType: ProjectFolderItemType
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemType

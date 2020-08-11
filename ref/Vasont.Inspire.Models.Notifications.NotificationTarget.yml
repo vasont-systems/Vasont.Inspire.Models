@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Notifications.NotificationTarget
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationTarget
+  id: NotificationTarget
+  parent: Vasont.Inspire.Models.Notifications
+  children:
+  - Vasont.Inspire.Models.Notifications.NotificationTarget.All
+  - Vasont.Inspire.Models.Notifications.NotificationTarget.Tenant
+  - Vasont.Inspire.Models.Notifications.NotificationTarget.User
+  langs:
+  - csharp
+  - vb
+  name: NotificationTarget
+  nameWithType: NotificationTarget
+  fullName: Vasont.Inspire.Models.Notifications.NotificationTarget
+  type: Enum
+  source:
+    remote:
+      path: src/Notifications/NotificationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: NotificationTarget
+    path: Notifications/NotificationModel.cs
+    startLine: 46
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nContains an enumerated list of notification target types.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum NotificationTarget
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum NotificationTarget
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Notifications.NotificationTarget.User
+  commentId: F:Vasont.Inspire.Models.Notifications.NotificationTarget.User
+  id: User
+  parent: Vasont.Inspire.Models.Notifications.NotificationTarget
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: NotificationTarget.User
+  fullName: Vasont.Inspire.Models.Notifications.NotificationTarget.User
+  type: Field
+  source:
+    remote:
+      path: src/Notifications/NotificationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: User
+    path: Notifications/NotificationModel.cs
+    startLine: 52
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nNotify a specific user.\n"
+  example: []
+  syntax:
+    content: User = 0
+    return:
+      type: Vasont.Inspire.Models.Notifications.NotificationTarget
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Notifications.NotificationTarget.Tenant
+  commentId: F:Vasont.Inspire.Models.Notifications.NotificationTarget.Tenant
+  id: Tenant
+  parent: Vasont.Inspire.Models.Notifications.NotificationTarget
+  langs:
+  - csharp
+  - vb
+  name: Tenant
+  nameWithType: NotificationTarget.Tenant
+  fullName: Vasont.Inspire.Models.Notifications.NotificationTarget.Tenant
+  type: Field
+  source:
+    remote:
+      path: src/Notifications/NotificationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Tenant
+    path: Notifications/NotificationModel.cs
+    startLine: 57
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nNotify all users of a specific tenant.\n"
+  example: []
+  syntax:
+    content: Tenant = 1
+    return:
+      type: Vasont.Inspire.Models.Notifications.NotificationTarget
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Notifications.NotificationTarget.All
+  commentId: F:Vasont.Inspire.Models.Notifications.NotificationTarget.All
+  id: All
+  parent: Vasont.Inspire.Models.Notifications.NotificationTarget
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: NotificationTarget.All
+  fullName: Vasont.Inspire.Models.Notifications.NotificationTarget.All
+  type: Field
+  source:
+    remote:
+      path: src/Notifications/NotificationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: All
+    path: Notifications/NotificationModel.cs
+    startLine: 62
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nNotify all users. All tenants. Admin only.\n"
+  example: []
+  syntax:
+    content: All = 2
+    return:
+      type: Vasont.Inspire.Models.Notifications.NotificationTarget
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Notifications
+  commentId: N:Vasont.Inspire.Models.Notifications
+  name: Vasont.Inspire.Models.Notifications
+  nameWithType: Vasont.Inspire.Models.Notifications
+  fullName: Vasont.Inspire.Models.Notifications
+- uid: Vasont.Inspire.Models.Notifications.NotificationTarget
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationTarget
+  parent: Vasont.Inspire.Models.Notifications
+  name: NotificationTarget
+  nameWithType: NotificationTarget
+  fullName: Vasont.Inspire.Models.Notifications.NotificationTarget

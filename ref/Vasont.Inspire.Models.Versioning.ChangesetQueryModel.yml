@@ -1,0 +1,438 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Versioning.ChangesetQueryModel
+  commentId: T:Vasont.Inspire.Models.Versioning.ChangesetQueryModel
+  id: ChangesetQueryModel
+  parent: Vasont.Inspire.Models.Versioning
+  children:
+  - Vasont.Inspire.Models.Versioning.ChangesetQueryModel.SearchText
+  langs:
+  - csharp
+  - vb
+  name: ChangesetQueryModel
+  nameWithType: ChangesetQueryModel
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetQueryModel
+  type: Class
+  source:
+    remote:
+      path: src/Versioning/ChangesetQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ChangesetQueryModel
+    path: Versioning/ChangesetQueryModel.cs
+    startLine: 12
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nThis model class represents parameters passed in from a paging grid listing of changeset history.\n"
+  example: []
+  syntax:
+    content: 'public sealed class ChangesetQueryModel : PaginatedQueryRequestModel'
+    content.vb: >-
+      Public NotInheritable Class ChangesetQueryModel
+          Inherits PaginatedQueryRequestModel
+  inheritance:
+  - System.Object
+  - Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  inheritedMembers:
+  - Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Page
+  - Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Limit
+  - Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Sort
+  - Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Dir
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.SearchText
+  commentId: P:Vasont.Inspire.Models.Versioning.ChangesetQueryModel.SearchText
+  id: SearchText
+  parent: Vasont.Inspire.Models.Versioning.ChangesetQueryModel
+  langs:
+  - csharp
+  - vb
+  name: SearchText
+  nameWithType: ChangesetQueryModel.SearchText
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.SearchText
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ChangesetQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SearchText
+    path: Versioning/ChangesetQueryModel.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the search text to find within changeset labels and/or comments.\n"
+  example: []
+  syntax:
+    content: public string SearchText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SearchText As String
+  overload: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.SearchText*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Versioning
+  commentId: N:Vasont.Inspire.Models.Versioning
+  name: Vasont.Inspire.Models.Versioning
+  nameWithType: Vasont.Inspire.Models.Versioning
+  fullName: Vasont.Inspire.Models.Versioning
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  commentId: T:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  parent: Vasont.Inspire.Models.Common
+  name: PaginatedQueryRequestModel
+  nameWithType: PaginatedQueryRequestModel
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Page
+  commentId: P:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Page
+  parent: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  name: Page
+  nameWithType: PaginatedQueryRequestModel.Page
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Page
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Limit
+  commentId: P:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Limit
+  parent: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  name: Limit
+  nameWithType: PaginatedQueryRequestModel.Limit
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Limit
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Sort
+  commentId: P:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Sort
+  parent: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  name: Sort
+  nameWithType: PaginatedQueryRequestModel.Sort
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Sort
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Dir
+  commentId: P:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Dir
+  parent: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  name: Dir
+  nameWithType: PaginatedQueryRequestModel.Dir
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Dir
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Common
+  commentId: N:Vasont.Inspire.Models.Common
+  name: Vasont.Inspire.Models.Common
+  nameWithType: Vasont.Inspire.Models.Common
+  fullName: Vasont.Inspire.Models.Common
+- uid: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.SearchText*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetQueryModel.SearchText
+  name: SearchText
+  nameWithType: ChangesetQueryModel.SearchText
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.SearchText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,802 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel
+  commentId: T:Vasont.Inspire.Models.Utilities.SelectUserRoleModel
+  id: SelectUserRoleModel
+  parent: Vasont.Inspire.Models.Utilities
+  children:
+  - Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Description
+  - Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Email
+  - Vasont.Inspire.Models.Utilities.SelectUserRoleModel.FullName
+  - Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Memberships
+  - Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Name
+  - Vasont.Inspire.Models.Utilities.SelectUserRoleModel.ProfileImageUrl
+  - Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Type
+  - Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserRoleId
+  langs:
+  - csharp
+  - vb
+  name: SelectUserRoleModel
+  nameWithType: SelectUserRoleModel
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel
+  type: Class
+  source:
+    remote:
+      path: src/Utilities/SelectUserRoleModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SelectUserRoleModel
+    path: Utilities/SelectUserRoleModel.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Utilities
+  summary: "\nThis class represents a user role returned from a available user role API query.\n"
+  example: []
+  syntax:
+    content: public class SelectUserRoleModel
+    content.vb: Public Class SelectUserRoleModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserRoleId
+  commentId: P:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserRoleId
+  id: UserRoleId
+  parent: Vasont.Inspire.Models.Utilities.SelectUserRoleModel
+  langs:
+  - csharp
+  - vb
+  name: UserRoleId
+  nameWithType: SelectUserRoleModel.UserRoleId
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserRoleId
+  type: Property
+  source:
+    remote:
+      path: src/Utilities/SelectUserRoleModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UserRoleId
+    path: Utilities/SelectUserRoleModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Utilities
+  summary: "\nGets or sets the unique identity for this role or model. It is a combination of &quot;type&quot; and identity value.\n"
+  example: []
+  syntax:
+    content: public long UserRoleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property UserRoleId As Long
+  overload: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserRoleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Name
+  commentId: P:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Name
+  id: Name
+  parent: Vasont.Inspire.Models.Utilities.SelectUserRoleModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SelectUserRoleModel.Name
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Name
+  type: Property
+  source:
+    remote:
+      path: src/Utilities/SelectUserRoleModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Name
+    path: Utilities/SelectUserRoleModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Utilities
+  summary: "\nGets or sets the user or role name.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.FullName
+  commentId: P:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.FullName
+  id: FullName
+  parent: Vasont.Inspire.Models.Utilities.SelectUserRoleModel
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: SelectUserRoleModel.FullName
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.FullName
+  type: Property
+  source:
+    remote:
+      path: src/Utilities/SelectUserRoleModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FullName
+    path: Utilities/SelectUserRoleModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Utilities
+  summary: "\nGets or sets the user or role full name.\n"
+  example: []
+  syntax:
+    content: public string FullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FullName As String
+  overload: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.FullName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Type
+  commentId: P:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Type
+  id: Type
+  parent: Vasont.Inspire.Models.Utilities.SelectUserRoleModel
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: SelectUserRoleModel.Type
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Type
+  type: Property
+  source:
+    remote:
+      path: src/Utilities/SelectUserRoleModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Type
+    path: Utilities/SelectUserRoleModel.cs
+    startLine: 35
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Utilities
+  summary: "\nGets or sets the user or role type.\n"
+  example: []
+  syntax:
+    content: public SecurityType Type { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.SecurityType
+    content.vb: Public Property Type As SecurityType
+  overload: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Description
+  commentId: P:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Description
+  id: Description
+  parent: Vasont.Inspire.Models.Utilities.SelectUserRoleModel
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: SelectUserRoleModel.Description
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Description
+  type: Property
+  source:
+    remote:
+      path: src/Utilities/SelectUserRoleModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Description
+    path: Utilities/SelectUserRoleModel.cs
+    startLine: 40
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Utilities
+  summary: "\nGets or sets the user or role description.\n"
+  example: []
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Email
+  commentId: P:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Email
+  id: Email
+  parent: Vasont.Inspire.Models.Utilities.SelectUserRoleModel
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: SelectUserRoleModel.Email
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Email
+  type: Property
+  source:
+    remote:
+      path: src/Utilities/SelectUserRoleModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Email
+    path: Utilities/SelectUserRoleModel.cs
+    startLine: 45
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Utilities
+  summary: "\nGets or sets the user e-mail address.\n"
+  example: []
+  syntax:
+    content: public string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Email As String
+  overload: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Email*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.ProfileImageUrl
+  commentId: P:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.ProfileImageUrl
+  id: ProfileImageUrl
+  parent: Vasont.Inspire.Models.Utilities.SelectUserRoleModel
+  langs:
+  - csharp
+  - vb
+  name: ProfileImageUrl
+  nameWithType: SelectUserRoleModel.ProfileImageUrl
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.ProfileImageUrl
+  type: Property
+  source:
+    remote:
+      path: src/Utilities/SelectUserRoleModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProfileImageUrl
+    path: Utilities/SelectUserRoleModel.cs
+    startLine: 50
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Utilities
+  summary: "\nGets or sets the profile image URL.\n"
+  example: []
+  syntax:
+    content: public string ProfileImageUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProfileImageUrl As String
+  overload: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.ProfileImageUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Memberships
+  commentId: P:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Memberships
+  id: Memberships
+  parent: Vasont.Inspire.Models.Utilities.SelectUserRoleModel
+  langs:
+  - csharp
+  - vb
+  name: Memberships
+  nameWithType: SelectUserRoleModel.Memberships
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Memberships
+  type: Property
+  source:
+    remote:
+      path: src/Utilities/SelectUserRoleModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Memberships
+    path: Utilities/SelectUserRoleModel.cs
+    startLine: 55
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Utilities
+  summary: "\nGets or sets a comma-delimited list of related associations, such as roles for user types, and users for role types.\n"
+  example: []
+  syntax:
+    content: public List<string> Memberships { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Property Memberships As List(Of String)
+  overload: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Memberships*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Utilities
+  commentId: N:Vasont.Inspire.Models.Utilities
+  name: Vasont.Inspire.Models.Utilities
+  nameWithType: Vasont.Inspire.Models.Utilities
+  fullName: Vasont.Inspire.Models.Utilities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserRoleId*
+  commentId: Overload:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserRoleId
+  name: UserRoleId
+  nameWithType: SelectUserRoleModel.UserRoleId
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserRoleId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Name*
+  commentId: Overload:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Name
+  name: Name
+  nameWithType: SelectUserRoleModel.Name
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.FullName*
+  commentId: Overload:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.FullName
+  name: FullName
+  nameWithType: SelectUserRoleModel.FullName
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.FullName
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Type*
+  commentId: Overload:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Type
+  name: Type
+  nameWithType: SelectUserRoleModel.Type
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Type
+- uid: Vasont.Inspire.Models.Security.SecurityType
+  commentId: T:Vasont.Inspire.Models.Security.SecurityType
+  parent: Vasont.Inspire.Models.Security
+  name: SecurityType
+  nameWithType: SecurityType
+  fullName: Vasont.Inspire.Models.Security.SecurityType
+- uid: Vasont.Inspire.Models.Security
+  commentId: N:Vasont.Inspire.Models.Security
+  name: Vasont.Inspire.Models.Security
+  nameWithType: Vasont.Inspire.Models.Security
+  fullName: Vasont.Inspire.Models.Security
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Description*
+  commentId: Overload:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Description
+  name: Description
+  nameWithType: SelectUserRoleModel.Description
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Description
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Email*
+  commentId: Overload:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Email
+  name: Email
+  nameWithType: SelectUserRoleModel.Email
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Email
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.ProfileImageUrl*
+  commentId: Overload:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.ProfileImageUrl
+  name: ProfileImageUrl
+  nameWithType: SelectUserRoleModel.ProfileImageUrl
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.ProfileImageUrl
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Memberships*
+  commentId: Overload:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Memberships
+  name: Memberships
+  nameWithType: SelectUserRoleModel.Memberships
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Memberships
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

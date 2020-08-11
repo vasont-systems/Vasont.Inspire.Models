@@ -1,0 +1,490 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Translations.TranslationJobStateModel
+  commentId: T:Vasont.Inspire.Models.Translations.TranslationJobStateModel
+  id: TranslationJobStateModel
+  parent: Vasont.Inspire.Models.Translations
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TranslationJobStateModel
+  nameWithType: TranslationJobStateModel
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobStateModel
+  type: Class
+  source:
+    remote:
+      path: src/Translations/TranslationJobStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TranslationJobStateModel
+    path: Translations/TranslationJobStateModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nThis class represents a translation job state display value pair used for retrieving available states.\n"
+  example: []
+  syntax:
+    content: 'public class TranslationJobStateModel : DisplayValuePair<string, TranslationJobState>'
+    content.vb: >-
+      Public Class TranslationJobStateModel
+          Inherits DisplayValuePair(Of String, TranslationJobState)
+  inheritance:
+  - System.Object
+  - Vasont.Inspire.Models.Common.DisplayValuePair{System.String,Vasont.Inspire.Models.Translations.TranslationJobState}
+  inheritedMembers:
+  - Vasont.Inspire.Models.Common.DisplayValuePair{System.String,Vasont.Inspire.Models.Translations.TranslationJobState}.Display
+  - Vasont.Inspire.Models.Common.DisplayValuePair{System.String,Vasont.Inspire.Models.Translations.TranslationJobState}.Value
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Vasont.Inspire.Models.Translations
+  commentId: N:Vasont.Inspire.Models.Translations
+  name: Vasont.Inspire.Models.Translations
+  nameWithType: Vasont.Inspire.Models.Translations
+  fullName: Vasont.Inspire.Models.Translations
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vasont.Inspire.Models.Common.DisplayValuePair{System.String,Vasont.Inspire.Models.Translations.TranslationJobState}
+  commentId: T:Vasont.Inspire.Models.Common.DisplayValuePair{System.String,Vasont.Inspire.Models.Translations.TranslationJobState}
+  parent: Vasont.Inspire.Models.Common
+  definition: Vasont.Inspire.Models.Common.DisplayValuePair`2
+  name: DisplayValuePair<String, TranslationJobState>
+  nameWithType: DisplayValuePair<String, TranslationJobState>
+  fullName: Vasont.Inspire.Models.Common.DisplayValuePair<System.String, Vasont.Inspire.Models.Translations.TranslationJobState>
+  nameWithType.vb: DisplayValuePair(Of String, TranslationJobState)
+  fullName.vb: Vasont.Inspire.Models.Common.DisplayValuePair(Of System.String, Vasont.Inspire.Models.Translations.TranslationJobState)
+  name.vb: DisplayValuePair(Of String, TranslationJobState)
+  spec.csharp:
+  - uid: Vasont.Inspire.Models.Common.DisplayValuePair`2
+    name: DisplayValuePair
+    nameWithType: DisplayValuePair
+    fullName: Vasont.Inspire.Models.Common.DisplayValuePair
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Vasont.Inspire.Models.Translations.TranslationJobState
+    name: TranslationJobState
+    nameWithType: TranslationJobState
+    fullName: Vasont.Inspire.Models.Translations.TranslationJobState
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vasont.Inspire.Models.Common.DisplayValuePair`2
+    name: DisplayValuePair
+    nameWithType: DisplayValuePair
+    fullName: Vasont.Inspire.Models.Common.DisplayValuePair
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Vasont.Inspire.Models.Translations.TranslationJobState
+    name: TranslationJobState
+    nameWithType: TranslationJobState
+    fullName: Vasont.Inspire.Models.Translations.TranslationJobState
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Common.DisplayValuePair{System.String,Vasont.Inspire.Models.Translations.TranslationJobState}.Display
+  commentId: P:Vasont.Inspire.Models.Common.DisplayValuePair{System.String,Vasont.Inspire.Models.Translations.TranslationJobState}.Display
+  parent: Vasont.Inspire.Models.Common.DisplayValuePair{System.String,Vasont.Inspire.Models.Translations.TranslationJobState}
+  definition: Vasont.Inspire.Models.Common.DisplayValuePair`2.Display
+  name: Display
+  nameWithType: DisplayValuePair<String, TranslationJobState>.Display
+  fullName: Vasont.Inspire.Models.Common.DisplayValuePair<System.String, Vasont.Inspire.Models.Translations.TranslationJobState>.Display
+  nameWithType.vb: DisplayValuePair(Of String, TranslationJobState).Display
+  fullName.vb: Vasont.Inspire.Models.Common.DisplayValuePair(Of System.String, Vasont.Inspire.Models.Translations.TranslationJobState).Display
+- uid: Vasont.Inspire.Models.Common.DisplayValuePair{System.String,Vasont.Inspire.Models.Translations.TranslationJobState}.Value
+  commentId: P:Vasont.Inspire.Models.Common.DisplayValuePair{System.String,Vasont.Inspire.Models.Translations.TranslationJobState}.Value
+  parent: Vasont.Inspire.Models.Common.DisplayValuePair{System.String,Vasont.Inspire.Models.Translations.TranslationJobState}
+  definition: Vasont.Inspire.Models.Common.DisplayValuePair`2.Value
+  name: Value
+  nameWithType: DisplayValuePair<String, TranslationJobState>.Value
+  fullName: Vasont.Inspire.Models.Common.DisplayValuePair<System.String, Vasont.Inspire.Models.Translations.TranslationJobState>.Value
+  nameWithType.vb: DisplayValuePair(Of String, TranslationJobState).Value
+  fullName.vb: Vasont.Inspire.Models.Common.DisplayValuePair(Of System.String, Vasont.Inspire.Models.Translations.TranslationJobState).Value
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Common.DisplayValuePair`2
+  commentId: T:Vasont.Inspire.Models.Common.DisplayValuePair`2
+  name: DisplayValuePair<N, V>
+  nameWithType: DisplayValuePair<N, V>
+  fullName: Vasont.Inspire.Models.Common.DisplayValuePair<N, V>
+  nameWithType.vb: DisplayValuePair(Of N, V)
+  fullName.vb: Vasont.Inspire.Models.Common.DisplayValuePair(Of N, V)
+  name.vb: DisplayValuePair(Of N, V)
+  spec.csharp:
+  - uid: Vasont.Inspire.Models.Common.DisplayValuePair`2
+    name: DisplayValuePair
+    nameWithType: DisplayValuePair
+    fullName: Vasont.Inspire.Models.Common.DisplayValuePair
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: N
+    nameWithType: N
+    fullName: N
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vasont.Inspire.Models.Common.DisplayValuePair`2
+    name: DisplayValuePair
+    nameWithType: DisplayValuePair
+    fullName: Vasont.Inspire.Models.Common.DisplayValuePair
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: N
+    nameWithType: N
+    fullName: N
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Common
+  commentId: N:Vasont.Inspire.Models.Common
+  name: Vasont.Inspire.Models.Common
+  nameWithType: Vasont.Inspire.Models.Common
+  fullName: Vasont.Inspire.Models.Common
+- uid: Vasont.Inspire.Models.Common.DisplayValuePair`2.Display
+  commentId: P:Vasont.Inspire.Models.Common.DisplayValuePair`2.Display
+  name: Display
+  nameWithType: DisplayValuePair<N, V>.Display
+  fullName: Vasont.Inspire.Models.Common.DisplayValuePair<N, V>.Display
+  nameWithType.vb: DisplayValuePair(Of N, V).Display
+  fullName.vb: Vasont.Inspire.Models.Common.DisplayValuePair(Of N, V).Display
+- uid: Vasont.Inspire.Models.Common.DisplayValuePair`2.Value
+  commentId: P:Vasont.Inspire.Models.Common.DisplayValuePair`2.Value
+  name: Value
+  nameWithType: DisplayValuePair<N, V>.Value
+  fullName: Vasont.Inspire.Models.Common.DisplayValuePair<N, V>.Value
+  nameWithType.vb: DisplayValuePair(Of N, V).Value
+  fullName.vb: Vasont.Inspire.Models.Common.DisplayValuePair(Of N, V).Value

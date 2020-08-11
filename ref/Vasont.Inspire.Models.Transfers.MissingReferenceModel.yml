@@ -1,0 +1,537 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Transfers.MissingReferenceModel
+  commentId: T:Vasont.Inspire.Models.Transfers.MissingReferenceModel
+  id: MissingReferenceModel
+  parent: Vasont.Inspire.Models.Transfers
+  children:
+  - Vasont.Inspire.Models.Transfers.MissingReferenceModel.ChangesetId
+  - Vasont.Inspire.Models.Transfers.MissingReferenceModel.SourceComponentId
+  - Vasont.Inspire.Models.Transfers.MissingReferenceModel.SourceFileName
+  - Vasont.Inspire.Models.Transfers.MissingReferenceModel.TargetFileName
+  langs:
+  - csharp
+  - vb
+  name: MissingReferenceModel
+  nameWithType: MissingReferenceModel
+  fullName: Vasont.Inspire.Models.Transfers.MissingReferenceModel
+  type: Class
+  source:
+    remote:
+      path: src/Transfers/MissingReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: MissingReferenceModel
+    path: Transfers/MissingReferenceModel.cs
+    startLine: 12
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nThis class represents a missing reference target within an import.\n"
+  example: []
+  syntax:
+    content: public class MissingReferenceModel
+    content.vb: Public Class MissingReferenceModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Transfers.MissingReferenceModel.ChangesetId
+  commentId: P:Vasont.Inspire.Models.Transfers.MissingReferenceModel.ChangesetId
+  id: ChangesetId
+  parent: Vasont.Inspire.Models.Transfers.MissingReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: ChangesetId
+  nameWithType: MissingReferenceModel.ChangesetId
+  fullName: Vasont.Inspire.Models.Transfers.MissingReferenceModel.ChangesetId
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/MissingReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ChangesetId
+    path: Transfers/MissingReferenceModel.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets an optional changeset identity used for historic component references.\n"
+  example: []
+  syntax:
+    content: public Guid ChangesetId { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property ChangesetId As Guid
+  overload: Vasont.Inspire.Models.Transfers.MissingReferenceModel.ChangesetId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.MissingReferenceModel.SourceComponentId
+  commentId: P:Vasont.Inspire.Models.Transfers.MissingReferenceModel.SourceComponentId
+  id: SourceComponentId
+  parent: Vasont.Inspire.Models.Transfers.MissingReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: SourceComponentId
+  nameWithType: MissingReferenceModel.SourceComponentId
+  fullName: Vasont.Inspire.Models.Transfers.MissingReferenceModel.SourceComponentId
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/MissingReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SourceComponentId
+    path: Transfers/MissingReferenceModel.cs
+    startLine: 22
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the component identity of the source component.\n"
+  example: []
+  syntax:
+    content: public long SourceComponentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property SourceComponentId As Long
+  overload: Vasont.Inspire.Models.Transfers.MissingReferenceModel.SourceComponentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.MissingReferenceModel.SourceFileName
+  commentId: P:Vasont.Inspire.Models.Transfers.MissingReferenceModel.SourceFileName
+  id: SourceFileName
+  parent: Vasont.Inspire.Models.Transfers.MissingReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: SourceFileName
+  nameWithType: MissingReferenceModel.SourceFileName
+  fullName: Vasont.Inspire.Models.Transfers.MissingReferenceModel.SourceFileName
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/MissingReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SourceFileName
+    path: Transfers/MissingReferenceModel.cs
+    startLine: 27
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the source file name.\n"
+  example: []
+  syntax:
+    content: public string SourceFileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SourceFileName As String
+  overload: Vasont.Inspire.Models.Transfers.MissingReferenceModel.SourceFileName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.MissingReferenceModel.TargetFileName
+  commentId: P:Vasont.Inspire.Models.Transfers.MissingReferenceModel.TargetFileName
+  id: TargetFileName
+  parent: Vasont.Inspire.Models.Transfers.MissingReferenceModel
+  langs:
+  - csharp
+  - vb
+  name: TargetFileName
+  nameWithType: MissingReferenceModel.TargetFileName
+  fullName: Vasont.Inspire.Models.Transfers.MissingReferenceModel.TargetFileName
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/MissingReferenceModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TargetFileName
+    path: Transfers/MissingReferenceModel.cs
+    startLine: 32
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the missing target file name.\n"
+  example: []
+  syntax:
+    content: public string TargetFileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TargetFileName As String
+  overload: Vasont.Inspire.Models.Transfers.MissingReferenceModel.TargetFileName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Transfers
+  commentId: N:Vasont.Inspire.Models.Transfers
+  name: Vasont.Inspire.Models.Transfers
+  nameWithType: Vasont.Inspire.Models.Transfers
+  fullName: Vasont.Inspire.Models.Transfers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Transfers.MissingReferenceModel.ChangesetId*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.MissingReferenceModel.ChangesetId
+  name: ChangesetId
+  nameWithType: MissingReferenceModel.ChangesetId
+  fullName: Vasont.Inspire.Models.Transfers.MissingReferenceModel.ChangesetId
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Vasont.Inspire.Models.Transfers.MissingReferenceModel.SourceComponentId*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.MissingReferenceModel.SourceComponentId
+  name: SourceComponentId
+  nameWithType: MissingReferenceModel.SourceComponentId
+  fullName: Vasont.Inspire.Models.Transfers.MissingReferenceModel.SourceComponentId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Transfers.MissingReferenceModel.SourceFileName*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.MissingReferenceModel.SourceFileName
+  name: SourceFileName
+  nameWithType: MissingReferenceModel.SourceFileName
+  fullName: Vasont.Inspire.Models.Transfers.MissingReferenceModel.SourceFileName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Transfers.MissingReferenceModel.TargetFileName*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.MissingReferenceModel.TargetFileName
+  name: TargetFileName
+  nameWithType: MissingReferenceModel.TargetFileName
+  fullName: Vasont.Inspire.Models.Transfers.MissingReferenceModel.TargetFileName

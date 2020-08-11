@@ -1,0 +1,838 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel
+  commentId: T:Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel
+  id: ReviewWorkflowSubmittalModel
+  parent: Vasont.Inspire.Models.Reviews
+  children:
+  - Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.CompletedDate
+  - Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.CreatedDate
+  - Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewerIds
+  - Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewId
+  - Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewWorkflowSubmittalId
+  - Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.WorkflowActivityId
+  - Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.WorkflowActivityName
+  langs:
+  - csharp
+  - vb
+  name: ReviewWorkflowSubmittalModel
+  nameWithType: ReviewWorkflowSubmittalModel
+  fullName: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel
+  type: Class
+  source:
+    remote:
+      path: src/Reviews/ReviewWorkflowSubmittalModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewWorkflowSubmittalModel
+    path: Reviews/ReviewWorkflowSubmittalModel.cs
+    startLine: 13
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nThis class is a model representation of a review workflow submittal within the application.\n"
+  example: []
+  syntax:
+    content: public class ReviewWorkflowSubmittalModel
+    content.vb: Public Class ReviewWorkflowSubmittalModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewWorkflowSubmittalId
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewWorkflowSubmittalId
+  id: ReviewWorkflowSubmittalId
+  parent: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel
+  langs:
+  - csharp
+  - vb
+  name: ReviewWorkflowSubmittalId
+  nameWithType: ReviewWorkflowSubmittalModel.ReviewWorkflowSubmittalId
+  fullName: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewWorkflowSubmittalId
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewWorkflowSubmittalModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewWorkflowSubmittalId
+    path: Reviews/ReviewWorkflowSubmittalModel.cs
+    startLine: 18
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the identity of the review workflow submittal.\n"
+  example: []
+  syntax:
+    content: public long ReviewWorkflowSubmittalId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ReviewWorkflowSubmittalId As Long
+  overload: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewWorkflowSubmittalId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewId
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewId
+  id: ReviewId
+  parent: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel
+  langs:
+  - csharp
+  - vb
+  name: ReviewId
+  nameWithType: ReviewWorkflowSubmittalModel.ReviewId
+  fullName: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewId
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewWorkflowSubmittalModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewId
+    path: Reviews/ReviewWorkflowSubmittalModel.cs
+    startLine: 23
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the identity of the associated review workflow.\n"
+  example: []
+  syntax:
+    content: public long ReviewId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ReviewId As Long
+  overload: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewerIds
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewerIds
+  id: ReviewerIds
+  parent: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel
+  langs:
+  - csharp
+  - vb
+  name: ReviewerIds
+  nameWithType: ReviewWorkflowSubmittalModel.ReviewerIds
+  fullName: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewerIds
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewWorkflowSubmittalModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewerIds
+    path: Reviews/ReviewWorkflowSubmittalModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets a list of reviewer identities associated with the submittal.\n"
+  example: []
+  syntax:
+    content: public List<long> ReviewerIds { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Int64}
+    content.vb: Public Property ReviewerIds As List(Of Long)
+  overload: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewerIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.WorkflowActivityId
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.WorkflowActivityId
+  id: WorkflowActivityId
+  parent: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel
+  langs:
+  - csharp
+  - vb
+  name: WorkflowActivityId
+  nameWithType: ReviewWorkflowSubmittalModel.WorkflowActivityId
+  fullName: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.WorkflowActivityId
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewWorkflowSubmittalModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: WorkflowActivityId
+    path: Reviews/ReviewWorkflowSubmittalModel.cs
+    startLine: 33
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the identity of the workflow activity.\n"
+  example: []
+  syntax:
+    content: public string WorkflowActivityId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property WorkflowActivityId As String
+  overload: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.WorkflowActivityId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.WorkflowActivityName
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.WorkflowActivityName
+  id: WorkflowActivityName
+  parent: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel
+  langs:
+  - csharp
+  - vb
+  name: WorkflowActivityName
+  nameWithType: ReviewWorkflowSubmittalModel.WorkflowActivityName
+  fullName: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.WorkflowActivityName
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewWorkflowSubmittalModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: WorkflowActivityName
+    path: Reviews/ReviewWorkflowSubmittalModel.cs
+    startLine: 38
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the name of the workflow activity.\n"
+  example: []
+  syntax:
+    content: public string WorkflowActivityName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property WorkflowActivityName As String
+  overload: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.WorkflowActivityName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.CompletedDate
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.CompletedDate
+  id: CompletedDate
+  parent: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel
+  langs:
+  - csharp
+  - vb
+  name: CompletedDate
+  nameWithType: ReviewWorkflowSubmittalModel.CompletedDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.CompletedDate
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewWorkflowSubmittalModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CompletedDate
+    path: Reviews/ReviewWorkflowSubmittalModel.cs
+    startLine: 43
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the date and time that the workflow activity was completed.\n"
+  example: []
+  syntax:
+    content: public DateTime? CompletedDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property CompletedDate As Date?
+  overload: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.CompletedDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.CreatedDate
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.CreatedDate
+  id: CreatedDate
+  parent: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: ReviewWorkflowSubmittalModel.CreatedDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.CreatedDate
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewWorkflowSubmittalModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CreatedDate
+    path: Reviews/ReviewWorkflowSubmittalModel.cs
+    startLine: 48
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the date and time when the workflow activity was created.\n"
+  example: []
+  syntax:
+    content: public DateTime CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property CreatedDate As Date
+  overload: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.CreatedDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Reviews
+  commentId: N:Vasont.Inspire.Models.Reviews
+  name: Vasont.Inspire.Models.Reviews
+  nameWithType: Vasont.Inspire.Models.Reviews
+  fullName: Vasont.Inspire.Models.Reviews
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewWorkflowSubmittalId*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewWorkflowSubmittalId
+  name: ReviewWorkflowSubmittalId
+  nameWithType: ReviewWorkflowSubmittalModel.ReviewWorkflowSubmittalId
+  fullName: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewWorkflowSubmittalId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewId*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewId
+  name: ReviewId
+  nameWithType: ReviewWorkflowSubmittalModel.ReviewId
+  fullName: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewId
+- uid: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewerIds*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewerIds
+  name: ReviewerIds
+  nameWithType: ReviewWorkflowSubmittalModel.ReviewerIds
+  fullName: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.ReviewerIds
+- uid: System.Collections.Generic.List{System.Int64}
+  commentId: T:System.Collections.Generic.List{System.Int64}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Int64>
+  nameWithType: List<Int64>
+  fullName: System.Collections.Generic.List<System.Int64>
+  nameWithType.vb: List(Of Int64)
+  fullName.vb: System.Collections.Generic.List(Of System.Int64)
+  name.vb: List(Of Int64)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.WorkflowActivityId*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.WorkflowActivityId
+  name: WorkflowActivityId
+  nameWithType: ReviewWorkflowSubmittalModel.WorkflowActivityId
+  fullName: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.WorkflowActivityId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.WorkflowActivityName*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.WorkflowActivityName
+  name: WorkflowActivityName
+  nameWithType: ReviewWorkflowSubmittalModel.WorkflowActivityName
+  fullName: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.WorkflowActivityName
+- uid: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.CompletedDate*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.CompletedDate
+  name: CompletedDate
+  nameWithType: ReviewWorkflowSubmittalModel.CompletedDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.CompletedDate
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.CreatedDate*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.CreatedDate
+  name: CreatedDate
+  nameWithType: ReviewWorkflowSubmittalModel.CreatedDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewWorkflowSubmittalModel.CreatedDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime

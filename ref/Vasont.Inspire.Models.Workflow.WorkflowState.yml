@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Workflow.WorkflowState
+  commentId: T:Vasont.Inspire.Models.Workflow.WorkflowState
+  id: WorkflowState
+  parent: Vasont.Inspire.Models.Workflow
+  children:
+  - Vasont.Inspire.Models.Workflow.WorkflowState.Cancelled
+  - Vasont.Inspire.Models.Workflow.WorkflowState.Completed
+  - Vasont.Inspire.Models.Workflow.WorkflowState.Executing
+  langs:
+  - csharp
+  - vb
+  name: WorkflowState
+  nameWithType: WorkflowState
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowState
+  type: Enum
+  source:
+    remote:
+      path: src/Workflow/WorkflowModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: WorkflowState
+    path: Workflow/WorkflowModel.cs
+    startLine: 16
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nContains an enumerated list of workflow states.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum WorkflowState
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum WorkflowState
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Workflow.WorkflowState.Executing
+  commentId: F:Vasont.Inspire.Models.Workflow.WorkflowState.Executing
+  id: Executing
+  parent: Vasont.Inspire.Models.Workflow.WorkflowState
+  langs:
+  - csharp
+  - vb
+  name: Executing
+  nameWithType: WorkflowState.Executing
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowState.Executing
+  type: Field
+  source:
+    remote:
+      path: src/Workflow/WorkflowModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Executing
+    path: Workflow/WorkflowModel.cs
+    startLine: 22
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nThe project workflow is executing.\n"
+  example: []
+  syntax:
+    content: Executing = 0
+    return:
+      type: Vasont.Inspire.Models.Workflow.WorkflowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Workflow.WorkflowState.Completed
+  commentId: F:Vasont.Inspire.Models.Workflow.WorkflowState.Completed
+  id: Completed
+  parent: Vasont.Inspire.Models.Workflow.WorkflowState
+  langs:
+  - csharp
+  - vb
+  name: Completed
+  nameWithType: WorkflowState.Completed
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowState.Completed
+  type: Field
+  source:
+    remote:
+      path: src/Workflow/WorkflowModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Completed
+    path: Workflow/WorkflowModel.cs
+    startLine: 27
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nThe project workflow has been completed.\n"
+  example: []
+  syntax:
+    content: Completed = 1
+    return:
+      type: Vasont.Inspire.Models.Workflow.WorkflowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Workflow.WorkflowState.Cancelled
+  commentId: F:Vasont.Inspire.Models.Workflow.WorkflowState.Cancelled
+  id: Cancelled
+  parent: Vasont.Inspire.Models.Workflow.WorkflowState
+  langs:
+  - csharp
+  - vb
+  name: Cancelled
+  nameWithType: WorkflowState.Cancelled
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowState.Cancelled
+  type: Field
+  source:
+    remote:
+      path: src/Workflow/WorkflowModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Cancelled
+    path: Workflow/WorkflowModel.cs
+    startLine: 32
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nThe project workflow has been cancelled.\n"
+  example: []
+  syntax:
+    content: Cancelled = 2
+    return:
+      type: Vasont.Inspire.Models.Workflow.WorkflowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Workflow
+  commentId: N:Vasont.Inspire.Models.Workflow
+  name: Vasont.Inspire.Models.Workflow
+  nameWithType: Vasont.Inspire.Models.Workflow
+  fullName: Vasont.Inspire.Models.Workflow
+- uid: Vasont.Inspire.Models.Workflow.WorkflowState
+  commentId: T:Vasont.Inspire.Models.Workflow.WorkflowState
+  parent: Vasont.Inspire.Models.Workflow
+  name: WorkflowState
+  nameWithType: WorkflowState
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowState

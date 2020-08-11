@@ -1,0 +1,493 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel
+  commentId: T:Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel
+  id: ProjectAssignmentEmailTemplateModel
+  parent: Vasont.Inspire.Models.Projects
+  children:
+  - Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.AssignmentNoticeType
+  - Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.ProjectAssignmentId
+  - Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.TemplateName
+  langs:
+  - csharp
+  - vb
+  name: ProjectAssignmentEmailTemplateModel
+  nameWithType: ProjectAssignmentEmailTemplateModel
+  fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel
+  type: Class
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentEmailTemplateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProjectAssignmentEmailTemplateModel
+    path: Projects/ProjectAssignmentEmailTemplateModel.cs
+    startLine: 69
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nThis class contains the project assignment email template model.\n"
+  example: []
+  syntax:
+    content: public class ProjectAssignmentEmailTemplateModel
+    content.vb: Public Class ProjectAssignmentEmailTemplateModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.ProjectAssignmentId
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.ProjectAssignmentId
+  id: ProjectAssignmentId
+  parent: Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel
+  langs:
+  - csharp
+  - vb
+  name: ProjectAssignmentId
+  nameWithType: ProjectAssignmentEmailTemplateModel.ProjectAssignmentId
+  fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.ProjectAssignmentId
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentEmailTemplateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProjectAssignmentId
+    path: Projects/ProjectAssignmentEmailTemplateModel.cs
+    startLine: 74
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the project assignment identity value.\n"
+  example: []
+  syntax:
+    content: public long ProjectAssignmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ProjectAssignmentId As Long
+  overload: Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.ProjectAssignmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.AssignmentNoticeType
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.AssignmentNoticeType
+  id: AssignmentNoticeType
+  parent: Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel
+  langs:
+  - csharp
+  - vb
+  name: AssignmentNoticeType
+  nameWithType: ProjectAssignmentEmailTemplateModel.AssignmentNoticeType
+  fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.AssignmentNoticeType
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentEmailTemplateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: AssignmentNoticeType
+    path: Projects/ProjectAssignmentEmailTemplateModel.cs
+    startLine: 79
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the assignment notice type.\n"
+  example: []
+  syntax:
+    content: public AssignmentNoticeType AssignmentNoticeType { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+    content.vb: Public Property AssignmentNoticeType As AssignmentNoticeType
+  overload: Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.AssignmentNoticeType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.TemplateName
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.TemplateName
+  id: TemplateName
+  parent: Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel
+  langs:
+  - csharp
+  - vb
+  name: TemplateName
+  nameWithType: ProjectAssignmentEmailTemplateModel.TemplateName
+  fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.TemplateName
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectAssignmentEmailTemplateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TemplateName
+    path: Projects/ProjectAssignmentEmailTemplateModel.cs
+    startLine: 84
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the template name.\n"
+  example: []
+  syntax:
+    content: public string TemplateName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TemplateName As String
+  overload: Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.TemplateName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Projects
+  commentId: N:Vasont.Inspire.Models.Projects
+  name: Vasont.Inspire.Models.Projects
+  nameWithType: Vasont.Inspire.Models.Projects
+  fullName: Vasont.Inspire.Models.Projects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.ProjectAssignmentId*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.ProjectAssignmentId
+  name: ProjectAssignmentId
+  nameWithType: ProjectAssignmentEmailTemplateModel.ProjectAssignmentId
+  fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.ProjectAssignmentId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.AssignmentNoticeType*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.AssignmentNoticeType
+  name: AssignmentNoticeType
+  nameWithType: ProjectAssignmentEmailTemplateModel.AssignmentNoticeType
+  fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.AssignmentNoticeType
+- uid: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  commentId: T:Vasont.Inspire.Models.Projects.AssignmentNoticeType
+  parent: Vasont.Inspire.Models.Projects
+  name: AssignmentNoticeType
+  nameWithType: AssignmentNoticeType
+  fullName: Vasont.Inspire.Models.Projects.AssignmentNoticeType
+- uid: Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.TemplateName*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.TemplateName
+  name: TemplateName
+  nameWithType: ProjectAssignmentEmailTemplateModel.TemplateName
+  fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel.TemplateName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

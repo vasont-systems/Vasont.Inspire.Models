@@ -1,0 +1,1338 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel
+  commentId: T:Vasont.Inspire.Models.Reviews.ReviewDetailModel
+  id: ReviewDetailModel
+  parent: Vasont.Inspire.Models.Reviews
+  children:
+  - Vasont.Inspire.Models.Reviews.ReviewDetailModel.Archived
+  - Vasont.Inspire.Models.Reviews.ReviewDetailModel.CompletedDate
+  - Vasont.Inspire.Models.Reviews.ReviewDetailModel.Components
+  - Vasont.Inspire.Models.Reviews.ReviewDetailModel.Coordinator
+  - Vasont.Inspire.Models.Reviews.ReviewDetailModel.CreatedBy
+  - Vasont.Inspire.Models.Reviews.ReviewDetailModel.CreatedDate
+  - Vasont.Inspire.Models.Reviews.ReviewDetailModel.Description
+  - Vasont.Inspire.Models.Reviews.ReviewDetailModel.DueDate
+  - Vasont.Inspire.Models.Reviews.ReviewDetailModel.HasWorkflow
+  - Vasont.Inspire.Models.Reviews.ReviewDetailModel.Reviewers
+  - Vasont.Inspire.Models.Reviews.ReviewDetailModel.ReviewerState
+  - Vasont.Inspire.Models.Reviews.ReviewDetailModel.ReviewId
+  - Vasont.Inspire.Models.Reviews.ReviewDetailModel.StartDate
+  - Vasont.Inspire.Models.Reviews.ReviewDetailModel.State
+  - Vasont.Inspire.Models.Reviews.ReviewDetailModel.Title
+  - Vasont.Inspire.Models.Reviews.ReviewDetailModel.UpdatedBy
+  - Vasont.Inspire.Models.Reviews.ReviewDetailModel.UpdatedDate
+  langs:
+  - csharp
+  - vb
+  name: ReviewDetailModel
+  nameWithType: ReviewDetailModel
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel
+  type: Class
+  source:
+    remote:
+      path: src/Reviews/ReviewDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewDetailModel
+    path: Reviews/ReviewDetailModel.cs
+    startLine: 14
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nThis class represents a review within the application.\n"
+  example: []
+  syntax:
+    content: public class ReviewDetailModel
+    content.vb: Public Class ReviewDetailModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.ReviewId
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDetailModel.ReviewId
+  id: ReviewId
+  parent: Vasont.Inspire.Models.Reviews.ReviewDetailModel
+  langs:
+  - csharp
+  - vb
+  name: ReviewId
+  nameWithType: ReviewDetailModel.ReviewId
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.ReviewId
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewId
+    path: Reviews/ReviewDetailModel.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the identity of the review.\n"
+  example: []
+  syntax:
+    content: public long ReviewId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ReviewId As Long
+  overload: Vasont.Inspire.Models.Reviews.ReviewDetailModel.ReviewId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Title
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDetailModel.Title
+  id: Title
+  parent: Vasont.Inspire.Models.Reviews.ReviewDetailModel
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: ReviewDetailModel.Title
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Title
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Title
+    path: Reviews/ReviewDetailModel.cs
+    startLine: 24
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the review title.\n"
+  example: []
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Description
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDetailModel.Description
+  id: Description
+  parent: Vasont.Inspire.Models.Reviews.ReviewDetailModel
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: ReviewDetailModel.Description
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Description
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Description
+    path: Reviews/ReviewDetailModel.cs
+    startLine: 29
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the review description.\n"
+  example: []
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Coordinator
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDetailModel.Coordinator
+  id: Coordinator
+  parent: Vasont.Inspire.Models.Reviews.ReviewDetailModel
+  langs:
+  - csharp
+  - vb
+  name: Coordinator
+  nameWithType: ReviewDetailModel.Coordinator
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Coordinator
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Coordinator
+    path: Reviews/ReviewDetailModel.cs
+    startLine: 34
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the review coordinator user information.\n"
+  example: []
+  syntax:
+    content: public MinimalUserModel Coordinator { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.MinimalUserModel
+    content.vb: Public Property Coordinator As MinimalUserModel
+  overload: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Coordinator*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.State
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDetailModel.State
+  id: State
+  parent: Vasont.Inspire.Models.Reviews.ReviewDetailModel
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: ReviewDetailModel.State
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.State
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: State
+    path: Reviews/ReviewDetailModel.cs
+    startLine: 39
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the review state information.\n"
+  example: []
+  syntax:
+    content: public ReviewStateType State { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Reviews.ReviewStateType
+    content.vb: Public Property State As ReviewStateType
+  overload: Vasont.Inspire.Models.Reviews.ReviewDetailModel.State*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.ReviewerState
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDetailModel.ReviewerState
+  id: ReviewerState
+  parent: Vasont.Inspire.Models.Reviews.ReviewDetailModel
+  langs:
+  - csharp
+  - vb
+  name: ReviewerState
+  nameWithType: ReviewDetailModel.ReviewerState
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.ReviewerState
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewerState
+    path: Reviews/ReviewDetailModel.cs
+    startLine: 44
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the reviewer state information if the current user is a reviewer for this review.\n"
+  example: []
+  syntax:
+    content: public ReviewerStateType ReviewerState { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Reviews.ReviewerStateType
+    content.vb: Public Property ReviewerState As ReviewerStateType
+  overload: Vasont.Inspire.Models.Reviews.ReviewDetailModel.ReviewerState*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.StartDate
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDetailModel.StartDate
+  id: StartDate
+  parent: Vasont.Inspire.Models.Reviews.ReviewDetailModel
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: ReviewDetailModel.StartDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.StartDate
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: StartDate
+    path: Reviews/ReviewDetailModel.cs
+    startLine: 49
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the date time when the review should be started.\n"
+  example: []
+  syntax:
+    content: public DateTime? StartDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property StartDate As Date?
+  overload: Vasont.Inspire.Models.Reviews.ReviewDetailModel.StartDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.DueDate
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDetailModel.DueDate
+  id: DueDate
+  parent: Vasont.Inspire.Models.Reviews.ReviewDetailModel
+  langs:
+  - csharp
+  - vb
+  name: DueDate
+  nameWithType: ReviewDetailModel.DueDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.DueDate
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DueDate
+    path: Reviews/ReviewDetailModel.cs
+    startLine: 54
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the data and time the review is due.\n"
+  example: []
+  syntax:
+    content: public DateTime? DueDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property DueDate As Date?
+  overload: Vasont.Inspire.Models.Reviews.ReviewDetailModel.DueDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.CompletedDate
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDetailModel.CompletedDate
+  id: CompletedDate
+  parent: Vasont.Inspire.Models.Reviews.ReviewDetailModel
+  langs:
+  - csharp
+  - vb
+  name: CompletedDate
+  nameWithType: ReviewDetailModel.CompletedDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.CompletedDate
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CompletedDate
+    path: Reviews/ReviewDetailModel.cs
+    startLine: 59
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the date and time that the review was completed.\n"
+  example: []
+  syntax:
+    content: public DateTime? CompletedDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property CompletedDate As Date?
+  overload: Vasont.Inspire.Models.Reviews.ReviewDetailModel.CompletedDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.CreatedDate
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDetailModel.CreatedDate
+  id: CreatedDate
+  parent: Vasont.Inspire.Models.Reviews.ReviewDetailModel
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: ReviewDetailModel.CreatedDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.CreatedDate
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CreatedDate
+    path: Reviews/ReviewDetailModel.cs
+    startLine: 64
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the date and time when the review was created.\n"
+  example: []
+  syntax:
+    content: public DateTime CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property CreatedDate As Date
+  overload: Vasont.Inspire.Models.Reviews.ReviewDetailModel.CreatedDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.UpdatedDate
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDetailModel.UpdatedDate
+  id: UpdatedDate
+  parent: Vasont.Inspire.Models.Reviews.ReviewDetailModel
+  langs:
+  - csharp
+  - vb
+  name: UpdatedDate
+  nameWithType: ReviewDetailModel.UpdatedDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.UpdatedDate
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UpdatedDate
+    path: Reviews/ReviewDetailModel.cs
+    startLine: 69
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the date and time when the review was last updated.\n"
+  example: []
+  syntax:
+    content: public DateTime UpdatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property UpdatedDate As Date
+  overload: Vasont.Inspire.Models.Reviews.ReviewDetailModel.UpdatedDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.CreatedBy
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDetailModel.CreatedBy
+  id: CreatedBy
+  parent: Vasont.Inspire.Models.Reviews.ReviewDetailModel
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: ReviewDetailModel.CreatedBy
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.CreatedBy
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CreatedBy
+    path: Reviews/ReviewDetailModel.cs
+    startLine: 74
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the user information about the user who created the review.\n"
+  example: []
+  syntax:
+    content: public MinimalUserModel CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.MinimalUserModel
+    content.vb: Public Property CreatedBy As MinimalUserModel
+  overload: Vasont.Inspire.Models.Reviews.ReviewDetailModel.CreatedBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.UpdatedBy
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDetailModel.UpdatedBy
+  id: UpdatedBy
+  parent: Vasont.Inspire.Models.Reviews.ReviewDetailModel
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: ReviewDetailModel.UpdatedBy
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.UpdatedBy
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UpdatedBy
+    path: Reviews/ReviewDetailModel.cs
+    startLine: 79
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the user information about the user who last updated the review.\n"
+  example: []
+  syntax:
+    content: public MinimalUserModel UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.MinimalUserModel
+    content.vb: Public Property UpdatedBy As MinimalUserModel
+  overload: Vasont.Inspire.Models.Reviews.ReviewDetailModel.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Archived
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDetailModel.Archived
+  id: Archived
+  parent: Vasont.Inspire.Models.Reviews.ReviewDetailModel
+  langs:
+  - csharp
+  - vb
+  name: Archived
+  nameWithType: ReviewDetailModel.Archived
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Archived
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Archived
+    path: Reviews/ReviewDetailModel.cs
+    startLine: 84
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets a value indicating whether the review is archived.\n"
+  example: []
+  syntax:
+    content: public bool Archived { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Archived As Boolean
+  overload: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Archived*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Reviewers
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDetailModel.Reviewers
+  id: Reviewers
+  parent: Vasont.Inspire.Models.Reviews.ReviewDetailModel
+  langs:
+  - csharp
+  - vb
+  name: Reviewers
+  nameWithType: ReviewDetailModel.Reviewers
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Reviewers
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Reviewers
+    path: Reviews/ReviewDetailModel.cs
+    startLine: 89
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the reviewers associated with the review.\n"
+  example: []
+  syntax:
+    content: public List<ReviewerModel> Reviewers { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Reviews.ReviewerModel}
+    content.vb: Public Property Reviewers As List(Of ReviewerModel)
+  overload: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Reviewers*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Components
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDetailModel.Components
+  id: Components
+  parent: Vasont.Inspire.Models.Reviews.ReviewDetailModel
+  langs:
+  - csharp
+  - vb
+  name: Components
+  nameWithType: ReviewDetailModel.Components
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Components
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Components
+    path: Reviews/ReviewDetailModel.cs
+    startLine: 94
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the review components detail associated with the review.\n"
+  example: []
+  syntax:
+    content: public List<ReviewComponentDetailModel> Components { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Reviews.ReviewComponentDetailModel}
+    content.vb: Public Property Components As List(Of ReviewComponentDetailModel)
+  overload: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Components*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.HasWorkflow
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDetailModel.HasWorkflow
+  id: HasWorkflow
+  parent: Vasont.Inspire.Models.Reviews.ReviewDetailModel
+  langs:
+  - csharp
+  - vb
+  name: HasWorkflow
+  nameWithType: ReviewDetailModel.HasWorkflow
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.HasWorkflow
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: HasWorkflow
+    path: Reviews/ReviewDetailModel.cs
+    startLine: 99
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets a value indicating whether the review is related to workflow.\n"
+  example: []
+  syntax:
+    content: public bool HasWorkflow { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasWorkflow As Boolean
+  overload: Vasont.Inspire.Models.Reviews.ReviewDetailModel.HasWorkflow*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Reviews
+  commentId: N:Vasont.Inspire.Models.Reviews
+  name: Vasont.Inspire.Models.Reviews
+  nameWithType: Vasont.Inspire.Models.Reviews
+  fullName: Vasont.Inspire.Models.Reviews
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.ReviewId*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDetailModel.ReviewId
+  name: ReviewId
+  nameWithType: ReviewDetailModel.ReviewId
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.ReviewId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Title*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDetailModel.Title
+  name: Title
+  nameWithType: ReviewDetailModel.Title
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Description*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDetailModel.Description
+  name: Description
+  nameWithType: ReviewDetailModel.Description
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Description
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Coordinator*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDetailModel.Coordinator
+  name: Coordinator
+  nameWithType: ReviewDetailModel.Coordinator
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Coordinator
+- uid: Vasont.Inspire.Models.Security.MinimalUserModel
+  commentId: T:Vasont.Inspire.Models.Security.MinimalUserModel
+  parent: Vasont.Inspire.Models.Security
+  name: MinimalUserModel
+  nameWithType: MinimalUserModel
+  fullName: Vasont.Inspire.Models.Security.MinimalUserModel
+- uid: Vasont.Inspire.Models.Security
+  commentId: N:Vasont.Inspire.Models.Security
+  name: Vasont.Inspire.Models.Security
+  nameWithType: Vasont.Inspire.Models.Security
+  fullName: Vasont.Inspire.Models.Security
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.State*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDetailModel.State
+  name: State
+  nameWithType: ReviewDetailModel.State
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.State
+- uid: Vasont.Inspire.Models.Reviews.ReviewStateType
+  commentId: T:Vasont.Inspire.Models.Reviews.ReviewStateType
+  parent: Vasont.Inspire.Models.Reviews
+  name: ReviewStateType
+  nameWithType: ReviewStateType
+  fullName: Vasont.Inspire.Models.Reviews.ReviewStateType
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.ReviewerState*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDetailModel.ReviewerState
+  name: ReviewerState
+  nameWithType: ReviewDetailModel.ReviewerState
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.ReviewerState
+- uid: Vasont.Inspire.Models.Reviews.ReviewerStateType
+  commentId: T:Vasont.Inspire.Models.Reviews.ReviewerStateType
+  parent: Vasont.Inspire.Models.Reviews
+  name: ReviewerStateType
+  nameWithType: ReviewerStateType
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerStateType
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.StartDate*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDetailModel.StartDate
+  name: StartDate
+  nameWithType: ReviewDetailModel.StartDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.StartDate
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.DueDate*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDetailModel.DueDate
+  name: DueDate
+  nameWithType: ReviewDetailModel.DueDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.DueDate
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.CompletedDate*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDetailModel.CompletedDate
+  name: CompletedDate
+  nameWithType: ReviewDetailModel.CompletedDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.CompletedDate
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.CreatedDate*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDetailModel.CreatedDate
+  name: CreatedDate
+  nameWithType: ReviewDetailModel.CreatedDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.CreatedDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.UpdatedDate*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDetailModel.UpdatedDate
+  name: UpdatedDate
+  nameWithType: ReviewDetailModel.UpdatedDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.UpdatedDate
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.CreatedBy*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDetailModel.CreatedBy
+  name: CreatedBy
+  nameWithType: ReviewDetailModel.CreatedBy
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.CreatedBy
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.UpdatedBy*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDetailModel.UpdatedBy
+  name: UpdatedBy
+  nameWithType: ReviewDetailModel.UpdatedBy
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.UpdatedBy
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Archived*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDetailModel.Archived
+  name: Archived
+  nameWithType: ReviewDetailModel.Archived
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Archived
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Reviewers*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDetailModel.Reviewers
+  name: Reviewers
+  nameWithType: ReviewDetailModel.Reviewers
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Reviewers
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Reviews.ReviewerModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Reviews.ReviewerModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ReviewerModel>
+  nameWithType: List<ReviewerModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Reviews.ReviewerModel>
+  nameWithType.vb: List(Of ReviewerModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Reviews.ReviewerModel)
+  name.vb: List(Of ReviewerModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Reviews.ReviewerModel
+    name: ReviewerModel
+    nameWithType: ReviewerModel
+    fullName: Vasont.Inspire.Models.Reviews.ReviewerModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Reviews.ReviewerModel
+    name: ReviewerModel
+    nameWithType: ReviewerModel
+    fullName: Vasont.Inspire.Models.Reviews.ReviewerModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Components*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDetailModel.Components
+  name: Components
+  nameWithType: ReviewDetailModel.Components
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.Components
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Reviews.ReviewComponentDetailModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Reviews.ReviewComponentDetailModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ReviewComponentDetailModel>
+  nameWithType: List<ReviewComponentDetailModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Reviews.ReviewComponentDetailModel>
+  nameWithType.vb: List(Of ReviewComponentDetailModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Reviews.ReviewComponentDetailModel)
+  name.vb: List(Of ReviewComponentDetailModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Reviews.ReviewComponentDetailModel
+    name: ReviewComponentDetailModel
+    nameWithType: ReviewComponentDetailModel
+    fullName: Vasont.Inspire.Models.Reviews.ReviewComponentDetailModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Reviews.ReviewComponentDetailModel
+    name: ReviewComponentDetailModel
+    nameWithType: ReviewComponentDetailModel
+    fullName: Vasont.Inspire.Models.Reviews.ReviewComponentDetailModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Reviews.ReviewDetailModel.HasWorkflow*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDetailModel.HasWorkflow
+  name: HasWorkflow
+  nameWithType: ReviewDetailModel.HasWorkflow
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDetailModel.HasWorkflow

@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Security.ModulePermissionHolderType
+  commentId: T:Vasont.Inspire.Models.Security.ModulePermissionHolderType
+  id: ModulePermissionHolderType
+  parent: Vasont.Inspire.Models.Security
+  children:
+  - Vasont.Inspire.Models.Security.ModulePermissionHolderType.Role
+  - Vasont.Inspire.Models.Security.ModulePermissionHolderType.User
+  langs:
+  - csharp
+  - vb
+  name: ModulePermissionHolderType
+  nameWithType: ModulePermissionHolderType
+  fullName: Vasont.Inspire.Models.Security.ModulePermissionHolderType
+  type: Enum
+  source:
+    remote:
+      path: src/Security/ModulePermissionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ModulePermissionHolderType
+    path: Security/ModulePermissionModel.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nContains an enumerated list of participant types.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum ModulePermissionHolderType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum ModulePermissionHolderType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Security.ModulePermissionHolderType.User
+  commentId: F:Vasont.Inspire.Models.Security.ModulePermissionHolderType.User
+  id: User
+  parent: Vasont.Inspire.Models.Security.ModulePermissionHolderType
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: ModulePermissionHolderType.User
+  fullName: Vasont.Inspire.Models.Security.ModulePermissionHolderType.User
+  type: Field
+  source:
+    remote:
+      path: src/Security/ModulePermissionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: User
+    path: Security/ModulePermissionModel.cs
+    startLine: 21
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nThe permission holder is a system user.\n"
+  example: []
+  syntax:
+    content: User = 0
+    return:
+      type: Vasont.Inspire.Models.Security.ModulePermissionHolderType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Security.ModulePermissionHolderType.Role
+  commentId: F:Vasont.Inspire.Models.Security.ModulePermissionHolderType.Role
+  id: Role
+  parent: Vasont.Inspire.Models.Security.ModulePermissionHolderType
+  langs:
+  - csharp
+  - vb
+  name: Role
+  nameWithType: ModulePermissionHolderType.Role
+  fullName: Vasont.Inspire.Models.Security.ModulePermissionHolderType.Role
+  type: Field
+  source:
+    remote:
+      path: src/Security/ModulePermissionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Role
+    path: Security/ModulePermissionModel.cs
+    startLine: 26
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nThe permission holder is a system role.\n"
+  example: []
+  syntax:
+    content: Role = 1
+    return:
+      type: Vasont.Inspire.Models.Security.ModulePermissionHolderType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Security
+  commentId: N:Vasont.Inspire.Models.Security
+  name: Vasont.Inspire.Models.Security
+  nameWithType: Vasont.Inspire.Models.Security
+  fullName: Vasont.Inspire.Models.Security
+- uid: Vasont.Inspire.Models.Security.ModulePermissionHolderType
+  commentId: T:Vasont.Inspire.Models.Security.ModulePermissionHolderType
+  parent: Vasont.Inspire.Models.Security
+  name: ModulePermissionHolderType
+  nameWithType: ModulePermissionHolderType
+  fullName: Vasont.Inspire.Models.Security.ModulePermissionHolderType

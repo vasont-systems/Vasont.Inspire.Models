@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.MapNodeType
+  commentId: T:Vasont.Inspire.Models.Components.MapNodeType
+  id: MapNodeType
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.MapNodeType.Comment
+  - Vasont.Inspire.Models.Components.MapNodeType.Element
+  - Vasont.Inspire.Models.Components.MapNodeType.ProcessingInstruction
+  langs:
+  - csharp
+  - vb
+  name: MapNodeType
+  nameWithType: MapNodeType
+  fullName: Vasont.Inspire.Models.Components.MapNodeType
+  type: Enum
+  source:
+    remote:
+      path: src/Components/MapNodeModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: MapNodeType
+    path: Components/MapNodeModel.cs
+    startLine: 14
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nContains an enumerated list of map node types.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum MapNodeType
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum MapNodeType
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Components.MapNodeType.Element
+  commentId: F:Vasont.Inspire.Models.Components.MapNodeType.Element
+  id: Element
+  parent: Vasont.Inspire.Models.Components.MapNodeType
+  langs:
+  - csharp
+  - vb
+  name: Element
+  nameWithType: MapNodeType.Element
+  fullName: Vasont.Inspire.Models.Components.MapNodeType.Element
+  type: Field
+  source:
+    remote:
+      path: src/Components/MapNodeModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Element
+    path: Components/MapNodeModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis refers to an XML element.\n"
+  example: []
+  syntax:
+    content: Element = 0
+    return:
+      type: Vasont.Inspire.Models.Components.MapNodeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.MapNodeType.Comment
+  commentId: F:Vasont.Inspire.Models.Components.MapNodeType.Comment
+  id: Comment
+  parent: Vasont.Inspire.Models.Components.MapNodeType
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: MapNodeType.Comment
+  fullName: Vasont.Inspire.Models.Components.MapNodeType.Comment
+  type: Field
+  source:
+    remote:
+      path: src/Components/MapNodeModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Comment
+    path: Components/MapNodeModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis refers to an XML comment.\n"
+  example: []
+  syntax:
+    content: Comment = 1
+    return:
+      type: Vasont.Inspire.Models.Components.MapNodeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.MapNodeType.ProcessingInstruction
+  commentId: F:Vasont.Inspire.Models.Components.MapNodeType.ProcessingInstruction
+  id: ProcessingInstruction
+  parent: Vasont.Inspire.Models.Components.MapNodeType
+  langs:
+  - csharp
+  - vb
+  name: ProcessingInstruction
+  nameWithType: MapNodeType.ProcessingInstruction
+  fullName: Vasont.Inspire.Models.Components.MapNodeType.ProcessingInstruction
+  type: Field
+  source:
+    remote:
+      path: src/Components/MapNodeModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProcessingInstruction
+    path: Components/MapNodeModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis refers to an XML processing instruction.\n"
+  example: []
+  syntax:
+    content: ProcessingInstruction = 2
+    return:
+      type: Vasont.Inspire.Models.Components.MapNodeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: Vasont.Inspire.Models.Components.MapNodeType
+  commentId: T:Vasont.Inspire.Models.Components.MapNodeType
+  parent: Vasont.Inspire.Models.Components
+  name: MapNodeType
+  nameWithType: MapNodeType
+  fullName: Vasont.Inspire.Models.Components.MapNodeType

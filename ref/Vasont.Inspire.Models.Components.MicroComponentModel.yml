@@ -1,0 +1,738 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.MicroComponentModel
+  commentId: T:Vasont.Inspire.Models.Components.MicroComponentModel
+  id: MicroComponentModel
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.MicroComponentModel.#ctor
+  - Vasont.Inspire.Models.Components.MicroComponentModel.ComponentId
+  - Vasont.Inspire.Models.Components.MicroComponentModel.ComponentType
+  - Vasont.Inspire.Models.Components.MicroComponentModel.FileName
+  - Vasont.Inspire.Models.Components.MicroComponentModel.IsImage
+  - Vasont.Inspire.Models.Components.MicroComponentModel.Name
+  - Vasont.Inspire.Models.Components.MicroComponentModel.Permissions
+  - Vasont.Inspire.Models.Components.MicroComponentModel.Type
+  langs:
+  - csharp
+  - vb
+  name: MicroComponentModel
+  nameWithType: MicroComponentModel
+  fullName: Vasont.Inspire.Models.Components.MicroComponentModel
+  type: Class
+  source:
+    remote:
+      path: src/Components/MicroComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: MicroComponentModel
+    path: Components/MicroComponentModel.cs
+    startLine: 14
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis class represents a component model with absolute minimum information for application interfaces.\n"
+  example: []
+  syntax:
+    content: public class MicroComponentModel
+    content.vb: Public Class MicroComponentModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Components.MicroComponentModel.#ctor
+  commentId: M:Vasont.Inspire.Models.Components.MicroComponentModel.#ctor
+  id: '#ctor'
+  parent: Vasont.Inspire.Models.Components.MicroComponentModel
+  langs:
+  - csharp
+  - vb
+  name: MicroComponentModel()
+  nameWithType: MicroComponentModel.MicroComponentModel()
+  fullName: Vasont.Inspire.Models.Components.MicroComponentModel.MicroComponentModel()
+  type: Constructor
+  source:
+    remote:
+      path: src/Components/MicroComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: .ctor
+    path: Components/MicroComponentModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nInitializes a new instance of the <xref href=\"Vasont.Inspire.Models.Components.MicroComponentModel\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public MicroComponentModel()
+    content.vb: Public Sub New
+  overload: Vasont.Inspire.Models.Components.MicroComponentModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.MicroComponentModel.ComponentId
+  commentId: P:Vasont.Inspire.Models.Components.MicroComponentModel.ComponentId
+  id: ComponentId
+  parent: Vasont.Inspire.Models.Components.MicroComponentModel
+  langs:
+  - csharp
+  - vb
+  name: ComponentId
+  nameWithType: MicroComponentModel.ComponentId
+  fullName: Vasont.Inspire.Models.Components.MicroComponentModel.ComponentId
+  type: Property
+  source:
+    remote:
+      path: src/Components/MicroComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentId
+    path: Components/MicroComponentModel.cs
+    startLine: 37
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the unique identity of the component.\n"
+  example: []
+  syntax:
+    content: public long ComponentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ComponentId As Long
+  overload: Vasont.Inspire.Models.Components.MicroComponentModel.ComponentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.MicroComponentModel.ComponentType
+  commentId: P:Vasont.Inspire.Models.Components.MicroComponentModel.ComponentType
+  id: ComponentType
+  parent: Vasont.Inspire.Models.Components.MicroComponentModel
+  langs:
+  - csharp
+  - vb
+  name: ComponentType
+  nameWithType: MicroComponentModel.ComponentType
+  fullName: Vasont.Inspire.Models.Components.MicroComponentModel.ComponentType
+  type: Property
+  source:
+    remote:
+      path: src/Components/MicroComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentType
+    path: Components/MicroComponentModel.cs
+    startLine: 42
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a minimal component type model.\n"
+  example: []
+  syntax:
+    content: public MinimalComponentTypeModel ComponentType { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+    content.vb: Public Property ComponentType As MinimalComponentTypeModel
+  overload: Vasont.Inspire.Models.Components.MicroComponentModel.ComponentType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.MicroComponentModel.Permissions
+  commentId: P:Vasont.Inspire.Models.Components.MicroComponentModel.Permissions
+  id: Permissions
+  parent: Vasont.Inspire.Models.Components.MicroComponentModel
+  langs:
+  - csharp
+  - vb
+  name: Permissions
+  nameWithType: MicroComponentModel.Permissions
+  fullName: Vasont.Inspire.Models.Components.MicroComponentModel.Permissions
+  type: Property
+  source:
+    remote:
+      path: src/Components/MicroComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Permissions
+    path: Components/MicroComponentModel.cs
+    startLine: 47
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a permission model.\n"
+  example: []
+  syntax:
+    content: public PermissionModel Permissions { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.PermissionModel
+    content.vb: Public Property Permissions As PermissionModel
+  overload: Vasont.Inspire.Models.Components.MicroComponentModel.Permissions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.MicroComponentModel.Name
+  commentId: P:Vasont.Inspire.Models.Components.MicroComponentModel.Name
+  id: Name
+  parent: Vasont.Inspire.Models.Components.MicroComponentModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: MicroComponentModel.Name
+  fullName: Vasont.Inspire.Models.Components.MicroComponentModel.Name
+  type: Property
+  source:
+    remote:
+      path: src/Components/MicroComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Name
+    path: Components/MicroComponentModel.cs
+    startLine: 52
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the component name.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Vasont.Inspire.Models.Components.MicroComponentModel.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.MicroComponentModel.FileName
+  commentId: P:Vasont.Inspire.Models.Components.MicroComponentModel.FileName
+  id: FileName
+  parent: Vasont.Inspire.Models.Components.MicroComponentModel
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: MicroComponentModel.FileName
+  fullName: Vasont.Inspire.Models.Components.MicroComponentModel.FileName
+  type: Property
+  source:
+    remote:
+      path: src/Components/MicroComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FileName
+    path: Components/MicroComponentModel.cs
+    startLine: 57
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the component file name.\n"
+  example: []
+  syntax:
+    content: public string FileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FileName As String
+  overload: Vasont.Inspire.Models.Components.MicroComponentModel.FileName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.MicroComponentModel.IsImage
+  commentId: P:Vasont.Inspire.Models.Components.MicroComponentModel.IsImage
+  id: IsImage
+  parent: Vasont.Inspire.Models.Components.MicroComponentModel
+  langs:
+  - csharp
+  - vb
+  name: IsImage
+  nameWithType: MicroComponentModel.IsImage
+  fullName: Vasont.Inspire.Models.Components.MicroComponentModel.IsImage
+  type: Property
+  source:
+    remote:
+      path: src/Components/MicroComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IsImage
+    path: Components/MicroComponentModel.cs
+    startLine: 62
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets a value indicating whether the component is an image.\n"
+  example: []
+  syntax:
+    content: public bool IsImage { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsImage As Boolean
+  overload: Vasont.Inspire.Models.Components.MicroComponentModel.IsImage*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vasont.Inspire.Models.Components.MicroComponentModel.Type
+  commentId: P:Vasont.Inspire.Models.Components.MicroComponentModel.Type
+  id: Type
+  parent: Vasont.Inspire.Models.Components.MicroComponentModel
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: MicroComponentModel.Type
+  fullName: Vasont.Inspire.Models.Components.MicroComponentModel.Type
+  type: Property
+  source:
+    remote:
+      path: src/Components/MicroComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Type
+    path: Components/MicroComponentModel.cs
+    startLine: 67
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the project item type.\n"
+  example: []
+  syntax:
+    content: public ProjectFolderItemType Type { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Projects.ProjectFolderItemType
+    content.vb: Public Property Type As ProjectFolderItemType
+  overload: Vasont.Inspire.Models.Components.MicroComponentModel.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Components.MicroComponentModel
+  commentId: T:Vasont.Inspire.Models.Components.MicroComponentModel
+  parent: Vasont.Inspire.Models.Components
+  name: MicroComponentModel
+  nameWithType: MicroComponentModel
+  fullName: Vasont.Inspire.Models.Components.MicroComponentModel
+- uid: Vasont.Inspire.Models.Components.MicroComponentModel.#ctor*
+  commentId: Overload:Vasont.Inspire.Models.Components.MicroComponentModel.#ctor
+  name: MicroComponentModel
+  nameWithType: MicroComponentModel.MicroComponentModel
+  fullName: Vasont.Inspire.Models.Components.MicroComponentModel.MicroComponentModel
+- uid: Vasont.Inspire.Models.Components.MicroComponentModel.ComponentId*
+  commentId: Overload:Vasont.Inspire.Models.Components.MicroComponentModel.ComponentId
+  name: ComponentId
+  nameWithType: MicroComponentModel.ComponentId
+  fullName: Vasont.Inspire.Models.Components.MicroComponentModel.ComponentId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Components.MicroComponentModel.ComponentType*
+  commentId: Overload:Vasont.Inspire.Models.Components.MicroComponentModel.ComponentType
+  name: ComponentType
+  nameWithType: MicroComponentModel.ComponentType
+  fullName: Vasont.Inspire.Models.Components.MicroComponentModel.ComponentType
+- uid: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+  commentId: T:Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+  parent: Vasont.Inspire.Models.Components
+  name: MinimalComponentTypeModel
+  nameWithType: MinimalComponentTypeModel
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+- uid: Vasont.Inspire.Models.Components.MicroComponentModel.Permissions*
+  commentId: Overload:Vasont.Inspire.Models.Components.MicroComponentModel.Permissions
+  name: Permissions
+  nameWithType: MicroComponentModel.Permissions
+  fullName: Vasont.Inspire.Models.Components.MicroComponentModel.Permissions
+- uid: Vasont.Inspire.Models.Security.PermissionModel
+  commentId: T:Vasont.Inspire.Models.Security.PermissionModel
+  parent: Vasont.Inspire.Models.Security
+  name: PermissionModel
+  nameWithType: PermissionModel
+  fullName: Vasont.Inspire.Models.Security.PermissionModel
+- uid: Vasont.Inspire.Models.Security
+  commentId: N:Vasont.Inspire.Models.Security
+  name: Vasont.Inspire.Models.Security
+  nameWithType: Vasont.Inspire.Models.Security
+  fullName: Vasont.Inspire.Models.Security
+- uid: Vasont.Inspire.Models.Components.MicroComponentModel.Name*
+  commentId: Overload:Vasont.Inspire.Models.Components.MicroComponentModel.Name
+  name: Name
+  nameWithType: MicroComponentModel.Name
+  fullName: Vasont.Inspire.Models.Components.MicroComponentModel.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Components.MicroComponentModel.FileName*
+  commentId: Overload:Vasont.Inspire.Models.Components.MicroComponentModel.FileName
+  name: FileName
+  nameWithType: MicroComponentModel.FileName
+  fullName: Vasont.Inspire.Models.Components.MicroComponentModel.FileName
+- uid: Vasont.Inspire.Models.Components.MicroComponentModel.IsImage*
+  commentId: Overload:Vasont.Inspire.Models.Components.MicroComponentModel.IsImage
+  name: IsImage
+  nameWithType: MicroComponentModel.IsImage
+  fullName: Vasont.Inspire.Models.Components.MicroComponentModel.IsImage
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Components.MicroComponentModel.Type*
+  commentId: Overload:Vasont.Inspire.Models.Components.MicroComponentModel.Type
+  name: Type
+  nameWithType: MicroComponentModel.Type
+  fullName: Vasont.Inspire.Models.Components.MicroComponentModel.Type
+- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemType
+  commentId: T:Vasont.Inspire.Models.Projects.ProjectFolderItemType
+  parent: Vasont.Inspire.Models.Projects
+  name: ProjectFolderItemType
+  nameWithType: ProjectFolderItemType
+  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemType
+- uid: Vasont.Inspire.Models.Projects
+  commentId: N:Vasont.Inspire.Models.Projects
+  name: Vasont.Inspire.Models.Projects
+  nameWithType: Vasont.Inspire.Models.Projects
+  fullName: Vasont.Inspire.Models.Projects

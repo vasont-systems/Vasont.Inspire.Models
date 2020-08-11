@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Worker.WorkerStatus
+  commentId: T:Vasont.Inspire.Models.Worker.WorkerStatus
+  id: WorkerStatus
+  parent: Vasont.Inspire.Models.Worker
+  children:
+  - Vasont.Inspire.Models.Worker.WorkerStatus.Complete
+  - Vasont.Inspire.Models.Worker.WorkerStatus.Failed
+  - Vasont.Inspire.Models.Worker.WorkerStatus.Idle
+  - Vasont.Inspire.Models.Worker.WorkerStatus.Working
+  langs:
+  - csharp
+  - vb
+  name: WorkerStatus
+  nameWithType: WorkerStatus
+  fullName: Vasont.Inspire.Models.Worker.WorkerStatus
+  type: Enum
+  source:
+    remote:
+      path: src/Worker/WorkerStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: WorkerStatus
+    path: Worker/WorkerStateModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Worker
+  summary: "\nContains an enumerated list of worker process statuses.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonConverter(typeof(StringEnumConverter))]
+
+      public enum WorkerStatus
+    content.vb: >-
+      <JsonConverter(GetType(StringEnumConverter))>
+
+      Public Enum WorkerStatus
+  attributes:
+  - type: Newtonsoft.Json.JsonConverterAttribute
+    ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Newtonsoft.Json.Converters.StringEnumConverter
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vasont.Inspire.Models.Worker.WorkerStatus.Idle
+  commentId: F:Vasont.Inspire.Models.Worker.WorkerStatus.Idle
+  id: Idle
+  parent: Vasont.Inspire.Models.Worker.WorkerStatus
+  langs:
+  - csharp
+  - vb
+  name: Idle
+  nameWithType: WorkerStatus.Idle
+  fullName: Vasont.Inspire.Models.Worker.WorkerStatus.Idle
+  type: Field
+  source:
+    remote:
+      path: src/Worker/WorkerStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Idle
+    path: Worker/WorkerStateModel.cs
+    startLine: 26
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Worker
+  summary: "\nThe default status\n"
+  example: []
+  syntax:
+    content: Idle = 0
+    return:
+      type: Vasont.Inspire.Models.Worker.WorkerStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Worker.WorkerStatus.Working
+  commentId: F:Vasont.Inspire.Models.Worker.WorkerStatus.Working
+  id: Working
+  parent: Vasont.Inspire.Models.Worker.WorkerStatus
+  langs:
+  - csharp
+  - vb
+  name: Working
+  nameWithType: WorkerStatus.Working
+  fullName: Vasont.Inspire.Models.Worker.WorkerStatus.Working
+  type: Field
+  source:
+    remote:
+      path: src/Worker/WorkerStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Working
+    path: Worker/WorkerStateModel.cs
+    startLine: 31
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Worker
+  summary: "\nThe worker is working.\n"
+  example: []
+  syntax:
+    content: Working = 1
+    return:
+      type: Vasont.Inspire.Models.Worker.WorkerStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Worker.WorkerStatus.Complete
+  commentId: F:Vasont.Inspire.Models.Worker.WorkerStatus.Complete
+  id: Complete
+  parent: Vasont.Inspire.Models.Worker.WorkerStatus
+  langs:
+  - csharp
+  - vb
+  name: Complete
+  nameWithType: WorkerStatus.Complete
+  fullName: Vasont.Inspire.Models.Worker.WorkerStatus.Complete
+  type: Field
+  source:
+    remote:
+      path: src/Worker/WorkerStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Complete
+    path: Worker/WorkerStateModel.cs
+    startLine: 36
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Worker
+  summary: "\nThe worker is complete.\n"
+  example: []
+  syntax:
+    content: Complete = 2
+    return:
+      type: Vasont.Inspire.Models.Worker.WorkerStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Worker.WorkerStatus.Failed
+  commentId: F:Vasont.Inspire.Models.Worker.WorkerStatus.Failed
+  id: Failed
+  parent: Vasont.Inspire.Models.Worker.WorkerStatus
+  langs:
+  - csharp
+  - vb
+  name: Failed
+  nameWithType: WorkerStatus.Failed
+  fullName: Vasont.Inspire.Models.Worker.WorkerStatus.Failed
+  type: Field
+  source:
+    remote:
+      path: src/Worker/WorkerStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Failed
+    path: Worker/WorkerStateModel.cs
+    startLine: 41
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Worker
+  summary: "\nThe worker has failed.\n"
+  example: []
+  syntax:
+    content: Failed = 3
+    return:
+      type: Vasont.Inspire.Models.Worker.WorkerStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vasont.Inspire.Models.Worker
+  commentId: N:Vasont.Inspire.Models.Worker
+  name: Vasont.Inspire.Models.Worker
+  nameWithType: Vasont.Inspire.Models.Worker
+  fullName: Vasont.Inspire.Models.Worker
+- uid: Vasont.Inspire.Models.Worker.WorkerStatus
+  commentId: T:Vasont.Inspire.Models.Worker.WorkerStatus
+  parent: Vasont.Inspire.Models.Worker
+  name: WorkerStatus
+  nameWithType: WorkerStatus
+  fullName: Vasont.Inspire.Models.Worker.WorkerStatus

@@ -1,0 +1,838 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel
+  commentId: T:Vasont.Inspire.Models.Components.FolderComponentsQueryModel
+  id: FolderComponentsQueryModel
+  parent: Vasont.Inspire.Models.Components
+  children:
+  - Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FilterByComponentTypes
+  - Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FilterByContentTypes
+  - Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FolderId
+  - Vasont.Inspire.Models.Components.FolderComponentsQueryModel.IncludeSubFolders
+  - Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryFilters
+  - Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryFiltersWithDisplayValues
+  - Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryName
+  - Vasont.Inspire.Models.Components.FolderComponentsQueryModel.SearchText
+  langs:
+  - csharp
+  - vb
+  name: FolderComponentsQueryModel
+  nameWithType: FolderComponentsQueryModel
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsQueryModel
+  type: Class
+  source:
+    remote:
+      path: src/Components/FolderComponentsQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FolderComponentsQueryModel
+    path: Components/FolderComponentsQueryModel.cs
+    startLine: 14
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThis class contains parameters passed to the query for retrieving components within a folder.\n"
+  example: []
+  syntax:
+    content: 'public class FolderComponentsQueryModel : PaginatedQueryRequestModel'
+    content.vb: >-
+      Public Class FolderComponentsQueryModel
+          Inherits PaginatedQueryRequestModel
+  inheritance:
+  - System.Object
+  - Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  inheritedMembers:
+  - Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Page
+  - Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Limit
+  - Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Sort
+  - Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Dir
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FolderId
+  commentId: P:Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FolderId
+  id: FolderId
+  parent: Vasont.Inspire.Models.Components.FolderComponentsQueryModel
+  langs:
+  - csharp
+  - vb
+  name: FolderId
+  nameWithType: FolderComponentsQueryModel.FolderId
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FolderId
+  type: Property
+  source:
+    remote:
+      path: src/Components/FolderComponentsQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FolderId
+    path: Components/FolderComponentsQueryModel.cs
+    startLine: 19
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the identity of the folder.\n"
+  example: []
+  syntax:
+    content: public long FolderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property FolderId As Long
+  overload: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FolderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.IncludeSubFolders
+  commentId: P:Vasont.Inspire.Models.Components.FolderComponentsQueryModel.IncludeSubFolders
+  id: IncludeSubFolders
+  parent: Vasont.Inspire.Models.Components.FolderComponentsQueryModel
+  langs:
+  - csharp
+  - vb
+  name: IncludeSubFolders
+  nameWithType: FolderComponentsQueryModel.IncludeSubFolders
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.IncludeSubFolders
+  type: Property
+  source:
+    remote:
+      path: src/Components/FolderComponentsQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IncludeSubFolders
+    path: Components/FolderComponentsQueryModel.cs
+    startLine: 24
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether all sub-folders are included in search results.\n"
+  example: []
+  syntax:
+    content: public bool IncludeSubFolders { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeSubFolders As Boolean
+  overload: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.IncludeSubFolders*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.SearchText
+  commentId: P:Vasont.Inspire.Models.Components.FolderComponentsQueryModel.SearchText
+  id: SearchText
+  parent: Vasont.Inspire.Models.Components.FolderComponentsQueryModel
+  langs:
+  - csharp
+  - vb
+  name: SearchText
+  nameWithType: FolderComponentsQueryModel.SearchText
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.SearchText
+  type: Property
+  source:
+    remote:
+      path: src/Components/FolderComponentsQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SearchText
+    path: Components/FolderComponentsQueryModel.cs
+    startLine: 29
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the text of the component search.\n"
+  example: []
+  syntax:
+    content: public string SearchText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SearchText As String
+  overload: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.SearchText*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryFilters
+  commentId: P:Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryFilters
+  id: QueryFilters
+  parent: Vasont.Inspire.Models.Components.FolderComponentsQueryModel
+  langs:
+  - csharp
+  - vb
+  name: QueryFilters
+  nameWithType: FolderComponentsQueryModel.QueryFilters
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryFilters
+  type: Property
+  source:
+    remote:
+      path: src/Components/FolderComponentsQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: QueryFilters
+    path: Components/FolderComponentsQueryModel.cs
+    startLine: 34
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets an optional list of ad-hoc query built filters.\n"
+  example: []
+  syntax:
+    content: public List<AdHocQueryFilterModel> QueryFilters { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Search.AdHocQueryFilterModel}
+    content.vb: Public Property QueryFilters As List(Of AdHocQueryFilterModel)
+  overload: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryFilters*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryFiltersWithDisplayValues
+  commentId: P:Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryFiltersWithDisplayValues
+  id: QueryFiltersWithDisplayValues
+  parent: Vasont.Inspire.Models.Components.FolderComponentsQueryModel
+  langs:
+  - csharp
+  - vb
+  name: QueryFiltersWithDisplayValues
+  nameWithType: FolderComponentsQueryModel.QueryFiltersWithDisplayValues
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryFiltersWithDisplayValues
+  type: Property
+  source:
+    remote:
+      path: src/Components/FolderComponentsQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: QueryFiltersWithDisplayValues
+    path: Components/FolderComponentsQueryModel.cs
+    startLine: 39
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets an optional list of ad-hoc query built filters with the display values.\n"
+  example: []
+  syntax:
+    content: public List<AdHocQueryFilterModel> QueryFiltersWithDisplayValues { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Search.AdHocQueryFilterModel}
+    content.vb: Public Property QueryFiltersWithDisplayValues As List(Of AdHocQueryFilterModel)
+  overload: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryFiltersWithDisplayValues*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryName
+  commentId: P:Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryName
+  id: QueryName
+  parent: Vasont.Inspire.Models.Components.FolderComponentsQueryModel
+  langs:
+  - csharp
+  - vb
+  name: QueryName
+  nameWithType: FolderComponentsQueryModel.QueryName
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryName
+  type: Property
+  source:
+    remote:
+      path: src/Components/FolderComponentsQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: QueryName
+    path: Components/FolderComponentsQueryModel.cs
+    startLine: 44
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the name of the selected query.\n"
+  example: []
+  syntax:
+    content: public string QueryName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property QueryName As String
+  overload: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FilterByComponentTypes
+  commentId: P:Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FilterByComponentTypes
+  id: FilterByComponentTypes
+  parent: Vasont.Inspire.Models.Components.FolderComponentsQueryModel
+  langs:
+  - csharp
+  - vb
+  name: FilterByComponentTypes
+  nameWithType: FolderComponentsQueryModel.FilterByComponentTypes
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FilterByComponentTypes
+  type: Property
+  source:
+    remote:
+      path: src/Components/FolderComponentsQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FilterByComponentTypes
+    path: Components/FolderComponentsQueryModel.cs
+    startLine: 49
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a comma delimited list of component type document types to add to the query expression.\n"
+  example: []
+  syntax:
+    content: public string FilterByComponentTypes { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FilterByComponentTypes As String
+  overload: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FilterByComponentTypes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FilterByContentTypes
+  commentId: P:Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FilterByContentTypes
+  id: FilterByContentTypes
+  parent: Vasont.Inspire.Models.Components.FolderComponentsQueryModel
+  langs:
+  - csharp
+  - vb
+  name: FilterByContentTypes
+  nameWithType: FolderComponentsQueryModel.FilterByContentTypes
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FilterByContentTypes
+  type: Property
+  source:
+    remote:
+      path: src/Components/FolderComponentsQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FilterByContentTypes
+    path: Components/FolderComponentsQueryModel.cs
+    startLine: 54
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a comma delimited list of content type keys to add to the query expression.\n"
+  example: []
+  syntax:
+    content: public string FilterByContentTypes { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FilterByContentTypes As String
+  overload: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FilterByContentTypes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vasont.Inspire.Models.Components
+  commentId: N:Vasont.Inspire.Models.Components
+  name: Vasont.Inspire.Models.Components
+  nameWithType: Vasont.Inspire.Models.Components
+  fullName: Vasont.Inspire.Models.Components
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  commentId: T:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  parent: Vasont.Inspire.Models.Common
+  name: PaginatedQueryRequestModel
+  nameWithType: PaginatedQueryRequestModel
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Page
+  commentId: P:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Page
+  parent: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  name: Page
+  nameWithType: PaginatedQueryRequestModel.Page
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Page
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Limit
+  commentId: P:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Limit
+  parent: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  name: Limit
+  nameWithType: PaginatedQueryRequestModel.Limit
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Limit
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Sort
+  commentId: P:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Sort
+  parent: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  name: Sort
+  nameWithType: PaginatedQueryRequestModel.Sort
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Sort
+- uid: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Dir
+  commentId: P:Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Dir
+  parent: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel
+  name: Dir
+  nameWithType: PaginatedQueryRequestModel.Dir
+  fullName: Vasont.Inspire.Models.Common.PaginatedQueryRequestModel.Dir
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vasont.Inspire.Models.Common
+  commentId: N:Vasont.Inspire.Models.Common
+  name: Vasont.Inspire.Models.Common
+  nameWithType: Vasont.Inspire.Models.Common
+  fullName: Vasont.Inspire.Models.Common
+- uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FolderId*
+  commentId: Overload:Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FolderId
+  name: FolderId
+  nameWithType: FolderComponentsQueryModel.FolderId
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FolderId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.IncludeSubFolders*
+  commentId: Overload:Vasont.Inspire.Models.Components.FolderComponentsQueryModel.IncludeSubFolders
+  name: IncludeSubFolders
+  nameWithType: FolderComponentsQueryModel.IncludeSubFolders
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.IncludeSubFolders
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.SearchText*
+  commentId: Overload:Vasont.Inspire.Models.Components.FolderComponentsQueryModel.SearchText
+  name: SearchText
+  nameWithType: FolderComponentsQueryModel.SearchText
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.SearchText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryFilters*
+  commentId: Overload:Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryFilters
+  name: QueryFilters
+  nameWithType: FolderComponentsQueryModel.QueryFilters
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryFilters
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Search.AdHocQueryFilterModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Search.AdHocQueryFilterModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<AdHocQueryFilterModel>
+  nameWithType: List<AdHocQueryFilterModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Search.AdHocQueryFilterModel>
+  nameWithType.vb: List(Of AdHocQueryFilterModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Search.AdHocQueryFilterModel)
+  name.vb: List(Of AdHocQueryFilterModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Search.AdHocQueryFilterModel
+    name: AdHocQueryFilterModel
+    nameWithType: AdHocQueryFilterModel
+    fullName: Vasont.Inspire.Models.Search.AdHocQueryFilterModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Search.AdHocQueryFilterModel
+    name: AdHocQueryFilterModel
+    nameWithType: AdHocQueryFilterModel
+    fullName: Vasont.Inspire.Models.Search.AdHocQueryFilterModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryFiltersWithDisplayValues*
+  commentId: Overload:Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryFiltersWithDisplayValues
+  name: QueryFiltersWithDisplayValues
+  nameWithType: FolderComponentsQueryModel.QueryFiltersWithDisplayValues
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryFiltersWithDisplayValues
+- uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryName*
+  commentId: Overload:Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryName
+  name: QueryName
+  nameWithType: FolderComponentsQueryModel.QueryName
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryName
+- uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FilterByComponentTypes*
+  commentId: Overload:Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FilterByComponentTypes
+  name: FilterByComponentTypes
+  nameWithType: FolderComponentsQueryModel.FilterByComponentTypes
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FilterByComponentTypes
+- uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FilterByContentTypes*
+  commentId: Overload:Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FilterByContentTypes
+  name: FilterByContentTypes
+  nameWithType: FolderComponentsQueryModel.FilterByContentTypes
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FilterByContentTypes
