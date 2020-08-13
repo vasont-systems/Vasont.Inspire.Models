@@ -26,6 +26,11 @@ namespace Vasont.Inspire.Models.Components
         public bool IsBinary { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether the result is a template.
+        /// </summary>
+        public bool IsTemplate { get; set; } = false;
+
+        /// <summary>
         /// Gets or sets a component lock model for the content to be read.
         /// </summary>
         public ComponentLockModel Lock { get; set; } = new ComponentLockModel();

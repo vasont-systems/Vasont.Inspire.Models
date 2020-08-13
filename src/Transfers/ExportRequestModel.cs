@@ -47,5 +47,10 @@ namespace Vasont.Inspire.Models.Transfers
         /// Gets or sets a value indicating whether the exported content should be locked.
         /// </summary>
         public bool LockForEdit { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the exported content should be validated.
+        /// </summary>
+        public bool SkipXmlValidation { get; set; } = false;
     }
 }
