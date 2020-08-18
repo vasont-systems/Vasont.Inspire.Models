@@ -85,5 +85,25 @@ namespace Vasont.Inspire.Models.Translations
         /// Gets or sets the type of the component.
         /// </summary>
         public string ComponentTypeName { get; set; }
+
+        /// <summary>
+        /// Gets or sets the word count of the component.
+        /// </summary>
+        public int WordCount { get; set; }
+
+        /// <summary>
+        /// Gets or sets the character count of the component.
+        /// </summary>
+        public int CharCount { get; set; }
+
+        /// <summary>
+        /// Gets or sets the word count of the component.
+        /// </summary>
+        public int CharCountNoSpace { get; set; }
+
+        /// <summary>
+        /// Gets or sets the word count of the component.
+        /// </summary>
+        public long FileSize { get; set; }
     }
 }
