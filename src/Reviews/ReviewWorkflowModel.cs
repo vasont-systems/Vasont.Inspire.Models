@@ -26,6 +26,11 @@ namespace Vasont.Inspire.Models.Reviews
         public long? ProjectId { get; set; }
 
         /// <summary>
+        /// Gets or sets the associated project name.
+        /// </summary>
+        public string ProjectName { get; set; }
+
+        /// <summary>
         /// Gets or sets the identity of the associated workflow model.
         /// </summary>
         public WorkflowModel WorkflowModel { get; set; } = new WorkflowModel();
