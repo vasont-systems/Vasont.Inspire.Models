@@ -5,6 +5,7 @@
 //-------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Plugins
 {
+    using System;
     using System.Collections.Generic;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
@@ -81,6 +82,11 @@ namespace Vasont.Inspire.Models.Plugins
         /// Gets or sets the publish configuration name.
         /// </summary>
         public string PublishConfigName { get; set; }
+
+        /// <summary>
+        /// Gets or sets the webhook url.
+        /// </summary>
+        public Uri WebhookUrl { get; set; }
 
         /// <summary>
         /// Gets or sets values containing the publish parameters.
