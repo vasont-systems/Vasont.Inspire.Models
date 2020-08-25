@@ -3,15 +3,15 @@
 //     Copyright (c) 2017 Talegen. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-namespace Vasont.Inspire.WebApp.Api.Controllers.Content.Models
+namespace Vasont.Inspire.Models.Components
 {
     /// <summary>
-    /// This class represents a model of the map sync request
+    /// This class represents a model of the map sync request.
     /// </summary>
     public class MapSyncRequestModel
     {
         /// <summary>
-        /// Gets or sets the node identity for the sync
+        /// Gets or sets the node identity for the sync.
         /// </summary>
         public string NodeId { get; set; }
 

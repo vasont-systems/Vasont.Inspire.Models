@@ -4,17 +4,15 @@
 // </copyright>
 // <author>Rob Kennedy</author>
 //-----------------------------------------------------------------------
-namespace Vasont.Inspire.WebApp.Api.Controllers.Content.Models
+namespace Vasont.Inspire.Models.Components
 {
-    using Vasont.Inspire.Models.Components;
-
     /// <summary>
-    /// This class represents a response for the map sync request
+    /// This class represents a response for the map sync request.
     /// </summary>
     public class MapSyncResponseModel
     {
         /// <summary>
-        /// Gets or sets the node identity
+        /// Gets or sets the node identity.
         /// </summary>
         public string NodeId { get; set; }
 
