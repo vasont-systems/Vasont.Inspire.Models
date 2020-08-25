@@ -1,8 +1,8 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="MapSyncResponseModel.cs" company="Talegen">
-//     Copyright (c) 2017 Talegen. All rights reserved.
+//-----------------------------------------------------------------------
+// <copyright file="MinimalPermissionModel.cs" company="GlobalLink Vasont">
+// Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
-// <author>Rob Kennedy</author>
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Components
 {
