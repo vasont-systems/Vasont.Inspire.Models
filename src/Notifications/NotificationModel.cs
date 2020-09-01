@@ -137,7 +137,7 @@ namespace Vasont.Inspire.Models.Notifications
         /// <summary>
         /// Gets or sets the notification date time in UTC.
         /// </summary>
-        public DateTime NotificationDateUtc { get; set; } = DateTime.UtcNow;
+        public DateTime NotificationDate { get; set; } = DateTime.UtcNow;
 
         /// <summary>
         /// Gets or sets the notification type.
