@@ -145,6 +145,11 @@ namespace Vasont.Inspire.Models.Notifications
         public NotificationType Type { get; set; } = NotificationType.Message;
 
         /// <summary>
+        /// Gets or sets the notification state to pass to the system.
+        /// </summary>
+        public NotificationState State { get; set; } = NotificationState.Unread;
+
+        /// <summary>
         /// Gets or sets the target type.
         /// </summary>
         public NotificationTarget Target { get; set; } = NotificationTarget.User;
