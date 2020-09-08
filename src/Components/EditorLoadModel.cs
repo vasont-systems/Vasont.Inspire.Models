@@ -5,6 +5,7 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Components
 {
+    using System;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
 
@@ -133,5 +134,15 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets the map identity where the component was opened from.
         /// </summary>
         public long MapReferenceId { get; set; }
+
+        /// <summary>
+        /// Gets or sets an optional identity for the component to compare.
+        /// </summary>
+        public long CompareComponentId { get; set; }
+
+        /// <summary>
+        /// Gets or sets the optional guid for the component history to compare.
+        /// </summary>
+        public Guid CompareChangesetId { get; set; }
     }
 }
