@@ -193,6 +193,16 @@ namespace Vasont.Inspire.Models.Components
         /// </summary>
         public bool CanTranslate { get; set; }
 
+        /// <summary>
+        /// Gets or sets the most recent component access information.
+        /// </summary>
+        public MinimalComponentUserAccessModel MostRecentAccess { get; set; }
+
+        /// <summary>
+        /// Gets or sets the number of component accesses.
+        /// </summary>
+        public int UserAccessCount { get; set; }
+
         #endregion
     }
 }

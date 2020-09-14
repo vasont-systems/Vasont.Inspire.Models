@@ -84,5 +84,10 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets the record updater model object.
         /// </summary>
         public new MicroUserModel UpdatedBy { get; set; }
+
+        /// <summary>
+        /// Gets or sets a list of <see cref="ProjectUserAccessModel"/> objects.
+        /// </summary>
+        public List<MinimalProjectUserAccessModel> UserAccesses { get; set; } = new List<MinimalProjectUserAccessModel>();
     }
 }
