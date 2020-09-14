@@ -86,8 +86,8 @@ namespace Vasont.Inspire.Models.Components
         public new MicroUserModel UpdatedBy { get; set; }
 
         /// <summary>
-        /// Gets or sets a list of <see cref="ProjectUserAccessModel"/> objects.
+        /// Gets or sets a list of <see cref="ComponentUserAccessModel"/> objects.
         /// </summary>
-        public List<MinimalProjectUserAccessModel> UserAccesses { get; set; } = new List<MinimalProjectUserAccessModel>();
+        public List<MinimalComponentUserAccessModel> UserAccesses { get; set; } = new List<MinimalComponentUserAccessModel>();
     }
 }
