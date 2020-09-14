@@ -3,6 +3,7 @@
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
+
 namespace Vasont.Inspire.Models.Components
 {
     using System;
@@ -10,7 +11,6 @@ namespace Vasont.Inspire.Models.Components
     /// <summary>
     /// This class represents a component access record for a specific user within the application.
     /// </summary>public class ComponentUserAccessModel
-
 	public class ComponentUserAccessModel
 	{
         /// <summary>
