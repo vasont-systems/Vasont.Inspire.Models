@@ -64,6 +64,26 @@ namespace Vasont.Inspire.Models.Components
         /// </summary>
         public List<ComponentDependencyModel> Dependencies { get; set; }
 
+        /// <summary>
+        /// Gets or sets the Translation Name associated with the lock.
+        /// </summary>
+        public string TranslationName { get; set; }
+
+        /// <summary>
+        /// Gets or sets the Translation Id associated with the lock.
+        /// </summary>
+        public int TranslationId { get; set; }
+
+        /// <summary>
+        /// Gets or sets the Review Name associated with the lock.
+        /// </summary>
+        public string ReviewName { get; set; }
+
+        /// <summary>
+        /// Gets or sets the Review Id associated with the lock.
+        /// </summary>
+        public int ReviewId { get; set; }
+
         #endregion
     }
 }
