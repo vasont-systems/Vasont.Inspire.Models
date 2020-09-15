@@ -72,7 +72,7 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets the Translation Id associated with the lock.
         /// </summary>
-        public int TranslationId { get; set; }
+        public long TranslationId { get; set; }
 
         /// <summary>
         /// Gets or sets the Review Name associated with the lock.
@@ -82,7 +82,7 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets the Review Id associated with the lock.
         /// </summary>
-        public int ReviewId { get; set; }
+        public long ReviewId { get; set; }
 
         #endregion
     }
