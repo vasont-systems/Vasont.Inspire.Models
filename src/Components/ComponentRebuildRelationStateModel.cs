@@ -9,7 +9,7 @@ namespace Vasont.Inspire.Models.Components
     using System.Collections.Generic;
 
     /// <summary>
-    /// This class contains the export state for a rebuild relation request worker within the application.
+    /// This class contains the rebuild relation state for the rebuild relation request worker within the application.
     /// </summary>
     public class ComponentRebuildRelationStateModel
     {

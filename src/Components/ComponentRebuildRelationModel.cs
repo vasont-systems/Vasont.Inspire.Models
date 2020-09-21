@@ -32,7 +32,7 @@ namespace Vasont.Inspire.Models.Components
     }
 
     /// <summary>
-    /// This class represents a component that has been rebuilt by an extract service.
+    /// This class represents a component that has been rebuilt by relationship rebuild service.
     /// </summary>
     public class ComponentRebuildRelationModel
     {
