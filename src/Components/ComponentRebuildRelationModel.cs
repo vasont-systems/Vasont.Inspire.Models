@@ -25,8 +25,7 @@ namespace Vasont.Inspire.Models.Components
         Failed,
 
         /// <summary>
-        /// The component relation rebuild ignored
-        /// the component should be rebuilt manually.
+        /// The component relation rebuild ignored.
         /// </summary>
         Ignored
     }
