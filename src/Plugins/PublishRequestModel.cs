@@ -59,6 +59,11 @@ namespace Vasont.Inspire.Models.Plugins
         public string RootFileName { get; set; }
 
         /// <summary>
+        /// Gets or sets the root component name value.
+        /// </summary>
+        public string RootComponentName { get; set; }
+
+        /// <summary>
         /// Gets or sets a minimal model for the user.
         /// </summary>
         public MinimalUserModel User { get; set; }
