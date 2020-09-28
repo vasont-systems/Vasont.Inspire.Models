@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportProfileAttributeFilterModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportProfileAttributeFilterModel
     path: Transfers/ExportProfileAttributeFilterModel.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportProfileAttributeFilterModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Transfers/ExportProfileAttributeFilterModel.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportProfileAttributeFilterModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Values
     path: Transfers/ExportProfileAttributeFilterModel.cs

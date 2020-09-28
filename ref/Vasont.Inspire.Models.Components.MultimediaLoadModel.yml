@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Components/MultimediaLoadModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MultimediaLoadModel
     path: Components/MultimediaLoadModel.cs
@@ -65,7 +65,7 @@ items:
   source:
     remote:
       path: src/Components/MultimediaLoadModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Thumbnail
     path: Components/MultimediaLoadModel.cs

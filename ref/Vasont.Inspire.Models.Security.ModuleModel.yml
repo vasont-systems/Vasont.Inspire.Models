@@ -24,7 +24,7 @@ items:
   source:
     remote:
       path: src/Security/ModuleModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ModuleModel
     path: Security/ModuleModel.cs
@@ -74,7 +74,7 @@ items:
   source:
     remote:
       path: src/Security/ModuleModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ModuleId
     path: Security/ModuleModel.cs
@@ -111,7 +111,7 @@ items:
   source:
     remote:
       path: src/Security/ModuleModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PackageId
     path: Security/ModuleModel.cs
@@ -148,7 +148,7 @@ items:
   source:
     remote:
       path: src/Security/ModuleModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PackageName
     path: Security/ModuleModel.cs
@@ -185,7 +185,7 @@ items:
   source:
     remote:
       path: src/Security/ModuleModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ModuleKey
     path: Security/ModuleModel.cs
@@ -222,7 +222,7 @@ items:
   source:
     remote:
       path: src/Security/ModuleModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Security/ModuleModel.cs
@@ -259,7 +259,7 @@ items:
   source:
     remote:
       path: src/Security/ModuleModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Security/ModuleModel.cs
@@ -296,7 +296,7 @@ items:
   source:
     remote:
       path: src/Security/ModuleModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Active
     path: Security/ModuleModel.cs
@@ -333,7 +333,7 @@ items:
   source:
     remote:
       path: src/Security/ModuleModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Permissions
     path: Security/ModuleModel.cs
@@ -370,7 +370,7 @@ items:
   source:
     remote:
       path: src/Security/ModuleModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Properties
     path: Security/ModuleModel.cs

@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowTemplateModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowTemplateModel
     path: Workflow/WorkflowTemplateModel.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowTemplateModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentId
     path: Workflow/WorkflowTemplateModel.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowTemplateModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Workflow/WorkflowTemplateModel.cs
@@ -136,7 +136,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowTemplateModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Workflow/WorkflowTemplateModel.cs
@@ -173,7 +173,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowTemplateModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Type
     path: Workflow/WorkflowTemplateModel.cs

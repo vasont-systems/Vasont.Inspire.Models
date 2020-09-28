@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Components/DeleteResultModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DeleteResultModel
     path: Components/DeleteResultModel.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/Components/DeleteResultModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceReferenceComponents
     path: Components/DeleteResultModel.cs

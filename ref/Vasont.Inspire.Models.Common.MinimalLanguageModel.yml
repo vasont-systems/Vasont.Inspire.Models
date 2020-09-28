@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Common/MinimalLanguageModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalLanguageModel
     path: Common/MinimalLanguageModel.cs
@@ -61,7 +61,7 @@ items:
   source:
     remote:
       path: src/Common/MinimalLanguageModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LanguageCode
     path: Common/MinimalLanguageModel.cs
@@ -98,7 +98,7 @@ items:
   source:
     remote:
       path: src/Common/MinimalLanguageModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Common/MinimalLanguageModel.cs
@@ -135,7 +135,7 @@ items:
   source:
     remote:
       path: src/Common/MinimalLanguageModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsLocale
     path: Common/MinimalLanguageModel.cs

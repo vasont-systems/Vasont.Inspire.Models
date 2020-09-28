@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetRequestModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetRequestModel
     path: Versioning/ChangesetRequestModel.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetRequestModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentId
     path: Versioning/ChangesetRequestModel.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetRequestModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetId
     path: Versioning/ChangesetRequestModel.cs

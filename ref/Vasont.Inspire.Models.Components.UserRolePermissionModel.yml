@@ -25,7 +25,7 @@ items:
   source:
     remote:
       path: src/Components/UserRolePermissionModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserRolePermissionModel
     path: Components/UserRolePermissionModel.cs
@@ -68,7 +68,7 @@ items:
   source:
     remote:
       path: src/Components/UserRolePermissionModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/UserRolePermissionModel.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: src/Components/UserRolePermissionModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Id
     path: Components/UserRolePermissionModel.cs
@@ -137,7 +137,7 @@ items:
   source:
     remote:
       path: src/Components/UserRolePermissionModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserId
     path: Components/UserRolePermissionModel.cs
@@ -174,7 +174,7 @@ items:
   source:
     remote:
       path: src/Components/UserRolePermissionModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RoleId
     path: Components/UserRolePermissionModel.cs
@@ -211,7 +211,7 @@ items:
   source:
     remote:
       path: src/Components/UserRolePermissionModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Type
     path: Components/UserRolePermissionModel.cs
@@ -248,7 +248,7 @@ items:
   source:
     remote:
       path: src/Components/UserRolePermissionModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Components/UserRolePermissionModel.cs
@@ -285,7 +285,7 @@ items:
   source:
     remote:
       path: src/Components/UserRolePermissionModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Components/UserRolePermissionModel.cs
@@ -322,7 +322,7 @@ items:
   source:
     remote:
       path: src/Components/UserRolePermissionModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Permissions
     path: Components/UserRolePermissionModel.cs
@@ -359,7 +359,7 @@ items:
   source:
     remote:
       path: src/Components/UserRolePermissionModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ShouldSerializeUserId
     path: Components/UserRolePermissionModel.cs
@@ -394,7 +394,7 @@ items:
   source:
     remote:
       path: src/Components/UserRolePermissionModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ShouldSerializeRoleId
     path: Components/UserRolePermissionModel.cs

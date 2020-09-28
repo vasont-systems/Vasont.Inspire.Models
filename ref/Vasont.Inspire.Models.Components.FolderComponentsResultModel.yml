@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Components/FolderComponentsResultModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FolderComponentsResultModel
     path: Components/FolderComponentsResultModel.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: src/Components/FolderComponentsResultModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TotalCount
     path: Components/FolderComponentsResultModel.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Components/FolderComponentsResultModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Components
     path: Components/FolderComponentsResultModel.cs

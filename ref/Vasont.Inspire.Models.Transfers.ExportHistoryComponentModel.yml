@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportHistoryComponentModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportHistoryComponentModel
     path: Transfers/ExportHistoryComponentModel.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportHistoryComponentModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetId
     path: Transfers/ExportHistoryComponentModel.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportHistoryComponentModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentId
     path: Transfers/ExportHistoryComponentModel.cs
