@@ -47,5 +47,10 @@ namespace Vasont.Inspire.Models.Translations
 
         /// <summary>Gets or sets a value indicating with the export config id.</summary>
         public long ExportId { get; set; }
+
+        /// <summary>
+        /// Gets or sets the optional translation integration identifier.
+        /// </summary>
+        public int? TranslationIntegrationId { get; set; }
     }
 }

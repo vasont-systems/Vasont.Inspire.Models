@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Components/ContentTypeModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ContentTypeModel
     path: Components/ContentTypeModel.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: src/Components/ContentTypeModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ContentTypeId
     path: Components/ContentTypeModel.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: src/Components/ContentTypeModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Components/ContentTypeModel.cs
@@ -136,7 +136,7 @@ items:
   source:
     remote:
       path: src/Components/ContentTypeModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ContentTypeKey
     path: Components/ContentTypeModel.cs
@@ -173,7 +173,7 @@ items:
   source:
     remote:
       path: src/Components/ContentTypeModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Default
     path: Components/ContentTypeModel.cs

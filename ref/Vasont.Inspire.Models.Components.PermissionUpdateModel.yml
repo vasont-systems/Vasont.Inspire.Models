@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Components/PermissionUpdateModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PermissionUpdateModel
     path: Components/PermissionUpdateModel.cs
@@ -63,7 +63,7 @@ items:
   source:
     remote:
       path: src/Components/PermissionUpdateModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Inherited
     path: Components/PermissionUpdateModel.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: src/Components/PermissionUpdateModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanInherit
     path: Components/PermissionUpdateModel.cs
@@ -137,7 +137,7 @@ items:
   source:
     remote:
       path: src/Components/PermissionUpdateModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FolderId
     path: Components/PermissionUpdateModel.cs
@@ -174,7 +174,7 @@ items:
   source:
     remote:
       path: src/Components/PermissionUpdateModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentIds
     path: Components/PermissionUpdateModel.cs
@@ -211,7 +211,7 @@ items:
   source:
     remote:
       path: src/Components/PermissionUpdateModel.cs
-      branch: feature/TranslationIntegrations
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserRolePermissions
     path: Components/PermissionUpdateModel.cs
