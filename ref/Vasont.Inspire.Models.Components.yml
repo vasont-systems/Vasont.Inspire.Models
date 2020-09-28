@@ -20,6 +20,10 @@ items:
   - Vasont.Inspire.Models.Components.ComponentMetricsModel
   - Vasont.Inspire.Models.Components.ComponentModel
   - Vasont.Inspire.Models.Components.ComponentPropertyModel
+  - Vasont.Inspire.Models.Components.ComponentRebuildRelationModel
+  - Vasont.Inspire.Models.Components.ComponentRebuildRelationRequestModel
+  - Vasont.Inspire.Models.Components.ComponentRebuildRelationResult
+  - Vasont.Inspire.Models.Components.ComponentRebuildRelationStateModel
   - Vasont.Inspire.Models.Components.ComponentRelationModel
   - Vasont.Inspire.Models.Components.ComponentRelationsQueryModel
   - Vasont.Inspire.Models.Components.ComponentRelationsRepairResultModel
@@ -29,6 +33,7 @@ items:
   - Vasont.Inspire.Models.Components.ComponentTagModel
   - Vasont.Inspire.Models.Components.ComponentTranslationsResultModel
   - Vasont.Inspire.Models.Components.ComponentTypeModel
+  - Vasont.Inspire.Models.Components.ComponentUserAccessModel
   - Vasont.Inspire.Models.Components.ComponentUserPermissionModel
   - Vasont.Inspire.Models.Components.ContentTypeModel
   - Vasont.Inspire.Models.Components.CreateComponentFromTemplateModel
@@ -58,6 +63,8 @@ items:
   - Vasont.Inspire.Models.Components.MapNodeModel
   - Vasont.Inspire.Models.Components.MapNodeType
   - Vasont.Inspire.Models.Components.MapNodeUiMetadataModel
+  - Vasont.Inspire.Models.Components.MapSyncRequestModel
+  - Vasont.Inspire.Models.Components.MapSyncResponseModel
   - Vasont.Inspire.Models.Components.MapTargetComponentTypeModel
   - Vasont.Inspire.Models.Components.MapTargetModel
   - Vasont.Inspire.Models.Components.MicroComponentModel
@@ -65,12 +72,14 @@ items:
   - Vasont.Inspire.Models.Components.MinimalComponentModel
   - Vasont.Inspire.Models.Components.MinimalComponentRelationModel
   - Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+  - Vasont.Inspire.Models.Components.MinimalComponentUserAccessModel
   - Vasont.Inspire.Models.Components.MinimalEditorXmlModel
   - Vasont.Inspire.Models.Components.MinimalFolderModel
   - Vasont.Inspire.Models.Components.MinimalPermissionModel
   - Vasont.Inspire.Models.Components.MultimediaLoadModel
   - Vasont.Inspire.Models.Components.PermissionUpdateModel
   - Vasont.Inspire.Models.Components.QueryModel
+  - Vasont.Inspire.Models.Components.RecentComponentModel
   - Vasont.Inspire.Models.Components.ReviewEditorMode
   - Vasont.Inspire.Models.Components.SaveAsBranchModel
   - Vasont.Inspire.Models.Components.SaveAsComponentModel
@@ -176,6 +185,27 @@ references:
   name: ComponentPropertyModel
   nameWithType: ComponentPropertyModel
   fullName: Vasont.Inspire.Models.Components.ComponentPropertyModel
+- uid: Vasont.Inspire.Models.Components.ComponentRebuildRelationResult
+  commentId: T:Vasont.Inspire.Models.Components.ComponentRebuildRelationResult
+  parent: Vasont.Inspire.Models.Components
+  name: ComponentRebuildRelationResult
+  nameWithType: ComponentRebuildRelationResult
+  fullName: Vasont.Inspire.Models.Components.ComponentRebuildRelationResult
+- uid: Vasont.Inspire.Models.Components.ComponentRebuildRelationModel
+  commentId: T:Vasont.Inspire.Models.Components.ComponentRebuildRelationModel
+  name: ComponentRebuildRelationModel
+  nameWithType: ComponentRebuildRelationModel
+  fullName: Vasont.Inspire.Models.Components.ComponentRebuildRelationModel
+- uid: Vasont.Inspire.Models.Components.ComponentRebuildRelationRequestModel
+  commentId: T:Vasont.Inspire.Models.Components.ComponentRebuildRelationRequestModel
+  name: ComponentRebuildRelationRequestModel
+  nameWithType: ComponentRebuildRelationRequestModel
+  fullName: Vasont.Inspire.Models.Components.ComponentRebuildRelationRequestModel
+- uid: Vasont.Inspire.Models.Components.ComponentRebuildRelationStateModel
+  commentId: T:Vasont.Inspire.Models.Components.ComponentRebuildRelationStateModel
+  name: ComponentRebuildRelationStateModel
+  nameWithType: ComponentRebuildRelationStateModel
+  fullName: Vasont.Inspire.Models.Components.ComponentRebuildRelationStateModel
 - uid: Vasont.Inspire.Models.Components.ComponentRelationModel
   commentId: T:Vasont.Inspire.Models.Components.ComponentRelationModel
   parent: Vasont.Inspire.Models.Components
@@ -383,6 +413,16 @@ references:
   name: MapNodeUiMetadataModel
   nameWithType: MapNodeUiMetadataModel
   fullName: Vasont.Inspire.Models.Components.MapNodeUiMetadataModel
+- uid: Vasont.Inspire.Models.Components.MapSyncRequestModel
+  commentId: T:Vasont.Inspire.Models.Components.MapSyncRequestModel
+  name: MapSyncRequestModel
+  nameWithType: MapSyncRequestModel
+  fullName: Vasont.Inspire.Models.Components.MapSyncRequestModel
+- uid: Vasont.Inspire.Models.Components.MapSyncResponseModel
+  commentId: T:Vasont.Inspire.Models.Components.MapSyncResponseModel
+  name: MapSyncResponseModel
+  nameWithType: MapSyncResponseModel
+  fullName: Vasont.Inspire.Models.Components.MapSyncResponseModel
 - uid: Vasont.Inspire.Models.Components.MapTargetComponentTypeModel
   commentId: T:Vasont.Inspire.Models.Components.MapTargetComponentTypeModel
   parent: Vasont.Inspire.Models.Components
@@ -429,6 +469,12 @@ references:
   name: MinimalComponentTypeModel
   nameWithType: MinimalComponentTypeModel
   fullName: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
+- uid: Vasont.Inspire.Models.Components.MinimalComponentUserAccessModel
+  commentId: T:Vasont.Inspire.Models.Components.MinimalComponentUserAccessModel
+  parent: Vasont.Inspire.Models.Components
+  name: MinimalComponentUserAccessModel
+  nameWithType: MinimalComponentUserAccessModel
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentUserAccessModel
 - uid: Vasont.Inspire.Models.Components.MinimalEditorXmlModel
   commentId: T:Vasont.Inspire.Models.Components.MinimalEditorXmlModel
   parent: Vasont.Inspire.Models.Components
@@ -461,6 +507,11 @@ references:
   name: QueryModel
   nameWithType: QueryModel
   fullName: Vasont.Inspire.Models.Components.QueryModel
+- uid: Vasont.Inspire.Models.Components.RecentComponentModel
+  commentId: T:Vasont.Inspire.Models.Components.RecentComponentModel
+  name: RecentComponentModel
+  nameWithType: RecentComponentModel
+  fullName: Vasont.Inspire.Models.Components.RecentComponentModel
 - uid: Vasont.Inspire.Models.Components.SaveAsBranchModel
   commentId: T:Vasont.Inspire.Models.Components.SaveAsBranchModel
   name: SaveAsBranchModel
@@ -471,6 +522,11 @@ references:
   name: SaveAsComponentModel
   nameWithType: SaveAsComponentModel
   fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel
+- uid: Vasont.Inspire.Models.Components.ComponentUserAccessModel
+  commentId: T:Vasont.Inspire.Models.Components.ComponentUserAccessModel
+  name: ComponentUserAccessModel
+  nameWithType: ComponentUserAccessModel
+  fullName: Vasont.Inspire.Models.Components.ComponentUserAccessModel
 - uid: Vasont.Inspire.Models.Components.TagModel
   commentId: T:Vasont.Inspire.Models.Components.TagModel
   name: TagModel

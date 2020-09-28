@@ -10,9 +10,11 @@ items:
   - Vasont.Inspire.Models.Plugins.PublishRequestModel.PublishConfigName
   - Vasont.Inspire.Models.Plugins.PublishRequestModel.PublishParameters
   - Vasont.Inspire.Models.Plugins.PublishRequestModel.RootComponentId
+  - Vasont.Inspire.Models.Plugins.PublishRequestModel.RootComponentName
   - Vasont.Inspire.Models.Plugins.PublishRequestModel.RootFileName
   - Vasont.Inspire.Models.Plugins.PublishRequestModel.Type
   - Vasont.Inspire.Models.Plugins.PublishRequestModel.User
+  - Vasont.Inspire.Models.Plugins.PublishRequestModel.WebhookUrl
   langs:
   - csharp
   - vb
@@ -23,11 +25,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PublishRequestModel
     path: Plugins/PublishRequestModel.cs
-    startLine: 47
+    startLine: 48
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -66,11 +68,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RootComponentId
     path: Plugins/PublishRequestModel.cs
-    startLine: 52
+    startLine: 53
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -103,11 +105,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RootFileName
     path: Plugins/PublishRequestModel.cs
-    startLine: 57
+    startLine: 58
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -120,6 +122,43 @@ items:
       type: System.String
     content.vb: Public Property RootFileName As String
   overload: Vasont.Inspire.Models.Plugins.PublishRequestModel.RootFileName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.PublishRequestModel.RootComponentName
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishRequestModel.RootComponentName
+  id: RootComponentName
+  parent: Vasont.Inspire.Models.Plugins.PublishRequestModel
+  langs:
+  - csharp
+  - vb
+  name: RootComponentName
+  nameWithType: PublishRequestModel.RootComponentName
+  fullName: Vasont.Inspire.Models.Plugins.PublishRequestModel.RootComponentName
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PublishRequestModel.cs
+      branch: feature/TranslationIntegrations
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RootComponentName
+    path: Plugins/PublishRequestModel.cs
+    startLine: 63
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the root component name value.\n"
+  example: []
+  syntax:
+    content: public string RootComponentName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RootComponentName As String
+  overload: Vasont.Inspire.Models.Plugins.PublishRequestModel.RootComponentName*
   modifiers.csharp:
   - public
   - get
@@ -140,11 +179,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: User
     path: Plugins/PublishRequestModel.cs
-    startLine: 62
+    startLine: 68
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -177,11 +216,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DomainKey
     path: Plugins/PublishRequestModel.cs
-    startLine: 67
+    startLine: 73
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -214,11 +253,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Type
     path: Plugins/PublishRequestModel.cs
-    startLine: 72
+    startLine: 78
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -251,11 +290,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DitaToolkitVersion
     path: Plugins/PublishRequestModel.cs
-    startLine: 77
+    startLine: 83
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -288,11 +327,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PublishConfigName
     path: Plugins/PublishRequestModel.cs
-    startLine: 82
+    startLine: 88
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -305,6 +344,43 @@ items:
       type: System.String
     content.vb: Public Property PublishConfigName As String
   overload: Vasont.Inspire.Models.Plugins.PublishRequestModel.PublishConfigName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.PublishRequestModel.WebhookUrl
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishRequestModel.WebhookUrl
+  id: WebhookUrl
+  parent: Vasont.Inspire.Models.Plugins.PublishRequestModel
+  langs:
+  - csharp
+  - vb
+  name: WebhookUrl
+  nameWithType: PublishRequestModel.WebhookUrl
+  fullName: Vasont.Inspire.Models.Plugins.PublishRequestModel.WebhookUrl
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PublishRequestModel.cs
+      branch: feature/TranslationIntegrations
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: WebhookUrl
+    path: Plugins/PublishRequestModel.cs
+    startLine: 93
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the webhook url.\n"
+  example: []
+  syntax:
+    content: public Uri WebhookUrl { get; set; }
+    parameters: []
+    return:
+      type: System.Uri
+    content.vb: Public Property WebhookUrl As Uri
+  overload: Vasont.Inspire.Models.Plugins.PublishRequestModel.WebhookUrl*
   modifiers.csharp:
   - public
   - get
@@ -325,11 +401,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PublishParameters
     path: Plugins/PublishRequestModel.cs
-    startLine: 87
+    startLine: 98
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -670,6 +746,11 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: Vasont.Inspire.Models.Plugins.PublishRequestModel.RootComponentName*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishRequestModel.RootComponentName
+  name: RootComponentName
+  nameWithType: PublishRequestModel.RootComponentName
+  fullName: Vasont.Inspire.Models.Plugins.PublishRequestModel.RootComponentName
 - uid: Vasont.Inspire.Models.Plugins.PublishRequestModel.User*
   commentId: Overload:Vasont.Inspire.Models.Plugins.PublishRequestModel.User
   name: User
@@ -712,6 +793,18 @@ references:
   name: PublishConfigName
   nameWithType: PublishRequestModel.PublishConfigName
   fullName: Vasont.Inspire.Models.Plugins.PublishRequestModel.PublishConfigName
+- uid: Vasont.Inspire.Models.Plugins.PublishRequestModel.WebhookUrl*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishRequestModel.WebhookUrl
+  name: WebhookUrl
+  nameWithType: PublishRequestModel.WebhookUrl
+  fullName: Vasont.Inspire.Models.Plugins.PublishRequestModel.WebhookUrl
+- uid: System.Uri
+  commentId: T:System.Uri
+  parent: System
+  isExternal: true
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri
 - uid: Vasont.Inspire.Models.Plugins.PublishRequestModel.PublishParameters*
   commentId: Overload:Vasont.Inspire.Models.Plugins.PublishRequestModel.PublishParameters
   name: PublishParameters

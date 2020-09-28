@@ -7,8 +7,9 @@ items:
   children:
   - Vasont.Inspire.Models.Notifications.NotificationModel`2.Alert
   - Vasont.Inspire.Models.Notifications.NotificationModel`2.Model
-  - Vasont.Inspire.Models.Notifications.NotificationModel`2.NotificationDateUtc
+  - Vasont.Inspire.Models.Notifications.NotificationModel`2.NotificationDate
   - Vasont.Inspire.Models.Notifications.NotificationModel`2.NotificationId
+  - Vasont.Inspire.Models.Notifications.NotificationModel`2.State
   - Vasont.Inspire.Models.Notifications.NotificationModel`2.Target
   - Vasont.Inspire.Models.Notifications.NotificationModel`2.TargetId
   - Vasont.Inspire.Models.Notifications.NotificationModel`2.TenantId
@@ -23,7 +24,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NotificationModel
     path: Notifications/NotificationModel.cs
@@ -74,7 +75,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NotificationId
     path: Notifications/NotificationModel.cs
@@ -99,23 +100,23 @@ items:
   modifiers.vb:
   - Public
   fullName.vb: Vasont.Inspire.Models.Notifications.NotificationModel(Of TModel, TTargetId).NotificationId
-- uid: Vasont.Inspire.Models.Notifications.NotificationModel`2.NotificationDateUtc
-  commentId: P:Vasont.Inspire.Models.Notifications.NotificationModel`2.NotificationDateUtc
-  id: NotificationDateUtc
+- uid: Vasont.Inspire.Models.Notifications.NotificationModel`2.NotificationDate
+  commentId: P:Vasont.Inspire.Models.Notifications.NotificationModel`2.NotificationDate
+  id: NotificationDate
   parent: Vasont.Inspire.Models.Notifications.NotificationModel`2
   langs:
   - csharp
   - vb
-  name: NotificationDateUtc
-  nameWithType: NotificationModel<TModel, TTargetId>.NotificationDateUtc
-  fullName: Vasont.Inspire.Models.Notifications.NotificationModel<TModel, TTargetId>.NotificationDateUtc
+  name: NotificationDate
+  nameWithType: NotificationModel<TModel, TTargetId>.NotificationDate
+  fullName: Vasont.Inspire.Models.Notifications.NotificationModel<TModel, TTargetId>.NotificationDate
   type: Property
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
-    id: NotificationDateUtc
+    id: NotificationDate
     path: Notifications/NotificationModel.cs
     startLine: 139
   assemblies:
@@ -124,20 +125,20 @@ items:
   summary: "\nGets or sets the notification date time in UTC.\n"
   example: []
   syntax:
-    content: public DateTime NotificationDateUtc { get; set; }
+    content: public DateTime NotificationDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property NotificationDateUtc As Date
-  overload: Vasont.Inspire.Models.Notifications.NotificationModel`2.NotificationDateUtc*
-  nameWithType.vb: NotificationModel(Of TModel, TTargetId).NotificationDateUtc
+    content.vb: Public Property NotificationDate As Date
+  overload: Vasont.Inspire.Models.Notifications.NotificationModel`2.NotificationDate*
+  nameWithType.vb: NotificationModel(Of TModel, TTargetId).NotificationDate
   modifiers.csharp:
   - public
   - get
   - set
   modifiers.vb:
   - Public
-  fullName.vb: Vasont.Inspire.Models.Notifications.NotificationModel(Of TModel, TTargetId).NotificationDateUtc
+  fullName.vb: Vasont.Inspire.Models.Notifications.NotificationModel(Of TModel, TTargetId).NotificationDate
 - uid: Vasont.Inspire.Models.Notifications.NotificationModel`2.Type
   commentId: P:Vasont.Inspire.Models.Notifications.NotificationModel`2.Type
   id: Type
@@ -152,7 +153,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Type
     path: Notifications/NotificationModel.cs
@@ -177,6 +178,45 @@ items:
   modifiers.vb:
   - Public
   fullName.vb: Vasont.Inspire.Models.Notifications.NotificationModel(Of TModel, TTargetId).Type
+- uid: Vasont.Inspire.Models.Notifications.NotificationModel`2.State
+  commentId: P:Vasont.Inspire.Models.Notifications.NotificationModel`2.State
+  id: State
+  parent: Vasont.Inspire.Models.Notifications.NotificationModel`2
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: NotificationModel<TModel, TTargetId>.State
+  fullName: Vasont.Inspire.Models.Notifications.NotificationModel<TModel, TTargetId>.State
+  type: Property
+  source:
+    remote:
+      path: src/Notifications/NotificationModel.cs
+      branch: feature/TranslationIntegrations
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: State
+    path: Notifications/NotificationModel.cs
+    startLine: 149
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications
+  summary: "\nGets or sets the notification state to pass to the system.\n"
+  example: []
+  syntax:
+    content: public NotificationState State { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Notifications.NotificationState
+    content.vb: Public Property State As NotificationState
+  overload: Vasont.Inspire.Models.Notifications.NotificationModel`2.State*
+  nameWithType.vb: NotificationModel(Of TModel, TTargetId).State
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Vasont.Inspire.Models.Notifications.NotificationModel(Of TModel, TTargetId).State
 - uid: Vasont.Inspire.Models.Notifications.NotificationModel`2.Target
   commentId: P:Vasont.Inspire.Models.Notifications.NotificationModel`2.Target
   id: Target
@@ -191,11 +231,11 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Target
     path: Notifications/NotificationModel.cs
-    startLine: 149
+    startLine: 154
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications
@@ -230,11 +270,11 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TenantId
     path: Notifications/NotificationModel.cs
-    startLine: 154
+    startLine: 159
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications
@@ -269,11 +309,11 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetId
     path: Notifications/NotificationModel.cs
-    startLine: 159
+    startLine: 164
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications
@@ -308,11 +348,11 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Alert
     path: Notifications/NotificationModel.cs
-    startLine: 164
+    startLine: 169
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications
@@ -347,11 +387,11 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Model
     path: Notifications/NotificationModel.cs
-    startLine: 169
+    startLine: 174
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications
@@ -684,13 +724,13 @@ references:
   name: Guid
   nameWithType: Guid
   fullName: System.Guid
-- uid: Vasont.Inspire.Models.Notifications.NotificationModel`2.NotificationDateUtc*
-  commentId: Overload:Vasont.Inspire.Models.Notifications.NotificationModel`2.NotificationDateUtc
-  name: NotificationDateUtc
-  nameWithType: NotificationModel<TModel, TTargetId>.NotificationDateUtc
-  fullName: Vasont.Inspire.Models.Notifications.NotificationModel<TModel, TTargetId>.NotificationDateUtc
-  nameWithType.vb: NotificationModel(Of TModel, TTargetId).NotificationDateUtc
-  fullName.vb: Vasont.Inspire.Models.Notifications.NotificationModel(Of TModel, TTargetId).NotificationDateUtc
+- uid: Vasont.Inspire.Models.Notifications.NotificationModel`2.NotificationDate*
+  commentId: Overload:Vasont.Inspire.Models.Notifications.NotificationModel`2.NotificationDate
+  name: NotificationDate
+  nameWithType: NotificationModel<TModel, TTargetId>.NotificationDate
+  fullName: Vasont.Inspire.Models.Notifications.NotificationModel<TModel, TTargetId>.NotificationDate
+  nameWithType.vb: NotificationModel(Of TModel, TTargetId).NotificationDate
+  fullName.vb: Vasont.Inspire.Models.Notifications.NotificationModel(Of TModel, TTargetId).NotificationDate
 - uid: System.DateTime
   commentId: T:System.DateTime
   parent: System
@@ -711,6 +751,19 @@ references:
   name: NotificationType
   nameWithType: NotificationType
   fullName: Vasont.Inspire.Models.Notifications.NotificationType
+- uid: Vasont.Inspire.Models.Notifications.NotificationModel`2.State*
+  commentId: Overload:Vasont.Inspire.Models.Notifications.NotificationModel`2.State
+  name: State
+  nameWithType: NotificationModel<TModel, TTargetId>.State
+  fullName: Vasont.Inspire.Models.Notifications.NotificationModel<TModel, TTargetId>.State
+  nameWithType.vb: NotificationModel(Of TModel, TTargetId).State
+  fullName.vb: Vasont.Inspire.Models.Notifications.NotificationModel(Of TModel, TTargetId).State
+- uid: Vasont.Inspire.Models.Notifications.NotificationState
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationState
+  parent: Vasont.Inspire.Models.Notifications
+  name: NotificationState
+  nameWithType: NotificationState
+  fullName: Vasont.Inspire.Models.Notifications.NotificationState
 - uid: Vasont.Inspire.Models.Notifications.NotificationModel`2.Target*
   commentId: Overload:Vasont.Inspire.Models.Notifications.NotificationModel`2.Target
   name: Target

@@ -24,7 +24,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExecuteImportModel
     path: Transfers/ExecuteImportModel.cs
@@ -67,7 +67,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkingFolderPath
     path: Transfers/ExecuteImportModel.cs
@@ -104,7 +104,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FilePaths
     path: Transfers/ExecuteImportModel.cs
@@ -141,7 +141,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetFolderId
     path: Transfers/ExecuteImportModel.cs
@@ -178,7 +178,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetProjectFolderId
     path: Transfers/ExecuteImportModel.cs
@@ -215,7 +215,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SendResultNotification
     path: Transfers/ExecuteImportModel.cs
@@ -252,7 +252,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DeleteFiles
     path: Transfers/ExecuteImportModel.cs
@@ -289,7 +289,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreateTargetSubfolders
     path: Transfers/ExecuteImportModel.cs
@@ -326,7 +326,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkerCacheLifeTimeoutMinutes
     path: Transfers/ExecuteImportModel.cs
@@ -363,7 +363,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WaitForCompletion
     path: Transfers/ExecuteImportModel.cs

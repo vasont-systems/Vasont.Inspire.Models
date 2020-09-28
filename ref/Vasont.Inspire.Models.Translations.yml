@@ -4,6 +4,7 @@ items:
   commentId: N:Vasont.Inspire.Models.Translations
   id: Vasont.Inspire.Models.Translations
   children:
+  - Vasont.Inspire.Models.Translations.IntegrationMethodType
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
   - Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel
@@ -11,6 +12,9 @@ items:
   - Vasont.Inspire.Models.Translations.TranslationExportJobModel
   - Vasont.Inspire.Models.Translations.TranslationExportRequestModel
   - Vasont.Inspire.Models.Translations.TranslationExportStateModel
+  - Vasont.Inspire.Models.Translations.TranslationIntegrationBrowseQueryModel
+  - Vasont.Inspire.Models.Translations.TranslationIntegrationBrowseResultModel
+  - Vasont.Inspire.Models.Translations.TranslationIntegrationModel
   - Vasont.Inspire.Models.Translations.TranslationJobComponentModel
   - Vasont.Inspire.Models.Translations.TranslationJobComponentState
   - Vasont.Inspire.Models.Translations.TranslationJobModel
@@ -77,6 +81,27 @@ references:
   name: TranslationExportStateModel
   nameWithType: TranslationExportStateModel
   fullName: Vasont.Inspire.Models.Translations.TranslationExportStateModel
+- uid: Vasont.Inspire.Models.Translations.TranslationIntegrationBrowseQueryModel
+  commentId: T:Vasont.Inspire.Models.Translations.TranslationIntegrationBrowseQueryModel
+  name: TranslationIntegrationBrowseQueryModel
+  nameWithType: TranslationIntegrationBrowseQueryModel
+  fullName: Vasont.Inspire.Models.Translations.TranslationIntegrationBrowseQueryModel
+- uid: Vasont.Inspire.Models.Translations.TranslationIntegrationBrowseResultModel
+  commentId: T:Vasont.Inspire.Models.Translations.TranslationIntegrationBrowseResultModel
+  name: TranslationIntegrationBrowseResultModel
+  nameWithType: TranslationIntegrationBrowseResultModel
+  fullName: Vasont.Inspire.Models.Translations.TranslationIntegrationBrowseResultModel
+- uid: Vasont.Inspire.Models.Translations.IntegrationMethodType
+  commentId: T:Vasont.Inspire.Models.Translations.IntegrationMethodType
+  parent: Vasont.Inspire.Models.Translations
+  name: IntegrationMethodType
+  nameWithType: IntegrationMethodType
+  fullName: Vasont.Inspire.Models.Translations.IntegrationMethodType
+- uid: Vasont.Inspire.Models.Translations.TranslationIntegrationModel
+  commentId: T:Vasont.Inspire.Models.Translations.TranslationIntegrationModel
+  name: TranslationIntegrationModel
+  nameWithType: TranslationIntegrationModel
+  fullName: Vasont.Inspire.Models.Translations.TranslationIntegrationModel
 - uid: Vasont.Inspire.Models.Translations.TranslationJobComponentModel
   commentId: T:Vasont.Inspire.Models.Translations.TranslationJobComponentModel
   name: TranslationJobComponentModel

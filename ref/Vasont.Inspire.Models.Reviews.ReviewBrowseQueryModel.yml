@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewBrowseQueryModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewBrowseQueryModel
     path: Reviews/ReviewBrowseQueryModel.cs
@@ -67,7 +67,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewBrowseQueryModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IncludeArchived
     path: Reviews/ReviewBrowseQueryModel.cs
@@ -104,7 +104,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewBrowseQueryModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SearchText
     path: Reviews/ReviewBrowseQueryModel.cs

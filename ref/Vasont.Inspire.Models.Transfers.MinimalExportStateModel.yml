@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalExportStateModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalExportStateModel
     path: Transfers/MinimalExportStateModel.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalExportStateModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DownloadUrl
     path: Transfers/MinimalExportStateModel.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalExportStateModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Components
     path: Transfers/MinimalExportStateModel.cs

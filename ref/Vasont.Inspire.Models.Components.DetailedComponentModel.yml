@@ -10,8 +10,12 @@ items:
   - Vasont.Inspire.Models.Components.DetailedComponentModel.Dependencies
   - Vasont.Inspire.Models.Components.DetailedComponentModel.LanguageNameCode
   - Vasont.Inspire.Models.Components.DetailedComponentModel.Properties
+  - Vasont.Inspire.Models.Components.DetailedComponentModel.ReviewId
+  - Vasont.Inspire.Models.Components.DetailedComponentModel.ReviewName
   - Vasont.Inspire.Models.Components.DetailedComponentModel.TagIds
   - Vasont.Inspire.Models.Components.DetailedComponentModel.Tags
+  - Vasont.Inspire.Models.Components.DetailedComponentModel.TranslationId
+  - Vasont.Inspire.Models.Components.DetailedComponentModel.TranslationName
   langs:
   - csharp
   - vb
@@ -22,7 +26,7 @@ items:
   source:
     remote:
       path: src/Components/DetailedComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DetailedComponentModel
     path: Components/DetailedComponentModel.cs
@@ -62,6 +66,8 @@ items:
   - Vasont.Inspire.Models.Components.MinimalComponentModel.VirtualPath
   - Vasont.Inspire.Models.Components.MinimalComponentModel.Type
   - Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount
   - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
   - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedBy
   - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedDate
@@ -93,7 +99,7 @@ items:
   source:
     remote:
       path: src/Components/DetailedComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/DetailedComponentModel.cs
@@ -125,7 +131,7 @@ items:
   source:
     remote:
       path: src/Components/DetailedComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/DetailedComponentModel.cs
@@ -161,7 +167,7 @@ items:
   source:
     remote:
       path: src/Components/DetailedComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LanguageNameCode
     path: Components/DetailedComponentModel.cs
@@ -198,7 +204,7 @@ items:
   source:
     remote:
       path: src/Components/DetailedComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Tags
     path: Components/DetailedComponentModel.cs
@@ -235,7 +241,7 @@ items:
   source:
     remote:
       path: src/Components/DetailedComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TagIds
     path: Components/DetailedComponentModel.cs
@@ -272,7 +278,7 @@ items:
   source:
     remote:
       path: src/Components/DetailedComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Properties
     path: Components/DetailedComponentModel.cs
@@ -309,7 +315,7 @@ items:
   source:
     remote:
       path: src/Components/DetailedComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Dependencies
     path: Components/DetailedComponentModel.cs
@@ -326,6 +332,154 @@ items:
       type: System.Collections.Generic.List{Vasont.Inspire.Models.Components.ComponentDependencyModel}
     content.vb: Public Property Dependencies As List(Of ComponentDependencyModel)
   overload: Vasont.Inspire.Models.Components.DetailedComponentModel.Dependencies*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel.TranslationName
+  commentId: P:Vasont.Inspire.Models.Components.DetailedComponentModel.TranslationName
+  id: TranslationName
+  parent: Vasont.Inspire.Models.Components.DetailedComponentModel
+  langs:
+  - csharp
+  - vb
+  name: TranslationName
+  nameWithType: DetailedComponentModel.TranslationName
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel.TranslationName
+  type: Property
+  source:
+    remote:
+      path: src/Components/DetailedComponentModel.cs
+      branch: feature/TranslationIntegrations
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TranslationName
+    path: Components/DetailedComponentModel.cs
+    startLine: 69
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the Translation Name associated with the lock.\n"
+  example: []
+  syntax:
+    content: public string TranslationName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TranslationName As String
+  overload: Vasont.Inspire.Models.Components.DetailedComponentModel.TranslationName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel.TranslationId
+  commentId: P:Vasont.Inspire.Models.Components.DetailedComponentModel.TranslationId
+  id: TranslationId
+  parent: Vasont.Inspire.Models.Components.DetailedComponentModel
+  langs:
+  - csharp
+  - vb
+  name: TranslationId
+  nameWithType: DetailedComponentModel.TranslationId
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel.TranslationId
+  type: Property
+  source:
+    remote:
+      path: src/Components/DetailedComponentModel.cs
+      branch: feature/TranslationIntegrations
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TranslationId
+    path: Components/DetailedComponentModel.cs
+    startLine: 74
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the Translation Id associated with the lock.\n"
+  example: []
+  syntax:
+    content: public long TranslationId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TranslationId As Long
+  overload: Vasont.Inspire.Models.Components.DetailedComponentModel.TranslationId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel.ReviewName
+  commentId: P:Vasont.Inspire.Models.Components.DetailedComponentModel.ReviewName
+  id: ReviewName
+  parent: Vasont.Inspire.Models.Components.DetailedComponentModel
+  langs:
+  - csharp
+  - vb
+  name: ReviewName
+  nameWithType: DetailedComponentModel.ReviewName
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel.ReviewName
+  type: Property
+  source:
+    remote:
+      path: src/Components/DetailedComponentModel.cs
+      branch: feature/TranslationIntegrations
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewName
+    path: Components/DetailedComponentModel.cs
+    startLine: 79
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the Review Name associated with the lock.\n"
+  example: []
+  syntax:
+    content: public string ReviewName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ReviewName As String
+  overload: Vasont.Inspire.Models.Components.DetailedComponentModel.ReviewName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel.ReviewId
+  commentId: P:Vasont.Inspire.Models.Components.DetailedComponentModel.ReviewId
+  id: ReviewId
+  parent: Vasont.Inspire.Models.Components.DetailedComponentModel
+  langs:
+  - csharp
+  - vb
+  name: ReviewId
+  nameWithType: DetailedComponentModel.ReviewId
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel.ReviewId
+  type: Property
+  source:
+    remote:
+      path: src/Components/DetailedComponentModel.cs
+      branch: feature/TranslationIntegrations
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewId
+    path: Components/DetailedComponentModel.cs
+    startLine: 84
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the Review Id associated with the lock.\n"
+  example: []
+  syntax:
+    content: public long ReviewId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ReviewId As Long
+  overload: Vasont.Inspire.Models.Components.DetailedComponentModel.ReviewId*
   modifiers.csharp:
   - public
   - get
@@ -477,6 +631,18 @@ references:
   name: CanTranslate
   nameWithType: MinimalComponentModel.CanTranslate
   fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: MostRecentAccess
+  nameWithType: MinimalComponentModel.MostRecentAccess
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: UserAccessCount
+  nameWithType: MinimalComponentModel.UserAccessCount
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount
 - uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
   commentId: P:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
   parent: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
@@ -1015,3 +1181,30 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel.TranslationName*
+  commentId: Overload:Vasont.Inspire.Models.Components.DetailedComponentModel.TranslationName
+  name: TranslationName
+  nameWithType: DetailedComponentModel.TranslationName
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel.TranslationName
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel.TranslationId*
+  commentId: Overload:Vasont.Inspire.Models.Components.DetailedComponentModel.TranslationId
+  name: TranslationId
+  nameWithType: DetailedComponentModel.TranslationId
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel.TranslationId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel.ReviewName*
+  commentId: Overload:Vasont.Inspire.Models.Components.DetailedComponentModel.ReviewName
+  name: ReviewName
+  nameWithType: DetailedComponentModel.ReviewName
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel.ReviewName
+- uid: Vasont.Inspire.Models.Components.DetailedComponentModel.ReviewId*
+  commentId: Overload:Vasont.Inspire.Models.Components.DetailedComponentModel.ReviewId
+  name: ReviewId
+  nameWithType: DetailedComponentModel.ReviewId
+  fullName: Vasont.Inspire.Models.Components.DetailedComponentModel.ReviewId

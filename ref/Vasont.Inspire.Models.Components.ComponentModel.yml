@@ -16,6 +16,7 @@ items:
   - Vasont.Inspire.Models.Components.ComponentModel.RolePermissions
   - Vasont.Inspire.Models.Components.ComponentModel.Tags
   - Vasont.Inspire.Models.Components.ComponentModel.UpdatedBy
+  - Vasont.Inspire.Models.Components.ComponentModel.UserAccesses
   - Vasont.Inspire.Models.Components.ComponentModel.UserPermissions
   - Vasont.Inspire.Models.Components.ComponentModel.XmlContent
   langs:
@@ -28,7 +29,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentModel
     path: Components/ComponentModel.cs
@@ -67,6 +68,8 @@ items:
   - Vasont.Inspire.Models.Components.MinimalComponentModel.VirtualPath
   - Vasont.Inspire.Models.Components.MinimalComponentModel.Type
   - Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount
   - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
   - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedDate
   - System.Object.ToString
@@ -96,7 +99,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/ComponentModel.cs
@@ -128,7 +131,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentType
     path: Components/ComponentModel.cs
@@ -165,7 +168,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentTypeName
     path: Components/ComponentModel.cs
@@ -202,7 +205,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ContentTypeId
     path: Components/ComponentModel.cs
@@ -239,7 +242,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: BinaryContent
     path: Components/ComponentModel.cs
@@ -276,7 +279,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: XmlContent
     path: Components/ComponentModel.cs
@@ -313,7 +316,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RolePermissions
     path: Components/ComponentModel.cs
@@ -350,7 +353,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserPermissions
     path: Components/ComponentModel.cs
@@ -387,7 +390,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Folders
     path: Components/ComponentModel.cs
@@ -424,7 +427,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Properties
     path: Components/ComponentModel.cs
@@ -461,7 +464,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Tags
     path: Components/ComponentModel.cs
@@ -498,7 +501,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedBy
     path: Components/ComponentModel.cs
@@ -535,7 +538,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdatedBy
     path: Components/ComponentModel.cs
@@ -552,6 +555,43 @@ items:
       type: Vasont.Inspire.Models.Security.MicroUserModel
     content.vb: Public Property UpdatedBy As MicroUserModel
   overload: Vasont.Inspire.Models.Components.ComponentModel.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.ComponentModel.UserAccesses
+  commentId: P:Vasont.Inspire.Models.Components.ComponentModel.UserAccesses
+  id: UserAccesses
+  parent: Vasont.Inspire.Models.Components.ComponentModel
+  langs:
+  - csharp
+  - vb
+  name: UserAccesses
+  nameWithType: ComponentModel.UserAccesses
+  fullName: Vasont.Inspire.Models.Components.ComponentModel.UserAccesses
+  type: Property
+  source:
+    remote:
+      path: src/Components/ComponentModel.cs
+      branch: feature/TranslationIntegrations
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UserAccesses
+    path: Components/ComponentModel.cs
+    startLine: 90
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a list of <xref href=\"Vasont.Inspire.Models.Components.ComponentUserAccessModel\" data-throw-if-not-resolved=\"false\"></xref> objects.\n"
+  example: []
+  syntax:
+    content: public List<MinimalComponentUserAccessModel> UserAccesses { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Components.MinimalComponentUserAccessModel}
+    content.vb: Public Property UserAccesses As List(Of MinimalComponentUserAccessModel)
+  overload: Vasont.Inspire.Models.Components.ComponentModel.UserAccesses*
   modifiers.csharp:
   - public
   - get
@@ -697,6 +737,18 @@ references:
   name: CanTranslate
   nameWithType: MinimalComponentModel.CanTranslate
   fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: MostRecentAccess
+  nameWithType: MinimalComponentModel.MostRecentAccess
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: UserAccessCount
+  nameWithType: MinimalComponentModel.UserAccessCount
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount
 - uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
   commentId: P:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
   parent: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
@@ -1364,3 +1416,55 @@ references:
   name: UpdatedBy
   nameWithType: ComponentModel.UpdatedBy
   fullName: Vasont.Inspire.Models.Components.ComponentModel.UpdatedBy
+- uid: Vasont.Inspire.Models.Components.ComponentUserAccessModel
+  commentId: T:Vasont.Inspire.Models.Components.ComponentUserAccessModel
+  name: ComponentUserAccessModel
+  nameWithType: ComponentUserAccessModel
+  fullName: Vasont.Inspire.Models.Components.ComponentUserAccessModel
+- uid: Vasont.Inspire.Models.Components.ComponentModel.UserAccesses*
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentModel.UserAccesses
+  name: UserAccesses
+  nameWithType: ComponentModel.UserAccesses
+  fullName: Vasont.Inspire.Models.Components.ComponentModel.UserAccesses
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Components.MinimalComponentUserAccessModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Components.MinimalComponentUserAccessModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<MinimalComponentUserAccessModel>
+  nameWithType: List<MinimalComponentUserAccessModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Components.MinimalComponentUserAccessModel>
+  nameWithType.vb: List(Of MinimalComponentUserAccessModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Components.MinimalComponentUserAccessModel)
+  name.vb: List(Of MinimalComponentUserAccessModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Components.MinimalComponentUserAccessModel
+    name: MinimalComponentUserAccessModel
+    nameWithType: MinimalComponentUserAccessModel
+    fullName: Vasont.Inspire.Models.Components.MinimalComponentUserAccessModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Components.MinimalComponentUserAccessModel
+    name: MinimalComponentUserAccessModel
+    nameWithType: MinimalComponentUserAccessModel
+    fullName: Vasont.Inspire.Models.Components.MinimalComponentUserAccessModel
+  - name: )
+    nameWithType: )
+    fullName: )

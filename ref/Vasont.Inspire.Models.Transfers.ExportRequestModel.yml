@@ -12,6 +12,7 @@ items:
   - Vasont.Inspire.Models.Transfers.ExportRequestModel.LockForEdit
   - Vasont.Inspire.Models.Transfers.ExportRequestModel.ProfileFilters
   - Vasont.Inspire.Models.Transfers.ExportRequestModel.SendNotification
+  - Vasont.Inspire.Models.Transfers.ExportRequestModel.SkipXmlValidation
   langs:
   - csharp
   - vb
@@ -22,7 +23,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportRequestModel
     path: Transfers/ExportRequestModel.cs
@@ -65,7 +66,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetsToExport
     path: Transfers/ExportRequestModel.cs
@@ -102,7 +103,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportId
     path: Transfers/ExportRequestModel.cs
@@ -139,7 +140,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentIdsToExport
     path: Transfers/ExportRequestModel.cs
@@ -176,7 +177,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AlwaysZipResults
     path: Transfers/ExportRequestModel.cs
@@ -213,7 +214,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SendNotification
     path: Transfers/ExportRequestModel.cs
@@ -250,7 +251,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProfileFilters
     path: Transfers/ExportRequestModel.cs
@@ -287,7 +288,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LockForEdit
     path: Transfers/ExportRequestModel.cs
@@ -304,6 +305,43 @@ items:
       type: System.Boolean
     content.vb: Public Property LockForEdit As Boolean
   overload: Vasont.Inspire.Models.Transfers.ExportRequestModel.LockForEdit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.SkipXmlValidation
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportRequestModel.SkipXmlValidation
+  id: SkipXmlValidation
+  parent: Vasont.Inspire.Models.Transfers.ExportRequestModel
+  langs:
+  - csharp
+  - vb
+  name: SkipXmlValidation
+  nameWithType: ExportRequestModel.SkipXmlValidation
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.SkipXmlValidation
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ExportRequestModel.cs
+      branch: feature/TranslationIntegrations
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SkipXmlValidation
+    path: Transfers/ExportRequestModel.cs
+    startLine: 53
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets a value indicating whether the exported content should be validated.\n"
+  example: []
+  syntax:
+    content: public bool SkipXmlValidation { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SkipXmlValidation As Boolean
+  overload: Vasont.Inspire.Models.Transfers.ExportRequestModel.SkipXmlValidation*
   modifiers.csharp:
   - public
   - get
@@ -830,3 +868,8 @@ references:
   name: LockForEdit
   nameWithType: ExportRequestModel.LockForEdit
   fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.LockForEdit
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.SkipXmlValidation*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportRequestModel.SkipXmlValidation
+  name: SkipXmlValidation
+  nameWithType: ExportRequestModel.SkipXmlValidation
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.SkipXmlValidation

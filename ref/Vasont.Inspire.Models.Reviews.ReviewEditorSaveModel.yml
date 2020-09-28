@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewEditorSaveModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewEditorSaveModel
     path: Reviews/ReviewEditorSaveModel.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewEditorSaveModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentId
     path: Reviews/ReviewEditorSaveModel.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewEditorSaveModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Html
     path: Reviews/ReviewEditorSaveModel.cs
@@ -136,7 +136,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewEditorSaveModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EditorIsDirty
     path: Reviews/ReviewEditorSaveModel.cs
@@ -173,7 +173,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewEditorSaveModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DownloadResult
     path: Reviews/ReviewEditorSaveModel.cs

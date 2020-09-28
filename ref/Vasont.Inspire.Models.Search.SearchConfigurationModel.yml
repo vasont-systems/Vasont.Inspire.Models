@@ -23,7 +23,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SearchConfigurationModel
     path: Search/SearchConfigurationModel.cs
@@ -66,7 +66,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Search/SearchConfigurationModel.cs
@@ -98,7 +98,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Search/SearchConfigurationModel.cs
@@ -152,7 +152,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FieldId
     path: Search/SearchConfigurationModel.cs
@@ -189,7 +189,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DisplayName
     path: Search/SearchConfigurationModel.cs
@@ -226,7 +226,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CompareExists
     path: Search/SearchConfigurationModel.cs
@@ -273,7 +273,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DataType
     path: Search/SearchConfigurationModel.cs
@@ -310,7 +310,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Operators
     path: Search/SearchConfigurationModel.cs
@@ -347,7 +347,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ValidValues
     path: Search/SearchConfigurationModel.cs

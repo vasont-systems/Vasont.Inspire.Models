@@ -26,7 +26,7 @@ items:
   source:
     remote:
       path: src/Versioning/MinimalComponentHistoryModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalComponentHistoryModel
     path: Versioning/MinimalComponentHistoryModel.cs
@@ -69,6 +69,8 @@ items:
   - Vasont.Inspire.Models.Components.MinimalComponentModel.VirtualPath
   - Vasont.Inspire.Models.Components.MinimalComponentModel.Type
   - Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount
   - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
   - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedBy
   - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedDate
@@ -100,7 +102,7 @@ items:
   source:
     remote:
       path: src/Versioning/MinimalComponentHistoryModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetId
     path: Versioning/MinimalComponentHistoryModel.cs
@@ -139,7 +141,7 @@ items:
   source:
     remote:
       path: src/Versioning/MinimalComponentHistoryModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetNumber
     path: Versioning/MinimalComponentHistoryModel.cs
@@ -176,7 +178,7 @@ items:
   source:
     remote:
       path: src/Versioning/MinimalComponentHistoryModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Label
     path: Versioning/MinimalComponentHistoryModel.cs
@@ -213,7 +215,7 @@ items:
   source:
     remote:
       path: src/Versioning/MinimalComponentHistoryModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Comment
     path: Versioning/MinimalComponentHistoryModel.cs
@@ -250,7 +252,7 @@ items:
   source:
     remote:
       path: src/Versioning/MinimalComponentHistoryModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FolderPath
     path: Versioning/MinimalComponentHistoryModel.cs
@@ -287,7 +289,7 @@ items:
   source:
     remote:
       path: src/Versioning/MinimalComponentHistoryModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetDate
     path: Versioning/MinimalComponentHistoryModel.cs
@@ -324,7 +326,7 @@ items:
   source:
     remote:
       path: src/Versioning/MinimalComponentHistoryModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Action
     path: Versioning/MinimalComponentHistoryModel.cs
@@ -363,7 +365,7 @@ items:
   source:
     remote:
       path: src/Versioning/MinimalComponentHistoryModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Restored
     path: Versioning/MinimalComponentHistoryModel.cs
@@ -402,7 +404,7 @@ items:
   source:
     remote:
       path: src/Versioning/MinimalComponentHistoryModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ContentChanged
     path: Versioning/MinimalComponentHistoryModel.cs
@@ -439,7 +441,7 @@ items:
   source:
     remote:
       path: src/Versioning/MinimalComponentHistoryModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanRestore
     path: Versioning/MinimalComponentHistoryModel.cs
@@ -476,7 +478,7 @@ items:
   source:
     remote:
       path: src/Versioning/MinimalComponentHistoryModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LatestSnapshot
     path: Versioning/MinimalComponentHistoryModel.cs
@@ -650,6 +652,18 @@ references:
   name: CanTranslate
   nameWithType: MinimalComponentModel.CanTranslate
   fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: MostRecentAccess
+  nameWithType: MinimalComponentModel.MostRecentAccess
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: UserAccessCount
+  nameWithType: MinimalComponentModel.UserAccessCount
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount
 - uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
   commentId: P:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
   parent: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase

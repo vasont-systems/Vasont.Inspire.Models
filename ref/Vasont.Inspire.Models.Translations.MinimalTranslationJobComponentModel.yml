@@ -5,8 +5,11 @@ items:
   id: MinimalTranslationJobComponentModel
   parent: Vasont.Inspire.Models.Translations
   children:
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCount
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCountNoSpace
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.ComponentTypeName
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileName
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileSize
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Name
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.SourceLanguageCode
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.State
@@ -14,6 +17,7 @@ items:
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobComponentId
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobId
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobSourceComponentId
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.WordCount
   langs:
   - csharp
   - vb
@@ -24,7 +28,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalTranslationJobComponentModel
     path: Translations/MinimalTranslationJobComponentModel.cs
@@ -69,7 +73,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationJobComponentId
     path: Translations/MinimalTranslationJobComponentModel.cs
@@ -106,7 +110,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationJobId
     path: Translations/MinimalTranslationJobComponentModel.cs
@@ -143,7 +147,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: State
     path: Translations/MinimalTranslationJobComponentModel.cs
@@ -180,7 +184,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FileName
     path: Translations/MinimalTranslationJobComponentModel.cs
@@ -217,7 +221,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceLanguageCode
     path: Translations/MinimalTranslationJobComponentModel.cs
@@ -254,7 +258,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetLanguageCode
     path: Translations/MinimalTranslationJobComponentModel.cs
@@ -291,7 +295,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationJobSourceComponentId
     path: Translations/MinimalTranslationJobComponentModel.cs
@@ -328,7 +332,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Translations/MinimalTranslationJobComponentModel.cs
@@ -365,7 +369,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentTypeName
     path: Translations/MinimalTranslationJobComponentModel.cs
@@ -382,6 +386,154 @@ items:
       type: System.String
     content.vb: Public Property ComponentTypeName As String
   overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.ComponentTypeName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.WordCount
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.WordCount
+  id: WordCount
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  langs:
+  - csharp
+  - vb
+  name: WordCount
+  nameWithType: MinimalTranslationJobComponentModel.WordCount
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.WordCount
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobComponentModel.cs
+      branch: feature/TranslationIntegrations
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: WordCount
+    path: Translations/MinimalTranslationJobComponentModel.cs
+    startLine: 91
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the word count of the component.\n"
+  example: []
+  syntax:
+    content: public int WordCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property WordCount As Integer
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.WordCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCount
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCount
+  id: CharCount
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  langs:
+  - csharp
+  - vb
+  name: CharCount
+  nameWithType: MinimalTranslationJobComponentModel.CharCount
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCount
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobComponentModel.cs
+      branch: feature/TranslationIntegrations
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CharCount
+    path: Translations/MinimalTranslationJobComponentModel.cs
+    startLine: 96
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the character count of the component.\n"
+  example: []
+  syntax:
+    content: public int CharCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CharCount As Integer
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCountNoSpace
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCountNoSpace
+  id: CharCountNoSpace
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  langs:
+  - csharp
+  - vb
+  name: CharCountNoSpace
+  nameWithType: MinimalTranslationJobComponentModel.CharCountNoSpace
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCountNoSpace
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobComponentModel.cs
+      branch: feature/TranslationIntegrations
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CharCountNoSpace
+    path: Translations/MinimalTranslationJobComponentModel.cs
+    startLine: 101
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the word count of the component.\n"
+  example: []
+  syntax:
+    content: public int CharCountNoSpace { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CharCountNoSpace As Integer
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCountNoSpace*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileSize
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileSize
+  id: FileSize
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  langs:
+  - csharp
+  - vb
+  name: FileSize
+  nameWithType: MinimalTranslationJobComponentModel.FileSize
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileSize
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobComponentModel.cs
+      branch: feature/TranslationIntegrations
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FileSize
+    path: Translations/MinimalTranslationJobComponentModel.cs
+    startLine: 106
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the word count of the component.\n"
+  example: []
+  syntax:
+    content: public long FileSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property FileSize As Long
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileSize*
   modifiers.csharp:
   - public
   - get
@@ -751,3 +903,30 @@ references:
   name: ComponentTypeName
   nameWithType: MinimalTranslationJobComponentModel.ComponentTypeName
   fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.ComponentTypeName
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.WordCount*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.WordCount
+  name: WordCount
+  nameWithType: MinimalTranslationJobComponentModel.WordCount
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.WordCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCount*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCount
+  name: CharCount
+  nameWithType: MinimalTranslationJobComponentModel.CharCount
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCount
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCountNoSpace*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCountNoSpace
+  name: CharCountNoSpace
+  nameWithType: MinimalTranslationJobComponentModel.CharCountNoSpace
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCountNoSpace
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileSize*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileSize
+  name: FileSize
+  nameWithType: MinimalTranslationJobComponentModel.FileSize
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileSize

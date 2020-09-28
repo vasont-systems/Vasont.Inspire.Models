@@ -20,12 +20,14 @@ items:
   - Vasont.Inspire.Models.Components.MinimalComponentModel.LanguageName
   - Vasont.Inspire.Models.Components.MinimalComponentModel.Lock
   - Vasont.Inspire.Models.Components.MinimalComponentModel.Metrics
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
   - Vasont.Inspire.Models.Components.MinimalComponentModel.Name
   - Vasont.Inspire.Models.Components.MinimalComponentModel.Permissions
   - Vasont.Inspire.Models.Components.MinimalComponentModel.State
   - Vasont.Inspire.Models.Components.MinimalComponentModel.StateName
   - Vasont.Inspire.Models.Components.MinimalComponentModel.Type
   - Vasont.Inspire.Models.Components.MinimalComponentModel.UniqueId
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount
   - Vasont.Inspire.Models.Components.MinimalComponentModel.VirtualPath
   langs:
   - csharp
@@ -37,7 +39,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalComponentModel
     path: Components/MinimalComponentModel.cs
@@ -93,7 +95,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/MinimalComponentModel.cs
@@ -125,7 +127,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/MinimalComponentModel.cs
@@ -161,7 +163,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentId
     path: Components/MinimalComponentModel.cs
@@ -198,7 +200,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentTypeId
     path: Components/MinimalComponentModel.cs
@@ -235,7 +237,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentType
     path: Components/MinimalComponentModel.cs
@@ -272,7 +274,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Metrics
     path: Components/MinimalComponentModel.cs
@@ -309,7 +311,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Folder
     path: Components/MinimalComponentModel.cs
@@ -346,7 +348,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsImage
     path: Components/MinimalComponentModel.cs
@@ -383,7 +385,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ContentType
     path: Components/MinimalComponentModel.cs
@@ -420,7 +422,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Components/MinimalComponentModel.cs
@@ -457,7 +459,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LanguageCode
     path: Components/MinimalComponentModel.cs
@@ -494,7 +496,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LanguageName
     path: Components/MinimalComponentModel.cs
@@ -531,7 +533,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FileName
     path: Components/MinimalComponentModel.cs
@@ -568,7 +570,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: State
     path: Components/MinimalComponentModel.cs
@@ -605,7 +607,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: StateName
     path: Components/MinimalComponentModel.cs
@@ -652,7 +654,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UniqueId
     path: Components/MinimalComponentModel.cs
@@ -689,7 +691,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: HashKey
     path: Components/MinimalComponentModel.cs
@@ -726,7 +728,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Lock
     path: Components/MinimalComponentModel.cs
@@ -763,7 +765,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Permissions
     path: Components/MinimalComponentModel.cs
@@ -800,7 +802,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: VirtualPath
     path: Components/MinimalComponentModel.cs
@@ -837,7 +839,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Type
     path: Components/MinimalComponentModel.cs
@@ -874,7 +876,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanTranslate
     path: Components/MinimalComponentModel.cs
@@ -891,6 +893,80 @@ items:
       type: System.Boolean
     content.vb: Public Property CanTranslate As Boolean
   overload: Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
+  id: MostRecentAccess
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  langs:
+  - csharp
+  - vb
+  name: MostRecentAccess
+  nameWithType: MinimalComponentModel.MostRecentAccess
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
+  type: Property
+  source:
+    remote:
+      path: src/Components/MinimalComponentModel.cs
+      branch: feature/TranslationIntegrations
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: MostRecentAccess
+    path: Components/MinimalComponentModel.cs
+    startLine: 198
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the most recent component access information.\n"
+  example: []
+  syntax:
+    content: public MinimalComponentUserAccessModel MostRecentAccess { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Components.MinimalComponentUserAccessModel
+    content.vb: Public Property MostRecentAccess As MinimalComponentUserAccessModel
+  overload: Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount
+  id: UserAccessCount
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  langs:
+  - csharp
+  - vb
+  name: UserAccessCount
+  nameWithType: MinimalComponentModel.UserAccessCount
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount
+  type: Property
+  source:
+    remote:
+      path: src/Components/MinimalComponentModel.cs
+      branch: feature/TranslationIntegrations
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UserAccessCount
+    path: Components/MinimalComponentModel.cs
+    startLine: 203
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the number of component accesses.\n"
+  example: []
+  syntax:
+    content: public int UserAccessCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserAccessCount As Integer
+  overload: Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount*
   modifiers.csharp:
   - public
   - get
@@ -1427,3 +1503,26 @@ references:
   name: CanTranslate
   nameWithType: MinimalComponentModel.CanTranslate
   fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess*
+  commentId: Overload:Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
+  name: MostRecentAccess
+  nameWithType: MinimalComponentModel.MostRecentAccess
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
+- uid: Vasont.Inspire.Models.Components.MinimalComponentUserAccessModel
+  commentId: T:Vasont.Inspire.Models.Components.MinimalComponentUserAccessModel
+  parent: Vasont.Inspire.Models.Components
+  name: MinimalComponentUserAccessModel
+  nameWithType: MinimalComponentUserAccessModel
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentUserAccessModel
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount*
+  commentId: Overload:Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount
+  name: UserAccessCount
+  nameWithType: MinimalComponentModel.UserAccessCount
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

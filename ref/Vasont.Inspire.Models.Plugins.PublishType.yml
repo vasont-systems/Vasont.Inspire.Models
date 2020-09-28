@@ -20,11 +20,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PublishType
     path: Plugins/PublishRequestModel.cs
-    startLine: 15
+    startLine: 16
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -65,11 +65,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Pdf
     path: Plugins/PublishRequestModel.cs
-    startLine: 21
+    startLine: 22
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -99,11 +99,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Html
     path: Plugins/PublishRequestModel.cs
-    startLine: 26
+    startLine: 27
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -133,11 +133,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Zoomin
     path: Plugins/PublishRequestModel.cs
-    startLine: 31
+    startLine: 32
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -167,11 +167,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DocBook
     path: Plugins/PublishRequestModel.cs
-    startLine: 36
+    startLine: 37
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -201,11 +201,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AntennaHousePdf
     path: Plugins/PublishRequestModel.cs
-    startLine: 41
+    startLine: 42
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins

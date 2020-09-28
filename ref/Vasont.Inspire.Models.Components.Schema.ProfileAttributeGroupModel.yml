@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ProfileAttributeGroupModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProfileAttributeGroupModel
     path: Components/Schema/ProfileAttributeGroupModel.cs
@@ -63,7 +63,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ProfileAttributeGroupModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProfileAttributeGroupId
     path: Components/Schema/ProfileAttributeGroupModel.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ProfileAttributeGroupModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AttributeId
     path: Components/Schema/ProfileAttributeGroupModel.cs
@@ -137,7 +137,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ProfileAttributeGroupModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Display
     path: Components/Schema/ProfileAttributeGroupModel.cs
@@ -174,7 +174,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ProfileAttributeGroupModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Value
     path: Components/Schema/ProfileAttributeGroupModel.cs
@@ -211,7 +211,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ProfileAttributeGroupModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SortOrder
     path: Components/Schema/ProfileAttributeGroupModel.cs

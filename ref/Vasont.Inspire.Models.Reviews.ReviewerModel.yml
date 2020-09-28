@@ -24,7 +24,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewerModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewerModel
     path: Reviews/ReviewerModel.cs
@@ -67,7 +67,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewerModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewId
     path: Reviews/ReviewerModel.cs
@@ -104,7 +104,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewerModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: User
     path: Reviews/ReviewerModel.cs
@@ -141,7 +141,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewerModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: State
     path: Reviews/ReviewerModel.cs
@@ -178,7 +178,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewerModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanComment
     path: Reviews/ReviewerModel.cs
@@ -215,7 +215,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewerModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanTrackChanges
     path: Reviews/ReviewerModel.cs
@@ -252,7 +252,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewerModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReceiveNotifications
     path: Reviews/ReviewerModel.cs
@@ -289,7 +289,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewerModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CompletedDate
     path: Reviews/ReviewerModel.cs
@@ -326,7 +326,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewerModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Comment
     path: Reviews/ReviewerModel.cs
@@ -363,7 +363,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewerModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewWorkflowSubmittal
     path: Reviews/ReviewerModel.cs
