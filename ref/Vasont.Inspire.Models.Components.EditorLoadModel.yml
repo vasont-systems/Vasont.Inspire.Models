@@ -5,6 +5,8 @@ items:
   id: EditorLoadModel
   parent: Vasont.Inspire.Models.Components
   children:
+  - Vasont.Inspire.Models.Components.EditorLoadModel.CompareChangesetId
+  - Vasont.Inspire.Models.Components.EditorLoadModel.CompareComponentId
   - Vasont.Inspire.Models.Components.EditorLoadModel.EditorMode
   - Vasont.Inspire.Models.Components.EditorLoadModel.EditorType
   - Vasont.Inspire.Models.Components.EditorLoadModel.MapReferenceId
@@ -27,7 +29,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EditorLoadModel
     path: Components/EditorLoadModel.cs
-    startLine: 94
+    startLine: 95
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -76,7 +78,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EditorType
     path: Components/EditorLoadModel.cs
-    startLine: 99
+    startLine: 100
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -113,7 +115,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EditorMode
     path: Components/EditorLoadModel.cs
-    startLine: 104
+    startLine: 105
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -150,7 +152,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewMode
     path: Components/EditorLoadModel.cs
-    startLine: 109
+    startLine: 110
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -187,7 +189,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SchemaType
     path: Components/EditorLoadModel.cs
-    startLine: 114
+    startLine: 115
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -224,7 +226,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Version
     path: Components/EditorLoadModel.cs
-    startLine: 119
+    startLine: 120
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -261,7 +263,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ResolveReferences
     path: Components/EditorLoadModel.cs
-    startLine: 124
+    startLine: 125
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -298,7 +300,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Unresolved
     path: Components/EditorLoadModel.cs
-    startLine: 129
+    startLine: 130
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -335,7 +337,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MapReferenceId
     path: Components/EditorLoadModel.cs
-    startLine: 134
+    startLine: 135
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -348,6 +350,80 @@ items:
       type: System.Int64
     content.vb: Public Property MapReferenceId As Long
   overload: Vasont.Inspire.Models.Components.EditorLoadModel.MapReferenceId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.CompareComponentId
+  commentId: P:Vasont.Inspire.Models.Components.EditorLoadModel.CompareComponentId
+  id: CompareComponentId
+  parent: Vasont.Inspire.Models.Components.EditorLoadModel
+  langs:
+  - csharp
+  - vb
+  name: CompareComponentId
+  nameWithType: EditorLoadModel.CompareComponentId
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.CompareComponentId
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CompareComponentId
+    path: Components/EditorLoadModel.cs
+    startLine: 140
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets an optional identity for the component to compare.\n"
+  example: []
+  syntax:
+    content: public long CompareComponentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property CompareComponentId As Long
+  overload: Vasont.Inspire.Models.Components.EditorLoadModel.CompareComponentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.CompareChangesetId
+  commentId: P:Vasont.Inspire.Models.Components.EditorLoadModel.CompareChangesetId
+  id: CompareChangesetId
+  parent: Vasont.Inspire.Models.Components.EditorLoadModel
+  langs:
+  - csharp
+  - vb
+  name: CompareChangesetId
+  nameWithType: EditorLoadModel.CompareChangesetId
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.CompareChangesetId
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CompareChangesetId
+    path: Components/EditorLoadModel.cs
+    startLine: 145
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the optional guid for the component history to compare.\n"
+  example: []
+  syntax:
+    content: public Guid CompareChangesetId { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property CompareChangesetId As Guid
+  overload: Vasont.Inspire.Models.Components.EditorLoadModel.CompareChangesetId*
   modifiers.csharp:
   - public
   - get
@@ -755,3 +831,20 @@ references:
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.CompareComponentId*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorLoadModel.CompareComponentId
+  name: CompareComponentId
+  nameWithType: EditorLoadModel.CompareComponentId
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.CompareComponentId
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.CompareChangesetId*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorLoadModel.CompareChangesetId
+  name: CompareChangesetId
+  nameWithType: EditorLoadModel.CompareChangesetId
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.CompareChangesetId
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid

@@ -8,6 +8,7 @@ items:
   - Vasont.Inspire.Models.Components.EditorReadResultModel.ContentType
   - Vasont.Inspire.Models.Components.EditorReadResultModel.FileName
   - Vasont.Inspire.Models.Components.EditorReadResultModel.IsBinary
+  - Vasont.Inspire.Models.Components.EditorReadResultModel.IsTemplate
   - Vasont.Inspire.Models.Components.EditorReadResultModel.Lock
   - Vasont.Inspire.Models.Components.EditorReadResultModel.Xml
   langs:
@@ -160,6 +161,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Components.EditorReadResultModel.IsTemplate
+  commentId: P:Vasont.Inspire.Models.Components.EditorReadResultModel.IsTemplate
+  id: IsTemplate
+  parent: Vasont.Inspire.Models.Components.EditorReadResultModel
+  langs:
+  - csharp
+  - vb
+  name: IsTemplate
+  nameWithType: EditorReadResultModel.IsTemplate
+  fullName: Vasont.Inspire.Models.Components.EditorReadResultModel.IsTemplate
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorReadResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IsTemplate
+    path: Components/EditorReadResultModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether the result is a template.\n"
+  example: []
+  syntax:
+    content: public bool IsTemplate { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsTemplate As Boolean
+  overload: Vasont.Inspire.Models.Components.EditorReadResultModel.IsTemplate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Components.EditorReadResultModel.Lock
   commentId: P:Vasont.Inspire.Models.Components.EditorReadResultModel.Lock
   id: Lock
@@ -178,7 +216,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Lock
     path: Components/EditorReadResultModel.cs
-    startLine: 30
+    startLine: 35
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -215,7 +253,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Xml
     path: Components/EditorReadResultModel.cs
-    startLine: 35
+    startLine: 40
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -561,6 +599,11 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Components.EditorReadResultModel.IsTemplate*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorReadResultModel.IsTemplate
+  name: IsTemplate
+  nameWithType: EditorReadResultModel.IsTemplate
+  fullName: Vasont.Inspire.Models.Components.EditorReadResultModel.IsTemplate
 - uid: Vasont.Inspire.Models.Components.EditorReadResultModel.Lock*
   commentId: Overload:Vasont.Inspire.Models.Components.EditorReadResultModel.Lock
   name: Lock

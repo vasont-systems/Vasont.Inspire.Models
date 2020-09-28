@@ -391,7 +391,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Components.ComponentModel.html",
-          "hash": "J5jBQSd65ho2PzdUDlfdyA=="
+          "hash": "fzykqpUxlrEPbXYlkFlRrw=="
         }
       },
       "is_incremental": false,
@@ -404,6 +404,54 @@
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Components.ComponentPropertyModel.html",
           "hash": "S6hlPSSmDjIRyib1bMsK8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Inspire.Models.Components.ComponentRebuildRelationModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Inspire.Models.Components.ComponentRebuildRelationModel.html",
+          "hash": "6yWYV74uoZidJDr5LMPWJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Inspire.Models.Components.ComponentRebuildRelationRequestModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Inspire.Models.Components.ComponentRebuildRelationRequestModel.html",
+          "hash": "BYrHa2y7/5DyAnFm5JUf/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Inspire.Models.Components.ComponentRebuildRelationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Inspire.Models.Components.ComponentRebuildRelationResult.html",
+          "hash": "XS3FuskHsw0dNHMQXdgXlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Inspire.Models.Components.ComponentRebuildRelationStateModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Inspire.Models.Components.ComponentRebuildRelationStateModel.html",
+          "hash": "5y5IOek8MzhYf/1ANBdwsg=="
         }
       },
       "is_incremental": false,
@@ -519,6 +567,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Inspire.Models.Components.ComponentUserAccessModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Inspire.Models.Components.ComponentUserAccessModel.html",
+          "hash": "TA9c6TGjLlolmu59jU1wlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "../ref/Vasont.Inspire.Models.Components.ComponentUserPermissionModel.yml",
       "output": {
         ".html": {
@@ -571,7 +631,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Components.DetailedComponentModel.html",
-          "hash": "SKS1wP6WGtD2Q/9hsjC22g=="
+          "hash": "AGbh3giJh9nRlPHm7NGEfw=="
         }
       },
       "is_incremental": false,
@@ -607,7 +667,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Components.EditorLoadModel.html",
-          "hash": "mXFuALL0UObU0rHelXC9Hw=="
+          "hash": "he+1KI6KNZ/PJR+Kh10bLw=="
         }
       },
       "is_incremental": false,
@@ -619,7 +679,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Components.EditorMode.html",
-          "hash": "6+1dF6Wg6EG8VUjMcuRuaw=="
+          "hash": "KaAejECia7ARtCCHXtwoyg=="
         }
       },
       "is_incremental": false,
@@ -631,7 +691,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Components.EditorReadResultModel.html",
-          "hash": "wfYy+0R4GoRni32hCJF9ZA=="
+          "hash": "4pAWxuWA1CwjugrqfbfO+A=="
         }
       },
       "is_incremental": false,
@@ -691,7 +751,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Components.EditorType.html",
-          "hash": "bjKMMtv4OExgIQYdAYeFCQ=="
+          "hash": "h/rZQ7tTpMav9JvU63SX/Q=="
         }
       },
       "is_incremental": false,
@@ -823,7 +883,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Components.MapComponentModel.html",
-          "hash": "X6vsO0VAS47Que1N4szSGg=="
+          "hash": "Jv3UVuMnw6Fcyqq6203QMw=="
         }
       },
       "is_incremental": false,
@@ -860,6 +920,30 @@
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Components.MapNodeUiMetadataModel.html",
           "hash": "9JupsgAczLkuTg+kM7gT7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Inspire.Models.Components.MapSyncRequestModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Inspire.Models.Components.MapSyncRequestModel.html",
+          "hash": "uv9Z2q7eWDXw7JTwATg2MA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Inspire.Models.Components.MapSyncResponseModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Inspire.Models.Components.MapSyncResponseModel.html",
+          "hash": "YzKoEyKpOIl7nuLZ5v1baw=="
         }
       },
       "is_incremental": false,
@@ -919,7 +1003,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Components.MinimalComponentModel.html",
-          "hash": "E+MoskZqfbNqvzSx0Cjobg=="
+          "hash": "9Upsn2BGgX7aOIzdN/LBNg=="
         }
       },
       "is_incremental": false,
@@ -944,6 +1028,18 @@
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Components.MinimalComponentTypeModel.html",
           "hash": "Unq61eZ5c68sbuR95dBTEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Inspire.Models.Components.MinimalComponentUserAccessModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Inspire.Models.Components.MinimalComponentUserAccessModel.html",
+          "hash": "l8/7htbrqvpzH8XkKXSXDw=="
         }
       },
       "is_incremental": false,
@@ -1023,11 +1119,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Inspire.Models.Components.RecentComponentModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Inspire.Models.Components.RecentComponentModel.html",
+          "hash": "FcSkNimxAsgJx8VlzJb33g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "../ref/Vasont.Inspire.Models.Components.ReviewEditorMode.yml",
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Components.ReviewEditorMode.html",
-          "hash": "JQXi4/0c+H0EFOLlJ46vJg=="
+          "hash": "UJz9Z1/N217WXEqUkSfBOQ=="
         }
       },
       "is_incremental": false,
@@ -1315,7 +1423,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Components.html",
-          "hash": "TIKZcYntTu9dk1dsvdvbhw=="
+          "hash": "OMYCpuYe9eGuJPQY30qjwg=="
         }
       },
       "is_incremental": false,
@@ -1567,7 +1675,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Notifications.NotificationModel-2.html",
-          "hash": "Q8QQTdZ4rfdyk7OJj1PECQ=="
+          "hash": "osrCzEYKakZzzb5EjEbz7A=="
         }
       },
       "is_incremental": false,
@@ -1831,7 +1939,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Plugins.PublishRequestModel.html",
-          "hash": "h+D5Md4KjRZ9XT91I5nXJQ=="
+          "hash": "5qyYjdxz8KQZUNR455NG6Q=="
         }
       },
       "is_incremental": false,
@@ -1855,7 +1963,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Plugins.PublishType.html",
-          "hash": "NB2y3ZUIuuFFxgVaLGm8LA=="
+          "hash": "LVGHMJdSNaKD/dwAMqHtlw=="
         }
       },
       "is_incremental": false,
@@ -2443,7 +2551,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Reviews.ReviewWorkflowModel.html",
-          "hash": "YsuWy2nK204NZyzWp2es4w=="
+          "hash": "0BlHJKP47YL+PT+9ELlk4Q=="
         }
       },
       "is_incremental": false,
@@ -2971,7 +3079,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Transfers.ExportRequestModel.html",
-          "hash": "xR+4jbrKq8hwU2uwnSFYHg=="
+          "hash": "iDlEj63fZKKK5ODWw7d3zg=="
         }
       },
       "is_incremental": false,
@@ -3183,11 +3291,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Inspire.Models.Translations.IntegrationMethodType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Inspire.Models.Translations.IntegrationMethodType.html",
+          "hash": "Fh6RlwC1tdJG3eAbRmViyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "../ref/Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.yml",
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.html",
-          "hash": "Zhmz7jWAzOjgMd9rtoDWzQ=="
+          "hash": "82drkYJoJA7c8qtpk42q7g=="
         }
       },
       "is_incremental": false,
@@ -3267,11 +3387,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Inspire.Models.Translations.TranslationIntegrationBrowseQueryModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Inspire.Models.Translations.TranslationIntegrationBrowseQueryModel.html",
+          "hash": "Wfl2EzDJdPZPF2NGTqwbDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Inspire.Models.Translations.TranslationIntegrationBrowseResultModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Inspire.Models.Translations.TranslationIntegrationBrowseResultModel.html",
+          "hash": "9RQMOcsdU1fR7OIFeTP7jA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../ref/Vasont.Inspire.Models.Translations.TranslationIntegrationModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Vasont.Inspire.Models.Translations.TranslationIntegrationModel.html",
+          "hash": "UEXgHSUV2HFzeqNpjAxDrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "../ref/Vasont.Inspire.Models.Translations.TranslationJobComponentModel.yml",
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Translations.TranslationJobComponentModel.html",
-          "hash": "VZ+H7niEhQ+dsGECnRtELQ=="
+          "hash": "QD1TKB7rrFal3xpjvBNqFw=="
         }
       },
       "is_incremental": false,
@@ -3355,7 +3511,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Translations.html",
-          "hash": "RfdzcGP5Z/EAl86+eNCG2A=="
+          "hash": "TrpqdCVCgK/gGVimCqnPzg=="
         }
       },
       "is_incremental": false,
@@ -3607,7 +3763,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.html",
-          "hash": "xNnbPKlT2WDOawO/Tee1HA=="
+          "hash": "UKHRB43bVrPms7pTcwQs2Q=="
         }
       },
       "is_incremental": false,
@@ -3907,7 +4063,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Vasont.Inspire.Models.Workflow.WorkflowEditorModel.html",
-          "hash": "YRYKYBEsBvJlca2IKzHo4w=="
+          "hash": "2BMzoUkedmuo+zAlsGahjQ=="
         }
       },
       "is_incremental": false,
@@ -4027,7 +4183,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/toc.html",
-          "hash": "AtdeuzpyndNDj+ifV6u3HA=="
+          "hash": "6jQ9KSrRgr+NkXfoDEtg2g=="
         }
       },
       "is_incremental": false,
@@ -4066,7 +4222,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 331,
+          "total_file_count": 344,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
