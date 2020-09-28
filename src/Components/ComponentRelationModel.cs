@@ -102,6 +102,14 @@ namespace Vasont.Inspire.Models.Components
         public bool IsTargetEditable { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether this instance is source editable.
+        /// </summary>
+        /// <value>
+        ///   <c>true</c> if this instance is source editable; otherwise, <c>false</c>.
+        /// </value>
+        public bool IsSourceEditable { get; set; }
+
+        /// <summary>
         ///  Gets or sets the status of the component relation.
         /// </summary>
         public string Status { get; set; }
