@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Common/ErrorResponseModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ErrorResponseModel
     path: Common/ErrorResponseModel.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: src/Common/ErrorResponseModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Messages
     path: Common/ErrorResponseModel.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Common/ErrorResponseModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: HasUnhandledException
     path: Common/ErrorResponseModel.cs

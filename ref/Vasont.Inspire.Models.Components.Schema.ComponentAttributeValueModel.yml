@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ComponentAttributeValueModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentAttributeValueModel
     path: Components/Schema/ComponentAttributeValueModel.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ComponentAttributeValueModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AttributeValueId
     path: Components/Schema/ComponentAttributeValueModel.cs
@@ -101,7 +101,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ComponentAttributeValueModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AttributeId
     path: Components/Schema/ComponentAttributeValueModel.cs
@@ -138,7 +138,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ComponentAttributeValueModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Display
     path: Components/Schema/ComponentAttributeValueModel.cs
@@ -175,7 +175,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ComponentAttributeValueModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Value
     path: Components/Schema/ComponentAttributeValueModel.cs
@@ -212,7 +212,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ComponentAttributeValueModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SortOrder
     path: Components/Schema/ComponentAttributeValueModel.cs
@@ -249,7 +249,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ComponentAttributeValueModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Groups
     path: Components/Schema/ComponentAttributeValueModel.cs

@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectFolderItemModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectFolderItemType
     path: Projects/ProjectFolderItemModel.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectFolderItemModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Folder
     path: Projects/ProjectFolderItemModel.cs
@@ -98,7 +98,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectFolderItemModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Component
     path: Projects/ProjectFolderItemModel.cs
@@ -132,7 +132,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectFolderItemModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Image
     path: Projects/ProjectFolderItemModel.cs
@@ -166,7 +166,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectFolderItemModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Binary
     path: Projects/ProjectFolderItemModel.cs

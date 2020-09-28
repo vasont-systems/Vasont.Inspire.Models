@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectFilters.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectFilters
     path: Projects/ProjectFilters.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectFilters.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Title
     path: Projects/ProjectFilters.cs
@@ -101,7 +101,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectFilters.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: OrderByName
     path: Projects/ProjectFilters.cs
@@ -138,7 +138,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectFilters.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Direction
     path: Projects/ProjectFilters.cs
@@ -175,7 +175,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectFilters.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MaximumRows
     path: Projects/ProjectFilters.cs

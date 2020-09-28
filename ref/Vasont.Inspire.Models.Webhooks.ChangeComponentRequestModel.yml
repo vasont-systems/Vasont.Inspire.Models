@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Webhooks/ChangeComponentRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangeComponentRequestModel
     path: Webhooks/ChangeComponentRequestModel.cs
@@ -66,7 +66,7 @@ items:
   source:
     remote:
       path: src/Webhooks/ChangeComponentRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentIdentifier
     path: Webhooks/ChangeComponentRequestModel.cs
@@ -103,7 +103,7 @@ items:
   source:
     remote:
       path: src/Webhooks/ChangeComponentRequestModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Comment
     path: Webhooks/ChangeComponentRequestModel.cs
