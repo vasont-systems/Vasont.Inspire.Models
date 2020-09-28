@@ -8,6 +8,7 @@ namespace Vasont.Inspire.Models.Translations
     using System;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
+    using Vasont.Inspire.Models.Security;
 
     /// <summary>
     /// This enumeration represents the Translation Integration Methods used in the application.
@@ -100,6 +101,14 @@ namespace Vasont.Inspire.Models.Translations
         public long CreatedBy { get; set; }
 
         /// <summary>
+        /// Gets or sets the created by user.
+        /// </summary>
+        /// <value>
+        /// The created by user.
+        /// </value>
+        public MicroUserModel CreatedByUser { get; set; }
+
+        /// <summary>
         /// Gets or sets the last updated date.
         /// </summary>
         /// <value>
@@ -114,6 +123,14 @@ namespace Vasont.Inspire.Models.Translations
         /// The last updated by.
         /// </value>
         public long? LastUpdatedBy { get; set; }
+
+        /// <summary>
+        /// Gets or sets the last updated by user.
+        /// </summary>
+        /// <value>
+        /// The last updated by user.
+        /// </value>
+        public MicroUserModel LastUpdatedByUser { get; set; }
 
         /// <summary>
         /// Gets or sets a value indicating whether this <see cref="TranslationIntegration"/> is active.
