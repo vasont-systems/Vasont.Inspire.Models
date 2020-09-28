@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportRequestFileModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ImportRequestFileModel
     path: Transfers/ImportRequestFileModel.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportRequestFileModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FileName
     path: Transfers/ImportRequestFileModel.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportRequestFileModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UnzipFile
     path: Transfers/ImportRequestFileModel.cs

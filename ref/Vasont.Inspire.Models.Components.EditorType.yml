@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EditorType
     path: Components/EditorLoadModel.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Generic
     path: Components/EditorLoadModel.cs
@@ -98,7 +98,7 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: XEditor
     path: Components/EditorLoadModel.cs
@@ -132,7 +132,7 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: OxygenWeb
     path: Components/EditorLoadModel.cs
@@ -166,7 +166,7 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: develop
+      branch: feature/TranslationIntegrations
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AuthorBridge
     path: Components/EditorLoadModel.cs
