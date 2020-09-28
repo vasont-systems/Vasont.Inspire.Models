@@ -50,6 +50,10 @@ items:
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobSourceComponentId
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Name
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.ComponentTypeName
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.WordCount
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCount
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCountNoSpace
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileSize
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -395,6 +399,30 @@ references:
   name: ComponentTypeName
   nameWithType: MinimalTranslationJobComponentModel.ComponentTypeName
   fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.ComponentTypeName
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.WordCount
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.WordCount
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  name: WordCount
+  nameWithType: MinimalTranslationJobComponentModel.WordCount
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.WordCount
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCount
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCount
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  name: CharCount
+  nameWithType: MinimalTranslationJobComponentModel.CharCount
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCount
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCountNoSpace
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCountNoSpace
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  name: CharCountNoSpace
+  nameWithType: MinimalTranslationJobComponentModel.CharCountNoSpace
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCountNoSpace
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileSize
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileSize
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  name: FileSize
+  nameWithType: MinimalTranslationJobComponentModel.FileSize
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileSize
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object

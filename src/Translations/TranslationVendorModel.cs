@@ -38,11 +38,16 @@ namespace Vasont.Inspire.Models.Translations
         public bool ApiIntegration { get; set; }
 
         /// <summary>
-        /// Gets or sets a list of TranslationAttributes
+        /// Gets or sets a list of TranslationAttributes.
         /// </summary>
         public List<TranslationVendorFieldModel> VendorAttributes { get; set; } = new List<TranslationVendorFieldModel>();
 
         /// <summary>Gets or sets the project code.</summary>
         public string ProjectCode { get; set; }
+
+        /// <summary>
+        /// Gets or sets the optional translation integration identifier.
+        /// </summary>
+        public int? TranslationIntegrationId { get; set; }
     }
 }

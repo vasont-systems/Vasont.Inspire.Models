@@ -64,6 +64,14 @@
     name: ComponentModel
   - uid: Vasont.Inspire.Models.Components.ComponentPropertyModel
     name: ComponentPropertyModel
+  - uid: Vasont.Inspire.Models.Components.ComponentRebuildRelationModel
+    name: ComponentRebuildRelationModel
+  - uid: Vasont.Inspire.Models.Components.ComponentRebuildRelationRequestModel
+    name: ComponentRebuildRelationRequestModel
+  - uid: Vasont.Inspire.Models.Components.ComponentRebuildRelationResult
+    name: ComponentRebuildRelationResult
+  - uid: Vasont.Inspire.Models.Components.ComponentRebuildRelationStateModel
+    name: ComponentRebuildRelationStateModel
   - uid: Vasont.Inspire.Models.Components.ComponentRelationModel
     name: ComponentRelationModel
   - uid: Vasont.Inspire.Models.Components.ComponentRelationsQueryModel
@@ -82,6 +90,8 @@
     name: ComponentTranslationsResultModel
   - uid: Vasont.Inspire.Models.Components.ComponentTypeModel
     name: ComponentTypeModel
+  - uid: Vasont.Inspire.Models.Components.ComponentUserAccessModel
+    name: ComponentUserAccessModel
   - uid: Vasont.Inspire.Models.Components.ComponentUserPermissionModel
     name: ComponentUserPermissionModel
   - uid: Vasont.Inspire.Models.Components.ContentTypeModel
@@ -140,6 +150,10 @@
     name: MapNodeType
   - uid: Vasont.Inspire.Models.Components.MapNodeUiMetadataModel
     name: MapNodeUiMetadataModel
+  - uid: Vasont.Inspire.Models.Components.MapSyncRequestModel
+    name: MapSyncRequestModel
+  - uid: Vasont.Inspire.Models.Components.MapSyncResponseModel
+    name: MapSyncResponseModel
   - uid: Vasont.Inspire.Models.Components.MapTargetComponentTypeModel
     name: MapTargetComponentTypeModel
   - uid: Vasont.Inspire.Models.Components.MapTargetModel
@@ -154,6 +168,8 @@
     name: MinimalComponentRelationModel
   - uid: Vasont.Inspire.Models.Components.MinimalComponentTypeModel
     name: MinimalComponentTypeModel
+  - uid: Vasont.Inspire.Models.Components.MinimalComponentUserAccessModel
+    name: MinimalComponentUserAccessModel
   - uid: Vasont.Inspire.Models.Components.MinimalEditorXmlModel
     name: MinimalEditorXmlModel
   - uid: Vasont.Inspire.Models.Components.MinimalFolderModel
@@ -166,6 +182,8 @@
     name: PermissionUpdateModel
   - uid: Vasont.Inspire.Models.Components.QueryModel
     name: QueryModel
+  - uid: Vasont.Inspire.Models.Components.RecentComponentModel
+    name: RecentComponentModel
   - uid: Vasont.Inspire.Models.Components.ReviewEditorMode
     name: ReviewEditorMode
   - uid: Vasont.Inspire.Models.Components.SaveAsBranchModel
@@ -541,6 +559,8 @@
 - uid: Vasont.Inspire.Models.Translations
   name: Vasont.Inspire.Models.Translations
   items:
+  - uid: Vasont.Inspire.Models.Translations.IntegrationMethodType
+    name: IntegrationMethodType
   - uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
     name: MinimalTranslationJobComponentModel
   - uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
@@ -555,6 +575,12 @@
     name: TranslationExportRequestModel
   - uid: Vasont.Inspire.Models.Translations.TranslationExportStateModel
     name: TranslationExportStateModel
+  - uid: Vasont.Inspire.Models.Translations.TranslationIntegrationBrowseQueryModel
+    name: TranslationIntegrationBrowseQueryModel
+  - uid: Vasont.Inspire.Models.Translations.TranslationIntegrationBrowseResultModel
+    name: TranslationIntegrationBrowseResultModel
+  - uid: Vasont.Inspire.Models.Translations.TranslationIntegrationModel
+    name: TranslationIntegrationModel
   - uid: Vasont.Inspire.Models.Translations.TranslationJobComponentModel
     name: TranslationJobComponentModel
   - uid: Vasont.Inspire.Models.Translations.TranslationJobComponentState

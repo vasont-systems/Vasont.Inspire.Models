@@ -13,6 +13,7 @@ items:
   - Vasont.Inspire.Models.Translations.TranslationJobModel.IncludeBinary
   - Vasont.Inspire.Models.Translations.TranslationJobModel.IncludeRelationships
   - Vasont.Inspire.Models.Translations.TranslationJobModel.SourceComponentIds
+  - Vasont.Inspire.Models.Translations.TranslationJobModel.TranslationIntegrationId
   langs:
   - csharp
   - vb
@@ -361,6 +362,43 @@ items:
       type: System.Int64
     content.vb: Public Property ExportId As Long
   overload: Vasont.Inspire.Models.Translations.TranslationJobModel.ExportId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.TranslationIntegrationId
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationJobModel.TranslationIntegrationId
+  id: TranslationIntegrationId
+  parent: Vasont.Inspire.Models.Translations.TranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: TranslationIntegrationId
+  nameWithType: TranslationJobModel.TranslationIntegrationId
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.TranslationIntegrationId
+  type: Property
+  source:
+    remote:
+      path: src/Translations/TranslationJobModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TranslationIntegrationId
+    path: Translations/TranslationJobModel.cs
+    startLine: 53
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the optional translation integration identifier.\n"
+  example: []
+  syntax:
+    content: public int? TranslationIntegrationId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property TranslationIntegrationId As Integer?
+  overload: Vasont.Inspire.Models.Translations.TranslationJobModel.TranslationIntegrationId*
   modifiers.csharp:
   - public
   - get
@@ -996,3 +1034,91 @@ references:
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.TranslationIntegrationId*
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationJobModel.TranslationIntegrationId
+  name: TranslationIntegrationId
+  nameWithType: TranslationJobModel.TranslationIntegrationId
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.TranslationIntegrationId
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
