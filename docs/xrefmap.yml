@@ -380,6 +380,19 @@ references:
   commentId: T:Vasont.Inspire.Models.Common.ErrorResponseModel
   fullName: Vasont.Inspire.Models.Common.ErrorResponseModel
   nameWithType: ErrorResponseModel
+- uid: Vasont.Inspire.Models.Common.ErrorResponseModel.FailedIds
+  name: FailedIds
+  href: ref/Vasont.Inspire.Models.Common.ErrorResponseModel.html#Vasont_Inspire_Models_Common_ErrorResponseModel_FailedIds
+  commentId: P:Vasont.Inspire.Models.Common.ErrorResponseModel.FailedIds
+  fullName: Vasont.Inspire.Models.Common.ErrorResponseModel.FailedIds
+  nameWithType: ErrorResponseModel.FailedIds
+- uid: Vasont.Inspire.Models.Common.ErrorResponseModel.FailedIds*
+  name: FailedIds
+  href: ref/Vasont.Inspire.Models.Common.ErrorResponseModel.html#Vasont_Inspire_Models_Common_ErrorResponseModel_FailedIds_
+  commentId: Overload:Vasont.Inspire.Models.Common.ErrorResponseModel.FailedIds
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Common.ErrorResponseModel.FailedIds
+  nameWithType: ErrorResponseModel.FailedIds
 - uid: Vasont.Inspire.Models.Common.ErrorResponseModel.HasUnhandledException
   name: HasUnhandledException
   href: ref/Vasont.Inspire.Models.Common.ErrorResponseModel.html#Vasont_Inspire_Models_Common_ErrorResponseModel_HasUnhandledException
@@ -2211,6 +2224,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.ComponentRelationModel.Invalid
   nameWithType: ComponentRelationModel.Invalid
+- uid: Vasont.Inspire.Models.Components.ComponentRelationModel.IsSourceEditable
+  name: IsSourceEditable
+  href: ref/Vasont.Inspire.Models.Components.ComponentRelationModel.html#Vasont_Inspire_Models_Components_ComponentRelationModel_IsSourceEditable
+  commentId: P:Vasont.Inspire.Models.Components.ComponentRelationModel.IsSourceEditable
+  fullName: Vasont.Inspire.Models.Components.ComponentRelationModel.IsSourceEditable
+  nameWithType: ComponentRelationModel.IsSourceEditable
+- uid: Vasont.Inspire.Models.Components.ComponentRelationModel.IsSourceEditable*
+  name: IsSourceEditable
+  href: ref/Vasont.Inspire.Models.Components.ComponentRelationModel.html#Vasont_Inspire_Models_Components_ComponentRelationModel_IsSourceEditable_
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentRelationModel.IsSourceEditable
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ComponentRelationModel.IsSourceEditable
+  nameWithType: ComponentRelationModel.IsSourceEditable
 - uid: Vasont.Inspire.Models.Components.ComponentRelationModel.IsTargetEditable
   name: IsTargetEditable
   href: ref/Vasont.Inspire.Models.Components.ComponentRelationModel.html#Vasont_Inspire_Models_Components_ComponentRelationModel_IsTargetEditable

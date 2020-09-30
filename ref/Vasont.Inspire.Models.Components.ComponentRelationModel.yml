@@ -9,6 +9,7 @@ items:
   - Vasont.Inspire.Models.Components.ComponentRelationModel.CreatedBy
   - Vasont.Inspire.Models.Components.ComponentRelationModel.CreatedDate
   - Vasont.Inspire.Models.Components.ComponentRelationModel.Invalid
+  - Vasont.Inspire.Models.Components.ComponentRelationModel.IsSourceEditable
   - Vasont.Inspire.Models.Components.ComponentRelationModel.IsTargetEditable
   - Vasont.Inspire.Models.Components.ComponentRelationModel.Label
   - Vasont.Inspire.Models.Components.ComponentRelationModel.Permissions
@@ -629,6 +630,44 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Components.ComponentRelationModel.IsSourceEditable
+  commentId: P:Vasont.Inspire.Models.Components.ComponentRelationModel.IsSourceEditable
+  id: IsSourceEditable
+  parent: Vasont.Inspire.Models.Components.ComponentRelationModel
+  langs:
+  - csharp
+  - vb
+  name: IsSourceEditable
+  nameWithType: ComponentRelationModel.IsSourceEditable
+  fullName: Vasont.Inspire.Models.Components.ComponentRelationModel.IsSourceEditable
+  type: Property
+  source:
+    remote:
+      path: src/Components/ComponentRelationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IsSourceEditable
+    path: Components/ComponentRelationModel.cs
+    startLine: 109
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether this instance is source editable.\n"
+  example: []
+  syntax:
+    content: public bool IsSourceEditable { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: "\n<code>true</code> if this instance is source editable; otherwise, <code>false</code>.\n"
+    content.vb: Public Property IsSourceEditable As Boolean
+  overload: Vasont.Inspire.Models.Components.ComponentRelationModel.IsSourceEditable*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Components.ComponentRelationModel.Status
   commentId: P:Vasont.Inspire.Models.Components.ComponentRelationModel.Status
   id: Status
@@ -647,7 +686,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Status
     path: Components/ComponentRelationModel.cs
-    startLine: 106
+    startLine: 114
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -684,7 +723,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WordCount
     path: Components/ComponentRelationModel.cs
-    startLine: 111
+    startLine: 119
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -721,7 +760,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Permissions
     path: Components/ComponentRelationModel.cs
-    startLine: 116
+    startLine: 124
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -758,7 +797,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedDate
     path: Components/ComponentRelationModel.cs
-    startLine: 121
+    startLine: 129
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -795,7 +834,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Label
     path: Components/ComponentRelationModel.cs
-    startLine: 126
+    startLine: 134
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -832,7 +871,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdateUsingTargetInfo
     path: Components/ComponentRelationModel.cs
-    startLine: 131
+    startLine: 139
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -869,7 +908,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceComponentId
     path: Components/ComponentRelationModel.cs
-    startLine: 136
+    startLine: 144
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -906,7 +945,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetComponentId
     path: Components/ComponentRelationModel.cs
-    startLine: 141
+    startLine: 149
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -943,7 +982,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedBy
     path: Components/ComponentRelationModel.cs
-    startLine: 146
+    startLine: 154
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -1362,6 +1401,11 @@ references:
   name: IsTargetEditable
   nameWithType: ComponentRelationModel.IsTargetEditable
   fullName: Vasont.Inspire.Models.Components.ComponentRelationModel.IsTargetEditable
+- uid: Vasont.Inspire.Models.Components.ComponentRelationModel.IsSourceEditable*
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentRelationModel.IsSourceEditable
+  name: IsSourceEditable
+  nameWithType: ComponentRelationModel.IsSourceEditable
+  fullName: Vasont.Inspire.Models.Components.ComponentRelationModel.IsSourceEditable
 - uid: Vasont.Inspire.Models.Components.ComponentRelationModel.Status*
   commentId: Overload:Vasont.Inspire.Models.Components.ComponentRelationModel.Status
   name: Status
