@@ -18,6 +18,11 @@ namespace Vasont.Inspire.Models.Common
         public List<ErrorModel> Messages { get; } = new List<ErrorModel>();
 
         /// <summary>
+        /// Gets or sets the failed ids.
+        /// </summary>
+        public List<long> FailedIds { get; set; } = new List<long>();
+
+        /// <summary>
         /// Gets or sets a value indicating whether this instance has unhandled exception.
         /// </summary>
         /// <value><c>true</c> if this instance has unhandled exception; otherwise, <c>false</c>.</value>

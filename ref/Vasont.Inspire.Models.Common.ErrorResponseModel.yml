@@ -5,6 +5,7 @@ items:
   id: ErrorResponseModel
   parent: Vasont.Inspire.Models.Common
   children:
+  - Vasont.Inspire.Models.Common.ErrorResponseModel.FailedIds
   - Vasont.Inspire.Models.Common.ErrorResponseModel.HasUnhandledException
   - Vasont.Inspire.Models.Common.ErrorResponseModel.Messages
   langs:
@@ -83,6 +84,43 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: Vasont.Inspire.Models.Common.ErrorResponseModel.FailedIds
+  commentId: P:Vasont.Inspire.Models.Common.ErrorResponseModel.FailedIds
+  id: FailedIds
+  parent: Vasont.Inspire.Models.Common.ErrorResponseModel
+  langs:
+  - csharp
+  - vb
+  name: FailedIds
+  nameWithType: ErrorResponseModel.FailedIds
+  fullName: Vasont.Inspire.Models.Common.ErrorResponseModel.FailedIds
+  type: Property
+  source:
+    remote:
+      path: src/Common/ErrorResponseModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FailedIds
+    path: Common/ErrorResponseModel.cs
+    startLine: 22
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the failed ids.\n"
+  example: []
+  syntax:
+    content: public List<long> FailedIds { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Int64}
+    content.vb: Public Property FailedIds As List(Of Long)
+  overload: Vasont.Inspire.Models.Common.ErrorResponseModel.FailedIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Common.ErrorResponseModel.HasUnhandledException
   commentId: P:Vasont.Inspire.Models.Common.ErrorResponseModel.HasUnhandledException
   id: HasUnhandledException
@@ -101,7 +139,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: HasUnhandledException
     path: Common/ErrorResponseModel.cs
-    startLine: 23
+    startLine: 28
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Common
@@ -511,6 +549,55 @@ references:
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Common.ErrorResponseModel.FailedIds*
+  commentId: Overload:Vasont.Inspire.Models.Common.ErrorResponseModel.FailedIds
+  name: FailedIds
+  nameWithType: ErrorResponseModel.FailedIds
+  fullName: Vasont.Inspire.Models.Common.ErrorResponseModel.FailedIds
+- uid: System.Collections.Generic.List{System.Int64}
+  commentId: T:System.Collections.Generic.List{System.Int64}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Int64>
+  nameWithType: List<Int64>
+  fullName: System.Collections.Generic.List<System.Int64>
+  nameWithType.vb: List(Of Int64)
+  fullName.vb: System.Collections.Generic.List(Of System.Int64)
+  name.vb: List(Of Int64)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Vasont.Inspire.Models.Common.ErrorResponseModel.HasUnhandledException*
   commentId: Overload:Vasont.Inspire.Models.Common.ErrorResponseModel.HasUnhandledException
   name: HasUnhandledException
