@@ -52,6 +52,7 @@ items:
   - Vasont.Inspire.Models.Components.ComponentRelationModel.TargetElementName
   - Vasont.Inspire.Models.Components.ComponentRelationModel.TargetAttributeValue
   - Vasont.Inspire.Models.Components.ComponentRelationModel.IsTargetEditable
+  - Vasont.Inspire.Models.Components.ComponentRelationModel.IsSourceEditable
   - Vasont.Inspire.Models.Components.ComponentRelationModel.Status
   - Vasont.Inspire.Models.Components.ComponentRelationModel.WordCount
   - Vasont.Inspire.Models.Components.ComponentRelationModel.Permissions
@@ -294,6 +295,12 @@ references:
   name: IsTargetEditable
   nameWithType: ComponentRelationModel.IsTargetEditable
   fullName: Vasont.Inspire.Models.Components.ComponentRelationModel.IsTargetEditable
+- uid: Vasont.Inspire.Models.Components.ComponentRelationModel.IsSourceEditable
+  commentId: P:Vasont.Inspire.Models.Components.ComponentRelationModel.IsSourceEditable
+  parent: Vasont.Inspire.Models.Components.ComponentRelationModel
+  name: IsSourceEditable
+  nameWithType: ComponentRelationModel.IsSourceEditable
+  fullName: Vasont.Inspire.Models.Components.ComponentRelationModel.IsSourceEditable
 - uid: Vasont.Inspire.Models.Components.ComponentRelationModel.Status
   commentId: P:Vasont.Inspire.Models.Components.ComponentRelationModel.Status
   parent: Vasont.Inspire.Models.Components.ComponentRelationModel
