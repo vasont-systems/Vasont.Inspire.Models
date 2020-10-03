@@ -20,6 +20,7 @@ items:
   - Vasont.Inspire.Models.Reviews.ReviewerEditCompleteModel
   - Vasont.Inspire.Models.Reviews.ReviewerEditModel
   - Vasont.Inspire.Models.Reviews.ReviewerModel
+  - Vasont.Inspire.Models.Reviews.ReviewerNotificationModel
   - Vasont.Inspire.Models.Reviews.ReviewerStateType
   - Vasont.Inspire.Models.Reviews.ReviewModel
   - Vasont.Inspire.Models.Reviews.ReviewStateType
@@ -124,6 +125,11 @@ references:
   name: ReviewerModel
   nameWithType: ReviewerModel
   fullName: Vasont.Inspire.Models.Reviews.ReviewerModel
+- uid: Vasont.Inspire.Models.Reviews.ReviewerNotificationModel
+  commentId: T:Vasont.Inspire.Models.Reviews.ReviewerNotificationModel
+  name: ReviewerNotificationModel
+  nameWithType: ReviewerNotificationModel
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerNotificationModel
 - uid: Vasont.Inspire.Models.Reviews.ReviewStateType
   commentId: T:Vasont.Inspire.Models.Reviews.ReviewStateType
   parent: Vasont.Inspire.Models.Reviews
