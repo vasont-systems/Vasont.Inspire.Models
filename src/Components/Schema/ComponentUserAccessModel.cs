@@ -11,8 +11,8 @@ namespace Vasont.Inspire.Models.Components
     /// <summary>
     /// This class represents a component access record for a specific user within the application.
     /// </summary>public class ComponentUserAccessModel
-	public class ComponentUserAccessModel
-	{
+    public class ComponentUserAccessModel
+    {
         /// <summary>
         /// Gets or sets the associated component identity value.
         /// </summary>
