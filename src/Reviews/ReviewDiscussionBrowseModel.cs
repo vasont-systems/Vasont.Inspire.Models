@@ -6,6 +6,7 @@
 namespace Vasont.Inspire.Models.Reviews
 {
     using System;
+    using System.Collections.Generic;
     using Vasont.Inspire.Models.Security;
 
     /// <summary>
@@ -41,6 +42,6 @@ namespace Vasont.Inspire.Models.Reviews
         /// <summary>
         /// Gets or sets the review discussion replies.
         /// </summary>
-        public ReviewDiscussionReplyModel ReviewDiscussionReply { get; set; } = new ReviewDiscussionReplyModel();
+        public List<ReviewDiscussionReplyModel> ReviewDiscussionReply { get; set; } = new List<ReviewDiscussionReplyModel>();
     }
 }
