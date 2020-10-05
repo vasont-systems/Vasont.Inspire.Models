@@ -33,4 +33,3 @@ namespace Vasont.Inspire.Models.Reviews
         public string Message { get; set; }
     }
 }
-
