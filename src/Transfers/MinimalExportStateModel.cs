@@ -21,5 +21,10 @@ namespace Vasont.Inspire.Models.Transfers
         /// Gets or sets a list of minimal export component information models.
         /// </summary>
         public List<MinimalExportComponentModel> Components { get; set; } = new List<MinimalExportComponentModel>();
+
+        /// <summary>
+        /// Gets or sets a list of minimal export compare component information models.
+        /// </summary>
+        public List<MinimalExportComponentModel> CompareComponents { get; set; } = new List<MinimalExportComponentModel>();
     }
 }
