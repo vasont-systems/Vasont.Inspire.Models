@@ -23,6 +23,11 @@ namespace Vasont.Inspire.Models.Reviews
         public long ReviewDiscussionId { get; set; }
 
         /// <summary>
+        /// Gets or sets the userid that created the review discussion.
+        /// </summary>
+        public int UserId { get; set; }
+
+        /// <summary>
         /// Gets or sets the date and time when the review discussion reply was created.
         /// </summary>
         public DateTime CreateDate { get; set; } = DateTime.UtcNow;
