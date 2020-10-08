@@ -5,6 +5,7 @@ items:
   id: MinimalExportStateModel
   parent: Vasont.Inspire.Models.Transfers
   children:
+  - Vasont.Inspire.Models.Transfers.MinimalExportStateModel.CompareComponents
   - Vasont.Inspire.Models.Transfers.MinimalExportStateModel.Components
   - Vasont.Inspire.Models.Transfers.MinimalExportStateModel.DownloadUrl
   langs:
@@ -114,6 +115,43 @@ items:
       type: System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.MinimalExportComponentModel}
     content.vb: Public Property Components As List(Of MinimalExportComponentModel)
   overload: Vasont.Inspire.Models.Transfers.MinimalExportStateModel.Components*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportStateModel.CompareComponents
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportStateModel.CompareComponents
+  id: CompareComponents
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportStateModel
+  langs:
+  - csharp
+  - vb
+  name: CompareComponents
+  nameWithType: MinimalExportStateModel.CompareComponents
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportStateModel.CompareComponents
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/MinimalExportStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CompareComponents
+    path: Transfers/MinimalExportStateModel.cs
+    startLine: 27
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets a list of minimal export compare component information models.\n"
+  example: []
+  syntax:
+    content: public List<MinimalExportComponentModel> CompareComponents { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.MinimalExportComponentModel}
+    content.vb: Public Property CompareComponents As List(Of MinimalExportComponentModel)
+  overload: Vasont.Inspire.Models.Transfers.MinimalExportStateModel.CompareComponents*
   modifiers.csharp:
   - public
   - get
@@ -522,3 +560,8 @@ references:
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportStateModel.CompareComponents*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.MinimalExportStateModel.CompareComponents
+  name: CompareComponents
+  nameWithType: MinimalExportStateModel.CompareComponents
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportStateModel.CompareComponents
