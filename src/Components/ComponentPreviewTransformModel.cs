@@ -42,19 +42,14 @@ namespace Vasont.Inspire.Models.Components
         public string ComponentPreviewTransformName { get; set; }
 
         /// <summary>
-        /// Gets or sets the identity of the component type.
+        /// Gets or sets the create date of the component preview transform.
         /// </summary>
         public DateTime CreateDate { get; set; }
 
         /// <summary>
-        /// Gets or sets the identity of the component type.
+        /// Gets or sets the identity of the component type of the component preview transform.
         /// </summary>
         public long ComponentTypeId { get; set; }
-
-        /// <summary>
-        /// Gets or sets the review state information.
-        /// </summary>
-        public ComponentProcessType State { get; set; } = ComponentProcessType.Translation;
 
         /// <summary>
         /// Gets or sets the process type of the component preview transform.
