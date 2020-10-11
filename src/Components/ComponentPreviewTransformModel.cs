@@ -7,6 +7,7 @@ namespace Vasont.Inspire.Models.Components
 {
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
+    using System;
 
     /// <summary>
     /// Contains an enumerated list of process types.
@@ -39,6 +40,11 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets the name of the component preview transform.
         /// </summary>
         public string ComponentPreviewTransformName { get; set; }
+
+        /// <summary>
+        /// Gets or sets the identity of the component type.
+        /// </summary>
+        public DateTime CreateDate { get; set; }
 
         /// <summary>
         /// Gets or sets the identity of the component type.
