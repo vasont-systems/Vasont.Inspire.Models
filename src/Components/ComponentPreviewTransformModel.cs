@@ -5,9 +5,9 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Components
 {
+    using System;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
-    using System;
 
     /// <summary>
     /// Contains an enumerated list of process types.

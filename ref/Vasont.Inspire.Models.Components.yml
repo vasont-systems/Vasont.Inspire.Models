@@ -19,6 +19,8 @@ items:
   - Vasont.Inspire.Models.Components.ComponentLockType
   - Vasont.Inspire.Models.Components.ComponentMetricsModel
   - Vasont.Inspire.Models.Components.ComponentModel
+  - Vasont.Inspire.Models.Components.ComponentPreviewTransformModel
+  - Vasont.Inspire.Models.Components.ComponentProcessType
   - Vasont.Inspire.Models.Components.ComponentPropertyModel
   - Vasont.Inspire.Models.Components.ComponentRebuildRelationModel
   - Vasont.Inspire.Models.Components.ComponentRebuildRelationRequestModel
@@ -180,6 +182,17 @@ references:
   name: ComponentModel
   nameWithType: ComponentModel
   fullName: Vasont.Inspire.Models.Components.ComponentModel
+- uid: Vasont.Inspire.Models.Components.ComponentProcessType
+  commentId: T:Vasont.Inspire.Models.Components.ComponentProcessType
+  parent: Vasont.Inspire.Models.Components
+  name: ComponentProcessType
+  nameWithType: ComponentProcessType
+  fullName: Vasont.Inspire.Models.Components.ComponentProcessType
+- uid: Vasont.Inspire.Models.Components.ComponentPreviewTransformModel
+  commentId: T:Vasont.Inspire.Models.Components.ComponentPreviewTransformModel
+  name: ComponentPreviewTransformModel
+  nameWithType: ComponentPreviewTransformModel
+  fullName: Vasont.Inspire.Models.Components.ComponentPreviewTransformModel
 - uid: Vasont.Inspire.Models.Components.ComponentPropertyModel
   commentId: T:Vasont.Inspire.Models.Components.ComponentPropertyModel
   name: ComponentPropertyModel
