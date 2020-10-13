@@ -7,6 +7,7 @@ namespace Vasont.Inspire.Models.Components
 {
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
+    using Vasont.Inspire.Models.Versioning;
 
     /// <summary>
     /// Contains an enumerated list of transform direction formats.
@@ -52,6 +53,11 @@ namespace Vasont.Inspire.Models.Components
         ///  Gets or sets a value indicating the component identifier.
         /// </summary>
         public long ComponentId { get; set; }
+
+        /// <summary>
+        ///  Gets or sets a value indicating the component history.
+        /// </summary>
+        public MinimalComponentHistoryModel ComponentHistory { get; set; }
 
         /// <summary>
         ///  Gets or sets a value indicating the component filename.

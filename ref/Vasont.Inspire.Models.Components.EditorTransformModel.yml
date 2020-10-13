@@ -5,6 +5,7 @@ items:
   id: EditorTransformModel
   parent: Vasont.Inspire.Models.Components
   children:
+  - Vasont.Inspire.Models.Components.EditorTransformModel.ComponentHistory
   - Vasont.Inspire.Models.Components.EditorTransformModel.ComponentId
   - Vasont.Inspire.Models.Components.EditorTransformModel.Content
   - Vasont.Inspire.Models.Components.EditorTransformModel.FileName
@@ -27,7 +28,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EditorTransformModel
     path: Components/EditorTransformModel.cs
-    startLine: 30
+    startLine: 31
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -70,7 +71,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Content
     path: Components/EditorTransformModel.cs
-    startLine: 35
+    startLine: 36
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -121,7 +122,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: From
     path: Components/EditorTransformModel.cs
-    startLine: 41
+    startLine: 42
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -172,7 +173,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: To
     path: Components/EditorTransformModel.cs
-    startLine: 47
+    startLine: 48
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -223,7 +224,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentId
     path: Components/EditorTransformModel.cs
-    startLine: 53
+    startLine: 54
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -236,6 +237,43 @@ items:
       type: System.Int64
     content.vb: Public Property ComponentId As Long
   overload: Vasont.Inspire.Models.Components.EditorTransformModel.ComponentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorTransformModel.ComponentHistory
+  commentId: P:Vasont.Inspire.Models.Components.EditorTransformModel.ComponentHistory
+  id: ComponentHistory
+  parent: Vasont.Inspire.Models.Components.EditorTransformModel
+  langs:
+  - csharp
+  - vb
+  name: ComponentHistory
+  nameWithType: EditorTransformModel.ComponentHistory
+  fullName: Vasont.Inspire.Models.Components.EditorTransformModel.ComponentHistory
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorTransformModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ComponentHistory
+    path: Components/EditorTransformModel.cs
+    startLine: 59
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating the component history.\n"
+  example: []
+  syntax:
+    content: public MinimalComponentHistoryModel ComponentHistory { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+    content.vb: Public Property ComponentHistory As MinimalComponentHistoryModel
+  overload: Vasont.Inspire.Models.Components.EditorTransformModel.ComponentHistory*
   modifiers.csharp:
   - public
   - get
@@ -260,7 +298,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FileName
     path: Components/EditorTransformModel.cs
-    startLine: 58
+    startLine: 64
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -297,7 +335,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PrettyPrint
     path: Components/EditorTransformModel.cs
-    startLine: 63
+    startLine: 69
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -334,7 +372,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SchemaStandard
     path: Components/EditorTransformModel.cs
-    startLine: 68
+    startLine: 74
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -371,7 +409,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Submit
     path: Components/EditorTransformModel.cs
-    startLine: 73
+    startLine: 79
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -728,6 +766,22 @@ references:
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: Vasont.Inspire.Models.Components.EditorTransformModel.ComponentHistory*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorTransformModel.ComponentHistory
+  name: ComponentHistory
+  nameWithType: EditorTransformModel.ComponentHistory
+  fullName: Vasont.Inspire.Models.Components.EditorTransformModel.ComponentHistory
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+  commentId: T:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+  parent: Vasont.Inspire.Models.Versioning
+  name: MinimalComponentHistoryModel
+  nameWithType: MinimalComponentHistoryModel
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+- uid: Vasont.Inspire.Models.Versioning
+  commentId: N:Vasont.Inspire.Models.Versioning
+  name: Vasont.Inspire.Models.Versioning
+  nameWithType: Vasont.Inspire.Models.Versioning
+  fullName: Vasont.Inspire.Models.Versioning
 - uid: Vasont.Inspire.Models.Components.EditorTransformModel.FileName*
   commentId: Overload:Vasont.Inspire.Models.Components.EditorTransformModel.FileName
   name: FileName
