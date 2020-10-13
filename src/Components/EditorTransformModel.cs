@@ -55,7 +55,7 @@ namespace Vasont.Inspire.Models.Components
         public long ComponentId { get; set; }
 
         /// <summary>
-        ///  Gets or sets a value indicating the component history.
+        ///  Gets or sets a value containing the component history.
         /// </summary>
         public MinimalComponentHistoryModel ComponentHistory { get; set; }
 
