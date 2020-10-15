@@ -23,8 +23,13 @@ namespace Vasont.Inspire.Models.Components
         public long ComponentId { get; set; }
 
         /// <summary>
-        /// Gets or sets the component changeset for historic record retrieval
+        /// Gets or sets the component changeset for historic record retrieval.
         /// </summary>
         public Guid ChangesetId { get; set; } = Guid.Empty;
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the load is for a compare.
+        /// </summary>
+        public bool IsCompare { get; set; } = false;
     }
 }
