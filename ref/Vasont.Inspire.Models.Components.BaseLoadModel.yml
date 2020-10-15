@@ -8,6 +8,7 @@ items:
   - Vasont.Inspire.Models.Components.BaseLoadModel.ChangesetId
   - Vasont.Inspire.Models.Components.BaseLoadModel.ComponentId
   - Vasont.Inspire.Models.Components.BaseLoadModel.Href
+  - Vasont.Inspire.Models.Components.BaseLoadModel.IsCompare
   langs:
   - csharp
   - vb
@@ -148,7 +149,7 @@ items:
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
-  summary: "\nGets or sets the component changeset for historic record retrieval\n"
+  summary: "\nGets or sets the component changeset for historic record retrieval.\n"
   example: []
   syntax:
     content: public Guid ChangesetId { get; set; }
@@ -157,6 +158,43 @@ items:
       type: System.Guid
     content.vb: Public Property ChangesetId As Guid
   overload: Vasont.Inspire.Models.Components.BaseLoadModel.ChangesetId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.BaseLoadModel.IsCompare
+  commentId: P:Vasont.Inspire.Models.Components.BaseLoadModel.IsCompare
+  id: IsCompare
+  parent: Vasont.Inspire.Models.Components.BaseLoadModel
+  langs:
+  - csharp
+  - vb
+  name: IsCompare
+  nameWithType: BaseLoadModel.IsCompare
+  fullName: Vasont.Inspire.Models.Components.BaseLoadModel.IsCompare
+  type: Property
+  source:
+    remote:
+      path: src/Components/BaseLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IsCompare
+    path: Components/BaseLoadModel.cs
+    startLine: 32
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether the load is for a compare.\n"
+  example: []
+  syntax:
+    content: public bool IsCompare { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsCompare As Boolean
+  overload: Vasont.Inspire.Models.Components.BaseLoadModel.IsCompare*
   modifiers.csharp:
   - public
   - get
@@ -497,3 +535,15 @@ references:
   name: Guid
   nameWithType: Guid
   fullName: System.Guid
+- uid: Vasont.Inspire.Models.Components.BaseLoadModel.IsCompare*
+  commentId: Overload:Vasont.Inspire.Models.Components.BaseLoadModel.IsCompare
+  name: IsCompare
+  nameWithType: BaseLoadModel.IsCompare
+  fullName: Vasont.Inspire.Models.Components.BaseLoadModel.IsCompare
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

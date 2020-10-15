@@ -47,6 +47,7 @@ items:
   - Vasont.Inspire.Models.Components.BaseLoadModel.Href
   - Vasont.Inspire.Models.Components.BaseLoadModel.ComponentId
   - Vasont.Inspire.Models.Components.BaseLoadModel.ChangesetId
+  - Vasont.Inspire.Models.Components.BaseLoadModel.IsCompare
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -467,6 +468,12 @@ references:
   name: ChangesetId
   nameWithType: BaseLoadModel.ChangesetId
   fullName: Vasont.Inspire.Models.Components.BaseLoadModel.ChangesetId
+- uid: Vasont.Inspire.Models.Components.BaseLoadModel.IsCompare
+  commentId: P:Vasont.Inspire.Models.Components.BaseLoadModel.IsCompare
+  parent: Vasont.Inspire.Models.Components.BaseLoadModel
+  name: IsCompare
+  nameWithType: BaseLoadModel.IsCompare
+  fullName: Vasont.Inspire.Models.Components.BaseLoadModel.IsCompare
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
