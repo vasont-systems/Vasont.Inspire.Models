@@ -5,6 +5,8 @@
 //------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Plugins
 {
+    using System.Collections.Generic;
+
     /// <summary>
     /// This class represents a Publishing Request.
     /// </summary>
@@ -19,6 +21,11 @@ namespace Vasont.Inspire.Models.Plugins
         /// Gets or sets the root file name value.
         /// </summary>
         public string RootFileName { get; set; }
+
+        /// <summary>
+        /// Gets or sets the root component name value.
+        /// </summary>
+        public string RootComponentName { get; set; }
 
         /// <summary>
         /// Gets or sets the email address of the user who requested the publish.
@@ -39,5 +46,20 @@ namespace Vasont.Inspire.Models.Plugins
         /// Gets or sets a value containing the full path of the published file.
         /// </summary>
         public string ResultFilePath { get; set; }
+
+        /// <summary>
+        /// Gets or sets the publish type.
+        /// </summary>
+        public PublishType Type { get; set; }
+
+        /// <summary>
+        /// Gets or sets the publish configuration name.
+        /// </summary>
+        public string PublishConfigName { get; set; }
+
+        /// <summary>
+        /// Gets or sets a list of strings containing any warning messages for the published file.
+        /// </summary>
+        public List<string> WarningMessages { get; set; } = new List<string>();
     }
 }
