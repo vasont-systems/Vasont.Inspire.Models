@@ -23,7 +23,7 @@ namespace Vasont.Inspire.Models.Plugins
         public string RootFileName { get; set; }
 
         /// <summary>
-        /// Gets or sets the root file name value.
+        /// Gets or sets the root component name value.
         /// </summary>
         public string RootComponentName { get; set; }
 
