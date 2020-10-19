@@ -40,7 +40,12 @@ namespace Vasont.Inspire.Models.Plugins
         /// <summary>
         /// Contains a value that indicates publishing to AntennaHouse PDF.
         /// </summary>
-        AntennaHousePdf
+        AntennaHousePdf,
+
+        /// <summary>
+        /// Contains a value that indicates publishing to Dita Compare.
+        /// </summary>
+        Compare
     }
 
     /// <summary>
