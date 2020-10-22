@@ -10999,6 +10999,19 @@ references:
   commentId: T:Vasont.Inspire.Models.Plugins.PublishResultModel
   fullName: Vasont.Inspire.Models.Plugins.PublishResultModel
   nameWithType: PublishResultModel
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishConfigName
+  name: PublishConfigName
+  href: ref/Vasont.Inspire.Models.Plugins.PublishResultModel.html#Vasont_Inspire_Models_Plugins_PublishResultModel_PublishConfigName
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishResultModel.PublishConfigName
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishConfigName
+  nameWithType: PublishResultModel.PublishConfigName
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishConfigName*
+  name: PublishConfigName
+  href: ref/Vasont.Inspire.Models.Plugins.PublishResultModel.html#Vasont_Inspire_Models_Plugins_PublishResultModel_PublishConfigName_
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishResultModel.PublishConfigName
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishConfigName
+  nameWithType: PublishResultModel.PublishConfigName
 - uid: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishInitiated
   name: PublishInitiated
   href: ref/Vasont.Inspire.Models.Plugins.PublishResultModel.html#Vasont_Inspire_Models_Plugins_PublishResultModel_PublishInitiated
@@ -11051,6 +11064,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentId
   nameWithType: PublishResultModel.RootComponentId
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentName
+  name: RootComponentName
+  href: ref/Vasont.Inspire.Models.Plugins.PublishResultModel.html#Vasont_Inspire_Models_Plugins_PublishResultModel_RootComponentName
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentName
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentName
+  nameWithType: PublishResultModel.RootComponentName
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentName*
+  name: RootComponentName
+  href: ref/Vasont.Inspire.Models.Plugins.PublishResultModel.html#Vasont_Inspire_Models_Plugins_PublishResultModel_RootComponentName_
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentName
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentName
+  nameWithType: PublishResultModel.RootComponentName
 - uid: Vasont.Inspire.Models.Plugins.PublishResultModel.RootFileName
   name: RootFileName
   href: ref/Vasont.Inspire.Models.Plugins.PublishResultModel.html#Vasont_Inspire_Models_Plugins_PublishResultModel_RootFileName
@@ -11064,6 +11090,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.RootFileName
   nameWithType: PublishResultModel.RootFileName
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.Type
+  name: Type
+  href: ref/Vasont.Inspire.Models.Plugins.PublishResultModel.html#Vasont_Inspire_Models_Plugins_PublishResultModel_Type
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishResultModel.Type
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.Type
+  nameWithType: PublishResultModel.Type
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.Type*
+  name: Type
+  href: ref/Vasont.Inspire.Models.Plugins.PublishResultModel.html#Vasont_Inspire_Models_Plugins_PublishResultModel_Type_
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishResultModel.Type
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.Type
+  nameWithType: PublishResultModel.Type
 - uid: Vasont.Inspire.Models.Plugins.PublishResultModel.UserEmail
   name: UserEmail
   href: ref/Vasont.Inspire.Models.Plugins.PublishResultModel.html#Vasont_Inspire_Models_Plugins_PublishResultModel_UserEmail
@@ -11077,6 +11116,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.UserEmail
   nameWithType: PublishResultModel.UserEmail
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.WarningMessages
+  name: WarningMessages
+  href: ref/Vasont.Inspire.Models.Plugins.PublishResultModel.html#Vasont_Inspire_Models_Plugins_PublishResultModel_WarningMessages
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishResultModel.WarningMessages
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.WarningMessages
+  nameWithType: PublishResultModel.WarningMessages
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.WarningMessages*
+  name: WarningMessages
+  href: ref/Vasont.Inspire.Models.Plugins.PublishResultModel.html#Vasont_Inspire_Models_Plugins_PublishResultModel_WarningMessages_
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishResultModel.WarningMessages
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.WarningMessages
+  nameWithType: PublishResultModel.WarningMessages
 - uid: Vasont.Inspire.Models.Plugins.PublishType
   name: PublishType
   href: ref/Vasont.Inspire.Models.Plugins.PublishType.html
@@ -11089,6 +11141,12 @@ references:
   commentId: F:Vasont.Inspire.Models.Plugins.PublishType.AntennaHousePdf
   fullName: Vasont.Inspire.Models.Plugins.PublishType.AntennaHousePdf
   nameWithType: PublishType.AntennaHousePdf
+- uid: Vasont.Inspire.Models.Plugins.PublishType.Compare
+  name: Compare
+  href: ref/Vasont.Inspire.Models.Plugins.PublishType.html#Vasont_Inspire_Models_Plugins_PublishType_Compare
+  commentId: F:Vasont.Inspire.Models.Plugins.PublishType.Compare
+  fullName: Vasont.Inspire.Models.Plugins.PublishType.Compare
+  nameWithType: PublishType.Compare
 - uid: Vasont.Inspire.Models.Plugins.PublishType.DocBook
   name: DocBook
   href: ref/Vasont.Inspire.Models.Plugins.PublishType.html#Vasont_Inspire_Models_Plugins_PublishType_DocBook
@@ -15442,6 +15500,77 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.UserId
   nameWithType: ReviewDiscussionModel.UserId
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel
+  name: ReviewDiscussionReplyBrowseModel
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.html
+  commentId: T:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel
+  nameWithType: ReviewDiscussionReplyBrowseModel
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.Content
+  name: Content
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyBrowseModel_Content
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.Content
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.Content
+  nameWithType: ReviewDiscussionReplyBrowseModel.Content
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.Content*
+  name: Content
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyBrowseModel_Content_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.Content
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.Content
+  nameWithType: ReviewDiscussionReplyBrowseModel.Content
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.CreateDate
+  name: CreateDate
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyBrowseModel_CreateDate
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.CreateDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.CreateDate
+  nameWithType: ReviewDiscussionReplyBrowseModel.CreateDate
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.CreateDate*
+  name: CreateDate
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyBrowseModel_CreateDate_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.CreateDate
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.CreateDate
+  nameWithType: ReviewDiscussionReplyBrowseModel.CreateDate
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionId
+  name: ReviewDiscussionId
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyBrowseModel_ReviewDiscussionId
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionId
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionId
+  nameWithType: ReviewDiscussionReplyBrowseModel.ReviewDiscussionId
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionId*
+  name: ReviewDiscussionId
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyBrowseModel_ReviewDiscussionId_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionId
+  nameWithType: ReviewDiscussionReplyBrowseModel.ReviewDiscussionId
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionReplyId
+  name: ReviewDiscussionReplyId
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyBrowseModel_ReviewDiscussionReplyId
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionReplyId
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionReplyId
+  nameWithType: ReviewDiscussionReplyBrowseModel.ReviewDiscussionReplyId
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionReplyId*
+  name: ReviewDiscussionReplyId
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyBrowseModel_ReviewDiscussionReplyId_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionReplyId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionReplyId
+  nameWithType: ReviewDiscussionReplyBrowseModel.ReviewDiscussionReplyId
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.User
+  name: User
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyBrowseModel_User
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.User
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.User
+  nameWithType: ReviewDiscussionReplyBrowseModel.User
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.User*
+  name: User
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyBrowseModel_User_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.User
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.User
+  nameWithType: ReviewDiscussionReplyBrowseModel.User
 - uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel
   name: ReviewDiscussionReplyModel
   href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.html
@@ -15513,6 +15642,38 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.UserId
   nameWithType: ReviewDiscussionReplyModel.UserId
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel
+  name: ReviewDiscussionResultModel
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel.html
+  commentId: T:Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel
+  nameWithType: ReviewDiscussionResultModel
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel.ReviewDiscussions
+  name: ReviewDiscussions
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionResultModel_ReviewDiscussions
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel.ReviewDiscussions
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel.ReviewDiscussions
+  nameWithType: ReviewDiscussionResultModel.ReviewDiscussions
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel.ReviewDiscussions*
+  name: ReviewDiscussions
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionResultModel_ReviewDiscussions_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel.ReviewDiscussions
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel.ReviewDiscussions
+  nameWithType: ReviewDiscussionResultModel.ReviewDiscussions
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel.TotalCount
+  name: TotalCount
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionResultModel_TotalCount
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel.TotalCount
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel.TotalCount
+  nameWithType: ReviewDiscussionResultModel.TotalCount
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel.TotalCount*
+  name: TotalCount
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionResultModel_TotalCount_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel.TotalCount
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel.TotalCount
+  nameWithType: ReviewDiscussionResultModel.TotalCount
 - uid: Vasont.Inspire.Models.Reviews.ReviewEditorSaveModel
   name: ReviewEditorSaveModel
   href: ref/Vasont.Inspire.Models.Reviews.ReviewEditorSaveModel.html
@@ -21662,6 +21823,32 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.IncludeRelationships
   nameWithType: TranslationJobModel.IncludeRelationships
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalRequest
+  name: RetrievalRequest
+  href: ref/Vasont.Inspire.Models.Translations.TranslationJobModel.html#Vasont_Inspire_Models_Translations_TranslationJobModel_RetrievalRequest
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalRequest
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalRequest
+  nameWithType: TranslationJobModel.RetrievalRequest
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalRequest*
+  name: RetrievalRequest
+  href: ref/Vasont.Inspire.Models.Translations.TranslationJobModel.html#Vasont_Inspire_Models_Translations_TranslationJobModel_RetrievalRequest_
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalRequest
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalRequest
+  nameWithType: TranslationJobModel.RetrievalRequest
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalResponse
+  name: RetrievalResponse
+  href: ref/Vasont.Inspire.Models.Translations.TranslationJobModel.html#Vasont_Inspire_Models_Translations_TranslationJobModel_RetrievalResponse
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalResponse
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalResponse
+  nameWithType: TranslationJobModel.RetrievalResponse
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalResponse*
+  name: RetrievalResponse
+  href: ref/Vasont.Inspire.Models.Translations.TranslationJobModel.html#Vasont_Inspire_Models_Translations_TranslationJobModel_RetrievalResponse_
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalResponse
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalResponse
+  nameWithType: TranslationJobModel.RetrievalResponse
 - uid: Vasont.Inspire.Models.Translations.TranslationJobModel.SourceComponentIds
   name: SourceComponentIds
   href: ref/Vasont.Inspire.Models.Translations.TranslationJobModel.html#Vasont_Inspire_Models_Translations_TranslationJobModel_SourceComponentIds
@@ -21675,6 +21862,32 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.SourceComponentIds
   nameWithType: TranslationJobModel.SourceComponentIds
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionRequest
+  name: SubmissionRequest
+  href: ref/Vasont.Inspire.Models.Translations.TranslationJobModel.html#Vasont_Inspire_Models_Translations_TranslationJobModel_SubmissionRequest
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionRequest
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionRequest
+  nameWithType: TranslationJobModel.SubmissionRequest
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionRequest*
+  name: SubmissionRequest
+  href: ref/Vasont.Inspire.Models.Translations.TranslationJobModel.html#Vasont_Inspire_Models_Translations_TranslationJobModel_SubmissionRequest_
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionRequest
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionRequest
+  nameWithType: TranslationJobModel.SubmissionRequest
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionResponse
+  name: SubmissionResponse
+  href: ref/Vasont.Inspire.Models.Translations.TranslationJobModel.html#Vasont_Inspire_Models_Translations_TranslationJobModel_SubmissionResponse
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionResponse
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionResponse
+  nameWithType: TranslationJobModel.SubmissionResponse
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionResponse*
+  name: SubmissionResponse
+  href: ref/Vasont.Inspire.Models.Translations.TranslationJobModel.html#Vasont_Inspire_Models_Translations_TranslationJobModel_SubmissionResponse_
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionResponse
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionResponse
+  nameWithType: TranslationJobModel.SubmissionResponse
 - uid: Vasont.Inspire.Models.Translations.TranslationJobModel.TranslationIntegrationId
   name: TranslationIntegrationId
   href: ref/Vasont.Inspire.Models.Translations.TranslationJobModel.html#Vasont_Inspire_Models_Translations_TranslationJobModel_TranslationIntegrationId

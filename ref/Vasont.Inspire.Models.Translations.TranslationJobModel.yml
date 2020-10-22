@@ -12,7 +12,11 @@ items:
   - Vasont.Inspire.Models.Translations.TranslationJobModel.ForceTranslation
   - Vasont.Inspire.Models.Translations.TranslationJobModel.IncludeBinary
   - Vasont.Inspire.Models.Translations.TranslationJobModel.IncludeRelationships
+  - Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalRequest
+  - Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalResponse
   - Vasont.Inspire.Models.Translations.TranslationJobModel.SourceComponentIds
+  - Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionRequest
+  - Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionResponse
   - Vasont.Inspire.Models.Translations.TranslationJobModel.TranslationIntegrationId
   langs:
   - csharp
@@ -399,6 +403,154 @@ items:
       type: System.Nullable{System.Int32}
     content.vb: Public Property TranslationIntegrationId As Integer?
   overload: Vasont.Inspire.Models.Translations.TranslationJobModel.TranslationIntegrationId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionRequest
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionRequest
+  id: SubmissionRequest
+  parent: Vasont.Inspire.Models.Translations.TranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: SubmissionRequest
+  nameWithType: TranslationJobModel.SubmissionRequest
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionRequest
+  type: Property
+  source:
+    remote:
+      path: src/Translations/TranslationJobModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SubmissionRequest
+    path: Translations/TranslationJobModel.cs
+    startLine: 58
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the submission request.\n"
+  example: []
+  syntax:
+    content: public string SubmissionRequest { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SubmissionRequest As String
+  overload: Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionRequest*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionResponse
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionResponse
+  id: SubmissionResponse
+  parent: Vasont.Inspire.Models.Translations.TranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: SubmissionResponse
+  nameWithType: TranslationJobModel.SubmissionResponse
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionResponse
+  type: Property
+  source:
+    remote:
+      path: src/Translations/TranslationJobModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SubmissionResponse
+    path: Translations/TranslationJobModel.cs
+    startLine: 63
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the submission response.\n"
+  example: []
+  syntax:
+    content: public string SubmissionResponse { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SubmissionResponse As String
+  overload: Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionResponse*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalRequest
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalRequest
+  id: RetrievalRequest
+  parent: Vasont.Inspire.Models.Translations.TranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: RetrievalRequest
+  nameWithType: TranslationJobModel.RetrievalRequest
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalRequest
+  type: Property
+  source:
+    remote:
+      path: src/Translations/TranslationJobModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RetrievalRequest
+    path: Translations/TranslationJobModel.cs
+    startLine: 68
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the retrieval request.\n"
+  example: []
+  syntax:
+    content: public string RetrievalRequest { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RetrievalRequest As String
+  overload: Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalRequest*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalResponse
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalResponse
+  id: RetrievalResponse
+  parent: Vasont.Inspire.Models.Translations.TranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: RetrievalResponse
+  nameWithType: TranslationJobModel.RetrievalResponse
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalResponse
+  type: Property
+  source:
+    remote:
+      path: src/Translations/TranslationJobModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RetrievalResponse
+    path: Translations/TranslationJobModel.cs
+    startLine: 73
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the retrieval response.\n"
+  example: []
+  syntax:
+    content: public string RetrievalResponse { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RetrievalResponse As String
+  overload: Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalResponse*
   modifiers.csharp:
   - public
   - get
@@ -1122,3 +1274,30 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionRequest*
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionRequest
+  name: SubmissionRequest
+  nameWithType: TranslationJobModel.SubmissionRequest
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionRequest
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionResponse*
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionResponse
+  name: SubmissionResponse
+  nameWithType: TranslationJobModel.SubmissionResponse
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.SubmissionResponse
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalRequest*
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalRequest
+  name: RetrievalRequest
+  nameWithType: TranslationJobModel.RetrievalRequest
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalRequest
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalResponse*
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalResponse
+  name: RetrievalResponse
+  nameWithType: TranslationJobModel.RetrievalResponse
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.RetrievalResponse
