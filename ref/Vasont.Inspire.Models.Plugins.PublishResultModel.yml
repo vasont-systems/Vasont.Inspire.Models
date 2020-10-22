@@ -5,12 +5,16 @@ items:
   id: PublishResultModel
   parent: Vasont.Inspire.Models.Plugins
   children:
+  - Vasont.Inspire.Models.Plugins.PublishResultModel.PublishConfigName
   - Vasont.Inspire.Models.Plugins.PublishResultModel.PublishInitiated
   - Vasont.Inspire.Models.Plugins.PublishResultModel.PublishInitiateErrors
   - Vasont.Inspire.Models.Plugins.PublishResultModel.ResultFilePath
   - Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentId
+  - Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentName
   - Vasont.Inspire.Models.Plugins.PublishResultModel.RootFileName
+  - Vasont.Inspire.Models.Plugins.PublishResultModel.Type
   - Vasont.Inspire.Models.Plugins.PublishResultModel.UserEmail
+  - Vasont.Inspire.Models.Plugins.PublishResultModel.WarningMessages
   langs:
   - csharp
   - vb
@@ -25,7 +29,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PublishResultModel
     path: Plugins/PublishResultModel.cs
-    startLine: 10
+    startLine: 12
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -68,7 +72,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RootComponentId
     path: Plugins/PublishResultModel.cs
-    startLine: 15
+    startLine: 17
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -105,7 +109,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RootFileName
     path: Plugins/PublishResultModel.cs
-    startLine: 20
+    startLine: 22
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -118,6 +122,43 @@ items:
       type: System.String
     content.vb: Public Property RootFileName As String
   overload: Vasont.Inspire.Models.Plugins.PublishResultModel.RootFileName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentName
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentName
+  id: RootComponentName
+  parent: Vasont.Inspire.Models.Plugins.PublishResultModel
+  langs:
+  - csharp
+  - vb
+  name: RootComponentName
+  nameWithType: PublishResultModel.RootComponentName
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentName
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PublishResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RootComponentName
+    path: Plugins/PublishResultModel.cs
+    startLine: 27
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the root component name value.\n"
+  example: []
+  syntax:
+    content: public string RootComponentName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RootComponentName As String
+  overload: Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentName*
   modifiers.csharp:
   - public
   - get
@@ -142,7 +183,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserEmail
     path: Plugins/PublishResultModel.cs
-    startLine: 25
+    startLine: 32
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -179,7 +220,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PublishInitiated
     path: Plugins/PublishResultModel.cs
-    startLine: 30
+    startLine: 37
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -216,7 +257,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PublishInitiateErrors
     path: Plugins/PublishResultModel.cs
-    startLine: 35
+    startLine: 42
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -253,7 +294,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ResultFilePath
     path: Plugins/PublishResultModel.cs
-    startLine: 40
+    startLine: 47
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -266,6 +307,117 @@ items:
       type: System.String
     content.vb: Public Property ResultFilePath As String
   overload: Vasont.Inspire.Models.Plugins.PublishResultModel.ResultFilePath*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.Type
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishResultModel.Type
+  id: Type
+  parent: Vasont.Inspire.Models.Plugins.PublishResultModel
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: PublishResultModel.Type
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.Type
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PublishResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Type
+    path: Plugins/PublishResultModel.cs
+    startLine: 52
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the publish type.\n"
+  example: []
+  syntax:
+    content: public PublishType Type { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Plugins.PublishType
+    content.vb: Public Property Type As PublishType
+  overload: Vasont.Inspire.Models.Plugins.PublishResultModel.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishConfigName
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishResultModel.PublishConfigName
+  id: PublishConfigName
+  parent: Vasont.Inspire.Models.Plugins.PublishResultModel
+  langs:
+  - csharp
+  - vb
+  name: PublishConfigName
+  nameWithType: PublishResultModel.PublishConfigName
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishConfigName
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PublishResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PublishConfigName
+    path: Plugins/PublishResultModel.cs
+    startLine: 57
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the publish configuration name.\n"
+  example: []
+  syntax:
+    content: public string PublishConfigName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PublishConfigName As String
+  overload: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishConfigName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.WarningMessages
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishResultModel.WarningMessages
+  id: WarningMessages
+  parent: Vasont.Inspire.Models.Plugins.PublishResultModel
+  langs:
+  - csharp
+  - vb
+  name: WarningMessages
+  nameWithType: PublishResultModel.WarningMessages
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.WarningMessages
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PublishResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: WarningMessages
+    path: Plugins/PublishResultModel.cs
+    startLine: 62
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets a list of strings containing any warning messages for the published file.\n"
+  example: []
+  syntax:
+    content: public List<string> WarningMessages { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Property WarningMessages As List(Of String)
+  overload: Vasont.Inspire.Models.Plugins.PublishResultModel.WarningMessages*
   modifiers.csharp:
   - public
   - get
@@ -594,6 +746,11 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentName*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentName
+  name: RootComponentName
+  nameWithType: PublishResultModel.RootComponentName
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentName
 - uid: Vasont.Inspire.Models.Plugins.PublishResultModel.UserEmail*
   commentId: Overload:Vasont.Inspire.Models.Plugins.PublishResultModel.UserEmail
   name: UserEmail
@@ -621,3 +778,113 @@ references:
   name: ResultFilePath
   nameWithType: PublishResultModel.ResultFilePath
   fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.ResultFilePath
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.Type*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishResultModel.Type
+  name: Type
+  nameWithType: PublishResultModel.Type
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.Type
+- uid: Vasont.Inspire.Models.Plugins.PublishType
+  commentId: T:Vasont.Inspire.Models.Plugins.PublishType
+  parent: Vasont.Inspire.Models.Plugins
+  name: PublishType
+  nameWithType: PublishType
+  fullName: Vasont.Inspire.Models.Plugins.PublishType
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishConfigName*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishResultModel.PublishConfigName
+  name: PublishConfigName
+  nameWithType: PublishResultModel.PublishConfigName
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishConfigName
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.WarningMessages*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishResultModel.WarningMessages
+  name: WarningMessages
+  nameWithType: PublishResultModel.WarningMessages
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.WarningMessages
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
