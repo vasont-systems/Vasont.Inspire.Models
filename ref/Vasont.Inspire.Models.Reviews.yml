@@ -16,7 +16,9 @@ items:
   - Vasont.Inspire.Models.Reviews.ReviewDetailModel
   - Vasont.Inspire.Models.Reviews.ReviewDiscussionBrowseModel
   - Vasont.Inspire.Models.Reviews.ReviewDiscussionModel
+  - Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel
   - Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel
+  - Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel
   - Vasont.Inspire.Models.Reviews.ReviewEditorSaveModel
   - Vasont.Inspire.Models.Reviews.ReviewerComponentEditModel
   - Vasont.Inspire.Models.Reviews.ReviewerComponentModel
@@ -101,11 +103,21 @@ references:
   name: ReviewDiscussionModel
   nameWithType: ReviewDiscussionModel
   fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionModel
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel
+  commentId: T:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel
+  name: ReviewDiscussionReplyBrowseModel
+  nameWithType: ReviewDiscussionReplyBrowseModel
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel
 - uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel
   commentId: T:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel
   name: ReviewDiscussionReplyModel
   nameWithType: ReviewDiscussionReplyModel
   fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel
+  commentId: T:Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel
+  name: ReviewDiscussionResultModel
+  nameWithType: ReviewDiscussionResultModel
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionResultModel
 - uid: Vasont.Inspire.Models.Reviews.ReviewEditorSaveModel
   commentId: T:Vasont.Inspire.Models.Reviews.ReviewEditorSaveModel
   name: ReviewEditorSaveModel
