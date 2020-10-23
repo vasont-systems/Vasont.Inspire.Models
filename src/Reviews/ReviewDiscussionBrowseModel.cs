@@ -42,6 +42,6 @@ namespace Vasont.Inspire.Models.Reviews
         /// <summary>
         /// Gets or sets the review discussion replies.
         /// </summary>
-        public List<ReviewDiscussionReplyBrowseModel> ReviewDiscussionReply { get; set; } = new List<ReviewDiscussionReplyBrowseModel>();
+        public List<ReviewDiscussionReplyModel> ReviewDiscussionReplys { get; set; } = new List<ReviewDiscussionReplyModel>();
     }
 }

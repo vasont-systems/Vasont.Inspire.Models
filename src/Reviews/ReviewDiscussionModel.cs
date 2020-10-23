@@ -6,6 +6,7 @@
 namespace Vasont.Inspire.Models.Reviews
 {
     using System;
+    using Vasont.Inspire.Models.Security;
 
     /// <summary>
     /// This class represents a review discussion associated with a review.
@@ -28,9 +29,14 @@ namespace Vasont.Inspire.Models.Reviews
         public int UserId { get; set; }
 
         /// <summary>
+        /// Gets or sets the review discussion user information.
+        /// </summary>
+        public MinimalUserModel User { get; set; }
+
+        /// <summary>
         /// Gets or sets the date and time when the review discussion was created.
         /// </summary>
-        public DateTime CreateDate { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
 
         /// <summary>
         /// Gets or sets the review discussion content.

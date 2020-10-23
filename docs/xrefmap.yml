@@ -15390,19 +15390,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionBrowseModel.ReviewDiscussionId
   nameWithType: ReviewDiscussionBrowseModel.ReviewDiscussionId
-- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionBrowseModel.ReviewDiscussionReply
-  name: ReviewDiscussionReply
-  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionBrowseModel_ReviewDiscussionReply
-  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDiscussionBrowseModel.ReviewDiscussionReply
-  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionBrowseModel.ReviewDiscussionReply
-  nameWithType: ReviewDiscussionBrowseModel.ReviewDiscussionReply
-- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionBrowseModel.ReviewDiscussionReply*
-  name: ReviewDiscussionReply
-  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionBrowseModel_ReviewDiscussionReply_
-  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDiscussionBrowseModel.ReviewDiscussionReply
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionBrowseModel.ReviewDiscussionReplys
+  name: ReviewDiscussionReplys
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionBrowseModel_ReviewDiscussionReplys
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDiscussionBrowseModel.ReviewDiscussionReplys
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionBrowseModel.ReviewDiscussionReplys
+  nameWithType: ReviewDiscussionBrowseModel.ReviewDiscussionReplys
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionBrowseModel.ReviewDiscussionReplys*
+  name: ReviewDiscussionReplys
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionBrowseModel_ReviewDiscussionReplys_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDiscussionBrowseModel.ReviewDiscussionReplys
   isSpec: "True"
-  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionBrowseModel.ReviewDiscussionReply
-  nameWithType: ReviewDiscussionBrowseModel.ReviewDiscussionReply
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionBrowseModel.ReviewDiscussionReplys
+  nameWithType: ReviewDiscussionBrowseModel.ReviewDiscussionReplys
 - uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionBrowseModel.ReviewId
   name: ReviewId
   href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionBrowseModel_ReviewId
@@ -15448,19 +15448,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.Content
   nameWithType: ReviewDiscussionModel.Content
-- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.CreateDate
-  name: CreateDate
-  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionModel_CreateDate
-  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.CreateDate
-  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.CreateDate
-  nameWithType: ReviewDiscussionModel.CreateDate
-- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.CreateDate*
-  name: CreateDate
-  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionModel_CreateDate_
-  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.CreateDate
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.CreatedDate
+  name: CreatedDate
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionModel_CreatedDate
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.CreatedDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.CreatedDate
+  nameWithType: ReviewDiscussionModel.CreatedDate
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.CreatedDate*
+  name: CreatedDate
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionModel_CreatedDate_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.CreatedDate
   isSpec: "True"
-  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.CreateDate
-  nameWithType: ReviewDiscussionModel.CreateDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.CreatedDate
+  nameWithType: ReviewDiscussionModel.CreatedDate
 - uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.ReviewDiscussionId
   name: ReviewDiscussionId
   href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionModel_ReviewDiscussionId
@@ -15487,6 +15487,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.ReviewId
   nameWithType: ReviewDiscussionModel.ReviewId
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.User
+  name: User
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionModel_User
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.User
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.User
+  nameWithType: ReviewDiscussionModel.User
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.User*
+  name: User
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionModel_User_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.User
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.User
+  nameWithType: ReviewDiscussionModel.User
 - uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.UserId
   name: UserId
   href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionModel_UserId
@@ -15500,77 +15513,6 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionModel.UserId
   nameWithType: ReviewDiscussionModel.UserId
-- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel
-  name: ReviewDiscussionReplyBrowseModel
-  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.html
-  commentId: T:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel
-  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel
-  nameWithType: ReviewDiscussionReplyBrowseModel
-- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.Content
-  name: Content
-  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyBrowseModel_Content
-  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.Content
-  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.Content
-  nameWithType: ReviewDiscussionReplyBrowseModel.Content
-- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.Content*
-  name: Content
-  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyBrowseModel_Content_
-  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.Content
-  isSpec: "True"
-  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.Content
-  nameWithType: ReviewDiscussionReplyBrowseModel.Content
-- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.CreateDate
-  name: CreateDate
-  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyBrowseModel_CreateDate
-  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.CreateDate
-  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.CreateDate
-  nameWithType: ReviewDiscussionReplyBrowseModel.CreateDate
-- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.CreateDate*
-  name: CreateDate
-  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyBrowseModel_CreateDate_
-  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.CreateDate
-  isSpec: "True"
-  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.CreateDate
-  nameWithType: ReviewDiscussionReplyBrowseModel.CreateDate
-- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionId
-  name: ReviewDiscussionId
-  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyBrowseModel_ReviewDiscussionId
-  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionId
-  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionId
-  nameWithType: ReviewDiscussionReplyBrowseModel.ReviewDiscussionId
-- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionId*
-  name: ReviewDiscussionId
-  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyBrowseModel_ReviewDiscussionId_
-  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionId
-  isSpec: "True"
-  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionId
-  nameWithType: ReviewDiscussionReplyBrowseModel.ReviewDiscussionId
-- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionReplyId
-  name: ReviewDiscussionReplyId
-  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyBrowseModel_ReviewDiscussionReplyId
-  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionReplyId
-  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionReplyId
-  nameWithType: ReviewDiscussionReplyBrowseModel.ReviewDiscussionReplyId
-- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionReplyId*
-  name: ReviewDiscussionReplyId
-  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyBrowseModel_ReviewDiscussionReplyId_
-  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionReplyId
-  isSpec: "True"
-  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.ReviewDiscussionReplyId
-  nameWithType: ReviewDiscussionReplyBrowseModel.ReviewDiscussionReplyId
-- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.User
-  name: User
-  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyBrowseModel_User
-  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.User
-  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.User
-  nameWithType: ReviewDiscussionReplyBrowseModel.User
-- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.User*
-  name: User
-  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyBrowseModel_User_
-  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.User
-  isSpec: "True"
-  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyBrowseModel.User
-  nameWithType: ReviewDiscussionReplyBrowseModel.User
 - uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel
   name: ReviewDiscussionReplyModel
   href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.html
@@ -15590,19 +15532,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.Content
   nameWithType: ReviewDiscussionReplyModel.Content
-- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.CreateDate
-  name: CreateDate
-  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyModel_CreateDate
-  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.CreateDate
-  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.CreateDate
-  nameWithType: ReviewDiscussionReplyModel.CreateDate
-- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.CreateDate*
-  name: CreateDate
-  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyModel_CreateDate_
-  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.CreateDate
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.CreatedDate
+  name: CreatedDate
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyModel_CreatedDate
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.CreatedDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.CreatedDate
+  nameWithType: ReviewDiscussionReplyModel.CreatedDate
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.CreatedDate*
+  name: CreatedDate
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyModel_CreatedDate_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.CreatedDate
   isSpec: "True"
-  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.CreateDate
-  nameWithType: ReviewDiscussionReplyModel.CreateDate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.CreatedDate
+  nameWithType: ReviewDiscussionReplyModel.CreatedDate
 - uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.ReviewDiscussionId
   name: ReviewDiscussionId
   href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyModel_ReviewDiscussionId
@@ -15629,6 +15571,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.ReviewDiscussionReplyId
   nameWithType: ReviewDiscussionReplyModel.ReviewDiscussionReplyId
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.User
+  name: User
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyModel_User
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.User
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.User
+  nameWithType: ReviewDiscussionReplyModel.User
+- uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.User*
+  name: User
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyModel_User_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.User
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.User
+  nameWithType: ReviewDiscussionReplyModel.User
 - uid: Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.UserId
   name: UserId
   href: ref/Vasont.Inspire.Models.Reviews.ReviewDiscussionReplyModel.html#Vasont_Inspire_Models_Reviews_ReviewDiscussionReplyModel_UserId
