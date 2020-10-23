@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/46061---script-update-to-rename-tables
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NotificationMessageAlertStatus
     path: Notifications/NotificationModel.cs
@@ -65,7 +65,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/46061---script-update-to-rename-tables
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: None
     path: Notifications/NotificationModel.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/46061---script-update-to-rename-tables
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Info
     path: Notifications/NotificationModel.cs
@@ -135,7 +135,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/46061---script-update-to-rename-tables
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Warning
     path: Notifications/NotificationModel.cs
@@ -170,7 +170,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/46061---script-update-to-rename-tables
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Failure
     path: Notifications/NotificationModel.cs
@@ -205,7 +205,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/46061---script-update-to-rename-tables
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Finished
     path: Notifications/NotificationModel.cs
