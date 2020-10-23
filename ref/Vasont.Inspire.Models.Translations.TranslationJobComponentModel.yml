@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/46061---script-update-to-rename-tables
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationJobComponentModel
     path: Translations/TranslationJobComponentModel.cs
@@ -81,7 +81,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/46061---script-update-to-rename-tables
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceComponent
     path: Translations/TranslationJobComponentModel.cs
@@ -118,7 +118,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/46061---script-update-to-rename-tables
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceChangesetId
     path: Translations/TranslationJobComponentModel.cs
@@ -155,7 +155,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/46061---script-update-to-rename-tables
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetComponent
     path: Translations/TranslationJobComponentModel.cs
@@ -192,7 +192,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/46061---script-update-to-rename-tables
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetChangesetId
     path: Translations/TranslationJobComponentModel.cs
@@ -229,7 +229,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/46061---script-update-to-rename-tables
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedDate
     path: Translations/TranslationJobComponentModel.cs
@@ -266,7 +266,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/46061---script-update-to-rename-tables
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SubmittedDate
     path: Translations/TranslationJobComponentModel.cs
@@ -303,7 +303,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/46061---script-update-to-rename-tables
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CompletedDate
     path: Translations/TranslationJobComponentModel.cs

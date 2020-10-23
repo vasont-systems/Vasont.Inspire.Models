@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentMetricsModel.cs
-      branch: develop
+      branch: feature/46061---script-update-to-rename-tables
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentMetricsModel
     path: Components/ComponentMetricsModel.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentMetricsModel.cs
-      branch: develop
+      branch: feature/46061---script-update-to-rename-tables
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WordCount
     path: Components/ComponentMetricsModel.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentMetricsModel.cs
-      branch: develop
+      branch: feature/46061---script-update-to-rename-tables
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CharCount
     path: Components/ComponentMetricsModel.cs
@@ -136,7 +136,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentMetricsModel.cs
-      branch: develop
+      branch: feature/46061---script-update-to-rename-tables
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CharCountNoSpace
     path: Components/ComponentMetricsModel.cs
@@ -173,7 +173,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentMetricsModel.cs
-      branch: develop
+      branch: feature/46061---script-update-to-rename-tables
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FileSize
     path: Components/ComponentMetricsModel.cs
