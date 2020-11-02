@@ -39,6 +39,11 @@ namespace Vasont.Inspire.Models.Reviews
         public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
 
         /// <summary>
+        /// Gets or sets the review discussion subject.
+        /// </summary>
+        public string Subject { get; set; }
+
+        /// <summary>
         /// Gets or sets the review discussion content.
         /// </summary>
         public string Content { get; set; }
