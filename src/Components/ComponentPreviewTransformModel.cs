@@ -34,7 +34,7 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets the identity of the component preview transform.
         /// </summary>
-        public long ComponentPreviewTransformsId { get; set; }
+        public long ComponentPreviewTransformId { get; set; }
 
         /// <summary>
         /// Gets or sets the name of the component preview transform.
