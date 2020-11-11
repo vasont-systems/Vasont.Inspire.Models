@@ -59,6 +59,11 @@ namespace Vasont.Inspire.Models.Common
         public bool TranslationLockSourceDisabled { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether to enable Oxygen Web Author within the application.
+        /// </summary>
+        public bool OxygenWebEnabled { get; set; }
+
+        /// <summary>
         /// Gets or sets the copyright of the tenant application.
         /// </summary>
         public string Copyright { get; set; }
