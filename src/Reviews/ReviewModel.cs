@@ -57,7 +57,7 @@ namespace Vasont.Inspire.Models.Reviews
         /// <summary>
         /// Gets or sets the review description.
         /// </summary>
-        public string Description { get; set; }
+        public string Description { get; set }
 
         /// <summary>
         /// Gets or sets the review coordinator user information.
@@ -108,6 +108,11 @@ namespace Vasont.Inspire.Models.Reviews
         /// Gets or sets a value indicating whether the review is archived.
         /// </summary>
         public bool Archived { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the review is interactive.
+        /// </summary>
+        public bool Interactive { get; set; }
 
         /// <summary>
         /// Gets or sets a value indicating whether the current user is a reviewer.

@@ -11,6 +11,11 @@ namespace Vasont.Inspire.Models.Versioning
     public class RestoreOptionsModel
     {
         /// <summary>
+        /// Gets or sets a value indicating whether the component or folder will be restored is a deleted item.
+        /// </summary>
+        public bool IsDeleted { get; set; }
+
+        /// <summary>
         /// Gets or sets a value indicating whether the component or folder will be restored to a new target location.
         /// </summary>
         public bool RestoreAsNew { get; set; }
