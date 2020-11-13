@@ -110,6 +110,11 @@ namespace Vasont.Inspire.Models.Reviews
         public bool Archived { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether the review is interactive.
+        /// </summary>
+        public bool Interactive { get; set; }
+
+        /// <summary>
         /// Gets or sets a value indicating whether the current user is a reviewer.
         /// </summary>
         public bool IsReviewer { get; set; }
