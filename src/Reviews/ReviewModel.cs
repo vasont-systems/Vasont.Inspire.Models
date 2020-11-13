@@ -57,7 +57,7 @@ namespace Vasont.Inspire.Models.Reviews
         /// <summary>
         /// Gets or sets the review description.
         /// </summary>
-        public string Description { get; set }
+        public string Description { get; set; }
 
         /// <summary>
         /// Gets or sets the review coordinator user information.
