@@ -28,6 +28,6 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets the flag for the tag being a read only system tag.
         /// </summary>
-        public int SystemTag { get; set; }
+        public bool SystemTag { get; set; }
     }
 }
