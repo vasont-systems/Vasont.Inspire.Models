@@ -24,5 +24,10 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets the number of components that use the tag.
         /// </summary>
         public int ReferenceCount { get; set; }
+
+        /// <summary>
+        /// Gets or sets the flag for the tag being a read only system tag.
+        /// </summary>
+        public int SystemTag { get; set; }
     }
 }
