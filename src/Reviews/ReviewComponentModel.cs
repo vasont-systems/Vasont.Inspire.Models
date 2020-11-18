@@ -9,6 +9,7 @@ namespace Vasont.Inspire.Models.Reviews
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
     using Vasont.Inspire.Models.Components;
+    using Vasont.Inspire.Models.ReviewComponents;
     using Vasont.Inspire.Models.Security;
 
     /// <summary>
@@ -99,6 +100,11 @@ namespace Vasont.Inspire.Models.Reviews
         /// Gets or sets the review component comment.
         /// </summary>
         public string Comment { get; set; }
+
+        /// <summary>
+        /// Gets or sets the review component lock.
+        /// </summary>
+        public ReviewComponentLockModel ReviewComponentLock { get; set; } = new ReviewComponentLockModel();
 
         /// <summary>
         /// Gets or sets a sort order value for displaying the review component.
