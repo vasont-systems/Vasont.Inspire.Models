@@ -5,6 +5,7 @@
 //------------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Webhooks
 {
+    using System.Collections.Generic;
     using Microsoft.AspNetCore.Http;
 
     /// <summary>
@@ -31,5 +32,15 @@ namespace Vasont.Inspire.Models.Webhooks
         /// Gets or sets a file object for new content.
         /// </summary>
         public IFormFile File { get; set; }
+
+        /// <summary>
+        /// Gets or sets a list of form file objects.
+        /// </summary>
+        public List<IFormFile> Attachments { get; set; } = new List<IFormFile>();
+
+        /// <summary>
+        /// Gets or sets a list of file paths.
+        /// </summary>
+        public List<string> FilePaths { get; set; } = new List<string>();
     }
 }
