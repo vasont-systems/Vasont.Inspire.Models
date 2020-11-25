@@ -6,6 +6,7 @@
 namespace Vasont.Inspire.Models.ReviewComponents
 {
     using System;
+    using Vasont.Inspire.Core.Properties;
     using Vasont.Inspire.Models.Security;
 
     /// <summary>
@@ -35,5 +36,10 @@ namespace Vasont.Inspire.Models.ReviewComponents
         /// Gets or sets the locked by user model information.
         /// </summary>
         public MicroUserModel LockedBy { get; set; }
+
+        /// <summary>
+        /// Gets or sets the the lock reason.
+        /// </summary>
+        public string LockReason { get; set; }
     }
 }
