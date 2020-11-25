@@ -7,6 +7,7 @@ namespace Vasont.Inspire.Models.Reviews
 {
     using System;
     using Vasont.Inspire.Models.Components;
+    using Vasont.Inspire.Models.ReviewComponents;
     using Vasont.Inspire.Models.Security;
 
     /// <summary>
@@ -63,5 +64,10 @@ namespace Vasont.Inspire.Models.Reviews
         /// Gets or sets the reviewer component if the current user is a reviewer for this review.
         /// </summary>
         public ReviewerComponentModel ReviewerComponent { get; set; } = new ReviewerComponentModel();
+
+        /// <summary>
+        /// Gets or sets the review component lock for an interactive review.
+        /// </summary>
+        public ReviewComponentLockModel ReviewComponentLock { get; set; } = new ReviewComponentLockModel();
     }
 }
