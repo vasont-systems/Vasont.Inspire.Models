@@ -64,6 +64,16 @@ namespace Vasont.Inspire.Models.Common
         public bool OxygenWebEnabled { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether Custom Oxygen Web Author should be enabled within the application.
+        /// </summary>
+        public bool OxygenWebCustom { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether Inspire Schema Custom should be enabled within the application.
+        /// </summary>
+        public bool InspireSchemaCustom { get; set; }
+
+        /// <summary>
         /// Gets or sets the copyright of the tenant application.
         /// </summary>
         public string Copyright { get; set; }
