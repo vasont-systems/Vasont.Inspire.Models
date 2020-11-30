@@ -3,8 +3,11 @@
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //----------------------------------------------------------------------
+
 namespace Vasont.Inspire.Models.Translations
 {
+    using System.Collections.Generic;
+
     /// <summary>
     /// This class represents a Translation Vendor Field.
     /// </summary>
@@ -64,5 +67,10 @@ namespace Vasont.Inspire.Models.Translations
         /// Gets or sets the Description Field value.
         /// </summary>
         public string Description { get; set; }
+
+        /// <summary>
+        /// Gets or sets the vendor field valid values.
+        /// </summary>
+        public List<TranslationVendorFieldValueModel> ValidValues { get; set; }
     }
 }
