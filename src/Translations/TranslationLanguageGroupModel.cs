@@ -9,7 +9,7 @@ namespace Vasont.Inspire.Models.Translations
     using Common;
 
     /// <summary>
-    /// This class is a model representation of a minimal translation job within the application.
+    /// This class is a model representation of a translation language group within the application.
     /// </summary>
     public class TranslationLanguageGroupModel
     {
