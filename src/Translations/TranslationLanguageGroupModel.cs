@@ -24,6 +24,11 @@ namespace Vasont.Inspire.Models.Translations
         public string Name { get; set; }
 
         /// <summary>
+        /// Gets or sets the description of the translation language group.
+        /// </summary>
+        public string Description { get; set; }
+
+        /// <summary>
         /// Gets or sets the translation language group languages.
         /// </summary>
         public List<MinimalLanguageModel> Languages { get; set; } = new List<MinimalLanguageModel>();
