@@ -31,5 +31,15 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets the identities of the components related to the source component of the new branch.
         /// </summary>
         public List<long> ChildComponentIds { get; set; } = new List<long>();
+
+        /// <summary>
+        /// Gets or sets the identity of the project to be added to.
+        /// </summary>
+        public long ProjectId { get; set; }
+
+        /// <summary>
+        /// Gets or sets the identity of the project folder to be added to.
+        /// </summary>
+        public long ProjectFolderId { get; set; }
     }
 }
