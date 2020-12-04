@@ -125,6 +125,11 @@ namespace Vasont.Inspire.Models.Translations
         public DateTime? CompletedDate { get; set; }
 
         /// <summary>
+        /// Gets or sets the identifier for the user who completed the translation job.
+        /// </summary>
+        public MinimalUserModel CompletedBy { get; set; } = new MinimalUserModel();
+
+        /// <summary>
         /// Gets or sets a value indicating whether the translation job is archived.
         /// </summary>
         public bool Archived { get; set; }
@@ -153,5 +158,25 @@ namespace Vasont.Inspire.Models.Translations
         /// Gets or sets a value indicating whether [cancel at vendor].
         /// </summary>
         public bool CancelAtVendor { get; set; }
+
+        /// <summary>
+        /// Gets or sets the date and time when the translation job was cancelled.
+        /// </summary>
+        public DateTime? CancelledDate { get; set; }
+
+        /// <summary>
+        /// Gets or sets the identifier for the user who cancelled the translation job.
+        /// </summary>
+        public MinimalUserModel CancelledBy { get; set; } = new MinimalUserModel();
+
+        /// <summary>
+        /// Gets or sets the date and time when the translation job was cancelled.
+        /// </summary>
+        public DateTime? ArchivedDate { get; set; }
+
+        /// <summary>
+        /// Gets or sets the identifier for the user who archived the translation job.
+        /// </summary>
+        public MinimalUserModel ArchivedBy { get; set; } = new MinimalUserModel();
     }
 }
