@@ -115,6 +115,11 @@ namespace Vasont.Inspire.Models.Translations
         public DateTime CreatedDate { get; set; }
 
         /// <summary>
+        /// Gets or sets the identifier for the user who created the translation job.
+        /// </summary>
+        public MinimalUserModel CreatedBy { get; set; } = new MinimalUserModel();
+
+        /// <summary>
         /// Gets or sets the date and time when the translation job is due.
         /// </summary>
         public DateTime? DueDate { get; set; }
