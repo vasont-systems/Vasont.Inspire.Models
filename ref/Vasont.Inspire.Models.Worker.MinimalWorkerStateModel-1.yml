@@ -18,8 +18,8 @@ items:
   source:
     remote:
       path: src/Worker/MinimalWorkerStateModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: MinimalWorkerStateModel
     path: Worker/MinimalWorkerStateModel.cs
     startLine: 81
@@ -82,8 +82,8 @@ items:
   source:
     remote:
       path: src/Worker/MinimalWorkerStateModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Worker/MinimalWorkerStateModel.cs
     startLine: 89
@@ -116,8 +116,8 @@ items:
   source:
     remote:
       path: src/Worker/MinimalWorkerStateModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Worker/MinimalWorkerStateModel.cs
     startLine: 97
@@ -154,8 +154,8 @@ items:
   source:
     remote:
       path: src/Worker/MinimalWorkerStateModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Model
     path: Worker/MinimalWorkerStateModel.cs
     startLine: 107

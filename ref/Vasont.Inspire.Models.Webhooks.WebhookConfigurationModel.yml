@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: WebhookConfigurationModel
     path: Webhooks/WebhookConfigurationModel.cs
     startLine: 77
@@ -62,8 +62,8 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Webhooks/WebhookConfigurationModel.cs
     startLine: 82
@@ -99,8 +99,8 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: PropertyName
     path: Webhooks/WebhookConfigurationModel.cs
     startLine: 87
@@ -136,8 +136,8 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: PropertyValue
     path: Webhooks/WebhookConfigurationModel.cs
     startLine: 92
@@ -173,8 +173,8 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ValueType
     path: Webhooks/WebhookConfigurationModel.cs
     startLine: 97

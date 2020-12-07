@@ -18,8 +18,8 @@ items:
   source:
     remote:
       path: src/Worker/WorkerStateModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: WorkerStateModel
     path: Worker/WorkerStateModel.cs
     startLine: 119
@@ -88,8 +88,8 @@ items:
   source:
     remote:
       path: src/Worker/WorkerStateModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Worker/WorkerStateModel.cs
     startLine: 127
@@ -122,8 +122,8 @@ items:
   source:
     remote:
       path: src/Worker/WorkerStateModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Worker/WorkerStateModel.cs
     startLine: 135
@@ -160,8 +160,8 @@ items:
   source:
     remote:
       path: src/Worker/WorkerStateModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Model
     path: Worker/WorkerStateModel.cs
     startLine: 145

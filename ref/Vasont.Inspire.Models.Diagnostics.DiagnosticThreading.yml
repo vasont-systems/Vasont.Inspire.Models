@@ -21,8 +21,8 @@ items:
   source:
     remote:
       path: src/Diagnostics/DiagnosticThreading.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: DiagnosticThreading
     path: Diagnostics/DiagnosticThreading.cs
     startLine: 10
@@ -64,8 +64,8 @@ items:
   source:
     remote:
       path: src/Diagnostics/DiagnosticThreading.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: MinimumThreads
     path: Diagnostics/DiagnosticThreading.cs
     startLine: 15
@@ -101,8 +101,8 @@ items:
   source:
     remote:
       path: src/Diagnostics/DiagnosticThreading.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: MaximumThreads
     path: Diagnostics/DiagnosticThreading.cs
     startLine: 20
@@ -138,8 +138,8 @@ items:
   source:
     remote:
       path: src/Diagnostics/DiagnosticThreading.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: MinimumCompletionPorts
     path: Diagnostics/DiagnosticThreading.cs
     startLine: 25
@@ -175,8 +175,8 @@ items:
   source:
     remote:
       path: src/Diagnostics/DiagnosticThreading.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: MaximumCompletionPorts
     path: Diagnostics/DiagnosticThreading.cs
     startLine: 30
@@ -212,8 +212,8 @@ items:
   source:
     remote:
       path: src/Diagnostics/DiagnosticThreading.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: SettingsMaxPorts
     path: Diagnostics/DiagnosticThreading.cs
     startLine: 35
@@ -249,8 +249,8 @@ items:
   source:
     remote:
       path: src/Diagnostics/DiagnosticThreading.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: SettingsMaxParallel
     path: Diagnostics/DiagnosticThreading.cs
     startLine: 40

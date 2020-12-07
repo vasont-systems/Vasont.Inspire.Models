@@ -18,8 +18,8 @@ items:
   source:
     remote:
       path: src/Components/Schema/ProfileAttributeModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ProfileAttributeModel
     path: Components/Schema/ProfileAttributeModel.cs
     startLine: 12
@@ -67,8 +67,8 @@ items:
   source:
     remote:
       path: src/Components/Schema/ProfileAttributeModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Profiled
     path: Components/Schema/ProfileAttributeModel.cs
     startLine: 17
@@ -104,8 +104,8 @@ items:
   source:
     remote:
       path: src/Components/Schema/ProfileAttributeModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ValidValues
     path: Components/Schema/ProfileAttributeModel.cs
     startLine: 22
@@ -141,8 +141,8 @@ items:
   source:
     remote:
       path: src/Components/Schema/ProfileAttributeModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Groups
     path: Components/Schema/ProfileAttributeModel.cs
     startLine: 27

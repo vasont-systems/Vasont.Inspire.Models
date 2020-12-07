@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: src/Common/MicroCreatedUpdaterModelBase.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: MicroCreatedUpdaterModelBase
     path: Common/MicroCreatedUpdaterModelBase.cs
     startLine: 13
@@ -69,8 +69,8 @@ items:
   source:
     remote:
       path: src/Common/MicroCreatedUpdaterModelBase.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: CreatedDate
     path: Common/MicroCreatedUpdaterModelBase.cs
     startLine: 18
@@ -106,8 +106,8 @@ items:
   source:
     remote:
       path: src/Common/MicroCreatedUpdaterModelBase.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: CreatedBy
     path: Common/MicroCreatedUpdaterModelBase.cs
     startLine: 23
@@ -143,8 +143,8 @@ items:
   source:
     remote:
       path: src/Common/MicroCreatedUpdaterModelBase.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: UpdatedDate
     path: Common/MicroCreatedUpdaterModelBase.cs
     startLine: 28
@@ -180,8 +180,8 @@ items:
   source:
     remote:
       path: src/Common/MicroCreatedUpdaterModelBase.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: UpdatedBy
     path: Common/MicroCreatedUpdaterModelBase.cs
     startLine: 33

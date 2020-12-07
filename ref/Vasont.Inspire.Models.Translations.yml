@@ -20,7 +20,9 @@ items:
   - Vasont.Inspire.Models.Translations.TranslationJobModel
   - Vasont.Inspire.Models.Translations.TranslationJobState
   - Vasont.Inspire.Models.Translations.TranslationJobStateModel
+  - Vasont.Inspire.Models.Translations.TranslationLanguageGroupModel
   - Vasont.Inspire.Models.Translations.TranslationVendorFieldModel
+  - Vasont.Inspire.Models.Translations.TranslationVendorFieldValueModel
   - Vasont.Inspire.Models.Translations.TranslationVendorModel
   langs:
   - csharp
@@ -117,11 +119,21 @@ references:
   name: TranslationJobStateModel
   nameWithType: TranslationJobStateModel
   fullName: Vasont.Inspire.Models.Translations.TranslationJobStateModel
+- uid: Vasont.Inspire.Models.Translations.TranslationLanguageGroupModel
+  commentId: T:Vasont.Inspire.Models.Translations.TranslationLanguageGroupModel
+  name: TranslationLanguageGroupModel
+  nameWithType: TranslationLanguageGroupModel
+  fullName: Vasont.Inspire.Models.Translations.TranslationLanguageGroupModel
 - uid: Vasont.Inspire.Models.Translations.TranslationVendorFieldModel
   commentId: T:Vasont.Inspire.Models.Translations.TranslationVendorFieldModel
   name: TranslationVendorFieldModel
   nameWithType: TranslationVendorFieldModel
   fullName: Vasont.Inspire.Models.Translations.TranslationVendorFieldModel
+- uid: Vasont.Inspire.Models.Translations.TranslationVendorFieldValueModel
+  commentId: T:Vasont.Inspire.Models.Translations.TranslationVendorFieldValueModel
+  name: TranslationVendorFieldValueModel
+  nameWithType: TranslationVendorFieldValueModel
+  fullName: Vasont.Inspire.Models.Translations.TranslationVendorFieldValueModel
 - uid: Vasont.Inspire.Models.Translations.TranslationVendorModel
   commentId: T:Vasont.Inspire.Models.Translations.TranslationVendorModel
   parent: Vasont.Inspire.Models.Translations

@@ -22,8 +22,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ComponentLockModel
     path: Components/ComponentLockModel.cs
     startLine: 44
@@ -67,8 +67,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/ComponentLockModel.cs
     startLine: 49
@@ -99,8 +99,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ComponentId
     path: Components/ComponentLockModel.cs
     startLine: 57
@@ -136,8 +136,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Type
     path: Components/ComponentLockModel.cs
     startLine: 62
@@ -173,8 +173,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: LockedDate
     path: Components/ComponentLockModel.cs
     startLine: 67
@@ -210,8 +210,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: LockedBy
     path: Components/ComponentLockModel.cs
     startLine: 72
@@ -247,8 +247,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: LockReason
     path: Components/ComponentLockModel.cs
     startLine: 77
@@ -284,8 +284,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: SystemLock
     path: Components/ComponentLockModel.cs
     startLine: 109

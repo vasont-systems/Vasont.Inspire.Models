@@ -17,11 +17,11 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewComponentModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ReviewComponentChangeType
     path: Reviews/ReviewComponentModel.cs
-    startLine: 43
+    startLine: 44
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -62,11 +62,11 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewComponentModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Insert
     path: Reviews/ReviewComponentModel.cs
-    startLine: 49
+    startLine: 50
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -96,11 +96,11 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewComponentModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Remove
     path: Reviews/ReviewComponentModel.cs
-    startLine: 54
+    startLine: 55
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews

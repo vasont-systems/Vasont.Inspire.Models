@@ -17,8 +17,8 @@ items:
   source:
     remote:
       path: src/Versioning/ComponentHistoryResultModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ComponentHistoryResultModel
     path: Versioning/ComponentHistoryResultModel.cs
     startLine: 12
@@ -62,8 +62,8 @@ items:
   source:
     remote:
       path: src/Versioning/ComponentHistoryResultModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: TotalCount
     path: Versioning/ComponentHistoryResultModel.cs
     startLine: 17
@@ -99,8 +99,8 @@ items:
   source:
     remote:
       path: src/Versioning/ComponentHistoryResultModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: History
     path: Versioning/ComponentHistoryResultModel.cs
     startLine: 22

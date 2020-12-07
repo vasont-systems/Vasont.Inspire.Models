@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalImportStateModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: MinimalImportStateModel
     path: Transfers/MinimalImportStateModel.cs
     startLine: 12
@@ -62,8 +62,8 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalImportStateModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: TargetProjectFolderId
     path: Transfers/MinimalImportStateModel.cs
     startLine: 17
@@ -99,8 +99,8 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalImportStateModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: SyncExternalSystemId
     path: Transfers/MinimalImportStateModel.cs
     startLine: 22
@@ -136,8 +136,8 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalImportStateModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: SyncUpdate
     path: Transfers/MinimalImportStateModel.cs
     startLine: 27
@@ -173,8 +173,8 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalImportStateModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Components
     path: Transfers/MinimalImportStateModel.cs
     startLine: 32

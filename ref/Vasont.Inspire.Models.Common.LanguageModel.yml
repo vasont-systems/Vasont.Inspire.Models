@@ -22,8 +22,8 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: LanguageModel
     path: Common/LanguageModel.cs
     startLine: 10
@@ -72,8 +72,8 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: LanguageCode
     path: Common/LanguageModel.cs
     startLine: 15
@@ -109,8 +109,8 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Common/LanguageModel.cs
     startLine: 20
@@ -146,8 +146,8 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: IsLocale
     path: Common/LanguageModel.cs
     startLine: 25
@@ -183,8 +183,8 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: HasDictionary
     path: Common/LanguageModel.cs
     startLine: 30
@@ -220,8 +220,8 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Default
     path: Common/LanguageModel.cs
     startLine: 35
@@ -257,8 +257,8 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Active
     path: Common/LanguageModel.cs
     startLine: 40
@@ -294,8 +294,8 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: TranslationTarget
     path: Common/LanguageModel.cs
     startLine: 45

@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalImportComponentModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ComponentImportAction
     path: Transfers/MinimalImportComponentModel.cs
     startLine: 15
@@ -64,8 +64,8 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalImportComponentModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Create
     path: Transfers/MinimalImportComponentModel.cs
     startLine: 21
@@ -98,8 +98,8 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalImportComponentModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Update
     path: Transfers/MinimalImportComponentModel.cs
     startLine: 26
@@ -132,8 +132,8 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalImportComponentModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: UpdateReferencesOnly
     path: Transfers/MinimalImportComponentModel.cs
     startLine: 31
@@ -166,8 +166,8 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalImportComponentModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Ignore
     path: Transfers/MinimalImportComponentModel.cs
     startLine: 36

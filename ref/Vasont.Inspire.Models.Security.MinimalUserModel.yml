@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: src/Security/MinimalUserModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: MinimalUserModel
     path: Security/MinimalUserModel.cs
     startLine: 13
@@ -74,8 +74,8 @@ items:
   source:
     remote:
       path: src/Security/MinimalUserModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: DesiredLanguage
     path: Security/MinimalUserModel.cs
     startLine: 18
@@ -111,8 +111,8 @@ items:
   source:
     remote:
       path: src/Security/MinimalUserModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: TimeZoneName
     path: Security/MinimalUserModel.cs
     startLine: 23
@@ -148,8 +148,8 @@ items:
   source:
     remote:
       path: src/Security/MinimalUserModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Locked
     path: Security/MinimalUserModel.cs
     startLine: 28
@@ -185,8 +185,8 @@ items:
   source:
     remote:
       path: src/Security/MinimalUserModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: LockExpirationDate
     path: Security/MinimalUserModel.cs
     startLine: 33

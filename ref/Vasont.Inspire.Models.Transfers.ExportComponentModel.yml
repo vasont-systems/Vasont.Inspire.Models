@@ -15,8 +15,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExportComponentModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ExportComponentModel
     path: Transfers/ExportComponentModel.cs
     startLine: 10

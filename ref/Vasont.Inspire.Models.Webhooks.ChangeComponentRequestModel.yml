@@ -5,8 +5,10 @@ items:
   id: ChangeComponentRequestModel
   parent: Vasont.Inspire.Models.Webhooks
   children:
+  - Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.Attachments
   - Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.Comment
   - Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.ComponentIdentifier
+  - Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.FilePaths
   langs:
   - csharp
   - vb
@@ -17,11 +19,11 @@ items:
   source:
     remote:
       path: src/Webhooks/ChangeComponentRequestModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ChangeComponentRequestModel
     path: Webhooks/ChangeComponentRequestModel.cs
-    startLine: 10
+    startLine: 13
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Webhooks
@@ -66,11 +68,11 @@ items:
   source:
     remote:
       path: src/Webhooks/ChangeComponentRequestModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ComponentIdentifier
     path: Webhooks/ChangeComponentRequestModel.cs
-    startLine: 15
+    startLine: 18
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Webhooks
@@ -103,11 +105,11 @@ items:
   source:
     remote:
       path: src/Webhooks/ChangeComponentRequestModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Comment
     path: Webhooks/ChangeComponentRequestModel.cs
-    startLine: 20
+    startLine: 23
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Webhooks
@@ -120,6 +122,80 @@ items:
       type: System.String
     content.vb: Public Property Comment As String
   overload: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.Comment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.Attachments
+  commentId: P:Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.Attachments
+  id: Attachments
+  parent: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel
+  langs:
+  - csharp
+  - vb
+  name: Attachments
+  nameWithType: ChangeComponentRequestModel.Attachments
+  fullName: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.Attachments
+  type: Property
+  source:
+    remote:
+      path: src/Webhooks/ChangeComponentRequestModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+    id: Attachments
+    path: Webhooks/ChangeComponentRequestModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nGets or sets a list of form file objects.\n"
+  example: []
+  syntax:
+    content: public List<IFormFile> Attachments { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile}
+    content.vb: Public Property Attachments As List(Of IFormFile)
+  overload: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.Attachments*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.FilePaths
+  commentId: P:Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.FilePaths
+  id: FilePaths
+  parent: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel
+  langs:
+  - csharp
+  - vb
+  name: FilePaths
+  nameWithType: ChangeComponentRequestModel.FilePaths
+  fullName: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.FilePaths
+  type: Property
+  source:
+    remote:
+      path: src/Webhooks/ChangeComponentRequestModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+    id: FilePaths
+    path: Webhooks/ChangeComponentRequestModel.cs
+    startLine: 33
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nGets or sets a list of file paths.\n"
+  example: []
+  syntax:
+    content: public List<string> FilePaths { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Property FilePaths As List(Of String)
+  overload: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.FilePaths*
   modifiers.csharp:
   - public
   - get
@@ -465,3 +541,146 @@ references:
   name: Comment
   nameWithType: ChangeComponentRequestModel.Comment
   fullName: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.Comment
+- uid: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.Attachments*
+  commentId: Overload:Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.Attachments
+  name: Attachments
+  nameWithType: ChangeComponentRequestModel.Attachments
+  fullName: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.Attachments
+- uid: System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile}
+  commentId: T:System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<IFormFile>
+  nameWithType: List<IFormFile>
+  fullName: System.Collections.Generic.List<Microsoft.AspNetCore.Http.IFormFile>
+  nameWithType.vb: List(Of IFormFile)
+  fullName.vb: System.Collections.Generic.List(Of Microsoft.AspNetCore.Http.IFormFile)
+  name.vb: List(Of IFormFile)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Http.IFormFile
+    name: IFormFile
+    nameWithType: IFormFile
+    fullName: Microsoft.AspNetCore.Http.IFormFile
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Http.IFormFile
+    name: IFormFile
+    nameWithType: IFormFile
+    fullName: Microsoft.AspNetCore.Http.IFormFile
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.FilePaths*
+  commentId: Overload:Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.FilePaths
+  name: FilePaths
+  nameWithType: ChangeComponentRequestModel.FilePaths
+  fullName: Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel.FilePaths
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -18,8 +18,8 @@ items:
   source:
     remote:
       path: src/Transfers/ImportConfigurationModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ImportType
     path: Transfers/ImportConfigurationModel.cs
     startLine: 16
@@ -63,8 +63,8 @@ items:
   source:
     remote:
       path: src/Transfers/ImportConfigurationModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Standard
     path: Transfers/ImportConfigurationModel.cs
     startLine: 22
@@ -97,8 +97,8 @@ items:
   source:
     remote:
       path: src/Transfers/ImportConfigurationModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Edit
     path: Transfers/ImportConfigurationModel.cs
     startLine: 27
@@ -131,8 +131,8 @@ items:
   source:
     remote:
       path: src/Transfers/ImportConfigurationModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Translate
     path: Transfers/ImportConfigurationModel.cs
     startLine: 32

@@ -18,8 +18,8 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalExportStateModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: MinimalExportStateModel
     path: Transfers/MinimalExportStateModel.cs
     startLine: 12
@@ -61,8 +61,8 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalExportStateModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: DownloadUrl
     path: Transfers/MinimalExportStateModel.cs
     startLine: 17
@@ -98,8 +98,8 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalExportStateModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Components
     path: Transfers/MinimalExportStateModel.cs
     startLine: 22
@@ -135,8 +135,8 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalExportStateModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: CompareComponents
     path: Transfers/MinimalExportStateModel.cs
     startLine: 27
