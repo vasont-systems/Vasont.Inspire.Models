@@ -12,6 +12,7 @@ items:
   - Vasont.Inspire.Models.Reviews.ReviewComponentModel.CreatedBy
   - Vasont.Inspire.Models.Reviews.ReviewComponentModel.CreatedDate
   - Vasont.Inspire.Models.Reviews.ReviewComponentModel.ReviewComponentId
+  - Vasont.Inspire.Models.Reviews.ReviewComponentModel.ReviewComponentLock
   - Vasont.Inspire.Models.Reviews.ReviewComponentModel.ReviewId
   - Vasont.Inspire.Models.Reviews.ReviewComponentModel.SortOrder
   langs:
@@ -24,11 +25,11 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewComponentModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ReviewComponentModel
     path: Reviews/ReviewComponentModel.cs
-    startLine: 60
+    startLine: 61
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -67,11 +68,11 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewComponentModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ReviewComponentId
     path: Reviews/ReviewComponentModel.cs
-    startLine: 65
+    startLine: 66
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -104,11 +105,11 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewComponentModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ReviewId
     path: Reviews/ReviewComponentModel.cs
-    startLine: 70
+    startLine: 71
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -141,11 +142,11 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewComponentModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Component
     path: Reviews/ReviewComponentModel.cs
-    startLine: 75
+    startLine: 76
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -178,11 +179,11 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewComponentModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetId
     path: Reviews/ReviewComponentModel.cs
-    startLine: 80
+    startLine: 81
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -215,11 +216,11 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewComponentModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ContextOnly
     path: Reviews/ReviewComponentModel.cs
-    startLine: 85
+    startLine: 86
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -252,11 +253,11 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewComponentModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: CreatedDate
     path: Reviews/ReviewComponentModel.cs
-    startLine: 90
+    startLine: 91
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -289,11 +290,11 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewComponentModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: CreatedBy
     path: Reviews/ReviewComponentModel.cs
-    startLine: 95
+    startLine: 96
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -326,11 +327,11 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewComponentModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Comment
     path: Reviews/ReviewComponentModel.cs
-    startLine: 100
+    startLine: 101
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -343,6 +344,43 @@ items:
       type: System.String
     content.vb: Public Property Comment As String
   overload: Vasont.Inspire.Models.Reviews.ReviewComponentModel.Comment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewComponentModel.ReviewComponentLock
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewComponentModel.ReviewComponentLock
+  id: ReviewComponentLock
+  parent: Vasont.Inspire.Models.Reviews.ReviewComponentModel
+  langs:
+  - csharp
+  - vb
+  name: ReviewComponentLock
+  nameWithType: ReviewComponentModel.ReviewComponentLock
+  fullName: Vasont.Inspire.Models.Reviews.ReviewComponentModel.ReviewComponentLock
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewComponentModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewComponentLock
+    path: Reviews/ReviewComponentModel.cs
+    startLine: 106
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the review component lock.\n"
+  example: []
+  syntax:
+    content: public ReviewComponentLockModel ReviewComponentLock { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.ReviewComponents.ReviewComponentLockModel
+    content.vb: Public Property ReviewComponentLock As ReviewComponentLockModel
+  overload: Vasont.Inspire.Models.Reviews.ReviewComponentModel.ReviewComponentLock*
   modifiers.csharp:
   - public
   - get
@@ -363,11 +401,11 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewComponentModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: SortOrder
     path: Reviews/ReviewComponentModel.cs
-    startLine: 105
+    startLine: 111
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -781,6 +819,22 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: Vasont.Inspire.Models.Reviews.ReviewComponentModel.ReviewComponentLock*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewComponentModel.ReviewComponentLock
+  name: ReviewComponentLock
+  nameWithType: ReviewComponentModel.ReviewComponentLock
+  fullName: Vasont.Inspire.Models.Reviews.ReviewComponentModel.ReviewComponentLock
+- uid: Vasont.Inspire.Models.ReviewComponents.ReviewComponentLockModel
+  commentId: T:Vasont.Inspire.Models.ReviewComponents.ReviewComponentLockModel
+  parent: Vasont.Inspire.Models.ReviewComponents
+  name: ReviewComponentLockModel
+  nameWithType: ReviewComponentLockModel
+  fullName: Vasont.Inspire.Models.ReviewComponents.ReviewComponentLockModel
+- uid: Vasont.Inspire.Models.ReviewComponents
+  commentId: N:Vasont.Inspire.Models.ReviewComponents
+  name: Vasont.Inspire.Models.ReviewComponents
+  nameWithType: Vasont.Inspire.Models.ReviewComponents
+  fullName: Vasont.Inspire.Models.ReviewComponents
 - uid: Vasont.Inspire.Models.Reviews.ReviewComponentModel.SortOrder*
   commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewComponentModel.SortOrder
   name: SortOrder

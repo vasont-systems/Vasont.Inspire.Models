@@ -5,6 +5,7 @@ items:
   id: RestoreOptionsModel
   parent: Vasont.Inspire.Models.Versioning
   children:
+  - Vasont.Inspire.Models.Versioning.RestoreOptionsModel.IsDeleted
   - Vasont.Inspire.Models.Versioning.RestoreOptionsModel.RestoreAsNew
   - Vasont.Inspire.Models.Versioning.RestoreOptionsModel.TargetFolderId
   langs:
@@ -17,8 +18,8 @@ items:
   source:
     remote:
       path: src/Versioning/RestoreOptionsModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: RestoreOptionsModel
     path: Versioning/RestoreOptionsModel.cs
     startLine: 10
@@ -46,6 +47,43 @@ items:
   modifiers.vb:
   - Public
   - Class
+- uid: Vasont.Inspire.Models.Versioning.RestoreOptionsModel.IsDeleted
+  commentId: P:Vasont.Inspire.Models.Versioning.RestoreOptionsModel.IsDeleted
+  id: IsDeleted
+  parent: Vasont.Inspire.Models.Versioning.RestoreOptionsModel
+  langs:
+  - csharp
+  - vb
+  name: IsDeleted
+  nameWithType: RestoreOptionsModel.IsDeleted
+  fullName: Vasont.Inspire.Models.Versioning.RestoreOptionsModel.IsDeleted
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/RestoreOptionsModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+    id: IsDeleted
+    path: Versioning/RestoreOptionsModel.cs
+    startLine: 15
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets a value indicating whether the component or folder will be restored is a deleted item.\n"
+  example: []
+  syntax:
+    content: public bool IsDeleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsDeleted As Boolean
+  overload: Vasont.Inspire.Models.Versioning.RestoreOptionsModel.IsDeleted*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Versioning.RestoreOptionsModel.RestoreAsNew
   commentId: P:Vasont.Inspire.Models.Versioning.RestoreOptionsModel.RestoreAsNew
   id: RestoreAsNew
@@ -60,11 +98,11 @@ items:
   source:
     remote:
       path: src/Versioning/RestoreOptionsModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: RestoreAsNew
     path: Versioning/RestoreOptionsModel.cs
-    startLine: 15
+    startLine: 20
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -97,11 +135,11 @@ items:
   source:
     remote:
       path: src/Versioning/RestoreOptionsModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: TargetFolderId
     path: Versioning/RestoreOptionsModel.cs
-    startLine: 20
+    startLine: 25
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -418,11 +456,11 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: Vasont.Inspire.Models.Versioning.RestoreOptionsModel.RestoreAsNew*
-  commentId: Overload:Vasont.Inspire.Models.Versioning.RestoreOptionsModel.RestoreAsNew
-  name: RestoreAsNew
-  nameWithType: RestoreOptionsModel.RestoreAsNew
-  fullName: Vasont.Inspire.Models.Versioning.RestoreOptionsModel.RestoreAsNew
+- uid: Vasont.Inspire.Models.Versioning.RestoreOptionsModel.IsDeleted*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.RestoreOptionsModel.IsDeleted
+  name: IsDeleted
+  nameWithType: RestoreOptionsModel.IsDeleted
+  fullName: Vasont.Inspire.Models.Versioning.RestoreOptionsModel.IsDeleted
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -430,6 +468,11 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Versioning.RestoreOptionsModel.RestoreAsNew*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.RestoreOptionsModel.RestoreAsNew
+  name: RestoreAsNew
+  nameWithType: RestoreOptionsModel.RestoreAsNew
+  fullName: Vasont.Inspire.Models.Versioning.RestoreOptionsModel.RestoreAsNew
 - uid: Vasont.Inspire.Models.Versioning.RestoreOptionsModel.TargetFolderId*
   commentId: Overload:Vasont.Inspire.Models.Versioning.RestoreOptionsModel.TargetFolderId
   name: TargetFolderId

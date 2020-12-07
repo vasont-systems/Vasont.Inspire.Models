@@ -16,8 +16,8 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetQueryModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetQueryModel
     path: Versioning/ChangesetQueryModel.cs
     startLine: 12
@@ -68,8 +68,8 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetQueryModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: SearchText
     path: Versioning/ChangesetQueryModel.cs
     startLine: 17

@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: src/Security/MinimalTimeZoneModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: MinimalTimeZoneModel
     path: Security/MinimalTimeZoneModel.cs
     startLine: 10
@@ -64,8 +64,8 @@ items:
   source:
     remote:
       path: src/Security/MinimalTimeZoneModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: TimeZoneId
     path: Security/MinimalTimeZoneModel.cs
     startLine: 15
@@ -101,8 +101,8 @@ items:
   source:
     remote:
       path: src/Security/MinimalTimeZoneModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ShortName
     path: Security/MinimalTimeZoneModel.cs
     startLine: 20
@@ -138,8 +138,8 @@ items:
   source:
     remote:
       path: src/Security/MinimalTimeZoneModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Default
     path: Security/MinimalTimeZoneModel.cs
     startLine: 25
@@ -175,8 +175,8 @@ items:
   source:
     remote:
       path: src/Security/MinimalTimeZoneModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: IanaName
     path: Security/MinimalTimeZoneModel.cs
     startLine: 30

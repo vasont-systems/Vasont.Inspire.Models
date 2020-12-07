@@ -18,8 +18,8 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: WebhookConfigurationNameType
     path: Webhooks/WebhookConfigurationModel.cs
     startLine: 13
@@ -63,8 +63,8 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ZoominFeedback
     path: Webhooks/WebhookConfigurationModel.cs
     startLine: 19
@@ -97,8 +97,8 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ZoominNewContent
     path: Webhooks/WebhookConfigurationModel.cs
     startLine: 24
@@ -131,8 +131,8 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: PublishResult
     path: Webhooks/WebhookConfigurationModel.cs
     startLine: 29

@@ -22,8 +22,8 @@ items:
   source:
     remote:
       path: src/Security/MicroUserModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: MicroUserModel
     path: Security/MicroUserModel.cs
     startLine: 10
@@ -67,8 +67,8 @@ items:
   source:
     remote:
       path: src/Security/MicroUserModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: UserId
     path: Security/MicroUserModel.cs
     startLine: 15
@@ -104,8 +104,8 @@ items:
   source:
     remote:
       path: src/Security/MicroUserModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: UniqueId
     path: Security/MicroUserModel.cs
     startLine: 23
@@ -142,8 +142,8 @@ items:
   source:
     remote:
       path: src/Security/MicroUserModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Email
     path: Security/MicroUserModel.cs
     startLine: 28
@@ -179,8 +179,8 @@ items:
   source:
     remote:
       path: src/Security/MicroUserModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: FirstName
     path: Security/MicroUserModel.cs
     startLine: 36
@@ -217,8 +217,8 @@ items:
   source:
     remote:
       path: src/Security/MicroUserModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: LastName
     path: Security/MicroUserModel.cs
     startLine: 44
@@ -255,8 +255,8 @@ items:
   source:
     remote:
       path: src/Security/MicroUserModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: FullName
     path: Security/MicroUserModel.cs
     startLine: 49
@@ -292,8 +292,8 @@ items:
   source:
     remote:
       path: src/Security/MicroUserModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: UserName
     path: Security/MicroUserModel.cs
     startLine: 54

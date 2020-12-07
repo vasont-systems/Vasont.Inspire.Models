@@ -18,8 +18,8 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: EditorMode
     path: Components/EditorLoadModel.cs
     startLine: 41
@@ -63,8 +63,8 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Edit
     path: Components/EditorLoadModel.cs
     startLine: 47
@@ -97,8 +97,8 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: View
     path: Components/EditorLoadModel.cs
     startLine: 52
@@ -131,8 +131,8 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Review
     path: Components/EditorLoadModel.cs
     startLine: 57

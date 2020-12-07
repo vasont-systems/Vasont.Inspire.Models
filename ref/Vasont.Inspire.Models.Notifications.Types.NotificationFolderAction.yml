@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationFolderModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: NotificationFolderAction
     path: Notifications/Types/NotificationFolderModel.cs
     startLine: 14
@@ -64,8 +64,8 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationFolderModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Added
     path: Notifications/Types/NotificationFolderModel.cs
     startLine: 20
@@ -98,8 +98,8 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationFolderModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Updated
     path: Notifications/Types/NotificationFolderModel.cs
     startLine: 25
@@ -132,8 +132,8 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationFolderModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Removed
     path: Notifications/Types/NotificationFolderModel.cs
     startLine: 30
@@ -166,8 +166,8 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationFolderModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Moved
     path: Notifications/Types/NotificationFolderModel.cs
     startLine: 35

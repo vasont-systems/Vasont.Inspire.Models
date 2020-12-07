@@ -20,8 +20,8 @@ items:
   source:
     remote:
       path: src/Plugins/PluginParameterModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: PluginParameterModel
     path: Plugins/PluginParameterModel.cs
     startLine: 10
@@ -63,8 +63,8 @@ items:
   source:
     remote:
       path: src/Plugins/PluginParameterModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: PluginParameterId
     path: Plugins/PluginParameterModel.cs
     startLine: 15
@@ -100,8 +100,8 @@ items:
   source:
     remote:
       path: src/Plugins/PluginParameterModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: PluginId
     path: Plugins/PluginParameterModel.cs
     startLine: 20
@@ -137,8 +137,8 @@ items:
   source:
     remote:
       path: src/Plugins/PluginParameterModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Plugins/PluginParameterModel.cs
     startLine: 25
@@ -174,8 +174,8 @@ items:
   source:
     remote:
       path: src/Plugins/PluginParameterModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Required
     path: Plugins/PluginParameterModel.cs
     startLine: 30
@@ -211,8 +211,8 @@ items:
   source:
     remote:
       path: src/Plugins/PluginParameterModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Repeatable
     path: Plugins/PluginParameterModel.cs
     startLine: 35

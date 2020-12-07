@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentMetricsModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ComponentMetricsModel
     path: Components/ComponentMetricsModel.cs
     startLine: 10
@@ -62,8 +62,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentMetricsModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: WordCount
     path: Components/ComponentMetricsModel.cs
     startLine: 15
@@ -99,8 +99,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentMetricsModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: CharCount
     path: Components/ComponentMetricsModel.cs
     startLine: 20
@@ -136,8 +136,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentMetricsModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: CharCountNoSpace
     path: Components/ComponentMetricsModel.cs
     startLine: 25
@@ -173,8 +173,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentMetricsModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: FileSize
     path: Components/ComponentMetricsModel.cs
     startLine: 30
