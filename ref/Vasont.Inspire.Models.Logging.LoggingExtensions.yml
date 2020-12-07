@@ -16,8 +16,8 @@ items:
   source:
     remote:
       path: src/Logging/LoggingExtensions.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: LoggingExtensions
     path: Logging/LoggingExtensions.cs
     startLine: 17
@@ -59,8 +59,8 @@ items:
   source:
     remote:
       path: src/Logging/LoggingExtensions.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: CreateCsv
     path: Logging/LoggingExtensions.cs
     startLine: 31

@@ -6,9 +6,15 @@ items:
   parent: Vasont.Inspire.Models.Translations
   children:
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.Archived
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.ArchivedBy
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.ArchivedDate
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelAtVendor
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelledBy
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelledDate
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CompletedBy
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CompletedDate
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.Coordinator
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CreatedBy
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CreatedDate
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.Description
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.DueDate
@@ -31,8 +37,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: MinimalTranslationJobModel
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 69
@@ -76,8 +82,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: TranslationJobId
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 74
@@ -113,8 +119,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 79
@@ -150,8 +156,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 84
@@ -187,8 +193,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: State
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 89
@@ -224,8 +230,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: StateName
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 94
@@ -271,8 +277,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: TranslationVendor
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 104
@@ -308,8 +314,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Coordinator
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 109
@@ -345,8 +351,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: CreatedDate
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 114
@@ -368,6 +374,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CreatedBy
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CreatedBy
+  id: CreatedBy
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: MinimalTranslationJobModel.CreatedBy
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CreatedBy
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+    id: CreatedBy
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 119
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the identifier for the user who created the translation job.\n"
+  example: []
+  syntax:
+    content: public MinimalUserModel CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.MinimalUserModel
+    content.vb: Public Property CreatedBy As MinimalUserModel
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CreatedBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.DueDate
   commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.DueDate
   id: DueDate
@@ -382,11 +425,11 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: DueDate
     path: Translations/MinimalTranslationJobModel.cs
-    startLine: 119
+    startLine: 124
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -419,11 +462,11 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: CompletedDate
     path: Translations/MinimalTranslationJobModel.cs
-    startLine: 124
+    startLine: 129
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -436,6 +479,43 @@ items:
       type: System.Nullable{System.DateTime}
     content.vb: Public Property CompletedDate As Date?
   overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CompletedDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CompletedBy
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CompletedBy
+  id: CompletedBy
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: CompletedBy
+  nameWithType: MinimalTranslationJobModel.CompletedBy
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CompletedBy
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+    id: CompletedBy
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 134
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the identifier for the user who completed the translation job.\n"
+  example: []
+  syntax:
+    content: public MinimalUserModel CompletedBy { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.MinimalUserModel
+    content.vb: Public Property CompletedBy As MinimalUserModel
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CompletedBy*
   modifiers.csharp:
   - public
   - get
@@ -456,11 +536,11 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Archived
     path: Translations/MinimalTranslationJobModel.cs
-    startLine: 129
+    startLine: 139
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -493,11 +573,11 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Languages
     path: Translations/MinimalTranslationJobModel.cs
-    startLine: 134
+    startLine: 144
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -530,11 +610,11 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: LanguageNames
     path: Translations/MinimalTranslationJobModel.cs
-    startLine: 139
+    startLine: 149
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -567,11 +647,11 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: SubmissionAttributes
     path: Translations/MinimalTranslationJobModel.cs
-    startLine: 144
+    startLine: 154
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -604,11 +684,11 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ProjectCode
     path: Translations/MinimalTranslationJobModel.cs
-    startLine: 149
+    startLine: 159
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -641,11 +721,11 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: CancelAtVendor
     path: Translations/MinimalTranslationJobModel.cs
-    startLine: 154
+    startLine: 164
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -658,6 +738,154 @@ items:
       type: System.Boolean
     content.vb: Public Property CancelAtVendor As Boolean
   overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelAtVendor*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelledDate
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelledDate
+  id: CancelledDate
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: CancelledDate
+  nameWithType: MinimalTranslationJobModel.CancelledDate
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelledDate
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+    id: CancelledDate
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 169
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the date and time when the translation job was cancelled.\n"
+  example: []
+  syntax:
+    content: public DateTime? CancelledDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property CancelledDate As Date?
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelledDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelledBy
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelledBy
+  id: CancelledBy
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: CancelledBy
+  nameWithType: MinimalTranslationJobModel.CancelledBy
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelledBy
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+    id: CancelledBy
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 174
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the identifier for the user who cancelled the translation job.\n"
+  example: []
+  syntax:
+    content: public MinimalUserModel CancelledBy { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.MinimalUserModel
+    content.vb: Public Property CancelledBy As MinimalUserModel
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelledBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.ArchivedDate
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.ArchivedDate
+  id: ArchivedDate
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: ArchivedDate
+  nameWithType: MinimalTranslationJobModel.ArchivedDate
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.ArchivedDate
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+    id: ArchivedDate
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 179
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the date and time when the translation job was cancelled.\n"
+  example: []
+  syntax:
+    content: public DateTime? ArchivedDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property ArchivedDate As Date?
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.ArchivedDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.ArchivedBy
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.ArchivedBy
+  id: ArchivedBy
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: ArchivedBy
+  nameWithType: MinimalTranslationJobModel.ArchivedBy
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.ArchivedBy
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+    id: ArchivedBy
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 184
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the identifier for the user who archived the translation job.\n"
+  example: []
+  syntax:
+    content: public MinimalUserModel ArchivedBy { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.MinimalUserModel
+    content.vb: Public Property ArchivedBy As MinimalUserModel
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.ArchivedBy*
   modifiers.csharp:
   - public
   - get
@@ -1046,6 +1274,17 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CreatedBy*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CreatedBy
+  name: CreatedBy
+  nameWithType: MinimalTranslationJobModel.CreatedBy
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CreatedBy
+- uid: Vasont.Inspire.Models.Security.MinimalUserModel
+  commentId: T:Vasont.Inspire.Models.Security.MinimalUserModel
+  parent: Vasont.Inspire.Models.Security
+  name: MinimalUserModel
+  nameWithType: MinimalUserModel
+  fullName: Vasont.Inspire.Models.Security.MinimalUserModel
 - uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.DueDate*
   commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.DueDate
   name: DueDate
@@ -1139,6 +1378,11 @@ references:
   name: CompletedDate
   nameWithType: MinimalTranslationJobModel.CompletedDate
   fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CompletedDate
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CompletedBy*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CompletedBy
+  name: CompletedBy
+  nameWithType: MinimalTranslationJobModel.CompletedBy
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CompletedBy
 - uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.Archived*
   commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.Archived
   name: Archived
@@ -1263,3 +1507,23 @@ references:
   name: CancelAtVendor
   nameWithType: MinimalTranslationJobModel.CancelAtVendor
   fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelAtVendor
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelledDate*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelledDate
+  name: CancelledDate
+  nameWithType: MinimalTranslationJobModel.CancelledDate
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelledDate
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelledBy*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelledBy
+  name: CancelledBy
+  nameWithType: MinimalTranslationJobModel.CancelledBy
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelledBy
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.ArchivedDate*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.ArchivedDate
+  name: ArchivedDate
+  nameWithType: MinimalTranslationJobModel.ArchivedDate
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.ArchivedDate
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.ArchivedBy*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.ArchivedBy
+  name: ArchivedBy
+  nameWithType: MinimalTranslationJobModel.ArchivedBy
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.ArchivedBy

@@ -18,8 +18,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ComponentAutoRepairResult
     path: Components/ComponentAutoRepairModel.cs
     startLine: 13
@@ -63,8 +63,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Success
     path: Components/ComponentAutoRepairModel.cs
     startLine: 19
@@ -97,8 +97,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Failed
     path: Components/ComponentAutoRepairModel.cs
     startLine: 24
@@ -131,8 +131,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Ignored
     path: Components/ComponentAutoRepairModel.cs
     startLine: 30

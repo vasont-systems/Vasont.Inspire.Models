@@ -6,6 +6,7 @@ items:
   parent: Vasont.Inspire.Models.Components
   children:
   - Vasont.Inspire.Models.Components.TagModel.ReferenceCount
+  - Vasont.Inspire.Models.Components.TagModel.SystemTag
   - Vasont.Inspire.Models.Components.TagModel.TagId
   - Vasont.Inspire.Models.Components.TagModel.TagName
   langs:
@@ -18,8 +19,8 @@ items:
   source:
     remote:
       path: src/Components/TagModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: TagModel
     path: Components/TagModel.cs
     startLine: 10
@@ -61,8 +62,8 @@ items:
   source:
     remote:
       path: src/Components/TagModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: TagId
     path: Components/TagModel.cs
     startLine: 15
@@ -98,8 +99,8 @@ items:
   source:
     remote:
       path: src/Components/TagModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: TagName
     path: Components/TagModel.cs
     startLine: 20
@@ -135,8 +136,8 @@ items:
   source:
     remote:
       path: src/Components/TagModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ReferenceCount
     path: Components/TagModel.cs
     startLine: 25
@@ -152,6 +153,43 @@ items:
       type: System.Int32
     content.vb: Public Property ReferenceCount As Integer
   overload: Vasont.Inspire.Models.Components.TagModel.ReferenceCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.TagModel.SystemTag
+  commentId: P:Vasont.Inspire.Models.Components.TagModel.SystemTag
+  id: SystemTag
+  parent: Vasont.Inspire.Models.Components.TagModel
+  langs:
+  - csharp
+  - vb
+  name: SystemTag
+  nameWithType: TagModel.SystemTag
+  fullName: Vasont.Inspire.Models.Components.TagModel.SystemTag
+  type: Property
+  source:
+    remote:
+      path: src/Components/TagModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+    id: SystemTag
+    path: Components/TagModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the flag for the tag being a read only system tag.\n"
+  example: []
+  syntax:
+    content: public bool SystemTag { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SystemTag As Boolean
+  overload: Vasont.Inspire.Models.Components.TagModel.SystemTag*
   modifiers.csharp:
   - public
   - get
@@ -492,3 +530,15 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: Vasont.Inspire.Models.Components.TagModel.SystemTag*
+  commentId: Overload:Vasont.Inspire.Models.Components.TagModel.SystemTag
+  name: SystemTag
+  nameWithType: TagModel.SystemTag
+  fullName: Vasont.Inspire.Models.Components.TagModel.SystemTag
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

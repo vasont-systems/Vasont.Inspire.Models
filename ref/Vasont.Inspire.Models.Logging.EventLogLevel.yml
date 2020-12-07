@@ -21,8 +21,8 @@ items:
   source:
     remote:
       path: src/Logging/EventLogModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: EventLogLevel
     path: Logging/EventLogModel.cs
     startLine: 19
@@ -66,8 +66,8 @@ items:
   source:
     remote:
       path: src/Logging/EventLogModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: All
     path: Logging/EventLogModel.cs
     startLine: 25
@@ -100,8 +100,8 @@ items:
   source:
     remote:
       path: src/Logging/EventLogModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Debug
     path: Logging/EventLogModel.cs
     startLine: 30
@@ -147,8 +147,8 @@ items:
   source:
     remote:
       path: src/Logging/EventLogModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Info
     path: Logging/EventLogModel.cs
     startLine: 36
@@ -194,8 +194,8 @@ items:
   source:
     remote:
       path: src/Logging/EventLogModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Warn
     path: Logging/EventLogModel.cs
     startLine: 42
@@ -241,8 +241,8 @@ items:
   source:
     remote:
       path: src/Logging/EventLogModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Error
     path: Logging/EventLogModel.cs
     startLine: 48
@@ -288,8 +288,8 @@ items:
   source:
     remote:
       path: src/Logging/EventLogModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Fatal
     path: Logging/EventLogModel.cs
     startLine: 54

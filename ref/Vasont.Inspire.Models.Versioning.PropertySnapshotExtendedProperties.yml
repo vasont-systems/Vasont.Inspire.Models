@@ -17,8 +17,8 @@ items:
   source:
     remote:
       path: src/Versioning/PropertySnapshotExtendedProperties.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: PropertySnapshotExtendedProperties
     path: Versioning/PropertySnapshotExtendedProperties.cs
     startLine: 10
@@ -62,8 +62,8 @@ items:
   source:
     remote:
       path: src/Versioning/PropertySnapshotExtendedProperties.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: PropertyId
     path: Versioning/PropertySnapshotExtendedProperties.cs
     startLine: 15
@@ -99,8 +99,8 @@ items:
   source:
     remote:
       path: src/Versioning/PropertySnapshotExtendedProperties.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Versioning/PropertySnapshotExtendedProperties.cs
     startLine: 20

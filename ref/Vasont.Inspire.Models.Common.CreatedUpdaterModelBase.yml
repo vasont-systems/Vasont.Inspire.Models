@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: src/Common/CreatedUpdaterModelBase.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: CreatedUpdaterModelBase
     path: Common/CreatedUpdaterModelBase.cs
     startLine: 13
@@ -71,8 +71,8 @@ items:
   source:
     remote:
       path: src/Common/CreatedUpdaterModelBase.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: CreatedDate
     path: Common/CreatedUpdaterModelBase.cs
     startLine: 18
@@ -108,8 +108,8 @@ items:
   source:
     remote:
       path: src/Common/CreatedUpdaterModelBase.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: CreatedBy
     path: Common/CreatedUpdaterModelBase.cs
     startLine: 23
@@ -145,8 +145,8 @@ items:
   source:
     remote:
       path: src/Common/CreatedUpdaterModelBase.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: UpdatedDate
     path: Common/CreatedUpdaterModelBase.cs
     startLine: 28
@@ -182,8 +182,8 @@ items:
   source:
     remote:
       path: src/Common/CreatedUpdaterModelBase.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: UpdatedBy
     path: Common/CreatedUpdaterModelBase.cs
     startLine: 33

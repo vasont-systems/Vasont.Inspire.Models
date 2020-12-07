@@ -17,8 +17,8 @@ items:
   source:
     remote:
       path: src/Transfers/ImportRequestFileModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ImportRequestFileModel
     path: Transfers/ImportRequestFileModel.cs
     startLine: 10
@@ -60,8 +60,8 @@ items:
   source:
     remote:
       path: src/Transfers/ImportRequestFileModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: FileName
     path: Transfers/ImportRequestFileModel.cs
     startLine: 15
@@ -97,8 +97,8 @@ items:
   source:
     remote:
       path: src/Transfers/ImportRequestFileModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: UnzipFile
     path: Transfers/ImportRequestFileModel.cs
     startLine: 20

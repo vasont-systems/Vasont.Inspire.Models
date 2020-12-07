@@ -7,6 +7,8 @@ items:
   children:
   - Vasont.Inspire.Models.Components.SaveAsBranchModel.BranchName
   - Vasont.Inspire.Models.Components.SaveAsBranchModel.ChildComponentIds
+  - Vasont.Inspire.Models.Components.SaveAsBranchModel.ProjectFolderId
+  - Vasont.Inspire.Models.Components.SaveAsBranchModel.ProjectId
   - Vasont.Inspire.Models.Components.SaveAsBranchModel.SourceComponentId
   - Vasont.Inspire.Models.Components.SaveAsBranchModel.TargetFolderId
   langs:
@@ -19,8 +21,8 @@ items:
   source:
     remote:
       path: src/Components/SaveAsBranchModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: SaveAsBranchModel
     path: Components/SaveAsBranchModel.cs
     startLine: 12
@@ -62,8 +64,8 @@ items:
   source:
     remote:
       path: src/Components/SaveAsBranchModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: BranchName
     path: Components/SaveAsBranchModel.cs
     startLine: 17
@@ -99,8 +101,8 @@ items:
   source:
     remote:
       path: src/Components/SaveAsBranchModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: SourceComponentId
     path: Components/SaveAsBranchModel.cs
     startLine: 22
@@ -136,8 +138,8 @@ items:
   source:
     remote:
       path: src/Components/SaveAsBranchModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: TargetFolderId
     path: Components/SaveAsBranchModel.cs
     startLine: 27
@@ -173,8 +175,8 @@ items:
   source:
     remote:
       path: src/Components/SaveAsBranchModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ChildComponentIds
     path: Components/SaveAsBranchModel.cs
     startLine: 32
@@ -190,6 +192,80 @@ items:
       type: System.Collections.Generic.List{System.Int64}
     content.vb: Public Property ChildComponentIds As List(Of Long)
   overload: Vasont.Inspire.Models.Components.SaveAsBranchModel.ChildComponentIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.SaveAsBranchModel.ProjectId
+  commentId: P:Vasont.Inspire.Models.Components.SaveAsBranchModel.ProjectId
+  id: ProjectId
+  parent: Vasont.Inspire.Models.Components.SaveAsBranchModel
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: SaveAsBranchModel.ProjectId
+  fullName: Vasont.Inspire.Models.Components.SaveAsBranchModel.ProjectId
+  type: Property
+  source:
+    remote:
+      path: src/Components/SaveAsBranchModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+    id: ProjectId
+    path: Components/SaveAsBranchModel.cs
+    startLine: 37
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the identity of the project to be added to.\n"
+  example: []
+  syntax:
+    content: public long ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ProjectId As Long
+  overload: Vasont.Inspire.Models.Components.SaveAsBranchModel.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.SaveAsBranchModel.ProjectFolderId
+  commentId: P:Vasont.Inspire.Models.Components.SaveAsBranchModel.ProjectFolderId
+  id: ProjectFolderId
+  parent: Vasont.Inspire.Models.Components.SaveAsBranchModel
+  langs:
+  - csharp
+  - vb
+  name: ProjectFolderId
+  nameWithType: SaveAsBranchModel.ProjectFolderId
+  fullName: Vasont.Inspire.Models.Components.SaveAsBranchModel.ProjectFolderId
+  type: Property
+  source:
+    remote:
+      path: src/Components/SaveAsBranchModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+    id: ProjectFolderId
+    path: Components/SaveAsBranchModel.cs
+    startLine: 42
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the identity of the project folder to be added to.\n"
+  example: []
+  syntax:
+    content: public long ProjectFolderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ProjectFolderId As Long
+  overload: Vasont.Inspire.Models.Components.SaveAsBranchModel.ProjectFolderId*
   modifiers.csharp:
   - public
   - get
@@ -617,3 +693,13 @@ references:
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Components.SaveAsBranchModel.ProjectId*
+  commentId: Overload:Vasont.Inspire.Models.Components.SaveAsBranchModel.ProjectId
+  name: ProjectId
+  nameWithType: SaveAsBranchModel.ProjectId
+  fullName: Vasont.Inspire.Models.Components.SaveAsBranchModel.ProjectId
+- uid: Vasont.Inspire.Models.Components.SaveAsBranchModel.ProjectFolderId*
+  commentId: Overload:Vasont.Inspire.Models.Components.SaveAsBranchModel.ProjectFolderId
+  name: ProjectFolderId
+  nameWithType: SaveAsBranchModel.ProjectFolderId
+  fullName: Vasont.Inspire.Models.Components.SaveAsBranchModel.ProjectFolderId

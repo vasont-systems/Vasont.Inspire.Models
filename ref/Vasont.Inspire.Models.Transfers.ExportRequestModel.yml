@@ -23,8 +23,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ExportRequestModel
     path: Transfers/ExportRequestModel.cs
     startLine: 13
@@ -66,8 +66,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetsToExport
     path: Transfers/ExportRequestModel.cs
     startLine: 18
@@ -103,8 +103,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ExportId
     path: Transfers/ExportRequestModel.cs
     startLine: 23
@@ -140,8 +140,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ComponentIdsToExport
     path: Transfers/ExportRequestModel.cs
     startLine: 28
@@ -177,8 +177,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: AlwaysZipResults
     path: Transfers/ExportRequestModel.cs
     startLine: 33
@@ -214,8 +214,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: SendNotification
     path: Transfers/ExportRequestModel.cs
     startLine: 38
@@ -251,8 +251,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ProfileFilters
     path: Transfers/ExportRequestModel.cs
     startLine: 43
@@ -288,8 +288,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: LockForEdit
     path: Transfers/ExportRequestModel.cs
     startLine: 48
@@ -325,8 +325,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: SkipXmlValidation
     path: Transfers/ExportRequestModel.cs
     startLine: 53

@@ -18,8 +18,8 @@ items:
   source:
     remote:
       path: src/Webhooks/ComponentRequestModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ComponentRequestModel
     path: Webhooks/ComponentRequestModel.cs
     startLine: 12
@@ -64,8 +64,8 @@ items:
   source:
     remote:
       path: src/Webhooks/ComponentRequestModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: RequestId
     path: Webhooks/ComponentRequestModel.cs
     startLine: 17
@@ -101,8 +101,8 @@ items:
   source:
     remote:
       path: src/Webhooks/ComponentRequestModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: RequesterName
     path: Webhooks/ComponentRequestModel.cs
     startLine: 22
@@ -138,8 +138,8 @@ items:
   source:
     remote:
       path: src/Webhooks/ComponentRequestModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: RequesterEmail
     path: Webhooks/ComponentRequestModel.cs
     startLine: 27

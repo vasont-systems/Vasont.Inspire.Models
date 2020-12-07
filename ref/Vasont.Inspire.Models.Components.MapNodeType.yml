@@ -18,8 +18,8 @@ items:
   source:
     remote:
       path: src/Components/MapNodeModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: MapNodeType
     path: Components/MapNodeModel.cs
     startLine: 14
@@ -63,8 +63,8 @@ items:
   source:
     remote:
       path: src/Components/MapNodeModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Element
     path: Components/MapNodeModel.cs
     startLine: 20
@@ -97,8 +97,8 @@ items:
   source:
     remote:
       path: src/Components/MapNodeModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: Comment
     path: Components/MapNodeModel.cs
     startLine: 25
@@ -131,8 +131,8 @@ items:
   source:
     remote:
       path: src/Components/MapNodeModel.cs
-      branch: feature/46061---script-update-to-rename-tables
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ProcessingInstruction
     path: Components/MapNodeModel.cs
     startLine: 30
