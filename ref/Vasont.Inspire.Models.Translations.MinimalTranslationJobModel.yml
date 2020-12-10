@@ -25,6 +25,7 @@ items:
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.State
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.StateName
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.SubmissionAttributes
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationIntegrationId
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationJobId
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationVendor
   langs:
@@ -707,6 +708,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationIntegrationId
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationIntegrationId
+  id: TranslationIntegrationId
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: TranslationIntegrationId
+  nameWithType: MinimalTranslationJobModel.TranslationIntegrationId
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationIntegrationId
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+    id: TranslationIntegrationId
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 164
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the translation integration id.\n"
+  example: []
+  syntax:
+    content: public long? TranslationIntegrationId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int64}
+    content.vb: Public Property TranslationIntegrationId As Long?
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationIntegrationId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelAtVendor
   commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelAtVendor
   id: CancelAtVendor
@@ -725,7 +763,7 @@ items:
       repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: CancelAtVendor
     path: Translations/MinimalTranslationJobModel.cs
-    startLine: 164
+    startLine: 169
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -762,7 +800,7 @@ items:
       repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: CancelledDate
     path: Translations/MinimalTranslationJobModel.cs
-    startLine: 169
+    startLine: 174
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -799,7 +837,7 @@ items:
       repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: CancelledBy
     path: Translations/MinimalTranslationJobModel.cs
-    startLine: 174
+    startLine: 179
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -836,7 +874,7 @@ items:
       repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ArchivedDate
     path: Translations/MinimalTranslationJobModel.cs
-    startLine: 179
+    startLine: 184
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -873,7 +911,7 @@ items:
       repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
     id: ArchivedBy
     path: Translations/MinimalTranslationJobModel.cs
-    startLine: 184
+    startLine: 189
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -1502,6 +1540,55 @@ references:
   name: ProjectCode
   nameWithType: MinimalTranslationJobModel.ProjectCode
   fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.ProjectCode
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationIntegrationId*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationIntegrationId
+  name: TranslationIntegrationId
+  nameWithType: MinimalTranslationJobModel.TranslationIntegrationId
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationIntegrationId
+- uid: System.Nullable{System.Int64}
+  commentId: T:System.Nullable{System.Int64}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int64>
+  nameWithType: Nullable<Int64>
+  fullName: System.Nullable<System.Int64>
+  nameWithType.vb: Nullable(Of Int64)
+  fullName.vb: System.Nullable(Of System.Int64)
+  name.vb: Nullable(Of Int64)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelAtVendor*
   commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelAtVendor
   name: CancelAtVendor

@@ -45,7 +45,12 @@ namespace Vasont.Inspire.Models.Plugins
         /// <summary>
         /// Contains a value that indicates publishing to Dita Compare.
         /// </summary>
-        Compare
+        Compare,
+
+        /// <summary>
+        /// Contains a value that indicates publishing to Python.
+        /// </summary>
+        Python
     }
 
     /// <summary>

@@ -14,6 +14,7 @@ items:
   - Vasont.Inspire.Models.Translations.TranslationExportJobModel.State
   - Vasont.Inspire.Models.Translations.TranslationExportJobModel.SubmissionAttributes
   - Vasont.Inspire.Models.Translations.TranslationExportJobModel.SubmissionName
+  - Vasont.Inspire.Models.Translations.TranslationExportJobModel.TranslationIntegrationId
   - Vasont.Inspire.Models.Translations.TranslationExportJobModel.TranslationJobId
   langs:
   - csharp
@@ -418,6 +419,43 @@ items:
       type: System.String
     content.vb: Public Property ProjectCode As String
   overload: Vasont.Inspire.Models.Translations.TranslationExportJobModel.ProjectCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.TranslationExportJobModel.TranslationIntegrationId
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationExportJobModel.TranslationIntegrationId
+  id: TranslationIntegrationId
+  parent: Vasont.Inspire.Models.Translations.TranslationExportJobModel
+  langs:
+  - csharp
+  - vb
+  name: TranslationIntegrationId
+  nameWithType: TranslationExportJobModel.TranslationIntegrationId
+  fullName: Vasont.Inspire.Models.Translations.TranslationExportJobModel.TranslationIntegrationId
+  type: Property
+  source:
+    remote:
+      path: src/Translations/TranslationExportJobModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+    id: TranslationIntegrationId
+    path: Translations/TranslationExportJobModel.cs
+    startLine: 64
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: Gets or sets the integration id.
+  example: []
+  syntax:
+    content: public long? TranslationIntegrationId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int64}
+    content.vb: Public Property TranslationIntegrationId As Long?
+  overload: Vasont.Inspire.Models.Translations.TranslationExportJobModel.TranslationIntegrationId*
   modifiers.csharp:
   - public
   - get
@@ -962,3 +1000,52 @@ references:
   name: ProjectCode
   nameWithType: TranslationExportJobModel.ProjectCode
   fullName: Vasont.Inspire.Models.Translations.TranslationExportJobModel.ProjectCode
+- uid: Vasont.Inspire.Models.Translations.TranslationExportJobModel.TranslationIntegrationId*
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationExportJobModel.TranslationIntegrationId
+  name: TranslationIntegrationId
+  nameWithType: TranslationExportJobModel.TranslationIntegrationId
+  fullName: Vasont.Inspire.Models.Translations.TranslationExportJobModel.TranslationIntegrationId
+- uid: System.Nullable{System.Int64}
+  commentId: T:System.Nullable{System.Int64}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int64>
+  nameWithType: Nullable<Int64>
+  fullName: System.Nullable<System.Int64>
+  nameWithType.vb: Nullable(Of Int64)
+  fullName.vb: System.Nullable(Of System.Int64)
+  name.vb: Nullable(Of Int64)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
