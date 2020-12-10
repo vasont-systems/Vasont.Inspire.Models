@@ -160,6 +160,11 @@ namespace Vasont.Inspire.Models.Translations
         public string ProjectCode { get; set; }
 
         /// <summary>
+        /// Gets or sets the translation integration id.
+        /// </summary>
+        public long? TranslationIntegrationId { get; set; }
+
+        /// <summary>
         /// Gets or sets a value indicating whether [cancel at vendor].
         /// </summary>
         public bool CancelAtVendor { get; set; }

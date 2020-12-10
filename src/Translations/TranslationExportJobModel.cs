@@ -60,5 +60,8 @@ namespace Vasont.Inspire.Models.Translations
 
         /// <summary>Gets or sets the project code.</summary>
         public string ProjectCode { get; set; }
+
+        /// <summary>Gets or sets the integration id.</summary>
+        public long? TranslationIntegrationId { get; set; }
     }
 }
