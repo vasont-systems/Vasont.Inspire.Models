@@ -11384,6 +11384,12 @@ references:
   commentId: F:Vasont.Inspire.Models.Plugins.PublishType.Pdf
   fullName: Vasont.Inspire.Models.Plugins.PublishType.Pdf
   nameWithType: PublishType.Pdf
+- uid: Vasont.Inspire.Models.Plugins.PublishType.Python
+  name: Python
+  href: ref/Vasont.Inspire.Models.Plugins.PublishType.html#Vasont_Inspire_Models_Plugins_PublishType_Python
+  commentId: F:Vasont.Inspire.Models.Plugins.PublishType.Python
+  fullName: Vasont.Inspire.Models.Plugins.PublishType.Python
+  nameWithType: PublishType.Python
 - uid: Vasont.Inspire.Models.Plugins.PublishType.Zoomin
   name: Zoomin
   href: ref/Vasont.Inspire.Models.Plugins.PublishType.html#Vasont_Inspire_Models_Plugins_PublishType_Zoomin
@@ -21483,6 +21489,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.SubmissionAttributes
   nameWithType: MinimalTranslationJobModel.SubmissionAttributes
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationIntegrationId
+  name: TranslationIntegrationId
+  href: ref/Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.html#Vasont_Inspire_Models_Translations_MinimalTranslationJobModel_TranslationIntegrationId
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationIntegrationId
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationIntegrationId
+  nameWithType: MinimalTranslationJobModel.TranslationIntegrationId
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationIntegrationId*
+  name: TranslationIntegrationId
+  href: ref/Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.html#Vasont_Inspire_Models_Translations_MinimalTranslationJobModel_TranslationIntegrationId_
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationIntegrationId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationIntegrationId
+  nameWithType: MinimalTranslationJobModel.TranslationIntegrationId
 - uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationJobId
   name: TranslationJobId
   href: ref/Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.html#Vasont_Inspire_Models_Translations_MinimalTranslationJobModel_TranslationJobId
@@ -21709,6 +21728,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Translations.TranslationExportJobModel.SubmissionName
   nameWithType: TranslationExportJobModel.SubmissionName
+- uid: Vasont.Inspire.Models.Translations.TranslationExportJobModel.TranslationIntegrationId
+  name: TranslationIntegrationId
+  href: ref/Vasont.Inspire.Models.Translations.TranslationExportJobModel.html#Vasont_Inspire_Models_Translations_TranslationExportJobModel_TranslationIntegrationId
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationExportJobModel.TranslationIntegrationId
+  fullName: Vasont.Inspire.Models.Translations.TranslationExportJobModel.TranslationIntegrationId
+  nameWithType: TranslationExportJobModel.TranslationIntegrationId
+- uid: Vasont.Inspire.Models.Translations.TranslationExportJobModel.TranslationIntegrationId*
+  name: TranslationIntegrationId
+  href: ref/Vasont.Inspire.Models.Translations.TranslationExportJobModel.html#Vasont_Inspire_Models_Translations_TranslationExportJobModel_TranslationIntegrationId_
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationExportJobModel.TranslationIntegrationId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.TranslationExportJobModel.TranslationIntegrationId
+  nameWithType: TranslationExportJobModel.TranslationIntegrationId
 - uid: Vasont.Inspire.Models.Translations.TranslationExportJobModel.TranslationJobId
   name: TranslationJobId
   href: ref/Vasont.Inspire.Models.Translations.TranslationExportJobModel.html#Vasont_Inspire_Models_Translations_TranslationExportJobModel_TranslationJobId

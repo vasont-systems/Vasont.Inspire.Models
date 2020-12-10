@@ -10,6 +10,7 @@ items:
   - Vasont.Inspire.Models.Plugins.PublishType.DocBook
   - Vasont.Inspire.Models.Plugins.PublishType.Html
   - Vasont.Inspire.Models.Plugins.PublishType.Pdf
+  - Vasont.Inspire.Models.Plugins.PublishType.Python
   - Vasont.Inspire.Models.Plugins.PublishType.Zoomin
   langs:
   - csharp
@@ -248,6 +249,40 @@ items:
   example: []
   syntax:
     content: Compare = 5
+    return:
+      type: Vasont.Inspire.Models.Plugins.PublishType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Plugins.PublishType.Python
+  commentId: F:Vasont.Inspire.Models.Plugins.PublishType.Python
+  id: Python
+  parent: Vasont.Inspire.Models.Plugins.PublishType
+  langs:
+  - csharp
+  - vb
+  name: Python
+  nameWithType: PublishType.Python
+  fullName: Vasont.Inspire.Models.Plugins.PublishType.Python
+  type: Field
+  source:
+    remote:
+      path: src/Plugins/PublishRequestModel.cs
+      branch: develop
+      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+    id: Python
+    path: Plugins/PublishRequestModel.cs
+    startLine: 52
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nContains a value that indicates publishing to Python.\n"
+  example: []
+  syntax:
+    content: Python = 6
     return:
       type: Vasont.Inspire.Models.Plugins.PublishType
   modifiers.csharp:
