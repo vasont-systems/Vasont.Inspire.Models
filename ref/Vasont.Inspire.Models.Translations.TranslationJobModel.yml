@@ -403,11 +403,11 @@ items:
   summary: "\nGets or sets the optional translation integration identifier.\n"
   example: []
   syntax:
-    content: public int? TranslationIntegrationId { get; set; }
+    content: public long? TranslationIntegrationId { get; set; }
     parameters: []
     return:
-      type: System.Nullable{System.Int32}
-    content.vb: Public Property TranslationIntegrationId As Integer?
+      type: System.Nullable{System.Int64}
+    content.vb: Public Property TranslationIntegrationId As Long?
   overload: Vasont.Inspire.Models.Translations.TranslationJobModel.TranslationIntegrationId*
   modifiers.csharp:
   - public
@@ -1233,16 +1233,16 @@ references:
   name: TranslationIntegrationId
   nameWithType: TranslationJobModel.TranslationIntegrationId
   fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.TranslationIntegrationId
-- uid: System.Nullable{System.Int32}
-  commentId: T:System.Nullable{System.Int32}
+- uid: System.Nullable{System.Int64}
+  commentId: T:System.Nullable{System.Int64}
   parent: System
   definition: System.Nullable`1
-  name: Nullable<Int32>
-  nameWithType: Nullable<Int32>
-  fullName: System.Nullable<System.Int32>
-  nameWithType.vb: Nullable(Of Int32)
-  fullName.vb: System.Nullable(Of System.Int32)
-  name.vb: Nullable(Of Int32)
+  name: Nullable<Int64>
+  nameWithType: Nullable<Int64>
+  fullName: System.Nullable<System.Int64>
+  nameWithType.vb: Nullable(Of Int64)
+  fullName.vb: System.Nullable(Of System.Int64)
+  name.vb: Nullable(Of Int64)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -1252,10 +1252,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -1269,10 +1269,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
     isExternal: true
   - name: )
     nameWithType: )
