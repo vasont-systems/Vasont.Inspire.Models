@@ -20,14 +20,14 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>CCMS</PackageTags>
     <PackageReleaseNotes>Added ReviewerNotificationModel</PackageReleaseNotes>
-    <Version>1.1.104</Version>
+    <Version>1.2.0</Version>
     <NeutralLanguage>en</NeutralLanguage>
     <Copyright>Copyright (c) GlobalLink Vasont. All rights reserved.</Copyright>
   </PropertyGroup>
 
   <PropertyGroup>
     <BuildDocFx Condition="$(TargetFramework) != 'netstandard2.1' OR '$(Configuration)' != 'Release'">false</BuildDocFx>
-    <AssemblyVersion>1.1.104.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0</AssemblyVersion>
   </PropertyGroup>
   
   <ItemGroup>
