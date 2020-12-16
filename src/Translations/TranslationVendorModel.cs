@@ -49,5 +49,10 @@ namespace Vasont.Inspire.Models.Translations
         /// Gets or sets the optional translation integration identifier.
         /// </summary>
         public long? TranslationIntegrationId { get; set; }
+
+        /// <summary>
+        /// Gets or sets the translation integration name, if available.
+        /// </summary>
+        public string TranslationIntegrationName { get; set; }
     }
 }
