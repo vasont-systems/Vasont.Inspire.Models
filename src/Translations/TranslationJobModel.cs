@@ -42,16 +42,15 @@ namespace Vasont.Inspire.Models.Translations
         /// </summary>
         public List<string> FilterValues { get; set; } = new List<string>();
 
-        /// <summary>Gets or sets a value indicating whether to include binary components in translation.</summary>
+        /// <summary>
+        /// Gets or sets a value indicating whether to include binary components in translation.
+        /// </summary>
         public bool IncludeBinary { get; set; }
 
-        /// <summary>Gets or sets a value indicating with the export config id.</summary>
-        public long ExportId { get; set; }
-
         /// <summary>
-        /// Gets or sets the optional translation integration identifier.
+        /// Gets or sets a value indicating with the export config id.
         /// </summary>
-        public long? TranslationIntegrationId { get; set; }
+        public long ExportId { get; set; }
 
         /// <summary>
         /// Gets or sets the submission request.
