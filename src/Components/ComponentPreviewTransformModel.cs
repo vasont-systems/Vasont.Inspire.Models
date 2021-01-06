@@ -60,5 +60,25 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets the CSS of the component preview transform.
         /// </summary>
         public string CSS { get; set; }
+
+        /// <summary>
+        /// Gets or sets the identity of the component type of the component preview transform.
+        /// </summary>
+        public long ComponentTypeId { get; set; }
+
+        /// <summary>
+        /// Gets or sets the identity of the component type of the component preview transform.
+        /// </summary>
+        public string ComponentTypeName { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the component preview transform is active.
+        /// </summary>
+        public bool Active { get; set; }
+
+        /// <summary>
+        /// Gets or sets the name of the schema standard of the component review transform.
+        /// </summary>
+        public string SchemaStandard { get; set; }
     }
 }
