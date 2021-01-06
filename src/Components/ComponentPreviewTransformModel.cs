@@ -67,7 +67,7 @@ namespace Vasont.Inspire.Models.Components
         public long ComponentTypeId { get; set; }
 
         /// <summary>
-        /// Gets or sets the identity of the component type of the component preview transform.
+        /// Gets or sets the name of the component type of the component preview transform.
         /// </summary>
         public string ComponentTypeName { get; set; }
 
