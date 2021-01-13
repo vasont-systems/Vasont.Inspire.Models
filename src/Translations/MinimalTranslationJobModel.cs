@@ -188,5 +188,30 @@ namespace Vasont.Inspire.Models.Translations
         /// Gets or sets the identifier for the user who archived the translation job.
         /// </summary>
         public MinimalUserModel ArchivedBy { get; set; } = new MinimalUserModel();
+
+        /// <summary>
+        /// Gets or sets the submission request info sent over to the integration.
+        /// </summary>
+        public string SubmissionRequest { get; set; }
+
+        /// <summary>
+        /// Gets or sets the submission response info received from the integration.
+        /// </summary>
+        public string SubmissionResponse { get; set; }
+
+        /// <summary>
+        /// Gets or sets the retrieval request info sent over to the integration.
+        /// </summary>
+        public string RetrievalRequest { get; set; }
+
+        /// <summary>
+        /// Gets or sets the retrieval response info received from the integration.
+        /// </summary>
+        public string RetrievalResponse { get; set; }
+
+        /// <summary>
+        /// Gets or sets the Url from where the resulting files can be downloaded.
+        /// </summary>
+        public string FileDownloadUrl { get; set; }
     }
 }
