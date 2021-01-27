@@ -36,5 +36,10 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets the last updated date of the component preview.
         /// </summary>
         public DateTime LastUpdatedDate { get; set; }
+
+        /// <summary>
+        /// Gets or sets the process type the component preview should be used for.
+        /// </summary>
+        public string ProcessType { get; set; }
     }
 }
