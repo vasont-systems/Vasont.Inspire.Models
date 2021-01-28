@@ -24,5 +24,10 @@ namespace Vasont.Inspire.Models.Versioning
         /// Gets or sets the new target folder location identity.
         /// </summary>
         public long TargetFolderId { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the entire snapshot should be restored or only a component.
+        /// </summary>
+        public bool RestoreAllComponents { get; set; }
     }
 }
