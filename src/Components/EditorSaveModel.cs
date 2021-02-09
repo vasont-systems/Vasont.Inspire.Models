@@ -6,6 +6,8 @@
 namespace Vasont.Inspire.Models.Components
 {
     using System;
+    using System.Collections.Generic;
+    using Vasont.Inspire.Models.Reviews;
 
     /// <summary>
     /// This class represents a collection of values submitted to the application during the save command for storing editor content.
@@ -92,5 +94,15 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets a value indicating whether the save will generate identity attributes based on schema specific requirements.
         /// </summary>
         public bool GenerateIdAttributes { get; set; }
+
+        /// <summary>
+        /// Gets or sets a list of review changes for audit trail.
+        /// </summary>
+        public List<ReviewComponentMarkerModel> ReviewChanges { get; set; }
+
+        /// <summary>
+        /// Gets or sets a list of review comments for audit trail.
+        /// </summary>
+        public List<ReviewComponentMarkerModel> ReviewComments { get; set; }
     }
 }
