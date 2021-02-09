@@ -38,12 +38,12 @@ namespace Vasont.Inspire.Models.Reviews
         /// <summary>
         /// Gets or sets the marker action type.
         /// </summary>
-        public string ActionType { get; set; }
+        public ReviewComponentMarkerActionType ActionType { get; set; }
 
         /// <summary>
         /// Gets or sets the marker action reason.
         /// </summary>
-        public ReviewComponentMarkerActionType ActionReason { get; set; }
+        public string ActionReason { get; set; }
 
         /// <summary>
         /// Gets or sets the marker action user name.
