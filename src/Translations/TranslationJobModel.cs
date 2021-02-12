@@ -76,5 +76,10 @@ namespace Vasont.Inspire.Models.Translations
         /// Gets or sets the retrieval response.
         /// </summary>
         public string RetrievalResponse { get; set; }
+
+        /// <summary>
+        /// Gets or sets the properties associated with the translation job.
+        /// </summary>
+        public TranslationJobPropertiesModel TranslationJobProperties { get; set; } = new TranslationJobPropertiesModel();
     }
 }
