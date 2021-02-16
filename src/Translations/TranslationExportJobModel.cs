@@ -63,5 +63,8 @@ namespace Vasont.Inspire.Models.Translations
 
         /// <summary>Gets or sets the integration id.</summary>
         public long? TranslationIntegrationId { get; set; }
+
+        /// <summary>Gets or sets the properties id.</summary>
+        public long? TranslationPropertiesId { get; set; }
     }
 }
