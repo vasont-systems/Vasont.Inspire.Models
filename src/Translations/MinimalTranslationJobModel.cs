@@ -164,6 +164,12 @@ namespace Vasont.Inspire.Models.Translations
         /// </summary>
         public long? TranslationIntegrationId { get; set; }
 
+
+        /// <summary>
+        /// Gets or sets the translation properties id.
+        /// </summary>
+        public long? TranslationPropertiesId { get; set; }
+
         /// <summary>
         /// Gets or sets a value indicating whether [cancel at vendor].
         /// </summary>

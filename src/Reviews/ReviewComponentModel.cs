@@ -36,7 +36,22 @@ namespace Vasont.Inspire.Models.Reviews
         /// <summary>
         /// Contains a value that indicates the final review component content.
         /// </summary>
-        Final
+        Final,
+
+        /// <summary>
+        /// Contains a value that indicates the reviewer saved review component content during reviewing phase.
+        /// </summary>
+        ReviewerUpdate,
+
+        /// <summary>
+        /// Contains a value that indicates the review moved into resolving phase.
+        /// </summary>
+        Unresolved,
+
+        /// <summary>
+        /// Contains a value that indicates the coordinator saved review component content during resolving phase.
+        /// </summary>
+        CoordinatorUpdate,
     }
 
     /// <summary>
