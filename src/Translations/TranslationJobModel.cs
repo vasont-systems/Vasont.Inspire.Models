@@ -51,35 +51,5 @@ namespace Vasont.Inspire.Models.Translations
         /// Gets or sets a value indicating with the export config id.
         /// </summary>
         public long ExportId { get; set; }
-
-        /// <summary>
-        /// Gets or sets the optional translation integration identifier.
-        /// </summary>
-        public long? TranslationIntegrationId { get; set; }
-
-        /// <summary>
-        /// Gets or sets the optional translation properties identifier.
-        /// </summary>
-        public long? TranslationPropertiesId { get; set; }
-
-        /// <summary>
-        /// Gets or sets the submission request.
-        /// </summary>
-        public string SubmissionRequest { get; set; }
-
-        /// <summary>
-        /// Gets or sets the submission response.
-        /// </summary>
-        public string SubmissionResponse { get; set; }
-
-        /// <summary>
-        /// Gets or sets the retrieval request.
-        /// </summary>
-        public string RetrievalRequest { get; set; }
-
-        /// <summary>
-        /// Gets or sets the retrieval response.
-        /// </summary>
-        public string RetrievalResponse { get; set; }
     }
 }
