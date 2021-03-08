@@ -43,6 +43,11 @@ namespace Vasont.Inspire.Models.Translations
         public List<string> FilterValues { get; set; } = new List<string>();
 
         /// <summary>
+        /// Gets or sets the display text used for the component filtering based on audience.
+        /// </summary>
+        public string FilterDisplayString { get; set; }
+
+        /// <summary>
         /// Gets or sets a value indicating whether to include binary components in translation.
         /// </summary>
         public bool IncludeBinary { get; set; }

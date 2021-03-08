@@ -42,9 +42,9 @@ namespace Vasont.Inspire.Models.Translations
         public bool ForceTranslation { get; set; }
 
         /// <summary>
-        /// Gets or sets a list of values to be used for component filtering based on audience.
+        /// Gets or sets the display text used for the component filtering based on audience.
         /// </summary>
-        public List<string> FilterValues { get; set; } = new List<string>();
+        public string FilterDisplayString { get; set; }
 
         /// <summary>
         /// Gets or sets the custom attributes.
