@@ -80,5 +80,10 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets the name of the schema standard of the component review transform.
         /// </summary>
         public string SchemaStandard { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the component preview transform is for a system component.
+        /// </summary>
+        public bool System { get; set; }
     }
 }
