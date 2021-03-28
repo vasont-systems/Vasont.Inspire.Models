@@ -69,6 +69,11 @@ namespace Vasont.Inspire.Models.Common
         public bool OxygenWebCustom { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether the application is on a preview system.
+        /// </summary>
+        public bool PreviewSystem { get; set; }
+
+        /// <summary>
         /// Gets or sets a value indicating whether Inspire Schema Custom should be enabled within the application.
         /// </summary>
         public bool InspireSchemaCustom { get; set; }
