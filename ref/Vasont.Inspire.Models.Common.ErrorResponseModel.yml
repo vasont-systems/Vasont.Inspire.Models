@@ -18,8 +18,8 @@ items:
   source:
     remote:
       path: src/Common/ErrorResponseModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ErrorResponseModel
     path: Common/ErrorResponseModel.cs
     startLine: 12
@@ -61,8 +61,8 @@ items:
   source:
     remote:
       path: src/Common/ErrorResponseModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Messages
     path: Common/ErrorResponseModel.cs
     startLine: 17
@@ -98,8 +98,8 @@ items:
   source:
     remote:
       path: src/Common/ErrorResponseModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FailedIds
     path: Common/ErrorResponseModel.cs
     startLine: 22
@@ -135,8 +135,8 @@ items:
   source:
     remote:
       path: src/Common/ErrorResponseModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: HasUnhandledException
     path: Common/ErrorResponseModel.cs
     startLine: 28

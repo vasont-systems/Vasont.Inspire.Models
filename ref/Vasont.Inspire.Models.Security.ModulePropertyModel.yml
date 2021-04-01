@@ -21,8 +21,8 @@ items:
   source:
     remote:
       path: src/Security/ModulePropertyModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ModulePropertyModel
     path: Security/ModulePropertyModel.cs
     startLine: 13
@@ -64,8 +64,8 @@ items:
   source:
     remote:
       path: src/Security/ModulePropertyModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ModulePropertyId
     path: Security/ModulePropertyModel.cs
     startLine: 18
@@ -101,8 +101,8 @@ items:
   source:
     remote:
       path: src/Security/ModulePropertyModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ModuleId
     path: Security/ModulePropertyModel.cs
     startLine: 23
@@ -138,8 +138,8 @@ items:
   source:
     remote:
       path: src/Security/ModulePropertyModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Security/ModulePropertyModel.cs
     startLine: 28
@@ -175,8 +175,8 @@ items:
   source:
     remote:
       path: src/Security/ModulePropertyModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Security/ModulePropertyModel.cs
     startLine: 33
@@ -212,8 +212,8 @@ items:
   source:
     remote:
       path: src/Security/ModulePropertyModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Roles
     path: Security/ModulePropertyModel.cs
     startLine: 38
@@ -249,8 +249,8 @@ items:
   source:
     remote:
       path: src/Security/ModulePropertyModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Users
     path: Security/ModulePropertyModel.cs
     startLine: 43

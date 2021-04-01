@@ -29,8 +29,8 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ImportReferenceModel
     path: Transfers/ImportReferenceModel.cs
     startLine: 14
@@ -72,8 +72,8 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetComponentId
     path: Transfers/ImportReferenceModel.cs
     startLine: 19
@@ -109,8 +109,8 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetUniqueId
     path: Transfers/ImportReferenceModel.cs
     startLine: 24
@@ -146,8 +146,8 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RelationId
     path: Transfers/ImportReferenceModel.cs
     startLine: 29
@@ -183,8 +183,8 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceComponentId
     path: Transfers/ImportReferenceModel.cs
     startLine: 34
@@ -220,8 +220,8 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceElementName
     path: Transfers/ImportReferenceModel.cs
     startLine: 39
@@ -257,8 +257,8 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceAttributeName
     path: Transfers/ImportReferenceModel.cs
     startLine: 44
@@ -294,8 +294,8 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceAttributeValue
     path: Transfers/ImportReferenceModel.cs
     startLine: 49
@@ -331,8 +331,8 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetElementName
     path: Transfers/ImportReferenceModel.cs
     startLine: 54
@@ -368,8 +368,8 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetAttributeName
     path: Transfers/ImportReferenceModel.cs
     startLine: 59
@@ -405,8 +405,8 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetAttributeValue
     path: Transfers/ImportReferenceModel.cs
     startLine: 64
@@ -442,8 +442,8 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Invalid
     path: Transfers/ImportReferenceModel.cs
     startLine: 69
@@ -479,8 +479,8 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatorUserId
     path: Transfers/ImportReferenceModel.cs
     startLine: 74
@@ -516,8 +516,8 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WordCount
     path: Transfers/ImportReferenceModel.cs
     startLine: 79
@@ -553,8 +553,8 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentReference
     path: Transfers/ImportReferenceModel.cs
     startLine: 84

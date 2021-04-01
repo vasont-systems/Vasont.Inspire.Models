@@ -22,8 +22,8 @@ items:
   source:
     remote:
       path: src/Common/ErrorModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ErrorModel
     path: Common/ErrorModel.cs
     startLine: 13
@@ -65,8 +65,8 @@ items:
   source:
     remote:
       path: src/Common/ErrorModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Common/ErrorModel.cs
     startLine: 20
@@ -97,8 +97,8 @@ items:
   source:
     remote:
       path: src/Common/ErrorModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Common/ErrorModel.cs
     startLine: 33
@@ -145,8 +145,8 @@ items:
   source:
     remote:
       path: src/Common/ErrorModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ErrorType
     path: Common/ErrorModel.cs
     startLine: 49
@@ -182,8 +182,8 @@ items:
   source:
     remote:
       path: src/Common/ErrorModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Message
     path: Common/ErrorModel.cs
     startLine: 54
@@ -219,8 +219,8 @@ items:
   source:
     remote:
       path: src/Common/ErrorModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PropertyName
     path: Common/ErrorModel.cs
     startLine: 59
@@ -256,8 +256,8 @@ items:
   source:
     remote:
       path: src/Common/ErrorModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EventDate
     path: Common/ErrorModel.cs
     startLine: 64
@@ -293,8 +293,8 @@ items:
   source:
     remote:
       path: src/Common/ErrorModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: StackTrace
     path: Common/ErrorModel.cs
     startLine: 69

@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExportConfigurationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportType
     path: Transfers/ExportConfigurationModel.cs
     startLine: 18
@@ -64,8 +64,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExportConfigurationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Standard
     path: Transfers/ExportConfigurationModel.cs
     startLine: 24
@@ -98,8 +98,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExportConfigurationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Publish
     path: Transfers/ExportConfigurationModel.cs
     startLine: 29
@@ -132,8 +132,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExportConfigurationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Translate
     path: Transfers/ExportConfigurationModel.cs
     startLine: 34
@@ -166,8 +166,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExportConfigurationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Compare
     path: Transfers/ExportConfigurationModel.cs
     startLine: 39

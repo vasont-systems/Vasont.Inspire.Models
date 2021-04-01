@@ -24,8 +24,8 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowModel
     path: Workflow/WorkflowModel.cs
     startLine: 55
@@ -67,8 +67,8 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowId
     path: Workflow/WorkflowModel.cs
     startLine: 61
@@ -104,8 +104,8 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Workflow/WorkflowModel.cs
     startLine: 67
@@ -141,8 +141,8 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Workflow/WorkflowModel.cs
     startLine: 72
@@ -178,8 +178,8 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowType
     path: Workflow/WorkflowModel.cs
     startLine: 77
@@ -215,8 +215,8 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Actors
     path: Workflow/WorkflowModel.cs
     startLine: 82
@@ -252,8 +252,8 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Statuses
     path: Workflow/WorkflowModel.cs
     startLine: 87
@@ -289,8 +289,8 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Activities
     path: Workflow/WorkflowModel.cs
     startLine: 92
@@ -326,8 +326,8 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Transitions
     path: Workflow/WorkflowModel.cs
     startLine: 97
@@ -363,8 +363,8 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Actions
     path: Workflow/WorkflowModel.cs
     startLine: 102

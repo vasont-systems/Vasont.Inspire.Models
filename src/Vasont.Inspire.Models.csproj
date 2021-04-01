@@ -19,15 +19,15 @@
     <RepositoryUrl>https://github.com/vasont-systems/Vasont.Inspire.Models</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>CCMS</PackageTags>
-    <PackageReleaseNotes>Updated build to support 4.6.2, 4.7.2, 4.8, and standard 2.1.</PackageReleaseNotes>
-    <Version>1.2.16</Version>
+    <PackageReleaseNotes>Added ProjectDirectorNotification as a valid WebhookConfigurationNameType</PackageReleaseNotes>
+    <Version>1.2.17</Version>
     <NeutralLanguage>en</NeutralLanguage>
     <Copyright>Copyright (c) GlobalLink Vasont. All rights reserved.</Copyright>
   </PropertyGroup>
 
   <PropertyGroup>
     <BuildDocFx Condition="$(TargetFramework) != 'netstandard2.1' OR '$(Configuration)' != 'Release'">false</BuildDocFx>
-    <AssemblyVersion>1.2.16.0</AssemblyVersion>
+    <AssemblyVersion>1.2.17.0</AssemblyVersion>
   </PropertyGroup>
   
   <ItemGroup>

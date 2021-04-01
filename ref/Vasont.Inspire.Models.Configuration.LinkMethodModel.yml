@@ -18,8 +18,8 @@ items:
   source:
     remote:
       path: src/Configuration/LinkMethodModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LinkMethodModel
     path: Configuration/LinkMethodModel.cs
     startLine: 11
@@ -61,8 +61,8 @@ items:
   source:
     remote:
       path: src/Configuration/LinkMethodModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LinkMethodId
     path: Configuration/LinkMethodModel.cs
     startLine: 16
@@ -98,8 +98,8 @@ items:
   source:
     remote:
       path: src/Configuration/LinkMethodModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Configuration/LinkMethodModel.cs
     startLine: 21
@@ -135,8 +135,8 @@ items:
   source:
     remote:
       path: src/Configuration/LinkMethodModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Configuration/LinkMethodModel.cs
     startLine: 26

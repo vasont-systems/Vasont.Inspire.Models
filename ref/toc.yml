@@ -439,6 +439,10 @@
     name: ReviewComponentChangeType
   - uid: Vasont.Inspire.Models.Reviews.ReviewComponentDetailModel
     name: ReviewComponentDetailModel
+  - uid: Vasont.Inspire.Models.Reviews.ReviewComponentMarkerActionType
+    name: ReviewComponentMarkerActionType
+  - uid: Vasont.Inspire.Models.Reviews.ReviewComponentMarkerModel
+    name: ReviewComponentMarkerModel
   - uid: Vasont.Inspire.Models.Reviews.ReviewComponentModel
     name: ReviewComponentModel
   - uid: Vasont.Inspire.Models.Reviews.ReviewComponentType
@@ -617,10 +621,16 @@
     name: TranslationJobComponentState
   - uid: Vasont.Inspire.Models.Translations.TranslationJobModel
     name: TranslationJobModel
+  - uid: Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel
+    name: TranslationJobPropertiesModel
   - uid: Vasont.Inspire.Models.Translations.TranslationJobState
     name: TranslationJobState
   - uid: Vasont.Inspire.Models.Translations.TranslationJobStateModel
     name: TranslationJobStateModel
+  - uid: Vasont.Inspire.Models.Translations.TranslationLanguageGroupItemModel
+    name: TranslationLanguageGroupItemModel
+  - uid: Vasont.Inspire.Models.Translations.TranslationLanguageGroupItemType
+    name: TranslationLanguageGroupItemType
   - uid: Vasont.Inspire.Models.Translations.TranslationLanguageGroupModel
     name: TranslationLanguageGroupModel
   - uid: Vasont.Inspire.Models.Translations.TranslationVendorFieldModel

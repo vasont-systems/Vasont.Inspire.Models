@@ -17,8 +17,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationsQueryModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentRelationsQueryModel
     path: Components/ComponentRelationsQueryModel.cs
     startLine: 13
@@ -67,8 +67,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationsQueryModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentIds
     path: Components/ComponentRelationsQueryModel.cs
     startLine: 18
@@ -104,8 +104,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationsQueryModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SearchText
     path: Components/ComponentRelationsQueryModel.cs
     startLine: 23

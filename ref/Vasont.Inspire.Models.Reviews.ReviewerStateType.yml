@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewerModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewerStateType
     path: Reviews/ReviewerModel.cs
     startLine: 15
@@ -64,8 +64,8 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewerModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Pending
     path: Reviews/ReviewerModel.cs
     startLine: 21
@@ -98,8 +98,8 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewerModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Reviewing
     path: Reviews/ReviewerModel.cs
     startLine: 26
@@ -132,8 +132,8 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewerModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Completed
     path: Reviews/ReviewerModel.cs
     startLine: 31
@@ -166,8 +166,8 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewerModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Cancelled
     path: Reviews/ReviewerModel.cs
     startLine: 36

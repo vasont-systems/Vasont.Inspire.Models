@@ -27,7 +27,12 @@ namespace Vasont.Inspire.Models.Webhooks
         /// <summary>
         /// The Publish result webhook.
         /// </summary>
-        PublishResult
+        PublishResult,
+
+        /// <summary>
+        /// The project director notification webook.
+        /// </summary>
+        ProjectDirectorNotification
     }
 
     /// <summary>

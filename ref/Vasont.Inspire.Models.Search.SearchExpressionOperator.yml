@@ -27,8 +27,8 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SearchExpressionOperator
     path: Search/SearchExpressionOperator.cs
     startLine: 17
@@ -72,8 +72,8 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Equals
     path: Search/SearchExpressionOperator.cs
     startLine: 23
@@ -106,8 +106,8 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NotEquals
     path: Search/SearchExpressionOperator.cs
     startLine: 29
@@ -140,8 +140,8 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: GreaterThan
     path: Search/SearchExpressionOperator.cs
     startLine: 35
@@ -174,8 +174,8 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LessThan
     path: Search/SearchExpressionOperator.cs
     startLine: 41
@@ -208,8 +208,8 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: GreaterThanOrEqual
     path: Search/SearchExpressionOperator.cs
     startLine: 47
@@ -242,8 +242,8 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LessThanOrEqual
     path: Search/SearchExpressionOperator.cs
     startLine: 53
@@ -276,8 +276,8 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Contains
     path: Search/SearchExpressionOperator.cs
     startLine: 59
@@ -323,8 +323,8 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DoesNotContain
     path: Search/SearchExpressionOperator.cs
     startLine: 65
@@ -370,8 +370,8 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: StartsWith
     path: Search/SearchExpressionOperator.cs
     startLine: 71
@@ -417,8 +417,8 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DoesNotStartWith
     path: Search/SearchExpressionOperator.cs
     startLine: 77
@@ -464,8 +464,8 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EndsWith
     path: Search/SearchExpressionOperator.cs
     startLine: 83
@@ -511,8 +511,8 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DoesNotEndWith
     path: Search/SearchExpressionOperator.cs
     startLine: 89

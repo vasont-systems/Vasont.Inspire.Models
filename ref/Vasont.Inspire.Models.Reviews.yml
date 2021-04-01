@@ -11,6 +11,8 @@ items:
   - Vasont.Inspire.Models.Reviews.ReviewChangedComponentQueryModel
   - Vasont.Inspire.Models.Reviews.ReviewComponentChangeType
   - Vasont.Inspire.Models.Reviews.ReviewComponentDetailModel
+  - Vasont.Inspire.Models.Reviews.ReviewComponentMarkerActionType
+  - Vasont.Inspire.Models.Reviews.ReviewComponentMarkerModel
   - Vasont.Inspire.Models.Reviews.ReviewComponentModel
   - Vasont.Inspire.Models.Reviews.ReviewComponentType
   - Vasont.Inspire.Models.Reviews.ReviewDetailModel
@@ -70,6 +72,17 @@ references:
   name: ReviewComponentDetailModel
   nameWithType: ReviewComponentDetailModel
   fullName: Vasont.Inspire.Models.Reviews.ReviewComponentDetailModel
+- uid: Vasont.Inspire.Models.Reviews.ReviewComponentMarkerActionType
+  commentId: T:Vasont.Inspire.Models.Reviews.ReviewComponentMarkerActionType
+  parent: Vasont.Inspire.Models.Reviews
+  name: ReviewComponentMarkerActionType
+  nameWithType: ReviewComponentMarkerActionType
+  fullName: Vasont.Inspire.Models.Reviews.ReviewComponentMarkerActionType
+- uid: Vasont.Inspire.Models.Reviews.ReviewComponentMarkerModel
+  commentId: T:Vasont.Inspire.Models.Reviews.ReviewComponentMarkerModel
+  name: ReviewComponentMarkerModel
+  nameWithType: ReviewComponentMarkerModel
+  fullName: Vasont.Inspire.Models.Reviews.ReviewComponentMarkerModel
 - uid: Vasont.Inspire.Models.Reviews.ReviewComponentType
   commentId: T:Vasont.Inspire.Models.Reviews.ReviewComponentType
   parent: Vasont.Inspire.Models.Reviews

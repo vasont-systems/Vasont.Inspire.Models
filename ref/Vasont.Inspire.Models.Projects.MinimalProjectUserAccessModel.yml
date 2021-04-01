@@ -17,8 +17,8 @@ items:
   source:
     remote:
       path: src/Projects/MinimalProjectUserAccessModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalProjectUserAccessModel
     path: Projects/MinimalProjectUserAccessModel.cs
     startLine: 14
@@ -60,8 +60,8 @@ items:
   source:
     remote:
       path: src/Projects/MinimalProjectUserAccessModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: User
     path: Projects/MinimalProjectUserAccessModel.cs
     startLine: 19
@@ -97,8 +97,8 @@ items:
   source:
     remote:
       path: src/Projects/MinimalProjectUserAccessModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LastAccessedDate
     path: Projects/MinimalProjectUserAccessModel.cs
     startLine: 24

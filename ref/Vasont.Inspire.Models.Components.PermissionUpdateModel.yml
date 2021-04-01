@@ -20,8 +20,8 @@ items:
   source:
     remote:
       path: src/Components/PermissionUpdateModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PermissionUpdateModel
     path: Components/PermissionUpdateModel.cs
     startLine: 12
@@ -63,8 +63,8 @@ items:
   source:
     remote:
       path: src/Components/PermissionUpdateModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Inherited
     path: Components/PermissionUpdateModel.cs
     startLine: 17
@@ -100,8 +100,8 @@ items:
   source:
     remote:
       path: src/Components/PermissionUpdateModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanInherit
     path: Components/PermissionUpdateModel.cs
     startLine: 22
@@ -137,8 +137,8 @@ items:
   source:
     remote:
       path: src/Components/PermissionUpdateModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FolderId
     path: Components/PermissionUpdateModel.cs
     startLine: 27
@@ -174,8 +174,8 @@ items:
   source:
     remote:
       path: src/Components/PermissionUpdateModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentIds
     path: Components/PermissionUpdateModel.cs
     startLine: 32
@@ -211,8 +211,8 @@ items:
   source:
     remote:
       path: src/Components/PermissionUpdateModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserRolePermissions
     path: Components/PermissionUpdateModel.cs
     startLine: 37

@@ -11,6 +11,7 @@ items:
   - Vasont.Inspire.Models.Translations.TranslationVendorModel.Name
   - Vasont.Inspire.Models.Translations.TranslationVendorModel.ProjectCode
   - Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegrationId
+  - Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegrationName
   - Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationVendorId
   - Vasont.Inspire.Models.Translations.TranslationVendorModel.VendorAttributes
   langs:
@@ -23,8 +24,8 @@ items:
   source:
     remote:
       path: src/Translations/TranslationVendorModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationVendorModel
     path: Translations/TranslationVendorModel.cs
     startLine: 12
@@ -66,8 +67,8 @@ items:
   source:
     remote:
       path: src/Translations/TranslationVendorModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationVendorId
     path: Translations/TranslationVendorModel.cs
     startLine: 17
@@ -103,8 +104,8 @@ items:
   source:
     remote:
       path: src/Translations/TranslationVendorModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Translations/TranslationVendorModel.cs
     startLine: 22
@@ -140,8 +141,8 @@ items:
   source:
     remote:
       path: src/Translations/TranslationVendorModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Translations/TranslationVendorModel.cs
     startLine: 27
@@ -177,8 +178,8 @@ items:
   source:
     remote:
       path: src/Translations/TranslationVendorModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Active
     path: Translations/TranslationVendorModel.cs
     startLine: 32
@@ -214,8 +215,8 @@ items:
   source:
     remote:
       path: src/Translations/TranslationVendorModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ApiIntegration
     path: Translations/TranslationVendorModel.cs
     startLine: 37
@@ -251,8 +252,8 @@ items:
   source:
     remote:
       path: src/Translations/TranslationVendorModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: VendorAttributes
     path: Translations/TranslationVendorModel.cs
     startLine: 42
@@ -288,8 +289,8 @@ items:
   source:
     remote:
       path: src/Translations/TranslationVendorModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectCode
     path: Translations/TranslationVendorModel.cs
     startLine: 45
@@ -325,8 +326,8 @@ items:
   source:
     remote:
       path: src/Translations/TranslationVendorModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationIntegrationId
     path: Translations/TranslationVendorModel.cs
     startLine: 50
@@ -342,6 +343,43 @@ items:
       type: System.Nullable{System.Int64}
     content.vb: Public Property TranslationIntegrationId As Long?
   overload: Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegrationId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegrationName
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegrationName
+  id: TranslationIntegrationName
+  parent: Vasont.Inspire.Models.Translations.TranslationVendorModel
+  langs:
+  - csharp
+  - vb
+  name: TranslationIntegrationName
+  nameWithType: TranslationVendorModel.TranslationIntegrationName
+  fullName: Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegrationName
+  type: Property
+  source:
+    remote:
+      path: src/Translations/TranslationVendorModel.cs
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TranslationIntegrationName
+    path: Translations/TranslationVendorModel.cs
+    startLine: 55
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the translation integration name, if available.\n"
+  example: []
+  syntax:
+    content: public string TranslationIntegrationName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TranslationIntegrationName As String
+  overload: Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegrationName*
   modifiers.csharp:
   - public
   - get
@@ -877,3 +915,8 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegrationName*
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegrationName
+  name: TranslationIntegrationName
+  nameWithType: TranslationVendorModel.TranslationIntegrationName
+  fullName: Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegrationName

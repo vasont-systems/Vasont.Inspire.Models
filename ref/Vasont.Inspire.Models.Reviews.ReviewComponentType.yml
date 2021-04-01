@@ -5,10 +5,13 @@ items:
   id: ReviewComponentType
   parent: Vasont.Inspire.Models.Reviews
   children:
+  - Vasont.Inspire.Models.Reviews.ReviewComponentType.CoordinatorUpdate
   - Vasont.Inspire.Models.Reviews.ReviewComponentType.Final
   - Vasont.Inspire.Models.Reviews.ReviewComponentType.Merged
   - Vasont.Inspire.Models.Reviews.ReviewComponentType.Original
   - Vasont.Inspire.Models.Reviews.ReviewComponentType.Resolving
+  - Vasont.Inspire.Models.Reviews.ReviewComponentType.ReviewerUpdate
+  - Vasont.Inspire.Models.Reviews.ReviewComponentType.Unresolved
   langs:
   - csharp
   - vb
@@ -19,8 +22,8 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewComponentType
     path: Reviews/ReviewComponentModel.cs
     startLine: 17
@@ -64,8 +67,8 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Original
     path: Reviews/ReviewComponentModel.cs
     startLine: 23
@@ -98,8 +101,8 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Merged
     path: Reviews/ReviewComponentModel.cs
     startLine: 28
@@ -132,8 +135,8 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Resolving
     path: Reviews/ReviewComponentModel.cs
     startLine: 33
@@ -166,8 +169,8 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Final
     path: Reviews/ReviewComponentModel.cs
     startLine: 38
@@ -178,6 +181,108 @@ items:
   example: []
   syntax:
     content: Final = 3
+    return:
+      type: Vasont.Inspire.Models.Reviews.ReviewComponentType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Reviews.ReviewComponentType.ReviewerUpdate
+  commentId: F:Vasont.Inspire.Models.Reviews.ReviewComponentType.ReviewerUpdate
+  id: ReviewerUpdate
+  parent: Vasont.Inspire.Models.Reviews.ReviewComponentType
+  langs:
+  - csharp
+  - vb
+  name: ReviewerUpdate
+  nameWithType: ReviewComponentType.ReviewerUpdate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewComponentType.ReviewerUpdate
+  type: Field
+  source:
+    remote:
+      path: src/Reviews/ReviewComponentModel.cs
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewerUpdate
+    path: Reviews/ReviewComponentModel.cs
+    startLine: 43
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nContains a value that indicates the reviewer saved review component content during reviewing phase.\n"
+  example: []
+  syntax:
+    content: ReviewerUpdate = 4
+    return:
+      type: Vasont.Inspire.Models.Reviews.ReviewComponentType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Reviews.ReviewComponentType.Unresolved
+  commentId: F:Vasont.Inspire.Models.Reviews.ReviewComponentType.Unresolved
+  id: Unresolved
+  parent: Vasont.Inspire.Models.Reviews.ReviewComponentType
+  langs:
+  - csharp
+  - vb
+  name: Unresolved
+  nameWithType: ReviewComponentType.Unresolved
+  fullName: Vasont.Inspire.Models.Reviews.ReviewComponentType.Unresolved
+  type: Field
+  source:
+    remote:
+      path: src/Reviews/ReviewComponentModel.cs
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Unresolved
+    path: Reviews/ReviewComponentModel.cs
+    startLine: 48
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nContains a value that indicates the review moved into resolving phase.\n"
+  example: []
+  syntax:
+    content: Unresolved = 5
+    return:
+      type: Vasont.Inspire.Models.Reviews.ReviewComponentType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Reviews.ReviewComponentType.CoordinatorUpdate
+  commentId: F:Vasont.Inspire.Models.Reviews.ReviewComponentType.CoordinatorUpdate
+  id: CoordinatorUpdate
+  parent: Vasont.Inspire.Models.Reviews.ReviewComponentType
+  langs:
+  - csharp
+  - vb
+  name: CoordinatorUpdate
+  nameWithType: ReviewComponentType.CoordinatorUpdate
+  fullName: Vasont.Inspire.Models.Reviews.ReviewComponentType.CoordinatorUpdate
+  type: Field
+  source:
+    remote:
+      path: src/Reviews/ReviewComponentModel.cs
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CoordinatorUpdate
+    path: Reviews/ReviewComponentModel.cs
+    startLine: 53
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nContains a value that indicates the coordinator saved review component content during resolving phase.\n"
+  example: []
+  syntax:
+    content: CoordinatorUpdate = 6
     return:
       type: Vasont.Inspire.Models.Reviews.ReviewComponentType
   modifiers.csharp:

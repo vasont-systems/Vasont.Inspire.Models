@@ -16,8 +16,8 @@ items:
   source:
     remote:
       path: src/Components/DeleteResultModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DeleteResultModel
     path: Components/DeleteResultModel.cs
     startLine: 14
@@ -64,8 +64,8 @@ items:
   source:
     remote:
       path: src/Components/DeleteResultModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceReferenceComponents
     path: Components/DeleteResultModel.cs
     startLine: 19
