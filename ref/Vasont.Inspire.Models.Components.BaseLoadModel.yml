@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: src/Components/BaseLoadModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: BaseLoadModel
     path: Components/BaseLoadModel.cs
     startLine: 12
@@ -67,8 +67,8 @@ items:
   source:
     remote:
       path: src/Components/BaseLoadModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Href
     path: Components/BaseLoadModel.cs
     startLine: 17
@@ -104,8 +104,8 @@ items:
   source:
     remote:
       path: src/Components/BaseLoadModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentId
     path: Components/BaseLoadModel.cs
     startLine: 22
@@ -141,8 +141,8 @@ items:
   source:
     remote:
       path: src/Components/BaseLoadModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetId
     path: Components/BaseLoadModel.cs
     startLine: 27
@@ -178,8 +178,8 @@ items:
   source:
     remote:
       path: src/Components/BaseLoadModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsCompare
     path: Components/BaseLoadModel.cs
     startLine: 32

@@ -16,8 +16,8 @@ items:
   source:
     remote:
       path: src/Components/MultimediaLoadModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MultimediaLoadModel
     path: Components/MultimediaLoadModel.cs
     startLine: 10
@@ -66,8 +66,8 @@ items:
   source:
     remote:
       path: src/Components/MultimediaLoadModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Thumbnail
     path: Components/MultimediaLoadModel.cs
     startLine: 15

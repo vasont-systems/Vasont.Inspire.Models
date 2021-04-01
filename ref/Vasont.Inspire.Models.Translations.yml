@@ -18,8 +18,11 @@ items:
   - Vasont.Inspire.Models.Translations.TranslationJobComponentModel
   - Vasont.Inspire.Models.Translations.TranslationJobComponentState
   - Vasont.Inspire.Models.Translations.TranslationJobModel
+  - Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel
   - Vasont.Inspire.Models.Translations.TranslationJobState
   - Vasont.Inspire.Models.Translations.TranslationJobStateModel
+  - Vasont.Inspire.Models.Translations.TranslationLanguageGroupItemModel
+  - Vasont.Inspire.Models.Translations.TranslationLanguageGroupItemType
   - Vasont.Inspire.Models.Translations.TranslationLanguageGroupModel
   - Vasont.Inspire.Models.Translations.TranslationVendorFieldModel
   - Vasont.Inspire.Models.Translations.TranslationVendorFieldValueModel
@@ -114,11 +117,28 @@ references:
   name: TranslationJobModel
   nameWithType: TranslationJobModel
   fullName: Vasont.Inspire.Models.Translations.TranslationJobModel
+- uid: Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel
+  commentId: T:Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel
+  parent: Vasont.Inspire.Models.Translations
+  name: TranslationJobPropertiesModel
+  nameWithType: TranslationJobPropertiesModel
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel
 - uid: Vasont.Inspire.Models.Translations.TranslationJobStateModel
   commentId: T:Vasont.Inspire.Models.Translations.TranslationJobStateModel
   name: TranslationJobStateModel
   nameWithType: TranslationJobStateModel
   fullName: Vasont.Inspire.Models.Translations.TranslationJobStateModel
+- uid: Vasont.Inspire.Models.Translations.TranslationLanguageGroupItemType
+  commentId: T:Vasont.Inspire.Models.Translations.TranslationLanguageGroupItemType
+  parent: Vasont.Inspire.Models.Translations
+  name: TranslationLanguageGroupItemType
+  nameWithType: TranslationLanguageGroupItemType
+  fullName: Vasont.Inspire.Models.Translations.TranslationLanguageGroupItemType
+- uid: Vasont.Inspire.Models.Translations.TranslationLanguageGroupItemModel
+  commentId: T:Vasont.Inspire.Models.Translations.TranslationLanguageGroupItemModel
+  name: TranslationLanguageGroupItemModel
+  nameWithType: TranslationLanguageGroupItemModel
+  fullName: Vasont.Inspire.Models.Translations.TranslationLanguageGroupItemModel
 - uid: Vasont.Inspire.Models.Translations.TranslationLanguageGroupModel
   commentId: T:Vasont.Inspire.Models.Translations.TranslationLanguageGroupModel
   name: TranslationLanguageGroupModel

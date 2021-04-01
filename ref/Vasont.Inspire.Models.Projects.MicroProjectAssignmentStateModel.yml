@@ -17,8 +17,8 @@ items:
   source:
     remote:
       path: src/Projects/MicroProjectAssignmentStateModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MicroProjectAssignmentStateModel
     path: Projects/MicroProjectAssignmentStateModel.cs
     startLine: 10
@@ -60,8 +60,8 @@ items:
   source:
     remote:
       path: src/Projects/MicroProjectAssignmentStateModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectAssignmentStateId
     path: Projects/MicroProjectAssignmentStateModel.cs
     startLine: 15
@@ -97,8 +97,8 @@ items:
   source:
     remote:
       path: src/Projects/MicroProjectAssignmentStateModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Projects/MicroProjectAssignmentStateModel.cs
     startLine: 20

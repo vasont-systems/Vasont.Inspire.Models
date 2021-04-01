@@ -16,8 +16,8 @@ items:
   source:
     remote:
       path: src/Utilities/SupportMessageModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SupportMessageModel
     path: Utilities/SupportMessageModel.cs
     startLine: 10
@@ -59,8 +59,8 @@ items:
   source:
     remote:
       path: src/Utilities/SupportMessageModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Message
     path: Utilities/SupportMessageModel.cs
     startLine: 15

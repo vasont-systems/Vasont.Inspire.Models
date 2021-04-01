@@ -23,8 +23,8 @@ items:
   source:
     remote:
       path: src/Security/PermissionFlags.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PermissionFlags
     path: Security/PermissionFlags.cs
     startLine: 12
@@ -74,8 +74,8 @@ items:
   source:
     remote:
       path: src/Security/PermissionFlags.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: None
     path: Security/PermissionFlags.cs
     startLine: 18
@@ -108,8 +108,8 @@ items:
   source:
     remote:
       path: src/Security/PermissionFlags.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Read
     path: Security/PermissionFlags.cs
     startLine: 23
@@ -142,8 +142,8 @@ items:
   source:
     remote:
       path: src/Security/PermissionFlags.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Create
     path: Security/PermissionFlags.cs
     startLine: 28
@@ -176,8 +176,8 @@ items:
   source:
     remote:
       path: src/Security/PermissionFlags.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Update
     path: Security/PermissionFlags.cs
     startLine: 33
@@ -210,8 +210,8 @@ items:
   source:
     remote:
       path: src/Security/PermissionFlags.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Delete
     path: Security/PermissionFlags.cs
     startLine: 38
@@ -244,8 +244,8 @@ items:
   source:
     remote:
       path: src/Security/PermissionFlags.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SetPermissions
     path: Security/PermissionFlags.cs
     startLine: 43
@@ -278,8 +278,8 @@ items:
   source:
     remote:
       path: src/Security/PermissionFlags.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Rename
     path: Security/PermissionFlags.cs
     startLine: 48
@@ -312,8 +312,8 @@ items:
   source:
     remote:
       path: src/Security/PermissionFlags.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: All
     path: Security/PermissionFlags.cs
     startLine: 53

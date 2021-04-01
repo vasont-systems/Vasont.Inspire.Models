@@ -17,8 +17,8 @@ items:
   source:
     remote:
       path: src/Common/DisplayValuePair.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DisplayValuePair
     path: Common/DisplayValuePair.cs
     startLine: 12
@@ -72,8 +72,8 @@ items:
   source:
     remote:
       path: src/Common/DisplayValuePair.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Display
     path: Common/DisplayValuePair.cs
     startLine: 17
@@ -111,8 +111,8 @@ items:
   source:
     remote:
       path: src/Common/DisplayValuePair.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Value
     path: Common/DisplayValuePair.cs
     startLine: 22

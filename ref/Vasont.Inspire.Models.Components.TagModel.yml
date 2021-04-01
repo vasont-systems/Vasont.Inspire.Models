@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: src/Components/TagModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TagModel
     path: Components/TagModel.cs
     startLine: 10
@@ -62,8 +62,8 @@ items:
   source:
     remote:
       path: src/Components/TagModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TagId
     path: Components/TagModel.cs
     startLine: 15
@@ -99,8 +99,8 @@ items:
   source:
     remote:
       path: src/Components/TagModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TagName
     path: Components/TagModel.cs
     startLine: 20
@@ -136,8 +136,8 @@ items:
   source:
     remote:
       path: src/Components/TagModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReferenceCount
     path: Components/TagModel.cs
     startLine: 25
@@ -173,8 +173,8 @@ items:
   source:
     remote:
       path: src/Components/TagModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SystemTag
     path: Components/TagModel.cs
     startLine: 30

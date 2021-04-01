@@ -24,8 +24,8 @@ items:
   source:
     remote:
       path: src/ProfileFilters/ProfileFilterModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProfileFilterModel
     path: ProfileFilters/ProfileFilterModel.cs
     startLine: 13
@@ -67,8 +67,8 @@ items:
   source:
     remote:
       path: src/ProfileFilters/ProfileFilterModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProfileFilterId
     path: ProfileFilters/ProfileFilterModel.cs
     startLine: 18
@@ -104,8 +104,8 @@ items:
   source:
     remote:
       path: src/ProfileFilters/ProfileFilterModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Owner
     path: ProfileFilters/ProfileFilterModel.cs
     startLine: 23
@@ -141,8 +141,8 @@ items:
   source:
     remote:
       path: src/ProfileFilters/ProfileFilterModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Title
     path: ProfileFilters/ProfileFilterModel.cs
     startLine: 28
@@ -178,8 +178,8 @@ items:
   source:
     remote:
       path: src/ProfileFilters/ProfileFilterModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: ProfileFilters/ProfileFilterModel.cs
     startLine: 33
@@ -215,8 +215,8 @@ items:
   source:
     remote:
       path: src/ProfileFilters/ProfileFilterModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SystemShared
     path: ProfileFilters/ProfileFilterModel.cs
     startLine: 38
@@ -252,8 +252,8 @@ items:
   source:
     remote:
       path: src/ProfileFilters/ProfileFilterModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Active
     path: ProfileFilters/ProfileFilterModel.cs
     startLine: 43
@@ -289,8 +289,8 @@ items:
   source:
     remote:
       path: src/ProfileFilters/ProfileFilterModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AttributeValues
     path: ProfileFilters/ProfileFilterModel.cs
     startLine: 48
@@ -326,8 +326,8 @@ items:
   source:
     remote:
       path: src/ProfileFilters/ProfileFilterModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SharedUsers
     path: ProfileFilters/ProfileFilterModel.cs
     startLine: 53
@@ -363,8 +363,8 @@ items:
   source:
     remote:
       path: src/ProfileFilters/ProfileFilterModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SharedRoles
     path: ProfileFilters/ProfileFilterModel.cs
     startLine: 58

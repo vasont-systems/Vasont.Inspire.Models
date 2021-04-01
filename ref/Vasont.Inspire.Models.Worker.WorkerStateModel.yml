@@ -21,8 +21,8 @@ items:
   source:
     remote:
       path: src/Worker/WorkerStateModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkerStateModel
     path: Worker/WorkerStateModel.cs
     startLine: 47
@@ -79,8 +79,8 @@ items:
   source:
     remote:
       path: src/Worker/WorkerStateModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Worker/WorkerStateModel.cs
     startLine: 52
@@ -111,8 +111,8 @@ items:
   source:
     remote:
       path: src/Worker/WorkerStateModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SendResultNotification
     path: Worker/WorkerStateModel.cs
     startLine: 63
@@ -148,8 +148,8 @@ items:
   source:
     remote:
       path: src/Worker/WorkerStateModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SubmittedByUserName
     path: Worker/WorkerStateModel.cs
     startLine: 68
@@ -185,8 +185,8 @@ items:
   source:
     remote:
       path: src/Worker/WorkerStateModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkerPath
     path: Worker/WorkerStateModel.cs
     startLine: 73
@@ -222,8 +222,8 @@ items:
   source:
     remote:
       path: src/Worker/WorkerStateModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AddIssue
     path: Worker/WorkerStateModel.cs
     startLine: 81
@@ -258,8 +258,8 @@ items:
   source:
     remote:
       path: src/Worker/WorkerStateModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AddIssue
     path: Worker/WorkerStateModel.cs
     startLine: 92

@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: src/Transfers/ProcessHistoricRelationsResultModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProcessHistoricRelationsResultModel
     path: Transfers/ProcessHistoricRelationsResultModel.cs
     startLine: 12
@@ -62,8 +62,8 @@ items:
   source:
     remote:
       path: src/Transfers/ProcessHistoricRelationsResultModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Transfers/ProcessHistoricRelationsResultModel.cs
     startLine: 19
@@ -104,8 +104,8 @@ items:
   source:
     remote:
       path: src/Transfers/ProcessHistoricRelationsResultModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Success
     path: Transfers/ProcessHistoricRelationsResultModel.cs
     startLine: 28
@@ -141,8 +141,8 @@ items:
   source:
     remote:
       path: src/Transfers/ProcessHistoricRelationsResultModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: References
     path: Transfers/ProcessHistoricRelationsResultModel.cs
     startLine: 33
@@ -178,8 +178,8 @@ items:
   source:
     remote:
       path: src/Transfers/ProcessHistoricRelationsResultModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MissingReferences
     path: Transfers/ProcessHistoricRelationsResultModel.cs
     startLine: 38

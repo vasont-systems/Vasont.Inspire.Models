@@ -29,8 +29,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentModel
     path: Components/ComponentModel.cs
     startLine: 13
@@ -99,8 +99,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/ComponentModel.cs
     startLine: 18
@@ -131,8 +131,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentType
     path: Components/ComponentModel.cs
     startLine: 30
@@ -168,8 +168,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentTypeName
     path: Components/ComponentModel.cs
     startLine: 35
@@ -205,8 +205,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ContentTypeId
     path: Components/ComponentModel.cs
     startLine: 40
@@ -242,8 +242,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: BinaryContent
     path: Components/ComponentModel.cs
     startLine: 45
@@ -279,8 +279,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: XmlContent
     path: Components/ComponentModel.cs
     startLine: 50
@@ -316,8 +316,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RolePermissions
     path: Components/ComponentModel.cs
     startLine: 55
@@ -353,8 +353,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserPermissions
     path: Components/ComponentModel.cs
     startLine: 60
@@ -390,8 +390,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Folders
     path: Components/ComponentModel.cs
     startLine: 65
@@ -427,8 +427,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Properties
     path: Components/ComponentModel.cs
     startLine: 70
@@ -464,8 +464,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Tags
     path: Components/ComponentModel.cs
     startLine: 75
@@ -501,8 +501,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedBy
     path: Components/ComponentModel.cs
     startLine: 80
@@ -538,8 +538,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdatedBy
     path: Components/ComponentModel.cs
     startLine: 85
@@ -575,8 +575,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserAccesses
     path: Components/ComponentModel.cs
     startLine: 90

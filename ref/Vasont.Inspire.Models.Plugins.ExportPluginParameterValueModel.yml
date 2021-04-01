@@ -20,8 +20,8 @@ items:
   source:
     remote:
       path: src/Plugins/ExportPluginParameterValueModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportPluginParameterValueModel
     path: Plugins/ExportPluginParameterValueModel.cs
     startLine: 10
@@ -63,8 +63,8 @@ items:
   source:
     remote:
       path: src/Plugins/ExportPluginParameterValueModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportPluginParameterValueId
     path: Plugins/ExportPluginParameterValueModel.cs
     startLine: 15
@@ -100,8 +100,8 @@ items:
   source:
     remote:
       path: src/Plugins/ExportPluginParameterValueModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportPluginId
     path: Plugins/ExportPluginParameterValueModel.cs
     startLine: 20
@@ -137,8 +137,8 @@ items:
   source:
     remote:
       path: src/Plugins/ExportPluginParameterValueModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PluginParameterId
     path: Plugins/ExportPluginParameterValueModel.cs
     startLine: 25
@@ -174,8 +174,8 @@ items:
   source:
     remote:
       path: src/Plugins/ExportPluginParameterValueModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SortOrder
     path: Plugins/ExportPluginParameterValueModel.cs
     startLine: 30
@@ -211,8 +211,8 @@ items:
   source:
     remote:
       path: src/Plugins/ExportPluginParameterValueModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Value
     path: Plugins/ExportPluginParameterValueModel.cs
     startLine: 35

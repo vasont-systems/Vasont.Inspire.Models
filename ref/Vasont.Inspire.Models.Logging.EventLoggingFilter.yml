@@ -23,8 +23,8 @@ items:
   source:
     remote:
       path: src/Logging/EventLoggingFilter.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EventLoggingFilter
     path: Logging/EventLoggingFilter.cs
     startLine: 13
@@ -68,8 +68,8 @@ items:
   source:
     remote:
       path: src/Logging/EventLoggingFilter.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Logging/EventLoggingFilter.cs
     startLine: 18
@@ -100,8 +100,8 @@ items:
   source:
     remote:
       path: src/Logging/EventLoggingFilter.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: StartDate
     path: Logging/EventLoggingFilter.cs
     startLine: 30
@@ -137,8 +137,8 @@ items:
   source:
     remote:
       path: src/Logging/EventLoggingFilter.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EndDate
     path: Logging/EventLoggingFilter.cs
     startLine: 35
@@ -174,8 +174,8 @@ items:
   source:
     remote:
       path: src/Logging/EventLoggingFilter.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: OrderByName
     path: Logging/EventLoggingFilter.cs
     startLine: 40
@@ -211,8 +211,8 @@ items:
   source:
     remote:
       path: src/Logging/EventLoggingFilter.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Direction
     path: Logging/EventLoggingFilter.cs
     startLine: 45
@@ -248,8 +248,8 @@ items:
   source:
     remote:
       path: src/Logging/EventLoggingFilter.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MaximumRows
     path: Logging/EventLoggingFilter.cs
     startLine: 50
@@ -285,8 +285,8 @@ items:
   source:
     remote:
       path: src/Logging/EventLoggingFilter.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LoggerName
     path: Logging/EventLoggingFilter.cs
     startLine: 55
@@ -322,8 +322,8 @@ items:
   source:
     remote:
       path: src/Logging/EventLoggingFilter.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LevelsFilter
     path: Logging/EventLoggingFilter.cs
     startLine: 60

@@ -18,8 +18,8 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RelationKeyName
     path: Configuration/RelationModel.cs
     startLine: 13
@@ -63,8 +63,8 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: None
     path: Configuration/RelationModel.cs
     startLine: 19
@@ -97,8 +97,8 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Branch
     path: Configuration/RelationModel.cs
     startLine: 24
@@ -131,8 +131,8 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Translation
     path: Configuration/RelationModel.cs
     startLine: 29

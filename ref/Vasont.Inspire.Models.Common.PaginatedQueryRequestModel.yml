@@ -21,8 +21,8 @@ items:
   source:
     remote:
       path: src/Common/PaginatedQueryRequestModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PaginatedQueryRequestModel
     path: Common/PaginatedQueryRequestModel.cs
     startLine: 13
@@ -75,8 +75,8 @@ items:
   source:
     remote:
       path: src/Common/PaginatedQueryRequestModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Common/PaginatedQueryRequestModel.cs
     startLine: 18
@@ -107,8 +107,8 @@ items:
   source:
     remote:
       path: src/Common/PaginatedQueryRequestModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Common/PaginatedQueryRequestModel.cs
     startLine: 28
@@ -146,8 +146,8 @@ items:
   source:
     remote:
       path: src/Common/PaginatedQueryRequestModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Page
     path: Common/PaginatedQueryRequestModel.cs
     startLine: 39
@@ -183,8 +183,8 @@ items:
   source:
     remote:
       path: src/Common/PaginatedQueryRequestModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Limit
     path: Common/PaginatedQueryRequestModel.cs
     startLine: 44
@@ -220,8 +220,8 @@ items:
   source:
     remote:
       path: src/Common/PaginatedQueryRequestModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Sort
     path: Common/PaginatedQueryRequestModel.cs
     startLine: 49
@@ -257,8 +257,8 @@ items:
   source:
     remote:
       path: src/Common/PaginatedQueryRequestModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Dir
     path: Common/PaginatedQueryRequestModel.cs
     startLine: 54

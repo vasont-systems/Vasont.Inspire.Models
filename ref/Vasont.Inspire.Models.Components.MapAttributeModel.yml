@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: src/Components/MapAttributeModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MapAttributeModel
     path: Components/MapAttributeModel.cs
     startLine: 11
@@ -62,8 +62,8 @@ items:
   source:
     remote:
       path: src/Components/MapAttributeModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Components/MapAttributeModel.cs
     startLine: 16
@@ -99,8 +99,8 @@ items:
   source:
     remote:
       path: src/Components/MapAttributeModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Value
     path: Components/MapAttributeModel.cs
     startLine: 21
@@ -136,8 +136,8 @@ items:
   source:
     remote:
       path: src/Components/MapAttributeModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsTracked
     path: Components/MapAttributeModel.cs
     startLine: 26
@@ -173,8 +173,8 @@ items:
   source:
     remote:
       path: src/Components/MapAttributeModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Metadata
     path: Components/MapAttributeModel.cs
     startLine: 31
