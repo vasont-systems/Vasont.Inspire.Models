@@ -18,8 +18,8 @@ items:
   source:
     remote:
       path: src/Components/MinimalPermissionModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalPermissionModel
     path: Components/MinimalPermissionModel.cs
     startLine: 12
@@ -61,8 +61,8 @@ items:
   source:
     remote:
       path: src/Components/MinimalPermissionModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Id
     path: Components/MinimalPermissionModel.cs
     startLine: 17
@@ -98,8 +98,8 @@ items:
   source:
     remote:
       path: src/Components/MinimalPermissionModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Components/MinimalPermissionModel.cs
     startLine: 22
@@ -135,8 +135,8 @@ items:
   source:
     remote:
       path: src/Components/MinimalPermissionModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Permission
     path: Components/MinimalPermissionModel.cs
     startLine: 27

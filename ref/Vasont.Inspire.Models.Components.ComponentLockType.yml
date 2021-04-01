@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentLockType
     path: Components/ComponentLockModel.cs
     startLine: 17
@@ -64,8 +64,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Standard
     path: Components/ComponentLockModel.cs
     startLine: 23
@@ -98,8 +98,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Review
     path: Components/ComponentLockModel.cs
     startLine: 28
@@ -132,8 +132,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Translation
     path: Components/ComponentLockModel.cs
     startLine: 33
@@ -166,8 +166,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Edit
     path: Components/ComponentLockModel.cs
     startLine: 38

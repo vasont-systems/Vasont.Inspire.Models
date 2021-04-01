@@ -24,8 +24,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExecuteImportModel
     path: Transfers/ExecuteImportModel.cs
     startLine: 12
@@ -67,8 +67,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkingFolderPath
     path: Transfers/ExecuteImportModel.cs
     startLine: 17
@@ -104,8 +104,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FilePaths
     path: Transfers/ExecuteImportModel.cs
     startLine: 22
@@ -141,8 +141,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetFolderId
     path: Transfers/ExecuteImportModel.cs
     startLine: 27
@@ -178,8 +178,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetProjectFolderId
     path: Transfers/ExecuteImportModel.cs
     startLine: 32
@@ -215,8 +215,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SendResultNotification
     path: Transfers/ExecuteImportModel.cs
     startLine: 37
@@ -252,8 +252,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DeleteFiles
     path: Transfers/ExecuteImportModel.cs
     startLine: 42
@@ -289,8 +289,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreateTargetSubfolders
     path: Transfers/ExecuteImportModel.cs
     startLine: 47
@@ -326,8 +326,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkerCacheLifeTimeoutMinutes
     path: Transfers/ExecuteImportModel.cs
     startLine: 52
@@ -363,8 +363,8 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WaitForCompletion
     path: Transfers/ExecuteImportModel.cs
     startLine: 57

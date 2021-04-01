@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalExportComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportContentResult
     path: Transfers/MinimalExportComponentModel.cs
     startLine: 17
@@ -64,8 +64,8 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalExportComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Success
     path: Transfers/MinimalExportComponentModel.cs
     startLine: 23
@@ -98,8 +98,8 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalExportComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Failed
     path: Transfers/MinimalExportComponentModel.cs
     startLine: 28
@@ -132,8 +132,8 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalExportComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Modified
     path: Transfers/MinimalExportComponentModel.cs
     startLine: 34
@@ -166,8 +166,8 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalExportComponentModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Removed
     path: Transfers/MinimalExportComponentModel.cs
     startLine: 39

@@ -18,8 +18,8 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NotificationState
     path: Notifications/NotificationModel.cs
     startLine: 68
@@ -63,8 +63,8 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Unread
     path: Notifications/NotificationModel.cs
     startLine: 74
@@ -97,8 +97,8 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Read
     path: Notifications/NotificationModel.cs
     startLine: 79
@@ -131,8 +131,8 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Archived
     path: Notifications/NotificationModel.cs
     startLine: 84

@@ -17,8 +17,8 @@ items:
   source:
     remote:
       path: src/Security/TimeZoneModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TimeZoneModel
     path: Security/TimeZoneModel.cs
     startLine: 10
@@ -67,8 +67,8 @@ items:
   source:
     remote:
       path: src/Security/TimeZoneModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LongName
     path: Security/TimeZoneModel.cs
     startLine: 15
@@ -104,8 +104,8 @@ items:
   source:
     remote:
       path: src/Security/TimeZoneModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Offset
     path: Security/TimeZoneModel.cs
     startLine: 20

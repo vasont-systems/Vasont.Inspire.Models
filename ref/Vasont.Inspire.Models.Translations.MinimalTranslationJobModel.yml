@@ -18,15 +18,22 @@ items:
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CreatedDate
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.Description
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.DueDate
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.FileDownloadUrl
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.LanguageNames
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.Languages
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.Name
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.ProjectCode
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.RetrievalRequest
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.RetrievalResponse
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.State
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.StateName
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.SubmissionAttributes
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.SubmissionRequest
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.SubmissionResponse
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationIntegrationId
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationJobId
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationJobProperties
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationPropertiesId
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationVendor
   langs:
   - csharp
@@ -38,8 +45,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalTranslationJobModel
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 69
@@ -83,8 +90,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationJobId
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 74
@@ -120,8 +127,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 79
@@ -157,8 +164,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 84
@@ -194,8 +201,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: State
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 89
@@ -231,8 +238,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: StateName
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 94
@@ -278,8 +285,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationVendor
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 104
@@ -315,8 +322,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Coordinator
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 109
@@ -352,8 +359,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedDate
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 114
@@ -389,8 +396,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedBy
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 119
@@ -426,8 +433,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DueDate
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 124
@@ -463,8 +470,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CompletedDate
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 129
@@ -500,8 +507,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CompletedBy
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 134
@@ -537,8 +544,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Archived
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 139
@@ -574,8 +581,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Languages
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 144
@@ -611,8 +618,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LanguageNames
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 149
@@ -648,8 +655,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SubmissionAttributes
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 154
@@ -685,8 +692,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectCode
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 159
@@ -722,8 +729,8 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationIntegrationId
     path: Translations/MinimalTranslationJobModel.cs
     startLine: 164
@@ -745,6 +752,80 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationPropertiesId
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationPropertiesId
+  id: TranslationPropertiesId
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: TranslationPropertiesId
+  nameWithType: MinimalTranslationJobModel.TranslationPropertiesId
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationPropertiesId
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TranslationPropertiesId
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 169
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the translation properties id.\n"
+  example: []
+  syntax:
+    content: public long? TranslationPropertiesId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int64}
+    content.vb: Public Property TranslationPropertiesId As Long?
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationPropertiesId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationJobProperties
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationJobProperties
+  id: TranslationJobProperties
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: TranslationJobProperties
+  nameWithType: MinimalTranslationJobModel.TranslationJobProperties
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationJobProperties
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TranslationJobProperties
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 174
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the translation job properties.\n"
+  example: []
+  syntax:
+    content: public TranslationJobPropertiesModel TranslationJobProperties { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel
+    content.vb: Public Property TranslationJobProperties As TranslationJobPropertiesModel
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationJobProperties*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelAtVendor
   commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelAtVendor
   id: CancelAtVendor
@@ -759,11 +840,11 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CancelAtVendor
     path: Translations/MinimalTranslationJobModel.cs
-    startLine: 169
+    startLine: 179
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -796,11 +877,11 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CancelledDate
     path: Translations/MinimalTranslationJobModel.cs
-    startLine: 174
+    startLine: 184
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -833,11 +914,11 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CancelledBy
     path: Translations/MinimalTranslationJobModel.cs
-    startLine: 179
+    startLine: 189
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -870,11 +951,11 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ArchivedDate
     path: Translations/MinimalTranslationJobModel.cs
-    startLine: 184
+    startLine: 194
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -907,11 +988,11 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ArchivedBy
     path: Translations/MinimalTranslationJobModel.cs
-    startLine: 189
+    startLine: 199
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -924,6 +1005,191 @@ items:
       type: Vasont.Inspire.Models.Security.MinimalUserModel
     content.vb: Public Property ArchivedBy As MinimalUserModel
   overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.ArchivedBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.SubmissionRequest
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.SubmissionRequest
+  id: SubmissionRequest
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: SubmissionRequest
+  nameWithType: MinimalTranslationJobModel.SubmissionRequest
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.SubmissionRequest
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SubmissionRequest
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 204
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the submission request info sent over to the integration.\n"
+  example: []
+  syntax:
+    content: public string SubmissionRequest { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SubmissionRequest As String
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.SubmissionRequest*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.SubmissionResponse
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.SubmissionResponse
+  id: SubmissionResponse
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: SubmissionResponse
+  nameWithType: MinimalTranslationJobModel.SubmissionResponse
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.SubmissionResponse
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SubmissionResponse
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 209
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the submission response info received from the integration.\n"
+  example: []
+  syntax:
+    content: public string SubmissionResponse { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SubmissionResponse As String
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.SubmissionResponse*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.RetrievalRequest
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.RetrievalRequest
+  id: RetrievalRequest
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: RetrievalRequest
+  nameWithType: MinimalTranslationJobModel.RetrievalRequest
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.RetrievalRequest
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RetrievalRequest
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 214
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the retrieval request info sent over to the integration.\n"
+  example: []
+  syntax:
+    content: public string RetrievalRequest { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RetrievalRequest As String
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.RetrievalRequest*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.RetrievalResponse
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.RetrievalResponse
+  id: RetrievalResponse
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: RetrievalResponse
+  nameWithType: MinimalTranslationJobModel.RetrievalResponse
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.RetrievalResponse
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RetrievalResponse
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 219
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the retrieval response info received from the integration.\n"
+  example: []
+  syntax:
+    content: public string RetrievalResponse { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RetrievalResponse As String
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.RetrievalResponse*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.FileDownloadUrl
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.FileDownloadUrl
+  id: FileDownloadUrl
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: FileDownloadUrl
+  nameWithType: MinimalTranslationJobModel.FileDownloadUrl
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.FileDownloadUrl
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FileDownloadUrl
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 224
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the Url from where the resulting files can be downloaded.\n"
+  example: []
+  syntax:
+    content: public string FileDownloadUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FileDownloadUrl As String
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.FileDownloadUrl*
   modifiers.csharp:
   - public
   - get
@@ -1589,6 +1855,22 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationPropertiesId*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationPropertiesId
+  name: TranslationPropertiesId
+  nameWithType: MinimalTranslationJobModel.TranslationPropertiesId
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationPropertiesId
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationJobProperties*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationJobProperties
+  name: TranslationJobProperties
+  nameWithType: MinimalTranslationJobModel.TranslationJobProperties
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationJobProperties
+- uid: Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel
+  commentId: T:Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel
+  parent: Vasont.Inspire.Models.Translations
+  name: TranslationJobPropertiesModel
+  nameWithType: TranslationJobPropertiesModel
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel
 - uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelAtVendor*
   commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.CancelAtVendor
   name: CancelAtVendor
@@ -1614,3 +1896,28 @@ references:
   name: ArchivedBy
   nameWithType: MinimalTranslationJobModel.ArchivedBy
   fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.ArchivedBy
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.SubmissionRequest*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.SubmissionRequest
+  name: SubmissionRequest
+  nameWithType: MinimalTranslationJobModel.SubmissionRequest
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.SubmissionRequest
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.SubmissionResponse*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.SubmissionResponse
+  name: SubmissionResponse
+  nameWithType: MinimalTranslationJobModel.SubmissionResponse
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.SubmissionResponse
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.RetrievalRequest*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.RetrievalRequest
+  name: RetrievalRequest
+  nameWithType: MinimalTranslationJobModel.RetrievalRequest
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.RetrievalRequest
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.RetrievalResponse*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.RetrievalResponse
+  name: RetrievalResponse
+  nameWithType: MinimalTranslationJobModel.RetrievalResponse
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.RetrievalResponse
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.FileDownloadUrl*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.FileDownloadUrl
+  name: FileDownloadUrl
+  nameWithType: MinimalTranslationJobModel.FileDownloadUrl
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.FileDownloadUrl

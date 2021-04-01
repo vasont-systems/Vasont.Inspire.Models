@@ -5,6 +5,7 @@ items:
   id: WebhookConfigurationNameType
   parent: Vasont.Inspire.Models.Webhooks
   children:
+  - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ProjectDirectorNotification
   - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.PublishResult
   - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ZoominFeedback
   - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ZoominNewContent
@@ -18,8 +19,8 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WebhookConfigurationNameType
     path: Webhooks/WebhookConfigurationModel.cs
     startLine: 13
@@ -63,8 +64,8 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ZoominFeedback
     path: Webhooks/WebhookConfigurationModel.cs
     startLine: 19
@@ -97,8 +98,8 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ZoominNewContent
     path: Webhooks/WebhookConfigurationModel.cs
     startLine: 24
@@ -131,8 +132,8 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PublishResult
     path: Webhooks/WebhookConfigurationModel.cs
     startLine: 29
@@ -143,6 +144,40 @@ items:
   example: []
   syntax:
     content: PublishResult = 2
+    return:
+      type: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ProjectDirectorNotification
+  commentId: F:Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ProjectDirectorNotification
+  id: ProjectDirectorNotification
+  parent: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  langs:
+  - csharp
+  - vb
+  name: ProjectDirectorNotification
+  nameWithType: WebhookConfigurationNameType.ProjectDirectorNotification
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ProjectDirectorNotification
+  type: Field
+  source:
+    remote:
+      path: src/Webhooks/WebhookConfigurationModel.cs
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProjectDirectorNotification
+    path: Webhooks/WebhookConfigurationModel.cs
+    startLine: 34
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nThe project director notification webook.\n"
+  example: []
+  syntax:
+    content: ProjectDirectorNotification = 3
     return:
       type: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
   modifiers.csharp:

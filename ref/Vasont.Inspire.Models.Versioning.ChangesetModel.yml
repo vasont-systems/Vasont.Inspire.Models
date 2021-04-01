@@ -22,8 +22,8 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetModel
     path: Versioning/ChangesetModel.cs
     startLine: 14
@@ -65,8 +65,8 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetId
     path: Versioning/ChangesetModel.cs
     startLine: 19
@@ -102,8 +102,8 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetNumber
     path: Versioning/ChangesetModel.cs
     startLine: 24
@@ -139,8 +139,8 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetDate
     path: Versioning/ChangesetModel.cs
     startLine: 29
@@ -176,8 +176,8 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: User
     path: Versioning/ChangesetModel.cs
     startLine: 34
@@ -213,8 +213,8 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Label
     path: Versioning/ChangesetModel.cs
     startLine: 39
@@ -250,8 +250,8 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Comment
     path: Versioning/ChangesetModel.cs
     startLine: 44
@@ -287,8 +287,8 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Snapshots
     path: Versioning/ChangesetModel.cs
     startLine: 49

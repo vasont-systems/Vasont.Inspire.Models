@@ -18,8 +18,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentAutoRepairModel
     path: Components/ComponentAutoRepairModel.cs
     startLine: 36
@@ -61,8 +61,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentId
     path: Components/ComponentAutoRepairModel.cs
     startLine: 41
@@ -98,8 +98,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentName
     path: Components/ComponentAutoRepairModel.cs
     startLine: 46
@@ -135,8 +135,8 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: State
     path: Components/ComponentAutoRepairModel.cs
     startLine: 51

@@ -6,6 +6,7 @@ items:
   parent: Vasont.Inspire.Models.Versioning
   children:
   - Vasont.Inspire.Models.Versioning.RestoreOptionsModel.IsDeleted
+  - Vasont.Inspire.Models.Versioning.RestoreOptionsModel.RestoreAllComponents
   - Vasont.Inspire.Models.Versioning.RestoreOptionsModel.RestoreAsNew
   - Vasont.Inspire.Models.Versioning.RestoreOptionsModel.TargetFolderId
   langs:
@@ -18,8 +19,8 @@ items:
   source:
     remote:
       path: src/Versioning/RestoreOptionsModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RestoreOptionsModel
     path: Versioning/RestoreOptionsModel.cs
     startLine: 10
@@ -61,8 +62,8 @@ items:
   source:
     remote:
       path: src/Versioning/RestoreOptionsModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsDeleted
     path: Versioning/RestoreOptionsModel.cs
     startLine: 15
@@ -98,8 +99,8 @@ items:
   source:
     remote:
       path: src/Versioning/RestoreOptionsModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RestoreAsNew
     path: Versioning/RestoreOptionsModel.cs
     startLine: 20
@@ -135,8 +136,8 @@ items:
   source:
     remote:
       path: src/Versioning/RestoreOptionsModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetFolderId
     path: Versioning/RestoreOptionsModel.cs
     startLine: 25
@@ -152,6 +153,43 @@ items:
       type: System.Int64
     content.vb: Public Property TargetFolderId As Long
   overload: Vasont.Inspire.Models.Versioning.RestoreOptionsModel.TargetFolderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.RestoreOptionsModel.RestoreAllComponents
+  commentId: P:Vasont.Inspire.Models.Versioning.RestoreOptionsModel.RestoreAllComponents
+  id: RestoreAllComponents
+  parent: Vasont.Inspire.Models.Versioning.RestoreOptionsModel
+  langs:
+  - csharp
+  - vb
+  name: RestoreAllComponents
+  nameWithType: RestoreOptionsModel.RestoreAllComponents
+  fullName: Vasont.Inspire.Models.Versioning.RestoreOptionsModel.RestoreAllComponents
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/RestoreOptionsModel.cs
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RestoreAllComponents
+    path: Versioning/RestoreOptionsModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets a value indicating whether the entire snapshot should be restored or only a component.\n"
+  example: []
+  syntax:
+    content: public bool RestoreAllComponents { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property RestoreAllComponents As Boolean
+  overload: Vasont.Inspire.Models.Versioning.RestoreOptionsModel.RestoreAllComponents*
   modifiers.csharp:
   - public
   - get
@@ -485,3 +523,8 @@ references:
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: Vasont.Inspire.Models.Versioning.RestoreOptionsModel.RestoreAllComponents*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.RestoreOptionsModel.RestoreAllComponents
+  name: RestoreAllComponents
+  nameWithType: RestoreOptionsModel.RestoreAllComponents
+  fullName: Vasont.Inspire.Models.Versioning.RestoreOptionsModel.RestoreAllComponents

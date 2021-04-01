@@ -12,6 +12,7 @@ items:
   - Vasont.Inspire.Models.Common.TenantDetailModel.Name
   - Vasont.Inspire.Models.Common.TenantDetailModel.OxygenWebCustom
   - Vasont.Inspire.Models.Common.TenantDetailModel.OxygenWebEnabled
+  - Vasont.Inspire.Models.Common.TenantDetailModel.PreviewSystem
   - Vasont.Inspire.Models.Common.TenantDetailModel.SessionTimeout
   - Vasont.Inspire.Models.Common.TenantDetailModel.SubscriptionLevel
   - Vasont.Inspire.Models.Common.TenantDetailModel.SupportEmail
@@ -29,8 +30,8 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TenantDetailModel
     path: Common/TenantDetailModel.cs
     startLine: 13
@@ -72,8 +73,8 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DomainKey
     path: Common/TenantDetailModel.cs
     startLine: 18
@@ -109,8 +110,8 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Common/TenantDetailModel.cs
     startLine: 23
@@ -146,8 +147,8 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SubscriptionLevel
     path: Common/TenantDetailModel.cs
     startLine: 28
@@ -183,8 +184,8 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SupportInfo
     path: Common/TenantDetailModel.cs
     startLine: 33
@@ -220,8 +221,8 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SupportEmail
     path: Common/TenantDetailModel.cs
     startLine: 38
@@ -257,8 +258,8 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DefaultLanguage
     path: Common/TenantDetailModel.cs
     startLine: 43
@@ -294,8 +295,8 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SessionTimeout
     path: Common/TenantDetailModel.cs
     startLine: 48
@@ -331,8 +332,8 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationFilteringEnabled
     path: Common/TenantDetailModel.cs
     startLine: 53
@@ -368,8 +369,8 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationLockSourceDisabled
     path: Common/TenantDetailModel.cs
     startLine: 58
@@ -405,8 +406,8 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: OxygenWebEnabled
     path: Common/TenantDetailModel.cs
     startLine: 63
@@ -442,8 +443,8 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: OxygenWebCustom
     path: Common/TenantDetailModel.cs
     startLine: 68
@@ -465,6 +466,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.PreviewSystem
+  commentId: P:Vasont.Inspire.Models.Common.TenantDetailModel.PreviewSystem
+  id: PreviewSystem
+  parent: Vasont.Inspire.Models.Common.TenantDetailModel
+  langs:
+  - csharp
+  - vb
+  name: PreviewSystem
+  nameWithType: TenantDetailModel.PreviewSystem
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.PreviewSystem
+  type: Property
+  source:
+    remote:
+      path: src/Common/TenantDetailModel.cs
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PreviewSystem
+    path: Common/TenantDetailModel.cs
+    startLine: 73
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets a value indicating whether the application is on a preview system.\n"
+  example: []
+  syntax:
+    content: public bool PreviewSystem { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PreviewSystem As Boolean
+  overload: Vasont.Inspire.Models.Common.TenantDetailModel.PreviewSystem*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Common.TenantDetailModel.InspireSchemaCustom
   commentId: P:Vasont.Inspire.Models.Common.TenantDetailModel.InspireSchemaCustom
   id: InspireSchemaCustom
@@ -479,11 +517,11 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: InspireSchemaCustom
     path: Common/TenantDetailModel.cs
-    startLine: 73
+    startLine: 78
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Common
@@ -516,11 +554,11 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Copyright
     path: Common/TenantDetailModel.cs
-    startLine: 78
+    startLine: 83
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Common
@@ -553,11 +591,11 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Version
     path: Common/TenantDetailModel.cs
-    startLine: 83
+    startLine: 88
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Common
@@ -963,6 +1001,11 @@ references:
   name: OxygenWebCustom
   nameWithType: TenantDetailModel.OxygenWebCustom
   fullName: Vasont.Inspire.Models.Common.TenantDetailModel.OxygenWebCustom
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.PreviewSystem*
+  commentId: Overload:Vasont.Inspire.Models.Common.TenantDetailModel.PreviewSystem
+  name: PreviewSystem
+  nameWithType: TenantDetailModel.PreviewSystem
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.PreviewSystem
 - uid: Vasont.Inspire.Models.Common.TenantDetailModel.InspireSchemaCustom*
   commentId: Overload:Vasont.Inspire.Models.Common.TenantDetailModel.InspireSchemaCustom
   name: InspireSchemaCustom

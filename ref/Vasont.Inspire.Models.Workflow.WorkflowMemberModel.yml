@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowMemberModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowMemberModel
     path: Workflow/WorkflowMemberModel.cs
     startLine: 12
@@ -62,8 +62,8 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowMemberModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserId
     path: Workflow/WorkflowMemberModel.cs
     startLine: 18
@@ -99,8 +99,8 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowMemberModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Email
     path: Workflow/WorkflowMemberModel.cs
     startLine: 23
@@ -136,8 +136,8 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowMemberModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FullName
     path: Workflow/WorkflowMemberModel.cs
     startLine: 28
@@ -173,8 +173,8 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowMemberModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Type
     path: Workflow/WorkflowMemberModel.cs
     startLine: 33

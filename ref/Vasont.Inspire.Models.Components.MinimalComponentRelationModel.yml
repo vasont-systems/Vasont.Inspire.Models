@@ -21,8 +21,8 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentRelationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalComponentRelationModel
     path: Components/MinimalComponentRelationModel.cs
     startLine: 10
@@ -64,8 +64,8 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentRelationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceComponentId
     path: Components/MinimalComponentRelationModel.cs
     startLine: 15
@@ -101,8 +101,8 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentRelationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetComponentId
     path: Components/MinimalComponentRelationModel.cs
     startLine: 20
@@ -138,8 +138,8 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentRelationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceElementName
     path: Components/MinimalComponentRelationModel.cs
     startLine: 25
@@ -175,8 +175,8 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentRelationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceAttributeValue
     path: Components/MinimalComponentRelationModel.cs
     startLine: 30
@@ -212,8 +212,8 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentRelationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetElementName
     path: Components/MinimalComponentRelationModel.cs
     startLine: 35
@@ -249,8 +249,8 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentRelationModel.cs
-      branch: develop
-      repo: git@github.com:vasont-systems/Vasont.Inspire.Models.git
+      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetAttributeValue
     path: Components/MinimalComponentRelationModel.cs
     startLine: 40
