@@ -97,6 +97,11 @@ namespace Vasont.Inspire.Models.Security
         /// </summary>
         public bool Deletable { get; set; }
 
+        /// <summary>
+        /// Gets or sets a value indicating whether the user account is named.
+        /// </summary>
+        public bool Named { get; set; }
+
         #endregion
     }
 }
