@@ -32,6 +32,7 @@ namespace Vasont.Inspire.Models.Transfers
         /// Gets or sets a value indicating whether notifications are sent.
         /// </summary>
         public bool SendNotification { get; set; } = true;
+
         /// <summary>
         /// Gets or sets a list of <see cref="ImportRequestFileModel"/> that defines files to be imported.
         /// </summary>
