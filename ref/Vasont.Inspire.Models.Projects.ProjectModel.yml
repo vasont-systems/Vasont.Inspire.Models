@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectModel
     path: Projects/ProjectModel.cs
@@ -91,7 +91,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Discussions
     path: Projects/ProjectModel.cs
@@ -128,7 +128,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FolderItems
     path: Projects/ProjectModel.cs
@@ -165,7 +165,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Assignments
     path: Projects/ProjectModel.cs
@@ -202,7 +202,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserAccesses
     path: Projects/ProjectModel.cs
@@ -239,7 +239,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Workflows
     path: Projects/ProjectModel.cs

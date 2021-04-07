@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PublishType
     path: Plugins/PublishRequestModel.cs
@@ -67,7 +67,7 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Pdf
     path: Plugins/PublishRequestModel.cs
@@ -101,7 +101,7 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Html
     path: Plugins/PublishRequestModel.cs
@@ -135,7 +135,7 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Zoomin
     path: Plugins/PublishRequestModel.cs
@@ -169,7 +169,7 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DocBook
     path: Plugins/PublishRequestModel.cs
@@ -203,7 +203,7 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AntennaHousePdf
     path: Plugins/PublishRequestModel.cs
@@ -237,7 +237,7 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Compare
     path: Plugins/PublishRequestModel.cs
@@ -271,7 +271,7 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Python
     path: Plugins/PublishRequestModel.cs

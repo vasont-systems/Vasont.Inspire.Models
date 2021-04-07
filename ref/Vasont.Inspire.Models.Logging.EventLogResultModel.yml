@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Logging/EventLogResultModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EventLogResultModel
     path: Logging/EventLogResultModel.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: src/Logging/EventLogResultModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TotalCount
     path: Logging/EventLogResultModel.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Logging/EventLogResultModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Results
     path: Logging/EventLogResultModel.cs

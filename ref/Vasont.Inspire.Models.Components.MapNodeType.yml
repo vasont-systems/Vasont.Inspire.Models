@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Components/MapNodeModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MapNodeType
     path: Components/MapNodeModel.cs
@@ -63,7 +63,7 @@ items:
   source:
     remote:
       path: src/Components/MapNodeModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Element
     path: Components/MapNodeModel.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Components/MapNodeModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Comment
     path: Components/MapNodeModel.cs
@@ -131,7 +131,7 @@ items:
   source:
     remote:
       path: src/Components/MapNodeModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProcessingInstruction
     path: Components/MapNodeModel.cs

@@ -9,6 +9,7 @@ items:
   - Vasont.Inspire.Models.Components.EditorLoadModel.CompareComponentId
   - Vasont.Inspire.Models.Components.EditorLoadModel.EditorMode
   - Vasont.Inspire.Models.Components.EditorLoadModel.EditorType
+  - Vasont.Inspire.Models.Components.EditorLoadModel.IncludeDocType
   - Vasont.Inspire.Models.Components.EditorLoadModel.MapReferenceId
   - Vasont.Inspire.Models.Components.EditorLoadModel.ResolveReferences
   - Vasont.Inspire.Models.Components.EditorLoadModel.ReviewMode
@@ -25,11 +26,11 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EditorLoadModel
     path: Components/EditorLoadModel.cs
-    startLine: 95
+    startLine: 100
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -75,11 +76,11 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EditorType
     path: Components/EditorLoadModel.cs
-    startLine: 100
+    startLine: 105
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -112,11 +113,11 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EditorMode
     path: Components/EditorLoadModel.cs
-    startLine: 105
+    startLine: 110
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -149,11 +150,11 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewMode
     path: Components/EditorLoadModel.cs
-    startLine: 110
+    startLine: 115
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -186,11 +187,11 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SchemaType
     path: Components/EditorLoadModel.cs
-    startLine: 115
+    startLine: 120
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -223,11 +224,11 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Version
     path: Components/EditorLoadModel.cs
-    startLine: 120
+    startLine: 125
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -260,11 +261,11 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ResolveReferences
     path: Components/EditorLoadModel.cs
-    startLine: 125
+    startLine: 130
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -297,11 +298,11 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Unresolved
     path: Components/EditorLoadModel.cs
-    startLine: 130
+    startLine: 135
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -334,11 +335,11 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MapReferenceId
     path: Components/EditorLoadModel.cs
-    startLine: 135
+    startLine: 140
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -371,11 +372,11 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CompareComponentId
     path: Components/EditorLoadModel.cs
-    startLine: 140
+    startLine: 145
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -408,11 +409,11 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CompareChangesetId
     path: Components/EditorLoadModel.cs
-    startLine: 145
+    startLine: 150
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -425,6 +426,43 @@ items:
       type: System.Guid
     content.vb: Public Property CompareChangesetId As Guid
   overload: Vasont.Inspire.Models.Components.EditorLoadModel.CompareChangesetId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.IncludeDocType
+  commentId: P:Vasont.Inspire.Models.Components.EditorLoadModel.IncludeDocType
+  id: IncludeDocType
+  parent: Vasont.Inspire.Models.Components.EditorLoadModel
+  langs:
+  - csharp
+  - vb
+  name: IncludeDocType
+  nameWithType: EditorLoadModel.IncludeDocType
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.IncludeDocType
+  type: Property
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IncludeDocType
+    path: Components/EditorLoadModel.cs
+    startLine: 155
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether the DocType should be included in XML.\n"
+  example: []
+  syntax:
+    content: public bool IncludeDocType { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeDocType As Boolean
+  overload: Vasont.Inspire.Models.Components.EditorLoadModel.IncludeDocType*
   modifiers.csharp:
   - public
   - get
@@ -855,3 +893,8 @@ references:
   name: Guid
   nameWithType: Guid
   fullName: System.Guid
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.IncludeDocType*
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorLoadModel.IncludeDocType
+  name: IncludeDocType
+  nameWithType: EditorLoadModel.IncludeDocType
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.IncludeDocType
