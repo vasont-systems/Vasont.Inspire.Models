@@ -26,6 +26,11 @@ namespace Vasont.Inspire.Models.Components
         XEditor,
 
         /// <summary>
+        /// Content is transformed for Xeditor-RawEditor.
+        /// </summary>
+        XEditorRawEditor,
+
+        /// <summary>
         /// Content is transformed using Oxygen WebApp-specific HTML editor standard.
         /// </summary>
         OxygenWeb,
@@ -144,5 +149,10 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets the optional guid for the component history to compare.
         /// </summary>
         public Guid CompareChangesetId { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the DocType should be included in XML.
+        /// </summary>
+        public bool IncludeDocType { get; set; }
     }
 }

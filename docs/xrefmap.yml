@@ -921,6 +921,32 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Common.TenantDetailModel.Name
   nameWithType: TenantDetailModel.Name
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.OxygenConcurrentSeats
+  name: OxygenConcurrentSeats
+  href: ref/Vasont.Inspire.Models.Common.TenantDetailModel.html#Vasont_Inspire_Models_Common_TenantDetailModel_OxygenConcurrentSeats
+  commentId: P:Vasont.Inspire.Models.Common.TenantDetailModel.OxygenConcurrentSeats
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.OxygenConcurrentSeats
+  nameWithType: TenantDetailModel.OxygenConcurrentSeats
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.OxygenConcurrentSeats*
+  name: OxygenConcurrentSeats
+  href: ref/Vasont.Inspire.Models.Common.TenantDetailModel.html#Vasont_Inspire_Models_Common_TenantDetailModel_OxygenConcurrentSeats_
+  commentId: Overload:Vasont.Inspire.Models.Common.TenantDetailModel.OxygenConcurrentSeats
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.OxygenConcurrentSeats
+  nameWithType: TenantDetailModel.OxygenConcurrentSeats
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.OxygenNamedSeats
+  name: OxygenNamedSeats
+  href: ref/Vasont.Inspire.Models.Common.TenantDetailModel.html#Vasont_Inspire_Models_Common_TenantDetailModel_OxygenNamedSeats
+  commentId: P:Vasont.Inspire.Models.Common.TenantDetailModel.OxygenNamedSeats
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.OxygenNamedSeats
+  nameWithType: TenantDetailModel.OxygenNamedSeats
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.OxygenNamedSeats*
+  name: OxygenNamedSeats
+  href: ref/Vasont.Inspire.Models.Common.TenantDetailModel.html#Vasont_Inspire_Models_Common_TenantDetailModel_OxygenNamedSeats_
+  commentId: Overload:Vasont.Inspire.Models.Common.TenantDetailModel.OxygenNamedSeats
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.OxygenNamedSeats
+  nameWithType: TenantDetailModel.OxygenNamedSeats
 - uid: Vasont.Inspire.Models.Common.TenantDetailModel.OxygenWebCustom
   name: OxygenWebCustom
   href: ref/Vasont.Inspire.Models.Common.TenantDetailModel.html#Vasont_Inspire_Models_Common_TenantDetailModel_OxygenWebCustom
@@ -4013,6 +4039,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.EditorLoadModel.EditorType
   nameWithType: EditorLoadModel.EditorType
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.IncludeDocType
+  name: IncludeDocType
+  href: ref/Vasont.Inspire.Models.Components.EditorLoadModel.html#Vasont_Inspire_Models_Components_EditorLoadModel_IncludeDocType
+  commentId: P:Vasont.Inspire.Models.Components.EditorLoadModel.IncludeDocType
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.IncludeDocType
+  nameWithType: EditorLoadModel.IncludeDocType
+- uid: Vasont.Inspire.Models.Components.EditorLoadModel.IncludeDocType*
+  name: IncludeDocType
+  href: ref/Vasont.Inspire.Models.Components.EditorLoadModel.html#Vasont_Inspire_Models_Components_EditorLoadModel_IncludeDocType_
+  commentId: Overload:Vasont.Inspire.Models.Components.EditorLoadModel.IncludeDocType
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.EditorLoadModel.IncludeDocType
+  nameWithType: EditorLoadModel.IncludeDocType
 - uid: Vasont.Inspire.Models.Components.EditorLoadModel.MapReferenceId
   name: MapReferenceId
   href: ref/Vasont.Inspire.Models.Components.EditorLoadModel.html#Vasont_Inspire_Models_Components_EditorLoadModel_MapReferenceId
@@ -4669,6 +4708,12 @@ references:
   commentId: F:Vasont.Inspire.Models.Components.EditorType.XEditor
   fullName: Vasont.Inspire.Models.Components.EditorType.XEditor
   nameWithType: EditorType.XEditor
+- uid: Vasont.Inspire.Models.Components.EditorType.XEditorRawEditor
+  name: XEditorRawEditor
+  href: ref/Vasont.Inspire.Models.Components.EditorType.html#Vasont_Inspire_Models_Components_EditorType_XEditorRawEditor
+  commentId: F:Vasont.Inspire.Models.Components.EditorType.XEditorRawEditor
+  fullName: Vasont.Inspire.Models.Components.EditorType.XEditorRawEditor
+  nameWithType: EditorType.XEditorRawEditor
 - uid: Vasont.Inspire.Models.Components.EditorValidateModel
   name: EditorValidateModel
   href: ref/Vasont.Inspire.Models.Components.EditorValidateModel.html
@@ -19275,6 +19320,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Security.UserModel.ExternalUserId
   nameWithType: UserModel.ExternalUserId
+- uid: Vasont.Inspire.Models.Security.UserModel.Named
+  name: Named
+  href: ref/Vasont.Inspire.Models.Security.UserModel.html#Vasont_Inspire_Models_Security_UserModel_Named
+  commentId: P:Vasont.Inspire.Models.Security.UserModel.Named
+  fullName: Vasont.Inspire.Models.Security.UserModel.Named
+  nameWithType: UserModel.Named
+- uid: Vasont.Inspire.Models.Security.UserModel.Named*
+  name: Named
+  href: ref/Vasont.Inspire.Models.Security.UserModel.html#Vasont_Inspire_Models_Security_UserModel_Named_
+  commentId: Overload:Vasont.Inspire.Models.Security.UserModel.Named
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Security.UserModel.Named
+  nameWithType: UserModel.Named
 - uid: Vasont.Inspire.Models.Security.UserModel.Notes
   name: Notes
   href: ref/Vasont.Inspire.Models.Security.UserModel.html#Vasont_Inspire_Models_Security_UserModel_Notes
@@ -20538,6 +20596,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Transfers.ImportRequestModel.ProjectFolderId
   nameWithType: ImportRequestModel.ProjectFolderId
+- uid: Vasont.Inspire.Models.Transfers.ImportRequestModel.SendNotification
+  name: SendNotification
+  href: ref/Vasont.Inspire.Models.Transfers.ImportRequestModel.html#Vasont_Inspire_Models_Transfers_ImportRequestModel_SendNotification
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportRequestModel.SendNotification
+  fullName: Vasont.Inspire.Models.Transfers.ImportRequestModel.SendNotification
+  nameWithType: ImportRequestModel.SendNotification
+- uid: Vasont.Inspire.Models.Transfers.ImportRequestModel.SendNotification*
+  name: SendNotification
+  href: ref/Vasont.Inspire.Models.Transfers.ImportRequestModel.html#Vasont_Inspire_Models_Transfers_ImportRequestModel_SendNotification_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportRequestModel.SendNotification
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.ImportRequestModel.SendNotification
+  nameWithType: ImportRequestModel.SendNotification
 - uid: Vasont.Inspire.Models.Transfers.ImportRequestModel.WaitForCompletion
   name: WaitForCompletion
   href: ref/Vasont.Inspire.Models.Transfers.ImportRequestModel.html#Vasont_Inspire_Models_Transfers_ImportRequestModel_WaitForCompletion

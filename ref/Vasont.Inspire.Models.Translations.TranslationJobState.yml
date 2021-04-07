@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationJobState
     path: Translations/MinimalTranslationJobModel.cs
@@ -67,7 +67,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Translating
     path: Translations/MinimalTranslationJobModel.cs
@@ -114,7 +114,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Completed
     path: Translations/MinimalTranslationJobModel.cs
@@ -161,7 +161,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Cancelled
     path: Translations/MinimalTranslationJobModel.cs
@@ -208,7 +208,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Exporting
     path: Translations/MinimalTranslationJobModel.cs
@@ -255,7 +255,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AtVendor
     path: Translations/MinimalTranslationJobModel.cs
@@ -302,7 +302,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FailedSending
     path: Translations/MinimalTranslationJobModel.cs
@@ -349,7 +349,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FailedRetrieving
     path: Translations/MinimalTranslationJobModel.cs
