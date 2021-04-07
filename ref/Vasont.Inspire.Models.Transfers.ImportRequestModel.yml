@@ -9,6 +9,7 @@ items:
   - Vasont.Inspire.Models.Transfers.ImportRequestModel.FolderId
   - Vasont.Inspire.Models.Transfers.ImportRequestModel.ImportFiles
   - Vasont.Inspire.Models.Transfers.ImportRequestModel.ProjectFolderId
+  - Vasont.Inspire.Models.Transfers.ImportRequestModel.SendNotification
   - Vasont.Inspire.Models.Transfers.ImportRequestModel.WaitForCompletion
   langs:
   - csharp
@@ -20,7 +21,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportRequestModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ImportRequestModel
     path: Transfers/ImportRequestModel.cs
@@ -63,7 +64,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportRequestModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FolderId
     path: Transfers/ImportRequestModel.cs
@@ -100,7 +101,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportRequestModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectFolderId
     path: Transfers/ImportRequestModel.cs
@@ -137,7 +138,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportRequestModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WaitForCompletion
     path: Transfers/ImportRequestModel.cs
@@ -160,6 +161,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Transfers.ImportRequestModel.SendNotification
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportRequestModel.SendNotification
+  id: SendNotification
+  parent: Vasont.Inspire.Models.Transfers.ImportRequestModel
+  langs:
+  - csharp
+  - vb
+  name: SendNotification
+  nameWithType: ImportRequestModel.SendNotification
+  fullName: Vasont.Inspire.Models.Transfers.ImportRequestModel.SendNotification
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ImportRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SendNotification
+    path: Transfers/ImportRequestModel.cs
+    startLine: 33
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets a value indicating whether notifications are sent.\n"
+  example: []
+  syntax:
+    content: public bool SendNotification { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SendNotification As Boolean
+  overload: Vasont.Inspire.Models.Transfers.ImportRequestModel.SendNotification*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Transfers.ImportRequestModel.ImportFiles
   commentId: P:Vasont.Inspire.Models.Transfers.ImportRequestModel.ImportFiles
   id: ImportFiles
@@ -174,11 +212,11 @@ items:
   source:
     remote:
       path: src/Transfers/ImportRequestModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ImportFiles
     path: Transfers/ImportRequestModel.cs
-    startLine: 33
+    startLine: 38
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -211,11 +249,11 @@ items:
   source:
     remote:
       path: src/Transfers/ImportRequestModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Files
     path: Transfers/ImportRequestModel.cs
-    startLine: 38
+    startLine: 43
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -561,6 +599,11 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Transfers.ImportRequestModel.SendNotification*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportRequestModel.SendNotification
+  name: SendNotification
+  nameWithType: ImportRequestModel.SendNotification
+  fullName: Vasont.Inspire.Models.Transfers.ImportRequestModel.SendNotification
 - uid: Vasont.Inspire.Models.Transfers.ImportRequestFileModel
   commentId: T:Vasont.Inspire.Models.Transfers.ImportRequestFileModel
   name: ImportRequestFileModel

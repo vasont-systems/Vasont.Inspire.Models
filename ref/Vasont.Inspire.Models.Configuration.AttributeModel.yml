@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Configuration/AttributeModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AttributeModel
     path: Configuration/AttributeModel.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: src/Configuration/AttributeModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AttributeId
     path: Configuration/AttributeModel.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Configuration/AttributeModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AttributeName
     path: Configuration/AttributeModel.cs

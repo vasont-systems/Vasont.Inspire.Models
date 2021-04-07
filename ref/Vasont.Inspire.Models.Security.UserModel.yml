@@ -12,6 +12,7 @@ items:
   - Vasont.Inspire.Models.Security.UserModel.CreatedDate
   - Vasont.Inspire.Models.Security.UserModel.Deletable
   - Vasont.Inspire.Models.Security.UserModel.ExternalUserId
+  - Vasont.Inspire.Models.Security.UserModel.Named
   - Vasont.Inspire.Models.Security.UserModel.Notes
   - Vasont.Inspire.Models.Security.UserModel.Roles
   - Vasont.Inspire.Models.Security.UserModel.TimeZone
@@ -28,7 +29,7 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserModel
     path: Security/UserModel.cs
@@ -86,7 +87,7 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Security/UserModel.cs
@@ -118,7 +119,7 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Security/UserModel.cs
@@ -157,7 +158,7 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExternalUserId
     path: Security/UserModel.cs
@@ -194,7 +195,7 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserType
     path: Security/UserModel.cs
@@ -231,7 +232,7 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TimeZone
     path: Security/UserModel.cs
@@ -268,7 +269,7 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedDate
     path: Security/UserModel.cs
@@ -305,7 +306,7 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedBy
     path: Security/UserModel.cs
@@ -342,7 +343,7 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdatedDate
     path: Security/UserModel.cs
@@ -379,7 +380,7 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdatedBy
     path: Security/UserModel.cs
@@ -416,7 +417,7 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Roles
     path: Security/UserModel.cs
@@ -453,7 +454,7 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Notes
     path: Security/UserModel.cs
@@ -490,7 +491,7 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Active
     path: Security/UserModel.cs
@@ -527,7 +528,7 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Deletable
     path: Security/UserModel.cs
@@ -544,6 +545,43 @@ items:
       type: System.Boolean
     content.vb: Public Property Deletable As Boolean
   overload: Vasont.Inspire.Models.Security.UserModel.Deletable*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Security.UserModel.Named
+  commentId: P:Vasont.Inspire.Models.Security.UserModel.Named
+  id: Named
+  parent: Vasont.Inspire.Models.Security.UserModel
+  langs:
+  - csharp
+  - vb
+  name: Named
+  nameWithType: UserModel.Named
+  fullName: Vasont.Inspire.Models.Security.UserModel.Named
+  type: Property
+  source:
+    remote:
+      path: src/Security/UserModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Named
+    path: Security/UserModel.cs
+    startLine: 102
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets a value indicating whether the user account is named.\n"
+  example: []
+  syntax:
+    content: public bool Named { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Named As Boolean
+  overload: Vasont.Inspire.Models.Security.UserModel.Named*
   modifiers.csharp:
   - public
   - get
@@ -1111,3 +1149,8 @@ references:
   name: Deletable
   nameWithType: UserModel.Deletable
   fullName: Vasont.Inspire.Models.Security.UserModel.Deletable
+- uid: Vasont.Inspire.Models.Security.UserModel.Named*
+  commentId: Overload:Vasont.Inspire.Models.Security.UserModel.Named
+  name: Named
+  nameWithType: UserModel.Named
+  fullName: Vasont.Inspire.Models.Security.UserModel.Named

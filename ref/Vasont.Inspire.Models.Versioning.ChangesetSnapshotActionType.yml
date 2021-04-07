@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetSnapshotActionType
     path: Versioning/ChangesetSnapshotModel.cs
@@ -66,7 +66,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Create
     path: Versioning/ChangesetSnapshotModel.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Update
     path: Versioning/ChangesetSnapshotModel.cs
@@ -134,7 +134,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdateWithContent
     path: Versioning/ChangesetSnapshotModel.cs
@@ -168,7 +168,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Delete
     path: Versioning/ChangesetSnapshotModel.cs
@@ -202,7 +202,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Move
     path: Versioning/ChangesetSnapshotModel.cs
@@ -236,7 +236,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: OnDemand
     path: Versioning/ChangesetSnapshotModel.cs

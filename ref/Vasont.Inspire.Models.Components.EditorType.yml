@@ -9,6 +9,7 @@ items:
   - Vasont.Inspire.Models.Components.EditorType.Generic
   - Vasont.Inspire.Models.Components.EditorType.OxygenWeb
   - Vasont.Inspire.Models.Components.EditorType.XEditor
+  - Vasont.Inspire.Models.Components.EditorType.XEditorRawEditor
   langs:
   - csharp
   - vb
@@ -19,7 +20,7 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EditorType
     path: Components/EditorLoadModel.cs
@@ -64,7 +65,7 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Generic
     path: Components/EditorLoadModel.cs
@@ -98,7 +99,7 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: XEditor
     path: Components/EditorLoadModel.cs
@@ -110,6 +111,40 @@ items:
   example: []
   syntax:
     content: XEditor = 1
+    return:
+      type: Vasont.Inspire.Models.Components.EditorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.EditorType.XEditorRawEditor
+  commentId: F:Vasont.Inspire.Models.Components.EditorType.XEditorRawEditor
+  id: XEditorRawEditor
+  parent: Vasont.Inspire.Models.Components.EditorType
+  langs:
+  - csharp
+  - vb
+  name: XEditorRawEditor
+  nameWithType: EditorType.XEditorRawEditor
+  fullName: Vasont.Inspire.Models.Components.EditorType.XEditorRawEditor
+  type: Field
+  source:
+    remote:
+      path: src/Components/EditorLoadModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: XEditorRawEditor
+    path: Components/EditorLoadModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nContent is transformed for Xeditor-RawEditor.\n"
+  example: []
+  syntax:
+    content: XEditorRawEditor = 2
     return:
       type: Vasont.Inspire.Models.Components.EditorType
   modifiers.csharp:
@@ -132,18 +167,18 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: OxygenWeb
     path: Components/EditorLoadModel.cs
-    startLine: 30
+    startLine: 35
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
   summary: "\nContent is transformed using Oxygen WebApp-specific HTML editor standard.\n"
   example: []
   syntax:
-    content: OxygenWeb = 2
+    content: OxygenWeb = 3
     return:
       type: Vasont.Inspire.Models.Components.EditorType
   modifiers.csharp:
@@ -166,18 +201,18 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AuthorBridge
     path: Components/EditorLoadModel.cs
-    startLine: 35
+    startLine: 40
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
   summary: "\nContent is transformed using AuthorBridge-specific HTML editor standard.\n"
   example: []
   syntax:
-    content: AuthorBridge = 3
+    content: AuthorBridge = 4
     return:
       type: Vasont.Inspire.Models.Components.EditorType
   modifiers.csharp:

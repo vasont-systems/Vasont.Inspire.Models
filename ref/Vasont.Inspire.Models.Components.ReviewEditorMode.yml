@@ -20,11 +20,11 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewEditorMode
     path: Components/EditorLoadModel.cs
-    startLine: 63
+    startLine: 68
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -65,11 +65,11 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NotReview
     path: Components/EditorLoadModel.cs
-    startLine: 69
+    startLine: 74
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -99,11 +99,11 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Annotate
     path: Components/EditorLoadModel.cs
-    startLine: 74
+    startLine: 79
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -133,11 +133,11 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Review
     path: Components/EditorLoadModel.cs
-    startLine: 79
+    startLine: 84
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -167,11 +167,11 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Resolve
     path: Components/EditorLoadModel.cs
-    startLine: 84
+    startLine: 89
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -201,11 +201,11 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: View
     path: Components/EditorLoadModel.cs
-    startLine: 89
+    startLine: 94
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
