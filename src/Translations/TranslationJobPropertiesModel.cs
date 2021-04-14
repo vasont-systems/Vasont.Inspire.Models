@@ -50,6 +50,5 @@ namespace Vasont.Inspire.Models.Translations
         /// Gets or sets the custom attributes.
         /// </summary>
         public string SubmissionAttributes { get; set; }
-
     }
 }

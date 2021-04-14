@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowActivityEventModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowActivityEventAction
     path: Workflow/WorkflowActivityEventModel.cs
@@ -63,7 +63,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowActivityEventModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EmailAssignees
     path: Workflow/WorkflowActivityEventModel.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowActivityEventModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EmailOwner
     path: Workflow/WorkflowActivityEventModel.cs
@@ -131,7 +131,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowActivityEventModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExecutePlugin
     path: Workflow/WorkflowActivityEventModel.cs

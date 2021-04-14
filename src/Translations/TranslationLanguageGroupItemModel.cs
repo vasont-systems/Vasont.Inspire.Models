@@ -1,5 +1,5 @@
 //--------------------------------------------------------------------------
-// <copyright file="TranslationLanguageGroupModel.cs" company="GlobalLink Vasont">
+// <copyright file="TranslationLanguageGroupItemModel.cs" company="GlobalLink Vasont">
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //--------------------------------------------------------------------------

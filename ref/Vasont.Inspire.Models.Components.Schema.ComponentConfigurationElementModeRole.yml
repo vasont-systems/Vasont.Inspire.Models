@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ComponentElementModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentConfigurationElementModeRole
     path: Components/Schema/ComponentElementModel.cs
@@ -65,7 +65,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ComponentElementModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Empty
     path: Components/Schema/ComponentElementModel.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ComponentElementModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Container
     path: Components/Schema/ComponentElementModel.cs
@@ -133,7 +133,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ComponentElementModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Mixed
     path: Components/Schema/ComponentElementModel.cs
@@ -167,7 +167,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ComponentElementModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MixedWithStyling
     path: Components/Schema/ComponentElementModel.cs
@@ -201,7 +201,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ComponentElementModel.cs
-      branch: feature/51004-Implement-Basic-Auth-for-PD-Rest-Api-Webhooks
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MixedContainer
     path: Components/Schema/ComponentElementModel.cs
