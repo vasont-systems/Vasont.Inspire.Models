@@ -5,6 +5,7 @@ items:
   id: Vasont.Inspire.Models.Components
   children:
   - Vasont.Inspire.Models.Components.BaseLoadModel
+  - Vasont.Inspire.Models.Components.BatchActionResultModel
   - Vasont.Inspire.Models.Components.BatchComponentLockModel
   - Vasont.Inspire.Models.Components.BatchComponentsRequestModel
   - Vasont.Inspire.Models.Components.BatchComponentsResultModel
@@ -40,7 +41,6 @@ items:
   - Vasont.Inspire.Models.Components.ComponentUserPermissionModel
   - Vasont.Inspire.Models.Components.ContentTypeModel
   - Vasont.Inspire.Models.Components.CreateComponentFromTemplateModel
-  - Vasont.Inspire.Models.Components.DeleteResultModel
   - Vasont.Inspire.Models.Components.DetailedComponentModel
   - Vasont.Inspire.Models.Components.DitaComponentReferenceModel
   - Vasont.Inspire.Models.Components.DocBookComponentReferenceModel
@@ -109,6 +109,11 @@ references:
   name: BaseLoadModel
   nameWithType: BaseLoadModel
   fullName: Vasont.Inspire.Models.Components.BaseLoadModel
+- uid: Vasont.Inspire.Models.Components.BatchActionResultModel
+  commentId: T:Vasont.Inspire.Models.Components.BatchActionResultModel
+  name: BatchActionResultModel
+  nameWithType: BatchActionResultModel
+  fullName: Vasont.Inspire.Models.Components.BatchActionResultModel
 - uid: Vasont.Inspire.Models.Components.BatchComponentLockModel
   commentId: T:Vasont.Inspire.Models.Components.BatchComponentLockModel
   name: BatchComponentLockModel
@@ -282,11 +287,6 @@ references:
   name: CreateComponentFromTemplateModel
   nameWithType: CreateComponentFromTemplateModel
   fullName: Vasont.Inspire.Models.Components.CreateComponentFromTemplateModel
-- uid: Vasont.Inspire.Models.Components.DeleteResultModel
-  commentId: T:Vasont.Inspire.Models.Components.DeleteResultModel
-  name: DeleteResultModel
-  nameWithType: DeleteResultModel
-  fullName: Vasont.Inspire.Models.Components.DeleteResultModel
 - uid: Vasont.Inspire.Models.Components.DetailedComponentModel
   commentId: T:Vasont.Inspire.Models.Components.DetailedComponentModel
   name: DetailedComponentModel
