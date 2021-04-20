@@ -90,6 +90,38 @@ references:
   commentId: N:Vasont.Inspire.Models.Common
   fullName: Vasont.Inspire.Models.Common
   nameWithType: Vasont.Inspire.Models.Common
+- uid: Vasont.Inspire.Models.Common.BatchActionResultModelBase
+  name: BatchActionResultModelBase
+  href: ref/Vasont.Inspire.Models.Common.BatchActionResultModelBase.html
+  commentId: T:Vasont.Inspire.Models.Common.BatchActionResultModelBase
+  fullName: Vasont.Inspire.Models.Common.BatchActionResultModelBase
+  nameWithType: BatchActionResultModelBase
+- uid: Vasont.Inspire.Models.Common.BatchActionResultModelBase.Id
+  name: Id
+  href: ref/Vasont.Inspire.Models.Common.BatchActionResultModelBase.html#Vasont_Inspire_Models_Common_BatchActionResultModelBase_Id
+  commentId: P:Vasont.Inspire.Models.Common.BatchActionResultModelBase.Id
+  fullName: Vasont.Inspire.Models.Common.BatchActionResultModelBase.Id
+  nameWithType: BatchActionResultModelBase.Id
+- uid: Vasont.Inspire.Models.Common.BatchActionResultModelBase.Id*
+  name: Id
+  href: ref/Vasont.Inspire.Models.Common.BatchActionResultModelBase.html#Vasont_Inspire_Models_Common_BatchActionResultModelBase_Id_
+  commentId: Overload:Vasont.Inspire.Models.Common.BatchActionResultModelBase.Id
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Common.BatchActionResultModelBase.Id
+  nameWithType: BatchActionResultModelBase.Id
+- uid: Vasont.Inspire.Models.Common.BatchActionResultModelBase.Successful
+  name: Successful
+  href: ref/Vasont.Inspire.Models.Common.BatchActionResultModelBase.html#Vasont_Inspire_Models_Common_BatchActionResultModelBase_Successful
+  commentId: P:Vasont.Inspire.Models.Common.BatchActionResultModelBase.Successful
+  fullName: Vasont.Inspire.Models.Common.BatchActionResultModelBase.Successful
+  nameWithType: BatchActionResultModelBase.Successful
+- uid: Vasont.Inspire.Models.Common.BatchActionResultModelBase.Successful*
+  name: Successful
+  href: ref/Vasont.Inspire.Models.Common.BatchActionResultModelBase.html#Vasont_Inspire_Models_Common_BatchActionResultModelBase_Successful_
+  commentId: Overload:Vasont.Inspire.Models.Common.BatchActionResultModelBase.Successful
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Common.BatchActionResultModelBase.Successful
+  nameWithType: BatchActionResultModelBase.Successful
 - uid: Vasont.Inspire.Models.Common.ComponentStandards
   name: ComponentStandards
   href: ref/Vasont.Inspire.Models.Common.ComponentStandards.html
@@ -292,38 +324,6 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedDate
   nameWithType: CreatedUpdaterModelBase.UpdatedDate
-- uid: Vasont.Inspire.Models.Common.DeleteResultModelBase
-  name: DeleteResultModelBase
-  href: ref/Vasont.Inspire.Models.Common.DeleteResultModelBase.html
-  commentId: T:Vasont.Inspire.Models.Common.DeleteResultModelBase
-  fullName: Vasont.Inspire.Models.Common.DeleteResultModelBase
-  nameWithType: DeleteResultModelBase
-- uid: Vasont.Inspire.Models.Common.DeleteResultModelBase.Id
-  name: Id
-  href: ref/Vasont.Inspire.Models.Common.DeleteResultModelBase.html#Vasont_Inspire_Models_Common_DeleteResultModelBase_Id
-  commentId: P:Vasont.Inspire.Models.Common.DeleteResultModelBase.Id
-  fullName: Vasont.Inspire.Models.Common.DeleteResultModelBase.Id
-  nameWithType: DeleteResultModelBase.Id
-- uid: Vasont.Inspire.Models.Common.DeleteResultModelBase.Id*
-  name: Id
-  href: ref/Vasont.Inspire.Models.Common.DeleteResultModelBase.html#Vasont_Inspire_Models_Common_DeleteResultModelBase_Id_
-  commentId: Overload:Vasont.Inspire.Models.Common.DeleteResultModelBase.Id
-  isSpec: "True"
-  fullName: Vasont.Inspire.Models.Common.DeleteResultModelBase.Id
-  nameWithType: DeleteResultModelBase.Id
-- uid: Vasont.Inspire.Models.Common.DeleteResultModelBase.Successful
-  name: Successful
-  href: ref/Vasont.Inspire.Models.Common.DeleteResultModelBase.html#Vasont_Inspire_Models_Common_DeleteResultModelBase_Successful
-  commentId: P:Vasont.Inspire.Models.Common.DeleteResultModelBase.Successful
-  fullName: Vasont.Inspire.Models.Common.DeleteResultModelBase.Successful
-  nameWithType: DeleteResultModelBase.Successful
-- uid: Vasont.Inspire.Models.Common.DeleteResultModelBase.Successful*
-  name: Successful
-  href: ref/Vasont.Inspire.Models.Common.DeleteResultModelBase.html#Vasont_Inspire_Models_Common_DeleteResultModelBase_Successful_
-  commentId: Overload:Vasont.Inspire.Models.Common.DeleteResultModelBase.Successful
-  isSpec: "True"
-  fullName: Vasont.Inspire.Models.Common.DeleteResultModelBase.Successful
-  nameWithType: DeleteResultModelBase.Successful
 - uid: Vasont.Inspire.Models.Common.DisplayValuePair`2
   name: DisplayValuePair<N, V>
   href: ref/Vasont.Inspire.Models.Common.DisplayValuePair-2.html
@@ -1141,6 +1141,25 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.BaseLoadModel.IsCompare
   nameWithType: BaseLoadModel.IsCompare
+- uid: Vasont.Inspire.Models.Components.BatchActionResultModel
+  name: BatchActionResultModel
+  href: ref/Vasont.Inspire.Models.Components.BatchActionResultModel.html
+  commentId: T:Vasont.Inspire.Models.Components.BatchActionResultModel
+  fullName: Vasont.Inspire.Models.Components.BatchActionResultModel
+  nameWithType: BatchActionResultModel
+- uid: Vasont.Inspire.Models.Components.BatchActionResultModel.SourceReferenceComponents
+  name: SourceReferenceComponents
+  href: ref/Vasont.Inspire.Models.Components.BatchActionResultModel.html#Vasont_Inspire_Models_Components_BatchActionResultModel_SourceReferenceComponents
+  commentId: P:Vasont.Inspire.Models.Components.BatchActionResultModel.SourceReferenceComponents
+  fullName: Vasont.Inspire.Models.Components.BatchActionResultModel.SourceReferenceComponents
+  nameWithType: BatchActionResultModel.SourceReferenceComponents
+- uid: Vasont.Inspire.Models.Components.BatchActionResultModel.SourceReferenceComponents*
+  name: SourceReferenceComponents
+  href: ref/Vasont.Inspire.Models.Components.BatchActionResultModel.html#Vasont_Inspire_Models_Components_BatchActionResultModel_SourceReferenceComponents_
+  commentId: Overload:Vasont.Inspire.Models.Components.BatchActionResultModel.SourceReferenceComponents
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.BatchActionResultModel.SourceReferenceComponents
+  nameWithType: BatchActionResultModel.SourceReferenceComponents
 - uid: Vasont.Inspire.Models.Components.BatchComponentLockModel
   name: BatchComponentLockModel
   href: ref/Vasont.Inspire.Models.Components.BatchComponentLockModel.html
@@ -3636,25 +3655,6 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.CreateComponentFromTemplateModel.TemplateComponentId
   nameWithType: CreateComponentFromTemplateModel.TemplateComponentId
-- uid: Vasont.Inspire.Models.Components.DeleteResultModel
-  name: DeleteResultModel
-  href: ref/Vasont.Inspire.Models.Components.DeleteResultModel.html
-  commentId: T:Vasont.Inspire.Models.Components.DeleteResultModel
-  fullName: Vasont.Inspire.Models.Components.DeleteResultModel
-  nameWithType: DeleteResultModel
-- uid: Vasont.Inspire.Models.Components.DeleteResultModel.SourceReferenceComponents
-  name: SourceReferenceComponents
-  href: ref/Vasont.Inspire.Models.Components.DeleteResultModel.html#Vasont_Inspire_Models_Components_DeleteResultModel_SourceReferenceComponents
-  commentId: P:Vasont.Inspire.Models.Components.DeleteResultModel.SourceReferenceComponents
-  fullName: Vasont.Inspire.Models.Components.DeleteResultModel.SourceReferenceComponents
-  nameWithType: DeleteResultModel.SourceReferenceComponents
-- uid: Vasont.Inspire.Models.Components.DeleteResultModel.SourceReferenceComponents*
-  name: SourceReferenceComponents
-  href: ref/Vasont.Inspire.Models.Components.DeleteResultModel.html#Vasont_Inspire_Models_Components_DeleteResultModel_SourceReferenceComponents_
-  commentId: Overload:Vasont.Inspire.Models.Components.DeleteResultModel.SourceReferenceComponents
-  isSpec: "True"
-  fullName: Vasont.Inspire.Models.Components.DeleteResultModel.SourceReferenceComponents
-  nameWithType: DeleteResultModel.SourceReferenceComponents
 - uid: Vasont.Inspire.Models.Components.DetailedComponentModel
   name: DetailedComponentModel
   href: ref/Vasont.Inspire.Models.Components.DetailedComponentModel.html
@@ -21914,6 +21914,103 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.TranslationVendor
   nameWithType: MinimalTranslationJobModel.TranslationVendor
+- uid: Vasont.Inspire.Models.Translations.SubmissionAttributeModel
+  name: SubmissionAttributeModel
+  href: ref/Vasont.Inspire.Models.Translations.SubmissionAttributeModel.html
+  commentId: T:Vasont.Inspire.Models.Translations.SubmissionAttributeModel
+  fullName: Vasont.Inspire.Models.Translations.SubmissionAttributeModel
+  nameWithType: SubmissionAttributeModel
+- uid: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.CustomAttributes
+  name: CustomAttributes
+  href: ref/Vasont.Inspire.Models.Translations.SubmissionAttributeModel.html#Vasont_Inspire_Models_Translations_SubmissionAttributeModel_CustomAttributes
+  commentId: P:Vasont.Inspire.Models.Translations.SubmissionAttributeModel.CustomAttributes
+  fullName: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.CustomAttributes
+  nameWithType: SubmissionAttributeModel.CustomAttributes
+- uid: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.CustomAttributes*
+  name: CustomAttributes
+  href: ref/Vasont.Inspire.Models.Translations.SubmissionAttributeModel.html#Vasont_Inspire_Models_Translations_SubmissionAttributeModel_CustomAttributes_
+  commentId: Overload:Vasont.Inspire.Models.Translations.SubmissionAttributeModel.CustomAttributes
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.CustomAttributes
+  nameWithType: SubmissionAttributeModel.CustomAttributes
+- uid: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.IsUrgent
+  name: IsUrgent
+  href: ref/Vasont.Inspire.Models.Translations.SubmissionAttributeModel.html#Vasont_Inspire_Models_Translations_SubmissionAttributeModel_IsUrgent
+  commentId: P:Vasont.Inspire.Models.Translations.SubmissionAttributeModel.IsUrgent
+  fullName: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.IsUrgent
+  nameWithType: SubmissionAttributeModel.IsUrgent
+- uid: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.IsUrgent*
+  name: IsUrgent
+  href: ref/Vasont.Inspire.Models.Translations.SubmissionAttributeModel.html#Vasont_Inspire_Models_Translations_SubmissionAttributeModel_IsUrgent_
+  commentId: Overload:Vasont.Inspire.Models.Translations.SubmissionAttributeModel.IsUrgent
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.IsUrgent
+  nameWithType: SubmissionAttributeModel.IsUrgent
+- uid: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.MetaData
+  name: MetaData
+  href: ref/Vasont.Inspire.Models.Translations.SubmissionAttributeModel.html#Vasont_Inspire_Models_Translations_SubmissionAttributeModel_MetaData
+  commentId: P:Vasont.Inspire.Models.Translations.SubmissionAttributeModel.MetaData
+  fullName: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.MetaData
+  nameWithType: SubmissionAttributeModel.MetaData
+- uid: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.MetaData*
+  name: MetaData
+  href: ref/Vasont.Inspire.Models.Translations.SubmissionAttributeModel.html#Vasont_Inspire_Models_Translations_SubmissionAttributeModel_MetaData_
+  commentId: Overload:Vasont.Inspire.Models.Translations.SubmissionAttributeModel.MetaData
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.MetaData
+  nameWithType: SubmissionAttributeModel.MetaData
+- uid: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.Owner
+  name: Owner
+  href: ref/Vasont.Inspire.Models.Translations.SubmissionAttributeModel.html#Vasont_Inspire_Models_Translations_SubmissionAttributeModel_Owner
+  commentId: P:Vasont.Inspire.Models.Translations.SubmissionAttributeModel.Owner
+  fullName: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.Owner
+  nameWithType: SubmissionAttributeModel.Owner
+- uid: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.Owner*
+  name: Owner
+  href: ref/Vasont.Inspire.Models.Translations.SubmissionAttributeModel.html#Vasont_Inspire_Models_Translations_SubmissionAttributeModel_Owner_
+  commentId: Overload:Vasont.Inspire.Models.Translations.SubmissionAttributeModel.Owner
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.Owner
+  nameWithType: SubmissionAttributeModel.Owner
+- uid: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.Owners
+  name: Owners
+  href: ref/Vasont.Inspire.Models.Translations.SubmissionAttributeModel.html#Vasont_Inspire_Models_Translations_SubmissionAttributeModel_Owners
+  commentId: P:Vasont.Inspire.Models.Translations.SubmissionAttributeModel.Owners
+  fullName: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.Owners
+  nameWithType: SubmissionAttributeModel.Owners
+- uid: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.Owners*
+  name: Owners
+  href: ref/Vasont.Inspire.Models.Translations.SubmissionAttributeModel.html#Vasont_Inspire_Models_Translations_SubmissionAttributeModel_Owners_
+  commentId: Overload:Vasont.Inspire.Models.Translations.SubmissionAttributeModel.Owners
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.Owners
+  nameWithType: SubmissionAttributeModel.Owners
+- uid: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.PmNotes
+  name: PmNotes
+  href: ref/Vasont.Inspire.Models.Translations.SubmissionAttributeModel.html#Vasont_Inspire_Models_Translations_SubmissionAttributeModel_PmNotes
+  commentId: P:Vasont.Inspire.Models.Translations.SubmissionAttributeModel.PmNotes
+  fullName: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.PmNotes
+  nameWithType: SubmissionAttributeModel.PmNotes
+- uid: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.PmNotes*
+  name: PmNotes
+  href: ref/Vasont.Inspire.Models.Translations.SubmissionAttributeModel.html#Vasont_Inspire_Models_Translations_SubmissionAttributeModel_PmNotes_
+  commentId: Overload:Vasont.Inspire.Models.Translations.SubmissionAttributeModel.PmNotes
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.PmNotes
+  nameWithType: SubmissionAttributeModel.PmNotes
+- uid: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.Submitter
+  name: Submitter
+  href: ref/Vasont.Inspire.Models.Translations.SubmissionAttributeModel.html#Vasont_Inspire_Models_Translations_SubmissionAttributeModel_Submitter
+  commentId: P:Vasont.Inspire.Models.Translations.SubmissionAttributeModel.Submitter
+  fullName: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.Submitter
+  nameWithType: SubmissionAttributeModel.Submitter
+- uid: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.Submitter*
+  name: Submitter
+  href: ref/Vasont.Inspire.Models.Translations.SubmissionAttributeModel.html#Vasont_Inspire_Models_Translations_SubmissionAttributeModel_Submitter_
+  commentId: Overload:Vasont.Inspire.Models.Translations.SubmissionAttributeModel.Submitter
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.SubmissionAttributeModel.Submitter
+  nameWithType: SubmissionAttributeModel.Submitter
 - uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel
   name: TranslationBrowseQueryModel
   href: ref/Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.html

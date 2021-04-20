@@ -4,10 +4,10 @@ items:
   commentId: N:Vasont.Inspire.Models.Common
   id: Vasont.Inspire.Models.Common
   children:
+  - Vasont.Inspire.Models.Common.BatchActionResultModelBase
   - Vasont.Inspire.Models.Common.ComponentStandards
   - Vasont.Inspire.Models.Common.CoordinatesModel
   - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
-  - Vasont.Inspire.Models.Common.DeleteResultModelBase
   - Vasont.Inspire.Models.Common.DisplayValuePair`2
   - Vasont.Inspire.Models.Common.ErrorModel
   - Vasont.Inspire.Models.Common.ErrorResponseModel
@@ -27,6 +27,12 @@ items:
   assemblies:
   - Vasont.Inspire.Models
 references:
+- uid: Vasont.Inspire.Models.Common.BatchActionResultModelBase
+  commentId: T:Vasont.Inspire.Models.Common.BatchActionResultModelBase
+  parent: Vasont.Inspire.Models.Common
+  name: BatchActionResultModelBase
+  nameWithType: BatchActionResultModelBase
+  fullName: Vasont.Inspire.Models.Common.BatchActionResultModelBase
 - uid: Vasont.Inspire.Models.Common.ComponentStandards
   commentId: T:Vasont.Inspire.Models.Common.ComponentStandards
   name: ComponentStandards
@@ -44,12 +50,6 @@ references:
   name: CreatedUpdaterModelBase
   nameWithType: CreatedUpdaterModelBase
   fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
-- uid: Vasont.Inspire.Models.Common.DeleteResultModelBase
-  commentId: T:Vasont.Inspire.Models.Common.DeleteResultModelBase
-  parent: Vasont.Inspire.Models.Common
-  name: DeleteResultModelBase
-  nameWithType: DeleteResultModelBase
-  fullName: Vasont.Inspire.Models.Common.DeleteResultModelBase
 - uid: Vasont.Inspire.Models.Common.DisplayValuePair`2
   commentId: T:Vasont.Inspire.Models.Common.DisplayValuePair`2
   name: DisplayValuePair<N, V>
