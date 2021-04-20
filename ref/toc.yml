@@ -9,14 +9,14 @@
 - uid: Vasont.Inspire.Models.Common
   name: Vasont.Inspire.Models.Common
   items:
+  - uid: Vasont.Inspire.Models.Common.BatchActionResultModelBase
+    name: BatchActionResultModelBase
   - uid: Vasont.Inspire.Models.Common.ComponentStandards
     name: ComponentStandards
   - uid: Vasont.Inspire.Models.Common.CoordinatesModel
     name: CoordinatesModel
   - uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
     name: CreatedUpdaterModelBase
-  - uid: Vasont.Inspire.Models.Common.DeleteResultModelBase
-    name: DeleteResultModelBase
   - uid: Vasont.Inspire.Models.Common.DisplayValuePair`2
     name: DisplayValuePair<N, V>
     name.vb: DisplayValuePair(Of N, V)
@@ -41,6 +41,8 @@
   items:
   - uid: Vasont.Inspire.Models.Components.BaseLoadModel
     name: BaseLoadModel
+  - uid: Vasont.Inspire.Models.Components.BatchActionResultModel
+    name: BatchActionResultModel
   - uid: Vasont.Inspire.Models.Components.BatchComponentLockModel
     name: BatchComponentLockModel
   - uid: Vasont.Inspire.Models.Components.BatchComponentsRequestModel
@@ -111,8 +113,6 @@
     name: ContentTypeModel
   - uid: Vasont.Inspire.Models.Components.CreateComponentFromTemplateModel
     name: CreateComponentFromTemplateModel
-  - uid: Vasont.Inspire.Models.Components.DeleteResultModel
-    name: DeleteResultModel
   - uid: Vasont.Inspire.Models.Components.DetailedComponentModel
     name: DetailedComponentModel
   - uid: Vasont.Inspire.Models.Components.DitaComponentReferenceModel
@@ -599,6 +599,8 @@
     name: MinimalTranslationJobComponentModel
   - uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
     name: MinimalTranslationJobModel
+  - uid: Vasont.Inspire.Models.Translations.SubmissionAttributeModel
+    name: SubmissionAttributeModel
   - uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel
     name: TranslationBrowseQueryModel
   - uid: Vasont.Inspire.Models.Translations.TranslationBrowseResultModel
