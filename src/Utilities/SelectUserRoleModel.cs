@@ -33,7 +33,12 @@ namespace Vasont.Inspire.Models.Utilities
         /// <summary>
         /// Gets or sets the user or role type.
         /// </summary>
-        public SecurityType Type { get; set; }
+        public SecurityType SecurityType { get; set; }
+
+        /// <summary>
+        /// Gets or sets the user type.
+        /// </summary>
+        public UserType UserType { get; set; }
 
         /// <summary>
         /// Gets or sets the user or role description.
