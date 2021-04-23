@@ -43,18 +43,33 @@ namespace Vasont.Inspire.Models.Security
         public string ExternalUserId { get; set; }
 
         /// <summary>
-        /// Gets or sets the participant type. (i.e. User or Role)
+        /// Gets or sets the participant security type (i.e. User or Role).
         /// </summary>
-        public SecurityType Type { get; set; }
+        public SecurityType SecurityType { get; set; }
+
+        /// <summary>
+        /// Gets or sets the participant user type (i.e. Standard or Support).
+        /// </summary>
+        public UserType UserType { get; set; }
 
         /// <summary>
         /// Gets or sets the type via a string.
         /// </summary>
         [JsonIgnore]
-        public string TypeText
+        public string SecurityTypeText
         {
-            get => this.Type.ToString();
-            set => this.Type = value.ToEnum<SecurityType>();
+            get => this.SecurityType.ToString();
+            set => this.SecurityType = value.ToEnum<SecurityType>();
+        }
+
+        /// <summary>
+        /// Gets or sets the type via a string.
+        /// </summary>
+        [JsonIgnore]
+        public string UserTypeText
+        {
+            get => this.UserType.ToString();
+            set => this.UserType = value.ToEnum<UserType>();
         }
 
         /// <summary>
