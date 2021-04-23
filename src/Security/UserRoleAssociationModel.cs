@@ -43,12 +43,12 @@ namespace Vasont.Inspire.Models.Security
         public string ExternalUserId { get; set; }
 
         /// <summary>
-        /// Gets or sets the participant security type. (i.e. User or Role)
+        /// Gets or sets the participant security type (i.e. User or Role).
         /// </summary>
         public SecurityType SecurityType { get; set; }
 
         /// <summary>
-        /// Gets or sets the participant user type. (i.e. Standard or Support)
+        /// Gets or sets the participant user type (i.e. Standard or Support).
         /// </summary>
         public UserType UserType { get; set; }
 
