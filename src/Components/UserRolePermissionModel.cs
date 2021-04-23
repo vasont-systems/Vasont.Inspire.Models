@@ -80,7 +80,7 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets the type (i.e. User or Role).
         /// </summary>
-        public SecurityType Type { get; set; }
+        public SecurityType SecurityType { get; set; }
 
         /// <summary>
         /// Gets or sets the name of the user or role.
@@ -105,7 +105,7 @@ namespace Vasont.Inspire.Models.Components
         /// <returns>Returns a value indicating whether to render the related property.</returns>
         public bool ShouldSerializeUserId()
         {
-            return this.Type == SecurityType.User;
+            return this.SecurityType == SecurityType.User;
         }
 
         /// <summary>
@@ -114,7 +114,7 @@ namespace Vasont.Inspire.Models.Components
         /// <returns>Returns a value indicating whether to render the related property.</returns>
         public bool ShouldSerializeRoleId()
         {
-            return this.Type == SecurityType.Role;
+            return this.SecurityType == SecurityType.Role;
         }
 
         #endregion
@@ -127,7 +127,7 @@ namespace Vasont.Inspire.Models.Components
         /// <returns>Returns a unique identity string.</returns>
         private string GenerateUniqueId()
         {
-            return this.Type == SecurityType.Role ? "Role_" + this.roleId : "User_" + this.userId;
+            return this.SecurityType == SecurityType.Role ? "Role_" + this.roleId : "User_" + this.userId;
         }
 
         #endregion
