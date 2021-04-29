@@ -11,8 +11,9 @@ items:
   - Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Memberships
   - Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Name
   - Vasont.Inspire.Models.Utilities.SelectUserRoleModel.ProfileImageUrl
-  - Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Type
+  - Vasont.Inspire.Models.Utilities.SelectUserRoleModel.SecurityType
   - Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserRoleId
+  - Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserType
   langs:
   - csharp
   - vb
@@ -163,23 +164,23 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Type
-  commentId: P:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Type
-  id: Type
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.SecurityType
+  commentId: P:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.SecurityType
+  id: SecurityType
   parent: Vasont.Inspire.Models.Utilities.SelectUserRoleModel
   langs:
   - csharp
   - vb
-  name: Type
-  nameWithType: SelectUserRoleModel.Type
-  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Type
+  name: SecurityType
+  nameWithType: SelectUserRoleModel.SecurityType
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.SecurityType
   type: Property
   source:
     remote:
       path: src/Utilities/SelectUserRoleModel.cs
       branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
-    id: Type
+    id: SecurityType
     path: Utilities/SelectUserRoleModel.cs
     startLine: 35
   assemblies:
@@ -188,12 +189,49 @@ items:
   summary: "\nGets or sets the user or role type.\n"
   example: []
   syntax:
-    content: public SecurityType Type { get; set; }
+    content: public SecurityType SecurityType { get; set; }
     parameters: []
     return:
       type: Vasont.Inspire.Models.Security.SecurityType
-    content.vb: Public Property Type As SecurityType
-  overload: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Type*
+    content.vb: Public Property SecurityType As SecurityType
+  overload: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.SecurityType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserType
+  commentId: P:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserType
+  id: UserType
+  parent: Vasont.Inspire.Models.Utilities.SelectUserRoleModel
+  langs:
+  - csharp
+  - vb
+  name: UserType
+  nameWithType: SelectUserRoleModel.UserType
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserType
+  type: Property
+  source:
+    remote:
+      path: src/Utilities/SelectUserRoleModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UserType
+    path: Utilities/SelectUserRoleModel.cs
+    startLine: 40
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Utilities
+  summary: "\nGets or sets the user type.\n"
+  example: []
+  syntax:
+    content: public UserType UserType { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.UserType
+    content.vb: Public Property UserType As UserType
+  overload: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserType*
   modifiers.csharp:
   - public
   - get
@@ -218,7 +256,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Utilities/SelectUserRoleModel.cs
-    startLine: 40
+    startLine: 45
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Utilities
@@ -255,7 +293,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Email
     path: Utilities/SelectUserRoleModel.cs
-    startLine: 45
+    startLine: 50
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Utilities
@@ -292,7 +330,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProfileImageUrl
     path: Utilities/SelectUserRoleModel.cs
-    startLine: 50
+    startLine: 55
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Utilities
@@ -329,7 +367,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Memberships
     path: Utilities/SelectUserRoleModel.cs
-    startLine: 55
+    startLine: 60
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Utilities
@@ -675,11 +713,11 @@ references:
   name: FullName
   nameWithType: SelectUserRoleModel.FullName
   fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.FullName
-- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Type*
-  commentId: Overload:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Type
-  name: Type
-  nameWithType: SelectUserRoleModel.Type
-  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Type
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.SecurityType*
+  commentId: Overload:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.SecurityType
+  name: SecurityType
+  nameWithType: SelectUserRoleModel.SecurityType
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.SecurityType
 - uid: Vasont.Inspire.Models.Security.SecurityType
   commentId: T:Vasont.Inspire.Models.Security.SecurityType
   parent: Vasont.Inspire.Models.Security
@@ -691,6 +729,17 @@ references:
   name: Vasont.Inspire.Models.Security
   nameWithType: Vasont.Inspire.Models.Security
   fullName: Vasont.Inspire.Models.Security
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserType*
+  commentId: Overload:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserType
+  name: UserType
+  nameWithType: SelectUserRoleModel.UserType
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserType
+- uid: Vasont.Inspire.Models.Security.UserType
+  commentId: T:Vasont.Inspire.Models.Security.UserType
+  parent: Vasont.Inspire.Models.Security
+  name: UserType
+  nameWithType: UserType
+  fullName: Vasont.Inspire.Models.Security.UserType
 - uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Description*
   commentId: Overload:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Description
   name: Description
