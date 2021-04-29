@@ -32,7 +32,12 @@ namespace Vasont.Inspire.Models.Webhooks
         /// <summary>
         /// The project director notification webook.
         /// </summary>
-        ProjectDirectorNotification
+        ProjectDirectorNotification,
+
+        /// <summary>
+        /// The oxygen session webhook.
+        /// </summary>
+        OxygenSession
     }
 
     /// <summary>
