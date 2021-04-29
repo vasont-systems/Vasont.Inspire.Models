@@ -109,6 +109,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Common.BatchActionResultModelBase.Id
   nameWithType: BatchActionResultModelBase.Id
+- uid: Vasont.Inspire.Models.Common.BatchActionResultModelBase.Name
+  name: Name
+  href: ref/Vasont.Inspire.Models.Common.BatchActionResultModelBase.html#Vasont_Inspire_Models_Common_BatchActionResultModelBase_Name
+  commentId: P:Vasont.Inspire.Models.Common.BatchActionResultModelBase.Name
+  fullName: Vasont.Inspire.Models.Common.BatchActionResultModelBase.Name
+  nameWithType: BatchActionResultModelBase.Name
+- uid: Vasont.Inspire.Models.Common.BatchActionResultModelBase.Name*
+  name: Name
+  href: ref/Vasont.Inspire.Models.Common.BatchActionResultModelBase.html#Vasont_Inspire_Models_Common_BatchActionResultModelBase_Name_
+  commentId: Overload:Vasont.Inspire.Models.Common.BatchActionResultModelBase.Name
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Common.BatchActionResultModelBase.Name
+  nameWithType: BatchActionResultModelBase.Name
 - uid: Vasont.Inspire.Models.Common.BatchActionResultModelBase.Successful
   name: Successful
   href: ref/Vasont.Inspire.Models.Common.BatchActionResultModelBase.html#Vasont_Inspire_Models_Common_BatchActionResultModelBase_Successful
@@ -324,6 +337,38 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedDate
   nameWithType: CreatedUpdaterModelBase.UpdatedDate
+- uid: Vasont.Inspire.Models.Common.DeleteResultModelBase
+  name: DeleteResultModelBase
+  href: ref/Vasont.Inspire.Models.Common.DeleteResultModelBase.html
+  commentId: T:Vasont.Inspire.Models.Common.DeleteResultModelBase
+  fullName: Vasont.Inspire.Models.Common.DeleteResultModelBase
+  nameWithType: DeleteResultModelBase
+- uid: Vasont.Inspire.Models.Common.DeleteResultModelBase.Id
+  name: Id
+  href: ref/Vasont.Inspire.Models.Common.DeleteResultModelBase.html#Vasont_Inspire_Models_Common_DeleteResultModelBase_Id
+  commentId: P:Vasont.Inspire.Models.Common.DeleteResultModelBase.Id
+  fullName: Vasont.Inspire.Models.Common.DeleteResultModelBase.Id
+  nameWithType: DeleteResultModelBase.Id
+- uid: Vasont.Inspire.Models.Common.DeleteResultModelBase.Id*
+  name: Id
+  href: ref/Vasont.Inspire.Models.Common.DeleteResultModelBase.html#Vasont_Inspire_Models_Common_DeleteResultModelBase_Id_
+  commentId: Overload:Vasont.Inspire.Models.Common.DeleteResultModelBase.Id
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Common.DeleteResultModelBase.Id
+  nameWithType: DeleteResultModelBase.Id
+- uid: Vasont.Inspire.Models.Common.DeleteResultModelBase.Successful
+  name: Successful
+  href: ref/Vasont.Inspire.Models.Common.DeleteResultModelBase.html#Vasont_Inspire_Models_Common_DeleteResultModelBase_Successful
+  commentId: P:Vasont.Inspire.Models.Common.DeleteResultModelBase.Successful
+  fullName: Vasont.Inspire.Models.Common.DeleteResultModelBase.Successful
+  nameWithType: DeleteResultModelBase.Successful
+- uid: Vasont.Inspire.Models.Common.DeleteResultModelBase.Successful*
+  name: Successful
+  href: ref/Vasont.Inspire.Models.Common.DeleteResultModelBase.html#Vasont_Inspire_Models_Common_DeleteResultModelBase_Successful_
+  commentId: Overload:Vasont.Inspire.Models.Common.DeleteResultModelBase.Successful
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Common.DeleteResultModelBase.Successful
+  nameWithType: DeleteResultModelBase.Successful
 - uid: Vasont.Inspire.Models.Common.DisplayValuePair`2
   name: DisplayValuePair<N, V>
   href: ref/Vasont.Inspire.Models.Common.DisplayValuePair-2.html
@@ -3655,6 +3700,25 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.CreateComponentFromTemplateModel.TemplateComponentId
   nameWithType: CreateComponentFromTemplateModel.TemplateComponentId
+- uid: Vasont.Inspire.Models.Components.DeleteResultModel
+  name: DeleteResultModel
+  href: ref/Vasont.Inspire.Models.Components.DeleteResultModel.html
+  commentId: T:Vasont.Inspire.Models.Components.DeleteResultModel
+  fullName: Vasont.Inspire.Models.Components.DeleteResultModel
+  nameWithType: DeleteResultModel
+- uid: Vasont.Inspire.Models.Components.DeleteResultModel.SourceReferenceComponents
+  name: SourceReferenceComponents
+  href: ref/Vasont.Inspire.Models.Components.DeleteResultModel.html#Vasont_Inspire_Models_Components_DeleteResultModel_SourceReferenceComponents
+  commentId: P:Vasont.Inspire.Models.Components.DeleteResultModel.SourceReferenceComponents
+  fullName: Vasont.Inspire.Models.Components.DeleteResultModel.SourceReferenceComponents
+  nameWithType: DeleteResultModel.SourceReferenceComponents
+- uid: Vasont.Inspire.Models.Components.DeleteResultModel.SourceReferenceComponents*
+  name: SourceReferenceComponents
+  href: ref/Vasont.Inspire.Models.Components.DeleteResultModel.html#Vasont_Inspire_Models_Components_DeleteResultModel_SourceReferenceComponents_
+  commentId: Overload:Vasont.Inspire.Models.Components.DeleteResultModel.SourceReferenceComponents
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.DeleteResultModel.SourceReferenceComponents
+  nameWithType: DeleteResultModel.SourceReferenceComponents
 - uid: Vasont.Inspire.Models.Components.DetailedComponentModel
   name: DetailedComponentModel
   href: ref/Vasont.Inspire.Models.Components.DetailedComponentModel.html
@@ -8752,6 +8816,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.RoleId
   nameWithType: UserRolePermissionModel.RoleId
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.SecurityType
+  name: SecurityType
+  href: ref/Vasont.Inspire.Models.Components.UserRolePermissionModel.html#Vasont_Inspire_Models_Components_UserRolePermissionModel_SecurityType
+  commentId: P:Vasont.Inspire.Models.Components.UserRolePermissionModel.SecurityType
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.SecurityType
+  nameWithType: UserRolePermissionModel.SecurityType
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.SecurityType*
+  name: SecurityType
+  href: ref/Vasont.Inspire.Models.Components.UserRolePermissionModel.html#Vasont_Inspire_Models_Components_UserRolePermissionModel_SecurityType_
+  commentId: Overload:Vasont.Inspire.Models.Components.UserRolePermissionModel.SecurityType
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.SecurityType
+  nameWithType: UserRolePermissionModel.SecurityType
 - uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.ShouldSerializeRoleId
   name: ShouldSerializeRoleId()
   href: ref/Vasont.Inspire.Models.Components.UserRolePermissionModel.html#Vasont_Inspire_Models_Components_UserRolePermissionModel_ShouldSerializeRoleId
@@ -8778,19 +8855,6 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.ShouldSerializeUserId
   nameWithType: UserRolePermissionModel.ShouldSerializeUserId
-- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.Type
-  name: Type
-  href: ref/Vasont.Inspire.Models.Components.UserRolePermissionModel.html#Vasont_Inspire_Models_Components_UserRolePermissionModel_Type
-  commentId: P:Vasont.Inspire.Models.Components.UserRolePermissionModel.Type
-  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.Type
-  nameWithType: UserRolePermissionModel.Type
-- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.Type*
-  name: Type
-  href: ref/Vasont.Inspire.Models.Components.UserRolePermissionModel.html#Vasont_Inspire_Models_Components_UserRolePermissionModel_Type_
-  commentId: Overload:Vasont.Inspire.Models.Components.UserRolePermissionModel.Type
-  isSpec: "True"
-  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.Type
-  nameWithType: UserRolePermissionModel.Type
 - uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.UserId
   name: UserId
   href: ref/Vasont.Inspire.Models.Components.UserRolePermissionModel.html#Vasont_Inspire_Models_Components_UserRolePermissionModel_UserId
@@ -8804,6 +8868,161 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.UserId
   nameWithType: UserRolePermissionModel.UserId
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel
+  name: ValidateCompletenessRequestModel
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html
+  commentId: T:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel
+  nameWithType: ValidateCompletenessRequestModel
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.#ctor
+  name: ValidateCompletenessRequestModel()
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel__ctor
+  commentId: M:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.#ctor
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ValidateCompletenessRequestModel()
+  nameWithType: ValidateCompletenessRequestModel.ValidateCompletenessRequestModel()
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.#ctor*
+  name: ValidateCompletenessRequestModel
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel__ctor_
+  commentId: Overload:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.#ctor
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ValidateCompletenessRequestModel
+  nameWithType: ValidateCompletenessRequestModel.ValidateCompletenessRequestModel
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentIds
+  name: ComponentIds
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_ComponentIds
+  commentId: P:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentIds
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentIds
+  nameWithType: ValidateCompletenessRequestModel.ComponentIds
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentIds*
+  name: ComponentIds
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_ComponentIds_
+  commentId: Overload:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentIds
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentIds
+  nameWithType: ValidateCompletenessRequestModel.ComponentIds
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ExportId
+  name: ExportId
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_ExportId
+  commentId: P:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ExportId
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ExportId
+  nameWithType: ValidateCompletenessRequestModel.ExportId
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ExportId*
+  name: ExportId
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_ExportId_
+  commentId: Overload:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ExportId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ExportId
+  nameWithType: ValidateCompletenessRequestModel.ExportId
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ProcessId
+  name: ProcessId
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_ProcessId
+  commentId: P:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ProcessId
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ProcessId
+  nameWithType: ValidateCompletenessRequestModel.ProcessId
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ProcessId*
+  name: ProcessId
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_ProcessId_
+  commentId: Overload:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ProcessId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ProcessId
+  nameWithType: ValidateCompletenessRequestModel.ProcessId
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.SendNotification
+  name: SendNotification
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_SendNotification
+  commentId: P:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.SendNotification
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.SendNotification
+  nameWithType: ValidateCompletenessRequestModel.SendNotification
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.SendNotification*
+  name: SendNotification
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_SendNotification_
+  commentId: Overload:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.SendNotification
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.SendNotification
+  nameWithType: ValidateCompletenessRequestModel.SendNotification
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.SourceComponentNames
+  name: SourceComponentNames
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_SourceComponentNames
+  commentId: P:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.SourceComponentNames
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.SourceComponentNames
+  nameWithType: ValidateCompletenessRequestModel.SourceComponentNames
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.SourceComponentNames*
+  name: SourceComponentNames
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_SourceComponentNames_
+  commentId: Overload:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.SourceComponentNames
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.SourceComponentNames
+  nameWithType: ValidateCompletenessRequestModel.SourceComponentNames
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.WorkerCacheLifeTimeoutMinutes
+  name: WorkerCacheLifeTimeoutMinutes
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_WorkerCacheLifeTimeoutMinutes
+  commentId: P:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.WorkerCacheLifeTimeoutMinutes
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.WorkerCacheLifeTimeoutMinutes
+  nameWithType: ValidateCompletenessRequestModel.WorkerCacheLifeTimeoutMinutes
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.WorkerCacheLifeTimeoutMinutes*
+  name: WorkerCacheLifeTimeoutMinutes
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_WorkerCacheLifeTimeoutMinutes_
+  commentId: Overload:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.WorkerCacheLifeTimeoutMinutes
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.WorkerCacheLifeTimeoutMinutes
+  nameWithType: ValidateCompletenessRequestModel.WorkerCacheLifeTimeoutMinutes
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessStateModel
+  name: ValidateCompletenessStateModel
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.html
+  commentId: T:Vasont.Inspire.Models.Components.ValidateCompletenessStateModel
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessStateModel
+  nameWithType: ValidateCompletenessStateModel
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.ComponentIds
+  name: ComponentIds
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessStateModel_ComponentIds
+  commentId: P:Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.ComponentIds
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.ComponentIds
+  nameWithType: ValidateCompletenessStateModel.ComponentIds
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.ComponentIds*
+  name: ComponentIds
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessStateModel_ComponentIds_
+  commentId: Overload:Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.ComponentIds
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.ComponentIds
+  nameWithType: ValidateCompletenessStateModel.ComponentIds
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.ExportId
+  name: ExportId
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessStateModel_ExportId
+  commentId: P:Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.ExportId
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.ExportId
+  nameWithType: ValidateCompletenessStateModel.ExportId
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.ExportId*
+  name: ExportId
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessStateModel_ExportId_
+  commentId: Overload:Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.ExportId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.ExportId
+  nameWithType: ValidateCompletenessStateModel.ExportId
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.ProcessId
+  name: ProcessId
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessStateModel_ProcessId
+  commentId: P:Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.ProcessId
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.ProcessId
+  nameWithType: ValidateCompletenessStateModel.ProcessId
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.ProcessId*
+  name: ProcessId
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessStateModel_ProcessId_
+  commentId: Overload:Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.ProcessId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.ProcessId
+  nameWithType: ValidateCompletenessStateModel.ProcessId
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.SourceComponentNames
+  name: SourceComponentNames
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessStateModel_SourceComponentNames
+  commentId: P:Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.SourceComponentNames
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.SourceComponentNames
+  nameWithType: ValidateCompletenessStateModel.SourceComponentNames
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.SourceComponentNames*
+  name: SourceComponentNames
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessStateModel_SourceComponentNames_
+  commentId: Overload:Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.SourceComponentNames
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessStateModel.SourceComponentNames
+  nameWithType: ValidateCompletenessStateModel.SourceComponentNames
 - uid: Vasont.Inspire.Models.Components.XmlComponentElementModel
   name: XmlComponentElementModel
   href: ref/Vasont.Inspire.Models.Components.XmlComponentElementModel.html
@@ -19495,32 +19714,58 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Name
   nameWithType: UserRoleAssociationModel.Name
-- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Type
-  name: Type
-  href: ref/Vasont.Inspire.Models.Security.UserRoleAssociationModel.html#Vasont_Inspire_Models_Security_UserRoleAssociationModel_Type
-  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.Type
-  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Type
-  nameWithType: UserRoleAssociationModel.Type
-- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Type*
-  name: Type
-  href: ref/Vasont.Inspire.Models.Security.UserRoleAssociationModel.html#Vasont_Inspire_Models_Security_UserRoleAssociationModel_Type_
-  commentId: Overload:Vasont.Inspire.Models.Security.UserRoleAssociationModel.Type
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityType
+  name: SecurityType
+  href: ref/Vasont.Inspire.Models.Security.UserRoleAssociationModel.html#Vasont_Inspire_Models_Security_UserRoleAssociationModel_SecurityType
+  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityType
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityType
+  nameWithType: UserRoleAssociationModel.SecurityType
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityType*
+  name: SecurityType
+  href: ref/Vasont.Inspire.Models.Security.UserRoleAssociationModel.html#Vasont_Inspire_Models_Security_UserRoleAssociationModel_SecurityType_
+  commentId: Overload:Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityType
   isSpec: "True"
-  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Type
-  nameWithType: UserRoleAssociationModel.Type
-- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.TypeText
-  name: TypeText
-  href: ref/Vasont.Inspire.Models.Security.UserRoleAssociationModel.html#Vasont_Inspire_Models_Security_UserRoleAssociationModel_TypeText
-  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.TypeText
-  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.TypeText
-  nameWithType: UserRoleAssociationModel.TypeText
-- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.TypeText*
-  name: TypeText
-  href: ref/Vasont.Inspire.Models.Security.UserRoleAssociationModel.html#Vasont_Inspire_Models_Security_UserRoleAssociationModel_TypeText_
-  commentId: Overload:Vasont.Inspire.Models.Security.UserRoleAssociationModel.TypeText
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityType
+  nameWithType: UserRoleAssociationModel.SecurityType
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityTypeText
+  name: SecurityTypeText
+  href: ref/Vasont.Inspire.Models.Security.UserRoleAssociationModel.html#Vasont_Inspire_Models_Security_UserRoleAssociationModel_SecurityTypeText
+  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityTypeText
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityTypeText
+  nameWithType: UserRoleAssociationModel.SecurityTypeText
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityTypeText*
+  name: SecurityTypeText
+  href: ref/Vasont.Inspire.Models.Security.UserRoleAssociationModel.html#Vasont_Inspire_Models_Security_UserRoleAssociationModel_SecurityTypeText_
+  commentId: Overload:Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityTypeText
   isSpec: "True"
-  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.TypeText
-  nameWithType: UserRoleAssociationModel.TypeText
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityTypeText
+  nameWithType: UserRoleAssociationModel.SecurityTypeText
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserType
+  name: UserType
+  href: ref/Vasont.Inspire.Models.Security.UserRoleAssociationModel.html#Vasont_Inspire_Models_Security_UserRoleAssociationModel_UserType
+  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserType
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserType
+  nameWithType: UserRoleAssociationModel.UserType
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserType*
+  name: UserType
+  href: ref/Vasont.Inspire.Models.Security.UserRoleAssociationModel.html#Vasont_Inspire_Models_Security_UserRoleAssociationModel_UserType_
+  commentId: Overload:Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserType
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserType
+  nameWithType: UserRoleAssociationModel.UserType
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserTypeText
+  name: UserTypeText
+  href: ref/Vasont.Inspire.Models.Security.UserRoleAssociationModel.html#Vasont_Inspire_Models_Security_UserRoleAssociationModel_UserTypeText
+  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserTypeText
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserTypeText
+  nameWithType: UserRoleAssociationModel.UserTypeText
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserTypeText*
+  name: UserTypeText
+  href: ref/Vasont.Inspire.Models.Security.UserRoleAssociationModel.html#Vasont_Inspire_Models_Security_UserRoleAssociationModel_UserTypeText_
+  commentId: Overload:Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserTypeText
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserTypeText
+  nameWithType: UserRoleAssociationModel.UserTypeText
 - uid: Vasont.Inspire.Models.Security.UserType
   name: UserType
   href: ref/Vasont.Inspire.Models.Security.UserType.html
@@ -23618,19 +23863,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.ProfileImageUrl
   nameWithType: SelectUserRoleModel.ProfileImageUrl
-- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Type
-  name: Type
-  href: ref/Vasont.Inspire.Models.Utilities.SelectUserRoleModel.html#Vasont_Inspire_Models_Utilities_SelectUserRoleModel_Type
-  commentId: P:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Type
-  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Type
-  nameWithType: SelectUserRoleModel.Type
-- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Type*
-  name: Type
-  href: ref/Vasont.Inspire.Models.Utilities.SelectUserRoleModel.html#Vasont_Inspire_Models_Utilities_SelectUserRoleModel_Type_
-  commentId: Overload:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Type
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.SecurityType
+  name: SecurityType
+  href: ref/Vasont.Inspire.Models.Utilities.SelectUserRoleModel.html#Vasont_Inspire_Models_Utilities_SelectUserRoleModel_SecurityType
+  commentId: P:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.SecurityType
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.SecurityType
+  nameWithType: SelectUserRoleModel.SecurityType
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.SecurityType*
+  name: SecurityType
+  href: ref/Vasont.Inspire.Models.Utilities.SelectUserRoleModel.html#Vasont_Inspire_Models_Utilities_SelectUserRoleModel_SecurityType_
+  commentId: Overload:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.SecurityType
   isSpec: "True"
-  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.Type
-  nameWithType: SelectUserRoleModel.Type
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.SecurityType
+  nameWithType: SelectUserRoleModel.SecurityType
 - uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserRoleId
   name: UserRoleId
   href: ref/Vasont.Inspire.Models.Utilities.SelectUserRoleModel.html#Vasont_Inspire_Models_Utilities_SelectUserRoleModel_UserRoleId
@@ -23644,6 +23889,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserRoleId
   nameWithType: SelectUserRoleModel.UserRoleId
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserType
+  name: UserType
+  href: ref/Vasont.Inspire.Models.Utilities.SelectUserRoleModel.html#Vasont_Inspire_Models_Utilities_SelectUserRoleModel_UserType
+  commentId: P:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserType
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserType
+  nameWithType: SelectUserRoleModel.UserType
+- uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserType*
+  name: UserType
+  href: ref/Vasont.Inspire.Models.Utilities.SelectUserRoleModel.html#Vasont_Inspire_Models_Utilities_SelectUserRoleModel_UserType_
+  commentId: Overload:Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserType
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Utilities.SelectUserRoleModel.UserType
+  nameWithType: SelectUserRoleModel.UserType
 - uid: Vasont.Inspire.Models.Utilities.SupportMessageModel
   name: SupportMessageModel
   href: ref/Vasont.Inspire.Models.Utilities.SupportMessageModel.html

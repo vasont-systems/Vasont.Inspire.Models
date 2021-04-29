@@ -11,9 +11,9 @@ items:
   - Vasont.Inspire.Models.Components.UserRolePermissionModel.Name
   - Vasont.Inspire.Models.Components.UserRolePermissionModel.Permissions
   - Vasont.Inspire.Models.Components.UserRolePermissionModel.RoleId
+  - Vasont.Inspire.Models.Components.UserRolePermissionModel.SecurityType
   - Vasont.Inspire.Models.Components.UserRolePermissionModel.ShouldSerializeRoleId
   - Vasont.Inspire.Models.Components.UserRolePermissionModel.ShouldSerializeUserId
-  - Vasont.Inspire.Models.Components.UserRolePermissionModel.Type
   - Vasont.Inspire.Models.Components.UserRolePermissionModel.UserId
   langs:
   - csharp
@@ -197,23 +197,23 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.Type
-  commentId: P:Vasont.Inspire.Models.Components.UserRolePermissionModel.Type
-  id: Type
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.SecurityType
+  commentId: P:Vasont.Inspire.Models.Components.UserRolePermissionModel.SecurityType
+  id: SecurityType
   parent: Vasont.Inspire.Models.Components.UserRolePermissionModel
   langs:
   - csharp
   - vb
-  name: Type
-  nameWithType: UserRolePermissionModel.Type
-  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.Type
+  name: SecurityType
+  nameWithType: UserRolePermissionModel.SecurityType
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.SecurityType
   type: Property
   source:
     remote:
       path: src/Components/UserRolePermissionModel.cs
       branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
-    id: Type
+    id: SecurityType
     path: Components/UserRolePermissionModel.cs
     startLine: 82
   assemblies:
@@ -222,12 +222,12 @@ items:
   summary: "\nGets or sets the type (i.e. User or Role).\n"
   example: []
   syntax:
-    content: public SecurityType Type { get; set; }
+    content: public SecurityType SecurityType { get; set; }
     parameters: []
     return:
       type: Vasont.Inspire.Models.Security.SecurityType
-    content.vb: Public Property Type As SecurityType
-  overload: Vasont.Inspire.Models.Components.UserRolePermissionModel.Type*
+    content.vb: Public Property SecurityType As SecurityType
+  overload: Vasont.Inspire.Models.Components.UserRolePermissionModel.SecurityType*
   modifiers.csharp:
   - public
   - get
@@ -752,11 +752,11 @@ references:
   name: RoleId
   nameWithType: UserRolePermissionModel.RoleId
   fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.RoleId
-- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.Type*
-  commentId: Overload:Vasont.Inspire.Models.Components.UserRolePermissionModel.Type
-  name: Type
-  nameWithType: UserRolePermissionModel.Type
-  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.Type
+- uid: Vasont.Inspire.Models.Components.UserRolePermissionModel.SecurityType*
+  commentId: Overload:Vasont.Inspire.Models.Components.UserRolePermissionModel.SecurityType
+  name: SecurityType
+  nameWithType: UserRolePermissionModel.SecurityType
+  fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel.SecurityType
 - uid: Vasont.Inspire.Models.Security.SecurityType
   commentId: T:Vasont.Inspire.Models.Security.SecurityType
   parent: Vasont.Inspire.Models.Security

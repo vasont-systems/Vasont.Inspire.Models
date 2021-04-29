@@ -41,6 +41,7 @@ items:
   - Vasont.Inspire.Models.Components.ComponentUserPermissionModel
   - Vasont.Inspire.Models.Components.ContentTypeModel
   - Vasont.Inspire.Models.Components.CreateComponentFromTemplateModel
+  - Vasont.Inspire.Models.Components.DeleteResultModel
   - Vasont.Inspire.Models.Components.DetailedComponentModel
   - Vasont.Inspire.Models.Components.DitaComponentReferenceModel
   - Vasont.Inspire.Models.Components.DocBookComponentReferenceModel
@@ -91,6 +92,8 @@ items:
   - Vasont.Inspire.Models.Components.TranslationRelationModel
   - Vasont.Inspire.Models.Components.UnlockResultModel
   - Vasont.Inspire.Models.Components.UserRolePermissionModel
+  - Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel
+  - Vasont.Inspire.Models.Components.ValidateCompletenessStateModel
   - Vasont.Inspire.Models.Components.XmlComponentElementModel
   - Vasont.Inspire.Models.Components.XmlValidationErrorModel
   langs:
@@ -287,6 +290,11 @@ references:
   name: CreateComponentFromTemplateModel
   nameWithType: CreateComponentFromTemplateModel
   fullName: Vasont.Inspire.Models.Components.CreateComponentFromTemplateModel
+- uid: Vasont.Inspire.Models.Components.DeleteResultModel
+  commentId: T:Vasont.Inspire.Models.Components.DeleteResultModel
+  name: DeleteResultModel
+  nameWithType: DeleteResultModel
+  fullName: Vasont.Inspire.Models.Components.DeleteResultModel
 - uid: Vasont.Inspire.Models.Components.DetailedComponentModel
   commentId: T:Vasont.Inspire.Models.Components.DetailedComponentModel
   name: DetailedComponentModel
@@ -566,6 +574,16 @@ references:
   name: UserRolePermissionModel
   nameWithType: UserRolePermissionModel
   fullName: Vasont.Inspire.Models.Components.UserRolePermissionModel
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel
+  commentId: T:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel
+  name: ValidateCompletenessRequestModel
+  nameWithType: ValidateCompletenessRequestModel
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessStateModel
+  commentId: T:Vasont.Inspire.Models.Components.ValidateCompletenessStateModel
+  name: ValidateCompletenessStateModel
+  nameWithType: ValidateCompletenessStateModel
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessStateModel
 - uid: Vasont.Inspire.Models.Components.XmlComponentElementModel
   commentId: T:Vasont.Inspire.Models.Components.XmlComponentElementModel
   name: XmlComponentElementModel

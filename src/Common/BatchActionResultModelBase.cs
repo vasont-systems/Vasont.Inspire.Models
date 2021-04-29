@@ -16,6 +16,11 @@ namespace Vasont.Inspire.Models.Common
         public long Id { get; set; }
 
         /// <summary>
+        /// Gets or sets the name of the record that action was performed on.
+        /// </summary>
+        public string Name { get; set; }
+
+        /// <summary>
         /// Gets or sets a value indicating whether the value was successful.
         /// </summary>
         public bool Successful { get; set; }
