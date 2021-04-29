@@ -17,6 +17,8 @@
     name: CoordinatesModel
   - uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
     name: CreatedUpdaterModelBase
+  - uid: Vasont.Inspire.Models.Common.DeleteResultModelBase
+    name: DeleteResultModelBase
   - uid: Vasont.Inspire.Models.Common.DisplayValuePair`2
     name: DisplayValuePair<N, V>
     name.vb: DisplayValuePair(Of N, V)
@@ -113,6 +115,8 @@
     name: ContentTypeModel
   - uid: Vasont.Inspire.Models.Components.CreateComponentFromTemplateModel
     name: CreateComponentFromTemplateModel
+  - uid: Vasont.Inspire.Models.Components.DeleteResultModel
+    name: DeleteResultModel
   - uid: Vasont.Inspire.Models.Components.DetailedComponentModel
     name: DetailedComponentModel
   - uid: Vasont.Inspire.Models.Components.DitaComponentReferenceModel
@@ -213,6 +217,10 @@
     name: UnlockResultModel
   - uid: Vasont.Inspire.Models.Components.UserRolePermissionModel
     name: UserRolePermissionModel
+  - uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel
+    name: ValidateCompletenessRequestModel
+  - uid: Vasont.Inspire.Models.Components.ValidateCompletenessStateModel
+    name: ValidateCompletenessStateModel
   - uid: Vasont.Inspire.Models.Components.XmlComponentElementModel
     name: XmlComponentElementModel
   - uid: Vasont.Inspire.Models.Components.XmlValidationErrorModel

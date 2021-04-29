@@ -36,8 +36,10 @@ items:
   inheritedMembers:
   - Vasont.Inspire.Models.Security.UserRoleAssociationModel.Id
   - Vasont.Inspire.Models.Security.UserRoleAssociationModel.ExternalUserId
-  - Vasont.Inspire.Models.Security.UserRoleAssociationModel.Type
-  - Vasont.Inspire.Models.Security.UserRoleAssociationModel.TypeText
+  - Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityType
+  - Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserType
+  - Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityTypeText
+  - Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserTypeText
   - Vasont.Inspire.Models.Security.UserRoleAssociationModel.Name
   - Vasont.Inspire.Models.Security.UserRoleAssociationModel.Description
   - Vasont.Inspire.Models.Security.UserRoleAssociationModel.Email
@@ -86,18 +88,30 @@ references:
   name: ExternalUserId
   nameWithType: UserRoleAssociationModel.ExternalUserId
   fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.ExternalUserId
-- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Type
-  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.Type
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityType
+  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityType
   parent: Vasont.Inspire.Models.Security.UserRoleAssociationModel
-  name: Type
-  nameWithType: UserRoleAssociationModel.Type
-  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Type
-- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.TypeText
-  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.TypeText
+  name: SecurityType
+  nameWithType: UserRoleAssociationModel.SecurityType
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityType
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserType
+  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserType
   parent: Vasont.Inspire.Models.Security.UserRoleAssociationModel
-  name: TypeText
-  nameWithType: UserRoleAssociationModel.TypeText
-  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.TypeText
+  name: UserType
+  nameWithType: UserRoleAssociationModel.UserType
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserType
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityTypeText
+  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityTypeText
+  parent: Vasont.Inspire.Models.Security.UserRoleAssociationModel
+  name: SecurityTypeText
+  nameWithType: UserRoleAssociationModel.SecurityTypeText
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityTypeText
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserTypeText
+  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserTypeText
+  parent: Vasont.Inspire.Models.Security.UserRoleAssociationModel
+  name: UserTypeText
+  nameWithType: UserRoleAssociationModel.UserTypeText
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserTypeText
 - uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Name
   commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.Name
   parent: Vasont.Inspire.Models.Security.UserRoleAssociationModel

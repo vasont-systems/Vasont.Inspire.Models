@@ -11,8 +11,10 @@ items:
   - Vasont.Inspire.Models.Security.UserRoleAssociationModel.Id
   - Vasont.Inspire.Models.Security.UserRoleAssociationModel.Memberships
   - Vasont.Inspire.Models.Security.UserRoleAssociationModel.Name
-  - Vasont.Inspire.Models.Security.UserRoleAssociationModel.Type
-  - Vasont.Inspire.Models.Security.UserRoleAssociationModel.TypeText
+  - Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityType
+  - Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityTypeText
+  - Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserType
+  - Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserTypeText
   langs:
   - csharp
   - vb
@@ -128,62 +130,99 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Type
-  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.Type
-  id: Type
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityType
+  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityType
+  id: SecurityType
   parent: Vasont.Inspire.Models.Security.UserRoleAssociationModel
   langs:
   - csharp
   - vb
-  name: Type
-  nameWithType: UserRoleAssociationModel.Type
-  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Type
+  name: SecurityType
+  nameWithType: UserRoleAssociationModel.SecurityType
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityType
   type: Property
   source:
     remote:
       path: src/Security/UserRoleAssociationModel.cs
       branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
-    id: Type
+    id: SecurityType
     path: Security/UserRoleAssociationModel.cs
     startLine: 47
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
-  summary: "\nGets or sets the participant type. (i.e. User or Role)\n"
+  summary: "\nGets or sets the participant security type (i.e. User or Role).\n"
   example: []
   syntax:
-    content: public SecurityType Type { get; set; }
+    content: public SecurityType SecurityType { get; set; }
     parameters: []
     return:
       type: Vasont.Inspire.Models.Security.SecurityType
-    content.vb: Public Property Type As SecurityType
-  overload: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Type*
+    content.vb: Public Property SecurityType As SecurityType
+  overload: Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityType*
   modifiers.csharp:
   - public
   - get
   - set
   modifiers.vb:
   - Public
-- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.TypeText
-  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.TypeText
-  id: TypeText
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserType
+  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserType
+  id: UserType
   parent: Vasont.Inspire.Models.Security.UserRoleAssociationModel
   langs:
   - csharp
   - vb
-  name: TypeText
-  nameWithType: UserRoleAssociationModel.TypeText
-  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.TypeText
+  name: UserType
+  nameWithType: UserRoleAssociationModel.UserType
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserType
   type: Property
   source:
     remote:
       path: src/Security/UserRoleAssociationModel.cs
       branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
-    id: TypeText
+    id: UserType
     path: Security/UserRoleAssociationModel.cs
     startLine: 52
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets the participant user type (i.e. Standard or Support).\n"
+  example: []
+  syntax:
+    content: public UserType UserType { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Security.UserType
+    content.vb: Public Property UserType As UserType
+  overload: Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityTypeText
+  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityTypeText
+  id: SecurityTypeText
+  parent: Vasont.Inspire.Models.Security.UserRoleAssociationModel
+  langs:
+  - csharp
+  - vb
+  name: SecurityTypeText
+  nameWithType: UserRoleAssociationModel.SecurityTypeText
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityTypeText
+  type: Property
+  source:
+    remote:
+      path: src/Security/UserRoleAssociationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SecurityTypeText
+    path: Security/UserRoleAssociationModel.cs
+    startLine: 57
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -193,15 +232,62 @@ items:
     content: >-
       [JsonIgnore]
 
-      public string TypeText { get; set; }
+      public string SecurityTypeText { get; set; }
     parameters: []
     return:
       type: System.String
     content.vb: >-
       <JsonIgnore>
 
-      Public Property TypeText As String
-  overload: Vasont.Inspire.Models.Security.UserRoleAssociationModel.TypeText*
+      Public Property SecurityTypeText As String
+  overload: Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityTypeText*
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserTypeText
+  commentId: P:Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserTypeText
+  id: UserTypeText
+  parent: Vasont.Inspire.Models.Security.UserRoleAssociationModel
+  langs:
+  - csharp
+  - vb
+  name: UserTypeText
+  nameWithType: UserRoleAssociationModel.UserTypeText
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserTypeText
+  type: Property
+  source:
+    remote:
+      path: src/Security/UserRoleAssociationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UserTypeText
+    path: Security/UserRoleAssociationModel.cs
+    startLine: 67
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets the type via a string.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public string UserTypeText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property UserTypeText As String
+  overload: Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserTypeText*
   attributes:
   - type: Newtonsoft.Json.JsonIgnoreAttribute
     ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
@@ -230,7 +316,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Security/UserRoleAssociationModel.cs
-    startLine: 62
+    startLine: 77
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -267,7 +353,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Security/UserRoleAssociationModel.cs
-    startLine: 67
+    startLine: 82
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -304,7 +390,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Email
     path: Security/UserRoleAssociationModel.cs
-    startLine: 72
+    startLine: 87
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -341,7 +427,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Memberships
     path: Security/UserRoleAssociationModel.cs
-    startLine: 77
+    startLine: 92
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -682,22 +768,38 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Type*
-  commentId: Overload:Vasont.Inspire.Models.Security.UserRoleAssociationModel.Type
-  name: Type
-  nameWithType: UserRoleAssociationModel.Type
-  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Type
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityType*
+  commentId: Overload:Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityType
+  name: SecurityType
+  nameWithType: UserRoleAssociationModel.SecurityType
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityType
 - uid: Vasont.Inspire.Models.Security.SecurityType
   commentId: T:Vasont.Inspire.Models.Security.SecurityType
   parent: Vasont.Inspire.Models.Security
   name: SecurityType
   nameWithType: SecurityType
   fullName: Vasont.Inspire.Models.Security.SecurityType
-- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.TypeText*
-  commentId: Overload:Vasont.Inspire.Models.Security.UserRoleAssociationModel.TypeText
-  name: TypeText
-  nameWithType: UserRoleAssociationModel.TypeText
-  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.TypeText
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserType*
+  commentId: Overload:Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserType
+  name: UserType
+  nameWithType: UserRoleAssociationModel.UserType
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserType
+- uid: Vasont.Inspire.Models.Security.UserType
+  commentId: T:Vasont.Inspire.Models.Security.UserType
+  parent: Vasont.Inspire.Models.Security
+  name: UserType
+  nameWithType: UserType
+  fullName: Vasont.Inspire.Models.Security.UserType
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityTypeText*
+  commentId: Overload:Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityTypeText
+  name: SecurityTypeText
+  nameWithType: UserRoleAssociationModel.SecurityTypeText
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.SecurityTypeText
+- uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserTypeText*
+  commentId: Overload:Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserTypeText
+  name: UserTypeText
+  nameWithType: UserRoleAssociationModel.UserTypeText
+  fullName: Vasont.Inspire.Models.Security.UserRoleAssociationModel.UserTypeText
 - uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel.Name*
   commentId: Overload:Vasont.Inspire.Models.Security.UserRoleAssociationModel.Name
   name: Name
