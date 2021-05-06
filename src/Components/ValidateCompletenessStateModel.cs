@@ -26,7 +26,7 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets a list of source component names.
         /// </summary>
-        public List<string> SourceComponentNames { get; set; }
+        public List<string> SourceComponentNames { get; set; } = new List<string>();
 
         /// <summary>
         /// Gets or sets a list of current components to process.

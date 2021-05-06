@@ -18,6 +18,11 @@ namespace Vasont.Inspire.Models.Components
         public long TotalCount { get; set; }
 
         /// <summary>
+        /// Gets or sets the resulting element results from the query request.
+        /// </summary>
+        public List<ElementResultsModel> ElementResults { get; set; } = new List<ElementResultsModel>();
+
+        /// <summary>
         /// Gets or sets the resulting components from the query request.
         /// </summary>
         public List<MinimalComponentModel> Components { get; set; } = new List<MinimalComponentModel>();
