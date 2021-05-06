@@ -19,7 +19,6 @@ namespace Vasont.Inspire.Models.Components
         public ValidateCompletenessRequestModel()
         {
             this.ExportId = 1;
-            this.ComponentIds = new List<long>();
             this.SendNotification = true;
             this.WorkerCacheLifeTimeoutMinutes = 14200;
         }
@@ -37,12 +36,12 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets a list of component identities to process.
         /// </summary>
-        public List<long> ComponentIds { get; set; }
+        public List<long> ComponentIds { get; set; } = new List<long>();
 
         /// <summary>
         /// Gets or sets a list of source component names to process.
         /// </summary>
-        public List<string> SourceComponentNames { get; set; }
+        public List<string> SourceComponentNames { get; set; } = new List<string>();
 
         /// <summary>
         /// Gets or sets a value indicating whether notifications are sent after process has completed.
