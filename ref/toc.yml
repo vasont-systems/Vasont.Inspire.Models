@@ -51,6 +51,8 @@
     name: BatchComponentsRequestModel
   - uid: Vasont.Inspire.Models.Components.BatchComponentsResultModel
     name: BatchComponentsResultModel
+  - uid: Vasont.Inspire.Models.Components.BranchComponentModel
+    name: BranchComponentModel
   - uid: Vasont.Inspire.Models.Components.BranchReferenceModel
     name: BranchReferenceModel
   - uid: Vasont.Inspire.Models.Components.ComponentAutoRepairModel
@@ -61,6 +63,10 @@
     name: ComponentAutoRepairResult
   - uid: Vasont.Inspire.Models.Components.ComponentAutoRepairStateModel
     name: ComponentAutoRepairStateModel
+  - uid: Vasont.Inspire.Models.Components.ComponentBranchRequestModel
+    name: ComponentBranchRequestModel
+  - uid: Vasont.Inspire.Models.Components.ComponentBranchStateModel
+    name: ComponentBranchStateModel
   - uid: Vasont.Inspire.Models.Components.ComponentDependenciesResultModel
     name: ComponentDependenciesResultModel
   - uid: Vasont.Inspire.Models.Components.ComponentDependencyModel
@@ -145,6 +151,8 @@
     name: EditorValidateResultModel
   - uid: Vasont.Inspire.Models.Components.EditorXmlErrorModel
     name: EditorXmlErrorModel
+  - uid: Vasont.Inspire.Models.Components.ElementResultsModel
+    name: ElementResultsModel
   - uid: Vasont.Inspire.Models.Components.FolderBrowseModel
     name: FolderBrowseModel
   - uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel

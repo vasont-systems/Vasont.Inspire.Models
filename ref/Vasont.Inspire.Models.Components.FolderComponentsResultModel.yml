@@ -6,6 +6,7 @@ items:
   parent: Vasont.Inspire.Models.Components
   children:
   - Vasont.Inspire.Models.Components.FolderComponentsResultModel.Components
+  - Vasont.Inspire.Models.Components.FolderComponentsResultModel.ElementResults
   - Vasont.Inspire.Models.Components.FolderComponentsResultModel.TotalCount
   langs:
   - csharp
@@ -83,6 +84,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Components.FolderComponentsResultModel.ElementResults
+  commentId: P:Vasont.Inspire.Models.Components.FolderComponentsResultModel.ElementResults
+  id: ElementResults
+  parent: Vasont.Inspire.Models.Components.FolderComponentsResultModel
+  langs:
+  - csharp
+  - vb
+  name: ElementResults
+  nameWithType: FolderComponentsResultModel.ElementResults
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsResultModel.ElementResults
+  type: Property
+  source:
+    remote:
+      path: src/Components/FolderComponentsResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ElementResults
+    path: Components/FolderComponentsResultModel.cs
+    startLine: 22
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the resulting element results from the query request.\n"
+  example: []
+  syntax:
+    content: public List<ElementResultsModel> ElementResults { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Components.ElementResultsModel}
+    content.vb: Public Property ElementResults As List(Of ElementResultsModel)
+  overload: Vasont.Inspire.Models.Components.FolderComponentsResultModel.ElementResults*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Components.FolderComponentsResultModel.Components
   commentId: P:Vasont.Inspire.Models.Components.FolderComponentsResultModel.Components
   id: Components
@@ -101,7 +139,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Components
     path: Components/FolderComponentsResultModel.cs
-    startLine: 22
+    startLine: 27
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -430,21 +468,21 @@ references:
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
-- uid: Vasont.Inspire.Models.Components.FolderComponentsResultModel.Components*
-  commentId: Overload:Vasont.Inspire.Models.Components.FolderComponentsResultModel.Components
-  name: Components
-  nameWithType: FolderComponentsResultModel.Components
-  fullName: Vasont.Inspire.Models.Components.FolderComponentsResultModel.Components
-- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Components.MinimalComponentModel}
-  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Components.MinimalComponentModel}
+- uid: Vasont.Inspire.Models.Components.FolderComponentsResultModel.ElementResults*
+  commentId: Overload:Vasont.Inspire.Models.Components.FolderComponentsResultModel.ElementResults
+  name: ElementResults
+  nameWithType: FolderComponentsResultModel.ElementResults
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsResultModel.ElementResults
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Components.ElementResultsModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Components.ElementResultsModel}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.List`1
-  name: List<MinimalComponentModel>
-  nameWithType: List<MinimalComponentModel>
-  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Components.MinimalComponentModel>
-  nameWithType.vb: List(Of MinimalComponentModel)
-  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Components.MinimalComponentModel)
-  name.vb: List(Of MinimalComponentModel)
+  name: List<ElementResultsModel>
+  nameWithType: List<ElementResultsModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Components.ElementResultsModel>
+  nameWithType.vb: List(Of ElementResultsModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Components.ElementResultsModel)
+  name.vb: List(Of ElementResultsModel)
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -454,10 +492,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: Vasont.Inspire.Models.Components.MinimalComponentModel
-    name: MinimalComponentModel
-    nameWithType: MinimalComponentModel
-    fullName: Vasont.Inspire.Models.Components.MinimalComponentModel
+  - uid: Vasont.Inspire.Models.Components.ElementResultsModel
+    name: ElementResultsModel
+    nameWithType: ElementResultsModel
+    fullName: Vasont.Inspire.Models.Components.ElementResultsModel
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -470,10 +508,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: Vasont.Inspire.Models.Components.MinimalComponentModel
-    name: MinimalComponentModel
-    nameWithType: MinimalComponentModel
-    fullName: Vasont.Inspire.Models.Components.MinimalComponentModel
+  - uid: Vasont.Inspire.Models.Components.ElementResultsModel
+    name: ElementResultsModel
+    nameWithType: ElementResultsModel
+    fullName: Vasont.Inspire.Models.Components.ElementResultsModel
   - name: )
     nameWithType: )
     fullName: )
@@ -522,3 +560,50 @@ references:
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Components.FolderComponentsResultModel.Components*
+  commentId: Overload:Vasont.Inspire.Models.Components.FolderComponentsResultModel.Components
+  name: Components
+  nameWithType: FolderComponentsResultModel.Components
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsResultModel.Components
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Components.MinimalComponentModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Components.MinimalComponentModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<MinimalComponentModel>
+  nameWithType: List<MinimalComponentModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Components.MinimalComponentModel>
+  nameWithType.vb: List(Of MinimalComponentModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Components.MinimalComponentModel)
+  name.vb: List(Of MinimalComponentModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Components.MinimalComponentModel
+    name: MinimalComponentModel
+    nameWithType: MinimalComponentModel
+    fullName: Vasont.Inspire.Models.Components.MinimalComponentModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Components.MinimalComponentModel
+    name: MinimalComponentModel
+    nameWithType: MinimalComponentModel
+    fullName: Vasont.Inspire.Models.Components.MinimalComponentModel
+  - name: )
+    nameWithType: )
+    fullName: )
