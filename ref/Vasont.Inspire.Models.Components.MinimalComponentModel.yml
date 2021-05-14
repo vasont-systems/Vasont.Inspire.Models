@@ -58,6 +58,7 @@ items:
   - System.Object
   - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase
   derivedClasses:
+  - Vasont.Inspire.Models.Components.BranchComponentModel
   - Vasont.Inspire.Models.Components.ComponentModel
   - Vasont.Inspire.Models.Components.DetailedComponentModel
   - Vasont.Inspire.Models.Components.MapComponentModel

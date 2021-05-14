@@ -38,6 +38,11 @@ namespace Vasont.Inspire.Models.Translations
         public bool ApiIntegration { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether this vendor api integration supports cancellation.
+        /// </summary>
+        public bool SupportCancellation { get; set; }
+
+        /// <summary>
         /// Gets or sets a list of TranslationAttributes.
         /// </summary>
         public List<TranslationVendorFieldModel> VendorAttributes { get; set; } = new List<TranslationVendorFieldModel>();

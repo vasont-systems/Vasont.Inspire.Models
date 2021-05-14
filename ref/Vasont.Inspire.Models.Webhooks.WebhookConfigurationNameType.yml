@@ -5,6 +5,7 @@ items:
   id: WebhookConfigurationNameType
   parent: Vasont.Inspire.Models.Webhooks
   children:
+  - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.OxygenSession
   - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ProjectDirectorNotification
   - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.PublishResult
   - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ZoominFeedback
@@ -178,6 +179,40 @@ items:
   example: []
   syntax:
     content: ProjectDirectorNotification = 3
+    return:
+      type: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.OxygenSession
+  commentId: F:Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.OxygenSession
+  id: OxygenSession
+  parent: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  langs:
+  - csharp
+  - vb
+  name: OxygenSession
+  nameWithType: WebhookConfigurationNameType.OxygenSession
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.OxygenSession
+  type: Field
+  source:
+    remote:
+      path: src/Webhooks/WebhookConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: OxygenSession
+    path: Webhooks/WebhookConfigurationModel.cs
+    startLine: 39
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nThe oxygen session webhook.\n"
+  example: []
+  syntax:
+    content: OxygenSession = 4
     return:
       type: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
   modifiers.csharp:

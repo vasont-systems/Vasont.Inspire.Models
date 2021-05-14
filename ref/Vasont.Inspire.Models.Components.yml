@@ -9,11 +9,14 @@ items:
   - Vasont.Inspire.Models.Components.BatchComponentLockModel
   - Vasont.Inspire.Models.Components.BatchComponentsRequestModel
   - Vasont.Inspire.Models.Components.BatchComponentsResultModel
+  - Vasont.Inspire.Models.Components.BranchComponentModel
   - Vasont.Inspire.Models.Components.BranchReferenceModel
   - Vasont.Inspire.Models.Components.ComponentAutoRepairModel
   - Vasont.Inspire.Models.Components.ComponentAutoRepairRequestModel
   - Vasont.Inspire.Models.Components.ComponentAutoRepairResult
   - Vasont.Inspire.Models.Components.ComponentAutoRepairStateModel
+  - Vasont.Inspire.Models.Components.ComponentBranchRequestModel
+  - Vasont.Inspire.Models.Components.ComponentBranchStateModel
   - Vasont.Inspire.Models.Components.ComponentDependenciesResultModel
   - Vasont.Inspire.Models.Components.ComponentDependencyModel
   - Vasont.Inspire.Models.Components.ComponentLockModel
@@ -56,6 +59,7 @@ items:
   - Vasont.Inspire.Models.Components.EditorValidateModel
   - Vasont.Inspire.Models.Components.EditorValidateResultModel
   - Vasont.Inspire.Models.Components.EditorXmlErrorModel
+  - Vasont.Inspire.Models.Components.ElementResultsModel
   - Vasont.Inspire.Models.Components.FolderBrowseModel
   - Vasont.Inspire.Models.Components.FolderComponentsQueryModel
   - Vasont.Inspire.Models.Components.FolderComponentsResultModel
@@ -132,6 +136,11 @@ references:
   name: BatchComponentsResultModel
   nameWithType: BatchComponentsResultModel
   fullName: Vasont.Inspire.Models.Components.BatchComponentsResultModel
+- uid: Vasont.Inspire.Models.Components.BranchComponentModel
+  commentId: T:Vasont.Inspire.Models.Components.BranchComponentModel
+  name: BranchComponentModel
+  nameWithType: BranchComponentModel
+  fullName: Vasont.Inspire.Models.Components.BranchComponentModel
 - uid: Vasont.Inspire.Models.Components.BranchReferenceModel
   commentId: T:Vasont.Inspire.Models.Components.BranchReferenceModel
   name: BranchReferenceModel
@@ -158,6 +167,16 @@ references:
   name: ComponentAutoRepairStateModel
   nameWithType: ComponentAutoRepairStateModel
   fullName: Vasont.Inspire.Models.Components.ComponentAutoRepairStateModel
+- uid: Vasont.Inspire.Models.Components.ComponentBranchRequestModel
+  commentId: T:Vasont.Inspire.Models.Components.ComponentBranchRequestModel
+  name: ComponentBranchRequestModel
+  nameWithType: ComponentBranchRequestModel
+  fullName: Vasont.Inspire.Models.Components.ComponentBranchRequestModel
+- uid: Vasont.Inspire.Models.Components.ComponentBranchStateModel
+  commentId: T:Vasont.Inspire.Models.Components.ComponentBranchStateModel
+  name: ComponentBranchStateModel
+  nameWithType: ComponentBranchStateModel
+  fullName: Vasont.Inspire.Models.Components.ComponentBranchStateModel
 - uid: Vasont.Inspire.Models.Components.ComponentDependenciesResultModel
   commentId: T:Vasont.Inspire.Models.Components.ComponentDependenciesResultModel
   name: ComponentDependenciesResultModel
@@ -380,6 +399,11 @@ references:
   name: EditorXmlErrorModel
   nameWithType: EditorXmlErrorModel
   fullName: Vasont.Inspire.Models.Components.EditorXmlErrorModel
+- uid: Vasont.Inspire.Models.Components.ElementResultsModel
+  commentId: T:Vasont.Inspire.Models.Components.ElementResultsModel
+  name: ElementResultsModel
+  nameWithType: ElementResultsModel
+  fullName: Vasont.Inspire.Models.Components.ElementResultsModel
 - uid: Vasont.Inspire.Models.Components.FolderBrowseModel
   commentId: T:Vasont.Inspire.Models.Components.FolderBrowseModel
   name: FolderBrowseModel
