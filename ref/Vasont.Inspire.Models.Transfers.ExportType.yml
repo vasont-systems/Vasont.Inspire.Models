@@ -7,6 +7,7 @@ items:
   children:
   - Vasont.Inspire.Models.Transfers.ExportType.Compare
   - Vasont.Inspire.Models.Transfers.ExportType.Publish
+  - Vasont.Inspire.Models.Transfers.ExportType.Select
   - Vasont.Inspire.Models.Transfers.ExportType.Standard
   - Vasont.Inspire.Models.Transfers.ExportType.Translate
   langs:
@@ -178,6 +179,40 @@ items:
   example: []
   syntax:
     content: Compare = 3
+    return:
+      type: Vasont.Inspire.Models.Transfers.ExportType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Transfers.ExportType.Select
+  commentId: F:Vasont.Inspire.Models.Transfers.ExportType.Select
+  id: Select
+  parent: Vasont.Inspire.Models.Transfers.ExportType
+  langs:
+  - csharp
+  - vb
+  name: Select
+  nameWithType: ExportType.Select
+  fullName: Vasont.Inspire.Models.Transfers.ExportType.Select
+  type: Field
+  source:
+    remote:
+      path: src/Transfers/ExportConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Select
+    path: Transfers/ExportConfigurationModel.cs
+    startLine: 44
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nThe export is used to select.\n"
+  example: []
+  syntax:
+    content: Select = 4
     return:
       type: Vasont.Inspire.Models.Transfers.ExportType
   modifiers.csharp:
