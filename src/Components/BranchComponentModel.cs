@@ -5,7 +5,6 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Components
 {
-
     /// <summary>
     /// This class represents a component that can be branched.
     /// </summary>
