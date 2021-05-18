@@ -49,6 +49,36 @@ namespace Vasont.Inspire.Models.Components
         public bool SendNotification { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether to error for unapproved component.
+        /// </summary>
+        public bool ComponentNotApproved { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether to error for locked component.
+        /// </summary>
+        public bool ComponentLocked { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether to error for component locked to self.
+        /// </summary>
+        public bool ComponentLockedBySelf { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether to error for component with invalid state.
+        /// </summary>
+        public bool ComponentInvalidState { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether to error for component with invalid XML.
+        /// </summary>
+        public bool ComponentInvalidXml { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether to error for component with invalid processing instructions.
+        /// </summary>
+        public bool ComponentInvalidPis { get; set; }
+
+        /// <summary>
         /// Gets or sets the number of minutes the worker timeout will last.
         /// </summary>
         public int WorkerCacheLifeTimeoutMinutes { get; set; }

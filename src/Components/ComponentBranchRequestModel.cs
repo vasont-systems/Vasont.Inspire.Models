@@ -44,7 +44,6 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets a value indicating whether notifications are sent after branch.
         /// </summary>
-        /// 
         public bool SendNotification { get; set; } = true;
 
         /// <summary>
