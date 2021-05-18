@@ -19,16 +19,16 @@
     <RepositoryUrl>https://github.com/vasont-systems/Vasont.Inspire.Models</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>CCMS</PackageTags>
-    <PackageReleaseNotes>Updated nuget packages.</PackageReleaseNotes>
-    <Version>1.2.33</Version>
+     <PackageReleaseNotes>Added SubmissionAttributeModel</PackageReleaseNotes>
+    <Version>1.2.34</Version>
     <NeutralLanguage>en</NeutralLanguage>
     <Copyright>Copyright (c) GlobalLink Vasont. All rights reserved.</Copyright>
   </PropertyGroup>
 
   <PropertyGroup>
     <BuildDocFx Condition="$(TargetFramework) != 'netstandard2.1' OR '$(Configuration)' != 'Release'">false</BuildDocFx>
-    <AssemblyVersion>1.2.33.0</AssemblyVersion>
-    <FileVersion>1.2.33.0</FileVersion>
+    <AssemblyVersion>1.2.34.0</AssemblyVersion>
+    <FileVersion>1.2.34.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
