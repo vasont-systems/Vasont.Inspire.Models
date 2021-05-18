@@ -20719,6 +20719,12 @@ references:
   commentId: F:Vasont.Inspire.Models.Transfers.ExportType.Publish
   fullName: Vasont.Inspire.Models.Transfers.ExportType.Publish
   nameWithType: ExportType.Publish
+- uid: Vasont.Inspire.Models.Transfers.ExportType.Select
+  name: Select
+  href: ref/Vasont.Inspire.Models.Transfers.ExportType.html#Vasont_Inspire_Models_Transfers_ExportType_Select
+  commentId: F:Vasont.Inspire.Models.Transfers.ExportType.Select
+  fullName: Vasont.Inspire.Models.Transfers.ExportType.Select
+  nameWithType: ExportType.Select
 - uid: Vasont.Inspire.Models.Transfers.ExportType.Standard
   name: Standard
   href: ref/Vasont.Inspire.Models.Transfers.ExportType.html#Vasont_Inspire_Models_Transfers_ExportType_Standard
@@ -23986,6 +23992,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Translations.TranslationVendorModel.ProjectCode
   nameWithType: TranslationVendorModel.ProjectCode
+- uid: Vasont.Inspire.Models.Translations.TranslationVendorModel.SupportCancellation
+  name: SupportCancellation
+  href: ref/Vasont.Inspire.Models.Translations.TranslationVendorModel.html#Vasont_Inspire_Models_Translations_TranslationVendorModel_SupportCancellation
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationVendorModel.SupportCancellation
+  fullName: Vasont.Inspire.Models.Translations.TranslationVendorModel.SupportCancellation
+  nameWithType: TranslationVendorModel.SupportCancellation
+- uid: Vasont.Inspire.Models.Translations.TranslationVendorModel.SupportCancellation*
+  name: SupportCancellation
+  href: ref/Vasont.Inspire.Models.Translations.TranslationVendorModel.html#Vasont_Inspire_Models_Translations_TranslationVendorModel_SupportCancellation_
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationVendorModel.SupportCancellation
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.TranslationVendorModel.SupportCancellation
+  nameWithType: TranslationVendorModel.SupportCancellation
 - uid: Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegrationId
   name: TranslationIntegrationId
   href: ref/Vasont.Inspire.Models.Translations.TranslationVendorModel.html#Vasont_Inspire_Models_Translations_TranslationVendorModel_TranslationIntegrationId
