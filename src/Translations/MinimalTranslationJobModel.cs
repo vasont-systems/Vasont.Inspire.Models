@@ -223,5 +223,10 @@ namespace Vasont.Inspire.Models.Translations
         /// Gets or sets the Url from where the resulting files can be downloaded.
         /// </summary>
         public string FileDownloadUrl { get; set; }
+
+        /// <summary>
+        /// Gets or sets the identifier from the integration provider.
+        /// </summary>
+        public string IntegrationProjectId { get; set; }
     }
 }
