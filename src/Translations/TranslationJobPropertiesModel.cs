@@ -27,6 +27,7 @@ namespace Vasont.Inspire.Models.Translations
         /// </summary>
         public long ExportId { get; set; }
 
+        /// <summary>
         /// Gets or sets a value indicating whether related components should be included when initiating a new translation job.
         /// </summary>
         public bool IncludeRelationships { get; set; }
