@@ -50,7 +50,12 @@ namespace Vasont.Inspire.Models.Plugins
         /// <summary>
         /// Contains a value that indicates publishing to Python.
         /// </summary>
-        Python
+        Python,
+
+        /// <summary>
+        /// Contains a value that indicates publishing to XSLT.
+        /// </summary>
+        Xslt
     }
 
     /// <summary>
