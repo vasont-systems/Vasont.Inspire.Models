@@ -52,7 +52,31 @@ namespace Vasont.Inspire.Models.Versioning
         /// Create a target on demand
         /// </summary>
         [Description("o")]
-        OnDemand
+        OnDemand,
+
+        /// <summary>
+        /// Create a branch
+        /// </summary>
+        [Description("b")]
+        Branch,
+
+        /// <summary>
+        /// Create a translation
+        /// </summary>
+        [Description("t")]
+        Translate,
+
+        /// <summary>
+        /// Create a publish
+        /// </summary>
+        [Description("p")]
+        Publish,
+
+        /// <summary>
+        /// Create a review
+        /// </summary>
+        [Description("r")]
+        Review
     }
 
     /// <summary>
@@ -102,10 +126,12 @@ namespace Vasont.Inspire.Models.Versioning
         /// </summary>
         /// <param name="actionType">Contains the action on the target model.</param>
         /// <param name="restored">Contains a value indicating whether the snapshot action was a restoral of a previous history record.</param>
-        public ChangesetSnapshotModel(ChangesetSnapshotActionType actionType, bool restored = false)
+        /// <param name="processType">Contains an optional process type on the target model.</param>
+        public ChangesetSnapshotModel(ChangesetSnapshotActionType actionType, bool restored = false, string processType = "None")
         {
             this.Action = actionType;
             this.Restored = restored;
+            this.ProcessType = processType;
         }
 
         #endregion
@@ -116,6 +142,11 @@ namespace Vasont.Inspire.Models.Versioning
         /// Gets or sets the action type to execute against the changeset action target.
         /// </summary>
         public ChangesetSnapshotActionType Action { get; set; }
+
+        /// <summary>
+        /// Gets or sets the optional process type creating the changeset.
+        /// </summary>
+        public string ProcessType { get; set; }
 
         /// <summary>
         /// Gets or sets the target type of the changeset snapshot type.
