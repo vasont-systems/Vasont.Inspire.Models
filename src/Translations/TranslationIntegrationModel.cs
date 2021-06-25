@@ -133,7 +133,7 @@ namespace Vasont.Inspire.Models.Translations
         public MicroUserModel LastUpdatedByUser { get; set; }
 
         /// <summary>
-        /// Gets or sets a value indicating whether this <see cref="TranslationIntegrationModel"/> is active.
+        /// Gets or sets a value indicating whether the Translation Integration is active.
         /// </summary>
         /// <value>
         ///   <c>true</c> if active; otherwise, <c>false</c>.

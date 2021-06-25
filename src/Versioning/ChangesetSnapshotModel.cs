@@ -19,61 +19,61 @@ namespace Vasont.Inspire.Models.Versioning
     public enum ChangesetSnapshotActionType
     {
         /// <summary>
-        /// Create a target
+        /// A component was created.
         /// </summary>
         [Description("c")]
         Create,
 
         /// <summary>
-        /// Update a target
+        /// A component was updated without content (Move/Rename).
         /// </summary>
         [Description("u")]
         Update,
 
         /// <summary>
-        /// Update a component target including content
+        /// A component was updated with content.
         /// </summary>
         [Description("u")]
         UpdateWithContent,
 
         /// <summary>
-        /// Delete a target
+        /// A component was deleted.
         /// </summary>
         [Description("d")]
         Delete,
 
         /// <summary>
-        /// Move a target
+        /// A component was moved.
         /// </summary>
         [Description("m")]
         Move,
 
         /// <summary>
-        /// Create a target on demand
+        /// A component was versioned on demand.
         /// </summary>
         [Description("o")]
         OnDemand,
 
         /// <summary>
-        /// Create a branch
+        /// A component was branched.
         /// </summary>
         [Description("b")]
         Branch,
 
         /// <summary>
-        /// Create a translation
+        /// A component was translated.
         /// </summary>
         [Description("t")]
         Translate,
 
         /// <summary>
-        /// Create a publish
+        /// A component was published.
         /// </summary>
         [Description("p")]
         Publish,
 
         /// <summary>
-        /// Create a review
+        /// A component was reviewed.
         /// </summary>
         [Description("r")]
         Review
