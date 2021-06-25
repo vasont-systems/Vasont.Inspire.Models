@@ -49,6 +49,11 @@ namespace Vasont.Inspire.Models.Versioning
         public ChangesetSnapshotActionType Action { get; set; }
 
         /// <summary>
+        /// Gets or sets the action process type to execute against the changeset action target.
+        /// </summary>
+        public string ProcessType { get; set; }
+
+        /// <summary>
         /// Gets or sets a value indicating whether the history record was a restoral.
         /// </summary>
         public bool Restored { get; set; }

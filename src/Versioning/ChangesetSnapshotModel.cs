@@ -19,40 +19,64 @@ namespace Vasont.Inspire.Models.Versioning
     public enum ChangesetSnapshotActionType
     {
         /// <summary>
-        /// Create a target
+        /// A component was created.
         /// </summary>
         [Description("c")]
         Create,
 
         /// <summary>
-        /// Update a target
+        /// A component was updated without content (Move/Rename).
         /// </summary>
         [Description("u")]
         Update,
 
         /// <summary>
-        /// Update a component target including content
+        /// A component was updated with content.
         /// </summary>
         [Description("u")]
         UpdateWithContent,
 
         /// <summary>
-        /// Delete a target
+        /// A component was deleted.
         /// </summary>
         [Description("d")]
         Delete,
 
         /// <summary>
-        /// Move a target
+        /// A component was moved.
         /// </summary>
         [Description("m")]
         Move,
 
         /// <summary>
-        /// Create a target on demand
+        /// A component was versioned on demand.
         /// </summary>
         [Description("o")]
-        OnDemand
+        OnDemand,
+
+        /// <summary>
+        /// A component was branched.
+        /// </summary>
+        [Description("b")]
+        Branch,
+
+        /// <summary>
+        /// A component was translated.
+        /// </summary>
+        [Description("t")]
+        Translate,
+
+        /// <summary>
+        /// A component was published.
+        /// </summary>
+        [Description("p")]
+        Publish,
+
+        /// <summary>
+        /// A component was reviewed.
+        /// </summary>
+        [Description("r")]
+        Review
     }
 
     /// <summary>
@@ -102,10 +126,12 @@ namespace Vasont.Inspire.Models.Versioning
         /// </summary>
         /// <param name="actionType">Contains the action on the target model.</param>
         /// <param name="restored">Contains a value indicating whether the snapshot action was a restoral of a previous history record.</param>
-        public ChangesetSnapshotModel(ChangesetSnapshotActionType actionType, bool restored = false)
+        /// <param name="processType">Contains an optional process type on the target model.</param>
+        public ChangesetSnapshotModel(ChangesetSnapshotActionType actionType, bool restored = false, string processType = "None")
         {
             this.Action = actionType;
             this.Restored = restored;
+            this.ProcessType = processType;
         }
 
         #endregion
@@ -116,6 +142,11 @@ namespace Vasont.Inspire.Models.Versioning
         /// Gets or sets the action type to execute against the changeset action target.
         /// </summary>
         public ChangesetSnapshotActionType Action { get; set; }
+
+        /// <summary>
+        /// Gets or sets the optional process type creating the changeset.
+        /// </summary>
+        public string ProcessType { get; set; }
 
         /// <summary>
         /// Gets or sets the target type of the changeset snapshot type.
