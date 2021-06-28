@@ -80,6 +80,48 @@ namespace Vasont.Inspire.Models.Versioning
     }
 
     /// <summary>
+    /// Contains an enumerated list of available changeset snapshot process types.
+    /// </summary>
+    [JsonConverter(typeof(StringEnumConverter))]
+    public enum ChangesetSnapshotProcessType
+    {
+        /// <summary>
+        /// A component was created new from template.
+        /// </summary>
+        CreateNew,
+
+        /// <summary>
+        /// A component was created with a Save As.
+        /// </summary>
+        SaveAs,
+
+        /// <summary>
+        /// A component was updated with a submit.
+        /// </summary>
+        Submit,
+
+        /// <summary>
+        /// A component was created as a branch.
+        /// </summary>
+        Branch,
+
+        /// <summary>
+        /// A target component was created or updated for translation.
+        /// </summary>
+        Translate,
+
+        /// <summary>
+        /// A component was updated by review.
+        /// </summary>
+        Review,
+
+        /// <summary>
+        /// A component created or updated with an import.
+        /// </summary>
+        Import
+    }
+
+    /// <summary>
     /// Contains an enumerated list of available changeset snapshot types.
     /// </summary>
     [JsonConverter(typeof(StringEnumConverter))]
