@@ -87,6 +87,11 @@ namespace Vasont.Inspire.Models.Translations
         public string ComponentTypeName { get; set; }
 
         /// <summary>
+        /// Gets or sets the path of the component.
+        /// </summary>
+        public string Path { get; set; }
+
+        /// <summary>
         /// Gets or sets the word count of the component.
         /// </summary>
         public int WordCount { get; set; }
