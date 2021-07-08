@@ -20,6 +20,11 @@ namespace Vasont.Inspire.Models.Components
         public long FolderId { get; set; }
 
         /// <summary>
+        /// Gets or sets the optional identity of a project.
+        /// </summary>
+        public long ProjectId { get; set; }
+
+        /// <summary>
         /// Gets or sets a value indicating whether all sub-folders are included in search results.
         /// </summary>
         public bool IncludeSubFolders { get; set; } = true;
