@@ -6,6 +6,7 @@
 namespace Vasont.Inspire.Models.Components
 {
     using System;
+    using System.Collections.Generic;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
     using Security;
@@ -66,6 +67,7 @@ namespace Vasont.Inspire.Models.Components
             this.itemType = ProjectFolderItemType.Component;
             this.State = ComponentStateType.Draft;
             this.Permissions = new PermissionModel(permissions);
+            this.FollowedByUsers = new List<MinimalUserModel>();
         }
 
         #endregion
@@ -192,6 +194,31 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets a value indicating whether this component can translate.
         /// </summary>
         public bool CanTranslate { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether this component is followed.
+        /// </summary>
+        public bool IsFollowed { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether this component is followed by current user.
+        /// </summary>
+        public bool IsFollowedByCurrentUser { get; set; }
+
+        /// <summary>
+        /// Gets or sets a list of users following the component.
+        /// </summary>
+        public List<MinimalUserModel> FollowedByUsers { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether this component is shared.
+        /// </summary>
+        public bool IsShared { get; set; }
+
+        /// <summary>
+        /// Gets or sets the number of components referencing the component.
+        /// </summary>
+        public long SharedComponentsCount { get; set; }
 
         /// <summary>
         /// Gets or sets the most recent component access information.
