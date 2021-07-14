@@ -5,6 +5,8 @@
 //-------------------------------------------------------------
 namespace Vasont.Inspire.Models.Components
 {
+    using System;
+    using Microsoft.AspNetCore.Http;
     using Vasont.Inspire.Models.Security;
 
     /// <summary>
