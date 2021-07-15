@@ -1,5 +1,5 @@
 ﻿//-------------------------------------------------------------
-// <copyright file="ComponentFramework.cs" company="GlobalLink Vasont">
+// <copyright file="ComponentFrameworkModel.cs" company="GlobalLink Vasont">
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-------------------------------------------------------------
@@ -7,19 +7,19 @@ namespace Vasont.Inspire.Models.Components
 {
     using System;
     using Microsoft.AspNetCore.Http;
-    using Vasont.Inspire.Models.Security;
+    using Vasont.Inspire.Models.Common;
 
     /// <summary>
     /// This class represents a component framework.
     /// </summary>
-    public class ComponentFramework
+    public class ComponentFrameworkModel : MicroCreatedUpdaterModelBase
     {
         #region Public Constructors
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="ComponentFramework" /> class.
+        /// Initializes a new instance of the <see cref="ComponentFrameworkModel" /> class.
         /// </summary>
-        public ComponentFramework()
+        public ComponentFrameworkModel()
         {
             this.CreatedDate = DateTime.UtcNow;
             this.UpdatedDate = DateTime.UtcNow;
@@ -53,26 +53,6 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets a value indicating whether the component framework is active.
         /// </summary>
         public bool Active { get; set; }
-
-        /// <summary>
-        /// Gets or sets the date time when the record was created.
-        /// </summary>
-        public DateTime CreatedDate { get; set; }
-
-        /// <summary>
-        /// Gets or sets the user model of the creating user.
-        /// </summary>
-        public MicroUserModel CreatedBy { get; set; }
-
-        /// <summary>
-        /// Gets or sets the date time when the record was last updated.
-        /// </summary>
-        public DateTime UpdatedDate { get; set; }
-
-        /// <summary>
-        /// Gets or sets the user model of the updating user.
-        /// </summary>
-        public MicroUserModel UpdatedBy { get; set; }
 
         #endregion
     }
