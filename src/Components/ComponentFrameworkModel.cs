@@ -7,12 +7,12 @@ namespace Vasont.Inspire.Models.Components
 {
     using System;
     using Microsoft.AspNetCore.Http;
-    using Vasont.Inspire.Models.Security;
+    using Vasont.Inspire.Models.Common;
 
     /// <summary>
     /// This class represents a component framework.
     /// </summary>
-    public class ComponentFrameworkModel
+    public class ComponentFrameworkModel : MicroCreatedUpdaterModelBase
     {
         #region Public Constructors
 
@@ -53,26 +53,6 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets a value indicating whether the component framework is active.
         /// </summary>
         public bool Active { get; set; }
-
-        /// <summary>
-        /// Gets or sets the date time when the record was created.
-        /// </summary>
-        public DateTime CreatedDate { get; set; }
-
-        /// <summary>
-        /// Gets or sets the user model of the creating user.
-        /// </summary>
-        public MicroUserModel CreatedBy { get; set; }
-
-        /// <summary>
-        /// Gets or sets the date time when the record was last updated.
-        /// </summary>
-        public DateTime UpdatedDate { get; set; }
-
-        /// <summary>
-        /// Gets or sets the user model of the updating user.
-        /// </summary>
-        public MicroUserModel UpdatedBy { get; set; }
 
         #endregion
     }
