@@ -1,5 +1,5 @@
 ﻿//-------------------------------------------------------------
-// <copyright file="ComponentFramework.cs" company="GlobalLink Vasont">
+// <copyright file="ComponentFrameworkModel.cs" company="GlobalLink Vasont">
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-------------------------------------------------------------
@@ -12,14 +12,14 @@ namespace Vasont.Inspire.Models.Components
     /// <summary>
     /// This class represents a component framework.
     /// </summary>
-    public class ComponentFramework
+    public class ComponentFrameworkModel
     {
         #region Public Constructors
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="ComponentFramework" /> class.
+        /// Initializes a new instance of the <see cref="ComponentFrameworkModel" /> class.
         /// </summary>
-        public ComponentFramework()
+        public ComponentFrameworkModel()
         {
             this.CreatedDate = DateTime.UtcNow;
             this.UpdatedDate = DateTime.UtcNow;
