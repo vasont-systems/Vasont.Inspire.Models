@@ -50,6 +50,11 @@ namespace Vasont.Inspire.Models.Components
         public IFormFile File { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether the component framework is system default.
+        /// </summary>
+        public bool System { get; set; }
+
+        /// <summary>
         /// Gets or sets a value indicating whether the component framework is active.
         /// </summary>
         public bool Active { get; set; }
