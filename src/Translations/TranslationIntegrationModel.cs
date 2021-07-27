@@ -98,7 +98,7 @@ namespace Vasont.Inspire.Models.Translations
         /// <value>
         /// The created by.
         /// </value>
-        public long CreatedBy { get; set; }
+        public long? CreatedBy { get; set; }
 
         /// <summary>
         /// Gets or sets the created by user.
