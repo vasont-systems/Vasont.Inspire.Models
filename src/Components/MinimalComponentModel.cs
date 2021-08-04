@@ -251,7 +251,7 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets the component branch type.
         /// </summary>
-        public ComponentBranchType Branch { get; set; }
+        public ComponentBranchType BranchType { get; set; }
 
         /// <summary>
         /// Gets or sets the most recent component access information.
