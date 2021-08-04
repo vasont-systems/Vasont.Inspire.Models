@@ -38,6 +38,33 @@ namespace Vasont.Inspire.Models.Components
     }
 
     /// <summary>
+    /// Contains an enumerated list of component branch types.
+    /// </summary>
+    [JsonConverter(typeof(StringEnumConverter))]
+    public enum ComponentBranchType
+    {
+        /// <summary>
+        /// Contains a value that indicates the component is not a branch and does not have a branch.
+        /// </summary>
+        None,
+
+        /// <summary>
+        /// Contains a value that indicates the component is branch component.
+        /// </summary>
+        IsBranch,
+
+        /// <summary>
+        /// Contains a value that indicates the component has a branch.
+        /// </summary>
+        HasBranch,
+
+        /// <summary>
+        /// Contains a value that indicates the component is a branch component and has a branch.
+        /// </summary>
+        IsBoth
+    }
+
+    /// <summary>
     /// This class represents a component model with minimal information that will used for interaction with application user interfaces.
     /// </summary>
     public class MinimalComponentModel : CreatedUpdaterModelBase
@@ -66,6 +93,7 @@ namespace Vasont.Inspire.Models.Components
             this.ComponentType = new MinimalComponentTypeModel();
             this.itemType = ProjectFolderItemType.Component;
             this.State = ComponentStateType.Draft;
+            this.BranchType = ComponentBranchType.None;
             this.Permissions = new PermissionModel(permissions);
             this.FollowedByUsers = new List<MinimalUserModel>();
         }
@@ -219,6 +247,11 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets the number of components referencing the component.
         /// </summary>
         public long SharedComponentsCount { get; set; }
+
+        /// <summary>
+        /// Gets or sets the component branch type.
+        /// </summary>
+        public ComponentBranchType BranchType { get; set; }
 
         /// <summary>
         /// Gets or sets the most recent component access information.
