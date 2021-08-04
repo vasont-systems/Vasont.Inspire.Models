@@ -93,7 +93,7 @@ namespace Vasont.Inspire.Models.Components
             this.ComponentType = new MinimalComponentTypeModel();
             this.itemType = ProjectFolderItemType.Component;
             this.State = ComponentStateType.Draft;
-            this.Branch = ComponentBranchType.None;
+            this.BranchType = ComponentBranchType.None;
             this.Permissions = new PermissionModel(permissions);
             this.FollowedByUsers = new List<MinimalUserModel>();
         }
