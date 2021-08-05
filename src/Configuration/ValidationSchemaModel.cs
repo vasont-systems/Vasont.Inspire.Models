@@ -52,5 +52,11 @@ namespace Vasont.Inspire.Models.Configuration
         /// </summary>
         /// <value><c>true</c> if active; otherwise, <c>false</c>.</value>
         public bool Active { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether this <see cref="ValidationSchema" /> is system.
+        /// </summary>
+        /// <value><c>true</c> if active; otherwise, <c>false</c>.</value>
+        public bool System { get; set; }
     }
 }
