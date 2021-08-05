@@ -117,9 +117,14 @@ namespace Vasont.Inspire.Models.Projects
         public int CompletedAssignmentCount { get; set; }
 
         /// <summary>
-        /// Gets or sets the type of project. Owned, Participating, Owned/Participating
+        /// Gets or sets the type of project. Owned, Participating, Owned/Participating.
         /// </summary>
         public string Type { get; set; }
+
+        /// <summary>
+        /// Gets or sets the optional default system folder identity value.
+        /// </summary>
+        public long SystemFolderId { get; set; }
 
         /// <summary>
         /// Gets or sets the most recent project access information.
