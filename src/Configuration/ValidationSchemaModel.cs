@@ -3,10 +3,30 @@
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
+
 namespace Vasont.Inspire.Models.Configuration
 {
-    public class ValidationSchemaModel
+    using System;
+    using Microsoft.AspNetCore.Http;
+    using Vasont.Inspire.Models.Common;
+
+    /// <summary>
+    /// This class represents a component validation schemaframework.
+    /// </summary>
+    public class ValidationSchemaModel : MicroCreatedUpdaterModelBase
     {
+        #region Public Constructors
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ValidationSchemaModel" /> class.
+        /// </summary>
+        public ValidationSchemaModel()
+        {
+            this.CreatedDate = DateTime.UtcNow;
+            this.UpdatedDate = DateTime.UtcNow;
+        }
+
+        #endregion
         /// <summary>
         /// Gets or sets the validation schema identity.
         /// </summary>
@@ -36,16 +56,23 @@ namespace Vasont.Inspire.Models.Configuration
         public string SchemaStandard { get; set; }
 
         /// <summary>
+        /// Gets or sets a form file object.
+        /// </summary>
+        public IFormFile File { get; set; }
+
+        /// <summary>
         ///  Gets or sets the component type identifier.
         /// </summary>
         /// <value>The component type identifier.</value>
         public long ComponentTypeId { get; set; }
 
         /// <summary>
-        /// Gets or sets the content of the validation schema.
+        /// Gets or sets the name of the component type.
         /// </summary>
-        /// <value>The content.</value>
-        public byte[] SchemaDataFile { get; set; }
+        /// <value>
+        /// The name of the component type.
+        /// </value>
+        public string ComponentTypeName { get; set; }
 
         /// <summary>
         /// Gets or sets a value indicating whether this <see cref="ValidationSchema" /> is active.
