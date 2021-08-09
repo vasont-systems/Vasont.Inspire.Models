@@ -124,7 +124,17 @@ namespace Vasont.Inspire.Models.Projects
         /// <summary>
         /// Gets or sets the optional default system folder identity value.
         /// </summary>
-        public long SystemFolderId { get; set; }
+        public long? SystemFolderId { get; set; }
+
+        /// <summary>
+        /// Gets or sets the optional default system folder name.
+        /// </summary>
+        public string SystemFolderName { get; set; }
+
+        /// <summary>
+        /// Gets or sets the optional default system path name.
+        /// </summary>
+        public string SystemFolderPath { get; set; }
 
         /// <summary>
         /// Gets or sets the most recent project access information.

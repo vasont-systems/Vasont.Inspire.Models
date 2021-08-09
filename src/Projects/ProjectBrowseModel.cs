@@ -30,17 +30,32 @@ namespace Vasont.Inspire.Models.Projects
         public string Description { get; set; }
 
         /// <summary>
+        /// Gets or sets the optional default system folder identity value.
+        /// </summary>
+        public long? SystemFolderId { get; set; }
+
+        /// <summary>
+        /// Gets or sets the optional default system folder name.
+        /// </summary>
+        public string SystemFolderName { get; set; }
+
+        /// <summary>
+        /// Gets or sets the optional default system path name.
+        /// </summary>
+        public string SystemFolderPath { get; set; }
+
+        /// <summary>
         /// Gets or sets the project owner's full name.
         /// </summary>
         public string OwnerFullName { get; set; }
 
         /// <summary>
-        /// Gets or sets the project owner's email address
+        /// Gets or sets the project owner's email address.
         /// </summary>
         public string OwnerEmail { get; set; }
 
         /// <summary>
-        /// Gets or sets the project owner's email address
+        /// Gets or sets the project owner's email address.
         /// </summary>
         public MicroUserModel Owner { get; set; }
 
