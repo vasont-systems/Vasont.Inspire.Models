@@ -19,5 +19,10 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets the level of the component in the source component hierarchy.
         /// </summary>
         public int Level { get; set; }
+
+        /// <summary>
+        /// Gets or sets the parent component id in the source component hierarchy.
+        /// </summary>
+        public long ParentId { get; set; }
     }
 }
