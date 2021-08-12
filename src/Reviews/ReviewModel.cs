@@ -80,6 +80,16 @@ namespace Vasont.Inspire.Models.Reviews
         public DateTime? DueDate { get; set; }
 
         /// <summary>
+        /// Gets or sets the number of days the review is over due.
+        /// </summary>
+        public int DaysOverDue { get; set; }
+
+        /// <summary>
+        /// Gets or sets the number of days before the review is over due.
+        /// </summary>
+        public int DaysPending { get; set; }
+
+        /// <summary>
         /// Gets or sets the date and time that the review was completed.
         /// </summary>
         public DateTime? CompletedDate { get; set; }
