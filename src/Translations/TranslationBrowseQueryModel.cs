@@ -20,6 +20,16 @@ namespace Vasont.Inspire.Models.Translations
         public bool IncludeArchived { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether or not to include completed translations.
+        /// </summary>
+        public bool IncludeCompleted { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether or not to include cancelled translations.
+        /// </summary>
+        public bool IncludeCancelled { get; set; }
+
+        /// <summary>
         /// Gets or sets search text that will be used to filter results.
         /// </summary>
         public string SearchText { get; set; }
