@@ -23,6 +23,11 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets the parent component id in the source component hierarchy.
         /// </summary>
-        public long ParentId { get; set; }
+        public long? ParentId { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether this branch component has a least one reference.
+        /// </summary>
+        public bool HasChildren { get; set; }
     }
 }
