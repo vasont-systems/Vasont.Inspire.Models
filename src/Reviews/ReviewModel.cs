@@ -7,6 +7,7 @@ namespace Vasont.Inspire.Models.Reviews
 {
     using System;
     using System.Collections.Generic;
+    using System.Linq;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
     using Vasont.Inspire.Core.Extensions;
@@ -143,5 +144,42 @@ namespace Vasont.Inspire.Models.Reviews
         /// Gets or sets the review workflow associated with the review.
         /// </summary>
         public ReviewWorkflowModel ReviewWorkflow { get; set; }
+
+        /// <summary>
+        /// Gets the percentage of components reviewed by the reviewer.
+        /// </summary>
+        public int ReviewPercentageCompleted
+        {
+            get
+            {
+                int percent = 0;
+
+                if (this.Components.Any())
+                {
+                    var numComponents = this.Components.Count;
+                    var totalReviewers = this.Reviewers.Count;
+                    double completed = this.Reviewers.Count(r => r.State == ReviewerStateType.Completed) * numComponents;
+                    double total = numComponents * (totalReviewers + 1);  // total including resolving phase
+
+                    switch (this.State)
+                    {
+                        case ReviewStateType.Completed:
+                            percent = 100;
+                            break;
+                        case ReviewStateType.Cancelled:
+                            percent = 0;
+                            break;
+                        case ReviewStateType.Resolving:
+                            percent = (int)(((total - numComponents) / total) * 100);
+                            break;
+                        case ReviewStateType.Reviewing:
+                            percent = (int)((completed / total) * 100);
+                            break;
+                    }
+                }
+
+                return percent;
+            }
+        }
     }
 }
