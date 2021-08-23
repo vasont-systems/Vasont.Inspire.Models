@@ -82,6 +82,11 @@ namespace Vasont.Inspire.Models.Reviews
         public long ReviewComponentId { get; set; }
 
         /// <summary>
+        /// Gets or sets the title of the review.
+        /// </summary>
+        public string Title { get; set; }
+
+        /// <summary>
         /// Gets or sets the identity of the review.
         /// </summary>
         public long ReviewId { get; set; }
