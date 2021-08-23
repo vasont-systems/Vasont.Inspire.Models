@@ -48,6 +48,11 @@ namespace Vasont.Inspire.Models.Reviews
         public long ReviewId { get; set; }
 
         /// <summary>
+        /// Gets or sets the title of the review.
+        /// </summary>
+        public string Title { get; set; }
+
+        /// <summary>
         /// Gets or sets the reviewer user.
         /// </summary>
         public MinimalUserModel User { get; set; }
