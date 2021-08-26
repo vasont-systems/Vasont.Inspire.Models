@@ -48,6 +48,16 @@ namespace Vasont.Inspire.Models.Components
         public bool SendNotification { get; set; } = true;
 
         /// <summary>
+        /// Gets or sets a value indicating whether the request contains ids for referenced components.
+        /// </summary>
+        public bool IncludesReferencedComponents { get; set; } = true;
+
+        /// <summary>
+        /// Gets or sets the identity of the export configuration.
+        /// </summary>
+        public long ExportId { get; set; } = 0;
+
+        /// <summary>
         /// Gets or sets the number of minutes the worker timeout will last.
         /// </summary>
         public int WorkerCacheLifeTimeoutMinutes { get; set; } = 14200;
