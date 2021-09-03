@@ -60,6 +60,9 @@ items:
   - Vasont.Inspire.Models.Projects.MinimalProjectModel.StartedAssignmentCount
   - Vasont.Inspire.Models.Projects.MinimalProjectModel.CompletedAssignmentCount
   - Vasont.Inspire.Models.Projects.MinimalProjectModel.Type
+  - Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderId
+  - Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderName
+  - Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderPath
   - Vasont.Inspire.Models.Projects.MinimalProjectModel.MostRecentAccess
   - Vasont.Inspire.Models.Projects.MinimalProjectModel.UserAccessCount
   - Vasont.Inspire.Models.Projects.MinimalProjectModel.Languages
@@ -407,6 +410,24 @@ references:
   name: Type
   nameWithType: MinimalProjectModel.Type
   fullName: Vasont.Inspire.Models.Projects.MinimalProjectModel.Type
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderId
+  commentId: P:Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderId
+  parent: Vasont.Inspire.Models.Projects.MinimalProjectModel
+  name: SystemFolderId
+  nameWithType: MinimalProjectModel.SystemFolderId
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderId
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderName
+  commentId: P:Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderName
+  parent: Vasont.Inspire.Models.Projects.MinimalProjectModel
+  name: SystemFolderName
+  nameWithType: MinimalProjectModel.SystemFolderName
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderName
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderPath
+  commentId: P:Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderPath
+  parent: Vasont.Inspire.Models.Projects.MinimalProjectModel
+  name: SystemFolderPath
+  nameWithType: MinimalProjectModel.SystemFolderPath
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderPath
 - uid: Vasont.Inspire.Models.Projects.MinimalProjectModel.MostRecentAccess
   commentId: P:Vasont.Inspire.Models.Projects.MinimalProjectModel.MostRecentAccess
   parent: Vasont.Inspire.Models.Projects.MinimalProjectModel

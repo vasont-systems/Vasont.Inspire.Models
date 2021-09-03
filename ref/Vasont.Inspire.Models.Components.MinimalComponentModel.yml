@@ -7,6 +7,7 @@ items:
   children:
   - Vasont.Inspire.Models.Components.MinimalComponentModel.#ctor
   - Vasont.Inspire.Models.Components.MinimalComponentModel.#ctor(Vasont.Inspire.Models.Security.PermissionFlags)
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.BranchType
   - Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate
   - Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentId
   - Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentType
@@ -14,8 +15,12 @@ items:
   - Vasont.Inspire.Models.Components.MinimalComponentModel.ContentType
   - Vasont.Inspire.Models.Components.MinimalComponentModel.FileName
   - Vasont.Inspire.Models.Components.MinimalComponentModel.Folder
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.FollowedByUsers
   - Vasont.Inspire.Models.Components.MinimalComponentModel.HashKey
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowed
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowedByCurrentUser
   - Vasont.Inspire.Models.Components.MinimalComponentModel.IsImage
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.IsShared
   - Vasont.Inspire.Models.Components.MinimalComponentModel.LanguageCode
   - Vasont.Inspire.Models.Components.MinimalComponentModel.LanguageName
   - Vasont.Inspire.Models.Components.MinimalComponentModel.Lock
@@ -23,6 +28,7 @@ items:
   - Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
   - Vasont.Inspire.Models.Components.MinimalComponentModel.Name
   - Vasont.Inspire.Models.Components.MinimalComponentModel.Permissions
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.SharedComponentsCount
   - Vasont.Inspire.Models.Components.MinimalComponentModel.State
   - Vasont.Inspire.Models.Components.MinimalComponentModel.StateName
   - Vasont.Inspire.Models.Components.MinimalComponentModel.Type
@@ -43,7 +49,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalComponentModel
     path: Components/MinimalComponentModel.cs
-    startLine: 41
+    startLine: 69
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -100,7 +106,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/MinimalComponentModel.cs
-    startLine: 53
+    startLine: 81
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -132,7 +138,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/MinimalComponentModel.cs
-    startLine: 62
+    startLine: 90
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -168,7 +174,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentId
     path: Components/MinimalComponentModel.cs
-    startLine: 77
+    startLine: 107
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -205,7 +211,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentTypeId
     path: Components/MinimalComponentModel.cs
-    startLine: 82
+    startLine: 112
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -242,7 +248,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentType
     path: Components/MinimalComponentModel.cs
-    startLine: 87
+    startLine: 117
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -279,7 +285,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Metrics
     path: Components/MinimalComponentModel.cs
-    startLine: 92
+    startLine: 122
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -316,7 +322,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Folder
     path: Components/MinimalComponentModel.cs
-    startLine: 97
+    startLine: 127
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -353,7 +359,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsImage
     path: Components/MinimalComponentModel.cs
-    startLine: 102
+    startLine: 132
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -390,7 +396,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ContentType
     path: Components/MinimalComponentModel.cs
-    startLine: 107
+    startLine: 137
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -427,7 +433,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Components/MinimalComponentModel.cs
-    startLine: 112
+    startLine: 142
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -464,7 +470,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LanguageCode
     path: Components/MinimalComponentModel.cs
-    startLine: 117
+    startLine: 147
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -501,7 +507,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LanguageName
     path: Components/MinimalComponentModel.cs
-    startLine: 122
+    startLine: 152
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -538,7 +544,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FileName
     path: Components/MinimalComponentModel.cs
-    startLine: 127
+    startLine: 157
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -575,7 +581,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: State
     path: Components/MinimalComponentModel.cs
-    startLine: 132
+    startLine: 162
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -612,7 +618,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: StateName
     path: Components/MinimalComponentModel.cs
-    startLine: 137
+    startLine: 167
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -659,7 +665,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UniqueId
     path: Components/MinimalComponentModel.cs
-    startLine: 148
+    startLine: 178
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -696,7 +702,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: HashKey
     path: Components/MinimalComponentModel.cs
-    startLine: 153
+    startLine: 183
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -733,7 +739,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Lock
     path: Components/MinimalComponentModel.cs
-    startLine: 158
+    startLine: 188
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -770,7 +776,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Permissions
     path: Components/MinimalComponentModel.cs
-    startLine: 163
+    startLine: 193
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -807,7 +813,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: VirtualPath
     path: Components/MinimalComponentModel.cs
-    startLine: 168
+    startLine: 198
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -844,7 +850,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Type
     path: Components/MinimalComponentModel.cs
-    startLine: 173
+    startLine: 203
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -881,7 +887,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanTranslate
     path: Components/MinimalComponentModel.cs
-    startLine: 193
+    startLine: 223
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -894,6 +900,228 @@ items:
       type: System.Boolean
     content.vb: Public Property CanTranslate As Boolean
   overload: Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowed
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowed
+  id: IsFollowed
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  langs:
+  - csharp
+  - vb
+  name: IsFollowed
+  nameWithType: MinimalComponentModel.IsFollowed
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowed
+  type: Property
+  source:
+    remote:
+      path: src/Components/MinimalComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IsFollowed
+    path: Components/MinimalComponentModel.cs
+    startLine: 228
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether this component is followed.\n"
+  example: []
+  syntax:
+    content: public bool IsFollowed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsFollowed As Boolean
+  overload: Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowed*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowedByCurrentUser
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowedByCurrentUser
+  id: IsFollowedByCurrentUser
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  langs:
+  - csharp
+  - vb
+  name: IsFollowedByCurrentUser
+  nameWithType: MinimalComponentModel.IsFollowedByCurrentUser
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowedByCurrentUser
+  type: Property
+  source:
+    remote:
+      path: src/Components/MinimalComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IsFollowedByCurrentUser
+    path: Components/MinimalComponentModel.cs
+    startLine: 233
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether this component is followed by current user.\n"
+  example: []
+  syntax:
+    content: public bool IsFollowedByCurrentUser { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsFollowedByCurrentUser As Boolean
+  overload: Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowedByCurrentUser*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.FollowedByUsers
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.FollowedByUsers
+  id: FollowedByUsers
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  langs:
+  - csharp
+  - vb
+  name: FollowedByUsers
+  nameWithType: MinimalComponentModel.FollowedByUsers
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.FollowedByUsers
+  type: Property
+  source:
+    remote:
+      path: src/Components/MinimalComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FollowedByUsers
+    path: Components/MinimalComponentModel.cs
+    startLine: 238
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a list of users following the component.\n"
+  example: []
+  syntax:
+    content: public List<MinimalUserModel> FollowedByUsers { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Security.MinimalUserModel}
+    content.vb: Public Property FollowedByUsers As List(Of MinimalUserModel)
+  overload: Vasont.Inspire.Models.Components.MinimalComponentModel.FollowedByUsers*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.IsShared
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.IsShared
+  id: IsShared
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  langs:
+  - csharp
+  - vb
+  name: IsShared
+  nameWithType: MinimalComponentModel.IsShared
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.IsShared
+  type: Property
+  source:
+    remote:
+      path: src/Components/MinimalComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IsShared
+    path: Components/MinimalComponentModel.cs
+    startLine: 243
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether this component is shared.\n"
+  example: []
+  syntax:
+    content: public bool IsShared { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsShared As Boolean
+  overload: Vasont.Inspire.Models.Components.MinimalComponentModel.IsShared*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.SharedComponentsCount
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.SharedComponentsCount
+  id: SharedComponentsCount
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  langs:
+  - csharp
+  - vb
+  name: SharedComponentsCount
+  nameWithType: MinimalComponentModel.SharedComponentsCount
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.SharedComponentsCount
+  type: Property
+  source:
+    remote:
+      path: src/Components/MinimalComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SharedComponentsCount
+    path: Components/MinimalComponentModel.cs
+    startLine: 248
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the number of components referencing the component.\n"
+  example: []
+  syntax:
+    content: public long SharedComponentsCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property SharedComponentsCount As Long
+  overload: Vasont.Inspire.Models.Components.MinimalComponentModel.SharedComponentsCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.BranchType
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.BranchType
+  id: BranchType
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  langs:
+  - csharp
+  - vb
+  name: BranchType
+  nameWithType: MinimalComponentModel.BranchType
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.BranchType
+  type: Property
+  source:
+    remote:
+      path: src/Components/MinimalComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: BranchType
+    path: Components/MinimalComponentModel.cs
+    startLine: 253
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the component branch type.\n"
+  example: []
+  syntax:
+    content: public ComponentBranchType BranchType { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Components.ComponentBranchType
+    content.vb: Public Property BranchType As ComponentBranchType
+  overload: Vasont.Inspire.Models.Components.MinimalComponentModel.BranchType*
   modifiers.csharp:
   - public
   - get
@@ -918,7 +1146,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MostRecentAccess
     path: Components/MinimalComponentModel.cs
-    startLine: 198
+    startLine: 258
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -955,7 +1183,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserAccessCount
     path: Components/MinimalComponentModel.cs
-    startLine: 203
+    startLine: 263
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -1504,6 +1732,129 @@ references:
   name: CanTranslate
   nameWithType: MinimalComponentModel.CanTranslate
   fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowed*
+  commentId: Overload:Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowed
+  name: IsFollowed
+  nameWithType: MinimalComponentModel.IsFollowed
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowed
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowedByCurrentUser*
+  commentId: Overload:Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowedByCurrentUser
+  name: IsFollowedByCurrentUser
+  nameWithType: MinimalComponentModel.IsFollowedByCurrentUser
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowedByCurrentUser
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.FollowedByUsers*
+  commentId: Overload:Vasont.Inspire.Models.Components.MinimalComponentModel.FollowedByUsers
+  name: FollowedByUsers
+  nameWithType: MinimalComponentModel.FollowedByUsers
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.FollowedByUsers
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Security.MinimalUserModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Security.MinimalUserModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<MinimalUserModel>
+  nameWithType: List<MinimalUserModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Security.MinimalUserModel>
+  nameWithType.vb: List(Of MinimalUserModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Security.MinimalUserModel)
+  name.vb: List(Of MinimalUserModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Security.MinimalUserModel
+    name: MinimalUserModel
+    nameWithType: MinimalUserModel
+    fullName: Vasont.Inspire.Models.Security.MinimalUserModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Security.MinimalUserModel
+    name: MinimalUserModel
+    nameWithType: MinimalUserModel
+    fullName: Vasont.Inspire.Models.Security.MinimalUserModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.IsShared*
+  commentId: Overload:Vasont.Inspire.Models.Components.MinimalComponentModel.IsShared
+  name: IsShared
+  nameWithType: MinimalComponentModel.IsShared
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.IsShared
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.SharedComponentsCount*
+  commentId: Overload:Vasont.Inspire.Models.Components.MinimalComponentModel.SharedComponentsCount
+  name: SharedComponentsCount
+  nameWithType: MinimalComponentModel.SharedComponentsCount
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.SharedComponentsCount
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.BranchType*
+  commentId: Overload:Vasont.Inspire.Models.Components.MinimalComponentModel.BranchType
+  name: BranchType
+  nameWithType: MinimalComponentModel.BranchType
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.BranchType
+- uid: Vasont.Inspire.Models.Components.ComponentBranchType
+  commentId: T:Vasont.Inspire.Models.Components.ComponentBranchType
+  parent: Vasont.Inspire.Models.Components
+  name: ComponentBranchType
+  nameWithType: ComponentBranchType
+  fullName: Vasont.Inspire.Models.Components.ComponentBranchType
 - uid: Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess*
   commentId: Overload:Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
   name: MostRecentAccess

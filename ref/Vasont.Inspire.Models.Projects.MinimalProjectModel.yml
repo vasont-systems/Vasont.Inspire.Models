@@ -25,6 +25,9 @@ items:
   - Vasont.Inspire.Models.Projects.MinimalProjectModel.ProjectId
   - Vasont.Inspire.Models.Projects.MinimalProjectModel.StartByDate
   - Vasont.Inspire.Models.Projects.MinimalProjectModel.StartedAssignmentCount
+  - Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderId
+  - Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderName
+  - Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderPath
   - Vasont.Inspire.Models.Projects.MinimalProjectModel.Title
   - Vasont.Inspire.Models.Projects.MinimalProjectModel.Type
   - Vasont.Inspire.Models.Projects.MinimalProjectModel.UpdatedBy
@@ -833,7 +836,7 @@ items:
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
-  summary: "\nGets or sets the type of project. Owned, Participating, Owned/Participating\n"
+  summary: "\nGets or sets the type of project. Owned, Participating, Owned/Participating.\n"
   example: []
   syntax:
     content: public string Type { get; set; }
@@ -842,6 +845,117 @@ items:
       type: System.String
     content.vb: Public Property Type As String
   overload: Vasont.Inspire.Models.Projects.MinimalProjectModel.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderId
+  commentId: P:Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderId
+  id: SystemFolderId
+  parent: Vasont.Inspire.Models.Projects.MinimalProjectModel
+  langs:
+  - csharp
+  - vb
+  name: SystemFolderId
+  nameWithType: MinimalProjectModel.SystemFolderId
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderId
+  type: Property
+  source:
+    remote:
+      path: src/Projects/MinimalProjectModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SystemFolderId
+    path: Projects/MinimalProjectModel.cs
+    startLine: 126
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the optional default system folder identity value.\n"
+  example: []
+  syntax:
+    content: public long? SystemFolderId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int64}
+    content.vb: Public Property SystemFolderId As Long?
+  overload: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderName
+  commentId: P:Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderName
+  id: SystemFolderName
+  parent: Vasont.Inspire.Models.Projects.MinimalProjectModel
+  langs:
+  - csharp
+  - vb
+  name: SystemFolderName
+  nameWithType: MinimalProjectModel.SystemFolderName
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderName
+  type: Property
+  source:
+    remote:
+      path: src/Projects/MinimalProjectModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SystemFolderName
+    path: Projects/MinimalProjectModel.cs
+    startLine: 131
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the optional default system folder name.\n"
+  example: []
+  syntax:
+    content: public string SystemFolderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SystemFolderName As String
+  overload: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderPath
+  commentId: P:Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderPath
+  id: SystemFolderPath
+  parent: Vasont.Inspire.Models.Projects.MinimalProjectModel
+  langs:
+  - csharp
+  - vb
+  name: SystemFolderPath
+  nameWithType: MinimalProjectModel.SystemFolderPath
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderPath
+  type: Property
+  source:
+    remote:
+      path: src/Projects/MinimalProjectModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SystemFolderPath
+    path: Projects/MinimalProjectModel.cs
+    startLine: 136
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the optional default system path name.\n"
+  example: []
+  syntax:
+    content: public string SystemFolderPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SystemFolderPath As String
+  overload: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderPath*
   modifiers.csharp:
   - public
   - get
@@ -866,7 +980,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MostRecentAccess
     path: Projects/MinimalProjectModel.cs
-    startLine: 126
+    startLine: 141
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -903,7 +1017,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserAccessCount
     path: Projects/MinimalProjectModel.cs
-    startLine: 131
+    startLine: 146
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -940,7 +1054,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Languages
     path: Projects/MinimalProjectModel.cs
-    startLine: 136
+    startLine: 151
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -977,7 +1091,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Participants
     path: Projects/MinimalProjectModel.cs
-    startLine: 141
+    startLine: 156
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -1528,6 +1642,65 @@ references:
   name: Type
   nameWithType: MinimalProjectModel.Type
   fullName: Vasont.Inspire.Models.Projects.MinimalProjectModel.Type
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderId*
+  commentId: Overload:Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderId
+  name: SystemFolderId
+  nameWithType: MinimalProjectModel.SystemFolderId
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderId
+- uid: System.Nullable{System.Int64}
+  commentId: T:System.Nullable{System.Int64}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int64>
+  nameWithType: Nullable<Int64>
+  fullName: System.Nullable<System.Int64>
+  nameWithType.vb: Nullable(Of Int64)
+  fullName.vb: System.Nullable(Of System.Int64)
+  name.vb: Nullable(Of Int64)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderName*
+  commentId: Overload:Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderName
+  name: SystemFolderName
+  nameWithType: MinimalProjectModel.SystemFolderName
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderName
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderPath*
+  commentId: Overload:Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderPath
+  name: SystemFolderPath
+  nameWithType: MinimalProjectModel.SystemFolderPath
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderPath
 - uid: Vasont.Inspire.Models.Projects.MinimalProjectModel.MostRecentAccess*
   commentId: Overload:Vasont.Inspire.Models.Projects.MinimalProjectModel.MostRecentAccess
   name: MostRecentAccess

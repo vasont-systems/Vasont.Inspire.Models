@@ -6,6 +6,8 @@ items:
   parent: Vasont.Inspire.Models.Reviews
   children:
   - Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.Coordinator
+  - Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysOverDue
+  - Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysPending
   - Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DueDate
   - Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.PercentageCompleted
   - Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.ReviewerUserId
@@ -274,6 +276,80 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysOverDue
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysOverDue
+  id: DaysOverDue
+  parent: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel
+  langs:
+  - csharp
+  - vb
+  name: DaysOverDue
+  nameWithType: ReviewAssignmentModel.DaysOverDue
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysOverDue
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewAssignmentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DaysOverDue
+    path: Reviews/ReviewAssignmentModel.cs
+    startLine: 49
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the number of days the review is over due.\n"
+  example: []
+  syntax:
+    content: public int DaysOverDue { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DaysOverDue As Integer
+  overload: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysOverDue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysPending
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysPending
+  id: DaysPending
+  parent: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel
+  langs:
+  - csharp
+  - vb
+  name: DaysPending
+  nameWithType: ReviewAssignmentModel.DaysPending
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysPending
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewAssignmentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DaysPending
+    path: Reviews/ReviewAssignmentModel.cs
+    startLine: 54
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the number of days before the review is over due.\n"
+  example: []
+  syntax:
+    content: public int DaysPending { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DaysPending As Integer
+  overload: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysPending*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.PercentageCompleted
   commentId: P:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.PercentageCompleted
   id: PercentageCompleted
@@ -292,7 +368,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PercentageCompleted
     path: Reviews/ReviewAssignmentModel.cs
-    startLine: 49
+    startLine: 59
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -331,7 +407,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewerUserId
     path: Reviews/ReviewAssignmentModel.cs
-    startLine: 54
+    startLine: 64
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -802,11 +878,11 @@ references:
   name: DueDate
   nameWithType: ReviewAssignmentModel.DueDate
   fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DueDate
-- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.PercentageCompleted*
-  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.PercentageCompleted
-  name: PercentageCompleted
-  nameWithType: ReviewAssignmentModel.PercentageCompleted
-  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.PercentageCompleted
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysOverDue*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysOverDue
+  name: DaysOverDue
+  nameWithType: ReviewAssignmentModel.DaysOverDue
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysOverDue
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -814,6 +890,16 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysPending*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysPending
+  name: DaysPending
+  nameWithType: ReviewAssignmentModel.DaysPending
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysPending
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.PercentageCompleted*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.PercentageCompleted
+  name: PercentageCompleted
+  nameWithType: ReviewAssignmentModel.PercentageCompleted
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.PercentageCompleted
 - uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.ReviewerUserId*
   commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.ReviewerUserId
   name: ReviewerUserId

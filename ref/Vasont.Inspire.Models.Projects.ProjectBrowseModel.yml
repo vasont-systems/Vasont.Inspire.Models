@@ -23,6 +23,9 @@ items:
   - Vasont.Inspire.Models.Projects.ProjectBrowseModel.OwnerEmail
   - Vasont.Inspire.Models.Projects.ProjectBrowseModel.OwnerFullName
   - Vasont.Inspire.Models.Projects.ProjectBrowseModel.ProjectId
+  - Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderId
+  - Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderName
+  - Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderPath
   - Vasont.Inspire.Models.Projects.ProjectBrowseModel.Title
   - Vasont.Inspire.Models.Projects.ProjectBrowseModel.ToDoAssignmentCount
   - Vasont.Inspire.Models.Projects.ProjectBrowseModel.UpdatedDate
@@ -176,6 +179,117 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderId
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderId
+  id: SystemFolderId
+  parent: Vasont.Inspire.Models.Projects.ProjectBrowseModel
+  langs:
+  - csharp
+  - vb
+  name: SystemFolderId
+  nameWithType: ProjectBrowseModel.SystemFolderId
+  fullName: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderId
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectBrowseModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SystemFolderId
+    path: Projects/ProjectBrowseModel.cs
+    startLine: 34
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the optional default system folder identity value.\n"
+  example: []
+  syntax:
+    content: public long? SystemFolderId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int64}
+    content.vb: Public Property SystemFolderId As Long?
+  overload: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderName
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderName
+  id: SystemFolderName
+  parent: Vasont.Inspire.Models.Projects.ProjectBrowseModel
+  langs:
+  - csharp
+  - vb
+  name: SystemFolderName
+  nameWithType: ProjectBrowseModel.SystemFolderName
+  fullName: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderName
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectBrowseModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SystemFolderName
+    path: Projects/ProjectBrowseModel.cs
+    startLine: 39
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the optional default system folder name.\n"
+  example: []
+  syntax:
+    content: public string SystemFolderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SystemFolderName As String
+  overload: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderPath
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderPath
+  id: SystemFolderPath
+  parent: Vasont.Inspire.Models.Projects.ProjectBrowseModel
+  langs:
+  - csharp
+  - vb
+  name: SystemFolderPath
+  nameWithType: ProjectBrowseModel.SystemFolderPath
+  fullName: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderPath
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectBrowseModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SystemFolderPath
+    path: Projects/ProjectBrowseModel.cs
+    startLine: 44
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the optional default system path name.\n"
+  example: []
+  syntax:
+    content: public string SystemFolderPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SystemFolderPath As String
+  overload: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderPath*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Projects.ProjectBrowseModel.OwnerFullName
   commentId: P:Vasont.Inspire.Models.Projects.ProjectBrowseModel.OwnerFullName
   id: OwnerFullName
@@ -194,7 +308,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: OwnerFullName
     path: Projects/ProjectBrowseModel.cs
-    startLine: 34
+    startLine: 49
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -231,11 +345,11 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: OwnerEmail
     path: Projects/ProjectBrowseModel.cs
-    startLine: 39
+    startLine: 54
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
-  summary: "\nGets or sets the project owner&apos;s email address\n"
+  summary: "\nGets or sets the project owner&apos;s email address.\n"
   example: []
   syntax:
     content: public string OwnerEmail { get; set; }
@@ -268,11 +382,11 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Owner
     path: Projects/ProjectBrowseModel.cs
-    startLine: 44
+    startLine: 59
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
-  summary: "\nGets or sets the project owner&apos;s email address\n"
+  summary: "\nGets or sets the project owner&apos;s email address.\n"
   example: []
   syntax:
     content: public MicroUserModel Owner { get; set; }
@@ -305,7 +419,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Completed
     path: Projects/ProjectBrowseModel.cs
-    startLine: 49
+    startLine: 64
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -342,7 +456,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CompletedDate
     path: Projects/ProjectBrowseModel.cs
-    startLine: 54
+    startLine: 69
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -379,7 +493,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CompleteByDate
     path: Projects/ProjectBrowseModel.cs
-    startLine: 59
+    startLine: 74
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -416,7 +530,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedDate
     path: Projects/ProjectBrowseModel.cs
-    startLine: 64
+    startLine: 79
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -453,7 +567,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DueDate
     path: Projects/ProjectBrowseModel.cs
-    startLine: 69
+    startLine: 84
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -490,7 +604,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdatedDate
     path: Projects/ProjectBrowseModel.cs
-    startLine: 74
+    startLine: 89
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -527,7 +641,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentCount
     path: Projects/ProjectBrowseModel.cs
-    startLine: 79
+    startLine: 94
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -564,7 +678,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ToDoAssignmentCount
     path: Projects/ProjectBrowseModel.cs
-    startLine: 84
+    startLine: 99
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -601,7 +715,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: InProgressAssignmentCount
     path: Projects/ProjectBrowseModel.cs
-    startLine: 89
+    startLine: 104
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -638,7 +752,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CompletedAssignmentCount
     path: Projects/ProjectBrowseModel.cs
-    startLine: 94
+    startLine: 109
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -675,7 +789,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CancelledAssignmentCount
     path: Projects/ProjectBrowseModel.cs
-    startLine: 99
+    startLine: 114
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -712,7 +826,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MostRecentAccessFullName
     path: Projects/ProjectBrowseModel.cs
-    startLine: 104
+    startLine: 119
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -749,7 +863,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MostRecentAccessEmail
     path: Projects/ProjectBrowseModel.cs
-    startLine: 109
+    startLine: 124
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -786,7 +900,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MostRecentAccessDate
     path: Projects/ProjectBrowseModel.cs
-    startLine: 114
+    startLine: 129
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -823,7 +937,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Languages
     path: Projects/ProjectBrowseModel.cs
-    startLine: 119
+    startLine: 134
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -1169,6 +1283,104 @@ references:
   name: Description
   nameWithType: ProjectBrowseModel.Description
   fullName: Vasont.Inspire.Models.Projects.ProjectBrowseModel.Description
+- uid: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderId*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderId
+  name: SystemFolderId
+  nameWithType: ProjectBrowseModel.SystemFolderId
+  fullName: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderId
+- uid: System.Nullable{System.Int64}
+  commentId: T:System.Nullable{System.Int64}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int64>
+  nameWithType: Nullable<Int64>
+  fullName: System.Nullable<System.Int64>
+  nameWithType.vb: Nullable(Of Int64)
+  fullName.vb: System.Nullable(Of System.Int64)
+  name.vb: Nullable(Of Int64)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderName*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderName
+  name: SystemFolderName
+  nameWithType: ProjectBrowseModel.SystemFolderName
+  fullName: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderName
+- uid: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderPath*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderPath
+  name: SystemFolderPath
+  nameWithType: ProjectBrowseModel.SystemFolderPath
+  fullName: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderPath
 - uid: Vasont.Inspire.Models.Projects.ProjectBrowseModel.OwnerFullName*
   commentId: Overload:Vasont.Inspire.Models.Projects.ProjectBrowseModel.OwnerFullName
   name: OwnerFullName
@@ -1253,45 +1465,6 @@ references:
     nameWithType: DateTime
     fullName: System.DateTime
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
-  isExternal: true
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
-  spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
   - name: )
     nameWithType: )
     fullName: )

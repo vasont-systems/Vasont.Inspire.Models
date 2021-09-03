@@ -36,8 +36,10 @@ items:
   - System.Object
   derivedClasses:
   - Vasont.Inspire.Models.Common.LanguageModel
+  - Vasont.Inspire.Models.Components.ComponentFrameworkModel
   - Vasont.Inspire.Models.Components.ComponentRolePermissionModel
   - Vasont.Inspire.Models.Components.ComponentUserPermissionModel
+  - Vasont.Inspire.Models.Configuration.ValidationSchemaModel
   - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
   inheritedMembers:
   - System.Object.ToString

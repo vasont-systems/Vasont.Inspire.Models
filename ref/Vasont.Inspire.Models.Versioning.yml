@@ -10,6 +10,7 @@ items:
   - Vasont.Inspire.Models.Versioning.ChangesetResultModel
   - Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
   - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType
   - Vasont.Inspire.Models.Versioning.ChangesetSnapshotType
   - Vasont.Inspire.Models.Versioning.ComponentHistoryQueryModel
   - Vasont.Inspire.Models.Versioning.ComponentHistoryResultModel
@@ -60,6 +61,12 @@ references:
   name: ChangesetSnapshotActionType
   nameWithType: ChangesetSnapshotActionType
   fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType
+  commentId: T:Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType
+  parent: Vasont.Inspire.Models.Versioning
+  name: ChangesetSnapshotProcessType
+  nameWithType: ChangesetSnapshotProcessType
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType
 - uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType
   commentId: T:Vasont.Inspire.Models.Versioning.ChangesetSnapshotType
   parent: Vasont.Inspire.Models.Versioning

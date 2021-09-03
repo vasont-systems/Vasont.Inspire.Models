@@ -73,6 +73,7 @@ items:
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.RetrievalRequest
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.RetrievalResponse
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.FileDownloadUrl
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.IntegrationProjectId
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -618,6 +619,12 @@ references:
   name: FileDownloadUrl
   nameWithType: MinimalTranslationJobModel.FileDownloadUrl
   fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.FileDownloadUrl
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.IntegrationProjectId
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.IntegrationProjectId
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
+  name: IntegrationProjectId
+  nameWithType: MinimalTranslationJobModel.IntegrationProjectId
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.IntegrationProjectId
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object

@@ -50,6 +50,7 @@ items:
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobSourceComponentId
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Name
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.ComponentTypeName
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Path
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.WordCount
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCount
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.CharCountNoSpace
@@ -399,6 +400,12 @@ references:
   name: ComponentTypeName
   nameWithType: MinimalTranslationJobComponentModel.ComponentTypeName
   fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.ComponentTypeName
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Path
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Path
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  name: Path
+  nameWithType: MinimalTranslationJobComponentModel.Path
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Path
 - uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.WordCount
   commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.WordCount
   parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
