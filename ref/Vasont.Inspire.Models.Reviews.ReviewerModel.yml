@@ -13,6 +13,7 @@ items:
   - Vasont.Inspire.Models.Reviews.ReviewerModel.ReviewId
   - Vasont.Inspire.Models.Reviews.ReviewerModel.ReviewWorkflowSubmittal
   - Vasont.Inspire.Models.Reviews.ReviewerModel.State
+  - Vasont.Inspire.Models.Reviews.ReviewerModel.Title
   - Vasont.Inspire.Models.Reviews.ReviewerModel.User
   langs:
   - csharp
@@ -90,6 +91,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewerModel.Title
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewerModel.Title
+  id: Title
+  parent: Vasont.Inspire.Models.Reviews.ReviewerModel
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: ReviewerModel.Title
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerModel.Title
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewerModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Title
+    path: Reviews/ReviewerModel.cs
+    startLine: 52
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the title of the review.\n"
+  example: []
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: Vasont.Inspire.Models.Reviews.ReviewerModel.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Reviews.ReviewerModel.User
   commentId: P:Vasont.Inspire.Models.Reviews.ReviewerModel.User
   id: User
@@ -108,7 +146,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: User
     path: Reviews/ReviewerModel.cs
-    startLine: 52
+    startLine: 57
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -145,7 +183,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: State
     path: Reviews/ReviewerModel.cs
-    startLine: 57
+    startLine: 62
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -182,7 +220,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanComment
     path: Reviews/ReviewerModel.cs
-    startLine: 62
+    startLine: 67
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -219,7 +257,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanTrackChanges
     path: Reviews/ReviewerModel.cs
-    startLine: 67
+    startLine: 72
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -256,7 +294,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReceiveNotifications
     path: Reviews/ReviewerModel.cs
-    startLine: 72
+    startLine: 77
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -293,7 +331,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CompletedDate
     path: Reviews/ReviewerModel.cs
-    startLine: 77
+    startLine: 82
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -330,7 +368,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Comment
     path: Reviews/ReviewerModel.cs
-    startLine: 82
+    startLine: 87
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -367,7 +405,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewWorkflowSubmittal
     path: Reviews/ReviewerModel.cs
-    startLine: 87
+    startLine: 92
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -696,6 +734,18 @@ references:
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: Vasont.Inspire.Models.Reviews.ReviewerModel.Title*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewerModel.Title
+  name: Title
+  nameWithType: ReviewerModel.Title
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerModel.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: Vasont.Inspire.Models.Reviews.ReviewerModel.User*
   commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewerModel.User
   name: User
@@ -838,13 +888,6 @@ references:
   name: Comment
   nameWithType: ReviewerModel.Comment
   fullName: Vasont.Inspire.Models.Reviews.ReviewerModel.Comment
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: Vasont.Inspire.Models.Reviews.ReviewerModel.ReviewWorkflowSubmittal*
   commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewerModel.ReviewWorkflowSubmittal
   name: ReviewWorkflowSubmittal

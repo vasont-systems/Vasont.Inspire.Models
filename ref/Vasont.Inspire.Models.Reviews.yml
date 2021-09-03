@@ -4,6 +4,7 @@ items:
   commentId: N:Vasont.Inspire.Models.Reviews
   id: Vasont.Inspire.Models.Reviews
   children:
+  - Vasont.Inspire.Models.Reviews.BrowseReviewResultType
   - Vasont.Inspire.Models.Reviews.ReviewAssignmentModel
   - Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel
   - Vasont.Inspire.Models.Reviews.ReviewBrowseResultModel
@@ -47,6 +48,12 @@ references:
   name: ReviewAssignmentModel
   nameWithType: ReviewAssignmentModel
   fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel
+- uid: Vasont.Inspire.Models.Reviews.BrowseReviewResultType
+  commentId: T:Vasont.Inspire.Models.Reviews.BrowseReviewResultType
+  parent: Vasont.Inspire.Models.Reviews
+  name: BrowseReviewResultType
+  nameWithType: BrowseReviewResultType
+  fullName: Vasont.Inspire.Models.Reviews.BrowseReviewResultType
 - uid: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel
   commentId: T:Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel
   name: ReviewBrowseQueryModel

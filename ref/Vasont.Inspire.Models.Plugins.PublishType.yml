@@ -11,6 +11,7 @@ items:
   - Vasont.Inspire.Models.Plugins.PublishType.Html
   - Vasont.Inspire.Models.Plugins.PublishType.Pdf
   - Vasont.Inspire.Models.Plugins.PublishType.Python
+  - Vasont.Inspire.Models.Plugins.PublishType.Xslt
   - Vasont.Inspire.Models.Plugins.PublishType.Zoomin
   langs:
   - csharp
@@ -283,6 +284,40 @@ items:
   example: []
   syntax:
     content: Python = 6
+    return:
+      type: Vasont.Inspire.Models.Plugins.PublishType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Plugins.PublishType.Xslt
+  commentId: F:Vasont.Inspire.Models.Plugins.PublishType.Xslt
+  id: Xslt
+  parent: Vasont.Inspire.Models.Plugins.PublishType
+  langs:
+  - csharp
+  - vb
+  name: Xslt
+  nameWithType: PublishType.Xslt
+  fullName: Vasont.Inspire.Models.Plugins.PublishType.Xslt
+  type: Field
+  source:
+    remote:
+      path: src/Plugins/PublishRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Xslt
+    path: Plugins/PublishRequestModel.cs
+    startLine: 57
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nContains a value that indicates publishing to XSLT.\n"
+  example: []
+  syntax:
+    content: Xslt = 7
     return:
       type: Vasont.Inspire.Models.Plugins.PublishType
   modifiers.csharp:

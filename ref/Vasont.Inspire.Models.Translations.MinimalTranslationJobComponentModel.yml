@@ -11,6 +11,7 @@ items:
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileName
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.FileSize
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Name
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Path
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.SourceLanguageCode
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.State
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TargetLanguageCode
@@ -392,6 +393,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Path
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Path
+  id: Path
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  langs:
+  - csharp
+  - vb
+  name: Path
+  nameWithType: MinimalTranslationJobComponentModel.Path
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Path
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Path
+    path: Translations/MinimalTranslationJobComponentModel.cs
+    startLine: 91
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the path of the component.\n"
+  example: []
+  syntax:
+    content: public string Path { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Path As String
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Path*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.WordCount
   commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.WordCount
   id: WordCount
@@ -410,7 +448,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WordCount
     path: Translations/MinimalTranslationJobComponentModel.cs
-    startLine: 91
+    startLine: 96
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -447,7 +485,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CharCount
     path: Translations/MinimalTranslationJobComponentModel.cs
-    startLine: 96
+    startLine: 101
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -484,7 +522,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CharCountNoSpace
     path: Translations/MinimalTranslationJobComponentModel.cs
-    startLine: 101
+    startLine: 106
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -521,7 +559,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FileSize
     path: Translations/MinimalTranslationJobComponentModel.cs
-    startLine: 106
+    startLine: 111
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -903,6 +941,11 @@ references:
   name: ComponentTypeName
   nameWithType: MinimalTranslationJobComponentModel.ComponentTypeName
   fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.ComponentTypeName
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Path*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Path
+  name: Path
+  nameWithType: MinimalTranslationJobComponentModel.Path
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Path
 - uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.WordCount*
   commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.WordCount
   name: WordCount

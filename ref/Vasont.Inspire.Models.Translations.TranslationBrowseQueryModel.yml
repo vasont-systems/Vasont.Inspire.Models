@@ -6,7 +6,12 @@ items:
   parent: Vasont.Inspire.Models.Translations
   children:
   - Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeArchived
+  - Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCancelled
+  - Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCompleted
   - Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.JobStates
+  - Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFilters
+  - Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFiltersWithDisplayValues
+  - Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryName
   - Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.SearchText
   langs:
   - csharp
@@ -22,7 +27,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationBrowseQueryModel
     path: Translations/TranslationBrowseQueryModel.cs
-    startLine: 14
+    startLine: 15
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -72,7 +77,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IncludeArchived
     path: Translations/TranslationBrowseQueryModel.cs
-    startLine: 19
+    startLine: 20
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -85,6 +90,80 @@ items:
       type: System.Boolean
     content.vb: Public Property IncludeArchived As Boolean
   overload: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeArchived*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCompleted
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCompleted
+  id: IncludeCompleted
+  parent: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel
+  langs:
+  - csharp
+  - vb
+  name: IncludeCompleted
+  nameWithType: TranslationBrowseQueryModel.IncludeCompleted
+  fullName: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCompleted
+  type: Property
+  source:
+    remote:
+      path: src/Translations/TranslationBrowseQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IncludeCompleted
+    path: Translations/TranslationBrowseQueryModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets a value indicating whether or not to include completed translations.\n"
+  example: []
+  syntax:
+    content: public bool IncludeCompleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeCompleted As Boolean
+  overload: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCompleted*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCancelled
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCancelled
+  id: IncludeCancelled
+  parent: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel
+  langs:
+  - csharp
+  - vb
+  name: IncludeCancelled
+  nameWithType: TranslationBrowseQueryModel.IncludeCancelled
+  fullName: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCancelled
+  type: Property
+  source:
+    remote:
+      path: src/Translations/TranslationBrowseQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IncludeCancelled
+    path: Translations/TranslationBrowseQueryModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets a value indicating whether or not to include cancelled translations.\n"
+  example: []
+  syntax:
+    content: public bool IncludeCancelled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeCancelled As Boolean
+  overload: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCancelled*
   modifiers.csharp:
   - public
   - get
@@ -109,7 +188,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SearchText
     path: Translations/TranslationBrowseQueryModel.cs
-    startLine: 24
+    startLine: 35
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -146,7 +225,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: JobStates
     path: Translations/TranslationBrowseQueryModel.cs
-    startLine: 29
+    startLine: 40
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -159,6 +238,117 @@ items:
       type: System.Collections.Generic.List{System.String}
     content.vb: Public Property JobStates As List(Of String)
   overload: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.JobStates*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFilters
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFilters
+  id: QueryFilters
+  parent: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel
+  langs:
+  - csharp
+  - vb
+  name: QueryFilters
+  nameWithType: TranslationBrowseQueryModel.QueryFilters
+  fullName: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFilters
+  type: Property
+  source:
+    remote:
+      path: src/Translations/TranslationBrowseQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: QueryFilters
+    path: Translations/TranslationBrowseQueryModel.cs
+    startLine: 45
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets an optional list of ad-hoc query built filters.\n"
+  example: []
+  syntax:
+    content: public List<AdHocQueryFilterModel> QueryFilters { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Search.AdHocQueryFilterModel}
+    content.vb: Public Property QueryFilters As List(Of AdHocQueryFilterModel)
+  overload: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFilters*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFiltersWithDisplayValues
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFiltersWithDisplayValues
+  id: QueryFiltersWithDisplayValues
+  parent: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel
+  langs:
+  - csharp
+  - vb
+  name: QueryFiltersWithDisplayValues
+  nameWithType: TranslationBrowseQueryModel.QueryFiltersWithDisplayValues
+  fullName: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFiltersWithDisplayValues
+  type: Property
+  source:
+    remote:
+      path: src/Translations/TranslationBrowseQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: QueryFiltersWithDisplayValues
+    path: Translations/TranslationBrowseQueryModel.cs
+    startLine: 50
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets an optional list of ad-hoc query built filters with the display values.\n"
+  example: []
+  syntax:
+    content: public List<AdHocQueryFilterModel> QueryFiltersWithDisplayValues { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Search.AdHocQueryFilterModel}
+    content.vb: Public Property QueryFiltersWithDisplayValues As List(Of AdHocQueryFilterModel)
+  overload: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFiltersWithDisplayValues*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryName
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryName
+  id: QueryName
+  parent: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel
+  langs:
+  - csharp
+  - vb
+  name: QueryName
+  nameWithType: TranslationBrowseQueryModel.QueryName
+  fullName: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryName
+  type: Property
+  source:
+    remote:
+      path: src/Translations/TranslationBrowseQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: QueryName
+    path: Translations/TranslationBrowseQueryModel.cs
+    startLine: 55
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the name of the selected query.\n"
+  example: []
+  syntax:
+    content: public string QueryName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property QueryName As String
+  overload: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryName*
   modifiers.csharp:
   - public
   - get
@@ -510,6 +700,16 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCompleted*
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCompleted
+  name: IncludeCompleted
+  nameWithType: TranslationBrowseQueryModel.IncludeCompleted
+  fullName: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCompleted
+- uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCancelled*
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCancelled
+  name: IncludeCancelled
+  nameWithType: TranslationBrowseQueryModel.IncludeCancelled
+  fullName: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCancelled
 - uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.SearchText*
   commentId: Overload:Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.SearchText
   name: SearchText
@@ -616,3 +816,60 @@ references:
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFilters*
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFilters
+  name: QueryFilters
+  nameWithType: TranslationBrowseQueryModel.QueryFilters
+  fullName: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFilters
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Search.AdHocQueryFilterModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Search.AdHocQueryFilterModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<AdHocQueryFilterModel>
+  nameWithType: List<AdHocQueryFilterModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Search.AdHocQueryFilterModel>
+  nameWithType.vb: List(Of AdHocQueryFilterModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Search.AdHocQueryFilterModel)
+  name.vb: List(Of AdHocQueryFilterModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Search.AdHocQueryFilterModel
+    name: AdHocQueryFilterModel
+    nameWithType: AdHocQueryFilterModel
+    fullName: Vasont.Inspire.Models.Search.AdHocQueryFilterModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Search.AdHocQueryFilterModel
+    name: AdHocQueryFilterModel
+    nameWithType: AdHocQueryFilterModel
+    fullName: Vasont.Inspire.Models.Search.AdHocQueryFilterModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFiltersWithDisplayValues*
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFiltersWithDisplayValues
+  name: QueryFiltersWithDisplayValues
+  nameWithType: TranslationBrowseQueryModel.QueryFiltersWithDisplayValues
+  fullName: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFiltersWithDisplayValues
+- uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryName*
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryName
+  name: QueryName
+  nameWithType: TranslationBrowseQueryModel.QueryName
+  fullName: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryName

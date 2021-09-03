@@ -17,8 +17,10 @@ items:
   - Vasont.Inspire.Models.Components.ComponentAutoRepairStateModel
   - Vasont.Inspire.Models.Components.ComponentBranchRequestModel
   - Vasont.Inspire.Models.Components.ComponentBranchStateModel
+  - Vasont.Inspire.Models.Components.ComponentBranchType
   - Vasont.Inspire.Models.Components.ComponentDependenciesResultModel
   - Vasont.Inspire.Models.Components.ComponentDependencyModel
+  - Vasont.Inspire.Models.Components.ComponentFrameworkModel
   - Vasont.Inspire.Models.Components.ComponentLockModel
   - Vasont.Inspire.Models.Components.ComponentLockType
   - Vasont.Inspire.Models.Components.ComponentMetricsModel
@@ -187,6 +189,11 @@ references:
   name: ComponentDependencyModel
   nameWithType: ComponentDependencyModel
   fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel
+- uid: Vasont.Inspire.Models.Components.ComponentFrameworkModel
+  commentId: T:Vasont.Inspire.Models.Components.ComponentFrameworkModel
+  name: ComponentFrameworkModel
+  nameWithType: ComponentFrameworkModel
+  fullName: Vasont.Inspire.Models.Components.ComponentFrameworkModel
 - uid: Vasont.Inspire.Models.Components.ComponentLockType
   commentId: T:Vasont.Inspire.Models.Components.ComponentLockType
   parent: Vasont.Inspire.Models.Components
@@ -503,6 +510,12 @@ references:
   name: ComponentStateType
   nameWithType: ComponentStateType
   fullName: Vasont.Inspire.Models.Components.ComponentStateType
+- uid: Vasont.Inspire.Models.Components.ComponentBranchType
+  commentId: T:Vasont.Inspire.Models.Components.ComponentBranchType
+  parent: Vasont.Inspire.Models.Components
+  name: ComponentBranchType
+  nameWithType: ComponentBranchType
+  fullName: Vasont.Inspire.Models.Components.ComponentBranchType
 - uid: Vasont.Inspire.Models.Components.MinimalComponentModel
   commentId: T:Vasont.Inspire.Models.Components.MinimalComponentModel
   parent: Vasont.Inspire.Models.Components

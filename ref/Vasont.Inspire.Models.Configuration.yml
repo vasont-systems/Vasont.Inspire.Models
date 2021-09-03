@@ -10,6 +10,7 @@ items:
   - Vasont.Inspire.Models.Configuration.MinimalRelationModel
   - Vasont.Inspire.Models.Configuration.RelationKeyName
   - Vasont.Inspire.Models.Configuration.RelationModel
+  - Vasont.Inspire.Models.Configuration.ValidationSchemaModel
   - Vasont.Inspire.Models.Configuration.XmlLinkTypeModel
   langs:
   - csharp
@@ -54,6 +55,11 @@ references:
   name: RelationModel
   nameWithType: RelationModel
   fullName: Vasont.Inspire.Models.Configuration.RelationModel
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel
+  commentId: T:Vasont.Inspire.Models.Configuration.ValidationSchemaModel
+  name: ValidationSchemaModel
+  nameWithType: ValidationSchemaModel
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel
 - uid: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel
   commentId: T:Vasont.Inspire.Models.Configuration.XmlLinkTypeModel
   parent: Vasont.Inspire.Models.Configuration

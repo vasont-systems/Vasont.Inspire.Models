@@ -15,6 +15,7 @@ items:
   - Vasont.Inspire.Models.Reviews.ReviewComponentModel.ReviewComponentLock
   - Vasont.Inspire.Models.Reviews.ReviewComponentModel.ReviewId
   - Vasont.Inspire.Models.Reviews.ReviewComponentModel.SortOrder
+  - Vasont.Inspire.Models.Reviews.ReviewComponentModel.Title
   langs:
   - csharp
   - vb
@@ -91,6 +92,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewComponentModel.Title
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewComponentModel.Title
+  id: Title
+  parent: Vasont.Inspire.Models.Reviews.ReviewComponentModel
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: ReviewComponentModel.Title
+  fullName: Vasont.Inspire.Models.Reviews.ReviewComponentModel.Title
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Title
+    path: Reviews/ReviewComponentModel.cs
+    startLine: 86
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the title of the review.\n"
+  example: []
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: Vasont.Inspire.Models.Reviews.ReviewComponentModel.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Reviews.ReviewComponentModel.ReviewId
   commentId: P:Vasont.Inspire.Models.Reviews.ReviewComponentModel.ReviewId
   id: ReviewId
@@ -109,7 +147,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewId
     path: Reviews/ReviewComponentModel.cs
-    startLine: 86
+    startLine: 91
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -146,7 +184,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Component
     path: Reviews/ReviewComponentModel.cs
-    startLine: 91
+    startLine: 96
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -183,7 +221,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetId
     path: Reviews/ReviewComponentModel.cs
-    startLine: 96
+    startLine: 101
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -220,7 +258,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ContextOnly
     path: Reviews/ReviewComponentModel.cs
-    startLine: 101
+    startLine: 106
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -257,7 +295,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedDate
     path: Reviews/ReviewComponentModel.cs
-    startLine: 106
+    startLine: 111
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -294,7 +332,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedBy
     path: Reviews/ReviewComponentModel.cs
-    startLine: 111
+    startLine: 116
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -331,7 +369,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Comment
     path: Reviews/ReviewComponentModel.cs
-    startLine: 116
+    startLine: 121
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -368,7 +406,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewComponentLock
     path: Reviews/ReviewComponentModel.cs
-    startLine: 121
+    startLine: 126
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -405,7 +443,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SortOrder
     path: Reviews/ReviewComponentModel.cs
-    startLine: 126
+    startLine: 131
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -734,6 +772,18 @@ references:
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: Vasont.Inspire.Models.Reviews.ReviewComponentModel.Title*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewComponentModel.Title
+  name: Title
+  nameWithType: ReviewComponentModel.Title
+  fullName: Vasont.Inspire.Models.Reviews.ReviewComponentModel.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: Vasont.Inspire.Models.Reviews.ReviewComponentModel.ReviewId*
   commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewComponentModel.ReviewId
   name: ReviewId
@@ -812,13 +862,6 @@ references:
   name: Comment
   nameWithType: ReviewComponentModel.Comment
   fullName: Vasont.Inspire.Models.Reviews.ReviewComponentModel.Comment
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: Vasont.Inspire.Models.Reviews.ReviewComponentModel.ReviewComponentLock*
   commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewComponentModel.ReviewComponentLock
   name: ReviewComponentLock

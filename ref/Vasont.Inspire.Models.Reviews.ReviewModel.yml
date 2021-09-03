@@ -11,12 +11,15 @@ items:
   - Vasont.Inspire.Models.Reviews.ReviewModel.Coordinator
   - Vasont.Inspire.Models.Reviews.ReviewModel.CreatedBy
   - Vasont.Inspire.Models.Reviews.ReviewModel.CreatedDate
+  - Vasont.Inspire.Models.Reviews.ReviewModel.DaysOverDue
+  - Vasont.Inspire.Models.Reviews.ReviewModel.DaysPending
   - Vasont.Inspire.Models.Reviews.ReviewModel.Description
   - Vasont.Inspire.Models.Reviews.ReviewModel.DueDate
   - Vasont.Inspire.Models.Reviews.ReviewModel.Interactive
   - Vasont.Inspire.Models.Reviews.ReviewModel.IsReviewer
   - Vasont.Inspire.Models.Reviews.ReviewModel.Reviewers
   - Vasont.Inspire.Models.Reviews.ReviewModel.ReviewId
+  - Vasont.Inspire.Models.Reviews.ReviewModel.ReviewPercentageCompleted
   - Vasont.Inspire.Models.Reviews.ReviewModel.ReviewWorkflow
   - Vasont.Inspire.Models.Reviews.ReviewModel.StartDate
   - Vasont.Inspire.Models.Reviews.ReviewModel.State
@@ -37,7 +40,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewModel
     path: Reviews/ReviewModel.cs
-    startLine: 44
+    startLine: 45
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -80,7 +83,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewId
     path: Reviews/ReviewModel.cs
-    startLine: 49
+    startLine: 50
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -117,7 +120,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Title
     path: Reviews/ReviewModel.cs
-    startLine: 54
+    startLine: 55
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -154,7 +157,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Reviews/ReviewModel.cs
-    startLine: 59
+    startLine: 60
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -191,7 +194,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Coordinator
     path: Reviews/ReviewModel.cs
-    startLine: 64
+    startLine: 65
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -228,7 +231,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: State
     path: Reviews/ReviewModel.cs
-    startLine: 69
+    startLine: 70
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -265,7 +268,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: StartDate
     path: Reviews/ReviewModel.cs
-    startLine: 74
+    startLine: 75
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -302,7 +305,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DueDate
     path: Reviews/ReviewModel.cs
-    startLine: 79
+    startLine: 80
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -315,6 +318,80 @@ items:
       type: System.Nullable{System.DateTime}
     content.vb: Public Property DueDate As Date?
   overload: Vasont.Inspire.Models.Reviews.ReviewModel.DueDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewModel.DaysOverDue
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewModel.DaysOverDue
+  id: DaysOverDue
+  parent: Vasont.Inspire.Models.Reviews.ReviewModel
+  langs:
+  - csharp
+  - vb
+  name: DaysOverDue
+  nameWithType: ReviewModel.DaysOverDue
+  fullName: Vasont.Inspire.Models.Reviews.ReviewModel.DaysOverDue
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DaysOverDue
+    path: Reviews/ReviewModel.cs
+    startLine: 85
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the number of days the review is over due.\n"
+  example: []
+  syntax:
+    content: public int DaysOverDue { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DaysOverDue As Integer
+  overload: Vasont.Inspire.Models.Reviews.ReviewModel.DaysOverDue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewModel.DaysPending
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewModel.DaysPending
+  id: DaysPending
+  parent: Vasont.Inspire.Models.Reviews.ReviewModel
+  langs:
+  - csharp
+  - vb
+  name: DaysPending
+  nameWithType: ReviewModel.DaysPending
+  fullName: Vasont.Inspire.Models.Reviews.ReviewModel.DaysPending
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DaysPending
+    path: Reviews/ReviewModel.cs
+    startLine: 90
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets or sets the number of days before the review is over due.\n"
+  example: []
+  syntax:
+    content: public int DaysPending { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DaysPending As Integer
+  overload: Vasont.Inspire.Models.Reviews.ReviewModel.DaysPending*
   modifiers.csharp:
   - public
   - get
@@ -339,7 +416,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CompletedDate
     path: Reviews/ReviewModel.cs
-    startLine: 84
+    startLine: 95
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -376,7 +453,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedDate
     path: Reviews/ReviewModel.cs
-    startLine: 89
+    startLine: 100
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -413,7 +490,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdatedDate
     path: Reviews/ReviewModel.cs
-    startLine: 94
+    startLine: 105
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -450,7 +527,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedBy
     path: Reviews/ReviewModel.cs
-    startLine: 99
+    startLine: 110
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -487,7 +564,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdatedBy
     path: Reviews/ReviewModel.cs
-    startLine: 104
+    startLine: 115
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -524,7 +601,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Archived
     path: Reviews/ReviewModel.cs
-    startLine: 109
+    startLine: 120
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -561,7 +638,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Interactive
     path: Reviews/ReviewModel.cs
-    startLine: 114
+    startLine: 125
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -598,7 +675,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsReviewer
     path: Reviews/ReviewModel.cs
-    startLine: 119
+    startLine: 130
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -635,7 +712,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Reviewers
     path: Reviews/ReviewModel.cs
-    startLine: 124
+    startLine: 135
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -672,7 +749,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Components
     path: Reviews/ReviewModel.cs
-    startLine: 129
+    startLine: 140
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -709,7 +786,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewWorkflow
     path: Reviews/ReviewModel.cs
-    startLine: 134
+    startLine: 145
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Reviews
@@ -728,6 +805,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Reviews.ReviewModel.ReviewPercentageCompleted
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewModel.ReviewPercentageCompleted
+  id: ReviewPercentageCompleted
+  parent: Vasont.Inspire.Models.Reviews.ReviewModel
+  langs:
+  - csharp
+  - vb
+  name: ReviewPercentageCompleted
+  nameWithType: ReviewModel.ReviewPercentageCompleted
+  fullName: Vasont.Inspire.Models.Reviews.ReviewModel.ReviewPercentageCompleted
+  type: Property
+  source:
+    remote:
+      path: src/Reviews/ReviewModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReviewPercentageCompleted
+    path: Reviews/ReviewModel.cs
+    startLine: 150
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Reviews
+  summary: "\nGets the percentage of components reviewed by the reviewer.\n"
+  example: []
+  syntax:
+    content: public int ReviewPercentageCompleted { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ReviewPercentageCompleted As Integer
+  overload: Vasont.Inspire.Models.Reviews.ReviewModel.ReviewPercentageCompleted*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: Vasont.Inspire.Models.Reviews
   commentId: N:Vasont.Inspire.Models.Reviews
@@ -1175,6 +1289,23 @@ references:
   name: DueDate
   nameWithType: ReviewModel.DueDate
   fullName: Vasont.Inspire.Models.Reviews.ReviewModel.DueDate
+- uid: Vasont.Inspire.Models.Reviews.ReviewModel.DaysOverDue*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewModel.DaysOverDue
+  name: DaysOverDue
+  nameWithType: ReviewModel.DaysOverDue
+  fullName: Vasont.Inspire.Models.Reviews.ReviewModel.DaysOverDue
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Vasont.Inspire.Models.Reviews.ReviewModel.DaysPending*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewModel.DaysPending
+  name: DaysPending
+  nameWithType: ReviewModel.DaysPending
+  fullName: Vasont.Inspire.Models.Reviews.ReviewModel.DaysPending
 - uid: Vasont.Inspire.Models.Reviews.ReviewModel.CompletedDate*
   commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewModel.CompletedDate
   name: CompletedDate
@@ -1379,3 +1510,8 @@ references:
   name: ReviewWorkflowModel
   nameWithType: ReviewWorkflowModel
   fullName: Vasont.Inspire.Models.Reviews.ReviewWorkflowModel
+- uid: Vasont.Inspire.Models.Reviews.ReviewModel.ReviewPercentageCompleted*
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewModel.ReviewPercentageCompleted
+  name: ReviewPercentageCompleted
+  nameWithType: ReviewModel.ReviewPercentageCompleted
+  fullName: Vasont.Inspire.Models.Reviews.ReviewModel.ReviewPercentageCompleted

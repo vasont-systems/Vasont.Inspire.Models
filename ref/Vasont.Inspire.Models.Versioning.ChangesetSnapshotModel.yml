@@ -6,7 +6,7 @@ items:
   parent: Vasont.Inspire.Models.Versioning
   children:
   - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor
-  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor(Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType,System.Boolean)
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor(Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType,System.Boolean,System.String)
   - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Action
   - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ChangesetId
   - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ComponentProperties
@@ -14,6 +14,7 @@ items:
   - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Id
   - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Name
   - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ParentFolder
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ProcessType
   - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.PropertyProperties
   - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Restored
   - Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.SnapshotType
@@ -31,7 +32,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetSnapshotModel
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 87
+    startLine: 153
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -81,7 +82,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 94
+    startLine: 160
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -95,16 +96,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor(Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType,System.Boolean)
-  commentId: M:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor(Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType,System.Boolean)
-  id: '#ctor(Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType,System.Boolean)'
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor(Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType,System.Boolean,System.String)
+  commentId: M:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor(Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType,System.Boolean,System.String)
+  id: '#ctor(Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType,System.Boolean,System.String)'
   parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
   langs:
   - csharp
   - vb
-  name: ChangesetSnapshotModel(ChangesetSnapshotActionType, Boolean)
-  nameWithType: ChangesetSnapshotModel.ChangesetSnapshotModel(ChangesetSnapshotActionType, Boolean)
-  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ChangesetSnapshotModel(Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType, System.Boolean)
+  name: ChangesetSnapshotModel(ChangesetSnapshotActionType, Boolean, String)
+  nameWithType: ChangesetSnapshotModel.ChangesetSnapshotModel(ChangesetSnapshotActionType, Boolean, String)
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ChangesetSnapshotModel(Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType, System.Boolean, System.String)
   type: Constructor
   source:
     remote:
@@ -113,14 +114,14 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 104
+    startLine: 171
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
   summary: "\nInitializes a new instance of the <xref href=\"Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
   example: []
   syntax:
-    content: public ChangesetSnapshotModel(ChangesetSnapshotActionType actionType, bool restored = false)
+    content: public ChangesetSnapshotModel(ChangesetSnapshotActionType actionType, bool restored = false, string processType = "None")
     parameters:
     - id: actionType
       type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
@@ -128,7 +129,10 @@ items:
     - id: restored
       type: System.Boolean
       description: Contains a value indicating whether the snapshot action was a restoral of a previous history record.
-    content.vb: Public Sub New(actionType As ChangesetSnapshotActionType, restored As Boolean = False)
+    - id: processType
+      type: System.String
+      description: Contains an optional process type on the target model.
+    content.vb: Public Sub New(actionType As ChangesetSnapshotActionType, restored As Boolean = False, processType As String = "None")
   overload: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor*
   modifiers.csharp:
   - public
@@ -152,7 +156,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Action
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 117
+    startLine: 185
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -165,6 +169,43 @@ items:
       type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
     content.vb: Public Property Action As ChangesetSnapshotActionType
   overload: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Action*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ProcessType
+  commentId: P:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ProcessType
+  id: ProcessType
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
+  langs:
+  - csharp
+  - vb
+  name: ProcessType
+  nameWithType: ChangesetSnapshotModel.ProcessType
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ProcessType
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProcessType
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 190
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the optional process type creating the changeset.\n"
+  example: []
+  syntax:
+    content: public string ProcessType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProcessType As String
+  overload: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ProcessType*
   modifiers.csharp:
   - public
   - get
@@ -189,7 +230,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SnapshotType
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 122
+    startLine: 195
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -226,7 +267,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Id
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 127
+    startLine: 200
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -263,7 +304,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetId
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 132
+    startLine: 205
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -300,7 +341,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 137
+    startLine: 210
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -337,7 +378,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ParentFolder
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 142
+    startLine: 215
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -374,7 +415,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Restored
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 147
+    startLine: 220
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -411,7 +452,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentProperties
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 156
+    startLine: 229
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -448,7 +489,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FolderProperties
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 161
+    startLine: 234
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -485,7 +526,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PropertyProperties
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 166
+    startLine: 239
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -860,11 +901,23 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Action*
   commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Action
   name: Action
   nameWithType: ChangesetSnapshotModel.Action
   fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Action
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ProcessType*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ProcessType
+  name: ProcessType
+  nameWithType: ChangesetSnapshotModel.ProcessType
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ProcessType
 - uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.SnapshotType*
   commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.SnapshotType
   name: SnapshotType
@@ -905,13 +958,6 @@ references:
   name: Name
   nameWithType: ChangesetSnapshotModel.Name
   fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.Name
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ParentFolder*
   commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ParentFolder
   name: ParentFolder
