@@ -1338,6 +1338,19 @@ references:
   commentId: T:Vasont.Inspire.Models.Components.BranchComponentModel
   fullName: Vasont.Inspire.Models.Components.BranchComponentModel
   nameWithType: BranchComponentModel
+- uid: Vasont.Inspire.Models.Components.BranchComponentModel.HasChildren
+  name: HasChildren
+  href: ref/Vasont.Inspire.Models.Components.BranchComponentModel.html#Vasont_Inspire_Models_Components_BranchComponentModel_HasChildren
+  commentId: P:Vasont.Inspire.Models.Components.BranchComponentModel.HasChildren
+  fullName: Vasont.Inspire.Models.Components.BranchComponentModel.HasChildren
+  nameWithType: BranchComponentModel.HasChildren
+- uid: Vasont.Inspire.Models.Components.BranchComponentModel.HasChildren*
+  name: HasChildren
+  href: ref/Vasont.Inspire.Models.Components.BranchComponentModel.html#Vasont_Inspire_Models_Components_BranchComponentModel_HasChildren_
+  commentId: Overload:Vasont.Inspire.Models.Components.BranchComponentModel.HasChildren
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.BranchComponentModel.HasChildren
+  nameWithType: BranchComponentModel.HasChildren
 - uid: Vasont.Inspire.Models.Components.BranchComponentModel.Level
   name: Level
   href: ref/Vasont.Inspire.Models.Components.BranchComponentModel.html#Vasont_Inspire_Models_Components_BranchComponentModel_Level
@@ -1351,6 +1364,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.BranchComponentModel.Level
   nameWithType: BranchComponentModel.Level
+- uid: Vasont.Inspire.Models.Components.BranchComponentModel.ParentId
+  name: ParentId
+  href: ref/Vasont.Inspire.Models.Components.BranchComponentModel.html#Vasont_Inspire_Models_Components_BranchComponentModel_ParentId
+  commentId: P:Vasont.Inspire.Models.Components.BranchComponentModel.ParentId
+  fullName: Vasont.Inspire.Models.Components.BranchComponentModel.ParentId
+  nameWithType: BranchComponentModel.ParentId
+- uid: Vasont.Inspire.Models.Components.BranchComponentModel.ParentId*
+  name: ParentId
+  href: ref/Vasont.Inspire.Models.Components.BranchComponentModel.html#Vasont_Inspire_Models_Components_BranchComponentModel_ParentId_
+  commentId: Overload:Vasont.Inspire.Models.Components.BranchComponentModel.ParentId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.BranchComponentModel.ParentId
+  nameWithType: BranchComponentModel.ParentId
 - uid: Vasont.Inspire.Models.Components.BranchComponentModel.SequenceId
   name: SequenceId
   href: ref/Vasont.Inspire.Models.Components.BranchComponentModel.html#Vasont_Inspire_Models_Components_BranchComponentModel_SequenceId
@@ -1678,6 +1704,32 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.ComponentBranchRequestModel.ChildComponentIds
   nameWithType: ComponentBranchRequestModel.ChildComponentIds
+- uid: Vasont.Inspire.Models.Components.ComponentBranchRequestModel.ExportId
+  name: ExportId
+  href: ref/Vasont.Inspire.Models.Components.ComponentBranchRequestModel.html#Vasont_Inspire_Models_Components_ComponentBranchRequestModel_ExportId
+  commentId: P:Vasont.Inspire.Models.Components.ComponentBranchRequestModel.ExportId
+  fullName: Vasont.Inspire.Models.Components.ComponentBranchRequestModel.ExportId
+  nameWithType: ComponentBranchRequestModel.ExportId
+- uid: Vasont.Inspire.Models.Components.ComponentBranchRequestModel.ExportId*
+  name: ExportId
+  href: ref/Vasont.Inspire.Models.Components.ComponentBranchRequestModel.html#Vasont_Inspire_Models_Components_ComponentBranchRequestModel_ExportId_
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentBranchRequestModel.ExportId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ComponentBranchRequestModel.ExportId
+  nameWithType: ComponentBranchRequestModel.ExportId
+- uid: Vasont.Inspire.Models.Components.ComponentBranchRequestModel.IncludesReferencedComponents
+  name: IncludesReferencedComponents
+  href: ref/Vasont.Inspire.Models.Components.ComponentBranchRequestModel.html#Vasont_Inspire_Models_Components_ComponentBranchRequestModel_IncludesReferencedComponents
+  commentId: P:Vasont.Inspire.Models.Components.ComponentBranchRequestModel.IncludesReferencedComponents
+  fullName: Vasont.Inspire.Models.Components.ComponentBranchRequestModel.IncludesReferencedComponents
+  nameWithType: ComponentBranchRequestModel.IncludesReferencedComponents
+- uid: Vasont.Inspire.Models.Components.ComponentBranchRequestModel.IncludesReferencedComponents*
+  name: IncludesReferencedComponents
+  href: ref/Vasont.Inspire.Models.Components.ComponentBranchRequestModel.html#Vasont_Inspire_Models_Components_ComponentBranchRequestModel_IncludesReferencedComponents_
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentBranchRequestModel.IncludesReferencedComponents
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ComponentBranchRequestModel.IncludesReferencedComponents
+  nameWithType: ComponentBranchRequestModel.IncludesReferencedComponents
 - uid: Vasont.Inspire.Models.Components.ComponentBranchRequestModel.ProjectFolderId
   name: ProjectFolderId
   href: ref/Vasont.Inspire.Models.Components.ComponentBranchRequestModel.html#Vasont_Inspire_Models_Components_ComponentBranchRequestModel_ProjectFolderId
@@ -1866,6 +1918,36 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.ComponentBranchStateModel.TargetFolderId
   nameWithType: ComponentBranchStateModel.TargetFolderId
+- uid: Vasont.Inspire.Models.Components.ComponentBranchType
+  name: ComponentBranchType
+  href: ref/Vasont.Inspire.Models.Components.ComponentBranchType.html
+  commentId: T:Vasont.Inspire.Models.Components.ComponentBranchType
+  fullName: Vasont.Inspire.Models.Components.ComponentBranchType
+  nameWithType: ComponentBranchType
+- uid: Vasont.Inspire.Models.Components.ComponentBranchType.HasBranch
+  name: HasBranch
+  href: ref/Vasont.Inspire.Models.Components.ComponentBranchType.html#Vasont_Inspire_Models_Components_ComponentBranchType_HasBranch
+  commentId: F:Vasont.Inspire.Models.Components.ComponentBranchType.HasBranch
+  fullName: Vasont.Inspire.Models.Components.ComponentBranchType.HasBranch
+  nameWithType: ComponentBranchType.HasBranch
+- uid: Vasont.Inspire.Models.Components.ComponentBranchType.IsBoth
+  name: IsBoth
+  href: ref/Vasont.Inspire.Models.Components.ComponentBranchType.html#Vasont_Inspire_Models_Components_ComponentBranchType_IsBoth
+  commentId: F:Vasont.Inspire.Models.Components.ComponentBranchType.IsBoth
+  fullName: Vasont.Inspire.Models.Components.ComponentBranchType.IsBoth
+  nameWithType: ComponentBranchType.IsBoth
+- uid: Vasont.Inspire.Models.Components.ComponentBranchType.IsBranch
+  name: IsBranch
+  href: ref/Vasont.Inspire.Models.Components.ComponentBranchType.html#Vasont_Inspire_Models_Components_ComponentBranchType_IsBranch
+  commentId: F:Vasont.Inspire.Models.Components.ComponentBranchType.IsBranch
+  fullName: Vasont.Inspire.Models.Components.ComponentBranchType.IsBranch
+  nameWithType: ComponentBranchType.IsBranch
+- uid: Vasont.Inspire.Models.Components.ComponentBranchType.None
+  name: None
+  href: ref/Vasont.Inspire.Models.Components.ComponentBranchType.html#Vasont_Inspire_Models_Components_ComponentBranchType_None
+  commentId: F:Vasont.Inspire.Models.Components.ComponentBranchType.None
+  fullName: Vasont.Inspire.Models.Components.ComponentBranchType.None
+  nameWithType: ComponentBranchType.None
 - uid: Vasont.Inspire.Models.Components.ComponentDependenciesResultModel
   name: ComponentDependenciesResultModel
   href: ref/Vasont.Inspire.Models.Components.ComponentDependenciesResultModel.html
@@ -2053,6 +2135,103 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel.State
   nameWithType: ComponentDependencyModel.State
+- uid: Vasont.Inspire.Models.Components.ComponentFrameworkModel
+  name: ComponentFrameworkModel
+  href: ref/Vasont.Inspire.Models.Components.ComponentFrameworkModel.html
+  commentId: T:Vasont.Inspire.Models.Components.ComponentFrameworkModel
+  fullName: Vasont.Inspire.Models.Components.ComponentFrameworkModel
+  nameWithType: ComponentFrameworkModel
+- uid: Vasont.Inspire.Models.Components.ComponentFrameworkModel.#ctor
+  name: ComponentFrameworkModel()
+  href: ref/Vasont.Inspire.Models.Components.ComponentFrameworkModel.html#Vasont_Inspire_Models_Components_ComponentFrameworkModel__ctor
+  commentId: M:Vasont.Inspire.Models.Components.ComponentFrameworkModel.#ctor
+  fullName: Vasont.Inspire.Models.Components.ComponentFrameworkModel.ComponentFrameworkModel()
+  nameWithType: ComponentFrameworkModel.ComponentFrameworkModel()
+- uid: Vasont.Inspire.Models.Components.ComponentFrameworkModel.#ctor*
+  name: ComponentFrameworkModel
+  href: ref/Vasont.Inspire.Models.Components.ComponentFrameworkModel.html#Vasont_Inspire_Models_Components_ComponentFrameworkModel__ctor_
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentFrameworkModel.#ctor
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ComponentFrameworkModel.ComponentFrameworkModel
+  nameWithType: ComponentFrameworkModel.ComponentFrameworkModel
+- uid: Vasont.Inspire.Models.Components.ComponentFrameworkModel.Active
+  name: Active
+  href: ref/Vasont.Inspire.Models.Components.ComponentFrameworkModel.html#Vasont_Inspire_Models_Components_ComponentFrameworkModel_Active
+  commentId: P:Vasont.Inspire.Models.Components.ComponentFrameworkModel.Active
+  fullName: Vasont.Inspire.Models.Components.ComponentFrameworkModel.Active
+  nameWithType: ComponentFrameworkModel.Active
+- uid: Vasont.Inspire.Models.Components.ComponentFrameworkModel.Active*
+  name: Active
+  href: ref/Vasont.Inspire.Models.Components.ComponentFrameworkModel.html#Vasont_Inspire_Models_Components_ComponentFrameworkModel_Active_
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentFrameworkModel.Active
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ComponentFrameworkModel.Active
+  nameWithType: ComponentFrameworkModel.Active
+- uid: Vasont.Inspire.Models.Components.ComponentFrameworkModel.ComponentFrameworkId
+  name: ComponentFrameworkId
+  href: ref/Vasont.Inspire.Models.Components.ComponentFrameworkModel.html#Vasont_Inspire_Models_Components_ComponentFrameworkModel_ComponentFrameworkId
+  commentId: P:Vasont.Inspire.Models.Components.ComponentFrameworkModel.ComponentFrameworkId
+  fullName: Vasont.Inspire.Models.Components.ComponentFrameworkModel.ComponentFrameworkId
+  nameWithType: ComponentFrameworkModel.ComponentFrameworkId
+- uid: Vasont.Inspire.Models.Components.ComponentFrameworkModel.ComponentFrameworkId*
+  name: ComponentFrameworkId
+  href: ref/Vasont.Inspire.Models.Components.ComponentFrameworkModel.html#Vasont_Inspire_Models_Components_ComponentFrameworkModel_ComponentFrameworkId_
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentFrameworkModel.ComponentFrameworkId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ComponentFrameworkModel.ComponentFrameworkId
+  nameWithType: ComponentFrameworkModel.ComponentFrameworkId
+- uid: Vasont.Inspire.Models.Components.ComponentFrameworkModel.Description
+  name: Description
+  href: ref/Vasont.Inspire.Models.Components.ComponentFrameworkModel.html#Vasont_Inspire_Models_Components_ComponentFrameworkModel_Description
+  commentId: P:Vasont.Inspire.Models.Components.ComponentFrameworkModel.Description
+  fullName: Vasont.Inspire.Models.Components.ComponentFrameworkModel.Description
+  nameWithType: ComponentFrameworkModel.Description
+- uid: Vasont.Inspire.Models.Components.ComponentFrameworkModel.Description*
+  name: Description
+  href: ref/Vasont.Inspire.Models.Components.ComponentFrameworkModel.html#Vasont_Inspire_Models_Components_ComponentFrameworkModel_Description_
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentFrameworkModel.Description
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ComponentFrameworkModel.Description
+  nameWithType: ComponentFrameworkModel.Description
+- uid: Vasont.Inspire.Models.Components.ComponentFrameworkModel.File
+  name: File
+  href: ref/Vasont.Inspire.Models.Components.ComponentFrameworkModel.html#Vasont_Inspire_Models_Components_ComponentFrameworkModel_File
+  commentId: P:Vasont.Inspire.Models.Components.ComponentFrameworkModel.File
+  fullName: Vasont.Inspire.Models.Components.ComponentFrameworkModel.File
+  nameWithType: ComponentFrameworkModel.File
+- uid: Vasont.Inspire.Models.Components.ComponentFrameworkModel.File*
+  name: File
+  href: ref/Vasont.Inspire.Models.Components.ComponentFrameworkModel.html#Vasont_Inspire_Models_Components_ComponentFrameworkModel_File_
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentFrameworkModel.File
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ComponentFrameworkModel.File
+  nameWithType: ComponentFrameworkModel.File
+- uid: Vasont.Inspire.Models.Components.ComponentFrameworkModel.Name
+  name: Name
+  href: ref/Vasont.Inspire.Models.Components.ComponentFrameworkModel.html#Vasont_Inspire_Models_Components_ComponentFrameworkModel_Name
+  commentId: P:Vasont.Inspire.Models.Components.ComponentFrameworkModel.Name
+  fullName: Vasont.Inspire.Models.Components.ComponentFrameworkModel.Name
+  nameWithType: ComponentFrameworkModel.Name
+- uid: Vasont.Inspire.Models.Components.ComponentFrameworkModel.Name*
+  name: Name
+  href: ref/Vasont.Inspire.Models.Components.ComponentFrameworkModel.html#Vasont_Inspire_Models_Components_ComponentFrameworkModel_Name_
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentFrameworkModel.Name
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ComponentFrameworkModel.Name
+  nameWithType: ComponentFrameworkModel.Name
+- uid: Vasont.Inspire.Models.Components.ComponentFrameworkModel.System
+  name: System
+  href: ref/Vasont.Inspire.Models.Components.ComponentFrameworkModel.html#Vasont_Inspire_Models_Components_ComponentFrameworkModel_System
+  commentId: P:Vasont.Inspire.Models.Components.ComponentFrameworkModel.System
+  fullName: Vasont.Inspire.Models.Components.ComponentFrameworkModel.System
+  nameWithType: ComponentFrameworkModel.System
+- uid: Vasont.Inspire.Models.Components.ComponentFrameworkModel.System*
+  name: System
+  href: ref/Vasont.Inspire.Models.Components.ComponentFrameworkModel.html#Vasont_Inspire_Models_Components_ComponentFrameworkModel_System_
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentFrameworkModel.System
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ComponentFrameworkModel.System
+  nameWithType: ComponentFrameworkModel.System
 - uid: Vasont.Inspire.Models.Components.ComponentLockModel
   name: ComponentLockModel
   href: ref/Vasont.Inspire.Models.Components.ComponentLockModel.html
@@ -5430,6 +5609,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.IncludeSubFolders
   nameWithType: FolderComponentsQueryModel.IncludeSubFolders
+- uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.ProjectId
+  name: ProjectId
+  href: ref/Vasont.Inspire.Models.Components.FolderComponentsQueryModel.html#Vasont_Inspire_Models_Components_FolderComponentsQueryModel_ProjectId
+  commentId: P:Vasont.Inspire.Models.Components.FolderComponentsQueryModel.ProjectId
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.ProjectId
+  nameWithType: FolderComponentsQueryModel.ProjectId
+- uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.ProjectId*
+  name: ProjectId
+  href: ref/Vasont.Inspire.Models.Components.FolderComponentsQueryModel.html#Vasont_Inspire_Models_Components_FolderComponentsQueryModel_ProjectId_
+  commentId: Overload:Vasont.Inspire.Models.Components.FolderComponentsQueryModel.ProjectId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.ProjectId
+  nameWithType: FolderComponentsQueryModel.ProjectId
 - uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryFilters
   name: QueryFilters
   href: ref/Vasont.Inspire.Models.Components.FolderComponentsQueryModel.html#Vasont_Inspire_Models_Components_FolderComponentsQueryModel_QueryFilters
@@ -6531,6 +6723,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.MinimalComponentModel
   nameWithType: MinimalComponentModel.MinimalComponentModel
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.BranchType
+  name: BranchType
+  href: ref/Vasont.Inspire.Models.Components.MinimalComponentModel.html#Vasont_Inspire_Models_Components_MinimalComponentModel_BranchType
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.BranchType
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.BranchType
+  nameWithType: MinimalComponentModel.BranchType
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.BranchType*
+  name: BranchType
+  href: ref/Vasont.Inspire.Models.Components.MinimalComponentModel.html#Vasont_Inspire_Models_Components_MinimalComponentModel_BranchType_
+  commentId: Overload:Vasont.Inspire.Models.Components.MinimalComponentModel.BranchType
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.BranchType
+  nameWithType: MinimalComponentModel.BranchType
 - uid: Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate
   name: CanTranslate
   href: ref/Vasont.Inspire.Models.Components.MinimalComponentModel.html#Vasont_Inspire_Models_Components_MinimalComponentModel_CanTranslate
@@ -6622,6 +6827,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.Folder
   nameWithType: MinimalComponentModel.Folder
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.FollowedByUsers
+  name: FollowedByUsers
+  href: ref/Vasont.Inspire.Models.Components.MinimalComponentModel.html#Vasont_Inspire_Models_Components_MinimalComponentModel_FollowedByUsers
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.FollowedByUsers
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.FollowedByUsers
+  nameWithType: MinimalComponentModel.FollowedByUsers
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.FollowedByUsers*
+  name: FollowedByUsers
+  href: ref/Vasont.Inspire.Models.Components.MinimalComponentModel.html#Vasont_Inspire_Models_Components_MinimalComponentModel_FollowedByUsers_
+  commentId: Overload:Vasont.Inspire.Models.Components.MinimalComponentModel.FollowedByUsers
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.FollowedByUsers
+  nameWithType: MinimalComponentModel.FollowedByUsers
 - uid: Vasont.Inspire.Models.Components.MinimalComponentModel.HashKey
   name: HashKey
   href: ref/Vasont.Inspire.Models.Components.MinimalComponentModel.html#Vasont_Inspire_Models_Components_MinimalComponentModel_HashKey
@@ -6635,6 +6853,32 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.HashKey
   nameWithType: MinimalComponentModel.HashKey
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowed
+  name: IsFollowed
+  href: ref/Vasont.Inspire.Models.Components.MinimalComponentModel.html#Vasont_Inspire_Models_Components_MinimalComponentModel_IsFollowed
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowed
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowed
+  nameWithType: MinimalComponentModel.IsFollowed
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowed*
+  name: IsFollowed
+  href: ref/Vasont.Inspire.Models.Components.MinimalComponentModel.html#Vasont_Inspire_Models_Components_MinimalComponentModel_IsFollowed_
+  commentId: Overload:Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowed
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowed
+  nameWithType: MinimalComponentModel.IsFollowed
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowedByCurrentUser
+  name: IsFollowedByCurrentUser
+  href: ref/Vasont.Inspire.Models.Components.MinimalComponentModel.html#Vasont_Inspire_Models_Components_MinimalComponentModel_IsFollowedByCurrentUser
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowedByCurrentUser
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowedByCurrentUser
+  nameWithType: MinimalComponentModel.IsFollowedByCurrentUser
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowedByCurrentUser*
+  name: IsFollowedByCurrentUser
+  href: ref/Vasont.Inspire.Models.Components.MinimalComponentModel.html#Vasont_Inspire_Models_Components_MinimalComponentModel_IsFollowedByCurrentUser_
+  commentId: Overload:Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowedByCurrentUser
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowedByCurrentUser
+  nameWithType: MinimalComponentModel.IsFollowedByCurrentUser
 - uid: Vasont.Inspire.Models.Components.MinimalComponentModel.IsImage
   name: IsImage
   href: ref/Vasont.Inspire.Models.Components.MinimalComponentModel.html#Vasont_Inspire_Models_Components_MinimalComponentModel_IsImage
@@ -6648,6 +6892,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.IsImage
   nameWithType: MinimalComponentModel.IsImage
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.IsShared
+  name: IsShared
+  href: ref/Vasont.Inspire.Models.Components.MinimalComponentModel.html#Vasont_Inspire_Models_Components_MinimalComponentModel_IsShared
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.IsShared
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.IsShared
+  nameWithType: MinimalComponentModel.IsShared
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.IsShared*
+  name: IsShared
+  href: ref/Vasont.Inspire.Models.Components.MinimalComponentModel.html#Vasont_Inspire_Models_Components_MinimalComponentModel_IsShared_
+  commentId: Overload:Vasont.Inspire.Models.Components.MinimalComponentModel.IsShared
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.IsShared
+  nameWithType: MinimalComponentModel.IsShared
 - uid: Vasont.Inspire.Models.Components.MinimalComponentModel.LanguageCode
   name: LanguageCode
   href: ref/Vasont.Inspire.Models.Components.MinimalComponentModel.html#Vasont_Inspire_Models_Components_MinimalComponentModel_LanguageCode
@@ -6739,6 +6996,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.Permissions
   nameWithType: MinimalComponentModel.Permissions
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.SharedComponentsCount
+  name: SharedComponentsCount
+  href: ref/Vasont.Inspire.Models.Components.MinimalComponentModel.html#Vasont_Inspire_Models_Components_MinimalComponentModel_SharedComponentsCount
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.SharedComponentsCount
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.SharedComponentsCount
+  nameWithType: MinimalComponentModel.SharedComponentsCount
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.SharedComponentsCount*
+  name: SharedComponentsCount
+  href: ref/Vasont.Inspire.Models.Components.MinimalComponentModel.html#Vasont_Inspire_Models_Components_MinimalComponentModel_SharedComponentsCount_
+  commentId: Overload:Vasont.Inspire.Models.Components.MinimalComponentModel.SharedComponentsCount
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.SharedComponentsCount
+  nameWithType: MinimalComponentModel.SharedComponentsCount
 - uid: Vasont.Inspire.Models.Components.MinimalComponentModel.State
   name: State
   href: ref/Vasont.Inspire.Models.Components.MinimalComponentModel.html#Vasont_Inspire_Models_Components_MinimalComponentModel_State
@@ -9223,6 +9493,84 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentIds
   nameWithType: ValidateCompletenessRequestModel.ComponentIds
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentInvalidPis
+  name: ComponentInvalidPis
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_ComponentInvalidPis
+  commentId: P:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentInvalidPis
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentInvalidPis
+  nameWithType: ValidateCompletenessRequestModel.ComponentInvalidPis
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentInvalidPis*
+  name: ComponentInvalidPis
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_ComponentInvalidPis_
+  commentId: Overload:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentInvalidPis
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentInvalidPis
+  nameWithType: ValidateCompletenessRequestModel.ComponentInvalidPis
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentInvalidState
+  name: ComponentInvalidState
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_ComponentInvalidState
+  commentId: P:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentInvalidState
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentInvalidState
+  nameWithType: ValidateCompletenessRequestModel.ComponentInvalidState
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentInvalidState*
+  name: ComponentInvalidState
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_ComponentInvalidState_
+  commentId: Overload:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentInvalidState
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentInvalidState
+  nameWithType: ValidateCompletenessRequestModel.ComponentInvalidState
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentInvalidXml
+  name: ComponentInvalidXml
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_ComponentInvalidXml
+  commentId: P:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentInvalidXml
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentInvalidXml
+  nameWithType: ValidateCompletenessRequestModel.ComponentInvalidXml
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentInvalidXml*
+  name: ComponentInvalidXml
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_ComponentInvalidXml_
+  commentId: Overload:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentInvalidXml
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentInvalidXml
+  nameWithType: ValidateCompletenessRequestModel.ComponentInvalidXml
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentLocked
+  name: ComponentLocked
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_ComponentLocked
+  commentId: P:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentLocked
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentLocked
+  nameWithType: ValidateCompletenessRequestModel.ComponentLocked
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentLocked*
+  name: ComponentLocked
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_ComponentLocked_
+  commentId: Overload:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentLocked
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentLocked
+  nameWithType: ValidateCompletenessRequestModel.ComponentLocked
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentLockedBySelf
+  name: ComponentLockedBySelf
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_ComponentLockedBySelf
+  commentId: P:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentLockedBySelf
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentLockedBySelf
+  nameWithType: ValidateCompletenessRequestModel.ComponentLockedBySelf
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentLockedBySelf*
+  name: ComponentLockedBySelf
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_ComponentLockedBySelf_
+  commentId: Overload:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentLockedBySelf
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentLockedBySelf
+  nameWithType: ValidateCompletenessRequestModel.ComponentLockedBySelf
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentNotApproved
+  name: ComponentNotApproved
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_ComponentNotApproved
+  commentId: P:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentNotApproved
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentNotApproved
+  nameWithType: ValidateCompletenessRequestModel.ComponentNotApproved
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentNotApproved*
+  name: ComponentNotApproved
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_ComponentNotApproved_
+  commentId: Overload:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentNotApproved
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentNotApproved
+  nameWithType: ValidateCompletenessRequestModel.ComponentNotApproved
 - uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ExportId
   name: ExportId
   href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_ExportId
@@ -9782,6 +10130,155 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Configuration.RelationModel.XmlLinkType
   nameWithType: RelationModel.XmlLinkType
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel
+  name: ValidationSchemaModel
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html
+  commentId: T:Vasont.Inspire.Models.Configuration.ValidationSchemaModel
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel
+  nameWithType: ValidationSchemaModel
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.#ctor
+  name: ValidationSchemaModel()
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html#Vasont_Inspire_Models_Configuration_ValidationSchemaModel__ctor
+  commentId: M:Vasont.Inspire.Models.Configuration.ValidationSchemaModel.#ctor
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.ValidationSchemaModel()
+  nameWithType: ValidationSchemaModel.ValidationSchemaModel()
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.#ctor*
+  name: ValidationSchemaModel
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html#Vasont_Inspire_Models_Configuration_ValidationSchemaModel__ctor_
+  commentId: Overload:Vasont.Inspire.Models.Configuration.ValidationSchemaModel.#ctor
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.ValidationSchemaModel
+  nameWithType: ValidationSchemaModel.ValidationSchemaModel
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.Active
+  name: Active
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html#Vasont_Inspire_Models_Configuration_ValidationSchemaModel_Active
+  commentId: P:Vasont.Inspire.Models.Configuration.ValidationSchemaModel.Active
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.Active
+  nameWithType: ValidationSchemaModel.Active
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.Active*
+  name: Active
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html#Vasont_Inspire_Models_Configuration_ValidationSchemaModel_Active_
+  commentId: Overload:Vasont.Inspire.Models.Configuration.ValidationSchemaModel.Active
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.Active
+  nameWithType: ValidationSchemaModel.Active
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.ComponentTypeId
+  name: ComponentTypeId
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html#Vasont_Inspire_Models_Configuration_ValidationSchemaModel_ComponentTypeId
+  commentId: P:Vasont.Inspire.Models.Configuration.ValidationSchemaModel.ComponentTypeId
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.ComponentTypeId
+  nameWithType: ValidationSchemaModel.ComponentTypeId
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.ComponentTypeId*
+  name: ComponentTypeId
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html#Vasont_Inspire_Models_Configuration_ValidationSchemaModel_ComponentTypeId_
+  commentId: Overload:Vasont.Inspire.Models.Configuration.ValidationSchemaModel.ComponentTypeId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.ComponentTypeId
+  nameWithType: ValidationSchemaModel.ComponentTypeId
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.ComponentTypeName
+  name: ComponentTypeName
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html#Vasont_Inspire_Models_Configuration_ValidationSchemaModel_ComponentTypeName
+  commentId: P:Vasont.Inspire.Models.Configuration.ValidationSchemaModel.ComponentTypeName
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.ComponentTypeName
+  nameWithType: ValidationSchemaModel.ComponentTypeName
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.ComponentTypeName*
+  name: ComponentTypeName
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html#Vasont_Inspire_Models_Configuration_ValidationSchemaModel_ComponentTypeName_
+  commentId: Overload:Vasont.Inspire.Models.Configuration.ValidationSchemaModel.ComponentTypeName
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.ComponentTypeName
+  nameWithType: ValidationSchemaModel.ComponentTypeName
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.Description
+  name: Description
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html#Vasont_Inspire_Models_Configuration_ValidationSchemaModel_Description
+  commentId: P:Vasont.Inspire.Models.Configuration.ValidationSchemaModel.Description
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.Description
+  nameWithType: ValidationSchemaModel.Description
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.Description*
+  name: Description
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html#Vasont_Inspire_Models_Configuration_ValidationSchemaModel_Description_
+  commentId: Overload:Vasont.Inspire.Models.Configuration.ValidationSchemaModel.Description
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.Description
+  nameWithType: ValidationSchemaModel.Description
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.File
+  name: File
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html#Vasont_Inspire_Models_Configuration_ValidationSchemaModel_File
+  commentId: P:Vasont.Inspire.Models.Configuration.ValidationSchemaModel.File
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.File
+  nameWithType: ValidationSchemaModel.File
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.File*
+  name: File
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html#Vasont_Inspire_Models_Configuration_ValidationSchemaModel_File_
+  commentId: Overload:Vasont.Inspire.Models.Configuration.ValidationSchemaModel.File
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.File
+  nameWithType: ValidationSchemaModel.File
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.Name
+  name: Name
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html#Vasont_Inspire_Models_Configuration_ValidationSchemaModel_Name
+  commentId: P:Vasont.Inspire.Models.Configuration.ValidationSchemaModel.Name
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.Name
+  nameWithType: ValidationSchemaModel.Name
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.Name*
+  name: Name
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html#Vasont_Inspire_Models_Configuration_ValidationSchemaModel_Name_
+  commentId: Overload:Vasont.Inspire.Models.Configuration.ValidationSchemaModel.Name
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.Name
+  nameWithType: ValidationSchemaModel.Name
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.SchemaId
+  name: SchemaId
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html#Vasont_Inspire_Models_Configuration_ValidationSchemaModel_SchemaId
+  commentId: P:Vasont.Inspire.Models.Configuration.ValidationSchemaModel.SchemaId
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.SchemaId
+  nameWithType: ValidationSchemaModel.SchemaId
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.SchemaId*
+  name: SchemaId
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html#Vasont_Inspire_Models_Configuration_ValidationSchemaModel_SchemaId_
+  commentId: Overload:Vasont.Inspire.Models.Configuration.ValidationSchemaModel.SchemaId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.SchemaId
+  nameWithType: ValidationSchemaModel.SchemaId
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.SchemaStandard
+  name: SchemaStandard
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html#Vasont_Inspire_Models_Configuration_ValidationSchemaModel_SchemaStandard
+  commentId: P:Vasont.Inspire.Models.Configuration.ValidationSchemaModel.SchemaStandard
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.SchemaStandard
+  nameWithType: ValidationSchemaModel.SchemaStandard
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.SchemaStandard*
+  name: SchemaStandard
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html#Vasont_Inspire_Models_Configuration_ValidationSchemaModel_SchemaStandard_
+  commentId: Overload:Vasont.Inspire.Models.Configuration.ValidationSchemaModel.SchemaStandard
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.SchemaStandard
+  nameWithType: ValidationSchemaModel.SchemaStandard
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.System
+  name: System
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html#Vasont_Inspire_Models_Configuration_ValidationSchemaModel_System
+  commentId: P:Vasont.Inspire.Models.Configuration.ValidationSchemaModel.System
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.System
+  nameWithType: ValidationSchemaModel.System
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.System*
+  name: System
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html#Vasont_Inspire_Models_Configuration_ValidationSchemaModel_System_
+  commentId: Overload:Vasont.Inspire.Models.Configuration.ValidationSchemaModel.System
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.System
+  nameWithType: ValidationSchemaModel.System
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.UniqueId
+  name: UniqueId
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html#Vasont_Inspire_Models_Configuration_ValidationSchemaModel_UniqueId
+  commentId: P:Vasont.Inspire.Models.Configuration.ValidationSchemaModel.UniqueId
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.UniqueId
+  nameWithType: ValidationSchemaModel.UniqueId
+- uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.UniqueId*
+  name: UniqueId
+  href: ref/Vasont.Inspire.Models.Configuration.ValidationSchemaModel.html#Vasont_Inspire_Models_Configuration_ValidationSchemaModel_UniqueId_
+  commentId: Overload:Vasont.Inspire.Models.Configuration.ValidationSchemaModel.UniqueId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Configuration.ValidationSchemaModel.UniqueId
+  nameWithType: ValidationSchemaModel.UniqueId
 - uid: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel
   name: XmlLinkTypeModel
   href: ref/Vasont.Inspire.Models.Configuration.XmlLinkTypeModel.html
@@ -12094,6 +12591,12 @@ references:
   commentId: F:Vasont.Inspire.Models.Plugins.PublishType.Python
   fullName: Vasont.Inspire.Models.Plugins.PublishType.Python
   nameWithType: PublishType.Python
+- uid: Vasont.Inspire.Models.Plugins.PublishType.Xslt
+  name: Xslt
+  href: ref/Vasont.Inspire.Models.Plugins.PublishType.html#Vasont_Inspire_Models_Plugins_PublishType_Xslt
+  commentId: F:Vasont.Inspire.Models.Plugins.PublishType.Xslt
+  fullName: Vasont.Inspire.Models.Plugins.PublishType.Xslt
+  nameWithType: PublishType.Xslt
 - uid: Vasont.Inspire.Models.Plugins.PublishType.Zoomin
   name: Zoomin
   href: ref/Vasont.Inspire.Models.Plugins.PublishType.html#Vasont_Inspire_Models_Plugins_PublishType_Zoomin
@@ -13196,6 +13699,45 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Projects.MinimalProjectModel.StartedAssignmentCount
   nameWithType: MinimalProjectModel.StartedAssignmentCount
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderId
+  name: SystemFolderId
+  href: ref/Vasont.Inspire.Models.Projects.MinimalProjectModel.html#Vasont_Inspire_Models_Projects_MinimalProjectModel_SystemFolderId
+  commentId: P:Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderId
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderId
+  nameWithType: MinimalProjectModel.SystemFolderId
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderId*
+  name: SystemFolderId
+  href: ref/Vasont.Inspire.Models.Projects.MinimalProjectModel.html#Vasont_Inspire_Models_Projects_MinimalProjectModel_SystemFolderId_
+  commentId: Overload:Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderId
+  nameWithType: MinimalProjectModel.SystemFolderId
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderName
+  name: SystemFolderName
+  href: ref/Vasont.Inspire.Models.Projects.MinimalProjectModel.html#Vasont_Inspire_Models_Projects_MinimalProjectModel_SystemFolderName
+  commentId: P:Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderName
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderName
+  nameWithType: MinimalProjectModel.SystemFolderName
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderName*
+  name: SystemFolderName
+  href: ref/Vasont.Inspire.Models.Projects.MinimalProjectModel.html#Vasont_Inspire_Models_Projects_MinimalProjectModel_SystemFolderName_
+  commentId: Overload:Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderName
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderName
+  nameWithType: MinimalProjectModel.SystemFolderName
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderPath
+  name: SystemFolderPath
+  href: ref/Vasont.Inspire.Models.Projects.MinimalProjectModel.html#Vasont_Inspire_Models_Projects_MinimalProjectModel_SystemFolderPath
+  commentId: P:Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderPath
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderPath
+  nameWithType: MinimalProjectModel.SystemFolderPath
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderPath*
+  name: SystemFolderPath
+  href: ref/Vasont.Inspire.Models.Projects.MinimalProjectModel.html#Vasont_Inspire_Models_Projects_MinimalProjectModel_SystemFolderPath_
+  commentId: Overload:Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderPath
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectModel.SystemFolderPath
+  nameWithType: MinimalProjectModel.SystemFolderPath
 - uid: Vasont.Inspire.Models.Projects.MinimalProjectModel.Title
   name: Title
   href: ref/Vasont.Inspire.Models.Projects.MinimalProjectModel.html#Vasont_Inspire_Models_Projects_MinimalProjectModel_Title
@@ -14016,6 +14558,45 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Projects.ProjectBrowseModel.ProjectId
   nameWithType: ProjectBrowseModel.ProjectId
+- uid: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderId
+  name: SystemFolderId
+  href: ref/Vasont.Inspire.Models.Projects.ProjectBrowseModel.html#Vasont_Inspire_Models_Projects_ProjectBrowseModel_SystemFolderId
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderId
+  fullName: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderId
+  nameWithType: ProjectBrowseModel.SystemFolderId
+- uid: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderId*
+  name: SystemFolderId
+  href: ref/Vasont.Inspire.Models.Projects.ProjectBrowseModel.html#Vasont_Inspire_Models_Projects_ProjectBrowseModel_SystemFolderId_
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderId
+  nameWithType: ProjectBrowseModel.SystemFolderId
+- uid: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderName
+  name: SystemFolderName
+  href: ref/Vasont.Inspire.Models.Projects.ProjectBrowseModel.html#Vasont_Inspire_Models_Projects_ProjectBrowseModel_SystemFolderName
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderName
+  fullName: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderName
+  nameWithType: ProjectBrowseModel.SystemFolderName
+- uid: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderName*
+  name: SystemFolderName
+  href: ref/Vasont.Inspire.Models.Projects.ProjectBrowseModel.html#Vasont_Inspire_Models_Projects_ProjectBrowseModel_SystemFolderName_
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderName
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderName
+  nameWithType: ProjectBrowseModel.SystemFolderName
+- uid: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderPath
+  name: SystemFolderPath
+  href: ref/Vasont.Inspire.Models.Projects.ProjectBrowseModel.html#Vasont_Inspire_Models_Projects_ProjectBrowseModel_SystemFolderPath
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderPath
+  fullName: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderPath
+  nameWithType: ProjectBrowseModel.SystemFolderPath
+- uid: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderPath*
+  name: SystemFolderPath
+  href: ref/Vasont.Inspire.Models.Projects.ProjectBrowseModel.html#Vasont_Inspire_Models_Projects_ProjectBrowseModel_SystemFolderPath_
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderPath
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderPath
+  nameWithType: ProjectBrowseModel.SystemFolderPath
 - uid: Vasont.Inspire.Models.Projects.ProjectBrowseModel.Title
   name: Title
   href: ref/Vasont.Inspire.Models.Projects.ProjectBrowseModel.html#Vasont_Inspire_Models_Projects_ProjectBrowseModel_Title
@@ -15624,6 +16205,36 @@ references:
   commentId: N:Vasont.Inspire.Models.Reviews
   fullName: Vasont.Inspire.Models.Reviews
   nameWithType: Vasont.Inspire.Models.Reviews
+- uid: Vasont.Inspire.Models.Reviews.BrowseReviewResultType
+  name: BrowseReviewResultType
+  href: ref/Vasont.Inspire.Models.Reviews.BrowseReviewResultType.html
+  commentId: T:Vasont.Inspire.Models.Reviews.BrowseReviewResultType
+  fullName: Vasont.Inspire.Models.Reviews.BrowseReviewResultType
+  nameWithType: BrowseReviewResultType
+- uid: Vasont.Inspire.Models.Reviews.BrowseReviewResultType.Admin
+  name: Admin
+  href: ref/Vasont.Inspire.Models.Reviews.BrowseReviewResultType.html#Vasont_Inspire_Models_Reviews_BrowseReviewResultType_Admin
+  commentId: F:Vasont.Inspire.Models.Reviews.BrowseReviewResultType.Admin
+  fullName: Vasont.Inspire.Models.Reviews.BrowseReviewResultType.Admin
+  nameWithType: BrowseReviewResultType.Admin
+- uid: Vasont.Inspire.Models.Reviews.BrowseReviewResultType.All
+  name: All
+  href: ref/Vasont.Inspire.Models.Reviews.BrowseReviewResultType.html#Vasont_Inspire_Models_Reviews_BrowseReviewResultType_All
+  commentId: F:Vasont.Inspire.Models.Reviews.BrowseReviewResultType.All
+  fullName: Vasont.Inspire.Models.Reviews.BrowseReviewResultType.All
+  nameWithType: BrowseReviewResultType.All
+- uid: Vasont.Inspire.Models.Reviews.BrowseReviewResultType.Owned
+  name: Owned
+  href: ref/Vasont.Inspire.Models.Reviews.BrowseReviewResultType.html#Vasont_Inspire_Models_Reviews_BrowseReviewResultType_Owned
+  commentId: F:Vasont.Inspire.Models.Reviews.BrowseReviewResultType.Owned
+  fullName: Vasont.Inspire.Models.Reviews.BrowseReviewResultType.Owned
+  nameWithType: BrowseReviewResultType.Owned
+- uid: Vasont.Inspire.Models.Reviews.BrowseReviewResultType.Participating
+  name: Participating
+  href: ref/Vasont.Inspire.Models.Reviews.BrowseReviewResultType.html#Vasont_Inspire_Models_Reviews_BrowseReviewResultType_Participating
+  commentId: F:Vasont.Inspire.Models.Reviews.BrowseReviewResultType.Participating
+  fullName: Vasont.Inspire.Models.Reviews.BrowseReviewResultType.Participating
+  nameWithType: BrowseReviewResultType.Participating
 - uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel
   name: ReviewAssignmentModel
   href: ref/Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.html
@@ -15643,6 +16254,32 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.Coordinator
   nameWithType: ReviewAssignmentModel.Coordinator
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysOverDue
+  name: DaysOverDue
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.html#Vasont_Inspire_Models_Reviews_ReviewAssignmentModel_DaysOverDue
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysOverDue
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysOverDue
+  nameWithType: ReviewAssignmentModel.DaysOverDue
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysOverDue*
+  name: DaysOverDue
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.html#Vasont_Inspire_Models_Reviews_ReviewAssignmentModel_DaysOverDue_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysOverDue
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysOverDue
+  nameWithType: ReviewAssignmentModel.DaysOverDue
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysPending
+  name: DaysPending
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.html#Vasont_Inspire_Models_Reviews_ReviewAssignmentModel_DaysPending
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysPending
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysPending
+  nameWithType: ReviewAssignmentModel.DaysPending
+- uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysPending*
+  name: DaysPending
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.html#Vasont_Inspire_Models_Reviews_ReviewAssignmentModel_DaysPending_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysPending
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DaysPending
+  nameWithType: ReviewAssignmentModel.DaysPending
 - uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.DueDate
   name: DueDate
   href: ref/Vasont.Inspire.Models.Reviews.ReviewAssignmentModel.html#Vasont_Inspire_Models_Reviews_ReviewAssignmentModel_DueDate
@@ -15753,6 +16390,71 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.IncludeArchived
   nameWithType: ReviewBrowseQueryModel.IncludeArchived
+- uid: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.IncludeCancelled
+  name: IncludeCancelled
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.html#Vasont_Inspire_Models_Reviews_ReviewBrowseQueryModel_IncludeCancelled
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.IncludeCancelled
+  fullName: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.IncludeCancelled
+  nameWithType: ReviewBrowseQueryModel.IncludeCancelled
+- uid: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.IncludeCancelled*
+  name: IncludeCancelled
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.html#Vasont_Inspire_Models_Reviews_ReviewBrowseQueryModel_IncludeCancelled_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.IncludeCancelled
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.IncludeCancelled
+  nameWithType: ReviewBrowseQueryModel.IncludeCancelled
+- uid: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.IncludeCompleted
+  name: IncludeCompleted
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.html#Vasont_Inspire_Models_Reviews_ReviewBrowseQueryModel_IncludeCompleted
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.IncludeCompleted
+  fullName: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.IncludeCompleted
+  nameWithType: ReviewBrowseQueryModel.IncludeCompleted
+- uid: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.IncludeCompleted*
+  name: IncludeCompleted
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.html#Vasont_Inspire_Models_Reviews_ReviewBrowseQueryModel_IncludeCompleted_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.IncludeCompleted
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.IncludeCompleted
+  nameWithType: ReviewBrowseQueryModel.IncludeCompleted
+- uid: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.QueryFilters
+  name: QueryFilters
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.html#Vasont_Inspire_Models_Reviews_ReviewBrowseQueryModel_QueryFilters
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.QueryFilters
+  fullName: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.QueryFilters
+  nameWithType: ReviewBrowseQueryModel.QueryFilters
+- uid: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.QueryFilters*
+  name: QueryFilters
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.html#Vasont_Inspire_Models_Reviews_ReviewBrowseQueryModel_QueryFilters_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.QueryFilters
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.QueryFilters
+  nameWithType: ReviewBrowseQueryModel.QueryFilters
+- uid: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.QueryFiltersWithDisplayValues
+  name: QueryFiltersWithDisplayValues
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.html#Vasont_Inspire_Models_Reviews_ReviewBrowseQueryModel_QueryFiltersWithDisplayValues
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.QueryFiltersWithDisplayValues
+  fullName: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.QueryFiltersWithDisplayValues
+  nameWithType: ReviewBrowseQueryModel.QueryFiltersWithDisplayValues
+- uid: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.QueryFiltersWithDisplayValues*
+  name: QueryFiltersWithDisplayValues
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.html#Vasont_Inspire_Models_Reviews_ReviewBrowseQueryModel_QueryFiltersWithDisplayValues_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.QueryFiltersWithDisplayValues
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.QueryFiltersWithDisplayValues
+  nameWithType: ReviewBrowseQueryModel.QueryFiltersWithDisplayValues
+- uid: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.QueryName
+  name: QueryName
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.html#Vasont_Inspire_Models_Reviews_ReviewBrowseQueryModel_QueryName
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.QueryName
+  fullName: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.QueryName
+  nameWithType: ReviewBrowseQueryModel.QueryName
+- uid: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.QueryName*
+  name: QueryName
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.html#Vasont_Inspire_Models_Reviews_ReviewBrowseQueryModel_QueryName_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.QueryName
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.QueryName
+  nameWithType: ReviewBrowseQueryModel.QueryName
 - uid: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.SearchText
   name: SearchText
   href: ref/Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.html#Vasont_Inspire_Models_Reviews_ReviewBrowseQueryModel_SearchText
@@ -15766,6 +16468,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.SearchText
   nameWithType: ReviewBrowseQueryModel.SearchText
+- uid: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.Type
+  name: Type
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.html#Vasont_Inspire_Models_Reviews_ReviewBrowseQueryModel_Type
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.Type
+  fullName: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.Type
+  nameWithType: ReviewBrowseQueryModel.Type
+- uid: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.Type*
+  name: Type
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.html#Vasont_Inspire_Models_Reviews_ReviewBrowseQueryModel_Type_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.Type
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel.Type
+  nameWithType: ReviewBrowseQueryModel.Type
 - uid: Vasont.Inspire.Models.Reviews.ReviewBrowseResultModel
   name: ReviewBrowseResultModel
   href: ref/Vasont.Inspire.Models.Reviews.ReviewBrowseResultModel.html
@@ -16241,6 +16956,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Reviews.ReviewComponentModel.SortOrder
   nameWithType: ReviewComponentModel.SortOrder
+- uid: Vasont.Inspire.Models.Reviews.ReviewComponentModel.Title
+  name: Title
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewComponentModel.html#Vasont_Inspire_Models_Reviews_ReviewComponentModel_Title
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewComponentModel.Title
+  fullName: Vasont.Inspire.Models.Reviews.ReviewComponentModel.Title
+  nameWithType: ReviewComponentModel.Title
+- uid: Vasont.Inspire.Models.Reviews.ReviewComponentModel.Title*
+  name: Title
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewComponentModel.html#Vasont_Inspire_Models_Reviews_ReviewComponentModel_Title_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewComponentModel.Title
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Reviews.ReviewComponentModel.Title
+  nameWithType: ReviewComponentModel.Title
 - uid: Vasont.Inspire.Models.Reviews.ReviewComponentType
   name: ReviewComponentType
   href: ref/Vasont.Inspire.Models.Reviews.ReviewComponentType.html
@@ -17447,6 +18175,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Reviews.ReviewerModel.State
   nameWithType: ReviewerModel.State
+- uid: Vasont.Inspire.Models.Reviews.ReviewerModel.Title
+  name: Title
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewerModel.html#Vasont_Inspire_Models_Reviews_ReviewerModel_Title
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewerModel.Title
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerModel.Title
+  nameWithType: ReviewerModel.Title
+- uid: Vasont.Inspire.Models.Reviews.ReviewerModel.Title*
+  name: Title
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewerModel.html#Vasont_Inspire_Models_Reviews_ReviewerModel_Title_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewerModel.Title
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Reviews.ReviewerModel.Title
+  nameWithType: ReviewerModel.Title
 - uid: Vasont.Inspire.Models.Reviews.ReviewerModel.User
   name: User
   href: ref/Vasont.Inspire.Models.Reviews.ReviewerModel.html#Vasont_Inspire_Models_Reviews_ReviewerModel_User
@@ -17632,6 +18373,32 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Reviews.ReviewModel.CreatedDate
   nameWithType: ReviewModel.CreatedDate
+- uid: Vasont.Inspire.Models.Reviews.ReviewModel.DaysOverDue
+  name: DaysOverDue
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewModel.html#Vasont_Inspire_Models_Reviews_ReviewModel_DaysOverDue
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewModel.DaysOverDue
+  fullName: Vasont.Inspire.Models.Reviews.ReviewModel.DaysOverDue
+  nameWithType: ReviewModel.DaysOverDue
+- uid: Vasont.Inspire.Models.Reviews.ReviewModel.DaysOverDue*
+  name: DaysOverDue
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewModel.html#Vasont_Inspire_Models_Reviews_ReviewModel_DaysOverDue_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewModel.DaysOverDue
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Reviews.ReviewModel.DaysOverDue
+  nameWithType: ReviewModel.DaysOverDue
+- uid: Vasont.Inspire.Models.Reviews.ReviewModel.DaysPending
+  name: DaysPending
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewModel.html#Vasont_Inspire_Models_Reviews_ReviewModel_DaysPending
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewModel.DaysPending
+  fullName: Vasont.Inspire.Models.Reviews.ReviewModel.DaysPending
+  nameWithType: ReviewModel.DaysPending
+- uid: Vasont.Inspire.Models.Reviews.ReviewModel.DaysPending*
+  name: DaysPending
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewModel.html#Vasont_Inspire_Models_Reviews_ReviewModel_DaysPending_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewModel.DaysPending
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Reviews.ReviewModel.DaysPending
+  nameWithType: ReviewModel.DaysPending
 - uid: Vasont.Inspire.Models.Reviews.ReviewModel.Description
   name: Description
   href: ref/Vasont.Inspire.Models.Reviews.ReviewModel.html#Vasont_Inspire_Models_Reviews_ReviewModel_Description
@@ -17710,6 +18477,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Reviews.ReviewModel.ReviewId
   nameWithType: ReviewModel.ReviewId
+- uid: Vasont.Inspire.Models.Reviews.ReviewModel.ReviewPercentageCompleted
+  name: ReviewPercentageCompleted
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewModel.html#Vasont_Inspire_Models_Reviews_ReviewModel_ReviewPercentageCompleted
+  commentId: P:Vasont.Inspire.Models.Reviews.ReviewModel.ReviewPercentageCompleted
+  fullName: Vasont.Inspire.Models.Reviews.ReviewModel.ReviewPercentageCompleted
+  nameWithType: ReviewModel.ReviewPercentageCompleted
+- uid: Vasont.Inspire.Models.Reviews.ReviewModel.ReviewPercentageCompleted*
+  name: ReviewPercentageCompleted
+  href: ref/Vasont.Inspire.Models.Reviews.ReviewModel.html#Vasont_Inspire_Models_Reviews_ReviewModel_ReviewPercentageCompleted_
+  commentId: Overload:Vasont.Inspire.Models.Reviews.ReviewModel.ReviewPercentageCompleted
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Reviews.ReviewModel.ReviewPercentageCompleted
+  nameWithType: ReviewModel.ReviewPercentageCompleted
 - uid: Vasont.Inspire.Models.Reviews.ReviewModel.ReviewWorkflow
   name: ReviewWorkflow
   href: ref/Vasont.Inspire.Models.Reviews.ReviewModel.html#Vasont_Inspire_Models_Reviews_ReviewModel_ReviewWorkflow
@@ -22001,6 +22781,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Name
   nameWithType: MinimalTranslationJobComponentModel.Name
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Path
+  name: Path
+  href: ref/Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.html#Vasont_Inspire_Models_Translations_MinimalTranslationJobComponentModel_Path
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Path
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Path
+  nameWithType: MinimalTranslationJobComponentModel.Path
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Path*
+  name: Path
+  href: ref/Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.html#Vasont_Inspire_Models_Translations_MinimalTranslationJobComponentModel_Path_
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Path
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Path
+  nameWithType: MinimalTranslationJobComponentModel.Path
 - uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.SourceLanguageCode
   name: SourceLanguageCode
   href: ref/Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.html#Vasont_Inspire_Models_Translations_MinimalTranslationJobComponentModel_SourceLanguageCode
@@ -22280,6 +23073,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.FileDownloadUrl
   nameWithType: MinimalTranslationJobModel.FileDownloadUrl
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.IntegrationProjectId
+  name: IntegrationProjectId
+  href: ref/Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.html#Vasont_Inspire_Models_Translations_MinimalTranslationJobModel_IntegrationProjectId
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.IntegrationProjectId
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.IntegrationProjectId
+  nameWithType: MinimalTranslationJobModel.IntegrationProjectId
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.IntegrationProjectId*
+  name: IntegrationProjectId
+  href: ref/Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.html#Vasont_Inspire_Models_Translations_MinimalTranslationJobModel_IntegrationProjectId_
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.IntegrationProjectId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.IntegrationProjectId
+  nameWithType: MinimalTranslationJobModel.IntegrationProjectId
 - uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.LanguageNames
   name: LanguageNames
   href: ref/Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.html#Vasont_Inspire_Models_Translations_MinimalTranslationJobModel_LanguageNames
@@ -22604,6 +23410,32 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeArchived
   nameWithType: TranslationBrowseQueryModel.IncludeArchived
+- uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCancelled
+  name: IncludeCancelled
+  href: ref/Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.html#Vasont_Inspire_Models_Translations_TranslationBrowseQueryModel_IncludeCancelled
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCancelled
+  fullName: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCancelled
+  nameWithType: TranslationBrowseQueryModel.IncludeCancelled
+- uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCancelled*
+  name: IncludeCancelled
+  href: ref/Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.html#Vasont_Inspire_Models_Translations_TranslationBrowseQueryModel_IncludeCancelled_
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCancelled
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCancelled
+  nameWithType: TranslationBrowseQueryModel.IncludeCancelled
+- uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCompleted
+  name: IncludeCompleted
+  href: ref/Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.html#Vasont_Inspire_Models_Translations_TranslationBrowseQueryModel_IncludeCompleted
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCompleted
+  fullName: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCompleted
+  nameWithType: TranslationBrowseQueryModel.IncludeCompleted
+- uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCompleted*
+  name: IncludeCompleted
+  href: ref/Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.html#Vasont_Inspire_Models_Translations_TranslationBrowseQueryModel_IncludeCompleted_
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCompleted
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.IncludeCompleted
+  nameWithType: TranslationBrowseQueryModel.IncludeCompleted
 - uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.JobStates
   name: JobStates
   href: ref/Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.html#Vasont_Inspire_Models_Translations_TranslationBrowseQueryModel_JobStates
@@ -22617,6 +23449,45 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.JobStates
   nameWithType: TranslationBrowseQueryModel.JobStates
+- uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFilters
+  name: QueryFilters
+  href: ref/Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.html#Vasont_Inspire_Models_Translations_TranslationBrowseQueryModel_QueryFilters
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFilters
+  fullName: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFilters
+  nameWithType: TranslationBrowseQueryModel.QueryFilters
+- uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFilters*
+  name: QueryFilters
+  href: ref/Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.html#Vasont_Inspire_Models_Translations_TranslationBrowseQueryModel_QueryFilters_
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFilters
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFilters
+  nameWithType: TranslationBrowseQueryModel.QueryFilters
+- uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFiltersWithDisplayValues
+  name: QueryFiltersWithDisplayValues
+  href: ref/Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.html#Vasont_Inspire_Models_Translations_TranslationBrowseQueryModel_QueryFiltersWithDisplayValues
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFiltersWithDisplayValues
+  fullName: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFiltersWithDisplayValues
+  nameWithType: TranslationBrowseQueryModel.QueryFiltersWithDisplayValues
+- uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFiltersWithDisplayValues*
+  name: QueryFiltersWithDisplayValues
+  href: ref/Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.html#Vasont_Inspire_Models_Translations_TranslationBrowseQueryModel_QueryFiltersWithDisplayValues_
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFiltersWithDisplayValues
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryFiltersWithDisplayValues
+  nameWithType: TranslationBrowseQueryModel.QueryFiltersWithDisplayValues
+- uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryName
+  name: QueryName
+  href: ref/Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.html#Vasont_Inspire_Models_Translations_TranslationBrowseQueryModel_QueryName
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryName
+  fullName: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryName
+  nameWithType: TranslationBrowseQueryModel.QueryName
+- uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryName*
+  name: QueryName
+  href: ref/Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.html#Vasont_Inspire_Models_Translations_TranslationBrowseQueryModel_QueryName_
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryName
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.QueryName
+  nameWithType: TranslationBrowseQueryModel.QueryName
 - uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.SearchText
   name: SearchText
   href: ref/Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel.html#Vasont_Inspire_Models_Translations_TranslationBrowseQueryModel_SearchText
@@ -24455,6 +25326,12 @@ references:
   commentId: T:Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
   fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
   nameWithType: ChangesetSnapshotActionType
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Branch
+  name: Branch
+  href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.html#Vasont_Inspire_Models_Versioning_ChangesetSnapshotActionType_Branch
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Branch
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Branch
+  nameWithType: ChangesetSnapshotActionType.Branch
 - uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Create
   name: Create
   href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.html#Vasont_Inspire_Models_Versioning_ChangesetSnapshotActionType_Create
@@ -24479,6 +25356,24 @@ references:
   commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.OnDemand
   fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.OnDemand
   nameWithType: ChangesetSnapshotActionType.OnDemand
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Publish
+  name: Publish
+  href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.html#Vasont_Inspire_Models_Versioning_ChangesetSnapshotActionType_Publish
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Publish
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Publish
+  nameWithType: ChangesetSnapshotActionType.Publish
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Review
+  name: Review
+  href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.html#Vasont_Inspire_Models_Versioning_ChangesetSnapshotActionType_Review
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Review
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Review
+  nameWithType: ChangesetSnapshotActionType.Review
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Translate
+  name: Translate
+  href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.html#Vasont_Inspire_Models_Versioning_ChangesetSnapshotActionType_Translate
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Translate
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Translate
+  nameWithType: ChangesetSnapshotActionType.Translate
 - uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Update
   name: Update
   href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.html#Vasont_Inspire_Models_Versioning_ChangesetSnapshotActionType_Update
@@ -24503,12 +25398,12 @@ references:
   commentId: M:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor
   fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ChangesetSnapshotModel()
   nameWithType: ChangesetSnapshotModel.ChangesetSnapshotModel()
-- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor(Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType,System.Boolean)
-  name: ChangesetSnapshotModel(ChangesetSnapshotActionType, Boolean)
-  href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.html#Vasont_Inspire_Models_Versioning_ChangesetSnapshotModel__ctor_Vasont_Inspire_Models_Versioning_ChangesetSnapshotActionType_System_Boolean_
-  commentId: M:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor(Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType,System.Boolean)
-  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ChangesetSnapshotModel(Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType, System.Boolean)
-  nameWithType: ChangesetSnapshotModel.ChangesetSnapshotModel(ChangesetSnapshotActionType, Boolean)
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor(Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType,System.Boolean,System.String)
+  name: ChangesetSnapshotModel(ChangesetSnapshotActionType, Boolean, String)
+  href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.html#Vasont_Inspire_Models_Versioning_ChangesetSnapshotModel__ctor_Vasont_Inspire_Models_Versioning_ChangesetSnapshotActionType_System_Boolean_System_String_
+  commentId: M:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor(Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType,System.Boolean,System.String)
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ChangesetSnapshotModel(Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType, System.Boolean, System.String)
+  nameWithType: ChangesetSnapshotModel.ChangesetSnapshotModel(ChangesetSnapshotActionType, Boolean, String)
 - uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.#ctor*
   name: ChangesetSnapshotModel
   href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.html#Vasont_Inspire_Models_Versioning_ChangesetSnapshotModel__ctor_
@@ -24607,6 +25502,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ParentFolder
   nameWithType: ChangesetSnapshotModel.ParentFolder
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ProcessType
+  name: ProcessType
+  href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.html#Vasont_Inspire_Models_Versioning_ChangesetSnapshotModel_ProcessType
+  commentId: P:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ProcessType
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ProcessType
+  nameWithType: ChangesetSnapshotModel.ProcessType
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ProcessType*
+  name: ProcessType
+  href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.html#Vasont_Inspire_Models_Versioning_ChangesetSnapshotModel_ProcessType_
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ProcessType
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.ProcessType
+  nameWithType: ChangesetSnapshotModel.ProcessType
 - uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.PropertyProperties
   name: PropertyProperties
   href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.html#Vasont_Inspire_Models_Versioning_ChangesetSnapshotModel_PropertyProperties
@@ -24646,6 +25554,54 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel.SnapshotType
   nameWithType: ChangesetSnapshotModel.SnapshotType
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType
+  name: ChangesetSnapshotProcessType
+  href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.html
+  commentId: T:Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType
+  nameWithType: ChangesetSnapshotProcessType
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.Branch
+  name: Branch
+  href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.html#Vasont_Inspire_Models_Versioning_ChangesetSnapshotProcessType_Branch
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.Branch
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.Branch
+  nameWithType: ChangesetSnapshotProcessType.Branch
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.CreateNew
+  name: CreateNew
+  href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.html#Vasont_Inspire_Models_Versioning_ChangesetSnapshotProcessType_CreateNew
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.CreateNew
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.CreateNew
+  nameWithType: ChangesetSnapshotProcessType.CreateNew
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.Import
+  name: Import
+  href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.html#Vasont_Inspire_Models_Versioning_ChangesetSnapshotProcessType_Import
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.Import
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.Import
+  nameWithType: ChangesetSnapshotProcessType.Import
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.Review
+  name: Review
+  href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.html#Vasont_Inspire_Models_Versioning_ChangesetSnapshotProcessType_Review
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.Review
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.Review
+  nameWithType: ChangesetSnapshotProcessType.Review
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.SaveAs
+  name: SaveAs
+  href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.html#Vasont_Inspire_Models_Versioning_ChangesetSnapshotProcessType_SaveAs
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.SaveAs
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.SaveAs
+  nameWithType: ChangesetSnapshotProcessType.SaveAs
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.Submit
+  name: Submit
+  href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.html#Vasont_Inspire_Models_Versioning_ChangesetSnapshotProcessType_Submit
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.Submit
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.Submit
+  nameWithType: ChangesetSnapshotProcessType.Submit
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.Translate
+  name: Translate
+  href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.html#Vasont_Inspire_Models_Versioning_ChangesetSnapshotProcessType_Translate
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.Translate
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.Translate
+  nameWithType: ChangesetSnapshotProcessType.Translate
 - uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType
   name: ChangesetSnapshotType
   href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotType.html
@@ -25269,6 +26225,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.LatestSnapshot
   nameWithType: MinimalComponentHistoryModel.LatestSnapshot
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ProcessType
+  name: ProcessType
+  href: ref/Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.html#Vasont_Inspire_Models_Versioning_MinimalComponentHistoryModel_ProcessType
+  commentId: P:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ProcessType
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ProcessType
+  nameWithType: MinimalComponentHistoryModel.ProcessType
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ProcessType*
+  name: ProcessType
+  href: ref/Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.html#Vasont_Inspire_Models_Versioning_MinimalComponentHistoryModel_ProcessType_
+  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ProcessType
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ProcessType
+  nameWithType: MinimalComponentHistoryModel.ProcessType
 - uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Restored
   name: Restored
   href: ref/Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.html#Vasont_Inspire_Models_Versioning_MinimalComponentHistoryModel_Restored

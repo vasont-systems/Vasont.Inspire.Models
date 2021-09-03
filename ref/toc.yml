@@ -67,10 +67,14 @@
     name: ComponentBranchRequestModel
   - uid: Vasont.Inspire.Models.Components.ComponentBranchStateModel
     name: ComponentBranchStateModel
+  - uid: Vasont.Inspire.Models.Components.ComponentBranchType
+    name: ComponentBranchType
   - uid: Vasont.Inspire.Models.Components.ComponentDependenciesResultModel
     name: ComponentDependenciesResultModel
   - uid: Vasont.Inspire.Models.Components.ComponentDependencyModel
     name: ComponentDependencyModel
+  - uid: Vasont.Inspire.Models.Components.ComponentFrameworkModel
+    name: ComponentFrameworkModel
   - uid: Vasont.Inspire.Models.Components.ComponentLockModel
     name: ComponentLockModel
   - uid: Vasont.Inspire.Models.Components.ComponentLockType
@@ -277,6 +281,8 @@
     name: RelationKeyName
   - uid: Vasont.Inspire.Models.Configuration.RelationModel
     name: RelationModel
+  - uid: Vasont.Inspire.Models.Configuration.ValidationSchemaModel
+    name: ValidationSchemaModel
   - uid: Vasont.Inspire.Models.Configuration.XmlLinkTypeModel
     name: XmlLinkTypeModel
 - uid: Vasont.Inspire.Models.Diagnostics
@@ -441,6 +447,8 @@
 - uid: Vasont.Inspire.Models.Reviews
   name: Vasont.Inspire.Models.Reviews
   items:
+  - uid: Vasont.Inspire.Models.Reviews.BrowseReviewResultType
+    name: BrowseReviewResultType
   - uid: Vasont.Inspire.Models.Reviews.ReviewAssignmentModel
     name: ReviewAssignmentModel
   - uid: Vasont.Inspire.Models.Reviews.ReviewBrowseQueryModel
@@ -681,6 +689,8 @@
     name: ChangesetSnapshotActionType
   - uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel
     name: ChangesetSnapshotModel
+  - uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType
+    name: ChangesetSnapshotProcessType
   - uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotType
     name: ChangesetSnapshotType
   - uid: Vasont.Inspire.Models.Versioning.ComponentHistoryQueryModel

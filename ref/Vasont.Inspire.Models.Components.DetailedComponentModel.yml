@@ -66,6 +66,12 @@ items:
   - Vasont.Inspire.Models.Components.MinimalComponentModel.VirtualPath
   - Vasont.Inspire.Models.Components.MinimalComponentModel.Type
   - Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowed
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowedByCurrentUser
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.FollowedByUsers
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.IsShared
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.SharedComponentsCount
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.BranchType
   - Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
   - Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount
   - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
@@ -631,6 +637,42 @@ references:
   name: CanTranslate
   nameWithType: MinimalComponentModel.CanTranslate
   fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowed
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowed
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: IsFollowed
+  nameWithType: MinimalComponentModel.IsFollowed
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowed
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowedByCurrentUser
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowedByCurrentUser
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: IsFollowedByCurrentUser
+  nameWithType: MinimalComponentModel.IsFollowedByCurrentUser
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.IsFollowedByCurrentUser
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.FollowedByUsers
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.FollowedByUsers
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: FollowedByUsers
+  nameWithType: MinimalComponentModel.FollowedByUsers
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.FollowedByUsers
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.IsShared
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.IsShared
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: IsShared
+  nameWithType: MinimalComponentModel.IsShared
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.IsShared
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.SharedComponentsCount
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.SharedComponentsCount
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: SharedComponentsCount
+  nameWithType: MinimalComponentModel.SharedComponentsCount
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.SharedComponentsCount
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.BranchType
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.BranchType
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: BranchType
+  nameWithType: MinimalComponentModel.BranchType
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.BranchType
 - uid: Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
   commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
   parent: Vasont.Inspire.Models.Components.MinimalComponentModel

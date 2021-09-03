@@ -9,6 +9,7 @@ items:
   - Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FilterByContentTypes
   - Vasont.Inspire.Models.Components.FolderComponentsQueryModel.FolderId
   - Vasont.Inspire.Models.Components.FolderComponentsQueryModel.IncludeSubFolders
+  - Vasont.Inspire.Models.Components.FolderComponentsQueryModel.ProjectId
   - Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryFilters
   - Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryFiltersWithDisplayValues
   - Vasont.Inspire.Models.Components.FolderComponentsQueryModel.QueryName
@@ -96,6 +97,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.ProjectId
+  commentId: P:Vasont.Inspire.Models.Components.FolderComponentsQueryModel.ProjectId
+  id: ProjectId
+  parent: Vasont.Inspire.Models.Components.FolderComponentsQueryModel
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: FolderComponentsQueryModel.ProjectId
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.ProjectId
+  type: Property
+  source:
+    remote:
+      path: src/Components/FolderComponentsQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProjectId
+    path: Components/FolderComponentsQueryModel.cs
+    startLine: 24
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the optional identity of a project.\n"
+  example: []
+  syntax:
+    content: public long ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ProjectId As Long
+  overload: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.IncludeSubFolders
   commentId: P:Vasont.Inspire.Models.Components.FolderComponentsQueryModel.IncludeSubFolders
   id: IncludeSubFolders
@@ -114,7 +152,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IncludeSubFolders
     path: Components/FolderComponentsQueryModel.cs
-    startLine: 24
+    startLine: 29
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -151,7 +189,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SearchText
     path: Components/FolderComponentsQueryModel.cs
-    startLine: 29
+    startLine: 34
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -188,7 +226,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: QueryFilters
     path: Components/FolderComponentsQueryModel.cs
-    startLine: 34
+    startLine: 39
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -225,7 +263,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: QueryFiltersWithDisplayValues
     path: Components/FolderComponentsQueryModel.cs
-    startLine: 39
+    startLine: 44
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -262,7 +300,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: QueryName
     path: Components/FolderComponentsQueryModel.cs
-    startLine: 44
+    startLine: 49
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -299,7 +337,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FilterByComponentTypes
     path: Components/FolderComponentsQueryModel.cs
-    startLine: 49
+    startLine: 54
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -336,7 +374,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FilterByContentTypes
     path: Components/FolderComponentsQueryModel.cs
-    startLine: 54
+    startLine: 59
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -700,6 +738,11 @@ references:
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.ProjectId*
+  commentId: Overload:Vasont.Inspire.Models.Components.FolderComponentsQueryModel.ProjectId
+  name: ProjectId
+  nameWithType: FolderComponentsQueryModel.ProjectId
+  fullName: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.ProjectId
 - uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel.IncludeSubFolders*
   commentId: Overload:Vasont.Inspire.Models.Components.FolderComponentsQueryModel.IncludeSubFolders
   name: IncludeSubFolders

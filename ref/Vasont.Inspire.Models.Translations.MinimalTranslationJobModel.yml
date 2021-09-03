@@ -19,6 +19,7 @@ items:
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.Description
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.DueDate
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.FileDownloadUrl
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.IntegrationProjectId
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.LanguageNames
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.Languages
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.Name
@@ -1196,6 +1197,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.IntegrationProjectId
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.IntegrationProjectId
+  id: IntegrationProjectId
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: IntegrationProjectId
+  nameWithType: MinimalTranslationJobModel.IntegrationProjectId
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.IntegrationProjectId
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IntegrationProjectId
+    path: Translations/MinimalTranslationJobModel.cs
+    startLine: 229
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the identifier from the integration provider.\n"
+  example: []
+  syntax:
+    content: public string IntegrationProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IntegrationProjectId As String
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.IntegrationProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: Vasont.Inspire.Models.Translations
   commentId: N:Vasont.Inspire.Models.Translations
@@ -1921,3 +1959,8 @@ references:
   name: FileDownloadUrl
   nameWithType: MinimalTranslationJobModel.FileDownloadUrl
   fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.FileDownloadUrl
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.IntegrationProjectId*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.IntegrationProjectId
+  name: IntegrationProjectId
+  nameWithType: MinimalTranslationJobModel.IntegrationProjectId
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel.IntegrationProjectId
