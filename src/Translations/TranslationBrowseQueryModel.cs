@@ -48,7 +48,7 @@ namespace Vasont.Inspire.Models.Translations
         /// <summary>
         /// Gets or sets an optional list of ad-hoc query built filters with the display values.
         /// </summary>
-        public List<AdHocQueryFilterModel> QueryFiltersWithDisplayValues { get; set; }
+        public List<AdHocQueryFilterModel> QueryFiltersWithDisplayValues { get; set; } = new List<AdHocQueryFilterModel>();
 
         /// <summary>
         /// Gets or sets the name of the selected query.
