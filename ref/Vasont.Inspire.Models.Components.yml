@@ -91,6 +91,8 @@ items:
   - Vasont.Inspire.Models.Components.QueryModel
   - Vasont.Inspire.Models.Components.RecentComponentModel
   - Vasont.Inspire.Models.Components.ReviewEditorMode
+  - Vasont.Inspire.Models.Components.ReviewReportRequestModel
+  - Vasont.Inspire.Models.Components.ReviewReportStateModel
   - Vasont.Inspire.Models.Components.SaveAsBranchModel
   - Vasont.Inspire.Models.Components.SaveAsComponentModel
   - Vasont.Inspire.Models.Components.TagModel
@@ -631,6 +633,16 @@ references:
   name: XmlValidationErrorModel
   nameWithType: XmlValidationErrorModel
   fullName: Vasont.Inspire.Models.Components.XmlValidationErrorModel
+- uid: Vasont.Inspire.Models.Components.ReviewReportRequestModel
+  commentId: T:Vasont.Inspire.Models.Components.ReviewReportRequestModel
+  name: ReviewReportRequestModel
+  nameWithType: ReviewReportRequestModel
+  fullName: Vasont.Inspire.Models.Components.ReviewReportRequestModel
+- uid: Vasont.Inspire.Models.Components.ReviewReportStateModel
+  commentId: T:Vasont.Inspire.Models.Components.ReviewReportStateModel
+  name: ReviewReportStateModel
+  nameWithType: ReviewReportStateModel
+  fullName: Vasont.Inspire.Models.Components.ReviewReportStateModel
 - uid: Vasont.Inspire.Models.Components
   commentId: N:Vasont.Inspire.Models.Components
   name: Vasont.Inspire.Models.Components
