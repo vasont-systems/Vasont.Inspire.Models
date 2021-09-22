@@ -7,6 +7,7 @@ namespace Vasont.Inspire.Models.Components
 {
     using System.Collections.Generic;
     using Vasont.Inspire.Models.Common;
+    using Vasont.Inspire.Models.Search;
     using Vasont.Inspire.Models.Security;
 
     /// <summary>
@@ -53,6 +54,11 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets a value indicating whether the query is active.
         /// </summary>
         public bool Active { get; set; }
+
+        /// <summary>
+        /// Gets or sets the search type.
+        /// </summary>
+        public SearchType Type { get; set; } = SearchType.Component;
 
         /// <summary>
         /// Gets or sets a list of <see cref="UserRoleAssociationModel"/> objects.

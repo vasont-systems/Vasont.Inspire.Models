@@ -7713,6 +7713,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.QueryModel.Title
   nameWithType: QueryModel.Title
+- uid: Vasont.Inspire.Models.Components.QueryModel.Type
+  name: Type
+  href: ref/Vasont.Inspire.Models.Components.QueryModel.html#Vasont_Inspire_Models_Components_QueryModel_Type
+  commentId: P:Vasont.Inspire.Models.Components.QueryModel.Type
+  fullName: Vasont.Inspire.Models.Components.QueryModel.Type
+  nameWithType: QueryModel.Type
+- uid: Vasont.Inspire.Models.Components.QueryModel.Type*
+  name: Type
+  href: ref/Vasont.Inspire.Models.Components.QueryModel.html#Vasont_Inspire_Models_Components_QueryModel_Type_
+  commentId: Overload:Vasont.Inspire.Models.Components.QueryModel.Type
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.QueryModel.Type
+  nameWithType: QueryModel.Type
 - uid: Vasont.Inspire.Models.Components.RecentComponentModel
   name: RecentComponentModel
   href: ref/Vasont.Inspire.Models.Components.RecentComponentModel.html
@@ -19578,6 +19591,60 @@ references:
   commentId: F:Vasont.Inspire.Models.Search.SearchLogicOperator.Or
   fullName: Vasont.Inspire.Models.Search.SearchLogicOperator.Or
   nameWithType: SearchLogicOperator.Or
+- uid: Vasont.Inspire.Models.Search.SearchType
+  name: SearchType
+  href: ref/Vasont.Inspire.Models.Search.SearchType.html
+  commentId: T:Vasont.Inspire.Models.Search.SearchType
+  fullName: Vasont.Inspire.Models.Search.SearchType
+  nameWithType: SearchType
+- uid: Vasont.Inspire.Models.Search.SearchType.Assignment
+  name: Assignment
+  href: ref/Vasont.Inspire.Models.Search.SearchType.html#Vasont_Inspire_Models_Search_SearchType_Assignment
+  commentId: F:Vasont.Inspire.Models.Search.SearchType.Assignment
+  fullName: Vasont.Inspire.Models.Search.SearchType.Assignment
+  nameWithType: SearchType.Assignment
+- uid: Vasont.Inspire.Models.Search.SearchType.Component
+  name: Component
+  href: ref/Vasont.Inspire.Models.Search.SearchType.html#Vasont_Inspire_Models_Search_SearchType_Component
+  commentId: F:Vasont.Inspire.Models.Search.SearchType.Component
+  fullName: Vasont.Inspire.Models.Search.SearchType.Component
+  nameWithType: SearchType.Component
+- uid: Vasont.Inspire.Models.Search.SearchType.ComponentHistory
+  name: ComponentHistory
+  href: ref/Vasont.Inspire.Models.Search.SearchType.html#Vasont_Inspire_Models_Search_SearchType_ComponentHistory
+  commentId: F:Vasont.Inspire.Models.Search.SearchType.ComponentHistory
+  fullName: Vasont.Inspire.Models.Search.SearchType.ComponentHistory
+  nameWithType: SearchType.ComponentHistory
+- uid: Vasont.Inspire.Models.Search.SearchType.Project
+  name: Project
+  href: ref/Vasont.Inspire.Models.Search.SearchType.html#Vasont_Inspire_Models_Search_SearchType_Project
+  commentId: F:Vasont.Inspire.Models.Search.SearchType.Project
+  fullName: Vasont.Inspire.Models.Search.SearchType.Project
+  nameWithType: SearchType.Project
+- uid: Vasont.Inspire.Models.Search.SearchType.Review
+  name: Review
+  href: ref/Vasont.Inspire.Models.Search.SearchType.html#Vasont_Inspire_Models_Search_SearchType_Review
+  commentId: F:Vasont.Inspire.Models.Search.SearchType.Review
+  fullName: Vasont.Inspire.Models.Search.SearchType.Review
+  nameWithType: SearchType.Review
+- uid: Vasont.Inspire.Models.Search.SearchType.Reviewer
+  name: Reviewer
+  href: ref/Vasont.Inspire.Models.Search.SearchType.html#Vasont_Inspire_Models_Search_SearchType_Reviewer
+  commentId: F:Vasont.Inspire.Models.Search.SearchType.Reviewer
+  fullName: Vasont.Inspire.Models.Search.SearchType.Reviewer
+  nameWithType: SearchType.Reviewer
+- uid: Vasont.Inspire.Models.Search.SearchType.Translation
+  name: Translation
+  href: ref/Vasont.Inspire.Models.Search.SearchType.html#Vasont_Inspire_Models_Search_SearchType_Translation
+  commentId: F:Vasont.Inspire.Models.Search.SearchType.Translation
+  fullName: Vasont.Inspire.Models.Search.SearchType.Translation
+  nameWithType: SearchType.Translation
+- uid: Vasont.Inspire.Models.Search.SearchType.Workflow
+  name: Workflow
+  href: ref/Vasont.Inspire.Models.Search.SearchType.html#Vasont_Inspire_Models_Search_SearchType_Workflow
+  commentId: F:Vasont.Inspire.Models.Search.SearchType.Workflow
+  fullName: Vasont.Inspire.Models.Search.SearchType.Workflow
+  nameWithType: SearchType.Workflow
 - uid: Vasont.Inspire.Models.Security
   name: Vasont.Inspire.Models.Security
   href: ref/Vasont.Inspire.Models.Security.html
