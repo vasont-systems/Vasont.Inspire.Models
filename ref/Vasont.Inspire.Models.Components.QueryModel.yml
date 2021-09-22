@@ -14,6 +14,7 @@ items:
   - Vasont.Inspire.Models.Components.QueryModel.QueryId
   - Vasont.Inspire.Models.Components.QueryModel.SystemShared
   - Vasont.Inspire.Models.Components.QueryModel.Title
+  - Vasont.Inspire.Models.Components.QueryModel.Type
   langs:
   - csharp
   - vb
@@ -28,7 +29,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: QueryModel
     path: Components/QueryModel.cs
-    startLine: 14
+    startLine: 15
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -78,7 +79,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: QueryId
     path: Components/QueryModel.cs
-    startLine: 19
+    startLine: 20
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -115,7 +116,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Owner
     path: Components/QueryModel.cs
-    startLine: 24
+    startLine: 25
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -152,7 +153,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Title
     path: Components/QueryModel.cs
-    startLine: 29
+    startLine: 30
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -189,7 +190,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Components/QueryModel.cs
-    startLine: 34
+    startLine: 35
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -226,7 +227,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Contents
     path: Components/QueryModel.cs
-    startLine: 39
+    startLine: 40
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -263,7 +264,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SystemShared
     path: Components/QueryModel.cs
-    startLine: 44
+    startLine: 45
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -300,7 +301,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: GroupName
     path: Components/QueryModel.cs
-    startLine: 49
+    startLine: 50
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -337,7 +338,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Active
     path: Components/QueryModel.cs
-    startLine: 54
+    startLine: 55
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -350,6 +351,43 @@ items:
       type: System.Boolean
     content.vb: Public Property Active As Boolean
   overload: Vasont.Inspire.Models.Components.QueryModel.Active*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.QueryModel.Type
+  commentId: P:Vasont.Inspire.Models.Components.QueryModel.Type
+  id: Type
+  parent: Vasont.Inspire.Models.Components.QueryModel
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: QueryModel.Type
+  fullName: Vasont.Inspire.Models.Components.QueryModel.Type
+  type: Property
+  source:
+    remote:
+      path: src/Components/QueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Type
+    path: Components/QueryModel.cs
+    startLine: 60
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the search type.\n"
+  example: []
+  syntax:
+    content: public SearchType Type { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Search.SearchType
+    content.vb: Public Property Type As SearchType
+  overload: Vasont.Inspire.Models.Components.QueryModel.Type*
   modifiers.csharp:
   - public
   - get
@@ -374,7 +412,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Participants
     path: Components/QueryModel.cs
-    startLine: 59
+    startLine: 65
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -798,6 +836,22 @@ references:
   name: Active
   nameWithType: QueryModel.Active
   fullName: Vasont.Inspire.Models.Components.QueryModel.Active
+- uid: Vasont.Inspire.Models.Components.QueryModel.Type*
+  commentId: Overload:Vasont.Inspire.Models.Components.QueryModel.Type
+  name: Type
+  nameWithType: QueryModel.Type
+  fullName: Vasont.Inspire.Models.Components.QueryModel.Type
+- uid: Vasont.Inspire.Models.Search.SearchType
+  commentId: T:Vasont.Inspire.Models.Search.SearchType
+  parent: Vasont.Inspire.Models.Search
+  name: SearchType
+  nameWithType: SearchType
+  fullName: Vasont.Inspire.Models.Search.SearchType
+- uid: Vasont.Inspire.Models.Search
+  commentId: N:Vasont.Inspire.Models.Search
+  name: Vasont.Inspire.Models.Search
+  nameWithType: Vasont.Inspire.Models.Search
+  fullName: Vasont.Inspire.Models.Search
 - uid: Vasont.Inspire.Models.Security.UserRoleAssociationModel
   commentId: T:Vasont.Inspire.Models.Security.UserRoleAssociationModel
   parent: Vasont.Inspire.Models.Security
