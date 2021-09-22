@@ -11,6 +11,7 @@ items:
   - Vasont.Inspire.Models.Search.SearchConfigurationModel
   - Vasont.Inspire.Models.Search.SearchExpressionOperator
   - Vasont.Inspire.Models.Search.SearchLogicOperator
+  - Vasont.Inspire.Models.Search.SearchType
   langs:
   - csharp
   - vb
@@ -59,6 +60,12 @@ references:
   name: SearchLogicOperator
   nameWithType: SearchLogicOperator
   fullName: Vasont.Inspire.Models.Search.SearchLogicOperator
+- uid: Vasont.Inspire.Models.Search.SearchType
+  commentId: T:Vasont.Inspire.Models.Search.SearchType
+  parent: Vasont.Inspire.Models.Search
+  name: SearchType
+  nameWithType: SearchType
+  fullName: Vasont.Inspire.Models.Search.SearchType
 - uid: Vasont.Inspire.Models.Search
   commentId: N:Vasont.Inspire.Models.Search
   name: Vasont.Inspire.Models.Search

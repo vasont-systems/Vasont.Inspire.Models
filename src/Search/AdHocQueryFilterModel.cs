@@ -13,7 +13,7 @@ namespace Vasont.Inspire.Models.Search
     public class AdHocQueryFilterModel
     {
         /// <summary>
-        /// Gets or sets the filter row logic operator
+        /// Gets or sets the filter row logic operator.
         /// </summary>
         public SearchLogicOperator Logic { get; set; } = SearchLogicOperator.And;
 
@@ -23,7 +23,7 @@ namespace Vasont.Inspire.Models.Search
         public string FilterId { get; set; }
 
         /// <summary>
-        /// Gets or sets the filter operator
+        /// Gets or sets the filter operator.
         /// </summary>
         public SearchExpressionOperator Operator { get; set; } = SearchExpressionOperator.Equals;
 
