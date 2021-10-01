@@ -37,6 +37,7 @@ items:
   inheritance:
   - System.Object
   derivedClasses:
+  - Vasont.Inspire.Models.Components.ComponentExternalAssetsQueryModel
   - Vasont.Inspire.Models.Components.ComponentRelationsQueryModel
   - Vasont.Inspire.Models.Components.FolderComponentsQueryModel
   - Vasont.Inspire.Models.Logging.EventLogQueryModel

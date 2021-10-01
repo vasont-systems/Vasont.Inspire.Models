@@ -73,6 +73,10 @@
     name: ComponentDependenciesResultModel
   - uid: Vasont.Inspire.Models.Components.ComponentDependencyModel
     name: ComponentDependencyModel
+  - uid: Vasont.Inspire.Models.Components.ComponentExternalAssetsQueryModel
+    name: ComponentExternalAssetsQueryModel
+  - uid: Vasont.Inspire.Models.Components.ComponentExternalAssetsResultModel
+    name: ComponentExternalAssetsResultModel
   - uid: Vasont.Inspire.Models.Components.ComponentFrameworkModel
     name: ComponentFrameworkModel
   - uid: Vasont.Inspire.Models.Components.ComponentLockModel
@@ -157,6 +161,8 @@
     name: EditorXmlErrorModel
   - uid: Vasont.Inspire.Models.Components.ElementResultsModel
     name: ElementResultsModel
+  - uid: Vasont.Inspire.Models.Components.ExternalAssetModel
+    name: ExternalAssetModel
   - uid: Vasont.Inspire.Models.Components.FolderBrowseModel
     name: FolderBrowseModel
   - uid: Vasont.Inspire.Models.Components.FolderComponentsQueryModel
@@ -734,6 +740,8 @@
     name: ComponentRequestModel
   - uid: Vasont.Inspire.Models.Webhooks.NewComponentRequestModel
     name: NewComponentRequestModel
+  - uid: Vasont.Inspire.Models.Webhooks.NotifyExternalAssetModel
+    name: NotifyExternalAssetModel
   - uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel
     name: WebhookConfigurationModel
   - uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
