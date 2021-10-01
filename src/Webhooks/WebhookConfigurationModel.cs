@@ -37,7 +37,12 @@ namespace Vasont.Inspire.Models.Webhooks
         /// <summary>
         /// The oxygen session webhook.
         /// </summary>
-        OxygenSession
+        OxygenSession,
+
+        /// <summary>
+        /// The notify external asset webhook.
+        /// </summary>
+        NotifyExternalAsset
     }
 
     /// <summary>

@@ -20,6 +20,8 @@ items:
   - Vasont.Inspire.Models.Components.ComponentBranchType
   - Vasont.Inspire.Models.Components.ComponentDependenciesResultModel
   - Vasont.Inspire.Models.Components.ComponentDependencyModel
+  - Vasont.Inspire.Models.Components.ComponentExternalAssetsQueryModel
+  - Vasont.Inspire.Models.Components.ComponentExternalAssetsResultModel
   - Vasont.Inspire.Models.Components.ComponentFrameworkModel
   - Vasont.Inspire.Models.Components.ComponentLockModel
   - Vasont.Inspire.Models.Components.ComponentLockType
@@ -62,6 +64,7 @@ items:
   - Vasont.Inspire.Models.Components.EditorValidateResultModel
   - Vasont.Inspire.Models.Components.EditorXmlErrorModel
   - Vasont.Inspire.Models.Components.ElementResultsModel
+  - Vasont.Inspire.Models.Components.ExternalAssetModel
   - Vasont.Inspire.Models.Components.FolderBrowseModel
   - Vasont.Inspire.Models.Components.FolderComponentsQueryModel
   - Vasont.Inspire.Models.Components.FolderComponentsResultModel
@@ -191,6 +194,16 @@ references:
   name: ComponentDependencyModel
   nameWithType: ComponentDependencyModel
   fullName: Vasont.Inspire.Models.Components.ComponentDependencyModel
+- uid: Vasont.Inspire.Models.Components.ComponentExternalAssetsQueryModel
+  commentId: T:Vasont.Inspire.Models.Components.ComponentExternalAssetsQueryModel
+  name: ComponentExternalAssetsQueryModel
+  nameWithType: ComponentExternalAssetsQueryModel
+  fullName: Vasont.Inspire.Models.Components.ComponentExternalAssetsQueryModel
+- uid: Vasont.Inspire.Models.Components.ComponentExternalAssetsResultModel
+  commentId: T:Vasont.Inspire.Models.Components.ComponentExternalAssetsResultModel
+  name: ComponentExternalAssetsResultModel
+  nameWithType: ComponentExternalAssetsResultModel
+  fullName: Vasont.Inspire.Models.Components.ComponentExternalAssetsResultModel
 - uid: Vasont.Inspire.Models.Components.ComponentFrameworkModel
   commentId: T:Vasont.Inspire.Models.Components.ComponentFrameworkModel
   name: ComponentFrameworkModel
@@ -413,6 +426,11 @@ references:
   name: ElementResultsModel
   nameWithType: ElementResultsModel
   fullName: Vasont.Inspire.Models.Components.ElementResultsModel
+- uid: Vasont.Inspire.Models.Components.ExternalAssetModel
+  commentId: T:Vasont.Inspire.Models.Components.ExternalAssetModel
+  name: ExternalAssetModel
+  nameWithType: ExternalAssetModel
+  fullName: Vasont.Inspire.Models.Components.ExternalAssetModel
 - uid: Vasont.Inspire.Models.Components.FolderBrowseModel
   commentId: T:Vasont.Inspire.Models.Components.FolderBrowseModel
   name: FolderBrowseModel

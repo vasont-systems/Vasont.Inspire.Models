@@ -5,6 +5,7 @@ items:
   id: WebhookConfigurationNameType
   parent: Vasont.Inspire.Models.Webhooks
   children:
+  - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.NotifyExternalAsset
   - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.OxygenSession
   - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ProjectDirectorNotification
   - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.PublishResult
@@ -213,6 +214,40 @@ items:
   example: []
   syntax:
     content: OxygenSession = 4
+    return:
+      type: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.NotifyExternalAsset
+  commentId: F:Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.NotifyExternalAsset
+  id: NotifyExternalAsset
+  parent: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  langs:
+  - csharp
+  - vb
+  name: NotifyExternalAsset
+  nameWithType: WebhookConfigurationNameType.NotifyExternalAsset
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.NotifyExternalAsset
+  type: Field
+  source:
+    remote:
+      path: src/Webhooks/WebhookConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: NotifyExternalAsset
+    path: Webhooks/WebhookConfigurationModel.cs
+    startLine: 44
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nThe notify external asset webhook.\n"
+  example: []
+  syntax:
+    content: NotifyExternalAsset = 5
     return:
       type: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
   modifiers.csharp:

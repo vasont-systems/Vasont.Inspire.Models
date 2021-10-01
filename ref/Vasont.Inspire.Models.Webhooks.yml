@@ -7,6 +7,7 @@ items:
   - Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel
   - Vasont.Inspire.Models.Webhooks.ComponentRequestModel
   - Vasont.Inspire.Models.Webhooks.NewComponentRequestModel
+  - Vasont.Inspire.Models.Webhooks.NotifyExternalAssetModel
   - Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel
   - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
   - Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType
@@ -36,6 +37,11 @@ references:
   name: NewComponentRequestModel
   nameWithType: NewComponentRequestModel
   fullName: Vasont.Inspire.Models.Webhooks.NewComponentRequestModel
+- uid: Vasont.Inspire.Models.Webhooks.NotifyExternalAssetModel
+  commentId: T:Vasont.Inspire.Models.Webhooks.NotifyExternalAssetModel
+  name: NotifyExternalAssetModel
+  nameWithType: NotifyExternalAssetModel
+  fullName: Vasont.Inspire.Models.Webhooks.NotifyExternalAssetModel
 - uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
   commentId: T:Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
   parent: Vasont.Inspire.Models.Webhooks
