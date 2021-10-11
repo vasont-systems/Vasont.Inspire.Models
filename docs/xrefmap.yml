@@ -5550,6 +5550,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.ExternalAssetModel.Metadata
   nameWithType: ExternalAssetModel.Metadata
+- uid: Vasont.Inspire.Models.Components.ExternalAssetModel.NotificationDate
+  name: NotificationDate
+  href: ref/Vasont.Inspire.Models.Components.ExternalAssetModel.html#Vasont_Inspire_Models_Components_ExternalAssetModel_NotificationDate
+  commentId: P:Vasont.Inspire.Models.Components.ExternalAssetModel.NotificationDate
+  fullName: Vasont.Inspire.Models.Components.ExternalAssetModel.NotificationDate
+  nameWithType: ExternalAssetModel.NotificationDate
+- uid: Vasont.Inspire.Models.Components.ExternalAssetModel.NotificationDate*
+  name: NotificationDate
+  href: ref/Vasont.Inspire.Models.Components.ExternalAssetModel.html#Vasont_Inspire_Models_Components_ExternalAssetModel_NotificationDate_
+  commentId: Overload:Vasont.Inspire.Models.Components.ExternalAssetModel.NotificationDate
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ExternalAssetModel.NotificationDate
+  nameWithType: ExternalAssetModel.NotificationDate
 - uid: Vasont.Inspire.Models.Components.ExternalAssetModel.SourceComponent
   name: SourceComponent
   href: ref/Vasont.Inspire.Models.Components.ExternalAssetModel.html#Vasont_Inspire_Models_Components_ExternalAssetModel_SourceComponent
@@ -24670,6 +24683,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.SourceComponentIds
   nameWithType: TranslationJobModel.SourceComponentIds
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.WorkflowId
+  name: WorkflowId
+  href: ref/Vasont.Inspire.Models.Translations.TranslationJobModel.html#Vasont_Inspire_Models_Translations_TranslationJobModel_WorkflowId
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationJobModel.WorkflowId
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.WorkflowId
+  nameWithType: TranslationJobModel.WorkflowId
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.WorkflowId*
+  name: WorkflowId
+  href: ref/Vasont.Inspire.Models.Translations.TranslationJobModel.html#Vasont_Inspire_Models_Translations_TranslationJobModel_WorkflowId_
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationJobModel.WorkflowId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.WorkflowId
+  nameWithType: TranslationJobModel.WorkflowId
 - uid: Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel
   name: TranslationJobPropertiesModel
   href: ref/Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel.html
@@ -24822,6 +24848,18 @@ references:
   commentId: F:Vasont.Inspire.Models.Translations.TranslationJobState.FailedSending
   fullName: Vasont.Inspire.Models.Translations.TranslationJobState.FailedSending
   nameWithType: TranslationJobState.FailedSending
+- uid: Vasont.Inspire.Models.Translations.TranslationJobState.InProgress
+  name: InProgress
+  href: ref/Vasont.Inspire.Models.Translations.TranslationJobState.html#Vasont_Inspire_Models_Translations_TranslationJobState_InProgress
+  commentId: F:Vasont.Inspire.Models.Translations.TranslationJobState.InProgress
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobState.InProgress
+  nameWithType: TranslationJobState.InProgress
+- uid: Vasont.Inspire.Models.Translations.TranslationJobState.PartiallyCompleted
+  name: PartiallyCompleted
+  href: ref/Vasont.Inspire.Models.Translations.TranslationJobState.html#Vasont_Inspire_Models_Translations_TranslationJobState_PartiallyCompleted
+  commentId: F:Vasont.Inspire.Models.Translations.TranslationJobState.PartiallyCompleted
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobState.PartiallyCompleted
+  nameWithType: TranslationJobState.PartiallyCompleted
 - uid: Vasont.Inspire.Models.Translations.TranslationJobState.Translating
   name: Translating
   href: ref/Vasont.Inspire.Models.Translations.TranslationJobState.html#Vasont_Inspire_Models_Translations_TranslationJobState_Translating
@@ -25298,6 +25336,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Translations.TranslationVendorModel.SupportCancellation
   nameWithType: TranslationVendorModel.SupportCancellation
+- uid: Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegration
+  name: TranslationIntegration
+  href: ref/Vasont.Inspire.Models.Translations.TranslationVendorModel.html#Vasont_Inspire_Models_Translations_TranslationVendorModel_TranslationIntegration
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegration
+  fullName: Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegration
+  nameWithType: TranslationVendorModel.TranslationIntegration
+- uid: Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegration*
+  name: TranslationIntegration
+  href: ref/Vasont.Inspire.Models.Translations.TranslationVendorModel.html#Vasont_Inspire_Models_Translations_TranslationVendorModel_TranslationIntegration_
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegration
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegration
+  nameWithType: TranslationVendorModel.TranslationIntegration
 - uid: Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegrationId
   name: TranslationIntegrationId
   href: ref/Vasont.Inspire.Models.Translations.TranslationVendorModel.html#Vasont_Inspire_Models_Translations_TranslationVendorModel_TranslationIntegrationId
@@ -28779,3 +28830,54 @@ references:
   commentId: F:Vasont.Inspire.Models.Workflow.WorkflowType.Review
   fullName: Vasont.Inspire.Models.Workflow.WorkflowType.Review
   nameWithType: WorkflowType.Review
+- uid: Vasont.Inspire.Translation.Models
+  name: Vasont.Inspire.Translation.Models
+  href: ref/Vasont.Inspire.Translation.Models.html
+  commentId: N:Vasont.Inspire.Translation.Models
+  fullName: Vasont.Inspire.Translation.Models
+  nameWithType: Vasont.Inspire.Translation.Models
+- uid: Vasont.Inspire.Translation.Models.WorkflowDefinitionModel
+  name: WorkflowDefinitionModel
+  href: ref/Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.html
+  commentId: T:Vasont.Inspire.Translation.Models.WorkflowDefinitionModel
+  fullName: Vasont.Inspire.Translation.Models.WorkflowDefinitionModel
+  nameWithType: WorkflowDefinitionModel
+- uid: Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.Description
+  name: Description
+  href: ref/Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.html#Vasont_Inspire_Translation_Models_WorkflowDefinitionModel_Description
+  commentId: P:Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.Description
+  fullName: Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.Description
+  nameWithType: WorkflowDefinitionModel.Description
+- uid: Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.Description*
+  name: Description
+  href: ref/Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.html#Vasont_Inspire_Translation_Models_WorkflowDefinitionModel_Description_
+  commentId: Overload:Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.Description
+  isSpec: "True"
+  fullName: Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.Description
+  nameWithType: WorkflowDefinitionModel.Description
+- uid: Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.Id
+  name: Id
+  href: ref/Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.html#Vasont_Inspire_Translation_Models_WorkflowDefinitionModel_Id
+  commentId: P:Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.Id
+  fullName: Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.Id
+  nameWithType: WorkflowDefinitionModel.Id
+- uid: Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.Id*
+  name: Id
+  href: ref/Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.html#Vasont_Inspire_Translation_Models_WorkflowDefinitionModel_Id_
+  commentId: Overload:Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.Id
+  isSpec: "True"
+  fullName: Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.Id
+  nameWithType: WorkflowDefinitionModel.Id
+- uid: Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.Name
+  name: Name
+  href: ref/Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.html#Vasont_Inspire_Translation_Models_WorkflowDefinitionModel_Name
+  commentId: P:Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.Name
+  fullName: Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.Name
+  nameWithType: WorkflowDefinitionModel.Name
+- uid: Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.Name*
+  name: Name
+  href: ref/Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.html#Vasont_Inspire_Translation_Models_WorkflowDefinitionModel_Name_
+  commentId: Overload:Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.Name
+  isSpec: "True"
+  fullName: Vasont.Inspire.Translation.Models.WorkflowDefinitionModel.Name
+  nameWithType: WorkflowDefinitionModel.Name

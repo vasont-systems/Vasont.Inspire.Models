@@ -56,5 +56,10 @@ namespace Vasont.Inspire.Models.Translations
         /// Gets or sets a value indicating with the export config id.
         /// </summary>
         public long ExportId { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating with project directory workflow id.
+        /// </summary>
+        public long WorkflowId { get; set; }
     }
 }

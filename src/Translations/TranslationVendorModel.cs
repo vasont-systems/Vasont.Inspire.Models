@@ -59,5 +59,10 @@ namespace Vasont.Inspire.Models.Translations
         /// Gets or sets the translation integration name, if available.
         /// </summary>
         public string TranslationIntegrationName { get; set; }
+
+        /// <summary>
+        /// Gets or sets the optional translation integration.
+        /// </summary>
+        public TranslationIntegrationModel TranslationIntegration { get; set; }
     }
 }
