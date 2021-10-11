@@ -798,3 +798,8 @@
     name: WorkflowTransitionModel
   - uid: Vasont.Inspire.Models.Workflow.WorkflowType
     name: WorkflowType
+- uid: Vasont.Inspire.Translation.Models
+  name: Vasont.Inspire.Translation.Models
+  items:
+  - uid: Vasont.Inspire.Translation.Models.WorkflowDefinitionModel
+    name: WorkflowDefinitionModel

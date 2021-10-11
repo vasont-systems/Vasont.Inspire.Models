@@ -24,44 +24,47 @@ namespace Vasont.Inspire.Models.Translations
         /// <summary>
         /// The translation job is translating.
         /// </summary>
-        [LocalizedDescription(ResourceKeys.LabelTranslatingText)]
         Translating,
 
         /// <summary>
         /// The translation job has been completed.
         /// </summary>
-        [LocalizedDescription(ResourceKeys.LabelCompletedText)]
         Completed,
 
         /// <summary>
         /// The translation job has been cancelled.
         /// </summary>
-        [LocalizedDescription(ResourceKeys.LabelCancelledText)]
         Cancelled,
 
         /// <summary>
         /// The translation job is exporting
         /// </summary>
-        [LocalizedDescription(ResourceKeys.LabelExportingText)]
         Exporting,
 
         /// <summary>
         /// The translation job at vendor
         /// </summary>
-        [LocalizedDescription(ResourceKeys.LabelAtVendorText)]
         AtVendor,
 
         /// <summary>
         /// The translation job failed sending
         /// </summary>
-        [LocalizedDescription(ResourceKeys.LabelFailedSendingText)]
         FailedSending,
 
         /// <summary>
         /// The translation job failed retrieving
         /// </summary>
-        [LocalizedDescription(ResourceKeys.LabelFailedRetrievingText)]
-        FailedRetrieving
+        FailedRetrieving,
+
+        /// <summary>
+        /// The translation job is in progress
+        /// </summary>
+        InProgress,
+
+        /// <summary>
+        /// The translation job is partially completed
+        /// </summary>
+        PartiallyCompleted
     }
 
     /// <summary>
