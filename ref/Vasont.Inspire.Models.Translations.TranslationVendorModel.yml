@@ -11,6 +11,7 @@ items:
   - Vasont.Inspire.Models.Translations.TranslationVendorModel.Name
   - Vasont.Inspire.Models.Translations.TranslationVendorModel.ProjectCode
   - Vasont.Inspire.Models.Translations.TranslationVendorModel.SupportCancellation
+  - Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegration
   - Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegrationId
   - Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegrationName
   - Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationVendorId
@@ -29,7 +30,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationVendorModel
     path: Translations/TranslationVendorModel.cs
-    startLine: 12
+    startLine: 13
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -72,7 +73,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationVendorId
     path: Translations/TranslationVendorModel.cs
-    startLine: 17
+    startLine: 18
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -109,7 +110,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Translations/TranslationVendorModel.cs
-    startLine: 22
+    startLine: 23
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -146,7 +147,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Translations/TranslationVendorModel.cs
-    startLine: 27
+    startLine: 28
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -183,7 +184,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Active
     path: Translations/TranslationVendorModel.cs
-    startLine: 32
+    startLine: 33
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -220,7 +221,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ApiIntegration
     path: Translations/TranslationVendorModel.cs
-    startLine: 37
+    startLine: 38
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -257,7 +258,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SupportCancellation
     path: Translations/TranslationVendorModel.cs
-    startLine: 42
+    startLine: 43
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -294,7 +295,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: VendorAttributes
     path: Translations/TranslationVendorModel.cs
-    startLine: 47
+    startLine: 48
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -331,7 +332,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectCode
     path: Translations/TranslationVendorModel.cs
-    startLine: 50
+    startLine: 51
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -368,7 +369,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationIntegrationId
     path: Translations/TranslationVendorModel.cs
-    startLine: 55
+    startLine: 56
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -405,7 +406,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationIntegrationName
     path: Translations/TranslationVendorModel.cs
-    startLine: 60
+    startLine: 61
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -418,6 +419,43 @@ items:
       type: System.String
     content.vb: Public Property TranslationIntegrationName As String
   overload: Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegrationName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegration
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegration
+  id: TranslationIntegration
+  parent: Vasont.Inspire.Models.Translations.TranslationVendorModel
+  langs:
+  - csharp
+  - vb
+  name: TranslationIntegration
+  nameWithType: TranslationVendorModel.TranslationIntegration
+  fullName: Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegration
+  type: Property
+  source:
+    remote:
+      path: src/Translations/TranslationVendorModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TranslationIntegration
+    path: Translations/TranslationVendorModel.cs
+    startLine: 66
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the optional translation integration.\n"
+  example: []
+  syntax:
+    content: public TranslationIntegrationModel TranslationIntegration { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Translations.TranslationIntegrationModel
+    content.vb: Public Property TranslationIntegration As TranslationIntegrationModel
+  overload: Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegration*
   modifiers.csharp:
   - public
   - get
@@ -963,3 +1001,14 @@ references:
   name: TranslationIntegrationName
   nameWithType: TranslationVendorModel.TranslationIntegrationName
   fullName: Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegrationName
+- uid: Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegration*
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegration
+  name: TranslationIntegration
+  nameWithType: TranslationVendorModel.TranslationIntegration
+  fullName: Vasont.Inspire.Models.Translations.TranslationVendorModel.TranslationIntegration
+- uid: Vasont.Inspire.Models.Translations.TranslationIntegrationModel
+  commentId: T:Vasont.Inspire.Models.Translations.TranslationIntegrationModel
+  parent: Vasont.Inspire.Models.Translations
+  name: TranslationIntegrationModel
+  nameWithType: TranslationIntegrationModel
+  fullName: Vasont.Inspire.Models.Translations.TranslationIntegrationModel

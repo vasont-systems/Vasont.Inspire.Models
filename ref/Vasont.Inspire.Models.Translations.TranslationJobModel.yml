@@ -14,6 +14,7 @@ items:
   - Vasont.Inspire.Models.Translations.TranslationJobModel.IncludeBinary
   - Vasont.Inspire.Models.Translations.TranslationJobModel.IncludeRelationships
   - Vasont.Inspire.Models.Translations.TranslationJobModel.SourceComponentIds
+  - Vasont.Inspire.Models.Translations.TranslationJobModel.WorkflowId
   langs:
   - csharp
   - vb
@@ -414,6 +415,43 @@ items:
       type: System.Int64
     content.vb: Public Property ExportId As Long
   overload: Vasont.Inspire.Models.Translations.TranslationJobModel.ExportId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.WorkflowId
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationJobModel.WorkflowId
+  id: WorkflowId
+  parent: Vasont.Inspire.Models.Translations.TranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: WorkflowId
+  nameWithType: TranslationJobModel.WorkflowId
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.WorkflowId
+  type: Property
+  source:
+    remote:
+      path: src/Translations/TranslationJobModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: WorkflowId
+    path: Translations/TranslationJobModel.cs
+    startLine: 62
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets a value indicating with project directory workflow id.\n"
+  example: []
+  syntax:
+    content: public long WorkflowId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property WorkflowId As Long
+  overload: Vasont.Inspire.Models.Translations.TranslationJobModel.WorkflowId*
   modifiers.csharp:
   - public
   - get
@@ -1151,3 +1189,8 @@ references:
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.WorkflowId*
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationJobModel.WorkflowId
+  name: WorkflowId
+  nameWithType: TranslationJobModel.WorkflowId
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.WorkflowId
