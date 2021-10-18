@@ -67,5 +67,11 @@ namespace Vasont.Inspire.Models.Components
         /// </summary>
         /// <value>The target metadata.</value>
         public DateTime NotificationDate { get; set; }
+
+        /// <summary>
+        ///  Gets or sets a value indicating whether the external asset exists.
+        /// </summary>
+        /// <value>The target state.</value>
+        public bool IsValid { get; set; } = false;
     }
 }
