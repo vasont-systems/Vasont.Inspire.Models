@@ -21,5 +21,15 @@ namespace Vasont.Inspire.Models.Transfers
         /// Gets or sets a list of one or more values to filter.
         /// </summary>
         public List<string> Values { get; set; } = new List<string>();
+
+        /// <summary>
+        /// Gets or sets the display attribute name to find within the content.
+        /// </summary>
+        public string DisplayName { get; set; }
+
+        /// <summary>
+        /// Gets or sets a list of one or more display values to filter.
+        /// </summary>
+        public List<string> DisplayValues { get; set; } = new List<string>();
     }
 }
