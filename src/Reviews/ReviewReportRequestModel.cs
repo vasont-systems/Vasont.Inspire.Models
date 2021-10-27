@@ -34,14 +34,9 @@ namespace Vasont.Inspire.Models.Components
         public List<long> ReviewIds { get; set; } = new List<long>();
 
         /// <summary>
-        /// Gets or sets a list of review identities to create a report for.
+        /// Gets or sets optional additional recipent emails.
         /// </summary>
-        public List<MinimalUserModel> Recipients { get; set; } = new List<MinimalUserModel>();
-
-        /// <summary>
-        /// Gets or sets a list of additional emails separated with semi-colon.
-        /// </summary>
-        public string AdditionalEmails { get; set; }
+        public string AdditionalRecipientEmails { get; set; }
 
         /// <summary>
         /// Gets or sets a value indicating whether reviewer details should be included in report.
@@ -56,7 +51,7 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets a value with an additional comment for the report.
         /// </summary>
-        public string AdditionalComment { get; set; }
+        public string ReportComment { get; set; }
 
         /// <summary>
         /// Gets or sets a list of review participants that review should be filtered for.
