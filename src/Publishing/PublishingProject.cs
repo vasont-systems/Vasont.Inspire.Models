@@ -41,9 +41,9 @@ namespace Vasont.Inspire.Models.Publishing
         public string Filter { get; set; }
 
         /// <summary>
-        /// Gets or sets the export configuration for the project.
+        /// Gets or sets a value indicating with the export config id.
         /// </summary>
-        public string ExportConfig { get; set; }
+        public long ExportId { get; set; }
 
         /// <summary>
         /// Gets or sets the date time when the project was created.
