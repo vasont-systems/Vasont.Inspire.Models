@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ComponentElementModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentConfigurationElementType
     path: Components/Schema/ComponentElementModel.cs
@@ -67,7 +67,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ComponentElementModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Root
     path: Components/Schema/ComponentElementModel.cs
@@ -101,7 +101,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ComponentElementModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Element
     path: Components/Schema/ComponentElementModel.cs
@@ -135,7 +135,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ComponentElementModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Target
     path: Components/Schema/ComponentElementModel.cs
@@ -169,7 +169,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ComponentElementModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetGroup
     path: Components/Schema/ComponentElementModel.cs
@@ -203,7 +203,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ComponentElementModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Meta
     path: Components/Schema/ComponentElementModel.cs
@@ -237,7 +237,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ComponentElementModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MetaGroup
     path: Components/Schema/ComponentElementModel.cs
@@ -271,7 +271,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ComponentElementModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: KeyTarget
     path: Components/Schema/ComponentElementModel.cs

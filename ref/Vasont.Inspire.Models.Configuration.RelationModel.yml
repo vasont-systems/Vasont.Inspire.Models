@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RelationModel
     path: Configuration/RelationModel.cs
@@ -65,7 +65,7 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RelationId
     path: Configuration/RelationModel.cs
@@ -102,7 +102,7 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Configuration/RelationModel.cs
@@ -139,7 +139,7 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Configuration/RelationModel.cs
@@ -176,7 +176,7 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: XmlLinkType
     path: Configuration/RelationModel.cs
@@ -213,7 +213,7 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Active
     path: Configuration/RelationModel.cs
@@ -250,7 +250,7 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SystemRelation
     path: Configuration/RelationModel.cs
@@ -287,7 +287,7 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: KeyName
     path: Configuration/RelationModel.cs

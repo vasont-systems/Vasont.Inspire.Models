@@ -5537,6 +5537,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.ExternalAssetModel.ExternalAssetId
   nameWithType: ExternalAssetModel.ExternalAssetId
+- uid: Vasont.Inspire.Models.Components.ExternalAssetModel.IsValid
+  name: IsValid
+  href: ref/Vasont.Inspire.Models.Components.ExternalAssetModel.html#Vasont_Inspire_Models_Components_ExternalAssetModel_IsValid
+  commentId: P:Vasont.Inspire.Models.Components.ExternalAssetModel.IsValid
+  fullName: Vasont.Inspire.Models.Components.ExternalAssetModel.IsValid
+  nameWithType: ExternalAssetModel.IsValid
+- uid: Vasont.Inspire.Models.Components.ExternalAssetModel.IsValid*
+  name: IsValid
+  href: ref/Vasont.Inspire.Models.Components.ExternalAssetModel.html#Vasont_Inspire_Models_Components_ExternalAssetModel_IsValid_
+  commentId: Overload:Vasont.Inspire.Models.Components.ExternalAssetModel.IsValid
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ExternalAssetModel.IsValid
+  nameWithType: ExternalAssetModel.IsValid
 - uid: Vasont.Inspire.Models.Components.ExternalAssetModel.Metadata
   name: Metadata
   href: ref/Vasont.Inspire.Models.Components.ExternalAssetModel.html#Vasont_Inspire_Models_Components_ExternalAssetModel_Metadata
@@ -8000,32 +8013,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.ReviewReportRequestModel.ReviewReportRequestModel
   nameWithType: ReviewReportRequestModel.ReviewReportRequestModel
-- uid: Vasont.Inspire.Models.Components.ReviewReportRequestModel.AdditionalComment
-  name: AdditionalComment
-  href: ref/Vasont.Inspire.Models.Components.ReviewReportRequestModel.html#Vasont_Inspire_Models_Components_ReviewReportRequestModel_AdditionalComment
-  commentId: P:Vasont.Inspire.Models.Components.ReviewReportRequestModel.AdditionalComment
-  fullName: Vasont.Inspire.Models.Components.ReviewReportRequestModel.AdditionalComment
-  nameWithType: ReviewReportRequestModel.AdditionalComment
-- uid: Vasont.Inspire.Models.Components.ReviewReportRequestModel.AdditionalComment*
-  name: AdditionalComment
-  href: ref/Vasont.Inspire.Models.Components.ReviewReportRequestModel.html#Vasont_Inspire_Models_Components_ReviewReportRequestModel_AdditionalComment_
-  commentId: Overload:Vasont.Inspire.Models.Components.ReviewReportRequestModel.AdditionalComment
+- uid: Vasont.Inspire.Models.Components.ReviewReportRequestModel.AdditionalRecipientEmails
+  name: AdditionalRecipientEmails
+  href: ref/Vasont.Inspire.Models.Components.ReviewReportRequestModel.html#Vasont_Inspire_Models_Components_ReviewReportRequestModel_AdditionalRecipientEmails
+  commentId: P:Vasont.Inspire.Models.Components.ReviewReportRequestModel.AdditionalRecipientEmails
+  fullName: Vasont.Inspire.Models.Components.ReviewReportRequestModel.AdditionalRecipientEmails
+  nameWithType: ReviewReportRequestModel.AdditionalRecipientEmails
+- uid: Vasont.Inspire.Models.Components.ReviewReportRequestModel.AdditionalRecipientEmails*
+  name: AdditionalRecipientEmails
+  href: ref/Vasont.Inspire.Models.Components.ReviewReportRequestModel.html#Vasont_Inspire_Models_Components_ReviewReportRequestModel_AdditionalRecipientEmails_
+  commentId: Overload:Vasont.Inspire.Models.Components.ReviewReportRequestModel.AdditionalRecipientEmails
   isSpec: "True"
-  fullName: Vasont.Inspire.Models.Components.ReviewReportRequestModel.AdditionalComment
-  nameWithType: ReviewReportRequestModel.AdditionalComment
-- uid: Vasont.Inspire.Models.Components.ReviewReportRequestModel.AdditionalEmails
-  name: AdditionalEmails
-  href: ref/Vasont.Inspire.Models.Components.ReviewReportRequestModel.html#Vasont_Inspire_Models_Components_ReviewReportRequestModel_AdditionalEmails
-  commentId: P:Vasont.Inspire.Models.Components.ReviewReportRequestModel.AdditionalEmails
-  fullName: Vasont.Inspire.Models.Components.ReviewReportRequestModel.AdditionalEmails
-  nameWithType: ReviewReportRequestModel.AdditionalEmails
-- uid: Vasont.Inspire.Models.Components.ReviewReportRequestModel.AdditionalEmails*
-  name: AdditionalEmails
-  href: ref/Vasont.Inspire.Models.Components.ReviewReportRequestModel.html#Vasont_Inspire_Models_Components_ReviewReportRequestModel_AdditionalEmails_
-  commentId: Overload:Vasont.Inspire.Models.Components.ReviewReportRequestModel.AdditionalEmails
-  isSpec: "True"
-  fullName: Vasont.Inspire.Models.Components.ReviewReportRequestModel.AdditionalEmails
-  nameWithType: ReviewReportRequestModel.AdditionalEmails
+  fullName: Vasont.Inspire.Models.Components.ReviewReportRequestModel.AdditionalRecipientEmails
+  nameWithType: ReviewReportRequestModel.AdditionalRecipientEmails
 - uid: Vasont.Inspire.Models.Components.ReviewReportRequestModel.FilterUsers
   name: FilterUsers
   href: ref/Vasont.Inspire.Models.Components.ReviewReportRequestModel.html#Vasont_Inspire_Models_Components_ReviewReportRequestModel_FilterUsers
@@ -8078,19 +8078,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.ReviewReportRequestModel.ProcessId
   nameWithType: ReviewReportRequestModel.ProcessId
-- uid: Vasont.Inspire.Models.Components.ReviewReportRequestModel.Recipients
-  name: Recipients
-  href: ref/Vasont.Inspire.Models.Components.ReviewReportRequestModel.html#Vasont_Inspire_Models_Components_ReviewReportRequestModel_Recipients
-  commentId: P:Vasont.Inspire.Models.Components.ReviewReportRequestModel.Recipients
-  fullName: Vasont.Inspire.Models.Components.ReviewReportRequestModel.Recipients
-  nameWithType: ReviewReportRequestModel.Recipients
-- uid: Vasont.Inspire.Models.Components.ReviewReportRequestModel.Recipients*
-  name: Recipients
-  href: ref/Vasont.Inspire.Models.Components.ReviewReportRequestModel.html#Vasont_Inspire_Models_Components_ReviewReportRequestModel_Recipients_
-  commentId: Overload:Vasont.Inspire.Models.Components.ReviewReportRequestModel.Recipients
+- uid: Vasont.Inspire.Models.Components.ReviewReportRequestModel.ReportComment
+  name: ReportComment
+  href: ref/Vasont.Inspire.Models.Components.ReviewReportRequestModel.html#Vasont_Inspire_Models_Components_ReviewReportRequestModel_ReportComment
+  commentId: P:Vasont.Inspire.Models.Components.ReviewReportRequestModel.ReportComment
+  fullName: Vasont.Inspire.Models.Components.ReviewReportRequestModel.ReportComment
+  nameWithType: ReviewReportRequestModel.ReportComment
+- uid: Vasont.Inspire.Models.Components.ReviewReportRequestModel.ReportComment*
+  name: ReportComment
+  href: ref/Vasont.Inspire.Models.Components.ReviewReportRequestModel.html#Vasont_Inspire_Models_Components_ReviewReportRequestModel_ReportComment_
+  commentId: Overload:Vasont.Inspire.Models.Components.ReviewReportRequestModel.ReportComment
   isSpec: "True"
-  fullName: Vasont.Inspire.Models.Components.ReviewReportRequestModel.Recipients
-  nameWithType: ReviewReportRequestModel.Recipients
+  fullName: Vasont.Inspire.Models.Components.ReviewReportRequestModel.ReportComment
+  nameWithType: ReviewReportRequestModel.ReportComment
 - uid: Vasont.Inspire.Models.Components.ReviewReportRequestModel.ReviewIds
   name: ReviewIds
   href: ref/Vasont.Inspire.Models.Components.ReviewReportRequestModel.html#Vasont_Inspire_Models_Components_ReviewReportRequestModel_ReviewIds
@@ -8130,38 +8130,6 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.ReviewReportRequestModel.WorkerCacheLifeTimeoutMinutes
   nameWithType: ReviewReportRequestModel.WorkerCacheLifeTimeoutMinutes
-- uid: Vasont.Inspire.Models.Components.ReviewReportStateModel
-  name: ReviewReportStateModel
-  href: ref/Vasont.Inspire.Models.Components.ReviewReportStateModel.html
-  commentId: T:Vasont.Inspire.Models.Components.ReviewReportStateModel
-  fullName: Vasont.Inspire.Models.Components.ReviewReportStateModel
-  nameWithType: ReviewReportStateModel
-- uid: Vasont.Inspire.Models.Components.ReviewReportStateModel.ProcessId
-  name: ProcessId
-  href: ref/Vasont.Inspire.Models.Components.ReviewReportStateModel.html#Vasont_Inspire_Models_Components_ReviewReportStateModel_ProcessId
-  commentId: P:Vasont.Inspire.Models.Components.ReviewReportStateModel.ProcessId
-  fullName: Vasont.Inspire.Models.Components.ReviewReportStateModel.ProcessId
-  nameWithType: ReviewReportStateModel.ProcessId
-- uid: Vasont.Inspire.Models.Components.ReviewReportStateModel.ProcessId*
-  name: ProcessId
-  href: ref/Vasont.Inspire.Models.Components.ReviewReportStateModel.html#Vasont_Inspire_Models_Components_ReviewReportStateModel_ProcessId_
-  commentId: Overload:Vasont.Inspire.Models.Components.ReviewReportStateModel.ProcessId
-  isSpec: "True"
-  fullName: Vasont.Inspire.Models.Components.ReviewReportStateModel.ProcessId
-  nameWithType: ReviewReportStateModel.ProcessId
-- uid: Vasont.Inspire.Models.Components.ReviewReportStateModel.ReviewIds
-  name: ReviewIds
-  href: ref/Vasont.Inspire.Models.Components.ReviewReportStateModel.html#Vasont_Inspire_Models_Components_ReviewReportStateModel_ReviewIds
-  commentId: P:Vasont.Inspire.Models.Components.ReviewReportStateModel.ReviewIds
-  fullName: Vasont.Inspire.Models.Components.ReviewReportStateModel.ReviewIds
-  nameWithType: ReviewReportStateModel.ReviewIds
-- uid: Vasont.Inspire.Models.Components.ReviewReportStateModel.ReviewIds*
-  name: ReviewIds
-  href: ref/Vasont.Inspire.Models.Components.ReviewReportStateModel.html#Vasont_Inspire_Models_Components_ReviewReportStateModel_ReviewIds_
-  commentId: Overload:Vasont.Inspire.Models.Components.ReviewReportStateModel.ReviewIds
-  isSpec: "True"
-  fullName: Vasont.Inspire.Models.Components.ReviewReportStateModel.ReviewIds
-  nameWithType: ReviewReportStateModel.ReviewIds
 - uid: Vasont.Inspire.Models.Components.SaveAsBranchModel
   name: SaveAsBranchModel
   href: ref/Vasont.Inspire.Models.Components.SaveAsBranchModel.html
@@ -21748,6 +21716,32 @@ references:
   commentId: T:Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel
   fullName: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel
   nameWithType: ExportProfileAttributeFilterModel
+- uid: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayName
+  name: DisplayName
+  href: ref/Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.html#Vasont_Inspire_Models_Transfers_ExportProfileAttributeFilterModel_DisplayName
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayName
+  fullName: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayName
+  nameWithType: ExportProfileAttributeFilterModel.DisplayName
+- uid: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayName*
+  name: DisplayName
+  href: ref/Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.html#Vasont_Inspire_Models_Transfers_ExportProfileAttributeFilterModel_DisplayName_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayName
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayName
+  nameWithType: ExportProfileAttributeFilterModel.DisplayName
+- uid: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayValues
+  name: DisplayValues
+  href: ref/Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.html#Vasont_Inspire_Models_Transfers_ExportProfileAttributeFilterModel_DisplayValues
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayValues
+  fullName: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayValues
+  nameWithType: ExportProfileAttributeFilterModel.DisplayValues
+- uid: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayValues*
+  name: DisplayValues
+  href: ref/Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.html#Vasont_Inspire_Models_Transfers_ExportProfileAttributeFilterModel_DisplayValues_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayValues
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayValues
+  nameWithType: ExportProfileAttributeFilterModel.DisplayValues
 - uid: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.Name
   name: Name
   href: ref/Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.html#Vasont_Inspire_Models_Transfers_ExportProfileAttributeFilterModel_Name
@@ -22333,6 +22327,19 @@ references:
   commentId: T:Vasont.Inspire.Models.Transfers.ImportRequestModel
   fullName: Vasont.Inspire.Models.Transfers.ImportRequestModel
   nameWithType: ImportRequestModel
+- uid: Vasont.Inspire.Models.Transfers.ImportRequestModel.CreateTargetSubfolders
+  name: CreateTargetSubfolders
+  href: ref/Vasont.Inspire.Models.Transfers.ImportRequestModel.html#Vasont_Inspire_Models_Transfers_ImportRequestModel_CreateTargetSubfolders
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportRequestModel.CreateTargetSubfolders
+  fullName: Vasont.Inspire.Models.Transfers.ImportRequestModel.CreateTargetSubfolders
+  nameWithType: ImportRequestModel.CreateTargetSubfolders
+- uid: Vasont.Inspire.Models.Transfers.ImportRequestModel.CreateTargetSubfolders*
+  name: CreateTargetSubfolders
+  href: ref/Vasont.Inspire.Models.Transfers.ImportRequestModel.html#Vasont_Inspire_Models_Transfers_ImportRequestModel_CreateTargetSubfolders_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportRequestModel.CreateTargetSubfolders
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.ImportRequestModel.CreateTargetSubfolders
+  nameWithType: ImportRequestModel.CreateTargetSubfolders
 - uid: Vasont.Inspire.Models.Transfers.ImportRequestModel.Files
   name: Files
   href: ref/Vasont.Inspire.Models.Transfers.ImportRequestModel.html#Vasont_Inspire_Models_Transfers_ImportRequestModel_Files

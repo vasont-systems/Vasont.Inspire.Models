@@ -5,6 +5,8 @@ items:
   id: ExportProfileAttributeFilterModel
   parent: Vasont.Inspire.Models.Transfers
   children:
+  - Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayName
+  - Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayValues
   - Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.Name
   - Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.Values
   langs:
@@ -17,7 +19,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportProfileAttributeFilterModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportProfileAttributeFilterModel
     path: Transfers/ExportProfileAttributeFilterModel.cs
@@ -60,7 +62,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportProfileAttributeFilterModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Transfers/ExportProfileAttributeFilterModel.cs
@@ -97,7 +99,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportProfileAttributeFilterModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Values
     path: Transfers/ExportProfileAttributeFilterModel.cs
@@ -114,6 +116,80 @@ items:
       type: System.Collections.Generic.List{System.String}
     content.vb: Public Property Values As List(Of String)
   overload: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.Values*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayName
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayName
+  id: DisplayName
+  parent: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: ExportProfileAttributeFilterModel.DisplayName
+  fullName: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayName
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ExportProfileAttributeFilterModel.cs
+      branch: feature/analyzefoldersinzipfile
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DisplayName
+    path: Transfers/ExportProfileAttributeFilterModel.cs
+    startLine: 27
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the display attribute name to find within the content.\n"
+  example: []
+  syntax:
+    content: public string DisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DisplayName As String
+  overload: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayValues
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayValues
+  id: DisplayValues
+  parent: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel
+  langs:
+  - csharp
+  - vb
+  name: DisplayValues
+  nameWithType: ExportProfileAttributeFilterModel.DisplayValues
+  fullName: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayValues
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ExportProfileAttributeFilterModel.cs
+      branch: feature/analyzefoldersinzipfile
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DisplayValues
+    path: Transfers/ExportProfileAttributeFilterModel.cs
+    startLine: 32
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets a list of one or more display values to filter.\n"
+  example: []
+  syntax:
+    content: public List<string> DisplayValues { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Property DisplayValues As List(Of String)
+  overload: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayValues*
   modifiers.csharp:
   - public
   - get
@@ -524,3 +600,13 @@ references:
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayName*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayName
+  name: DisplayName
+  nameWithType: ExportProfileAttributeFilterModel.DisplayName
+  fullName: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayName
+- uid: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayValues*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayValues
+  name: DisplayValues
+  nameWithType: ExportProfileAttributeFilterModel.DisplayValues
+  fullName: Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel.DisplayValues
