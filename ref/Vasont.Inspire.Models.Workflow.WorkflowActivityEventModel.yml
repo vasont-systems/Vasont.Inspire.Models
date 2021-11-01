@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowActivityEventModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowActivityEventModel
     path: Workflow/WorkflowActivityEventModel.cs
@@ -63,7 +63,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowActivityEventModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowActivityId
     path: Workflow/WorkflowActivityEventModel.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowActivityEventModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Event
     path: Workflow/WorkflowActivityEventModel.cs
@@ -137,7 +137,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowActivityEventModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Action
     path: Workflow/WorkflowActivityEventModel.cs
@@ -174,7 +174,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowActivityEventModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Parameters
     path: Workflow/WorkflowActivityEventModel.cs
@@ -211,7 +211,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowActivityEventModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EventOrder
     path: Workflow/WorkflowActivityEventModel.cs

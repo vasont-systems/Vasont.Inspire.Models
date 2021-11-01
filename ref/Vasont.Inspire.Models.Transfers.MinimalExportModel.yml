@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalExportModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalExportModel
     path: Transfers/MinimalExportModel.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalExportModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportId
     path: Transfers/MinimalExportModel.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalExportModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Transfers/MinimalExportModel.cs

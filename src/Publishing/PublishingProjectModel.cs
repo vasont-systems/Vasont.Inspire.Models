@@ -5,6 +5,9 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Publishing
 {
+    using System;
+    using Vasont.Inspire.Models.Security;
+
     /// <summary>
     /// This model class represents the project detail for a publishing project.
     /// </summary>

@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectAssignmentStateModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectAssignmentStateType
     path: Projects/ProjectAssignmentStateModel.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectAssignmentStateModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ToDo
     path: Projects/ProjectAssignmentStateModel.cs
@@ -98,7 +98,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectAssignmentStateModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: InProgress
     path: Projects/ProjectAssignmentStateModel.cs
@@ -132,7 +132,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectAssignmentStateModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Completed
     path: Projects/ProjectAssignmentStateModel.cs
@@ -166,7 +166,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectAssignmentStateModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Cancelled
     path: Projects/ProjectAssignmentStateModel.cs

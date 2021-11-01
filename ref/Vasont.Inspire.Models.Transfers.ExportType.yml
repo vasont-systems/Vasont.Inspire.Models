@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportConfigurationModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportType
     path: Transfers/ExportConfigurationModel.cs
@@ -65,7 +65,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportConfigurationModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Standard
     path: Transfers/ExportConfigurationModel.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportConfigurationModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Publish
     path: Transfers/ExportConfigurationModel.cs
@@ -133,7 +133,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportConfigurationModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Translate
     path: Transfers/ExportConfigurationModel.cs
@@ -167,7 +167,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportConfigurationModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Compare
     path: Transfers/ExportConfigurationModel.cs
@@ -201,7 +201,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportConfigurationModel.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Select
     path: Transfers/ExportConfigurationModel.cs

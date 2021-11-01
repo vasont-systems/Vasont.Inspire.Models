@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationModelBase.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NotificationModelBase
     path: Notifications/Types/NotificationModelBase.cs
@@ -66,7 +66,7 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationModelBase.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MetadataModel
     path: Notifications/Types/NotificationModelBase.cs
@@ -113,7 +113,7 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationModelBase.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Metadata
     path: Notifications/Types/NotificationModelBase.cs

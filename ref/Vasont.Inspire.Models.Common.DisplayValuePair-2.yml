@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Common/DisplayValuePair.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DisplayValuePair
     path: Common/DisplayValuePair.cs
@@ -72,7 +72,7 @@ items:
   source:
     remote:
       path: src/Common/DisplayValuePair.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Display
     path: Common/DisplayValuePair.cs
@@ -111,7 +111,7 @@ items:
   source:
     remote:
       path: src/Common/DisplayValuePair.cs
-      branch: develop
+      branch: feature/analyzefoldersinzipfile
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Value
     path: Common/DisplayValuePair.cs
