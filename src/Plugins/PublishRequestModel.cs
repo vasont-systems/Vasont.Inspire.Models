@@ -112,5 +112,10 @@ namespace Vasont.Inspire.Models.Plugins
         /// Gets or sets values containing the publish parameters.
         /// </summary>
         public Dictionary<string, string> PublishParameters { get; set; } = new Dictionary<string, string>();
+
+        /// <summary>
+        /// Gets or sets values containing the publish filters.
+        /// </summary>
+        public Dictionary<string, string> PublishFilters { get; set; } = new Dictionary<string, string>();
     }
 }
