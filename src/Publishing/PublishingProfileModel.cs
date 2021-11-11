@@ -16,7 +16,7 @@ namespace Vasont.Inspire.Models.Publishing
         /// <summary>
         /// Gets or sets the profile identity.
         /// </summary>
-        public long ProjectId { get; set; }
+        public long ProfileId { get; set; }
 
         /// <summary>
         /// Gets or sets the profile name.
@@ -71,7 +71,7 @@ namespace Vasont.Inspire.Models.Publishing
         /// <summary>
         /// Gets or sets the date time when the profile was last published.
         /// </summary>
-        public DateTime LastPublishedDate { get; set; }
+        public DateTime? LastPublishedDate { get; set; }
 
         /// <summary>
         /// Gets or sets the user information about the user who last published the profile.
