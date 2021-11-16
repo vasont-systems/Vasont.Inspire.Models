@@ -6,6 +6,7 @@
 namespace Vasont.Inspire.Models.Publishing
 {
     using System;
+    using Vasont.Inspire.Models.Components;
     using Vasont.Inspire.Models.Security;
 
     /// <summary>
