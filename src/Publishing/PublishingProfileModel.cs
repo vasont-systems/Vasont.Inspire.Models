@@ -34,6 +34,11 @@ namespace Vasont.Inspire.Models.Publishing
         public long ComponentId { get; set; }
 
         /// <summary>
+        /// Gets or sets the component information about the component associated with the publishing profile.
+        /// </summary>
+        public MicroComponentModel Component { get; set; } = new MicroComponentModel();
+
+        /// <summary>
         /// Gets or sets a value indicating whether the profile should be validated.
         /// </summary>
         public bool SkipXmlValidation { get; set; } = false;
@@ -47,6 +52,16 @@ namespace Vasont.Inspire.Models.Publishing
         /// Gets or sets a value indicating with the export config id.
         /// </summary>
         public long ExportId { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the publishing profile is archived.
+        /// </summary>
+        public bool Archived { get; set; }
+
+        /// <summary>
+        /// Gets or sets the publishing profile archival date time.
+        /// </summary>
+        public DateTime? ArchivedDate { get; set; }
 
         /// <summary>
         /// Gets or sets the date time when the profile was created.
