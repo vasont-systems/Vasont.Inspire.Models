@@ -44,5 +44,15 @@ namespace Vasont.Inspire.Models.Common
         /// Gets or sets a value indicating whether the language is a valid translation target.
         /// </summary>
         public bool TranslationTarget { get; set; }
+
+        /// <summary>
+        /// Gets or sets the image override language code.
+        /// </summary>
+        public string TranslationImageLanguageCode { get; set; }
+
+        /// <summary>
+        /// Gets or sets the image override language name.
+        /// </summary>
+        public string TranslationImageLanguageName { get; set; }
     }
 }
