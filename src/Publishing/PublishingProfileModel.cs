@@ -8,6 +8,7 @@ namespace Vasont.Inspire.Models.Publishing
     using System;
     using Vasont.Inspire.Models.Components;
     using Vasont.Inspire.Models.Security;
+    using Vasont.Inspire.Models.Transfers;
 
     /// <summary>
     /// This model class represents the profile detail for a publishing profile.
@@ -53,6 +54,11 @@ namespace Vasont.Inspire.Models.Publishing
         /// Gets or sets a value indicating with the export config id.
         /// </summary>
         public long ExportId { get; set; }
+
+        /// <summary>
+        /// Gets or sets the export configuration associated with the publishing profile.
+        /// </summary>
+        public MinimalExportModel ExportConfig { get; set; } = new MinimalExportModel();
 
         /// <summary>
         /// Gets or sets a value indicating whether the publishing profile is archived.
