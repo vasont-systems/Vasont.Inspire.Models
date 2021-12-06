@@ -34,7 +34,17 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Contains a value that indicates the component has invalid relationships.
         /// </summary>
-        Invalid
+        Invalid,
+
+        /// <summary>
+        /// Contains a value that indicates the component is out for translation.
+        /// </summary>
+        Translating,
+
+        /// <summary>
+        /// Contains a value that indicates the component is electronically signed.
+        /// </summary>
+        Signed
     }
 
     /// <summary>
