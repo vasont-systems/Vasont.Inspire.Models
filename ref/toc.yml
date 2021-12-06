@@ -233,6 +233,8 @@
     name: TransformDirectionFormat
   - uid: Vasont.Inspire.Models.Components.TranslationRelationModel
     name: TranslationRelationModel
+  - uid: Vasont.Inspire.Models.Components.TranslationReportRequestModel
+    name: TranslationReportRequestModel
   - uid: Vasont.Inspire.Models.Components.UnlockResultModel
     name: UnlockResultModel
   - uid: Vasont.Inspire.Models.Components.UserRolePermissionModel
@@ -445,6 +447,11 @@
     name: ProjectWorkflowSubmittalModel
   - uid: Vasont.Inspire.Models.Projects.RecentProjectModel
     name: RecentProjectModel
+- uid: Vasont.Inspire.Models.Publishing
+  name: Vasont.Inspire.Models.Publishing
+  items:
+  - uid: Vasont.Inspire.Models.Publishing.PublishingProfileModel
+    name: PublishingProfileModel
 - uid: Vasont.Inspire.Models.ReviewComponents
   name: Vasont.Inspire.Models.ReviewComponents
   items:
@@ -639,6 +646,8 @@
     name: TranslationBrowseQueryModel
   - uid: Vasont.Inspire.Models.Translations.TranslationBrowseResultModel
     name: TranslationBrowseResultModel
+  - uid: Vasont.Inspire.Models.Translations.TranslationDetailModel
+    name: TranslationDetailModel
   - uid: Vasont.Inspire.Models.Translations.TranslationExportJobModel
     name: TranslationExportJobModel
   - uid: Vasont.Inspire.Models.Translations.TranslationExportRequestModel

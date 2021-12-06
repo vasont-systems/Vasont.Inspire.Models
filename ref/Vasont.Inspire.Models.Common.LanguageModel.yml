@@ -11,6 +11,8 @@ items:
   - Vasont.Inspire.Models.Common.LanguageModel.IsLocale
   - Vasont.Inspire.Models.Common.LanguageModel.LanguageCode
   - Vasont.Inspire.Models.Common.LanguageModel.Name
+  - Vasont.Inspire.Models.Common.LanguageModel.TranslationImageLanguageCode
+  - Vasont.Inspire.Models.Common.LanguageModel.TranslationImageLanguageName
   - Vasont.Inspire.Models.Common.LanguageModel.TranslationTarget
   langs:
   - csharp
@@ -22,7 +24,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LanguageModel
     path: Common/LanguageModel.cs
@@ -72,7 +74,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LanguageCode
     path: Common/LanguageModel.cs
@@ -109,7 +111,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Common/LanguageModel.cs
@@ -146,7 +148,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsLocale
     path: Common/LanguageModel.cs
@@ -183,7 +185,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: HasDictionary
     path: Common/LanguageModel.cs
@@ -220,7 +222,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Default
     path: Common/LanguageModel.cs
@@ -257,7 +259,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Active
     path: Common/LanguageModel.cs
@@ -294,7 +296,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationTarget
     path: Common/LanguageModel.cs
@@ -311,6 +313,80 @@ items:
       type: System.Boolean
     content.vb: Public Property TranslationTarget As Boolean
   overload: Vasont.Inspire.Models.Common.LanguageModel.TranslationTarget*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.LanguageModel.TranslationImageLanguageCode
+  commentId: P:Vasont.Inspire.Models.Common.LanguageModel.TranslationImageLanguageCode
+  id: TranslationImageLanguageCode
+  parent: Vasont.Inspire.Models.Common.LanguageModel
+  langs:
+  - csharp
+  - vb
+  name: TranslationImageLanguageCode
+  nameWithType: LanguageModel.TranslationImageLanguageCode
+  fullName: Vasont.Inspire.Models.Common.LanguageModel.TranslationImageLanguageCode
+  type: Property
+  source:
+    remote:
+      path: src/Common/LanguageModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TranslationImageLanguageCode
+    path: Common/LanguageModel.cs
+    startLine: 50
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the image override language code.\n"
+  example: []
+  syntax:
+    content: public string TranslationImageLanguageCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TranslationImageLanguageCode As String
+  overload: Vasont.Inspire.Models.Common.LanguageModel.TranslationImageLanguageCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.LanguageModel.TranslationImageLanguageName
+  commentId: P:Vasont.Inspire.Models.Common.LanguageModel.TranslationImageLanguageName
+  id: TranslationImageLanguageName
+  parent: Vasont.Inspire.Models.Common.LanguageModel
+  langs:
+  - csharp
+  - vb
+  name: TranslationImageLanguageName
+  nameWithType: LanguageModel.TranslationImageLanguageName
+  fullName: Vasont.Inspire.Models.Common.LanguageModel.TranslationImageLanguageName
+  type: Property
+  source:
+    remote:
+      path: src/Common/LanguageModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TranslationImageLanguageName
+    path: Common/LanguageModel.cs
+    startLine: 55
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the image override language name.\n"
+  example: []
+  syntax:
+    content: public string TranslationImageLanguageName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TranslationImageLanguageName As String
+  overload: Vasont.Inspire.Models.Common.LanguageModel.TranslationImageLanguageName*
   modifiers.csharp:
   - public
   - get
@@ -694,3 +770,13 @@ references:
   name: TranslationTarget
   nameWithType: LanguageModel.TranslationTarget
   fullName: Vasont.Inspire.Models.Common.LanguageModel.TranslationTarget
+- uid: Vasont.Inspire.Models.Common.LanguageModel.TranslationImageLanguageCode*
+  commentId: Overload:Vasont.Inspire.Models.Common.LanguageModel.TranslationImageLanguageCode
+  name: TranslationImageLanguageCode
+  nameWithType: LanguageModel.TranslationImageLanguageCode
+  fullName: Vasont.Inspire.Models.Common.LanguageModel.TranslationImageLanguageCode
+- uid: Vasont.Inspire.Models.Common.LanguageModel.TranslationImageLanguageName*
+  commentId: Overload:Vasont.Inspire.Models.Common.LanguageModel.TranslationImageLanguageName
+  name: TranslationImageLanguageName
+  nameWithType: LanguageModel.TranslationImageLanguageName
+  fullName: Vasont.Inspire.Models.Common.LanguageModel.TranslationImageLanguageName

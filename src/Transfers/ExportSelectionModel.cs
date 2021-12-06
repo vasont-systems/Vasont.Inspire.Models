@@ -18,7 +18,7 @@ namespace Vasont.Inspire.Models.Transfers
         public List<MinimalExportModel> ExportModels { get; set; } = new List<MinimalExportModel>();
 
         /// <summary>
-        /// Gets or sets a value indicating whether or not the system has defined Profile Attributes;
+        /// Gets or sets a value indicating whether or not the system has defined Profile Attributes.
         /// </summary>
         public bool HasProfiled { get; set; }
     }

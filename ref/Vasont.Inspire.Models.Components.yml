@@ -100,6 +100,7 @@ items:
   - Vasont.Inspire.Models.Components.TagModel
   - Vasont.Inspire.Models.Components.TransformDirectionFormat
   - Vasont.Inspire.Models.Components.TranslationRelationModel
+  - Vasont.Inspire.Models.Components.TranslationReportRequestModel
   - Vasont.Inspire.Models.Components.UnlockResultModel
   - Vasont.Inspire.Models.Components.UserRolePermissionModel
   - Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel
@@ -655,6 +656,11 @@ references:
   name: ReviewReportRequestModel
   nameWithType: ReviewReportRequestModel
   fullName: Vasont.Inspire.Models.Components.ReviewReportRequestModel
+- uid: Vasont.Inspire.Models.Components.TranslationReportRequestModel
+  commentId: T:Vasont.Inspire.Models.Components.TranslationReportRequestModel
+  name: TranslationReportRequestModel
+  nameWithType: TranslationReportRequestModel
+  fullName: Vasont.Inspire.Models.Components.TranslationReportRequestModel
 - uid: Vasont.Inspire.Models.Components
   commentId: N:Vasont.Inspire.Models.Components
   name: Vasont.Inspire.Models.Components
