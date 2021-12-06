@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: src/Components/MapTargetComponentTypeModel.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MapTargetComponentTypeModel
     path: Components/MapTargetComponentTypeModel.cs

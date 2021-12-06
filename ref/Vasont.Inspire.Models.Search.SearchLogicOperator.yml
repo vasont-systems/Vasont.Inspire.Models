@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Search/SearchLogicOperator.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SearchLogicOperator
     path: Search/SearchLogicOperator.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: src/Search/SearchLogicOperator.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: And
     path: Search/SearchLogicOperator.cs
@@ -109,7 +109,7 @@ items:
   source:
     remote:
       path: src/Search/SearchLogicOperator.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Or
     path: Search/SearchLogicOperator.cs

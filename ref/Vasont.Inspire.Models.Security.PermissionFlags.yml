@@ -23,7 +23,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionFlags.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PermissionFlags
     path: Security/PermissionFlags.cs
@@ -74,7 +74,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionFlags.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: None
     path: Security/PermissionFlags.cs
@@ -108,7 +108,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionFlags.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Read
     path: Security/PermissionFlags.cs
@@ -142,7 +142,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionFlags.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Create
     path: Security/PermissionFlags.cs
@@ -176,7 +176,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionFlags.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Update
     path: Security/PermissionFlags.cs
@@ -210,7 +210,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionFlags.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Delete
     path: Security/PermissionFlags.cs
@@ -244,7 +244,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionFlags.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SetPermissions
     path: Security/PermissionFlags.cs
@@ -278,7 +278,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionFlags.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Rename
     path: Security/PermissionFlags.cs
@@ -312,7 +312,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionFlags.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: All
     path: Security/PermissionFlags.cs

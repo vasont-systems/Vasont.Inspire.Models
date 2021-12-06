@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Versioning/RestoreOptionsModel.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RestoreOptionsModel
     path: Versioning/RestoreOptionsModel.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: src/Versioning/RestoreOptionsModel.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsDeleted
     path: Versioning/RestoreOptionsModel.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: src/Versioning/RestoreOptionsModel.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RestoreAsNew
     path: Versioning/RestoreOptionsModel.cs
@@ -136,7 +136,7 @@ items:
   source:
     remote:
       path: src/Versioning/RestoreOptionsModel.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetFolderId
     path: Versioning/RestoreOptionsModel.cs
@@ -173,7 +173,7 @@ items:
   source:
     remote:
       path: src/Versioning/RestoreOptionsModel.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RestoreAllComponents
     path: Versioning/RestoreOptionsModel.cs
