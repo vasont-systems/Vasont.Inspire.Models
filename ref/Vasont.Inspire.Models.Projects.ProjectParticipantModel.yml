@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectParticipantModel.cs
-      branch: feature/analyzefoldersinzipfile
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectParticipantModel
     path: Projects/ProjectParticipantModel.cs
