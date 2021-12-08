@@ -31,7 +31,7 @@ namespace Vasont.Inspire.Models.Components
         public MapTargetComponentTypeModel ComponentType { get; set; }
 
         /// <summary>
-        /// Gets or sets the component lock model
+        /// Gets or sets the component lock model.
         /// </summary>
         public ComponentLockModel Lock { get; set; }
     }
