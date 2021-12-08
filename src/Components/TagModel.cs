@@ -26,7 +26,7 @@ namespace Vasont.Inspire.Models.Components
         public int ReferenceCount { get; set; }
 
         /// <summary>
-        /// Gets or sets the flag for the tag being a read only system tag.
+        /// Gets or sets a value indicating whether the current tag is a system tag or not.
         /// </summary>
         public bool SystemTag { get; set; }
     }

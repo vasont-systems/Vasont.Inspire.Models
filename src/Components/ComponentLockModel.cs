@@ -13,7 +13,7 @@ namespace Vasont.Inspire.Models.Components
     using Vasont.Inspire.Models.Security;
 
     /// <summary>
-    /// Contains an enumerated list of component lock types
+    /// Contains an enumerated list of component lock types.
     /// </summary>
     [JsonConverter(typeof(StringEnumConverter))]
     public enum ComponentLockType
@@ -105,7 +105,7 @@ namespace Vasont.Inspire.Models.Components
         }
 
         /// <summary>
-        /// Gets or sets a value indicating a system lock
+        /// Gets a value indicating whether the lock is a system lock or not.
         /// </summary>
         public bool SystemLock => this.Type != ComponentLockType.Standard;
     }
