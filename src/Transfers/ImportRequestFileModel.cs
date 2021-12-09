@@ -19,5 +19,10 @@ namespace Vasont.Inspire.Models.Transfers
         /// Gets or sets a value indicating whether the file should be unzipped and each file within the zip file imported separately.
         /// </summary>
         public bool UnzipFile { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the file subfolder structure should be created in the application.
+        /// </summary>
+        public bool CreateTargetSubfolders { get; set; }
     }
 }
