@@ -19,7 +19,7 @@ namespace Vasont.Inspire.Models.Versioning
         public Guid ChangesetId { get; set; }
 
         /// <summary>
-        /// Gets or sets the related changeset number
+        /// Gets or sets the related changeset number.
         /// </summary>
         public long ChangesetNumber { get; set; }
 
@@ -64,7 +64,7 @@ namespace Vasont.Inspire.Models.Versioning
         public bool ContentChanged { get; set; }
 
         /// <summary>
-        /// Gets or sets a value indicating whether the component can be restored.
+        /// Gets a value indicating whether the component can be restored.
         /// </summary>
         public bool CanRestore => this.Action != ChangesetSnapshotActionType.Delete && !this.LatestSnapshot;
 
@@ -72,5 +72,15 @@ namespace Vasont.Inspire.Models.Versioning
         /// Gets or sets a value indicating whether this component is the latest snapshot.
         /// </summary>
         public bool LatestSnapshot { get; set; }
+
+        /// <summary>
+        /// Gets or sets the name of the user who esigned.
+        /// </summary>
+        public string EsignedBy { get; set; }
+
+        /// <summary>
+        /// Gets or sets the date when this record got esigned.
+        /// </summary>
+        public DateTime EsignedDate { get; set; }
     }
 }
