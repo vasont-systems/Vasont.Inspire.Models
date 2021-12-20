@@ -4,7 +4,9 @@ items:
   commentId: N:Vasont.Inspire.Models.Utilities
   id: Vasont.Inspire.Models.Utilities
   children:
+  - Vasont.Inspire.Models.Utilities.ElectronicSignatureModel
   - Vasont.Inspire.Models.Utilities.ExportResultModel
+  - Vasont.Inspire.Models.Utilities.ResourceType
   - Vasont.Inspire.Models.Utilities.SelectUserRoleModel
   - Vasont.Inspire.Models.Utilities.SupportMessageModel
   langs:
@@ -17,6 +19,17 @@ items:
   assemblies:
   - Vasont.Inspire.Models
 references:
+- uid: Vasont.Inspire.Models.Utilities.ResourceType
+  commentId: T:Vasont.Inspire.Models.Utilities.ResourceType
+  parent: Vasont.Inspire.Models.Utilities
+  name: ResourceType
+  nameWithType: ResourceType
+  fullName: Vasont.Inspire.Models.Utilities.ResourceType
+- uid: Vasont.Inspire.Models.Utilities.ElectronicSignatureModel
+  commentId: T:Vasont.Inspire.Models.Utilities.ElectronicSignatureModel
+  name: ElectronicSignatureModel
+  nameWithType: ElectronicSignatureModel
+  fullName: Vasont.Inspire.Models.Utilities.ElectronicSignatureModel
 - uid: Vasont.Inspire.Models.Utilities.ExportResultModel
   commentId: T:Vasont.Inspire.Models.Utilities.ExportResultModel
   name: ExportResultModel
@@ -32,3 +45,8 @@ references:
   name: SupportMessageModel
   nameWithType: SupportMessageModel
   fullName: Vasont.Inspire.Models.Utilities.SupportMessageModel
+- uid: Vasont.Inspire.Models.Utilities
+  commentId: N:Vasont.Inspire.Models.Utilities
+  name: Vasont.Inspire.Models.Utilities
+  nameWithType: Vasont.Inspire.Models.Utilities
+  fullName: Vasont.Inspire.Models.Utilities

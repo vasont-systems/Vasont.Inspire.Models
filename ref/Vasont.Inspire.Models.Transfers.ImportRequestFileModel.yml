@@ -5,6 +5,7 @@ items:
   id: ImportRequestFileModel
   parent: Vasont.Inspire.Models.Transfers
   children:
+  - Vasont.Inspire.Models.Transfers.ImportRequestFileModel.CreateTargetSubfolders
   - Vasont.Inspire.Models.Transfers.ImportRequestFileModel.FileName
   - Vasont.Inspire.Models.Transfers.ImportRequestFileModel.UnzipFile
   langs:
@@ -114,6 +115,43 @@ items:
       type: System.Boolean
     content.vb: Public Property UnzipFile As Boolean
   overload: Vasont.Inspire.Models.Transfers.ImportRequestFileModel.UnzipFile*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ImportRequestFileModel.CreateTargetSubfolders
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportRequestFileModel.CreateTargetSubfolders
+  id: CreateTargetSubfolders
+  parent: Vasont.Inspire.Models.Transfers.ImportRequestFileModel
+  langs:
+  - csharp
+  - vb
+  name: CreateTargetSubfolders
+  nameWithType: ImportRequestFileModel.CreateTargetSubfolders
+  fullName: Vasont.Inspire.Models.Transfers.ImportRequestFileModel.CreateTargetSubfolders
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ImportRequestFileModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CreateTargetSubfolders
+    path: Transfers/ImportRequestFileModel.cs
+    startLine: 25
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets a value indicating whether the file subfolder structure should be created in the application.\n"
+  example: []
+  syntax:
+    content: public bool CreateTargetSubfolders { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CreateTargetSubfolders As Boolean
+  overload: Vasont.Inspire.Models.Transfers.ImportRequestFileModel.CreateTargetSubfolders*
   modifiers.csharp:
   - public
   - get
@@ -442,3 +480,8 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Transfers.ImportRequestFileModel.CreateTargetSubfolders*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportRequestFileModel.CreateTargetSubfolders
+  name: CreateTargetSubfolders
+  nameWithType: ImportRequestFileModel.CreateTargetSubfolders
+  fullName: Vasont.Inspire.Models.Transfers.ImportRequestFileModel.CreateTargetSubfolders

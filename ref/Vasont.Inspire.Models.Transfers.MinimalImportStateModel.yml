@@ -6,8 +6,10 @@ items:
   parent: Vasont.Inspire.Models.Transfers
   children:
   - Vasont.Inspire.Models.Transfers.MinimalImportStateModel.Components
+  - Vasont.Inspire.Models.Transfers.MinimalImportStateModel.Subfolders
   - Vasont.Inspire.Models.Transfers.MinimalImportStateModel.SyncExternalSystemId
   - Vasont.Inspire.Models.Transfers.MinimalImportStateModel.SyncUpdate
+  - Vasont.Inspire.Models.Transfers.MinimalImportStateModel.TargetFolderId
   - Vasont.Inspire.Models.Transfers.MinimalImportStateModel.TargetProjectFolderId
   langs:
   - csharp
@@ -23,7 +25,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalImportStateModel
     path: Transfers/MinimalImportStateModel.cs
-    startLine: 12
+    startLine: 13
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -66,7 +68,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetProjectFolderId
     path: Transfers/MinimalImportStateModel.cs
-    startLine: 17
+    startLine: 18
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -79,6 +81,80 @@ items:
       type: System.Int64
     content.vb: Public Property TargetProjectFolderId As Long
   overload: Vasont.Inspire.Models.Transfers.MinimalImportStateModel.TargetProjectFolderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.MinimalImportStateModel.TargetFolderId
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalImportStateModel.TargetFolderId
+  id: TargetFolderId
+  parent: Vasont.Inspire.Models.Transfers.MinimalImportStateModel
+  langs:
+  - csharp
+  - vb
+  name: TargetFolderId
+  nameWithType: MinimalImportStateModel.TargetFolderId
+  fullName: Vasont.Inspire.Models.Transfers.MinimalImportStateModel.TargetFolderId
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/MinimalImportStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TargetFolderId
+    path: Transfers/MinimalImportStateModel.cs
+    startLine: 23
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the original folder for import.\n"
+  example: []
+  syntax:
+    content: public long TargetFolderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TargetFolderId As Long
+  overload: Vasont.Inspire.Models.Transfers.MinimalImportStateModel.TargetFolderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.MinimalImportStateModel.Subfolders
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalImportStateModel.Subfolders
+  id: Subfolders
+  parent: Vasont.Inspire.Models.Transfers.MinimalImportStateModel
+  langs:
+  - csharp
+  - vb
+  name: Subfolders
+  nameWithType: MinimalImportStateModel.Subfolders
+  fullName: Vasont.Inspire.Models.Transfers.MinimalImportStateModel.Subfolders
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/MinimalImportStateModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Subfolders
+    path: Transfers/MinimalImportStateModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets a list of subfolders that were created.\n"
+  example: []
+  syntax:
+    content: public List<Tuple<string, string, long>> Subfolders { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Tuple{System.String,System.String,System.Int64}}
+    content.vb: Public Property Subfolders As List(Of Tuple(Of String, String, Long))
+  overload: Vasont.Inspire.Models.Transfers.MinimalImportStateModel.Subfolders*
   modifiers.csharp:
   - public
   - get
@@ -103,7 +179,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SyncExternalSystemId
     path: Transfers/MinimalImportStateModel.cs
-    startLine: 22
+    startLine: 33
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -140,7 +216,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SyncUpdate
     path: Transfers/MinimalImportStateModel.cs
-    startLine: 27
+    startLine: 38
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -177,7 +253,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Components
     path: Transfers/MinimalImportStateModel.cs
-    startLine: 32
+    startLine: 43
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -506,6 +582,159 @@ references:
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: Vasont.Inspire.Models.Transfers.MinimalImportStateModel.TargetFolderId*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.MinimalImportStateModel.TargetFolderId
+  name: TargetFolderId
+  nameWithType: MinimalImportStateModel.TargetFolderId
+  fullName: Vasont.Inspire.Models.Transfers.MinimalImportStateModel.TargetFolderId
+- uid: Vasont.Inspire.Models.Transfers.MinimalImportStateModel.Subfolders*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.MinimalImportStateModel.Subfolders
+  name: Subfolders
+  nameWithType: MinimalImportStateModel.Subfolders
+  fullName: Vasont.Inspire.Models.Transfers.MinimalImportStateModel.Subfolders
+- uid: System.Collections.Generic.List{System.Tuple{System.String,System.String,System.Int64}}
+  commentId: T:System.Collections.Generic.List{System.Tuple{System.String,System.String,System.Int64}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Tuple<String, String, Int64>>
+  nameWithType: List<Tuple<String, String, Int64>>
+  fullName: System.Collections.Generic.List<System.Tuple<System.String, System.String, System.Int64>>
+  nameWithType.vb: List(Of Tuple(Of String, String, Int64))
+  fullName.vb: System.Collections.Generic.List(Of System.Tuple(Of System.String, System.String, System.Int64))
+  name.vb: List(Of Tuple(Of String, String, Int64))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Tuple`3
+    name: Tuple
+    nameWithType: Tuple
+    fullName: System.Tuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Tuple`3
+    name: Tuple
+    nameWithType: Tuple
+    fullName: System.Tuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
 - uid: Vasont.Inspire.Models.Transfers.MinimalImportStateModel.SyncExternalSystemId*
   commentId: Overload:Vasont.Inspire.Models.Transfers.MinimalImportStateModel.SyncExternalSystemId
   name: SyncExternalSystemId
@@ -570,48 +799,3 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
-  isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
-  spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic

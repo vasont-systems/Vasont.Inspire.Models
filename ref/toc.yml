@@ -687,8 +687,12 @@
 - uid: Vasont.Inspire.Models.Utilities
   name: Vasont.Inspire.Models.Utilities
   items:
+  - uid: Vasont.Inspire.Models.Utilities.ElectronicSignatureModel
+    name: ElectronicSignatureModel
   - uid: Vasont.Inspire.Models.Utilities.ExportResultModel
     name: ExportResultModel
+  - uid: Vasont.Inspire.Models.Utilities.ResourceType
+    name: ResourceType
   - uid: Vasont.Inspire.Models.Utilities.SelectUserRoleModel
     name: SelectUserRoleModel
   - uid: Vasont.Inspire.Models.Utilities.SupportMessageModel
