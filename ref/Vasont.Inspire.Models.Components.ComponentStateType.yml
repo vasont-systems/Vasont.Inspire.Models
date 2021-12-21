@@ -8,6 +8,8 @@ items:
   - Vasont.Inspire.Models.Components.ComponentStateType.Approved
   - Vasont.Inspire.Models.Components.ComponentStateType.Draft
   - Vasont.Inspire.Models.Components.ComponentStateType.Invalid
+  - Vasont.Inspire.Models.Components.ComponentStateType.Signed
+  - Vasont.Inspire.Models.Components.ComponentStateType.Translating
   langs:
   - csharp
   - vb
@@ -143,6 +145,74 @@ items:
   example: []
   syntax:
     content: Invalid = 2
+    return:
+      type: Vasont.Inspire.Models.Components.ComponentStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.ComponentStateType.Translating
+  commentId: F:Vasont.Inspire.Models.Components.ComponentStateType.Translating
+  id: Translating
+  parent: Vasont.Inspire.Models.Components.ComponentStateType
+  langs:
+  - csharp
+  - vb
+  name: Translating
+  nameWithType: ComponentStateType.Translating
+  fullName: Vasont.Inspire.Models.Components.ComponentStateType.Translating
+  type: Field
+  source:
+    remote:
+      path: src/Components/MinimalComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Translating
+    path: Components/MinimalComponentModel.cs
+    startLine: 41
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nContains a value that indicates the component is out for translation.\n"
+  example: []
+  syntax:
+    content: Translating = 3
+    return:
+      type: Vasont.Inspire.Models.Components.ComponentStateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.ComponentStateType.Signed
+  commentId: F:Vasont.Inspire.Models.Components.ComponentStateType.Signed
+  id: Signed
+  parent: Vasont.Inspire.Models.Components.ComponentStateType
+  langs:
+  - csharp
+  - vb
+  name: Signed
+  nameWithType: ComponentStateType.Signed
+  fullName: Vasont.Inspire.Models.Components.ComponentStateType.Signed
+  type: Field
+  source:
+    remote:
+      path: src/Components/MinimalComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Signed
+    path: Components/MinimalComponentModel.cs
+    startLine: 46
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nContains a value that indicates the component is electronically signed.\n"
+  example: []
+  syntax:
+    content: Signed = 4
     return:
       type: Vasont.Inspire.Models.Components.ComponentStateType
   modifiers.csharp:

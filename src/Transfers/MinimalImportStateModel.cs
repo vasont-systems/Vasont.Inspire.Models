@@ -5,6 +5,7 @@
 //-------------------------------------------------------------
 namespace Vasont.Inspire.Models.Transfers
 {
+    using System;
     using System.Collections.Generic;
 
     /// <summary>
@@ -16,6 +17,16 @@ namespace Vasont.Inspire.Models.Transfers
         /// Gets or sets the target project folder where imported components shall be assigned.
         /// </summary>
         public long TargetProjectFolderId { get; set; }
+
+        /// <summary>
+        /// Gets or sets the original folder for import.
+        /// </summary>
+        public long TargetFolderId { get; set; }
+
+        /// <summary>
+        /// Gets or sets a list of subfolders that were created.
+        /// </summary>
+        public List<Tuple<string, string, long>> Subfolders { get; set; } = new List<Tuple<string, string, long>>();
 
         /// <summary>
         /// Gets or sets the external system used for the sync update.

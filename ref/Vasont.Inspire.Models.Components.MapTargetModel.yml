@@ -219,7 +219,7 @@ items:
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
-  summary: "\nGets or sets the component lock model\n"
+  summary: "\nGets or sets the component lock model.\n"
   example: []
   syntax:
     content: public ComponentLockModel Lock { get; set; }
