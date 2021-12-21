@@ -292,7 +292,7 @@ items:
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
-  summary: "\nGets or sets a value indicating a system lock\n"
+  summary: "\nGets a value indicating whether the lock is a system lock or not.\n"
   example: []
   syntax:
     content: public bool SystemLock { get; }

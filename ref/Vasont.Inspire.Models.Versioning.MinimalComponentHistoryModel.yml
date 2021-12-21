@@ -12,6 +12,8 @@ items:
   - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetNumber
   - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Comment
   - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ContentChanged
+  - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedBy
+  - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedDate
   - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.FolderPath
   - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Label
   - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.LatestSnapshot
@@ -156,7 +158,7 @@ items:
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
-  summary: "\nGets or sets the related changeset number\n"
+  summary: "\nGets or sets the related changeset number.\n"
   example: []
   syntax:
     content: public long ChangesetNumber { get; set; }
@@ -493,7 +495,7 @@ items:
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
-  summary: "\nGets or sets a value indicating whether the component can be restored.\n"
+  summary: "\nGets a value indicating whether the component can be restored.\n"
   example: []
   syntax:
     content: public bool CanRestore { get; }
@@ -539,6 +541,80 @@ items:
       type: System.Boolean
     content.vb: Public Property LatestSnapshot As Boolean
   overload: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.LatestSnapshot*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedBy
+  commentId: P:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedBy
+  id: EsignedBy
+  parent: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: EsignedBy
+  nameWithType: MinimalComponentHistoryModel.EsignedBy
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedBy
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/MinimalComponentHistoryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EsignedBy
+    path: Versioning/MinimalComponentHistoryModel.cs
+    startLine: 78
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the name of the user who esigned.\n"
+  example: []
+  syntax:
+    content: public string EsignedBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EsignedBy As String
+  overload: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedDate
+  commentId: P:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedDate
+  id: EsignedDate
+  parent: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
+  langs:
+  - csharp
+  - vb
+  name: EsignedDate
+  nameWithType: MinimalComponentHistoryModel.EsignedDate
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedDate
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/MinimalComponentHistoryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EsignedDate
+    path: Versioning/MinimalComponentHistoryModel.cs
+    startLine: 83
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the date when this record got esigned.\n"
+  example: []
+  syntax:
+    content: public DateTime EsignedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property EsignedDate As Date
+  overload: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedDate*
   modifiers.csharp:
   - public
   - get
@@ -1182,3 +1258,13 @@ references:
   name: LatestSnapshot
   nameWithType: MinimalComponentHistoryModel.LatestSnapshot
   fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.LatestSnapshot
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedBy*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedBy
+  name: EsignedBy
+  nameWithType: MinimalComponentHistoryModel.EsignedBy
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedBy
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedDate*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedDate
+  name: EsignedDate
+  nameWithType: MinimalComponentHistoryModel.EsignedDate
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedDate

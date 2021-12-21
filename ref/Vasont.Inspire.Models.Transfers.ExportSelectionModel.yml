@@ -105,7 +105,7 @@ items:
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
-  summary: "\nGets or sets a value indicating whether or not the system has defined Profile Attributes;\n"
+  summary: "\nGets or sets a value indicating whether or not the system has defined Profile Attributes.\n"
   example: []
   syntax:
     content: public bool HasProfiled { get; set; }
