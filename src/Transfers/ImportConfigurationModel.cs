@@ -77,5 +77,10 @@ namespace Vasont.Inspire.Models.Transfers
         /// Gets or sets a list of <see cref="UserRoleAssociationModel"/> objects.
         /// </summary>
         public List<UserRoleAssociationModel> Participants { get; set; } = new List<UserRoleAssociationModel>();
+
+        /// <summary>
+        /// Gets or sets a list of <see cref="ImportTransformModel"/> objects that are to be used with the import.
+        /// </summary>
+        public List<ImportTransformModel> Transforms { get; set; } = new List<ImportTransformModel>();
     }
 }
