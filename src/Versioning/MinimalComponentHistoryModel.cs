@@ -76,11 +76,11 @@ namespace Vasont.Inspire.Models.Versioning
         /// <summary>
         /// Gets or sets the name of the user who esigned.
         /// </summary>
-        public string EsignedBy { get; set; }
+        public string ElectronicSignatureBy { get; set; }
 
         /// <summary>
         /// Gets or sets the date when this record got esigned.
         /// </summary>
-        public DateTime EsignedDate { get; set; }
+        public DateTime? ElectronicSignatureDate { get; set; }
     }
 }
