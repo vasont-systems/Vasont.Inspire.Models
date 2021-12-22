@@ -97,5 +97,10 @@ namespace Vasont.Inspire.Models.Common
         /// Gets or sets the version of the tenant application.
         /// </summary>
         public string Version { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether electronic signature is required or not.
+        /// </summary>
+        public bool ElectronicSignatureRequired { get; set; }
     }
 }
