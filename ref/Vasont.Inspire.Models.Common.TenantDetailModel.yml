@@ -8,6 +8,7 @@ items:
   - Vasont.Inspire.Models.Common.TenantDetailModel.Copyright
   - Vasont.Inspire.Models.Common.TenantDetailModel.DefaultLanguage
   - Vasont.Inspire.Models.Common.TenantDetailModel.DomainKey
+  - Vasont.Inspire.Models.Common.TenantDetailModel.ElectronicSignatureRequired
   - Vasont.Inspire.Models.Common.TenantDetailModel.InspireSchemaCustom
   - Vasont.Inspire.Models.Common.TenantDetailModel.Name
   - Vasont.Inspire.Models.Common.TenantDetailModel.OxygenConcurrentSeats
@@ -690,6 +691,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.ElectronicSignatureRequired
+  commentId: P:Vasont.Inspire.Models.Common.TenantDetailModel.ElectronicSignatureRequired
+  id: ElectronicSignatureRequired
+  parent: Vasont.Inspire.Models.Common.TenantDetailModel
+  langs:
+  - csharp
+  - vb
+  name: ElectronicSignatureRequired
+  nameWithType: TenantDetailModel.ElectronicSignatureRequired
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.ElectronicSignatureRequired
+  type: Property
+  source:
+    remote:
+      path: src/Common/TenantDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ElectronicSignatureRequired
+    path: Common/TenantDetailModel.cs
+    startLine: 103
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets a value indicating whether electronic signature is required or not.\n"
+  example: []
+  syntax:
+    content: public bool ElectronicSignatureRequired { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ElectronicSignatureRequired As Boolean
+  overload: Vasont.Inspire.Models.Common.TenantDetailModel.ElectronicSignatureRequired*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: Vasont.Inspire.Models.Common
   commentId: N:Vasont.Inspire.Models.Common
@@ -1107,3 +1145,8 @@ references:
   name: Version
   nameWithType: TenantDetailModel.Version
   fullName: Vasont.Inspire.Models.Common.TenantDetailModel.Version
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.ElectronicSignatureRequired*
+  commentId: Overload:Vasont.Inspire.Models.Common.TenantDetailModel.ElectronicSignatureRequired
+  name: ElectronicSignatureRequired
+  nameWithType: TenantDetailModel.ElectronicSignatureRequired
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.ElectronicSignatureRequired

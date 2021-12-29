@@ -15,12 +15,14 @@ items:
   - Vasont.Inspire.Models.Transfers.ExportProfileAttributeFilterModel
   - Vasont.Inspire.Models.Transfers.ExportRequestModel
   - Vasont.Inspire.Models.Transfers.ExportSelectionModel
+  - Vasont.Inspire.Models.Transfers.ExportTransformModel
   - Vasont.Inspire.Models.Transfers.ExportType
   - Vasont.Inspire.Models.Transfers.ImportConfigurationModel
   - Vasont.Inspire.Models.Transfers.ImportFileModel
   - Vasont.Inspire.Models.Transfers.ImportReferenceModel
   - Vasont.Inspire.Models.Transfers.ImportRequestFileModel
   - Vasont.Inspire.Models.Transfers.ImportRequestModel
+  - Vasont.Inspire.Models.Transfers.ImportTransformModel
   - Vasont.Inspire.Models.Transfers.ImportType
   - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel
   - Vasont.Inspire.Models.Transfers.MinimalExportModel
@@ -91,6 +93,11 @@ references:
   name: ExportSelectionModel
   nameWithType: ExportSelectionModel
   fullName: Vasont.Inspire.Models.Transfers.ExportSelectionModel
+- uid: Vasont.Inspire.Models.Transfers.ExportTransformModel
+  commentId: T:Vasont.Inspire.Models.Transfers.ExportTransformModel
+  name: ExportTransformModel
+  nameWithType: ExportTransformModel
+  fullName: Vasont.Inspire.Models.Transfers.ExportTransformModel
 - uid: Vasont.Inspire.Models.Transfers.ImportType
   commentId: T:Vasont.Inspire.Models.Transfers.ImportType
   parent: Vasont.Inspire.Models.Transfers
@@ -122,6 +129,11 @@ references:
   name: ImportRequestModel
   nameWithType: ImportRequestModel
   fullName: Vasont.Inspire.Models.Transfers.ImportRequestModel
+- uid: Vasont.Inspire.Models.Transfers.ImportTransformModel
+  commentId: T:Vasont.Inspire.Models.Transfers.ImportTransformModel
+  name: ImportTransformModel
+  nameWithType: ImportTransformModel
+  fullName: Vasont.Inspire.Models.Transfers.ImportTransformModel
 - uid: Vasont.Inspire.Models.Transfers.ExportContentResult
   commentId: T:Vasont.Inspire.Models.Transfers.ExportContentResult
   parent: Vasont.Inspire.Models.Transfers
