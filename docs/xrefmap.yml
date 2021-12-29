@@ -966,6 +966,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Common.TenantDetailModel.DomainKey
   nameWithType: TenantDetailModel.DomainKey
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.ElectronicSignatureRequired
+  name: ElectronicSignatureRequired
+  href: ref/Vasont.Inspire.Models.Common.TenantDetailModel.html#Vasont_Inspire_Models_Common_TenantDetailModel_ElectronicSignatureRequired
+  commentId: P:Vasont.Inspire.Models.Common.TenantDetailModel.ElectronicSignatureRequired
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.ElectronicSignatureRequired
+  nameWithType: TenantDetailModel.ElectronicSignatureRequired
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.ElectronicSignatureRequired*
+  name: ElectronicSignatureRequired
+  href: ref/Vasont.Inspire.Models.Common.TenantDetailModel.html#Vasont_Inspire_Models_Common_TenantDetailModel_ElectronicSignatureRequired_
+  commentId: Overload:Vasont.Inspire.Models.Common.TenantDetailModel.ElectronicSignatureRequired
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.ElectronicSignatureRequired
+  nameWithType: TenantDetailModel.ElectronicSignatureRequired
 - uid: Vasont.Inspire.Models.Common.TenantDetailModel.InspireSchemaCustom
   name: InspireSchemaCustom
   href: ref/Vasont.Inspire.Models.Common.TenantDetailModel.html#Vasont_Inspire_Models_Common_TenantDetailModel_InspireSchemaCustom
@@ -21945,6 +21958,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Transfers.ExportConfigurationModel.Plugins
   nameWithType: ExportConfigurationModel.Plugins
+- uid: Vasont.Inspire.Models.Transfers.ExportConfigurationModel.Transforms
+  name: Transforms
+  href: ref/Vasont.Inspire.Models.Transfers.ExportConfigurationModel.html#Vasont_Inspire_Models_Transfers_ExportConfigurationModel_Transforms
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportConfigurationModel.Transforms
+  fullName: Vasont.Inspire.Models.Transfers.ExportConfigurationModel.Transforms
+  nameWithType: ExportConfigurationModel.Transforms
+- uid: Vasont.Inspire.Models.Transfers.ExportConfigurationModel.Transforms*
+  name: Transforms
+  href: ref/Vasont.Inspire.Models.Transfers.ExportConfigurationModel.html#Vasont_Inspire_Models_Transfers_ExportConfigurationModel_Transforms_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportConfigurationModel.Transforms
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.ExportConfigurationModel.Transforms
+  nameWithType: ExportConfigurationModel.Transforms
 - uid: Vasont.Inspire.Models.Transfers.ExportConfigurationModel.Type
   name: Type
   href: ref/Vasont.Inspire.Models.Transfers.ExportConfigurationModel.html#Vasont_Inspire_Models_Transfers_ExportConfigurationModel_Type
@@ -22265,6 +22291,77 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Transfers.ExportSelectionModel.HasProfiled
   nameWithType: ExportSelectionModel.HasProfiled
+- uid: Vasont.Inspire.Models.Transfers.ExportTransformModel
+  name: ExportTransformModel
+  href: ref/Vasont.Inspire.Models.Transfers.ExportTransformModel.html
+  commentId: T:Vasont.Inspire.Models.Transfers.ExportTransformModel
+  fullName: Vasont.Inspire.Models.Transfers.ExportTransformModel
+  nameWithType: ExportTransformModel
+- uid: Vasont.Inspire.Models.Transfers.ExportTransformModel.ComponentId
+  name: ComponentId
+  href: ref/Vasont.Inspire.Models.Transfers.ExportTransformModel.html#Vasont_Inspire_Models_Transfers_ExportTransformModel_ComponentId
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportTransformModel.ComponentId
+  fullName: Vasont.Inspire.Models.Transfers.ExportTransformModel.ComponentId
+  nameWithType: ExportTransformModel.ComponentId
+- uid: Vasont.Inspire.Models.Transfers.ExportTransformModel.ComponentId*
+  name: ComponentId
+  href: ref/Vasont.Inspire.Models.Transfers.ExportTransformModel.html#Vasont_Inspire_Models_Transfers_ExportTransformModel_ComponentId_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportTransformModel.ComponentId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.ExportTransformModel.ComponentId
+  nameWithType: ExportTransformModel.ComponentId
+- uid: Vasont.Inspire.Models.Transfers.ExportTransformModel.ComponentName
+  name: ComponentName
+  href: ref/Vasont.Inspire.Models.Transfers.ExportTransformModel.html#Vasont_Inspire_Models_Transfers_ExportTransformModel_ComponentName
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportTransformModel.ComponentName
+  fullName: Vasont.Inspire.Models.Transfers.ExportTransformModel.ComponentName
+  nameWithType: ExportTransformModel.ComponentName
+- uid: Vasont.Inspire.Models.Transfers.ExportTransformModel.ComponentName*
+  name: ComponentName
+  href: ref/Vasont.Inspire.Models.Transfers.ExportTransformModel.html#Vasont_Inspire_Models_Transfers_ExportTransformModel_ComponentName_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportTransformModel.ComponentName
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.ExportTransformModel.ComponentName
+  nameWithType: ExportTransformModel.ComponentName
+- uid: Vasont.Inspire.Models.Transfers.ExportTransformModel.ExportId
+  name: ExportId
+  href: ref/Vasont.Inspire.Models.Transfers.ExportTransformModel.html#Vasont_Inspire_Models_Transfers_ExportTransformModel_ExportId
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportTransformModel.ExportId
+  fullName: Vasont.Inspire.Models.Transfers.ExportTransformModel.ExportId
+  nameWithType: ExportTransformModel.ExportId
+- uid: Vasont.Inspire.Models.Transfers.ExportTransformModel.ExportId*
+  name: ExportId
+  href: ref/Vasont.Inspire.Models.Transfers.ExportTransformModel.html#Vasont_Inspire_Models_Transfers_ExportTransformModel_ExportId_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportTransformModel.ExportId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.ExportTransformModel.ExportId
+  nameWithType: ExportTransformModel.ExportId
+- uid: Vasont.Inspire.Models.Transfers.ExportTransformModel.ExportTransformId
+  name: ExportTransformId
+  href: ref/Vasont.Inspire.Models.Transfers.ExportTransformModel.html#Vasont_Inspire_Models_Transfers_ExportTransformModel_ExportTransformId
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportTransformModel.ExportTransformId
+  fullName: Vasont.Inspire.Models.Transfers.ExportTransformModel.ExportTransformId
+  nameWithType: ExportTransformModel.ExportTransformId
+- uid: Vasont.Inspire.Models.Transfers.ExportTransformModel.ExportTransformId*
+  name: ExportTransformId
+  href: ref/Vasont.Inspire.Models.Transfers.ExportTransformModel.html#Vasont_Inspire_Models_Transfers_ExportTransformModel_ExportTransformId_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportTransformModel.ExportTransformId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.ExportTransformModel.ExportTransformId
+  nameWithType: ExportTransformModel.ExportTransformId
+- uid: Vasont.Inspire.Models.Transfers.ExportTransformModel.SortOrder
+  name: SortOrder
+  href: ref/Vasont.Inspire.Models.Transfers.ExportTransformModel.html#Vasont_Inspire_Models_Transfers_ExportTransformModel_SortOrder
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportTransformModel.SortOrder
+  fullName: Vasont.Inspire.Models.Transfers.ExportTransformModel.SortOrder
+  nameWithType: ExportTransformModel.SortOrder
+- uid: Vasont.Inspire.Models.Transfers.ExportTransformModel.SortOrder*
+  name: SortOrder
+  href: ref/Vasont.Inspire.Models.Transfers.ExportTransformModel.html#Vasont_Inspire_Models_Transfers_ExportTransformModel_SortOrder_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportTransformModel.SortOrder
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.ExportTransformModel.SortOrder
+  nameWithType: ExportTransformModel.SortOrder
 - uid: Vasont.Inspire.Models.Transfers.ExportType
   name: ExportType
   href: ref/Vasont.Inspire.Models.Transfers.ExportType.html
@@ -22398,6 +22495,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Transfers.ImportConfigurationModel.Plugins
   nameWithType: ImportConfigurationModel.Plugins
+- uid: Vasont.Inspire.Models.Transfers.ImportConfigurationModel.Transforms
+  name: Transforms
+  href: ref/Vasont.Inspire.Models.Transfers.ImportConfigurationModel.html#Vasont_Inspire_Models_Transfers_ImportConfigurationModel_Transforms
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportConfigurationModel.Transforms
+  fullName: Vasont.Inspire.Models.Transfers.ImportConfigurationModel.Transforms
+  nameWithType: ImportConfigurationModel.Transforms
+- uid: Vasont.Inspire.Models.Transfers.ImportConfigurationModel.Transforms*
+  name: Transforms
+  href: ref/Vasont.Inspire.Models.Transfers.ImportConfigurationModel.html#Vasont_Inspire_Models_Transfers_ImportConfigurationModel_Transforms_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportConfigurationModel.Transforms
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.ImportConfigurationModel.Transforms
+  nameWithType: ImportConfigurationModel.Transforms
 - uid: Vasont.Inspire.Models.Transfers.ImportConfigurationModel.Type
   name: Type
   href: ref/Vasont.Inspire.Models.Transfers.ImportConfigurationModel.html#Vasont_Inspire_Models_Transfers_ImportConfigurationModel_Type
@@ -22773,6 +22883,77 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Transfers.ImportRequestModel.WaitForCompletion
   nameWithType: ImportRequestModel.WaitForCompletion
+- uid: Vasont.Inspire.Models.Transfers.ImportTransformModel
+  name: ImportTransformModel
+  href: ref/Vasont.Inspire.Models.Transfers.ImportTransformModel.html
+  commentId: T:Vasont.Inspire.Models.Transfers.ImportTransformModel
+  fullName: Vasont.Inspire.Models.Transfers.ImportTransformModel
+  nameWithType: ImportTransformModel
+- uid: Vasont.Inspire.Models.Transfers.ImportTransformModel.ComponentId
+  name: ComponentId
+  href: ref/Vasont.Inspire.Models.Transfers.ImportTransformModel.html#Vasont_Inspire_Models_Transfers_ImportTransformModel_ComponentId
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportTransformModel.ComponentId
+  fullName: Vasont.Inspire.Models.Transfers.ImportTransformModel.ComponentId
+  nameWithType: ImportTransformModel.ComponentId
+- uid: Vasont.Inspire.Models.Transfers.ImportTransformModel.ComponentId*
+  name: ComponentId
+  href: ref/Vasont.Inspire.Models.Transfers.ImportTransformModel.html#Vasont_Inspire_Models_Transfers_ImportTransformModel_ComponentId_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportTransformModel.ComponentId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.ImportTransformModel.ComponentId
+  nameWithType: ImportTransformModel.ComponentId
+- uid: Vasont.Inspire.Models.Transfers.ImportTransformModel.ComponentName
+  name: ComponentName
+  href: ref/Vasont.Inspire.Models.Transfers.ImportTransformModel.html#Vasont_Inspire_Models_Transfers_ImportTransformModel_ComponentName
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportTransformModel.ComponentName
+  fullName: Vasont.Inspire.Models.Transfers.ImportTransformModel.ComponentName
+  nameWithType: ImportTransformModel.ComponentName
+- uid: Vasont.Inspire.Models.Transfers.ImportTransformModel.ComponentName*
+  name: ComponentName
+  href: ref/Vasont.Inspire.Models.Transfers.ImportTransformModel.html#Vasont_Inspire_Models_Transfers_ImportTransformModel_ComponentName_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportTransformModel.ComponentName
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.ImportTransformModel.ComponentName
+  nameWithType: ImportTransformModel.ComponentName
+- uid: Vasont.Inspire.Models.Transfers.ImportTransformModel.ImportId
+  name: ImportId
+  href: ref/Vasont.Inspire.Models.Transfers.ImportTransformModel.html#Vasont_Inspire_Models_Transfers_ImportTransformModel_ImportId
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportTransformModel.ImportId
+  fullName: Vasont.Inspire.Models.Transfers.ImportTransformModel.ImportId
+  nameWithType: ImportTransformModel.ImportId
+- uid: Vasont.Inspire.Models.Transfers.ImportTransformModel.ImportId*
+  name: ImportId
+  href: ref/Vasont.Inspire.Models.Transfers.ImportTransformModel.html#Vasont_Inspire_Models_Transfers_ImportTransformModel_ImportId_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportTransformModel.ImportId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.ImportTransformModel.ImportId
+  nameWithType: ImportTransformModel.ImportId
+- uid: Vasont.Inspire.Models.Transfers.ImportTransformModel.ImportTransformId
+  name: ImportTransformId
+  href: ref/Vasont.Inspire.Models.Transfers.ImportTransformModel.html#Vasont_Inspire_Models_Transfers_ImportTransformModel_ImportTransformId
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportTransformModel.ImportTransformId
+  fullName: Vasont.Inspire.Models.Transfers.ImportTransformModel.ImportTransformId
+  nameWithType: ImportTransformModel.ImportTransformId
+- uid: Vasont.Inspire.Models.Transfers.ImportTransformModel.ImportTransformId*
+  name: ImportTransformId
+  href: ref/Vasont.Inspire.Models.Transfers.ImportTransformModel.html#Vasont_Inspire_Models_Transfers_ImportTransformModel_ImportTransformId_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportTransformModel.ImportTransformId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.ImportTransformModel.ImportTransformId
+  nameWithType: ImportTransformModel.ImportTransformId
+- uid: Vasont.Inspire.Models.Transfers.ImportTransformModel.SortOrder
+  name: SortOrder
+  href: ref/Vasont.Inspire.Models.Transfers.ImportTransformModel.html#Vasont_Inspire_Models_Transfers_ImportTransformModel_SortOrder
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportTransformModel.SortOrder
+  fullName: Vasont.Inspire.Models.Transfers.ImportTransformModel.SortOrder
+  nameWithType: ImportTransformModel.SortOrder
+- uid: Vasont.Inspire.Models.Transfers.ImportTransformModel.SortOrder*
+  name: SortOrder
+  href: ref/Vasont.Inspire.Models.Transfers.ImportTransformModel.html#Vasont_Inspire_Models_Transfers_ImportTransformModel_SortOrder_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportTransformModel.SortOrder
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.ImportTransformModel.SortOrder
+  nameWithType: ImportTransformModel.SortOrder
 - uid: Vasont.Inspire.Models.Transfers.ImportType
   name: ImportType
   href: ref/Vasont.Inspire.Models.Transfers.ImportType.html
@@ -27499,32 +27680,32 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ContentChanged
   nameWithType: MinimalComponentHistoryModel.ContentChanged
-- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedBy
-  name: EsignedBy
-  href: ref/Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.html#Vasont_Inspire_Models_Versioning_MinimalComponentHistoryModel_EsignedBy
-  commentId: P:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedBy
-  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedBy
-  nameWithType: MinimalComponentHistoryModel.EsignedBy
-- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedBy*
-  name: EsignedBy
-  href: ref/Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.html#Vasont_Inspire_Models_Versioning_MinimalComponentHistoryModel_EsignedBy_
-  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedBy
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureBy
+  name: ElectronicSignatureBy
+  href: ref/Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.html#Vasont_Inspire_Models_Versioning_MinimalComponentHistoryModel_ElectronicSignatureBy
+  commentId: P:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureBy
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureBy
+  nameWithType: MinimalComponentHistoryModel.ElectronicSignatureBy
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureBy*
+  name: ElectronicSignatureBy
+  href: ref/Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.html#Vasont_Inspire_Models_Versioning_MinimalComponentHistoryModel_ElectronicSignatureBy_
+  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureBy
   isSpec: "True"
-  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedBy
-  nameWithType: MinimalComponentHistoryModel.EsignedBy
-- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedDate
-  name: EsignedDate
-  href: ref/Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.html#Vasont_Inspire_Models_Versioning_MinimalComponentHistoryModel_EsignedDate
-  commentId: P:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedDate
-  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedDate
-  nameWithType: MinimalComponentHistoryModel.EsignedDate
-- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedDate*
-  name: EsignedDate
-  href: ref/Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.html#Vasont_Inspire_Models_Versioning_MinimalComponentHistoryModel_EsignedDate_
-  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedDate
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureBy
+  nameWithType: MinimalComponentHistoryModel.ElectronicSignatureBy
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureDate
+  name: ElectronicSignatureDate
+  href: ref/Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.html#Vasont_Inspire_Models_Versioning_MinimalComponentHistoryModel_ElectronicSignatureDate
+  commentId: P:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureDate
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureDate
+  nameWithType: MinimalComponentHistoryModel.ElectronicSignatureDate
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureDate*
+  name: ElectronicSignatureDate
+  href: ref/Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.html#Vasont_Inspire_Models_Versioning_MinimalComponentHistoryModel_ElectronicSignatureDate_
+  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureDate
   isSpec: "True"
-  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedDate
-  nameWithType: MinimalComponentHistoryModel.EsignedDate
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureDate
+  nameWithType: MinimalComponentHistoryModel.ElectronicSignatureDate
 - uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.FolderPath
   name: FolderPath
   href: ref/Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.html#Vasont_Inspire_Models_Versioning_MinimalComponentHistoryModel_FolderPath

@@ -26,6 +26,11 @@ namespace Vasont.Inspire.Models.Transfers
         public long ComponentId { get; set; }
 
         /// <summary>
+        /// Gets or sets the component name for the XSLT component.
+        /// </summary>
+        public string ComponentName { get; set; }
+
+        /// <summary>
         /// Gets or sets the order for the transform.
         /// </summary>
         public int SortOrder { get; set; }
