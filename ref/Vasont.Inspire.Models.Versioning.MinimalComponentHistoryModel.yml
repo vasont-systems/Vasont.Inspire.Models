@@ -12,8 +12,8 @@ items:
   - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ChangesetNumber
   - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Comment
   - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ContentChanged
-  - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedBy
-  - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedDate
+  - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureBy
+  - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureDate
   - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.FolderPath
   - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.Label
   - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.LatestSnapshot
@@ -547,23 +547,23 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedBy
-  commentId: P:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedBy
-  id: EsignedBy
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureBy
+  commentId: P:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureBy
+  id: ElectronicSignatureBy
   parent: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
   langs:
   - csharp
   - vb
-  name: EsignedBy
-  nameWithType: MinimalComponentHistoryModel.EsignedBy
-  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedBy
+  name: ElectronicSignatureBy
+  nameWithType: MinimalComponentHistoryModel.ElectronicSignatureBy
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureBy
   type: Property
   source:
     remote:
       path: src/Versioning/MinimalComponentHistoryModel.cs
       branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
-    id: EsignedBy
+    id: ElectronicSignatureBy
     path: Versioning/MinimalComponentHistoryModel.cs
     startLine: 78
   assemblies:
@@ -572,35 +572,35 @@ items:
   summary: "\nGets or sets the name of the user who esigned.\n"
   example: []
   syntax:
-    content: public string EsignedBy { get; set; }
+    content: public string ElectronicSignatureBy { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property EsignedBy As String
-  overload: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedBy*
+    content.vb: Public Property ElectronicSignatureBy As String
+  overload: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureBy*
   modifiers.csharp:
   - public
   - get
   - set
   modifiers.vb:
   - Public
-- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedDate
-  commentId: P:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedDate
-  id: EsignedDate
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureDate
+  commentId: P:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureDate
+  id: ElectronicSignatureDate
   parent: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
   langs:
   - csharp
   - vb
-  name: EsignedDate
-  nameWithType: MinimalComponentHistoryModel.EsignedDate
-  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedDate
+  name: ElectronicSignatureDate
+  nameWithType: MinimalComponentHistoryModel.ElectronicSignatureDate
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureDate
   type: Property
   source:
     remote:
       path: src/Versioning/MinimalComponentHistoryModel.cs
       branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
-    id: EsignedDate
+    id: ElectronicSignatureDate
     path: Versioning/MinimalComponentHistoryModel.cs
     startLine: 83
   assemblies:
@@ -609,12 +609,12 @@ items:
   summary: "\nGets or sets the date when this record got esigned.\n"
   example: []
   syntax:
-    content: public DateTime EsignedDate { get; set; }
+    content: public DateTime? ElectronicSignatureDate { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Property EsignedDate As Date
-  overload: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedDate*
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property ElectronicSignatureDate As Date?
+  overload: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureDate*
   modifiers.csharp:
   - public
   - get
@@ -1258,13 +1258,96 @@ references:
   name: LatestSnapshot
   nameWithType: MinimalComponentHistoryModel.LatestSnapshot
   fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.LatestSnapshot
-- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedBy*
-  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedBy
-  name: EsignedBy
-  nameWithType: MinimalComponentHistoryModel.EsignedBy
-  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedBy
-- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedDate*
-  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedDate
-  name: EsignedDate
-  nameWithType: MinimalComponentHistoryModel.EsignedDate
-  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.EsignedDate
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureBy*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureBy
+  name: ElectronicSignatureBy
+  nameWithType: MinimalComponentHistoryModel.ElectronicSignatureBy
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureBy
+- uid: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureDate*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureDate
+  name: ElectronicSignatureDate
+  nameWithType: MinimalComponentHistoryModel.ElectronicSignatureDate
+  fullName: Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel.ElectronicSignatureDate
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

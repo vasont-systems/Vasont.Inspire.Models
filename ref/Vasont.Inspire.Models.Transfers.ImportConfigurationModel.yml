@@ -12,6 +12,7 @@ items:
   - Vasont.Inspire.Models.Transfers.ImportConfigurationModel.Name
   - Vasont.Inspire.Models.Transfers.ImportConfigurationModel.Participants
   - Vasont.Inspire.Models.Transfers.ImportConfigurationModel.Plugins
+  - Vasont.Inspire.Models.Transfers.ImportConfigurationModel.Transforms
   - Vasont.Inspire.Models.Transfers.ImportConfigurationModel.Type
   langs:
   - csharp
@@ -342,6 +343,43 @@ items:
       type: System.Collections.Generic.List{Vasont.Inspire.Models.Security.UserRoleAssociationModel}
     content.vb: Public Property Participants As List(Of UserRoleAssociationModel)
   overload: Vasont.Inspire.Models.Transfers.ImportConfigurationModel.Participants*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ImportConfigurationModel.Transforms
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportConfigurationModel.Transforms
+  id: Transforms
+  parent: Vasont.Inspire.Models.Transfers.ImportConfigurationModel
+  langs:
+  - csharp
+  - vb
+  name: Transforms
+  nameWithType: ImportConfigurationModel.Transforms
+  fullName: Vasont.Inspire.Models.Transfers.ImportConfigurationModel.Transforms
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ImportConfigurationModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Transforms
+    path: Transfers/ImportConfigurationModel.cs
+    startLine: 83
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets a list of <xref href=\"Vasont.Inspire.Models.Transfers.ImportTransformModel\" data-throw-if-not-resolved=\"false\"></xref> objects that are to be used with the import.\n"
+  example: []
+  syntax:
+    content: public List<ImportTransformModel> Transforms { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.ImportTransformModel}
+    content.vb: Public Property Transforms As List(Of ImportTransformModel)
+  overload: Vasont.Inspire.Models.Transfers.ImportConfigurationModel.Transforms*
   modifiers.csharp:
   - public
   - get
@@ -858,3 +896,55 @@ references:
   name: Vasont.Inspire.Models.Security
   nameWithType: Vasont.Inspire.Models.Security
   fullName: Vasont.Inspire.Models.Security
+- uid: Vasont.Inspire.Models.Transfers.ImportTransformModel
+  commentId: T:Vasont.Inspire.Models.Transfers.ImportTransformModel
+  name: ImportTransformModel
+  nameWithType: ImportTransformModel
+  fullName: Vasont.Inspire.Models.Transfers.ImportTransformModel
+- uid: Vasont.Inspire.Models.Transfers.ImportConfigurationModel.Transforms*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportConfigurationModel.Transforms
+  name: Transforms
+  nameWithType: ImportConfigurationModel.Transforms
+  fullName: Vasont.Inspire.Models.Transfers.ImportConfigurationModel.Transforms
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.ImportTransformModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Transfers.ImportTransformModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ImportTransformModel>
+  nameWithType: List<ImportTransformModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Transfers.ImportTransformModel>
+  nameWithType.vb: List(Of ImportTransformModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Transfers.ImportTransformModel)
+  name.vb: List(Of ImportTransformModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Transfers.ImportTransformModel
+    name: ImportTransformModel
+    nameWithType: ImportTransformModel
+    fullName: Vasont.Inspire.Models.Transfers.ImportTransformModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Transfers.ImportTransformModel
+    name: ImportTransformModel
+    nameWithType: ImportTransformModel
+    fullName: Vasont.Inspire.Models.Transfers.ImportTransformModel
+  - name: )
+    nameWithType: )
+    fullName: )
