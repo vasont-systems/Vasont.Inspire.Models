@@ -45,6 +45,11 @@ namespace Vasont.Inspire.Models.Projects
         public string SystemFolderPath { get; set; }
 
         /// <summary>
+        /// Gets or sets the default project folder identity value.
+        /// </summary>
+        public long? DefaultProjectFolderId { get; set; }
+
+        /// <summary>
         /// Gets or sets the project owner's full name.
         /// </summary>
         public string OwnerFullName { get; set; }
