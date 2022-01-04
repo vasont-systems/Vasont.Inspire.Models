@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NotificationTarget
     path: Notifications/NotificationModel.cs
@@ -63,7 +63,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: User
     path: Notifications/NotificationModel.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Tenant
     path: Notifications/NotificationModel.cs
@@ -131,7 +131,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: All
     path: Notifications/NotificationModel.cs

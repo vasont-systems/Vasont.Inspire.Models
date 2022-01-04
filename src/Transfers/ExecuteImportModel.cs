@@ -13,6 +13,11 @@ namespace Vasont.Inspire.Models.Transfers
     public class ExecuteImportModel
     {
         /// <summary>
+        /// Gets or sets the import identity used for the importing of the components specified.
+        /// </summary>
+        public long? ImportId { get; set; }
+
+        /// <summary>
         /// Gets or sets the working folder path.
         /// </summary>
         public string WorkingFolderPath { get; set; }

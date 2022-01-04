@@ -22,6 +22,7 @@ items:
   - Vasont.Inspire.Models.Transfers.ImportReferenceModel
   - Vasont.Inspire.Models.Transfers.ImportRequestFileModel
   - Vasont.Inspire.Models.Transfers.ImportRequestModel
+  - Vasont.Inspire.Models.Transfers.ImportSelectionModel
   - Vasont.Inspire.Models.Transfers.ImportTransformModel
   - Vasont.Inspire.Models.Transfers.ImportType
   - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel
@@ -29,6 +30,7 @@ items:
   - Vasont.Inspire.Models.Transfers.MinimalExportRelationModel
   - Vasont.Inspire.Models.Transfers.MinimalExportStateModel
   - Vasont.Inspire.Models.Transfers.MinimalImportComponentModel
+  - Vasont.Inspire.Models.Transfers.MinimalImportModel
   - Vasont.Inspire.Models.Transfers.MinimalImportStateModel
   - Vasont.Inspire.Models.Transfers.MissingReferenceModel
   - Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel
@@ -129,6 +131,11 @@ references:
   name: ImportRequestModel
   nameWithType: ImportRequestModel
   fullName: Vasont.Inspire.Models.Transfers.ImportRequestModel
+- uid: Vasont.Inspire.Models.Transfers.ImportSelectionModel
+  commentId: T:Vasont.Inspire.Models.Transfers.ImportSelectionModel
+  name: ImportSelectionModel
+  nameWithType: ImportSelectionModel
+  fullName: Vasont.Inspire.Models.Transfers.ImportSelectionModel
 - uid: Vasont.Inspire.Models.Transfers.ImportTransformModel
   commentId: T:Vasont.Inspire.Models.Transfers.ImportTransformModel
   name: ImportTransformModel
@@ -173,6 +180,11 @@ references:
   name: MinimalImportComponentModel
   nameWithType: MinimalImportComponentModel
   fullName: Vasont.Inspire.Models.Transfers.MinimalImportComponentModel
+- uid: Vasont.Inspire.Models.Transfers.MinimalImportModel
+  commentId: T:Vasont.Inspire.Models.Transfers.MinimalImportModel
+  name: MinimalImportModel
+  nameWithType: MinimalImportModel
+  fullName: Vasont.Inspire.Models.Transfers.MinimalImportModel
 - uid: Vasont.Inspire.Models.Transfers.MinimalImportStateModel
   commentId: T:Vasont.Inspire.Models.Transfers.MinimalImportStateModel
   name: MinimalImportStateModel
