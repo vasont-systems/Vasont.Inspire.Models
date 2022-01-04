@@ -8,6 +8,7 @@ items:
   - Vasont.Inspire.Models.Transfers.ExecuteImportModel.CreateTargetSubfolders
   - Vasont.Inspire.Models.Transfers.ExecuteImportModel.DeleteFiles
   - Vasont.Inspire.Models.Transfers.ExecuteImportModel.FilePaths
+  - Vasont.Inspire.Models.Transfers.ExecuteImportModel.ImportId
   - Vasont.Inspire.Models.Transfers.ExecuteImportModel.SendResultNotification
   - Vasont.Inspire.Models.Transfers.ExecuteImportModel.TargetFolderId
   - Vasont.Inspire.Models.Transfers.ExecuteImportModel.TargetProjectFolderId
@@ -24,7 +25,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExecuteImportModel
     path: Transfers/ExecuteImportModel.cs
@@ -53,6 +54,43 @@ items:
   modifiers.vb:
   - Public
   - Class
+- uid: Vasont.Inspire.Models.Transfers.ExecuteImportModel.ImportId
+  commentId: P:Vasont.Inspire.Models.Transfers.ExecuteImportModel.ImportId
+  id: ImportId
+  parent: Vasont.Inspire.Models.Transfers.ExecuteImportModel
+  langs:
+  - csharp
+  - vb
+  name: ImportId
+  nameWithType: ExecuteImportModel.ImportId
+  fullName: Vasont.Inspire.Models.Transfers.ExecuteImportModel.ImportId
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ExecuteImportModel.cs
+      branch: feature/57485TransformModels
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ImportId
+    path: Transfers/ExecuteImportModel.cs
+    startLine: 17
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the import identity used for the importing of the components specified.\n"
+  example: []
+  syntax:
+    content: public long? ImportId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int64}
+    content.vb: Public Property ImportId As Long?
+  overload: Vasont.Inspire.Models.Transfers.ExecuteImportModel.ImportId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Transfers.ExecuteImportModel.WorkingFolderPath
   commentId: P:Vasont.Inspire.Models.Transfers.ExecuteImportModel.WorkingFolderPath
   id: WorkingFolderPath
@@ -67,11 +105,11 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkingFolderPath
     path: Transfers/ExecuteImportModel.cs
-    startLine: 17
+    startLine: 22
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -104,11 +142,11 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FilePaths
     path: Transfers/ExecuteImportModel.cs
-    startLine: 22
+    startLine: 27
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -141,11 +179,11 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetFolderId
     path: Transfers/ExecuteImportModel.cs
-    startLine: 27
+    startLine: 32
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -178,11 +216,11 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetProjectFolderId
     path: Transfers/ExecuteImportModel.cs
-    startLine: 32
+    startLine: 37
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -215,11 +253,11 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SendResultNotification
     path: Transfers/ExecuteImportModel.cs
-    startLine: 37
+    startLine: 42
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -252,11 +290,11 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DeleteFiles
     path: Transfers/ExecuteImportModel.cs
-    startLine: 42
+    startLine: 47
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -289,11 +327,11 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreateTargetSubfolders
     path: Transfers/ExecuteImportModel.cs
-    startLine: 47
+    startLine: 52
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -326,11 +364,11 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkerCacheLifeTimeoutMinutes
     path: Transfers/ExecuteImportModel.cs
-    startLine: 52
+    startLine: 57
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -363,11 +401,11 @@ items:
   source:
     remote:
       path: src/Transfers/ExecuteImportModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WaitForCompletion
     path: Transfers/ExecuteImportModel.cs
-    startLine: 57
+    startLine: 62
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -684,6 +722,94 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: Vasont.Inspire.Models.Transfers.ExecuteImportModel.ImportId*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExecuteImportModel.ImportId
+  name: ImportId
+  nameWithType: ExecuteImportModel.ImportId
+  fullName: Vasont.Inspire.Models.Transfers.ExecuteImportModel.ImportId
+- uid: System.Nullable{System.Int64}
+  commentId: T:System.Nullable{System.Int64}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int64>
+  nameWithType: Nullable<Int64>
+  fullName: System.Nullable<System.Int64>
+  nameWithType.vb: Nullable(Of Int64)
+  fullName.vb: System.Nullable(Of System.Int64)
+  name.vb: Nullable(Of Int64)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Vasont.Inspire.Models.Transfers.ExecuteImportModel.WorkingFolderPath*
   commentId: Overload:Vasont.Inspire.Models.Transfers.ExecuteImportModel.WorkingFolderPath
   name: WorkingFolderPath
