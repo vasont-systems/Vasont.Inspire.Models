@@ -23,7 +23,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationBrowseQueryModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationBrowseQueryModel
     path: Translations/TranslationBrowseQueryModel.cs
@@ -73,7 +73,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationBrowseQueryModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IncludeArchived
     path: Translations/TranslationBrowseQueryModel.cs
@@ -110,7 +110,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationBrowseQueryModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IncludeCompleted
     path: Translations/TranslationBrowseQueryModel.cs
@@ -147,7 +147,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationBrowseQueryModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IncludeCancelled
     path: Translations/TranslationBrowseQueryModel.cs
@@ -184,7 +184,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationBrowseQueryModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SearchText
     path: Translations/TranslationBrowseQueryModel.cs
@@ -221,7 +221,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationBrowseQueryModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: JobStates
     path: Translations/TranslationBrowseQueryModel.cs
@@ -258,7 +258,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationBrowseQueryModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: QueryFilters
     path: Translations/TranslationBrowseQueryModel.cs
@@ -295,7 +295,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationBrowseQueryModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: QueryFiltersWithDisplayValues
     path: Translations/TranslationBrowseQueryModel.cs
@@ -332,7 +332,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationBrowseQueryModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: QueryName
     path: Translations/TranslationBrowseQueryModel.cs

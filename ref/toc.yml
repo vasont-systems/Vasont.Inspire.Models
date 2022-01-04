@@ -615,6 +615,8 @@
     name: ImportRequestFileModel
   - uid: Vasont.Inspire.Models.Transfers.ImportRequestModel
     name: ImportRequestModel
+  - uid: Vasont.Inspire.Models.Transfers.ImportSelectionModel
+    name: ImportSelectionModel
   - uid: Vasont.Inspire.Models.Transfers.ImportTransformModel
     name: ImportTransformModel
   - uid: Vasont.Inspire.Models.Transfers.ImportType
@@ -629,6 +631,8 @@
     name: MinimalExportStateModel
   - uid: Vasont.Inspire.Models.Transfers.MinimalImportComponentModel
     name: MinimalImportComponentModel
+  - uid: Vasont.Inspire.Models.Transfers.MinimalImportModel
+    name: MinimalImportModel
   - uid: Vasont.Inspire.Models.Transfers.MinimalImportStateModel
     name: MinimalImportStateModel
   - uid: Vasont.Inspire.Models.Transfers.MissingReferenceModel

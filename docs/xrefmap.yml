@@ -21777,6 +21777,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Transfers.ExecuteImportModel.FilePaths
   nameWithType: ExecuteImportModel.FilePaths
+- uid: Vasont.Inspire.Models.Transfers.ExecuteImportModel.ImportId
+  name: ImportId
+  href: ref/Vasont.Inspire.Models.Transfers.ExecuteImportModel.html#Vasont_Inspire_Models_Transfers_ExecuteImportModel_ImportId
+  commentId: P:Vasont.Inspire.Models.Transfers.ExecuteImportModel.ImportId
+  fullName: Vasont.Inspire.Models.Transfers.ExecuteImportModel.ImportId
+  nameWithType: ExecuteImportModel.ImportId
+- uid: Vasont.Inspire.Models.Transfers.ExecuteImportModel.ImportId*
+  name: ImportId
+  href: ref/Vasont.Inspire.Models.Transfers.ExecuteImportModel.html#Vasont_Inspire_Models_Transfers_ExecuteImportModel_ImportId_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExecuteImportModel.ImportId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.ExecuteImportModel.ImportId
+  nameWithType: ExecuteImportModel.ImportId
 - uid: Vasont.Inspire.Models.Transfers.ExecuteImportModel.SendResultNotification
   name: SendResultNotification
   href: ref/Vasont.Inspire.Models.Transfers.ExecuteImportModel.html#Vasont_Inspire_Models_Transfers_ExecuteImportModel_SendResultNotification
@@ -22844,6 +22857,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Transfers.ImportRequestModel.ImportFiles
   nameWithType: ImportRequestModel.ImportFiles
+- uid: Vasont.Inspire.Models.Transfers.ImportRequestModel.ImportId
+  name: ImportId
+  href: ref/Vasont.Inspire.Models.Transfers.ImportRequestModel.html#Vasont_Inspire_Models_Transfers_ImportRequestModel_ImportId
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportRequestModel.ImportId
+  fullName: Vasont.Inspire.Models.Transfers.ImportRequestModel.ImportId
+  nameWithType: ImportRequestModel.ImportId
+- uid: Vasont.Inspire.Models.Transfers.ImportRequestModel.ImportId*
+  name: ImportId
+  href: ref/Vasont.Inspire.Models.Transfers.ImportRequestModel.html#Vasont_Inspire_Models_Transfers_ImportRequestModel_ImportId_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportRequestModel.ImportId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.ImportRequestModel.ImportId
+  nameWithType: ImportRequestModel.ImportId
 - uid: Vasont.Inspire.Models.Transfers.ImportRequestModel.ProjectFolderId
   name: ProjectFolderId
   href: ref/Vasont.Inspire.Models.Transfers.ImportRequestModel.html#Vasont_Inspire_Models_Transfers_ImportRequestModel_ProjectFolderId
@@ -22883,6 +22909,25 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Transfers.ImportRequestModel.WaitForCompletion
   nameWithType: ImportRequestModel.WaitForCompletion
+- uid: Vasont.Inspire.Models.Transfers.ImportSelectionModel
+  name: ImportSelectionModel
+  href: ref/Vasont.Inspire.Models.Transfers.ImportSelectionModel.html
+  commentId: T:Vasont.Inspire.Models.Transfers.ImportSelectionModel
+  fullName: Vasont.Inspire.Models.Transfers.ImportSelectionModel
+  nameWithType: ImportSelectionModel
+- uid: Vasont.Inspire.Models.Transfers.ImportSelectionModel.ImportModels
+  name: ImportModels
+  href: ref/Vasont.Inspire.Models.Transfers.ImportSelectionModel.html#Vasont_Inspire_Models_Transfers_ImportSelectionModel_ImportModels
+  commentId: P:Vasont.Inspire.Models.Transfers.ImportSelectionModel.ImportModels
+  fullName: Vasont.Inspire.Models.Transfers.ImportSelectionModel.ImportModels
+  nameWithType: ImportSelectionModel.ImportModels
+- uid: Vasont.Inspire.Models.Transfers.ImportSelectionModel.ImportModels*
+  name: ImportModels
+  href: ref/Vasont.Inspire.Models.Transfers.ImportSelectionModel.html#Vasont_Inspire_Models_Transfers_ImportSelectionModel_ImportModels_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ImportSelectionModel.ImportModels
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.ImportSelectionModel.ImportModels
+  nameWithType: ImportSelectionModel.ImportModels
 - uid: Vasont.Inspire.Models.Transfers.ImportTransformModel
   name: ImportTransformModel
   href: ref/Vasont.Inspire.Models.Transfers.ImportTransformModel.html
@@ -23450,6 +23495,38 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Transfers.MinimalImportComponentModel.UniqueId
   nameWithType: MinimalImportComponentModel.UniqueId
+- uid: Vasont.Inspire.Models.Transfers.MinimalImportModel
+  name: MinimalImportModel
+  href: ref/Vasont.Inspire.Models.Transfers.MinimalImportModel.html
+  commentId: T:Vasont.Inspire.Models.Transfers.MinimalImportModel
+  fullName: Vasont.Inspire.Models.Transfers.MinimalImportModel
+  nameWithType: MinimalImportModel
+- uid: Vasont.Inspire.Models.Transfers.MinimalImportModel.ImportId
+  name: ImportId
+  href: ref/Vasont.Inspire.Models.Transfers.MinimalImportModel.html#Vasont_Inspire_Models_Transfers_MinimalImportModel_ImportId
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalImportModel.ImportId
+  fullName: Vasont.Inspire.Models.Transfers.MinimalImportModel.ImportId
+  nameWithType: MinimalImportModel.ImportId
+- uid: Vasont.Inspire.Models.Transfers.MinimalImportModel.ImportId*
+  name: ImportId
+  href: ref/Vasont.Inspire.Models.Transfers.MinimalImportModel.html#Vasont_Inspire_Models_Transfers_MinimalImportModel_ImportId_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.MinimalImportModel.ImportId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.MinimalImportModel.ImportId
+  nameWithType: MinimalImportModel.ImportId
+- uid: Vasont.Inspire.Models.Transfers.MinimalImportModel.Name
+  name: Name
+  href: ref/Vasont.Inspire.Models.Transfers.MinimalImportModel.html#Vasont_Inspire_Models_Transfers_MinimalImportModel_Name
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalImportModel.Name
+  fullName: Vasont.Inspire.Models.Transfers.MinimalImportModel.Name
+  nameWithType: MinimalImportModel.Name
+- uid: Vasont.Inspire.Models.Transfers.MinimalImportModel.Name*
+  name: Name
+  href: ref/Vasont.Inspire.Models.Transfers.MinimalImportModel.html#Vasont_Inspire_Models_Transfers_MinimalImportModel_Name_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.MinimalImportModel.Name
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.MinimalImportModel.Name
+  nameWithType: MinimalImportModel.Name
 - uid: Vasont.Inspire.Models.Transfers.MinimalImportStateModel
   name: MinimalImportStateModel
   href: ref/Vasont.Inspire.Models.Transfers.MinimalImportStateModel.html
@@ -23469,6 +23546,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Transfers.MinimalImportStateModel.Components
   nameWithType: MinimalImportStateModel.Components
+- uid: Vasont.Inspire.Models.Transfers.MinimalImportStateModel.ImportId
+  name: ImportId
+  href: ref/Vasont.Inspire.Models.Transfers.MinimalImportStateModel.html#Vasont_Inspire_Models_Transfers_MinimalImportStateModel_ImportId
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalImportStateModel.ImportId
+  fullName: Vasont.Inspire.Models.Transfers.MinimalImportStateModel.ImportId
+  nameWithType: MinimalImportStateModel.ImportId
+- uid: Vasont.Inspire.Models.Transfers.MinimalImportStateModel.ImportId*
+  name: ImportId
+  href: ref/Vasont.Inspire.Models.Transfers.MinimalImportStateModel.html#Vasont_Inspire_Models_Transfers_MinimalImportStateModel_ImportId_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.MinimalImportStateModel.ImportId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.MinimalImportStateModel.ImportId
+  nameWithType: MinimalImportStateModel.ImportId
 - uid: Vasont.Inspire.Models.Transfers.MinimalImportStateModel.Subfolders
   name: Subfolders
   href: ref/Vasont.Inspire.Models.Transfers.MinimalImportStateModel.html#Vasont_Inspire_Models_Transfers_MinimalImportStateModel_Subfolders

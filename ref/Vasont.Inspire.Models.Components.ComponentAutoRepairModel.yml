@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentAutoRepairModel
     path: Components/ComponentAutoRepairModel.cs
@@ -61,7 +61,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentId
     path: Components/ComponentAutoRepairModel.cs
@@ -98,7 +98,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentName
     path: Components/ComponentAutoRepairModel.cs
@@ -135,7 +135,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: State
     path: Components/ComponentAutoRepairModel.cs
