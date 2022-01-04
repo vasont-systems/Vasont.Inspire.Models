@@ -14,6 +14,11 @@ namespace Vasont.Inspire.Models.Transfers
     public class ImportRequestModel
     {
         /// <summary>
+        /// Gets or sets the import identity used for the importing of the components specified.
+        /// </summary>
+        public long? ImportId { get; set; }
+
+        /// <summary>
         /// Gets or sets the identity of the folder where new components created by the import process will be stored.
         /// </summary>
         public long FolderId { get; set; }

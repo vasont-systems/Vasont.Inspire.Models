@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentRelationModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalComponentRelationModel
     path: Components/MinimalComponentRelationModel.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentRelationModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceComponentId
     path: Components/MinimalComponentRelationModel.cs
@@ -101,7 +101,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentRelationModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetComponentId
     path: Components/MinimalComponentRelationModel.cs
@@ -138,7 +138,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentRelationModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceElementName
     path: Components/MinimalComponentRelationModel.cs
@@ -175,7 +175,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentRelationModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceAttributeValue
     path: Components/MinimalComponentRelationModel.cs
@@ -212,7 +212,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentRelationModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetElementName
     path: Components/MinimalComponentRelationModel.cs
@@ -249,7 +249,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentRelationModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetAttributeValue
     path: Components/MinimalComponentRelationModel.cs

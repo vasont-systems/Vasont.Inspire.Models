@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowStatusModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowStatusModel
     path: Workflow/WorkflowStatusModel.cs
@@ -63,7 +63,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowStatusModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowStatusId
     path: Workflow/WorkflowStatusModel.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowStatusModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowId
     path: Workflow/WorkflowStatusModel.cs
@@ -137,7 +137,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowStatusModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Workflow/WorkflowStatusModel.cs
@@ -174,7 +174,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowStatusModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Workflow/WorkflowStatusModel.cs
@@ -211,7 +211,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowStatusModel.cs
-      branch: develop
+      branch: feature/57485TransformModels
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Coordinates
     path: Workflow/WorkflowStatusModel.cs
