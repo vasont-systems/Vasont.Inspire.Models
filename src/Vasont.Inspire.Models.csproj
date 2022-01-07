@@ -20,15 +20,15 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>CCMS</PackageTags>
      <PackageReleaseNotes>Added SubmissionAttributeModel</PackageReleaseNotes>
-    <Version>1.2.88</Version>
+    <Version>1.2.89</Version>
     <NeutralLanguage>en</NeutralLanguage>
     <Copyright>Copyright (c) GlobalLink Vasont. All rights reserved.</Copyright>
   </PropertyGroup>
 
   <PropertyGroup>
     <BuildDocFx Condition="$(TargetFramework) != 'netstandard2.1' OR '$(Configuration)' != 'Release'">false</BuildDocFx>
-    <AssemblyVersion>1.2.88.0</AssemblyVersion>
-    <FileVersion>1.2.88.0</FileVersion>
+    <AssemblyVersion>1.2.89.0</AssemblyVersion>
+    <FileVersion>1.2.89.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
