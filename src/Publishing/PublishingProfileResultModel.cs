@@ -20,6 +20,6 @@ namespace Vasont.Inspire.Models.Publishing
         /// <summary>
         /// Gets or sets the resulting publishing profiles from the query request.
         /// </summary>
-        public List<PublishingProfileModel> Translations { get; set; } = new List<PublishingProfileModel>();
+        public List<PublishingProfileModel> PublishingProfiles { get; set; } = new List<PublishingProfileModel>();
     }
 }
