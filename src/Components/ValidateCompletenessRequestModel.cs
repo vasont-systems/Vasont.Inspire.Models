@@ -7,6 +7,7 @@ namespace Vasont.Inspire.Models.Components
 {
     using System;
     using System.Collections.Generic;
+    using Vasont.Inspire.Models.Transfers;
 
     /// <summary>
     /// This class contains properties and information to request the system to start an auto repair process.
@@ -54,6 +55,11 @@ namespace Vasont.Inspire.Models.Components
         public bool ComponentNotApproved { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether to error for unsigned components.
+        /// </summary>
+        public bool ComponentNotSigned { get; set; }
+
+        /// <summary>
         /// Gets or sets a value indicating whether to error for locked component.
         /// </summary>
         public bool ComponentLocked { get; set; }
@@ -77,6 +83,16 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets a value indicating whether to error for component with invalid processing instructions.
         /// </summary>
         public bool ComponentInvalidPis { get; set; }
+
+        /// <summary>
+        /// Gets or sets an optional list of profile filters.
+        /// </summary>
+        public List<ExportProfileAttributeFilterModel> ProfileFilters { get; set; } = new List<ExportProfileAttributeFilterModel>();
+
+        /// <summary>
+        /// Gets or sets the xml content to validate.
+        /// </summary>
+        public string XmlContent { get; set; }
 
         /// <summary>
         /// Gets or sets the number of minutes the worker timeout will last.
