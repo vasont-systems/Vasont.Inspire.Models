@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentAutoRepairStateModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalComponentAutoRepairStateModel
     path: Components/MinimalComponentAutoRepairStateModel.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentAutoRepairStateModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentIds
     path: Components/MinimalComponentAutoRepairStateModel.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentAutoRepairStateModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsRepairSuccessful
     path: Components/MinimalComponentAutoRepairStateModel.cs

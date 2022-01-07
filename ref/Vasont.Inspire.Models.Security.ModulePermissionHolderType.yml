@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Security/ModulePermissionModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ModulePermissionHolderType
     path: Security/ModulePermissionModel.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: src/Security/ModulePermissionModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: User
     path: Security/ModulePermissionModel.cs
@@ -96,7 +96,7 @@ items:
   source:
     remote:
       path: src/Security/ModulePermissionModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Role
     path: Security/ModulePermissionModel.cs

@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Security/MinimalTimeZoneModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalTimeZoneModel
     path: Security/MinimalTimeZoneModel.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/Security/MinimalTimeZoneModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TimeZoneId
     path: Security/MinimalTimeZoneModel.cs
@@ -101,7 +101,7 @@ items:
   source:
     remote:
       path: src/Security/MinimalTimeZoneModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ShortName
     path: Security/MinimalTimeZoneModel.cs
@@ -138,7 +138,7 @@ items:
   source:
     remote:
       path: src/Security/MinimalTimeZoneModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Default
     path: Security/MinimalTimeZoneModel.cs
@@ -175,7 +175,7 @@ items:
   source:
     remote:
       path: src/Security/MinimalTimeZoneModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IanaName
     path: Security/MinimalTimeZoneModel.cs

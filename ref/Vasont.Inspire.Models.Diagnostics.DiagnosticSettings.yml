@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Diagnostics/DiagnosticSettings.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DiagnosticSettings
     path: Diagnostics/DiagnosticSettings.cs
@@ -59,7 +59,7 @@ items:
   source:
     remote:
       path: src/Diagnostics/DiagnosticSettings.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ConnectionString
     path: Diagnostics/DiagnosticSettings.cs
