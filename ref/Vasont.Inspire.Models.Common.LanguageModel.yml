@@ -24,7 +24,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LanguageModel
     path: Common/LanguageModel.cs
@@ -74,7 +74,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LanguageCode
     path: Common/LanguageModel.cs
@@ -111,7 +111,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Common/LanguageModel.cs
@@ -148,7 +148,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsLocale
     path: Common/LanguageModel.cs
@@ -185,7 +185,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: HasDictionary
     path: Common/LanguageModel.cs
@@ -222,7 +222,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Default
     path: Common/LanguageModel.cs
@@ -259,7 +259,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Active
     path: Common/LanguageModel.cs
@@ -296,7 +296,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationTarget
     path: Common/LanguageModel.cs
@@ -333,7 +333,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationImageLanguageCode
     path: Common/LanguageModel.cs
@@ -370,7 +370,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57491ComponentCompletenessEnhancements
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationImageLanguageName
     path: Common/LanguageModel.cs
