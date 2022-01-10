@@ -46,6 +46,11 @@ namespace Vasont.Inspire.Models.Components
         public string ComponentName { get; set; }
 
         /// <summary>
+        /// Gets or sets the filename of the component.
+        /// </summary>
+        public string FileName { get; set; }
+
+        /// <summary>
         /// Gets or sets the state of the component.
         /// </summary>
         public ComponentStateType State { get; set; }
