@@ -37,9 +37,9 @@ namespace Vasont.Inspire.Models.Components
         Invalid,
 
         /// <summary>
-        /// Contains a value that indicates the component is out for translation.
+        /// Contains a value that indicates the component has been modified and needs translation.
         /// </summary>
-        Translating,
+        NeedsTranslation,
 
         /// <summary>
         /// Contains a value that indicates the component is electronically signed.

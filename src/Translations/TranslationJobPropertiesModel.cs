@@ -43,6 +43,16 @@ namespace Vasont.Inspire.Models.Translations
         public bool ForceTranslation { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether attributes are to be ignored when finding modified content.
+        /// </summary>
+        public bool IgnoreAttributes { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether XSDs zip file should be included with translation job.
+        /// </summary>
+        public bool IncludeXSDs { get; set; }
+
+        /// <summary>
         /// Gets or sets the display text used for the component filtering based on audience.
         /// </summary>
         public string FilterDisplayString { get; set; }
