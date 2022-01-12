@@ -21,14 +21,9 @@ namespace Vasont.Inspire.Models.Projects
         public long ProjectAssignmentId { get; set; }
 
         /// <summary>
-        /// Gets or sets the associated project identity value.
+        /// Gets or sets the associated project.
         /// </summary>
-        public long ProjectId { get; set; }
-
-        /// <summary>
-        /// Gets or sets the associated project title value.
-        /// </summary>
-        public string ProjectTitle { get; set; }
+        public MinimalProjectModel Project { get; set; }
 
         /// <summary>
         /// Gets or sets the assignment state name.
