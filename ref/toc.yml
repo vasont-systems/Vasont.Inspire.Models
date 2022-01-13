@@ -452,6 +452,10 @@
   items:
   - uid: Vasont.Inspire.Models.Publishing.PublishingProfileModel
     name: PublishingProfileModel
+  - uid: Vasont.Inspire.Models.Publishing.PublishingProfileQueryModel
+    name: PublishingProfileQueryModel
+  - uid: Vasont.Inspire.Models.Publishing.PublishingProfileResultModel
+    name: PublishingProfileResultModel
 - uid: Vasont.Inspire.Models.ReviewComponents
   name: Vasont.Inspire.Models.ReviewComponents
   items:
@@ -544,6 +548,8 @@
   items:
   - uid: Vasont.Inspire.Models.Security.MicroUserModel
     name: MicroUserModel
+  - uid: Vasont.Inspire.Models.Security.MinimalModuleModel
+    name: MinimalModuleModel
   - uid: Vasont.Inspire.Models.Security.MinimalRoleModel
     name: MinimalRoleModel
   - uid: Vasont.Inspire.Models.Security.MinimalTimeZoneModel
@@ -650,6 +656,8 @@
     name: MinimalTranslationJobModel
   - uid: Vasont.Inspire.Models.Translations.SubmissionAttributeModel
     name: SubmissionAttributeModel
+  - uid: Vasont.Inspire.Models.Translations.TranslationAttributeModel
+    name: TranslationAttributeModel
   - uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel
     name: TranslationBrowseQueryModel
   - uid: Vasont.Inspire.Models.Translations.TranslationBrowseResultModel

@@ -7,6 +7,7 @@ items:
   children:
   - Vasont.Inspire.Models.Components.ComponentAutoRepairModel.ComponentId
   - Vasont.Inspire.Models.Components.ComponentAutoRepairModel.ComponentName
+  - Vasont.Inspire.Models.Components.ComponentAutoRepairModel.FileName
   - Vasont.Inspire.Models.Components.ComponentAutoRepairModel.State
   langs:
   - csharp
@@ -18,7 +19,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentAutoRepairModel
     path: Components/ComponentAutoRepairModel.cs
@@ -61,7 +62,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentId
     path: Components/ComponentAutoRepairModel.cs
@@ -98,7 +99,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentName
     path: Components/ComponentAutoRepairModel.cs
@@ -121,6 +122,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Components.ComponentAutoRepairModel.FileName
+  commentId: P:Vasont.Inspire.Models.Components.ComponentAutoRepairModel.FileName
+  id: FileName
+  parent: Vasont.Inspire.Models.Components.ComponentAutoRepairModel
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: ComponentAutoRepairModel.FileName
+  fullName: Vasont.Inspire.Models.Components.ComponentAutoRepairModel.FileName
+  type: Property
+  source:
+    remote:
+      path: src/Components/ComponentAutoRepairModel.cs
+      branch: feature/57883IgnoreAttributesForTranslation
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: FileName
+    path: Components/ComponentAutoRepairModel.cs
+    startLine: 51
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the file name of the component.\n"
+  example: []
+  syntax:
+    content: public string FileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FileName As String
+  overload: Vasont.Inspire.Models.Components.ComponentAutoRepairModel.FileName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Components.ComponentAutoRepairModel.State
   commentId: P:Vasont.Inspire.Models.Components.ComponentAutoRepairModel.State
   id: State
@@ -135,11 +173,11 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: State
     path: Components/ComponentAutoRepairModel.cs
-    startLine: 51
+    startLine: 56
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -480,6 +518,11 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: Vasont.Inspire.Models.Components.ComponentAutoRepairModel.FileName*
+  commentId: Overload:Vasont.Inspire.Models.Components.ComponentAutoRepairModel.FileName
+  name: FileName
+  nameWithType: ComponentAutoRepairModel.FileName
+  fullName: Vasont.Inspire.Models.Components.ComponentAutoRepairModel.FileName
 - uid: Vasont.Inspire.Models.Components.ComponentAutoRepairModel.State*
   commentId: Overload:Vasont.Inspire.Models.Components.ComponentAutoRepairModel.State
   name: State

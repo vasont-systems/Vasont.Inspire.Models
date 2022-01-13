@@ -12,6 +12,7 @@ items:
   - Vasont.Inspire.Models.Projects.ProjectBrowseModel.CompletedDate
   - Vasont.Inspire.Models.Projects.ProjectBrowseModel.ComponentCount
   - Vasont.Inspire.Models.Projects.ProjectBrowseModel.CreatedDate
+  - Vasont.Inspire.Models.Projects.ProjectBrowseModel.DefaultProjectFolderId
   - Vasont.Inspire.Models.Projects.ProjectBrowseModel.Description
   - Vasont.Inspire.Models.Projects.ProjectBrowseModel.DueDate
   - Vasont.Inspire.Models.Projects.ProjectBrowseModel.InProgressAssignmentCount
@@ -39,7 +40,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectBrowseModel
     path: Projects/ProjectBrowseModel.cs
@@ -82,7 +83,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectId
     path: Projects/ProjectBrowseModel.cs
@@ -119,7 +120,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Title
     path: Projects/ProjectBrowseModel.cs
@@ -156,7 +157,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Projects/ProjectBrowseModel.cs
@@ -193,7 +194,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SystemFolderId
     path: Projects/ProjectBrowseModel.cs
@@ -230,7 +231,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SystemFolderName
     path: Projects/ProjectBrowseModel.cs
@@ -267,7 +268,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SystemFolderPath
     path: Projects/ProjectBrowseModel.cs
@@ -290,6 +291,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectBrowseModel.DefaultProjectFolderId
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectBrowseModel.DefaultProjectFolderId
+  id: DefaultProjectFolderId
+  parent: Vasont.Inspire.Models.Projects.ProjectBrowseModel
+  langs:
+  - csharp
+  - vb
+  name: DefaultProjectFolderId
+  nameWithType: ProjectBrowseModel.DefaultProjectFolderId
+  fullName: Vasont.Inspire.Models.Projects.ProjectBrowseModel.DefaultProjectFolderId
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectBrowseModel.cs
+      branch: feature/57883IgnoreAttributesForTranslation
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DefaultProjectFolderId
+    path: Projects/ProjectBrowseModel.cs
+    startLine: 49
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the default project folder identity value.\n"
+  example: []
+  syntax:
+    content: public long? DefaultProjectFolderId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int64}
+    content.vb: Public Property DefaultProjectFolderId As Long?
+  overload: Vasont.Inspire.Models.Projects.ProjectBrowseModel.DefaultProjectFolderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Projects.ProjectBrowseModel.OwnerFullName
   commentId: P:Vasont.Inspire.Models.Projects.ProjectBrowseModel.OwnerFullName
   id: OwnerFullName
@@ -304,11 +342,11 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: OwnerFullName
     path: Projects/ProjectBrowseModel.cs
-    startLine: 49
+    startLine: 54
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -341,11 +379,11 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: OwnerEmail
     path: Projects/ProjectBrowseModel.cs
-    startLine: 54
+    startLine: 59
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -378,11 +416,11 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Owner
     path: Projects/ProjectBrowseModel.cs
-    startLine: 59
+    startLine: 64
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -415,11 +453,11 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Completed
     path: Projects/ProjectBrowseModel.cs
-    startLine: 64
+    startLine: 69
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -452,11 +490,11 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CompletedDate
     path: Projects/ProjectBrowseModel.cs
-    startLine: 69
+    startLine: 74
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -489,11 +527,11 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CompleteByDate
     path: Projects/ProjectBrowseModel.cs
-    startLine: 74
+    startLine: 79
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -526,11 +564,11 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedDate
     path: Projects/ProjectBrowseModel.cs
-    startLine: 79
+    startLine: 84
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -563,11 +601,11 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DueDate
     path: Projects/ProjectBrowseModel.cs
-    startLine: 84
+    startLine: 89
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -600,11 +638,11 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdatedDate
     path: Projects/ProjectBrowseModel.cs
-    startLine: 89
+    startLine: 94
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -637,11 +675,11 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentCount
     path: Projects/ProjectBrowseModel.cs
-    startLine: 94
+    startLine: 99
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -674,11 +712,11 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ToDoAssignmentCount
     path: Projects/ProjectBrowseModel.cs
-    startLine: 99
+    startLine: 104
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -711,11 +749,11 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: InProgressAssignmentCount
     path: Projects/ProjectBrowseModel.cs
-    startLine: 104
+    startLine: 109
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -748,11 +786,11 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CompletedAssignmentCount
     path: Projects/ProjectBrowseModel.cs
-    startLine: 109
+    startLine: 114
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -785,11 +823,11 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CancelledAssignmentCount
     path: Projects/ProjectBrowseModel.cs
-    startLine: 114
+    startLine: 119
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -822,11 +860,11 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MostRecentAccessFullName
     path: Projects/ProjectBrowseModel.cs
-    startLine: 119
+    startLine: 124
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -859,11 +897,11 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MostRecentAccessEmail
     path: Projects/ProjectBrowseModel.cs
-    startLine: 124
+    startLine: 129
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -896,11 +934,11 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MostRecentAccessDate
     path: Projects/ProjectBrowseModel.cs
-    startLine: 129
+    startLine: 134
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -933,11 +971,11 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Languages
     path: Projects/ProjectBrowseModel.cs
-    startLine: 134
+    startLine: 139
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -1381,6 +1419,11 @@ references:
   name: SystemFolderPath
   nameWithType: ProjectBrowseModel.SystemFolderPath
   fullName: Vasont.Inspire.Models.Projects.ProjectBrowseModel.SystemFolderPath
+- uid: Vasont.Inspire.Models.Projects.ProjectBrowseModel.DefaultProjectFolderId*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectBrowseModel.DefaultProjectFolderId
+  name: DefaultProjectFolderId
+  nameWithType: ProjectBrowseModel.DefaultProjectFolderId
+  fullName: Vasont.Inspire.Models.Projects.ProjectBrowseModel.DefaultProjectFolderId
 - uid: Vasont.Inspire.Models.Projects.ProjectBrowseModel.OwnerFullName*
   commentId: Overload:Vasont.Inspire.Models.Projects.ProjectBrowseModel.OwnerFullName
   name: OwnerFullName

@@ -8,8 +8,8 @@ items:
   - Vasont.Inspire.Models.Components.ComponentStateType.Approved
   - Vasont.Inspire.Models.Components.ComponentStateType.Draft
   - Vasont.Inspire.Models.Components.ComponentStateType.Invalid
+  - Vasont.Inspire.Models.Components.ComponentStateType.NeedsTranslation
   - Vasont.Inspire.Models.Components.ComponentStateType.Signed
-  - Vasont.Inspire.Models.Components.ComponentStateType.Translating
   langs:
   - csharp
   - vb
@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentStateType
     path: Components/MinimalComponentModel.cs
@@ -65,7 +65,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Draft
     path: Components/MinimalComponentModel.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Approved
     path: Components/MinimalComponentModel.cs
@@ -133,7 +133,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Invalid
     path: Components/MinimalComponentModel.cs
@@ -153,32 +153,32 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: Vasont.Inspire.Models.Components.ComponentStateType.Translating
-  commentId: F:Vasont.Inspire.Models.Components.ComponentStateType.Translating
-  id: Translating
+- uid: Vasont.Inspire.Models.Components.ComponentStateType.NeedsTranslation
+  commentId: F:Vasont.Inspire.Models.Components.ComponentStateType.NeedsTranslation
+  id: NeedsTranslation
   parent: Vasont.Inspire.Models.Components.ComponentStateType
   langs:
   - csharp
   - vb
-  name: Translating
-  nameWithType: ComponentStateType.Translating
-  fullName: Vasont.Inspire.Models.Components.ComponentStateType.Translating
+  name: NeedsTranslation
+  nameWithType: ComponentStateType.NeedsTranslation
+  fullName: Vasont.Inspire.Models.Components.ComponentStateType.NeedsTranslation
   type: Field
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
-    id: Translating
+    id: NeedsTranslation
     path: Components/MinimalComponentModel.cs
     startLine: 41
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
-  summary: "\nContains a value that indicates the component is out for translation.\n"
+  summary: "\nContains a value that indicates the component has been modified and needs translation.\n"
   example: []
   syntax:
-    content: Translating = 3
+    content: NeedsTranslation = 3
     return:
       type: Vasont.Inspire.Models.Components.ComponentStateType
   modifiers.csharp:
@@ -201,7 +201,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Signed
     path: Components/MinimalComponentModel.cs

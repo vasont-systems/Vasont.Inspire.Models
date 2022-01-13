@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Configuration/ElementModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ElementModel
     path: Configuration/ElementModel.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: src/Configuration/ElementModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ElementId
     path: Configuration/ElementModel.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Configuration/ElementModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ElementName
     path: Configuration/ElementModel.cs

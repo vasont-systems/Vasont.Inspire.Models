@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Plugins/ImportPluginParameterValueModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ImportPluginParameterValueModel
     path: Plugins/ImportPluginParameterValueModel.cs
@@ -63,7 +63,7 @@ items:
   source:
     remote:
       path: src/Plugins/ImportPluginParameterValueModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ImportPluginParameterValueId
     path: Plugins/ImportPluginParameterValueModel.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: src/Plugins/ImportPluginParameterValueModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ImportPluginId
     path: Plugins/ImportPluginParameterValueModel.cs
@@ -137,7 +137,7 @@ items:
   source:
     remote:
       path: src/Plugins/ImportPluginParameterValueModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PluginParameterId
     path: Plugins/ImportPluginParameterValueModel.cs
@@ -174,7 +174,7 @@ items:
   source:
     remote:
       path: src/Plugins/ImportPluginParameterValueModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SortOrder
     path: Plugins/ImportPluginParameterValueModel.cs
@@ -211,7 +211,7 @@ items:
   source:
     remote:
       path: src/Plugins/ImportPluginParameterValueModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Value
     path: Plugins/ImportPluginParameterValueModel.cs

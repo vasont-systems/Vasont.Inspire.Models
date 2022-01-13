@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EditorMode
     path: Components/EditorLoadModel.cs
@@ -63,7 +63,7 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Edit
     path: Components/EditorLoadModel.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: View
     path: Components/EditorLoadModel.cs
@@ -131,7 +131,7 @@ items:
   source:
     remote:
       path: src/Components/EditorLoadModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Review
     path: Components/EditorLoadModel.cs

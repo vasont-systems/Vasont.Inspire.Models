@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Components/EditorValidateModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EditorValidateModel
     path: Components/EditorValidateModel.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: src/Components/EditorValidateModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Schema
     path: Components/EditorValidateModel.cs
@@ -111,7 +111,7 @@ items:
   source:
     remote:
       path: src/Components/EditorValidateModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Xml
     path: Components/EditorValidateModel.cs
