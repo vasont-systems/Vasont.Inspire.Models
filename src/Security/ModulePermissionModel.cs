@@ -50,12 +50,12 @@ namespace Vasont.Inspire.Models.Security
         public string UniqueId { get; set; }
 
         /// <summary>
-        /// Gets or sets the unique user module permission identity
+        /// Gets or sets the unique user module permission identity.
         /// </summary>
         public long ModuleUserPermissionId { get; set; }
 
         /// <summary>
-        /// Gets or sets the unique role module permission identity
+        /// Gets or sets the unique role module permission identity.
         /// </summary>
         public long ModuleRolePermissionId { get; set; }
 
@@ -65,7 +65,7 @@ namespace Vasont.Inspire.Models.Security
         public long ModuleId { get; set; }
 
         /// <summary>
-        /// Gets or sets the user/role name
+        /// Gets or sets the permission name.
         /// </summary>
         public string Name { get; set; }
 
@@ -85,6 +85,11 @@ namespace Vasont.Inspire.Models.Security
         }
 
         /// <summary>
+        /// Gets or sets the role name.
+        /// </summary>
+        public string RoleName { get; set; }
+
+        /// <summary>
         /// Gets or sets the user identity value.
         /// </summary>
         public long UserId
@@ -98,6 +103,11 @@ namespace Vasont.Inspire.Models.Security
                 this.Type = ModulePermissionHolderType.User;
             }
         }
+
+        /// <summary>
+        /// Gets or sets the user name.
+        /// </summary>
+        public string UserName { get; set; }
 
         /// <summary>
         /// Gets or sets the module permission holder type.
