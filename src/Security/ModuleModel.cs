@@ -7,6 +7,7 @@
 namespace Vasont.Inspire.Models.Security
 {
     using System.Collections.Generic;
+    using System.Text.Json.Serialization;
     using Vasont.Inspire.Models.Common;
 
     /// <summary>
@@ -53,6 +54,12 @@ namespace Vasont.Inspire.Models.Security
         /// Gets or sets a list of module permission associations models.
         /// </summary>
         public List<ModulePermissionModel> Permissions { get; set; } = new List<ModulePermissionModel>();
+
+        /// <summary>
+        /// Gets or sets an optional permissions info in a string format.
+        /// </summary>
+        [JsonIgnore]
+        public string PermissionsVerbose { get; set; }
 
         /// <summary>
         /// Gets or sets a list of module properties.
