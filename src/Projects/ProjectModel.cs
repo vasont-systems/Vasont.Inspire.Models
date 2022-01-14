@@ -18,11 +18,6 @@ namespace Vasont.Inspire.Models.Projects
         public List<ProjectDiscussionModel> Discussions { get; set; } = new List<ProjectDiscussionModel>();
 
         /// <summary>
-        /// Gets or sets a list of <see cref="ProjectFolderItemModel"/> objects.
-        /// </summary>
-        public List<ProjectFolderItemModel> FolderItems { get; set; } = new List<ProjectFolderItemModel>();
-
-        /// <summary>
         /// Gets or sets a list of <see cref="ProjectAssignmentModel"/> objects.
         /// </summary>
         public List<ProjectAssignmentModel> Assignments { get; set; } = new List<ProjectAssignmentModel>();
