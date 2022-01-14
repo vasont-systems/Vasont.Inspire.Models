@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Projects/MicroProjectAssignmentStateModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MicroProjectAssignmentStateModel
     path: Projects/MicroProjectAssignmentStateModel.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: src/Projects/MicroProjectAssignmentStateModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectAssignmentStateId
     path: Projects/MicroProjectAssignmentStateModel.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Projects/MicroProjectAssignmentStateModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Projects/MicroProjectAssignmentStateModel.cs

@@ -23,7 +23,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationDataType.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SearchConfigurationDataType
     path: Search/SearchConfigurationDataType.cs
@@ -68,7 +68,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationDataType.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: String
     path: Search/SearchConfigurationDataType.cs
@@ -102,7 +102,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationDataType.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Long
     path: Search/SearchConfigurationDataType.cs
@@ -136,7 +136,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationDataType.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SimplifiedLong
     path: Search/SearchConfigurationDataType.cs
@@ -170,7 +170,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationDataType.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Int
     path: Search/SearchConfigurationDataType.cs
@@ -204,7 +204,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationDataType.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SimplifiedInt
     path: Search/SearchConfigurationDataType.cs
@@ -238,7 +238,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationDataType.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Boolean
     path: Search/SearchConfigurationDataType.cs
@@ -272,7 +272,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationDataType.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DateTime
     path: Search/SearchConfigurationDataType.cs
@@ -306,7 +306,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationDataType.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Xml
     path: Search/SearchConfigurationDataType.cs

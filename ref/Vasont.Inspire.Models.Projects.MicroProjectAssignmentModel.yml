@@ -10,10 +10,9 @@ items:
   - Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.CreatedDate
   - Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.Description
   - Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.DueDate
+  - Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.Project
   - Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.ProjectActivity
   - Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.ProjectAssignmentId
-  - Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.ProjectId
-  - Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.ProjectTitle
   - Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.ProjectWorkflowSubmittal
   - Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.RequiresInput
   - Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.State
@@ -28,7 +27,7 @@ items:
   source:
     remote:
       path: src/Projects/MicroProjectAssignmentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MicroProjectAssignmentModel
     path: Projects/MicroProjectAssignmentModel.cs
@@ -71,7 +70,7 @@ items:
   source:
     remote:
       path: src/Projects/MicroProjectAssignmentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectAssignmentId
     path: Projects/MicroProjectAssignmentModel.cs
@@ -94,74 +93,37 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.ProjectId
-  commentId: P:Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.ProjectId
-  id: ProjectId
+- uid: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.Project
+  commentId: P:Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.Project
+  id: Project
   parent: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel
   langs:
   - csharp
   - vb
-  name: ProjectId
-  nameWithType: MicroProjectAssignmentModel.ProjectId
-  fullName: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.ProjectId
+  name: Project
+  nameWithType: MicroProjectAssignmentModel.Project
+  fullName: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.Project
   type: Property
   source:
     remote:
       path: src/Projects/MicroProjectAssignmentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
-    id: ProjectId
+    id: Project
     path: Projects/MicroProjectAssignmentModel.cs
     startLine: 25
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
-  summary: "\nGets or sets the associated project identity value.\n"
+  summary: "\nGets or sets the associated project.\n"
   example: []
   syntax:
-    content: public long ProjectId { get; set; }
+    content: public MinimalProjectModel Project { get; set; }
     parameters: []
     return:
-      type: System.Int64
-    content.vb: Public Property ProjectId As Long
-  overload: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.ProjectId*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.ProjectTitle
-  commentId: P:Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.ProjectTitle
-  id: ProjectTitle
-  parent: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel
-  langs:
-  - csharp
-  - vb
-  name: ProjectTitle
-  nameWithType: MicroProjectAssignmentModel.ProjectTitle
-  fullName: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.ProjectTitle
-  type: Property
-  source:
-    remote:
-      path: src/Projects/MicroProjectAssignmentModel.cs
-      branch: feature/57485TransformModels
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
-    id: ProjectTitle
-    path: Projects/MicroProjectAssignmentModel.cs
-    startLine: 30
-  assemblies:
-  - Vasont.Inspire.Models
-  namespace: Vasont.Inspire.Models.Projects
-  summary: "\nGets or sets the associated project title value.\n"
-  example: []
-  syntax:
-    content: public string ProjectTitle { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property ProjectTitle As String
-  overload: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.ProjectTitle*
+      type: Vasont.Inspire.Models.Projects.MinimalProjectModel
+    content.vb: Public Property Project As MinimalProjectModel
+  overload: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.Project*
   modifiers.csharp:
   - public
   - get
@@ -182,11 +144,11 @@ items:
   source:
     remote:
       path: src/Projects/MicroProjectAssignmentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: State
     path: Projects/MicroProjectAssignmentModel.cs
-    startLine: 35
+    startLine: 30
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -219,11 +181,11 @@ items:
   source:
     remote:
       path: src/Projects/MicroProjectAssignmentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AssignedUser
     path: Projects/MicroProjectAssignmentModel.cs
-    startLine: 40
+    startLine: 35
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -256,11 +218,11 @@ items:
   source:
     remote:
       path: src/Projects/MicroProjectAssignmentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DueDate
     path: Projects/MicroProjectAssignmentModel.cs
-    startLine: 45
+    startLine: 40
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -293,11 +255,11 @@ items:
   source:
     remote:
       path: src/Projects/MicroProjectAssignmentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedDate
     path: Projects/MicroProjectAssignmentModel.cs
-    startLine: 50
+    startLine: 45
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -330,11 +292,11 @@ items:
   source:
     remote:
       path: src/Projects/MicroProjectAssignmentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Projects/MicroProjectAssignmentModel.cs
-    startLine: 55
+    startLine: 50
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -367,11 +329,11 @@ items:
   source:
     remote:
       path: src/Projects/MicroProjectAssignmentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RequiresInput
     path: Projects/MicroProjectAssignmentModel.cs
-    startLine: 60
+    startLine: 55
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -404,11 +366,11 @@ items:
   source:
     remote:
       path: src/Projects/MicroProjectAssignmentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowName
     path: Projects/MicroProjectAssignmentModel.cs
-    startLine: 65
+    startLine: 60
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -441,11 +403,11 @@ items:
   source:
     remote:
       path: src/Projects/MicroProjectAssignmentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectWorkflowSubmittal
     path: Projects/MicroProjectAssignmentModel.cs
-    startLine: 70
+    startLine: 65
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -478,11 +440,11 @@ items:
   source:
     remote:
       path: src/Projects/MicroProjectAssignmentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectActivity
     path: Projects/MicroProjectAssignmentModel.cs
-    startLine: 75
+    startLine: 70
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -515,11 +477,11 @@ items:
   source:
     remote:
       path: src/Projects/MicroProjectAssignmentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Components
     path: Projects/MicroProjectAssignmentModel.cs
-    startLine: 80
+    startLine: 75
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -848,23 +810,17 @@ references:
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
-- uid: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.ProjectId*
-  commentId: Overload:Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.ProjectId
-  name: ProjectId
-  nameWithType: MicroProjectAssignmentModel.ProjectId
-  fullName: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.ProjectId
-- uid: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.ProjectTitle*
-  commentId: Overload:Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.ProjectTitle
-  name: ProjectTitle
-  nameWithType: MicroProjectAssignmentModel.ProjectTitle
-  fullName: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.ProjectTitle
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+- uid: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.Project*
+  commentId: Overload:Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.Project
+  name: Project
+  nameWithType: MicroProjectAssignmentModel.Project
+  fullName: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.Project
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectModel
+  commentId: T:Vasont.Inspire.Models.Projects.MinimalProjectModel
+  parent: Vasont.Inspire.Models.Projects
+  name: MinimalProjectModel
+  nameWithType: MinimalProjectModel
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectModel
 - uid: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.State*
   commentId: Overload:Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.State
   name: State
@@ -990,6 +946,13 @@ references:
   name: Description
   nameWithType: MicroProjectAssignmentModel.Description
   fullName: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.Description
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.RequiresInput*
   commentId: Overload:Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel.RequiresInput
   name: RequiresInput

@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentLockModel
     path: Components/ComponentLockModel.cs
@@ -67,7 +67,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/ComponentLockModel.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentId
     path: Components/ComponentLockModel.cs
@@ -136,7 +136,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Type
     path: Components/ComponentLockModel.cs
@@ -173,7 +173,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LockedDate
     path: Components/ComponentLockModel.cs
@@ -210,7 +210,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LockedBy
     path: Components/ComponentLockModel.cs
@@ -247,7 +247,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LockReason
     path: Components/ComponentLockModel.cs
@@ -284,7 +284,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SystemLock
     path: Components/ComponentLockModel.cs

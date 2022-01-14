@@ -11,8 +11,11 @@ items:
   - Vasont.Inspire.Models.Translations.TranslationJobModel.FilterDisplayString
   - Vasont.Inspire.Models.Translations.TranslationJobModel.FilterValues
   - Vasont.Inspire.Models.Translations.TranslationJobModel.ForceTranslation
+  - Vasont.Inspire.Models.Translations.TranslationJobModel.IgnoreAllAttributes
+  - Vasont.Inspire.Models.Translations.TranslationJobModel.IgnoredAttributes
   - Vasont.Inspire.Models.Translations.TranslationJobModel.IncludeBinary
   - Vasont.Inspire.Models.Translations.TranslationJobModel.IncludeRelationships
+  - Vasont.Inspire.Models.Translations.TranslationJobModel.IncludeXSDs
   - Vasont.Inspire.Models.Translations.TranslationJobModel.SourceComponentIds
   - Vasont.Inspire.Models.Translations.TranslationJobModel.WorkflowId
   langs:
@@ -25,7 +28,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationJobModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationJobModel
     path: Translations/TranslationJobModel.cs
@@ -102,7 +105,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationJobModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceComponentIds
     path: Translations/TranslationJobModel.cs
@@ -139,7 +142,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationJobModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IncludeRelationships
     path: Translations/TranslationJobModel.cs
@@ -176,7 +179,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationJobModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreateSubFolders
     path: Translations/TranslationJobModel.cs
@@ -213,7 +216,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationJobModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ForceTranslation
     path: Translations/TranslationJobModel.cs
@@ -236,6 +239,117 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.IgnoreAllAttributes
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationJobModel.IgnoreAllAttributes
+  id: IgnoreAllAttributes
+  parent: Vasont.Inspire.Models.Translations.TranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: IgnoreAllAttributes
+  nameWithType: TranslationJobModel.IgnoreAllAttributes
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.IgnoreAllAttributes
+  type: Property
+  source:
+    remote:
+      path: src/Translations/TranslationJobModel.cs
+      branch: feature/57883IgnoreAttributesForTranslation
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IgnoreAllAttributes
+    path: Translations/TranslationJobModel.cs
+    startLine: 37
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets a value indicating whether attributes are to be ignored when finding modified content.\n"
+  example: []
+  syntax:
+    content: public bool IgnoreAllAttributes { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IgnoreAllAttributes As Boolean
+  overload: Vasont.Inspire.Models.Translations.TranslationJobModel.IgnoreAllAttributes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.IgnoredAttributes
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationJobModel.IgnoredAttributes
+  id: IgnoredAttributes
+  parent: Vasont.Inspire.Models.Translations.TranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: IgnoredAttributes
+  nameWithType: TranslationJobModel.IgnoredAttributes
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.IgnoredAttributes
+  type: Property
+  source:
+    remote:
+      path: src/Translations/TranslationJobModel.cs
+      branch: feature/57883IgnoreAttributesForTranslation
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IgnoredAttributes
+    path: Translations/TranslationJobModel.cs
+    startLine: 42
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets a list of translation attribures to ignore.\n"
+  example: []
+  syntax:
+    content: public List<TranslationAttributeModel> IgnoredAttributes { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Translations.TranslationAttributeModel}
+    content.vb: Public Property IgnoredAttributes As List(Of TranslationAttributeModel)
+  overload: Vasont.Inspire.Models.Translations.TranslationJobModel.IgnoredAttributes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.IncludeXSDs
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationJobModel.IncludeXSDs
+  id: IncludeXSDs
+  parent: Vasont.Inspire.Models.Translations.TranslationJobModel
+  langs:
+  - csharp
+  - vb
+  name: IncludeXSDs
+  nameWithType: TranslationJobModel.IncludeXSDs
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.IncludeXSDs
+  type: Property
+  source:
+    remote:
+      path: src/Translations/TranslationJobModel.cs
+      branch: feature/57883IgnoreAttributesForTranslation
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IncludeXSDs
+    path: Translations/TranslationJobModel.cs
+    startLine: 47
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets a value indicating whether XSDs zip file should be included with translation job.\n"
+  example: []
+  syntax:
+    content: public bool IncludeXSDs { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeXSDs As Boolean
+  overload: Vasont.Inspire.Models.Translations.TranslationJobModel.IncludeXSDs*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Translations.TranslationJobModel.Components
   commentId: P:Vasont.Inspire.Models.Translations.TranslationJobModel.Components
   id: Components
@@ -250,11 +364,11 @@ items:
   source:
     remote:
       path: src/Translations/TranslationJobModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Components
     path: Translations/TranslationJobModel.cs
-    startLine: 37
+    startLine: 52
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -287,11 +401,11 @@ items:
   source:
     remote:
       path: src/Translations/TranslationJobModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FilterValues
     path: Translations/TranslationJobModel.cs
-    startLine: 42
+    startLine: 57
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -324,11 +438,11 @@ items:
   source:
     remote:
       path: src/Translations/TranslationJobModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FilterDisplayString
     path: Translations/TranslationJobModel.cs
-    startLine: 47
+    startLine: 62
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -361,11 +475,11 @@ items:
   source:
     remote:
       path: src/Translations/TranslationJobModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IncludeBinary
     path: Translations/TranslationJobModel.cs
-    startLine: 52
+    startLine: 67
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -398,11 +512,11 @@ items:
   source:
     remote:
       path: src/Translations/TranslationJobModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportId
     path: Translations/TranslationJobModel.cs
-    startLine: 57
+    startLine: 72
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -435,11 +549,11 @@ items:
   source:
     remote:
       path: src/Translations/TranslationJobModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowId
     path: Translations/TranslationJobModel.cs
-    startLine: 62
+    startLine: 77
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -1064,6 +1178,63 @@ references:
   name: ForceTranslation
   nameWithType: TranslationJobModel.ForceTranslation
   fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.ForceTranslation
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.IgnoreAllAttributes*
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationJobModel.IgnoreAllAttributes
+  name: IgnoreAllAttributes
+  nameWithType: TranslationJobModel.IgnoreAllAttributes
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.IgnoreAllAttributes
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.IgnoredAttributes*
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationJobModel.IgnoredAttributes
+  name: IgnoredAttributes
+  nameWithType: TranslationJobModel.IgnoredAttributes
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.IgnoredAttributes
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Translations.TranslationAttributeModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Translations.TranslationAttributeModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<TranslationAttributeModel>
+  nameWithType: List<TranslationAttributeModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Translations.TranslationAttributeModel>
+  nameWithType.vb: List(Of TranslationAttributeModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Translations.TranslationAttributeModel)
+  name.vb: List(Of TranslationAttributeModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Translations.TranslationAttributeModel
+    name: TranslationAttributeModel
+    nameWithType: TranslationAttributeModel
+    fullName: Vasont.Inspire.Models.Translations.TranslationAttributeModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Translations.TranslationAttributeModel
+    name: TranslationAttributeModel
+    nameWithType: TranslationAttributeModel
+    fullName: Vasont.Inspire.Models.Translations.TranslationAttributeModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.IncludeXSDs*
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationJobModel.IncludeXSDs
+  name: IncludeXSDs
+  nameWithType: TranslationJobModel.IncludeXSDs
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.IncludeXSDs
 - uid: Vasont.Inspire.Models.Translations.TranslationJobModel.Components*
   commentId: Overload:Vasont.Inspire.Models.Translations.TranslationJobModel.Components
   name: Components

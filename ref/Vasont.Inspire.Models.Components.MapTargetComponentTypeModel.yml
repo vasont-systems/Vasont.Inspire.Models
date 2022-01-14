@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: src/Components/MapTargetComponentTypeModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MapTargetComponentTypeModel
     path: Components/MapTargetComponentTypeModel.cs

@@ -124,7 +124,12 @@ namespace Vasont.Inspire.Models.Translations
         /// <summary>
         /// Gets or sets a value indicating whether attributes are to be ignored when finding modified content.
         /// </summary>
-        public bool IgnoreAttributes { get; set; }
+        public bool IgnoreAllAttributes { get; set; }
+
+        /// <summary>
+        /// Gets or sets a list of translation attribures to ignore.
+        /// </summary>
+        public List<TranslationAttributeModel> IgnoredAttributes { get; set; } = new List<TranslationAttributeModel>();
 
         /// <summary>
         /// Gets or sets a value indicating whether XSDs zip file should be included with translation job.

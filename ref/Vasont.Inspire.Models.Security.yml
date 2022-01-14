@@ -5,6 +5,7 @@ items:
   id: Vasont.Inspire.Models.Security
   children:
   - Vasont.Inspire.Models.Security.MicroUserModel
+  - Vasont.Inspire.Models.Security.MinimalModuleModel
   - Vasont.Inspire.Models.Security.MinimalRoleModel
   - Vasont.Inspire.Models.Security.MinimalTimeZoneModel
   - Vasont.Inspire.Models.Security.MinimalUserModel
@@ -37,6 +38,11 @@ references:
   name: MicroUserModel
   nameWithType: MicroUserModel
   fullName: Vasont.Inspire.Models.Security.MicroUserModel
+- uid: Vasont.Inspire.Models.Security.MinimalModuleModel
+  commentId: T:Vasont.Inspire.Models.Security.MinimalModuleModel
+  name: MinimalModuleModel
+  nameWithType: MinimalModuleModel
+  fullName: Vasont.Inspire.Models.Security.MinimalModuleModel
 - uid: Vasont.Inspire.Models.Security.MinimalRoleModel
   commentId: T:Vasont.Inspire.Models.Security.MinimalRoleModel
   parent: Vasont.Inspire.Models.Security

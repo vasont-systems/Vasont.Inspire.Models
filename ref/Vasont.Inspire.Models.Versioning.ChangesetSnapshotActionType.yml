@@ -25,7 +25,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetSnapshotActionType
     path: Versioning/ChangesetSnapshotModel.cs
@@ -70,7 +70,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Create
     path: Versioning/ChangesetSnapshotModel.cs
@@ -104,7 +104,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Update
     path: Versioning/ChangesetSnapshotModel.cs
@@ -138,7 +138,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdateWithContent
     path: Versioning/ChangesetSnapshotModel.cs
@@ -172,7 +172,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Delete
     path: Versioning/ChangesetSnapshotModel.cs
@@ -206,7 +206,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Move
     path: Versioning/ChangesetSnapshotModel.cs
@@ -240,7 +240,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: OnDemand
     path: Versioning/ChangesetSnapshotModel.cs
@@ -274,7 +274,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Branch
     path: Versioning/ChangesetSnapshotModel.cs
@@ -308,7 +308,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Translate
     path: Versioning/ChangesetSnapshotModel.cs
@@ -342,7 +342,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Publish
     path: Versioning/ChangesetSnapshotModel.cs
@@ -376,7 +376,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Review
     path: Versioning/ChangesetSnapshotModel.cs

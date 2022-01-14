@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationJobComponentState
     path: Translations/MinimalTranslationJobComponentModel.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Queued
     path: Translations/MinimalTranslationJobComponentModel.cs
@@ -98,7 +98,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Submitted
     path: Translations/MinimalTranslationJobComponentModel.cs
@@ -132,7 +132,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Completed
     path: Translations/MinimalTranslationJobComponentModel.cs
@@ -166,7 +166,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Cancelled
     path: Translations/MinimalTranslationJobComponentModel.cs
