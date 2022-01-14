@@ -155,5 +155,10 @@ namespace Vasont.Inspire.Models.Projects
         /// Gets or sets a list of <see cref="ProjectParticipantModel"/> objects.
         /// </summary>
         public List<ProjectParticipantModel> Participants { get; set; } = new List<ProjectParticipantModel>();
+
+        /// <summary>
+        /// Gets or sets a list of <see cref="ProjectFolderItemModel"/> objects.
+        /// </summary>
+        public List<ProjectFolderItemModel> FolderItems { get; set; } = new List<ProjectFolderItemModel>();
     }
 }
