@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowState
     path: Workflow/WorkflowModel.cs
@@ -63,7 +63,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Executing
     path: Workflow/WorkflowModel.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Completed
     path: Workflow/WorkflowModel.cs
@@ -131,7 +131,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Cancelled
     path: Workflow/WorkflowModel.cs

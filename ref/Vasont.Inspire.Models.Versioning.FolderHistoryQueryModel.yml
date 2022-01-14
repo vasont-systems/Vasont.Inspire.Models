@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Versioning/FolderHistoryQueryModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FolderHistoryQueryModel
     path: Versioning/FolderHistoryQueryModel.cs
@@ -68,7 +68,7 @@ items:
   source:
     remote:
       path: src/Versioning/FolderHistoryQueryModel.cs
-      branch: feature/57485TransformModels
+      branch: feature/57883IgnoreAttributesForTranslation
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FolderId
     path: Versioning/FolderHistoryQueryModel.cs

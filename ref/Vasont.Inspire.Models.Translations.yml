@@ -8,6 +8,7 @@ items:
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
   - Vasont.Inspire.Models.Translations.SubmissionAttributeModel
+  - Vasont.Inspire.Models.Translations.TranslationAttributeModel
   - Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel
   - Vasont.Inspire.Models.Translations.TranslationBrowseResultModel
   - Vasont.Inspire.Models.Translations.TranslationDetailModel
@@ -68,6 +69,11 @@ references:
   name: SubmissionAttributeModel
   nameWithType: SubmissionAttributeModel
   fullName: Vasont.Inspire.Models.Translations.SubmissionAttributeModel
+- uid: Vasont.Inspire.Models.Translations.TranslationAttributeModel
+  commentId: T:Vasont.Inspire.Models.Translations.TranslationAttributeModel
+  name: TranslationAttributeModel
+  nameWithType: TranslationAttributeModel
+  fullName: Vasont.Inspire.Models.Translations.TranslationAttributeModel
 - uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel
   commentId: T:Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel
   name: TranslationBrowseQueryModel
