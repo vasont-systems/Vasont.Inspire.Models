@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Components/BatchComponentLockModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: BatchComponentLockModel
     path: Components/BatchComponentLockModel.cs
@@ -70,7 +70,7 @@ items:
   source:
     remote:
       path: src/Components/BatchComponentLockModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentName
     path: Components/BatchComponentLockModel.cs
@@ -107,7 +107,7 @@ items:
   source:
     remote:
       path: src/Components/BatchComponentLockModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LockSucceeded
     path: Components/BatchComponentLockModel.cs
@@ -144,7 +144,7 @@ items:
   source:
     remote:
       path: src/Components/BatchComponentLockModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FailedMessage
     path: Components/BatchComponentLockModel.cs

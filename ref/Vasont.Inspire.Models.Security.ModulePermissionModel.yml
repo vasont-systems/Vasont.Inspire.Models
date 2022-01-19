@@ -17,9 +17,11 @@ items:
   - Vasont.Inspire.Models.Security.ModulePermissionModel.Name
   - Vasont.Inspire.Models.Security.ModulePermissionModel.Permission
   - Vasont.Inspire.Models.Security.ModulePermissionModel.RoleId
+  - Vasont.Inspire.Models.Security.ModulePermissionModel.RoleName
   - Vasont.Inspire.Models.Security.ModulePermissionModel.Type
   - Vasont.Inspire.Models.Security.ModulePermissionModel.UniqueId
   - Vasont.Inspire.Models.Security.ModulePermissionModel.UserId
+  - Vasont.Inspire.Models.Security.ModulePermissionModel.UserName
   langs:
   - csharp
   - vb
@@ -30,7 +32,7 @@ items:
   source:
     remote:
       path: src/Security/ModulePermissionModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ModulePermissionModel
     path: Security/ModulePermissionModel.cs
@@ -80,7 +82,7 @@ items:
   source:
     remote:
       path: src/Security/ModulePermissionModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UniqueId
     path: Security/ModulePermissionModel.cs
@@ -117,7 +119,7 @@ items:
   source:
     remote:
       path: src/Security/ModulePermissionModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ModuleUserPermissionId
     path: Security/ModulePermissionModel.cs
@@ -125,7 +127,7 @@ items:
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
-  summary: "\nGets or sets the unique user module permission identity\n"
+  summary: "\nGets or sets the unique user module permission identity.\n"
   example: []
   syntax:
     content: public long ModuleUserPermissionId { get; set; }
@@ -154,7 +156,7 @@ items:
   source:
     remote:
       path: src/Security/ModulePermissionModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ModuleRolePermissionId
     path: Security/ModulePermissionModel.cs
@@ -162,7 +164,7 @@ items:
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
-  summary: "\nGets or sets the unique role module permission identity\n"
+  summary: "\nGets or sets the unique role module permission identity.\n"
   example: []
   syntax:
     content: public long ModuleRolePermissionId { get; set; }
@@ -191,7 +193,7 @@ items:
   source:
     remote:
       path: src/Security/ModulePermissionModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ModuleId
     path: Security/ModulePermissionModel.cs
@@ -228,7 +230,7 @@ items:
   source:
     remote:
       path: src/Security/ModulePermissionModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Security/ModulePermissionModel.cs
@@ -236,7 +238,7 @@ items:
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
-  summary: "\nGets or sets the user/role name\n"
+  summary: "\nGets or sets the permission name.\n"
   example: []
   syntax:
     content: public string Name { get; set; }
@@ -265,7 +267,7 @@ items:
   source:
     remote:
       path: src/Security/ModulePermissionModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RoleId
     path: Security/ModulePermissionModel.cs
@@ -288,6 +290,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Security.ModulePermissionModel.RoleName
+  commentId: P:Vasont.Inspire.Models.Security.ModulePermissionModel.RoleName
+  id: RoleName
+  parent: Vasont.Inspire.Models.Security.ModulePermissionModel
+  langs:
+  - csharp
+  - vb
+  name: RoleName
+  nameWithType: ModulePermissionModel.RoleName
+  fullName: Vasont.Inspire.Models.Security.ModulePermissionModel.RoleName
+  type: Property
+  source:
+    remote:
+      path: src/Security/ModulePermissionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: RoleName
+    path: Security/ModulePermissionModel.cs
+    startLine: 89
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets the role name.\n"
+  example: []
+  syntax:
+    content: public string RoleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RoleName As String
+  overload: Vasont.Inspire.Models.Security.ModulePermissionModel.RoleName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Security.ModulePermissionModel.UserId
   commentId: P:Vasont.Inspire.Models.Security.ModulePermissionModel.UserId
   id: UserId
@@ -302,11 +341,11 @@ items:
   source:
     remote:
       path: src/Security/ModulePermissionModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserId
     path: Security/ModulePermissionModel.cs
-    startLine: 89
+    startLine: 94
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -319,6 +358,43 @@ items:
       type: System.Int64
     content.vb: Public Property UserId As Long
   overload: Vasont.Inspire.Models.Security.ModulePermissionModel.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Security.ModulePermissionModel.UserName
+  commentId: P:Vasont.Inspire.Models.Security.ModulePermissionModel.UserName
+  id: UserName
+  parent: Vasont.Inspire.Models.Security.ModulePermissionModel
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: ModulePermissionModel.UserName
+  fullName: Vasont.Inspire.Models.Security.ModulePermissionModel.UserName
+  type: Property
+  source:
+    remote:
+      path: src/Security/ModulePermissionModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UserName
+    path: Security/ModulePermissionModel.cs
+    startLine: 109
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets the user name.\n"
+  example: []
+  syntax:
+    content: public string UserName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserName As String
+  overload: Vasont.Inspire.Models.Security.ModulePermissionModel.UserName*
   modifiers.csharp:
   - public
   - get
@@ -339,11 +415,11 @@ items:
   source:
     remote:
       path: src/Security/ModulePermissionModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Type
     path: Security/ModulePermissionModel.cs
-    startLine: 104
+    startLine: 114
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -376,11 +452,11 @@ items:
   source:
     remote:
       path: src/Security/ModulePermissionModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Permission
     path: Security/ModulePermissionModel.cs
-    startLine: 109
+    startLine: 119
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -413,11 +489,11 @@ items:
   source:
     remote:
       path: src/Security/ModulePermissionModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanRead
     path: Security/ModulePermissionModel.cs
-    startLine: 162
+    startLine: 172
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -450,11 +526,11 @@ items:
   source:
     remote:
       path: src/Security/ModulePermissionModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanCreate
     path: Security/ModulePermissionModel.cs
-    startLine: 167
+    startLine: 177
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -487,11 +563,11 @@ items:
   source:
     remote:
       path: src/Security/ModulePermissionModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanUpdate
     path: Security/ModulePermissionModel.cs
-    startLine: 172
+    startLine: 182
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -524,11 +600,11 @@ items:
   source:
     remote:
       path: src/Security/ModulePermissionModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanDelete
     path: Security/ModulePermissionModel.cs
-    startLine: 177
+    startLine: 187
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -561,11 +637,11 @@ items:
   source:
     remote:
       path: src/Security/ModulePermissionModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanRename
     path: Security/ModulePermissionModel.cs
-    startLine: 182
+    startLine: 192
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -598,11 +674,11 @@ items:
   source:
     remote:
       path: src/Security/ModulePermissionModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanSetPermissions
     path: Security/ModulePermissionModel.cs
-    startLine: 187
+    startLine: 197
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -998,11 +1074,21 @@ references:
   name: RoleId
   nameWithType: ModulePermissionModel.RoleId
   fullName: Vasont.Inspire.Models.Security.ModulePermissionModel.RoleId
+- uid: Vasont.Inspire.Models.Security.ModulePermissionModel.RoleName*
+  commentId: Overload:Vasont.Inspire.Models.Security.ModulePermissionModel.RoleName
+  name: RoleName
+  nameWithType: ModulePermissionModel.RoleName
+  fullName: Vasont.Inspire.Models.Security.ModulePermissionModel.RoleName
 - uid: Vasont.Inspire.Models.Security.ModulePermissionModel.UserId*
   commentId: Overload:Vasont.Inspire.Models.Security.ModulePermissionModel.UserId
   name: UserId
   nameWithType: ModulePermissionModel.UserId
   fullName: Vasont.Inspire.Models.Security.ModulePermissionModel.UserId
+- uid: Vasont.Inspire.Models.Security.ModulePermissionModel.UserName*
+  commentId: Overload:Vasont.Inspire.Models.Security.ModulePermissionModel.UserName
+  name: UserName
+  nameWithType: ModulePermissionModel.UserName
+  fullName: Vasont.Inspire.Models.Security.ModulePermissionModel.UserName
 - uid: Vasont.Inspire.Models.Security.ModulePermissionModel.Type*
   commentId: Overload:Vasont.Inspire.Models.Security.ModulePermissionModel.Type
   name: Type

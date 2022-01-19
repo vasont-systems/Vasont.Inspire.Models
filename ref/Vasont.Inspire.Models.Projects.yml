@@ -6,7 +6,7 @@ items:
   children:
   - Vasont.Inspire.Models.Projects.AssignmentNoticeType
   - Vasont.Inspire.Models.Projects.BrowseProjectResultType
-  - Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel
+  - Vasont.Inspire.Models.Projects.DetailedProjectAssignmentModel
   - Vasont.Inspire.Models.Projects.MicroProjectAssignmentStateModel
   - Vasont.Inspire.Models.Projects.MinimalProjectActivityModel
   - Vasont.Inspire.Models.Projects.MinimalProjectAssignmentModel
@@ -41,14 +41,13 @@ items:
   assemblies:
   - Vasont.Inspire.Models
 references:
-- uid: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel
-  commentId: T:Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel
-  name: MicroProjectAssignmentModel
-  nameWithType: MicroProjectAssignmentModel
-  fullName: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel
+- uid: Vasont.Inspire.Models.Projects.DetailedProjectAssignmentModel
+  commentId: T:Vasont.Inspire.Models.Projects.DetailedProjectAssignmentModel
+  name: DetailedProjectAssignmentModel
+  nameWithType: DetailedProjectAssignmentModel
+  fullName: Vasont.Inspire.Models.Projects.DetailedProjectAssignmentModel
 - uid: Vasont.Inspire.Models.Projects.MicroProjectAssignmentStateModel
   commentId: T:Vasont.Inspire.Models.Projects.MicroProjectAssignmentStateModel
-  parent: Vasont.Inspire.Models.Projects
   name: MicroProjectAssignmentStateModel
   nameWithType: MicroProjectAssignmentStateModel
   fullName: Vasont.Inspire.Models.Projects.MicroProjectAssignmentStateModel
@@ -94,6 +93,7 @@ references:
   fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentEmailTemplateModel
 - uid: Vasont.Inspire.Models.Projects.ProjectAssignmentModel
   commentId: T:Vasont.Inspire.Models.Projects.ProjectAssignmentModel
+  parent: Vasont.Inspire.Models.Projects
   name: ProjectAssignmentModel
   nameWithType: ProjectAssignmentModel
   fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentModel

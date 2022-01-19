@@ -45,7 +45,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalComponentModel
     path: Components/MinimalComponentModel.cs
@@ -67,7 +67,6 @@ items:
   - Vasont.Inspire.Models.Components.BranchComponentModel
   - Vasont.Inspire.Models.Components.ComponentModel
   - Vasont.Inspire.Models.Components.DetailedComponentModel
-  - Vasont.Inspire.Models.Components.MapComponentModel
   - Vasont.Inspire.Models.Versioning.MinimalComponentHistoryModel
   - Vasont.Inspire.Models.Workflow.WorkflowEditorModel
   inheritedMembers:
@@ -102,7 +101,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/MinimalComponentModel.cs
@@ -134,7 +133,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/MinimalComponentModel.cs
@@ -170,7 +169,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentId
     path: Components/MinimalComponentModel.cs
@@ -207,7 +206,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentTypeId
     path: Components/MinimalComponentModel.cs
@@ -244,7 +243,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentType
     path: Components/MinimalComponentModel.cs
@@ -281,7 +280,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Metrics
     path: Components/MinimalComponentModel.cs
@@ -318,7 +317,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Folder
     path: Components/MinimalComponentModel.cs
@@ -355,7 +354,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsImage
     path: Components/MinimalComponentModel.cs
@@ -392,7 +391,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ContentType
     path: Components/MinimalComponentModel.cs
@@ -429,7 +428,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Components/MinimalComponentModel.cs
@@ -466,7 +465,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LanguageCode
     path: Components/MinimalComponentModel.cs
@@ -503,7 +502,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LanguageName
     path: Components/MinimalComponentModel.cs
@@ -540,7 +539,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FileName
     path: Components/MinimalComponentModel.cs
@@ -577,7 +576,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: State
     path: Components/MinimalComponentModel.cs
@@ -614,7 +613,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: StateName
     path: Components/MinimalComponentModel.cs
@@ -661,7 +660,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UniqueId
     path: Components/MinimalComponentModel.cs
@@ -698,7 +697,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: HashKey
     path: Components/MinimalComponentModel.cs
@@ -735,7 +734,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Lock
     path: Components/MinimalComponentModel.cs
@@ -772,7 +771,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Permissions
     path: Components/MinimalComponentModel.cs
@@ -809,7 +808,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: VirtualPath
     path: Components/MinimalComponentModel.cs
@@ -846,7 +845,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Type
     path: Components/MinimalComponentModel.cs
@@ -883,7 +882,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanTranslate
     path: Components/MinimalComponentModel.cs
@@ -920,7 +919,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsFollowed
     path: Components/MinimalComponentModel.cs
@@ -957,7 +956,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsFollowedByCurrentUser
     path: Components/MinimalComponentModel.cs
@@ -994,7 +993,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FollowedByUsers
     path: Components/MinimalComponentModel.cs
@@ -1031,7 +1030,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsShared
     path: Components/MinimalComponentModel.cs
@@ -1068,7 +1067,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SharedComponentsCount
     path: Components/MinimalComponentModel.cs
@@ -1105,7 +1104,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: BranchType
     path: Components/MinimalComponentModel.cs
@@ -1142,7 +1141,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MostRecentAccess
     path: Components/MinimalComponentModel.cs
@@ -1179,7 +1178,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserAccessCount
     path: Components/MinimalComponentModel.cs

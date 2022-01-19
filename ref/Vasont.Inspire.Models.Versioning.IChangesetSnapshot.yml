@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Versioning/IChangesetSnapshot.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IChangesetSnapshot
     path: Versioning/IChangesetSnapshot.cs
@@ -51,7 +51,7 @@ items:
   source:
     remote:
       path: src/Versioning/IChangesetSnapshot.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetId
     path: Versioning/IChangesetSnapshot.cs
@@ -85,7 +85,7 @@ items:
   source:
     remote:
       path: src/Versioning/IChangesetSnapshot.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Action
     path: Versioning/IChangesetSnapshot.cs
@@ -119,7 +119,7 @@ items:
   source:
     remote:
       path: src/Versioning/IChangesetSnapshot.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Restored
     path: Versioning/IChangesetSnapshot.cs

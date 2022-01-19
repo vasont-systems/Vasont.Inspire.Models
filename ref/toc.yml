@@ -173,26 +173,6 @@
     name: FolderModel
   - uid: Vasont.Inspire.Models.Components.IComponentReference
     name: IComponentReference
-  - uid: Vasont.Inspire.Models.Components.MapAttributeModel
-    name: MapAttributeModel
-  - uid: Vasont.Inspire.Models.Components.MapAttributeUiMetadataModel
-    name: MapAttributeUiMetadataModel
-  - uid: Vasont.Inspire.Models.Components.MapComponentModel
-    name: MapComponentModel
-  - uid: Vasont.Inspire.Models.Components.MapNodeModel
-    name: MapNodeModel
-  - uid: Vasont.Inspire.Models.Components.MapNodeType
-    name: MapNodeType
-  - uid: Vasont.Inspire.Models.Components.MapNodeUiMetadataModel
-    name: MapNodeUiMetadataModel
-  - uid: Vasont.Inspire.Models.Components.MapSyncRequestModel
-    name: MapSyncRequestModel
-  - uid: Vasont.Inspire.Models.Components.MapSyncResponseModel
-    name: MapSyncResponseModel
-  - uid: Vasont.Inspire.Models.Components.MapTargetComponentTypeModel
-    name: MapTargetComponentTypeModel
-  - uid: Vasont.Inspire.Models.Components.MapTargetModel
-    name: MapTargetModel
   - uid: Vasont.Inspire.Models.Components.MicroComponentModel
     name: MicroComponentModel
   - uid: Vasont.Inspire.Models.Components.MinimalComponentAutoRepairStateModel
@@ -397,8 +377,8 @@
     name: AssignmentNoticeType
   - uid: Vasont.Inspire.Models.Projects.BrowseProjectResultType
     name: BrowseProjectResultType
-  - uid: Vasont.Inspire.Models.Projects.MicroProjectAssignmentModel
-    name: MicroProjectAssignmentModel
+  - uid: Vasont.Inspire.Models.Projects.DetailedProjectAssignmentModel
+    name: DetailedProjectAssignmentModel
   - uid: Vasont.Inspire.Models.Projects.MicroProjectAssignmentStateModel
     name: MicroProjectAssignmentStateModel
   - uid: Vasont.Inspire.Models.Projects.MinimalProjectActivityModel
