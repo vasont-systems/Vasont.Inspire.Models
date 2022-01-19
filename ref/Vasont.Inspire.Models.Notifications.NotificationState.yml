@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NotificationState
     path: Notifications/NotificationModel.cs
@@ -63,7 +63,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Unread
     path: Notifications/NotificationModel.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Read
     path: Notifications/NotificationModel.cs
@@ -131,7 +131,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Archived
     path: Notifications/NotificationModel.cs

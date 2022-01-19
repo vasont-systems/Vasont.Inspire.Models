@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Configuration/LinkMethodModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LinkMethodModel
     path: Configuration/LinkMethodModel.cs
@@ -61,7 +61,7 @@ items:
   source:
     remote:
       path: src/Configuration/LinkMethodModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LinkMethodId
     path: Configuration/LinkMethodModel.cs
@@ -98,7 +98,7 @@ items:
   source:
     remote:
       path: src/Configuration/LinkMethodModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Configuration/LinkMethodModel.cs
@@ -135,7 +135,7 @@ items:
   source:
     remote:
       path: src/Configuration/LinkMethodModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Configuration/LinkMethodModel.cs

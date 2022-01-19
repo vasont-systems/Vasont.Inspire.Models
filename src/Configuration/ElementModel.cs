@@ -19,5 +19,20 @@ namespace Vasont.Inspire.Models.Configuration
         /// Gets or sets the name of the element.
         /// </summary>
         public string ElementName { get; set; }
+
+        /// <summary>
+        /// Gets or sets the display name of the element.
+        /// </summary>
+        public string ElementDisplayName { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the element should have an ID.
+        /// </summary>
+        public bool NeedsId { get; set; } = true;
+
+        /// <summary>
+        /// Gets or sets the display name of the element.
+        /// </summary>
+        public long SchemaStandardId { get; set; } = 0;
     }
 }

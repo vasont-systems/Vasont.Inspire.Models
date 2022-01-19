@@ -13,6 +13,7 @@ items:
   - Vasont.Inspire.Models.Security.ModuleModel.PackageId
   - Vasont.Inspire.Models.Security.ModuleModel.PackageName
   - Vasont.Inspire.Models.Security.ModuleModel.Permissions
+  - Vasont.Inspire.Models.Security.ModuleModel.PermissionsVerbose
   - Vasont.Inspire.Models.Security.ModuleModel.Properties
   langs:
   - csharp
@@ -24,11 +25,11 @@ items:
   source:
     remote:
       path: src/Security/ModuleModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ModuleModel
     path: Security/ModuleModel.cs
-    startLine: 14
+    startLine: 15
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -74,11 +75,11 @@ items:
   source:
     remote:
       path: src/Security/ModuleModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ModuleId
     path: Security/ModuleModel.cs
-    startLine: 19
+    startLine: 20
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -111,11 +112,11 @@ items:
   source:
     remote:
       path: src/Security/ModuleModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PackageId
     path: Security/ModuleModel.cs
-    startLine: 24
+    startLine: 25
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -148,11 +149,11 @@ items:
   source:
     remote:
       path: src/Security/ModuleModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PackageName
     path: Security/ModuleModel.cs
-    startLine: 29
+    startLine: 30
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -185,11 +186,11 @@ items:
   source:
     remote:
       path: src/Security/ModuleModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ModuleKey
     path: Security/ModuleModel.cs
-    startLine: 34
+    startLine: 35
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -222,11 +223,11 @@ items:
   source:
     remote:
       path: src/Security/ModuleModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Security/ModuleModel.cs
-    startLine: 39
+    startLine: 40
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -259,11 +260,11 @@ items:
   source:
     remote:
       path: src/Security/ModuleModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Security/ModuleModel.cs
-    startLine: 44
+    startLine: 45
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -296,11 +297,11 @@ items:
   source:
     remote:
       path: src/Security/ModuleModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Active
     path: Security/ModuleModel.cs
-    startLine: 49
+    startLine: 50
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -333,11 +334,11 @@ items:
   source:
     remote:
       path: src/Security/ModuleModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Permissions
     path: Security/ModuleModel.cs
-    startLine: 54
+    startLine: 55
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -350,6 +351,53 @@ items:
       type: System.Collections.Generic.List{Vasont.Inspire.Models.Security.ModulePermissionModel}
     content.vb: Public Property Permissions As List(Of ModulePermissionModel)
   overload: Vasont.Inspire.Models.Security.ModuleModel.Permissions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Security.ModuleModel.PermissionsVerbose
+  commentId: P:Vasont.Inspire.Models.Security.ModuleModel.PermissionsVerbose
+  id: PermissionsVerbose
+  parent: Vasont.Inspire.Models.Security.ModuleModel
+  langs:
+  - csharp
+  - vb
+  name: PermissionsVerbose
+  nameWithType: ModuleModel.PermissionsVerbose
+  fullName: Vasont.Inspire.Models.Security.ModuleModel.PermissionsVerbose
+  type: Property
+  source:
+    remote:
+      path: src/Security/ModuleModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PermissionsVerbose
+    path: Security/ModuleModel.cs
+    startLine: 60
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets an optional permissions info in a string format.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public string PermissionsVerbose { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property PermissionsVerbose As String
+  overload: Vasont.Inspire.Models.Security.ModuleModel.PermissionsVerbose*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonIgnoreAttribute
+    ctor: System.Text.Json.Serialization.JsonIgnoreAttribute.#ctor
+    arguments: []
   modifiers.csharp:
   - public
   - get
@@ -370,11 +418,11 @@ items:
   source:
     remote:
       path: src/Security/ModuleModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Properties
     path: Security/ModuleModel.cs
-    startLine: 59
+    startLine: 66
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -874,6 +922,11 @@ references:
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Security.ModuleModel.PermissionsVerbose*
+  commentId: Overload:Vasont.Inspire.Models.Security.ModuleModel.PermissionsVerbose
+  name: PermissionsVerbose
+  nameWithType: ModuleModel.PermissionsVerbose
+  fullName: Vasont.Inspire.Models.Security.ModuleModel.PermissionsVerbose
 - uid: Vasont.Inspire.Models.Security.ModuleModel.Properties*
   commentId: Overload:Vasont.Inspire.Models.Security.ModuleModel.Properties
   name: Properties

@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Common/CreatedUpdaterModelBase.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedUpdaterModelBase
     path: Common/CreatedUpdaterModelBase.cs
@@ -71,7 +71,7 @@ items:
   source:
     remote:
       path: src/Common/CreatedUpdaterModelBase.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedDate
     path: Common/CreatedUpdaterModelBase.cs
@@ -108,7 +108,7 @@ items:
   source:
     remote:
       path: src/Common/CreatedUpdaterModelBase.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedBy
     path: Common/CreatedUpdaterModelBase.cs
@@ -145,7 +145,7 @@ items:
   source:
     remote:
       path: src/Common/CreatedUpdaterModelBase.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdatedDate
     path: Common/CreatedUpdaterModelBase.cs
@@ -182,7 +182,7 @@ items:
   source:
     remote:
       path: src/Common/CreatedUpdaterModelBase.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdatedBy
     path: Common/CreatedUpdaterModelBase.cs
