@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Security/MinimalRoleModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalRoleModel
     path: Security/MinimalRoleModel.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/Security/MinimalRoleModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RoleId
     path: Security/MinimalRoleModel.cs
@@ -101,7 +101,7 @@ items:
   source:
     remote:
       path: src/Security/MinimalRoleModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Security/MinimalRoleModel.cs
@@ -138,7 +138,7 @@ items:
   source:
     remote:
       path: src/Security/MinimalRoleModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Security/MinimalRoleModel.cs
@@ -175,7 +175,7 @@ items:
   source:
     remote:
       path: src/Security/MinimalRoleModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SystemRole
     path: Security/MinimalRoleModel.cs

@@ -7,7 +7,6 @@ items:
   children:
   - Vasont.Inspire.Models.Projects.ProjectModel.Assignments
   - Vasont.Inspire.Models.Projects.ProjectModel.Discussions
-  - Vasont.Inspire.Models.Projects.ProjectModel.FolderItems
   - Vasont.Inspire.Models.Projects.ProjectModel.UserAccesses
   - Vasont.Inspire.Models.Projects.ProjectModel.Workflows
   langs:
@@ -20,7 +19,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectModel
     path: Projects/ProjectModel.cs
@@ -67,6 +66,7 @@ items:
   - Vasont.Inspire.Models.Projects.MinimalProjectModel.UserAccessCount
   - Vasont.Inspire.Models.Projects.MinimalProjectModel.Languages
   - Vasont.Inspire.Models.Projects.MinimalProjectModel.Participants
+  - Vasont.Inspire.Models.Projects.MinimalProjectModel.FolderItems
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -94,7 +94,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Discussions
     path: Projects/ProjectModel.cs
@@ -117,43 +117,6 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: Vasont.Inspire.Models.Projects.ProjectModel.FolderItems
-  commentId: P:Vasont.Inspire.Models.Projects.ProjectModel.FolderItems
-  id: FolderItems
-  parent: Vasont.Inspire.Models.Projects.ProjectModel
-  langs:
-  - csharp
-  - vb
-  name: FolderItems
-  nameWithType: ProjectModel.FolderItems
-  fullName: Vasont.Inspire.Models.Projects.ProjectModel.FolderItems
-  type: Property
-  source:
-    remote:
-      path: src/Projects/ProjectModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
-      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
-    id: FolderItems
-    path: Projects/ProjectModel.cs
-    startLine: 22
-  assemblies:
-  - Vasont.Inspire.Models
-  namespace: Vasont.Inspire.Models.Projects
-  summary: "\nGets or sets a list of <xref href=\"Vasont.Inspire.Models.Projects.ProjectFolderItemModel\" data-throw-if-not-resolved=\"false\"></xref> objects.\n"
-  example: []
-  syntax:
-    content: public List<ProjectFolderItemModel> FolderItems { get; set; }
-    parameters: []
-    return:
-      type: System.Collections.Generic.List{Vasont.Inspire.Models.Projects.ProjectFolderItemModel}
-    content.vb: Public Property FolderItems As List(Of ProjectFolderItemModel)
-  overload: Vasont.Inspire.Models.Projects.ProjectModel.FolderItems*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: Vasont.Inspire.Models.Projects.ProjectModel.Assignments
   commentId: P:Vasont.Inspire.Models.Projects.ProjectModel.Assignments
   id: Assignments
@@ -168,11 +131,11 @@ items:
   source:
     remote:
       path: src/Projects/ProjectModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Assignments
     path: Projects/ProjectModel.cs
-    startLine: 27
+    startLine: 22
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -205,11 +168,11 @@ items:
   source:
     remote:
       path: src/Projects/ProjectModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserAccesses
     path: Projects/ProjectModel.cs
-    startLine: 32
+    startLine: 27
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -242,11 +205,11 @@ items:
   source:
     remote:
       path: src/Projects/ProjectModel.cs
-      branch: feature/57883IgnoreAttributesForTranslation
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Workflows
     path: Projects/ProjectModel.cs
-    startLine: 37
+    startLine: 32
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -452,6 +415,12 @@ references:
   name: Participants
   nameWithType: MinimalProjectModel.Participants
   fullName: Vasont.Inspire.Models.Projects.MinimalProjectModel.Participants
+- uid: Vasont.Inspire.Models.Projects.MinimalProjectModel.FolderItems
+  commentId: P:Vasont.Inspire.Models.Projects.MinimalProjectModel.FolderItems
+  parent: Vasont.Inspire.Models.Projects.MinimalProjectModel
+  name: FolderItems
+  nameWithType: MinimalProjectModel.FolderItems
+  fullName: Vasont.Inspire.Models.Projects.MinimalProjectModel.FolderItems
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -834,60 +803,9 @@ references:
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
-- uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
-  commentId: T:Vasont.Inspire.Models.Projects.ProjectFolderItemModel
-  name: ProjectFolderItemModel
-  nameWithType: ProjectFolderItemModel
-  fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
-- uid: Vasont.Inspire.Models.Projects.ProjectModel.FolderItems*
-  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectModel.FolderItems
-  name: FolderItems
-  nameWithType: ProjectModel.FolderItems
-  fullName: Vasont.Inspire.Models.Projects.ProjectModel.FolderItems
-- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Projects.ProjectFolderItemModel}
-  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Projects.ProjectFolderItemModel}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.List`1
-  name: List<ProjectFolderItemModel>
-  nameWithType: List<ProjectFolderItemModel>
-  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Projects.ProjectFolderItemModel>
-  nameWithType.vb: List(Of ProjectFolderItemModel)
-  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Projects.ProjectFolderItemModel)
-  name.vb: List(Of ProjectFolderItemModel)
-  spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
-    name: ProjectFolderItemModel
-    nameWithType: ProjectFolderItemModel
-    fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
-    name: ProjectFolderItemModel
-    nameWithType: ProjectFolderItemModel
-    fullName: Vasont.Inspire.Models.Projects.ProjectFolderItemModel
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: Vasont.Inspire.Models.Projects.ProjectAssignmentModel
   commentId: T:Vasont.Inspire.Models.Projects.ProjectAssignmentModel
+  parent: Vasont.Inspire.Models.Projects
   name: ProjectAssignmentModel
   nameWithType: ProjectAssignmentModel
   fullName: Vasont.Inspire.Models.Projects.ProjectAssignmentModel

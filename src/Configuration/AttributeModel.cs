@@ -19,5 +19,25 @@ namespace Vasont.Inspire.Models.Configuration
         /// Gets or sets the name of the element.
         /// </summary>
         public string AttributeName { get; set; }
+
+        /// <summary>
+        /// Gets or sets the display name of the element.
+        /// </summary>
+        public string AttributeDisplayName { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the attribute is a profiling attribute.
+        /// </summary>
+        public bool Profiled { get; set; } = false;
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the attribute is an identifier.
+        /// </summary>
+        public bool Identifier { get; set; } = false;
+
+        /// <summary>
+        /// Gets or sets the display name of the element.
+        /// </summary>
+        public long SchemaStandardId { get; set; } = 0;
     }
 }
