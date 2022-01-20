@@ -55,5 +55,15 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets a value indicating whether the component create process will repair internal links.
         /// </summary>
         public bool RepairLinks { get; set; } = true;
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the component create process is for a translation job component.
+        /// </summary>
+        public bool IsTranslation { get; set; } = false;
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the component create process is for a branch.
+        /// </summary>
+        public bool IsBranch { get; set; } = false;
     }
 }
