@@ -122,6 +122,11 @@ namespace Vasont.Inspire.Models.Translations
         public bool ForceTranslation { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether the schema XSDs are to be included with the translation job.
+        /// </summary>
+        public bool IncludeSchema { get; set; } = false;
+
+        /// <summary>
         /// Gets or sets a value indicating whether attributes are to be ignored when finding modified content.
         /// </summary>
         public bool IgnoreAllAttributes { get; set; }
