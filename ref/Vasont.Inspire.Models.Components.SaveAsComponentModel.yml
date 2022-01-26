@@ -6,6 +6,8 @@ items:
   parent: Vasont.Inspire.Models.Components
   children:
   - Vasont.Inspire.Models.Components.SaveAsComponentModel.ComponentId
+  - Vasont.Inspire.Models.Components.SaveAsComponentModel.IsBranch
+  - Vasont.Inspire.Models.Components.SaveAsComponentModel.IsTranslation
   - Vasont.Inspire.Models.Components.SaveAsComponentModel.LanguageCode
   - Vasont.Inspire.Models.Components.SaveAsComponentModel.NewComponentName
   - Vasont.Inspire.Models.Components.SaveAsComponentModel.ProjectFolderId
@@ -386,6 +388,80 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.IsTranslation
+  commentId: P:Vasont.Inspire.Models.Components.SaveAsComponentModel.IsTranslation
+  id: IsTranslation
+  parent: Vasont.Inspire.Models.Components.SaveAsComponentModel
+  langs:
+  - csharp
+  - vb
+  name: IsTranslation
+  nameWithType: SaveAsComponentModel.IsTranslation
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.IsTranslation
+  type: Property
+  source:
+    remote:
+      path: src/Components/SaveAsComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IsTranslation
+    path: Components/SaveAsComponentModel.cs
+    startLine: 61
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether the component create process is for a translation job component.\n"
+  example: []
+  syntax:
+    content: public bool IsTranslation { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsTranslation As Boolean
+  overload: Vasont.Inspire.Models.Components.SaveAsComponentModel.IsTranslation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.IsBranch
+  commentId: P:Vasont.Inspire.Models.Components.SaveAsComponentModel.IsBranch
+  id: IsBranch
+  parent: Vasont.Inspire.Models.Components.SaveAsComponentModel
+  langs:
+  - csharp
+  - vb
+  name: IsBranch
+  nameWithType: SaveAsComponentModel.IsBranch
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.IsBranch
+  type: Property
+  source:
+    remote:
+      path: src/Components/SaveAsComponentModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IsBranch
+    path: Components/SaveAsComponentModel.cs
+    startLine: 66
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether the component create process is for a branch.\n"
+  example: []
+  syntax:
+    content: public bool IsBranch { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsBranch As Boolean
+  overload: Vasont.Inspire.Models.Components.SaveAsComponentModel.IsBranch*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: Vasont.Inspire.Models.Components
   commentId: N:Vasont.Inspire.Models.Components
@@ -750,3 +826,13 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.IsTranslation*
+  commentId: Overload:Vasont.Inspire.Models.Components.SaveAsComponentModel.IsTranslation
+  name: IsTranslation
+  nameWithType: SaveAsComponentModel.IsTranslation
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.IsTranslation
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.IsBranch*
+  commentId: Overload:Vasont.Inspire.Models.Components.SaveAsComponentModel.IsBranch
+  name: IsBranch
+  nameWithType: SaveAsComponentModel.IsBranch
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.IsBranch
