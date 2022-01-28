@@ -6,9 +6,38 @@
 namespace Vasont.Inspire.Models.Publishing
 {
     using System;
+    using Newtonsoft.Json;
+    using Newtonsoft.Json.Converters;
     using Vasont.Inspire.Models.Components;
     using Vasont.Inspire.Models.Security;
     using Vasont.Inspire.Models.Transfers;
+
+    /// <summary>
+    /// Contains an enumerated list of publishing profile status.
+    /// </summary>
+    [JsonConverter(typeof(StringEnumConverter))]
+    public enum PublishingProfileStatus
+    {
+        /// <summary>
+        /// The publishing profile has been queued.
+        /// </summary>
+        Pending,
+
+        /// <summary>
+        /// The publishing profile has been submitted to the publish server.
+        /// </summary>
+        Submitted,
+
+        /// <summary>
+        /// The publishing profile job has completed successfully.
+        /// </summary>
+        Success,
+
+        /// <summary>
+        /// The publishing profile job has failed.
+        /// </summary>
+        Failed
+    }
 
     /// <summary>
     /// This model class represents the profile detail for a publishing profile.
@@ -99,5 +128,10 @@ namespace Vasont.Inspire.Models.Publishing
         /// Gets or sets the user information about the user who last published the profile.
         /// </summary>
         public MinimalUserModel LastPublishedBy { get; set; } = new MinimalUserModel();
+
+        /// <summary>
+        /// Gets or sets the last published status of the profile.
+        /// </summary>
+        public PublishingProfileStatus? Status { get; set; }
     }
 }
