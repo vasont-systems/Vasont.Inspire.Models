@@ -109,6 +109,11 @@ namespace Vasont.Inspire.Models.Plugins
         public Uri WebhookUrl { get; set; }
 
         /// <summary>
+        /// Gets or sets the optional identity of the publish profile that generated the request.
+        /// </summary>
+        public long PublishProfileId { get; set; }
+
+        /// <summary>
         /// Gets or sets values containing the publish parameters.
         /// </summary>
         public Dictionary<string, string> PublishParameters { get; set; } = new Dictionary<string, string>();
