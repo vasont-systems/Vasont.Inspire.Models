@@ -24,6 +24,11 @@ namespace Vasont.Inspire.Models.Transfers
         public long ExportId { get; set; }
 
         /// <summary>
+        /// Gets or sets the optional publish profile identity.
+        /// </summary>
+        public long PublishProfileId { get; set; }
+
+        /// <summary>
         /// Gets or sets a list of component identities to export.
         /// </summary>
         public List<long> ComponentIdsToExport { get; set; } = new List<long>();

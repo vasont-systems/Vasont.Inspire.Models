@@ -58,6 +58,11 @@ namespace Vasont.Inspire.Models.Plugins
         public string PublishConfigName { get; set; }
 
         /// <summary>
+        /// Gets or sets the optional identity of the publish profile associated with the result.
+        /// </summary>
+        public long PublishProfileId { get; set; }
+
+        /// <summary>
         /// Gets or sets a list of strings containing any warning messages for the published file.
         /// </summary>
         public List<string> WarningMessages { get; set; } = new List<string>();
