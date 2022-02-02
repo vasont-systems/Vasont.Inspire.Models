@@ -8,6 +8,7 @@ items:
   - Vasont.Inspire.Models.Plugins.PublishResultModel.PublishConfigName
   - Vasont.Inspire.Models.Plugins.PublishResultModel.PublishInitiated
   - Vasont.Inspire.Models.Plugins.PublishResultModel.PublishInitiateErrors
+  - Vasont.Inspire.Models.Plugins.PublishResultModel.PublishProfileId
   - Vasont.Inspire.Models.Plugins.PublishResultModel.ResultFilePath
   - Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentId
   - Vasont.Inspire.Models.Plugins.PublishResultModel.RootComponentName
@@ -387,6 +388,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishProfileId
+  commentId: P:Vasont.Inspire.Models.Plugins.PublishResultModel.PublishProfileId
+  id: PublishProfileId
+  parent: Vasont.Inspire.Models.Plugins.PublishResultModel
+  langs:
+  - csharp
+  - vb
+  name: PublishProfileId
+  nameWithType: PublishResultModel.PublishProfileId
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishProfileId
+  type: Property
+  source:
+    remote:
+      path: src/Plugins/PublishResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PublishProfileId
+    path: Plugins/PublishResultModel.cs
+    startLine: 62
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nGets or sets the optional identity of the publish profile associated with the result.\n"
+  example: []
+  syntax:
+    content: public long PublishProfileId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property PublishProfileId As Long
+  overload: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishProfileId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Plugins.PublishResultModel.WarningMessages
   commentId: P:Vasont.Inspire.Models.Plugins.PublishResultModel.WarningMessages
   id: WarningMessages
@@ -405,7 +443,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WarningMessages
     path: Plugins/PublishResultModel.cs
-    startLine: 62
+    startLine: 67
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -794,6 +832,11 @@ references:
   name: PublishConfigName
   nameWithType: PublishResultModel.PublishConfigName
   fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishConfigName
+- uid: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishProfileId*
+  commentId: Overload:Vasont.Inspire.Models.Plugins.PublishResultModel.PublishProfileId
+  name: PublishProfileId
+  nameWithType: PublishResultModel.PublishProfileId
+  fullName: Vasont.Inspire.Models.Plugins.PublishResultModel.PublishProfileId
 - uid: Vasont.Inspire.Models.Plugins.PublishResultModel.WarningMessages*
   commentId: Overload:Vasont.Inspire.Models.Plugins.PublishResultModel.WarningMessages
   name: WarningMessages
