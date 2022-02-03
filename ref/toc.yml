@@ -236,16 +236,6 @@
     name: ComponentAttributeValueModel
   - uid: Vasont.Inspire.Models.Components.Schema.ComponentConfigurationAttributeType
     name: ComponentConfigurationAttributeType
-  - uid: Vasont.Inspire.Models.Components.Schema.ComponentConfigurationElementModeRole
-    name: ComponentConfigurationElementModeRole
-  - uid: Vasont.Inspire.Models.Components.Schema.ComponentConfigurationElementType
-    name: ComponentConfigurationElementType
-  - uid: Vasont.Inspire.Models.Components.Schema.ComponentConfigurationModel
-    name: ComponentConfigurationModel
-  - uid: Vasont.Inspire.Models.Components.Schema.ComponentElementContainsRuleModel
-    name: ComponentElementContainsRuleModel
-  - uid: Vasont.Inspire.Models.Components.Schema.ComponentElementModel
-    name: ComponentElementModel
   - uid: Vasont.Inspire.Models.Components.Schema.MinimalProfileAttributeModel
     name: MinimalProfileAttributeModel
   - uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel
@@ -436,6 +426,8 @@
     name: PublishingProfileQueryModel
   - uid: Vasont.Inspire.Models.Publishing.PublishingProfileResultModel
     name: PublishingProfileResultModel
+  - uid: Vasont.Inspire.Models.Publishing.PublishingProfileStatus
+    name: PublishingProfileStatus
 - uid: Vasont.Inspire.Models.ReviewComponents
   name: Vasont.Inspire.Models.ReviewComponents
   items:

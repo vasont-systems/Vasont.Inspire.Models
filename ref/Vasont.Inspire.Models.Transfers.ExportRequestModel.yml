@@ -11,6 +11,7 @@ items:
   - Vasont.Inspire.Models.Transfers.ExportRequestModel.ExportId
   - Vasont.Inspire.Models.Transfers.ExportRequestModel.LockForEdit
   - Vasont.Inspire.Models.Transfers.ExportRequestModel.ProfileFilters
+  - Vasont.Inspire.Models.Transfers.ExportRequestModel.PublishProfileId
   - Vasont.Inspire.Models.Transfers.ExportRequestModel.SendNotification
   - Vasont.Inspire.Models.Transfers.ExportRequestModel.SkipXmlValidation
   langs:
@@ -126,6 +127,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.PublishProfileId
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportRequestModel.PublishProfileId
+  id: PublishProfileId
+  parent: Vasont.Inspire.Models.Transfers.ExportRequestModel
+  langs:
+  - csharp
+  - vb
+  name: PublishProfileId
+  nameWithType: ExportRequestModel.PublishProfileId
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.PublishProfileId
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ExportRequestModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: PublishProfileId
+    path: Transfers/ExportRequestModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the optional publish profile identity.\n"
+  example: []
+  syntax:
+    content: public long PublishProfileId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property PublishProfileId As Long
+  overload: Vasont.Inspire.Models.Transfers.ExportRequestModel.PublishProfileId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.ComponentIdsToExport
   commentId: P:Vasont.Inspire.Models.Transfers.ExportRequestModel.ComponentIdsToExport
   id: ComponentIdsToExport
@@ -144,7 +182,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentIdsToExport
     path: Transfers/ExportRequestModel.cs
-    startLine: 28
+    startLine: 33
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -181,7 +219,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AlwaysZipResults
     path: Transfers/ExportRequestModel.cs
-    startLine: 33
+    startLine: 38
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -218,7 +256,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SendNotification
     path: Transfers/ExportRequestModel.cs
-    startLine: 38
+    startLine: 43
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -255,7 +293,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProfileFilters
     path: Transfers/ExportRequestModel.cs
-    startLine: 43
+    startLine: 48
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -292,7 +330,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LockForEdit
     path: Transfers/ExportRequestModel.cs
-    startLine: 48
+    startLine: 53
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -329,7 +367,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SkipXmlValidation
     path: Transfers/ExportRequestModel.cs
-    startLine: 53
+    startLine: 58
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -750,6 +788,11 @@ references:
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.PublishProfileId*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportRequestModel.PublishProfileId
+  name: PublishProfileId
+  nameWithType: ExportRequestModel.PublishProfileId
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.PublishProfileId
 - uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.ComponentIdsToExport*
   commentId: Overload:Vasont.Inspire.Models.Transfers.ExportRequestModel.ComponentIdsToExport
   name: ComponentIdsToExport
