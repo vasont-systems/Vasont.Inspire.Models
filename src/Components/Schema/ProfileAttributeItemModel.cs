@@ -42,7 +42,7 @@ namespace Vasont.Inspire.Models.Components.Schema
         public string Id { get; set; }
 
         /// <summary>
-        /// Gets or sets the profile attribute item type
+        /// Gets or sets the profile attribute item type.
         /// </summary>
         [JsonProperty(Order = 2)]
         [JsonConverter(typeof(StringEnumConverter))]
