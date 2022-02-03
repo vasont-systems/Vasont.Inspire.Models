@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Projects/RecentProjectModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RecentProjectModel
     path: Projects/RecentProjectModel.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: src/Projects/RecentProjectModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectId
     path: Projects/RecentProjectModel.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Projects/RecentProjectModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Title
     path: Projects/RecentProjectModel.cs

@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentStateType
     path: Components/MinimalComponentModel.cs
@@ -65,7 +65,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Draft
     path: Components/MinimalComponentModel.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Approved
     path: Components/MinimalComponentModel.cs
@@ -133,7 +133,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Invalid
     path: Components/MinimalComponentModel.cs
@@ -167,7 +167,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NeedsTranslation
     path: Components/MinimalComponentModel.cs
@@ -201,7 +201,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Signed
     path: Components/MinimalComponentModel.cs

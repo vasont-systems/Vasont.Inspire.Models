@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationJobStateModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationJobStateModel
     path: Translations/TranslationJobStateModel.cs

@@ -5,6 +5,7 @@ items:
   id: Vasont.Inspire.Models.Configuration
   children:
   - Vasont.Inspire.Models.Configuration.AttributeModel
+  - Vasont.Inspire.Models.Configuration.AttributeValueModel
   - Vasont.Inspire.Models.Configuration.ElementModel
   - Vasont.Inspire.Models.Configuration.LinkMethodModel
   - Vasont.Inspire.Models.Configuration.MinimalRelationModel
@@ -28,6 +29,11 @@ references:
   name: AttributeModel
   nameWithType: AttributeModel
   fullName: Vasont.Inspire.Models.Configuration.AttributeModel
+- uid: Vasont.Inspire.Models.Configuration.AttributeValueModel
+  commentId: T:Vasont.Inspire.Models.Configuration.AttributeValueModel
+  name: AttributeValueModel
+  nameWithType: AttributeValueModel
+  fullName: Vasont.Inspire.Models.Configuration.AttributeValueModel
 - uid: Vasont.Inspire.Models.Configuration.ElementModel
   commentId: T:Vasont.Inspire.Models.Configuration.ElementModel
   name: ElementModel

@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationExportStateModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationExportStateModel
     path: Translations/TranslationExportStateModel.cs
@@ -61,7 +61,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationExportStateModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationVendorId
     path: Translations/TranslationExportStateModel.cs
@@ -98,7 +98,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationExportStateModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationVendorName
     path: Translations/TranslationExportStateModel.cs
@@ -135,7 +135,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationExportStateModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationJobs
     path: Translations/TranslationExportStateModel.cs

@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ProfileAttributeModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProfileAttributeModel
     path: Components/Schema/ProfileAttributeModel.cs
@@ -67,7 +67,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ProfileAttributeModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Profiled
     path: Components/Schema/ProfileAttributeModel.cs
@@ -104,7 +104,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ProfileAttributeModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ValidValues
     path: Components/Schema/ProfileAttributeModel.cs
@@ -141,7 +141,7 @@ items:
   source:
     remote:
       path: src/Components/Schema/ProfileAttributeModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Groups
     path: Components/Schema/ProfileAttributeModel.cs
