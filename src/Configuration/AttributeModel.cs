@@ -36,8 +36,8 @@ namespace Vasont.Inspire.Models.Configuration
         public bool Identifier { get; set; } = false;
 
         /// <summary>
-        /// Gets or sets the display name of the element.
+        /// Gets or sets the schema standard key name for the attribute.
         /// </summary>
-        public long SchemaStandardId { get; set; } = 0;
+        public string SchemaStandardKeyName { get; set; } = string.Empty;
     }
 }
