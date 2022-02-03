@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Plugins/PluginModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PluginModel
     path: Plugins/PluginModel.cs
@@ -63,7 +63,7 @@ items:
   source:
     remote:
       path: src/Plugins/PluginModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Plugins/PluginModel.cs
@@ -95,7 +95,7 @@ items:
   source:
     remote:
       path: src/Plugins/PluginModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PluginId
     path: Plugins/PluginModel.cs
@@ -132,7 +132,7 @@ items:
   source:
     remote:
       path: src/Plugins/PluginModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Plugins/PluginModel.cs
@@ -169,7 +169,7 @@ items:
   source:
     remote:
       path: src/Plugins/PluginModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Repeatable
     path: Plugins/PluginModel.cs
@@ -206,7 +206,7 @@ items:
   source:
     remote:
       path: src/Plugins/PluginModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SystemEvent
     path: Plugins/PluginModel.cs

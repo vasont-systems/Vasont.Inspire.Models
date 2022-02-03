@@ -10,7 +10,7 @@ items:
   - Vasont.Inspire.Models.Configuration.AttributeModel.AttributeName
   - Vasont.Inspire.Models.Configuration.AttributeModel.Identifier
   - Vasont.Inspire.Models.Configuration.AttributeModel.Profiled
-  - Vasont.Inspire.Models.Configuration.AttributeModel.SchemaStandardId
+  - Vasont.Inspire.Models.Configuration.AttributeModel.SchemaStandardKeyName
   langs:
   - csharp
   - vb
@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: src/Configuration/AttributeModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AttributeModel
     path: Configuration/AttributeModel.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/Configuration/AttributeModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AttributeId
     path: Configuration/AttributeModel.cs
@@ -101,7 +101,7 @@ items:
   source:
     remote:
       path: src/Configuration/AttributeModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AttributeName
     path: Configuration/AttributeModel.cs
@@ -138,7 +138,7 @@ items:
   source:
     remote:
       path: src/Configuration/AttributeModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AttributeDisplayName
     path: Configuration/AttributeModel.cs
@@ -175,7 +175,7 @@ items:
   source:
     remote:
       path: src/Configuration/AttributeModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Profiled
     path: Configuration/AttributeModel.cs
@@ -212,7 +212,7 @@ items:
   source:
     remote:
       path: src/Configuration/AttributeModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Identifier
     path: Configuration/AttributeModel.cs
@@ -235,37 +235,37 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: Vasont.Inspire.Models.Configuration.AttributeModel.SchemaStandardId
-  commentId: P:Vasont.Inspire.Models.Configuration.AttributeModel.SchemaStandardId
-  id: SchemaStandardId
+- uid: Vasont.Inspire.Models.Configuration.AttributeModel.SchemaStandardKeyName
+  commentId: P:Vasont.Inspire.Models.Configuration.AttributeModel.SchemaStandardKeyName
+  id: SchemaStandardKeyName
   parent: Vasont.Inspire.Models.Configuration.AttributeModel
   langs:
   - csharp
   - vb
-  name: SchemaStandardId
-  nameWithType: AttributeModel.SchemaStandardId
-  fullName: Vasont.Inspire.Models.Configuration.AttributeModel.SchemaStandardId
+  name: SchemaStandardKeyName
+  nameWithType: AttributeModel.SchemaStandardKeyName
+  fullName: Vasont.Inspire.Models.Configuration.AttributeModel.SchemaStandardKeyName
   type: Property
   source:
     remote:
       path: src/Configuration/AttributeModel.cs
-      branch: develop
+      branch: feature/58277RemoveUnusedModelsPart2
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
-    id: SchemaStandardId
+    id: SchemaStandardKeyName
     path: Configuration/AttributeModel.cs
     startLine: 40
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Configuration
-  summary: "\nGets or sets the display name of the element.\n"
+  summary: "\nGets or sets the schema standard key name for the attribute.\n"
   example: []
   syntax:
-    content: public long SchemaStandardId { get; set; }
+    content: public string SchemaStandardKeyName { get; set; }
     parameters: []
     return:
-      type: System.Int64
-    content.vb: Public Property SchemaStandardId As Long
-  overload: Vasont.Inspire.Models.Configuration.AttributeModel.SchemaStandardId*
+      type: System.String
+    content.vb: Public Property SchemaStandardKeyName As String
+  overload: Vasont.Inspire.Models.Configuration.AttributeModel.SchemaStandardKeyName*
   modifiers.csharp:
   - public
   - get
@@ -616,8 +616,8 @@ references:
   name: Identifier
   nameWithType: AttributeModel.Identifier
   fullName: Vasont.Inspire.Models.Configuration.AttributeModel.Identifier
-- uid: Vasont.Inspire.Models.Configuration.AttributeModel.SchemaStandardId*
-  commentId: Overload:Vasont.Inspire.Models.Configuration.AttributeModel.SchemaStandardId
-  name: SchemaStandardId
-  nameWithType: AttributeModel.SchemaStandardId
-  fullName: Vasont.Inspire.Models.Configuration.AttributeModel.SchemaStandardId
+- uid: Vasont.Inspire.Models.Configuration.AttributeModel.SchemaStandardKeyName*
+  commentId: Overload:Vasont.Inspire.Models.Configuration.AttributeModel.SchemaStandardKeyName
+  name: SchemaStandardKeyName
+  nameWithType: AttributeModel.SchemaStandardKeyName
+  fullName: Vasont.Inspire.Models.Configuration.AttributeModel.SchemaStandardKeyName
