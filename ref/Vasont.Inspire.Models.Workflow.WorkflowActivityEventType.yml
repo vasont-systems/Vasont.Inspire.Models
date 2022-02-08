@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowActivityEventModel.cs
-      branch: feature/58277RemoveUnusedModelsPart2
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowActivityEventType
     path: Workflow/WorkflowActivityEventModel.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowActivityEventModel.cs
-      branch: feature/58277RemoveUnusedModelsPart2
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EnterActivity
     path: Workflow/WorkflowActivityEventModel.cs
@@ -98,7 +98,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowActivityEventModel.cs
-      branch: feature/58277RemoveUnusedModelsPart2
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExitActivity
     path: Workflow/WorkflowActivityEventModel.cs
@@ -132,7 +132,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowActivityEventModel.cs
-      branch: feature/58277RemoveUnusedModelsPart2
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Command
     path: Workflow/WorkflowActivityEventModel.cs
@@ -166,7 +166,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowActivityEventModel.cs
-      branch: feature/58277RemoveUnusedModelsPart2
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Timer
     path: Workflow/WorkflowActivityEventModel.cs

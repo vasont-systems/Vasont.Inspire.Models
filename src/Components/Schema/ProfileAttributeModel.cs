@@ -6,6 +6,7 @@
 namespace Vasont.Inspire.Models.Components.Schema
 {
     using System.Collections.Generic;
+    using Vasont.Inspire.Models.Configuration;
 
     /// <summary>
     /// This class defines the properties of a profile attribute model.
@@ -20,7 +21,7 @@ namespace Vasont.Inspire.Models.Components.Schema
         /// <summary>
         /// Gets or sets a list valid values related to of key value pair objects containing valid values and display text for the attribute.
         /// </summary>
-        public List<ComponentAttributeValueModel> ValidValues { get; set; } = new List<ComponentAttributeValueModel>();
+        public List<AttributeValueModel> ValidValues { get; set; } = new List<AttributeValueModel>();
 
         /// <summary>
         /// Gets or sets a list of profile attribute groups that are associated with the component attribute.
