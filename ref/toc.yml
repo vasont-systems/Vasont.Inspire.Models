@@ -230,12 +230,6 @@
 - uid: Vasont.Inspire.Models.Components.Schema
   name: Vasont.Inspire.Models.Components.Schema
   items:
-  - uid: Vasont.Inspire.Models.Components.Schema.ComponentAttributeModel
-    name: ComponentAttributeModel
-  - uid: Vasont.Inspire.Models.Components.Schema.ComponentAttributeValueModel
-    name: ComponentAttributeValueModel
-  - uid: Vasont.Inspire.Models.Components.Schema.ComponentConfigurationAttributeType
-    name: ComponentConfigurationAttributeType
   - uid: Vasont.Inspire.Models.Components.Schema.MinimalProfileAttributeModel
     name: MinimalProfileAttributeModel
   - uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel
@@ -422,6 +416,8 @@
 - uid: Vasont.Inspire.Models.Publishing
   name: Vasont.Inspire.Models.Publishing
   items:
+  - uid: Vasont.Inspire.Models.Publishing.PublishingProfileHistoryModel
+    name: PublishingProfileHistoryModel
   - uid: Vasont.Inspire.Models.Publishing.PublishingProfileModel
     name: PublishingProfileModel
   - uid: Vasont.Inspire.Models.Publishing.PublishingProfileQueryModel
