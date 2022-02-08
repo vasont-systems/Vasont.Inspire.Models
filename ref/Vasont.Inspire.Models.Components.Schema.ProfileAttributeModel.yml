@@ -18,11 +18,11 @@ items:
   source:
     remote:
       path: src/Components/Schema/ProfileAttributeModel.cs
-      branch: feature/58277RemoveUnusedModelsPart2
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProfileAttributeModel
     path: Components/Schema/ProfileAttributeModel.cs
-    startLine: 12
+    startLine: 13
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components.Schema
@@ -67,11 +67,11 @@ items:
   source:
     remote:
       path: src/Components/Schema/ProfileAttributeModel.cs
-      branch: feature/58277RemoveUnusedModelsPart2
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Profiled
     path: Components/Schema/ProfileAttributeModel.cs
-    startLine: 17
+    startLine: 18
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components.Schema
@@ -104,22 +104,22 @@ items:
   source:
     remote:
       path: src/Components/Schema/ProfileAttributeModel.cs
-      branch: feature/58277RemoveUnusedModelsPart2
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ValidValues
     path: Components/Schema/ProfileAttributeModel.cs
-    startLine: 22
+    startLine: 23
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components.Schema
   summary: "\nGets or sets a list valid values related to of key value pair objects containing valid values and display text for the attribute.\n"
   example: []
   syntax:
-    content: public List<ComponentAttributeValueModel> ValidValues { get; set; }
+    content: public List<AttributeValueModel> ValidValues { get; set; }
     parameters: []
     return:
-      type: System.Collections.Generic.List{Vasont.Inspire.Models.Components.Schema.ComponentAttributeValueModel}
-    content.vb: Public Property ValidValues As List(Of ComponentAttributeValueModel)
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Configuration.AttributeValueModel}
+    content.vb: Public Property ValidValues As List(Of AttributeValueModel)
   overload: Vasont.Inspire.Models.Components.Schema.ProfileAttributeModel.ValidValues*
   modifiers.csharp:
   - public
@@ -141,11 +141,11 @@ items:
   source:
     remote:
       path: src/Components/Schema/ProfileAttributeModel.cs
-      branch: feature/58277RemoveUnusedModelsPart2
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Groups
     path: Components/Schema/ProfileAttributeModel.cs
-    startLine: 27
+    startLine: 28
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components.Schema
@@ -503,16 +503,16 @@ references:
   name: ValidValues
   nameWithType: ProfileAttributeModel.ValidValues
   fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeModel.ValidValues
-- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Components.Schema.ComponentAttributeValueModel}
-  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Components.Schema.ComponentAttributeValueModel}
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Configuration.AttributeValueModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Configuration.AttributeValueModel}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.List`1
-  name: List<ComponentAttributeValueModel>
-  nameWithType: List<ComponentAttributeValueModel>
-  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Components.Schema.ComponentAttributeValueModel>
-  nameWithType.vb: List(Of ComponentAttributeValueModel)
-  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Components.Schema.ComponentAttributeValueModel)
-  name.vb: List(Of ComponentAttributeValueModel)
+  name: List<AttributeValueModel>
+  nameWithType: List<AttributeValueModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Configuration.AttributeValueModel>
+  nameWithType.vb: List(Of AttributeValueModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Configuration.AttributeValueModel)
+  name.vb: List(Of AttributeValueModel)
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -522,10 +522,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: Vasont.Inspire.Models.Components.Schema.ComponentAttributeValueModel
-    name: ComponentAttributeValueModel
-    nameWithType: ComponentAttributeValueModel
-    fullName: Vasont.Inspire.Models.Components.Schema.ComponentAttributeValueModel
+  - uid: Vasont.Inspire.Models.Configuration.AttributeValueModel
+    name: AttributeValueModel
+    nameWithType: AttributeValueModel
+    fullName: Vasont.Inspire.Models.Configuration.AttributeValueModel
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -538,10 +538,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: Vasont.Inspire.Models.Components.Schema.ComponentAttributeValueModel
-    name: ComponentAttributeValueModel
-    nameWithType: ComponentAttributeValueModel
-    fullName: Vasont.Inspire.Models.Components.Schema.ComponentAttributeValueModel
+  - uid: Vasont.Inspire.Models.Configuration.AttributeValueModel
+    name: AttributeValueModel
+    nameWithType: AttributeValueModel
+    fullName: Vasont.Inspire.Models.Configuration.AttributeValueModel
   - name: )
     nameWithType: )
     fullName: )

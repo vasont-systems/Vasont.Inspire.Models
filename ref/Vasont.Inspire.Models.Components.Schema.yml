@@ -4,9 +4,6 @@ items:
   commentId: N:Vasont.Inspire.Models.Components.Schema
   id: Vasont.Inspire.Models.Components.Schema
   children:
-  - Vasont.Inspire.Models.Components.Schema.ComponentAttributeModel
-  - Vasont.Inspire.Models.Components.Schema.ComponentAttributeValueModel
-  - Vasont.Inspire.Models.Components.Schema.ComponentConfigurationAttributeType
   - Vasont.Inspire.Models.Components.Schema.MinimalProfileAttributeModel
   - Vasont.Inspire.Models.Components.Schema.ProfileAttributeGroupModel
   - Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel
@@ -22,22 +19,6 @@ items:
   assemblies:
   - Vasont.Inspire.Models
 references:
-- uid: Vasont.Inspire.Models.Components.Schema.ComponentConfigurationAttributeType
-  commentId: T:Vasont.Inspire.Models.Components.Schema.ComponentConfigurationAttributeType
-  parent: Vasont.Inspire.Models.Components.Schema
-  name: ComponentConfigurationAttributeType
-  nameWithType: ComponentConfigurationAttributeType
-  fullName: Vasont.Inspire.Models.Components.Schema.ComponentConfigurationAttributeType
-- uid: Vasont.Inspire.Models.Components.Schema.ComponentAttributeModel
-  commentId: T:Vasont.Inspire.Models.Components.Schema.ComponentAttributeModel
-  name: ComponentAttributeModel
-  nameWithType: ComponentAttributeModel
-  fullName: Vasont.Inspire.Models.Components.Schema.ComponentAttributeModel
-- uid: Vasont.Inspire.Models.Components.Schema.ComponentAttributeValueModel
-  commentId: T:Vasont.Inspire.Models.Components.Schema.ComponentAttributeValueModel
-  name: ComponentAttributeValueModel
-  nameWithType: ComponentAttributeValueModel
-  fullName: Vasont.Inspire.Models.Components.Schema.ComponentAttributeValueModel
 - uid: Vasont.Inspire.Models.Components.Schema.MinimalProfileAttributeModel
   commentId: T:Vasont.Inspire.Models.Components.Schema.MinimalProfileAttributeModel
   parent: Vasont.Inspire.Models.Components.Schema

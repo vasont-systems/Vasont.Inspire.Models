@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Versioning/MinimalFolderHistoryModel.cs
-      branch: feature/58277RemoveUnusedModelsPart2
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalFolderHistoryModel
     path: Versioning/MinimalFolderHistoryModel.cs
@@ -70,7 +70,7 @@ items:
   source:
     remote:
       path: src/Versioning/MinimalFolderHistoryModel.cs
-      branch: feature/58277RemoveUnusedModelsPart2
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetId
     path: Versioning/MinimalFolderHistoryModel.cs
@@ -109,7 +109,7 @@ items:
   source:
     remote:
       path: src/Versioning/MinimalFolderHistoryModel.cs
-      branch: feature/58277RemoveUnusedModelsPart2
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Action
     path: Versioning/MinimalFolderHistoryModel.cs
@@ -148,7 +148,7 @@ items:
   source:
     remote:
       path: src/Versioning/MinimalFolderHistoryModel.cs
-      branch: feature/58277RemoveUnusedModelsPart2
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Restored
     path: Versioning/MinimalFolderHistoryModel.cs

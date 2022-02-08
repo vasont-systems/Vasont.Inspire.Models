@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Utilities/SupportMessageModel.cs
-      branch: feature/58277RemoveUnusedModelsPart2
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SupportMessageModel
     path: Utilities/SupportMessageModel.cs
@@ -59,7 +59,7 @@ items:
   source:
     remote:
       path: src/Utilities/SupportMessageModel.cs
-      branch: feature/58277RemoveUnusedModelsPart2
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Message
     path: Utilities/SupportMessageModel.cs

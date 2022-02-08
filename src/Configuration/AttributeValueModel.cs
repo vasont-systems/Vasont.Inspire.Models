@@ -3,6 +3,9 @@
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-------------------------------------------------------------
+using System.Collections.Generic;
+using Vasont.Inspire.Models.Components.Schema;
+
 namespace Vasont.Inspire.Models.Configuration
 {
     /// <summary>
@@ -29,5 +32,10 @@ namespace Vasont.Inspire.Models.Configuration
         /// Gets or sets the value.
         /// </summary>
         public string Value { get; set; }
+
+        /// <summary>
+        /// Gets or sets a list of profile attribute groups that are associated with the component attribute value.
+        /// </summary>
+        public List<ProfileAttributeGroupModel> Groups { get; set; } = new List<ProfileAttributeGroupModel>();
     }
 }

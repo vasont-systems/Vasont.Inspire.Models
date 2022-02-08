@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/58277RemoveUnusedModelsPart2
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WebhookConfigurationNameType
     path: Webhooks/WebhookConfigurationModel.cs
@@ -66,7 +66,7 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/58277RemoveUnusedModelsPart2
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ZoominFeedback
     path: Webhooks/WebhookConfigurationModel.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/58277RemoveUnusedModelsPart2
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ZoominNewContent
     path: Webhooks/WebhookConfigurationModel.cs
@@ -134,7 +134,7 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/58277RemoveUnusedModelsPart2
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PublishResult
     path: Webhooks/WebhookConfigurationModel.cs
@@ -168,7 +168,7 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/58277RemoveUnusedModelsPart2
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectDirectorNotification
     path: Webhooks/WebhookConfigurationModel.cs
@@ -202,7 +202,7 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/58277RemoveUnusedModelsPart2
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: OxygenSession
     path: Webhooks/WebhookConfigurationModel.cs
@@ -236,7 +236,7 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/58277RemoveUnusedModelsPart2
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NotifyExternalAsset
     path: Webhooks/WebhookConfigurationModel.cs
