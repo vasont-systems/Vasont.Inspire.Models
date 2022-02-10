@@ -77,6 +77,11 @@ namespace Vasont.Inspire.Models.Translations
         public long TranslationJobSourceComponentId { get; set; }
 
         /// <summary>
+        /// Gets or sets the translation job target component identifier.
+        /// </summary>
+        public long TranslationJobTargetComponentId { get; set; }
+
+        /// <summary>
         /// Gets or sets the name.
         /// </summary>
         public string Name { get; set; }
