@@ -3,11 +3,12 @@
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-------------------------------------------------------------
-using System.Collections.Generic;
-using Vasont.Inspire.Models.Components.Schema;
 
 namespace Vasont.Inspire.Models.Configuration
 {
+    using System.Collections.Generic;
+    using Vasont.Inspire.Models.Components.Schema;
+
     /// <summary>
     /// This class represents an attribute value ithin the system and is to be used for interaction with application user interfaces.
     /// </summary>

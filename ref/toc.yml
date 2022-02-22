@@ -418,6 +418,10 @@
   items:
   - uid: Vasont.Inspire.Models.Publishing.PublishingProfileHistoryModel
     name: PublishingProfileHistoryModel
+  - uid: Vasont.Inspire.Models.Publishing.PublishingProfileHistoryQueryModel
+    name: PublishingProfileHistoryQueryModel
+  - uid: Vasont.Inspire.Models.Publishing.PublishingProfileHistoryResultModel
+    name: PublishingProfileHistoryResultModel
   - uid: Vasont.Inspire.Models.Publishing.PublishingProfileModel
     name: PublishingProfileModel
   - uid: Vasont.Inspire.Models.Publishing.PublishingProfileQueryModel
@@ -620,6 +624,8 @@
   items:
   - uid: Vasont.Inspire.Models.Translations.IntegrationMethodType
     name: IntegrationMethodType
+  - uid: Vasont.Inspire.Models.Translations.MinimalTranslationConfigurationModel
+    name: MinimalTranslationConfigurationModel
   - uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
     name: MinimalTranslationJobComponentModel
   - uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
@@ -632,6 +638,12 @@
     name: TranslationBrowseQueryModel
   - uid: Vasont.Inspire.Models.Translations.TranslationBrowseResultModel
     name: TranslationBrowseResultModel
+  - uid: Vasont.Inspire.Models.Translations.TranslationConfigurationModel
+    name: TranslationConfigurationModel
+  - uid: Vasont.Inspire.Models.Translations.TranslationConfigurationQueryModel
+    name: TranslationConfigurationQueryModel
+  - uid: Vasont.Inspire.Models.Translations.TranslationConfigurationResultModel
+    name: TranslationConfigurationResultModel
   - uid: Vasont.Inspire.Models.Translations.TranslationDetailModel
     name: TranslationDetailModel
   - uid: Vasont.Inspire.Models.Translations.TranslationExportJobModel

@@ -18,6 +18,7 @@ items:
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobComponentId
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobId
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobSourceComponentId
+  - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobTargetComponentId
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.WordCount
   langs:
   - csharp
@@ -29,7 +30,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/58761TranslationConfigurationsPart3Models
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalTranslationJobComponentModel
     path: Translations/MinimalTranslationJobComponentModel.cs
@@ -74,7 +75,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/58761TranslationConfigurationsPart3Models
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationJobComponentId
     path: Translations/MinimalTranslationJobComponentModel.cs
@@ -111,7 +112,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/58761TranslationConfigurationsPart3Models
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationJobId
     path: Translations/MinimalTranslationJobComponentModel.cs
@@ -148,7 +149,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/58761TranslationConfigurationsPart3Models
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: State
     path: Translations/MinimalTranslationJobComponentModel.cs
@@ -185,7 +186,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/58761TranslationConfigurationsPart3Models
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FileName
     path: Translations/MinimalTranslationJobComponentModel.cs
@@ -222,7 +223,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/58761TranslationConfigurationsPart3Models
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceLanguageCode
     path: Translations/MinimalTranslationJobComponentModel.cs
@@ -259,7 +260,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/58761TranslationConfigurationsPart3Models
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetLanguageCode
     path: Translations/MinimalTranslationJobComponentModel.cs
@@ -296,7 +297,7 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/58761TranslationConfigurationsPart3Models
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationJobSourceComponentId
     path: Translations/MinimalTranslationJobComponentModel.cs
@@ -319,6 +320,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobTargetComponentId
+  commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobTargetComponentId
+  id: TranslationJobTargetComponentId
+  parent: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
+  langs:
+  - csharp
+  - vb
+  name: TranslationJobTargetComponentId
+  nameWithType: MinimalTranslationJobComponentModel.TranslationJobTargetComponentId
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobTargetComponentId
+  type: Property
+  source:
+    remote:
+      path: src/Translations/MinimalTranslationJobComponentModel.cs
+      branch: feature/58761TranslationConfigurationsPart3Models
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: TranslationJobTargetComponentId
+    path: Translations/MinimalTranslationJobComponentModel.cs
+    startLine: 81
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Translations
+  summary: "\nGets or sets the translation job target component identifier.\n"
+  example: []
+  syntax:
+    content: public long TranslationJobTargetComponentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TranslationJobTargetComponentId As Long
+  overload: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobTargetComponentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Name
   commentId: P:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Name
   id: Name
@@ -333,11 +371,11 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/58761TranslationConfigurationsPart3Models
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Translations/MinimalTranslationJobComponentModel.cs
-    startLine: 81
+    startLine: 86
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -370,11 +408,11 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/58761TranslationConfigurationsPart3Models
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentTypeName
     path: Translations/MinimalTranslationJobComponentModel.cs
-    startLine: 86
+    startLine: 91
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -407,11 +445,11 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/58761TranslationConfigurationsPart3Models
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Path
     path: Translations/MinimalTranslationJobComponentModel.cs
-    startLine: 91
+    startLine: 96
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -444,11 +482,11 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/58761TranslationConfigurationsPart3Models
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WordCount
     path: Translations/MinimalTranslationJobComponentModel.cs
-    startLine: 96
+    startLine: 101
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -481,11 +519,11 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/58761TranslationConfigurationsPart3Models
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CharCount
     path: Translations/MinimalTranslationJobComponentModel.cs
-    startLine: 101
+    startLine: 106
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -518,11 +556,11 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/58761TranslationConfigurationsPart3Models
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CharCountNoSpace
     path: Translations/MinimalTranslationJobComponentModel.cs
-    startLine: 106
+    startLine: 111
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -555,11 +593,11 @@ items:
   source:
     remote:
       path: src/Translations/MinimalTranslationJobComponentModel.cs
-      branch: develop
+      branch: feature/58761TranslationConfigurationsPart3Models
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FileSize
     path: Translations/MinimalTranslationJobComponentModel.cs
-    startLine: 111
+    startLine: 116
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Translations
@@ -931,6 +969,11 @@ references:
   name: TranslationJobSourceComponentId
   nameWithType: MinimalTranslationJobComponentModel.TranslationJobSourceComponentId
   fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobSourceComponentId
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobTargetComponentId*
+  commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobTargetComponentId
+  name: TranslationJobTargetComponentId
+  nameWithType: MinimalTranslationJobComponentModel.TranslationJobTargetComponentId
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.TranslationJobTargetComponentId
 - uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Name*
   commentId: Overload:Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel.Name
   name: Name
