@@ -5,12 +5,16 @@ items:
   id: Vasont.Inspire.Models.Translations
   children:
   - Vasont.Inspire.Models.Translations.IntegrationMethodType
+  - Vasont.Inspire.Models.Translations.MinimalTranslationConfigurationModel
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
   - Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
   - Vasont.Inspire.Models.Translations.SubmissionAttributeModel
   - Vasont.Inspire.Models.Translations.TranslationAttributeModel
   - Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel
   - Vasont.Inspire.Models.Translations.TranslationBrowseResultModel
+  - Vasont.Inspire.Models.Translations.TranslationConfigurationModel
+  - Vasont.Inspire.Models.Translations.TranslationConfigurationQueryModel
+  - Vasont.Inspire.Models.Translations.TranslationConfigurationResultModel
   - Vasont.Inspire.Models.Translations.TranslationDetailModel
   - Vasont.Inspire.Models.Translations.TranslationExportJobModel
   - Vasont.Inspire.Models.Translations.TranslationExportRequestModel
@@ -40,6 +44,12 @@ items:
   assemblies:
   - Vasont.Inspire.Models
 references:
+- uid: Vasont.Inspire.Models.Translations.MinimalTranslationConfigurationModel
+  commentId: T:Vasont.Inspire.Models.Translations.MinimalTranslationConfigurationModel
+  parent: Vasont.Inspire.Models.Translations
+  name: MinimalTranslationConfigurationModel
+  nameWithType: MinimalTranslationConfigurationModel
+  fullName: Vasont.Inspire.Models.Translations.MinimalTranslationConfigurationModel
 - uid: Vasont.Inspire.Models.Translations.TranslationJobComponentState
   commentId: T:Vasont.Inspire.Models.Translations.TranslationJobComponentState
   parent: Vasont.Inspire.Models.Translations
@@ -84,6 +94,21 @@ references:
   name: TranslationBrowseResultModel
   nameWithType: TranslationBrowseResultModel
   fullName: Vasont.Inspire.Models.Translations.TranslationBrowseResultModel
+- uid: Vasont.Inspire.Models.Translations.TranslationConfigurationModel
+  commentId: T:Vasont.Inspire.Models.Translations.TranslationConfigurationModel
+  name: TranslationConfigurationModel
+  nameWithType: TranslationConfigurationModel
+  fullName: Vasont.Inspire.Models.Translations.TranslationConfigurationModel
+- uid: Vasont.Inspire.Models.Translations.TranslationConfigurationQueryModel
+  commentId: T:Vasont.Inspire.Models.Translations.TranslationConfigurationQueryModel
+  name: TranslationConfigurationQueryModel
+  nameWithType: TranslationConfigurationQueryModel
+  fullName: Vasont.Inspire.Models.Translations.TranslationConfigurationQueryModel
+- uid: Vasont.Inspire.Models.Translations.TranslationConfigurationResultModel
+  commentId: T:Vasont.Inspire.Models.Translations.TranslationConfigurationResultModel
+  name: TranslationConfigurationResultModel
+  nameWithType: TranslationConfigurationResultModel
+  fullName: Vasont.Inspire.Models.Translations.TranslationConfigurationResultModel
 - uid: Vasont.Inspire.Models.Translations.TranslationDetailModel
   commentId: T:Vasont.Inspire.Models.Translations.TranslationDetailModel
   name: TranslationDetailModel

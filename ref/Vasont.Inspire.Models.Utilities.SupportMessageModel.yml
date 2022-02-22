@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Utilities/SupportMessageModel.cs
-      branch: develop
+      branch: feature/58761TranslationConfigurationsPart3Models
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SupportMessageModel
     path: Utilities/SupportMessageModel.cs
@@ -59,7 +59,7 @@ items:
   source:
     remote:
       path: src/Utilities/SupportMessageModel.cs
-      branch: develop
+      branch: feature/58761TranslationConfigurationsPart3Models
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Message
     path: Utilities/SupportMessageModel.cs
