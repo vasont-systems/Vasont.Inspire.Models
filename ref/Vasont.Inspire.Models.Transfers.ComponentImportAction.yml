@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalImportComponentModel.cs
-      branch: develop
+      branch: feature/58761TranslationConfigurationsPart3Models
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentImportAction
     path: Transfers/MinimalImportComponentModel.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalImportComponentModel.cs
-      branch: develop
+      branch: feature/58761TranslationConfigurationsPart3Models
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Create
     path: Transfers/MinimalImportComponentModel.cs
@@ -98,7 +98,7 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalImportComponentModel.cs
-      branch: develop
+      branch: feature/58761TranslationConfigurationsPart3Models
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Update
     path: Transfers/MinimalImportComponentModel.cs
@@ -132,7 +132,7 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalImportComponentModel.cs
-      branch: develop
+      branch: feature/58761TranslationConfigurationsPart3Models
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdateReferencesOnly
     path: Transfers/MinimalImportComponentModel.cs
@@ -166,7 +166,7 @@ items:
   source:
     remote:
       path: src/Transfers/MinimalImportComponentModel.cs
-      branch: develop
+      branch: feature/58761TranslationConfigurationsPart3Models
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Ignore
     path: Transfers/MinimalImportComponentModel.cs

@@ -20,6 +20,6 @@ namespace Vasont.Inspire.Models.Translations
         /// <summary>
         /// Gets or sets the resulting translation configurations from the query request.
         /// </summary>
-        public List<MinimalTranslationConfigurationModel> TranslationConfigurations { get; set; } = new List<MinimalTranslationConfigurationModel>();
+        public List<TranslationConfigurationModel> TranslationConfigurations { get; set; } = new List<TranslationConfigurationModel>();
     }
 }
