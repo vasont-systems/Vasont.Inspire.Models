@@ -42,7 +42,12 @@ namespace Vasont.Inspire.Models.Webhooks
         /// <summary>
         /// The notify external asset webhook.
         /// </summary>
-        NotifyExternalAsset
+        NotifyExternalAsset,
+
+        /// <summary>
+        /// The Slack webhook.
+        /// </summary>
+        Slack
     }
 
     /// <summary>
