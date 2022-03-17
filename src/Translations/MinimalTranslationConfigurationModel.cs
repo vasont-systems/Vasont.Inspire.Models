@@ -56,6 +56,16 @@ namespace Vasont.Inspire.Models.Translations
         /// </summary>
         public MinimalUserModel UpdatedBy { get; set; } = new MinimalUserModel();
 
+        /// <summary>
+        /// Gets or sets a value indicating whether the translation configuration is active.
+        /// </summary>
+        public bool Active { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the translation configuration is a default translation configuration.
+        /// </summary>
+        public bool Default { get; set; }
+
         public List<MinimalLanguageModel> Languages { get; set; } = new List<MinimalLanguageModel>();
 
         /// <summary>
