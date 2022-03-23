@@ -8,7 +8,7 @@ namespace Vasont.Inspire.Models.Notifications
     using System.Collections.Generic;
 
     /// <summary>
-    /// This model represents the inputs for sending a notification to list of users.
+    /// This model represents the inputs for notifying list of users via notification / email / slack.
     /// </summary>
     public class NotifyUsersModel
     {
@@ -18,23 +18,28 @@ namespace Vasont.Inspire.Models.Notifications
         public List<long> UserIds { get; set; }
 
         /// <summary>
-        /// Gets or sets the notification message subject.
+        /// Gets or sets the subject for the notification or email.
         /// </summary>
-        public string NotificationSubject { get; set; }
+        public string Subject { get; set; }
 
         /// <summary>
         /// Gets or sets the summary message to display to the user in notification toasts.
         /// </summary>
-        public string NotificationSummary { get; set; }
+        public string Summary { get; set; }
 
         /// <summary>
-        /// Gets or sets the message content body in optional HTML format.
+        /// Gets or sets the html content.
         /// </summary>
-        public string NotificationHtmlBody { get; set; }
+        public string HtmlContent { get; set; }
 
         /// <summary>
-        /// Gets or sets the slack message in optional Markdown format.
+        /// Gets or sets the optional text content.
         /// </summary>
-        public string SlackMessage { get; set; }
+        public string TextContent { get; set; }
+
+        /// <summary>
+        /// Gets or sets the optional markdown content.
+        /// </summary>
+        public string MarkdownContent { get; set; }
     }
 }
