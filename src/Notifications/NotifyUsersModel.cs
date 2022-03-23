@@ -28,18 +28,18 @@ namespace Vasont.Inspire.Models.Notifications
         public string Summary { get; set; }
 
         /// <summary>
-        /// Gets or sets the html content.
+        /// Gets or sets the html body.
         /// </summary>
-        public string HtmlContent { get; set; }
+        public string HtmlBody { get; set; }
 
         /// <summary>
-        /// Gets or sets the optional text content.
+        /// Gets or sets the optional text body.
         /// </summary>
-        public string TextContent { get; set; }
+        public string TextBody { get; set; }
 
         /// <summary>
-        /// Gets or sets the optional markdown content.
+        /// Gets or sets the optional markdown body.
         /// </summary>
-        public string MarkdownContent { get; set; }
+        public string MarkdownBody { get; set; }
     }
 }
