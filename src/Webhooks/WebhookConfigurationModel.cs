@@ -47,7 +47,12 @@ namespace Vasont.Inspire.Models.Webhooks
         /// <summary>
         /// The Slack webhook.
         /// </summary>
-        Slack
+        Slack,
+
+        /// <summary>
+        /// The ReportSession webhook.
+        /// </summary>ss
+        ReportSession
     }
 
     /// <summary>
