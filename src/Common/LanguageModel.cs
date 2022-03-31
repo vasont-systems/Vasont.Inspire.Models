@@ -54,5 +54,10 @@ namespace Vasont.Inspire.Models.Common
         /// Gets or sets the image override language name.
         /// </summary>
         public string TranslationImageLanguageName { get; set; }
+
+        /// <summary>
+        /// Gets or sets the reading code ('ltr', 'lro', 'rtl', 'rlo').
+        /// </summary>
+        public string Reading { get; set; }
     }
 }
