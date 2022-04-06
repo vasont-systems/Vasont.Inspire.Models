@@ -20,6 +20,6 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets the resulting component translations from the query request.
         /// </summary>
-        public List<TranslationRelationModel> ComponentTranslations { get; set; } = new List<TranslationRelationModel>();
+        public List<TranslationJobRelationModel> ComponentTranslations { get; set; } = new List<TranslationJobRelationModel>();
     }
 }
