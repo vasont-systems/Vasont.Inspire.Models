@@ -19,8 +19,8 @@ namespace Vasont.Inspire.Models.Components
         public List<ComponentModel> SourceReferenceComponents { get; } = new List<ComponentModel>();
 
         /// <summary>
-        /// Gets a list of successful matches for the action.
+        /// Gets or sets a list of successful matches for the action.
         /// </summary>
-        public int Matches { get; }
+        public int Matches { get; set; }
     }
 }
