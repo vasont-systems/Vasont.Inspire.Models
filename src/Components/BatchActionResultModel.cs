@@ -17,5 +17,10 @@ namespace Vasont.Inspire.Models.Components
         /// Gets a list of <see cref="ComponentModel"/> objects that reference the component requested for action.
         /// </summary>
         public List<ComponentModel> SourceReferenceComponents { get; } = new List<ComponentModel>();
+
+        /// <summary>
+        /// Gets a list of successful matches for the action.
+        /// </summary>
+        public int Matches { get; }
     }
 }
