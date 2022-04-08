@@ -21,6 +21,6 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets a list of successful matches for the action.
         /// </summary>
-        public int Matches { get; }
+        public int Matches { get; set; }
     }
 }
