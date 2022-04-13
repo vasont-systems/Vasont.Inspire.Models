@@ -85,6 +85,11 @@ namespace Vasont.Inspire.Models.Components
         public bool ComponentInvalidPis { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether to error for locked translation components.
+        /// </summary>
+        public bool TargetComponentLocked { get; set; }
+
+        /// <summary>
         /// Gets or sets an optional list of profile filters.
         /// </summary>
         public List<ExportProfileAttributeFilterModel> ProfileFilters { get; set; } = new List<ExportProfileAttributeFilterModel>();
