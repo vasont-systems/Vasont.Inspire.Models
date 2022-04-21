@@ -74,6 +74,11 @@ namespace Vasont.Inspire.Models.Versioning
         public bool LatestSnapshot { get; set; }
 
         /// <summary>
+        /// Gets or sets the name of the user who last processed the component.
+        /// </summary>
+        public string ProcessedBy { get; set; }
+
+        /// <summary>
         /// Gets or sets the name of the user who esigned.
         /// </summary>
         public string ElectronicSignatureBy { get; set; }
