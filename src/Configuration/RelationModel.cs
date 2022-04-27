@@ -27,7 +27,27 @@ namespace Vasont.Inspire.Models.Configuration
         /// <summary>
         /// Identifies a relation created from a translation.
         /// </summary>
-        Translation
+        Translation,
+
+        /// <summary>
+        /// Identifies a relation created from a Docbook fileref.
+        /// </summary>
+        Fileref,
+
+        /// <summary>
+        /// Identifies a relation created from a Docbook href.
+        /// </summary>
+        DocbookHref,
+
+        /// <summary>
+        /// Identifies a relation created from a Docbook linkend.
+        /// </summary>
+        Linkend,
+
+        /// <summary>
+        /// Identifies a relation created from a Docbook xpointer.
+        /// </summary>
+        Xpointer
     }
 
     /// <summary>
