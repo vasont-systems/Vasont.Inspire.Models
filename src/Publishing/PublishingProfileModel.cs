@@ -40,6 +40,75 @@ namespace Vasont.Inspire.Models.Publishing
     }
 
     /// <summary>
+    /// Contains an enumerated list of scheduled publishing types.
+    /// </summary>
+    [JsonConverter(typeof(StringEnumConverter))]
+    public enum ScheduledPublishingType
+    {
+        /// <summary>
+        /// Scheduled publishing will occur every day.
+        /// </summary>
+        EveryDay,
+
+        /// <summary>
+        /// Scheduled publishing will occur every work day.
+        /// </summary>
+        EveryWorkDay,
+
+        /// <summary>
+        /// Scheduled publishing will occur every specified day of the week.
+        /// </summary>
+        EveryDayOfTheWeek,
+
+        /// <summary>
+        /// Scheduled publishing will occur every day of the month.
+        /// </summary>
+        EveryDayOfTheMonth
+    }
+
+    /// <summary>
+    /// Contains an enumerated list of week day names.
+    /// </summary>
+    [JsonConverter(typeof(StringEnumConverter))]
+    public enum ScheduledDay
+    {
+        /// <summary>
+        /// Monday.
+        /// </summary>
+        Monday,
+
+        /// <summary>
+        /// Tuesday.
+        /// </summary>
+        Tuesday,
+
+        /// <summary>
+        /// Wednesday.
+        /// </summary>
+        Wednesday,
+
+        /// <summary>
+        /// Thursday.
+        /// </summary>
+        Thursday,
+
+        /// <summary>
+        /// Friday.
+        /// </summary>
+        Friday,
+
+        /// <summary>
+        /// Saturday.
+        /// </summary>
+        Saturday,
+
+        /// <summary>
+        /// Sunday.
+        /// </summary>
+        Sunday
+    }
+
+    /// <summary>
     /// This model class represents the profile detail for a publishing profile.
     /// </summary>
     public class PublishingProfileModel
@@ -133,5 +202,32 @@ namespace Vasont.Inspire.Models.Publishing
         /// Gets or sets the last published status of the profile.
         /// </summary>
         public PublishingProfileStatus? Status { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether scheduled publish is enabled.
+        /// </summary>
+        public bool ScheduledPublishing { get; set; }
+
+        /// <summary>
+        /// Gets or sets the scheduled publishing type.
+        /// </summary>
+        public ScheduledPublishingType? ScheduledPublishingType { get; set; }
+
+        /// <summary>
+        /// <summary>
+        /// Gets or sets time of day to publish.
+        /// </summary>
+        public string ScheduledTime { get; set; }
+
+        /// <summary>
+        /// <summary>
+        /// Gets or sets the week day to publish.
+        /// </summary>
+        public ScheduledDay? ScheduledDayOfWeek { get; set; }
+
+        /// <summary>
+        /// Gets or sets the day of the month to publish.
+        /// </summary>
+        public int ScheduledDayOfMonth { get; set; } // 0 - 30
     }
 }
