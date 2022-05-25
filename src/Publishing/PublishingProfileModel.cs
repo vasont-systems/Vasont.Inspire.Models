@@ -105,7 +105,12 @@ namespace Vasont.Inspire.Models.Publishing
         /// <summary>
         /// Sunday.
         /// </summary>
-        Sunday
+        Sunday,
+
+        /// <summary>
+        /// Monday.
+        /// </summary>
+        None,
     }
 
     /// <summary>
@@ -217,7 +222,7 @@ namespace Vasont.Inspire.Models.Publishing
         /// <summary>
         /// Gets or sets time of day to publish.
         /// </summary>
-        public string ScheduledTime { get; set; }
+        public DateTime? ScheduledTime { get; set; }
 
         /// <summary>
         /// <summary>
@@ -228,6 +233,6 @@ namespace Vasont.Inspire.Models.Publishing
         /// <summary>
         /// Gets or sets the day of the month to publish.
         /// </summary>
-        public int ScheduledDayOfMonth { get; set; } // 0 - 30
+        public int? ScheduledDayOfMonth { get; set; } // 1 - 30
     }
 }
