@@ -99,6 +99,11 @@ namespace Vasont.Inspire.Models.Projects
         public long InitialActivityUserId { get; set; }
 
         /// <summary>
+        /// Gets or sets the due date for the workflow activity to initiate for a new project workflow.
+        /// </summary>
+        public DateTime? InitialActivityDueDate { get; set; }
+
+        /// <summary>
         /// Gets or sets the components that will be applied to the initial project assignment.
         /// </summary>
         public List<MinimalComponentModel> InitialComponents { get; set; } = new List<MinimalComponentModel>();

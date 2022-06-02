@@ -71,6 +71,11 @@ namespace Vasont.Inspire.Models.Projects
         public long NextTransitionUserId { get; set; }
 
         /// <summary>
+        /// Gets or sets the due date for the next activity.
+        /// </summary>
+        public DateTime? NextTransitionDueDate { get; set; }
+
+        /// <summary>
         /// Gets or sets a list of transitions that can occur after the current activity is completed.
         /// </summary>
         public List<WorkflowNextTransitionModel> Transitions { get; set; } = new List<WorkflowNextTransitionModel>();

@@ -5,6 +5,7 @@
 //---------------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Workflow
 {
+    using System;
     using System.Collections.Generic;
     using Common;
 
@@ -42,6 +43,11 @@ namespace Vasont.Inspire.Models.Workflow
         /// Gets or sets the name of the next activity associated with this transition.
         /// </summary>
         public string NextActivityName { get; set; }
+
+        /// <summary>
+        /// Gets or sets the due date of the next activity associated with this transition.
+        /// </summary>
+        public DateTime? NextActivityDueDate { get; set; }
 
         /// <summary>
         /// Gets or sets a list of users who are allowed to be assigned to this activity.
