@@ -58,12 +58,12 @@ namespace Vasont.Inspire.Models.Publishing
         /// <summary>
         /// Scheduled publishing will occur every specified day of the week.
         /// </summary>
-        EveryDayOfTheWeek,
+        DayOfTheWeek,
 
         /// <summary>
         /// Scheduled publishing will occur every day of the month.
         /// </summary>
-        EveryDayOfTheMonth
+        DayOfTheMonth
     }
 
     /// <summary>
@@ -72,6 +72,11 @@ namespace Vasont.Inspire.Models.Publishing
     [JsonConverter(typeof(StringEnumConverter))]
     public enum ScheduledDay
     {
+        /// <summary>
+        /// None.
+        /// </summary>
+        None,
+
         /// <summary>
         /// Monday.
         /// </summary>
@@ -105,12 +110,7 @@ namespace Vasont.Inspire.Models.Publishing
         /// <summary>
         /// Sunday.
         /// </summary>
-        Sunday,
-
-        /// <summary>
-        /// Monday.
-        /// </summary>
-        None,
+        Sunday
     }
 
     /// <summary>

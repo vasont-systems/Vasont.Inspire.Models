@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: src/Worker/WorkerStateModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkerStateModel
     path: Worker/WorkerStateModel.cs
@@ -79,7 +79,7 @@ items:
   source:
     remote:
       path: src/Worker/WorkerStateModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Worker/WorkerStateModel.cs
@@ -111,7 +111,7 @@ items:
   source:
     remote:
       path: src/Worker/WorkerStateModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SendResultNotification
     path: Worker/WorkerStateModel.cs
@@ -148,7 +148,7 @@ items:
   source:
     remote:
       path: src/Worker/WorkerStateModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SubmittedByUserName
     path: Worker/WorkerStateModel.cs
@@ -185,7 +185,7 @@ items:
   source:
     remote:
       path: src/Worker/WorkerStateModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkerPath
     path: Worker/WorkerStateModel.cs
@@ -222,7 +222,7 @@ items:
   source:
     remote:
       path: src/Worker/WorkerStateModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AddIssue
     path: Worker/WorkerStateModel.cs
@@ -258,7 +258,7 @@ items:
   source:
     remote:
       path: src/Worker/WorkerStateModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AddIssue
     path: Worker/WorkerStateModel.cs

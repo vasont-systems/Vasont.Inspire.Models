@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationJobStateModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationJobStateModel
     path: Translations/TranslationJobStateModel.cs

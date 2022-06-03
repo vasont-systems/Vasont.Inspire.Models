@@ -8,6 +8,7 @@ items:
   - Vasont.Inspire.Models.Projects.ProjectWorkflowSubmittalModel.AssignedUser
   - Vasont.Inspire.Models.Projects.ProjectWorkflowSubmittalModel.CompletedDate
   - Vasont.Inspire.Models.Projects.ProjectWorkflowSubmittalModel.CreatedDate
+  - Vasont.Inspire.Models.Projects.ProjectWorkflowSubmittalModel.NextTransitionDueDate
   - Vasont.Inspire.Models.Projects.ProjectWorkflowSubmittalModel.NextTransitionId
   - Vasont.Inspire.Models.Projects.ProjectWorkflowSubmittalModel.NextTransitionUserId
   - Vasont.Inspire.Models.Projects.ProjectWorkflowSubmittalModel.ProjectAssignmentIds
@@ -27,7 +28,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectWorkflowSubmittalModel
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -70,7 +71,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectWorkflowSubmittalId
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -107,7 +108,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectWorkflowId
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -144,7 +145,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectAssignmentIds
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -181,7 +182,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AssignedUser
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -218,7 +219,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowActivityId
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -255,7 +256,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RequiresInput
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -292,7 +293,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowActivityName
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -329,7 +330,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CompletedDate
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -366,7 +367,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedDate
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -403,7 +404,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NextTransitionId
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -440,7 +441,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NextTransitionUserId
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -463,6 +464,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Projects.ProjectWorkflowSubmittalModel.NextTransitionDueDate
+  commentId: P:Vasont.Inspire.Models.Projects.ProjectWorkflowSubmittalModel.NextTransitionDueDate
+  id: NextTransitionDueDate
+  parent: Vasont.Inspire.Models.Projects.ProjectWorkflowSubmittalModel
+  langs:
+  - csharp
+  - vb
+  name: NextTransitionDueDate
+  nameWithType: ProjectWorkflowSubmittalModel.NextTransitionDueDate
+  fullName: Vasont.Inspire.Models.Projects.ProjectWorkflowSubmittalModel.NextTransitionDueDate
+  type: Property
+  source:
+    remote:
+      path: src/Projects/ProjectWorkflowSubmittalModel.cs
+      branch: feature/modelchangesforscheduledpublishing
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: NextTransitionDueDate
+    path: Projects/ProjectWorkflowSubmittalModel.cs
+    startLine: 75
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Projects
+  summary: "\nGets or sets the due date for the next activity.\n"
+  example: []
+  syntax:
+    content: public DateTime? NextTransitionDueDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property NextTransitionDueDate As Date?
+  overload: Vasont.Inspire.Models.Projects.ProjectWorkflowSubmittalModel.NextTransitionDueDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Projects.ProjectWorkflowSubmittalModel.Transitions
   commentId: P:Vasont.Inspire.Models.Projects.ProjectWorkflowSubmittalModel.Transitions
   id: Transitions
@@ -477,11 +515,11 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Transitions
     path: Projects/ProjectWorkflowSubmittalModel.cs
-    startLine: 75
+    startLine: 80
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Projects
@@ -1064,6 +1102,11 @@ references:
   name: NextTransitionUserId
   nameWithType: ProjectWorkflowSubmittalModel.NextTransitionUserId
   fullName: Vasont.Inspire.Models.Projects.ProjectWorkflowSubmittalModel.NextTransitionUserId
+- uid: Vasont.Inspire.Models.Projects.ProjectWorkflowSubmittalModel.NextTransitionDueDate*
+  commentId: Overload:Vasont.Inspire.Models.Projects.ProjectWorkflowSubmittalModel.NextTransitionDueDate
+  name: NextTransitionDueDate
+  nameWithType: ProjectWorkflowSubmittalModel.NextTransitionDueDate
+  fullName: Vasont.Inspire.Models.Projects.ProjectWorkflowSubmittalModel.NextTransitionDueDate
 - uid: Vasont.Inspire.Models.Projects.ProjectWorkflowSubmittalModel.Transitions*
   commentId: Overload:Vasont.Inspire.Models.Projects.ProjectWorkflowSubmittalModel.Transitions
   name: Transitions

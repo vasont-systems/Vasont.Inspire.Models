@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewWorkflowSubmittalModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewWorkflowSubmittalModel
     path: Reviews/ReviewWorkflowSubmittalModel.cs
@@ -65,7 +65,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewWorkflowSubmittalModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewWorkflowSubmittalId
     path: Reviews/ReviewWorkflowSubmittalModel.cs
@@ -102,7 +102,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewWorkflowSubmittalModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewId
     path: Reviews/ReviewWorkflowSubmittalModel.cs
@@ -139,7 +139,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewWorkflowSubmittalModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewerIds
     path: Reviews/ReviewWorkflowSubmittalModel.cs
@@ -176,7 +176,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewWorkflowSubmittalModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowActivityId
     path: Reviews/ReviewWorkflowSubmittalModel.cs
@@ -213,7 +213,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewWorkflowSubmittalModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowActivityName
     path: Reviews/ReviewWorkflowSubmittalModel.cs
@@ -250,7 +250,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewWorkflowSubmittalModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CompletedDate
     path: Reviews/ReviewWorkflowSubmittalModel.cs
@@ -287,7 +287,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewWorkflowSubmittalModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedDate
     path: Reviews/ReviewWorkflowSubmittalModel.cs

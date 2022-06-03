@@ -6,8 +6,12 @@ items:
   parent: Vasont.Inspire.Models.Configuration
   children:
   - Vasont.Inspire.Models.Configuration.RelationKeyName.Branch
+  - Vasont.Inspire.Models.Configuration.RelationKeyName.DocbookHref
+  - Vasont.Inspire.Models.Configuration.RelationKeyName.Fileref
+  - Vasont.Inspire.Models.Configuration.RelationKeyName.Linkend
   - Vasont.Inspire.Models.Configuration.RelationKeyName.None
   - Vasont.Inspire.Models.Configuration.RelationKeyName.Translation
+  - Vasont.Inspire.Models.Configuration.RelationKeyName.Xpointer
   langs:
   - csharp
   - vb
@@ -18,7 +22,7 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RelationKeyName
     path: Configuration/RelationModel.cs
@@ -63,7 +67,7 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: None
     path: Configuration/RelationModel.cs
@@ -97,7 +101,7 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Branch
     path: Configuration/RelationModel.cs
@@ -131,7 +135,7 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Translation
     path: Configuration/RelationModel.cs
@@ -143,6 +147,142 @@ items:
   example: []
   syntax:
     content: Translation = 2
+    return:
+      type: Vasont.Inspire.Models.Configuration.RelationKeyName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Configuration.RelationKeyName.Fileref
+  commentId: F:Vasont.Inspire.Models.Configuration.RelationKeyName.Fileref
+  id: Fileref
+  parent: Vasont.Inspire.Models.Configuration.RelationKeyName
+  langs:
+  - csharp
+  - vb
+  name: Fileref
+  nameWithType: RelationKeyName.Fileref
+  fullName: Vasont.Inspire.Models.Configuration.RelationKeyName.Fileref
+  type: Field
+  source:
+    remote:
+      path: src/Configuration/RelationModel.cs
+      branch: feature/modelchangesforscheduledpublishing
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Fileref
+    path: Configuration/RelationModel.cs
+    startLine: 34
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nIdentifies a relation created from a Docbook fileref.\n"
+  example: []
+  syntax:
+    content: Fileref = 3
+    return:
+      type: Vasont.Inspire.Models.Configuration.RelationKeyName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Configuration.RelationKeyName.DocbookHref
+  commentId: F:Vasont.Inspire.Models.Configuration.RelationKeyName.DocbookHref
+  id: DocbookHref
+  parent: Vasont.Inspire.Models.Configuration.RelationKeyName
+  langs:
+  - csharp
+  - vb
+  name: DocbookHref
+  nameWithType: RelationKeyName.DocbookHref
+  fullName: Vasont.Inspire.Models.Configuration.RelationKeyName.DocbookHref
+  type: Field
+  source:
+    remote:
+      path: src/Configuration/RelationModel.cs
+      branch: feature/modelchangesforscheduledpublishing
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DocbookHref
+    path: Configuration/RelationModel.cs
+    startLine: 39
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nIdentifies a relation created from a Docbook href.\n"
+  example: []
+  syntax:
+    content: DocbookHref = 4
+    return:
+      type: Vasont.Inspire.Models.Configuration.RelationKeyName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Configuration.RelationKeyName.Linkend
+  commentId: F:Vasont.Inspire.Models.Configuration.RelationKeyName.Linkend
+  id: Linkend
+  parent: Vasont.Inspire.Models.Configuration.RelationKeyName
+  langs:
+  - csharp
+  - vb
+  name: Linkend
+  nameWithType: RelationKeyName.Linkend
+  fullName: Vasont.Inspire.Models.Configuration.RelationKeyName.Linkend
+  type: Field
+  source:
+    remote:
+      path: src/Configuration/RelationModel.cs
+      branch: feature/modelchangesforscheduledpublishing
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Linkend
+    path: Configuration/RelationModel.cs
+    startLine: 44
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nIdentifies a relation created from a Docbook linkend.\n"
+  example: []
+  syntax:
+    content: Linkend = 5
+    return:
+      type: Vasont.Inspire.Models.Configuration.RelationKeyName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Configuration.RelationKeyName.Xpointer
+  commentId: F:Vasont.Inspire.Models.Configuration.RelationKeyName.Xpointer
+  id: Xpointer
+  parent: Vasont.Inspire.Models.Configuration.RelationKeyName
+  langs:
+  - csharp
+  - vb
+  name: Xpointer
+  nameWithType: RelationKeyName.Xpointer
+  fullName: Vasont.Inspire.Models.Configuration.RelationKeyName.Xpointer
+  type: Field
+  source:
+    remote:
+      path: src/Configuration/RelationModel.cs
+      branch: feature/modelchangesforscheduledpublishing
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Xpointer
+    path: Configuration/RelationModel.cs
+    startLine: 49
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nIdentifies a relation created from a Docbook xpointer.\n"
+  example: []
+  syntax:
+    content: Xpointer = 6
     return:
       type: Vasont.Inspire.Models.Configuration.RelationKeyName
   modifiers.csharp:

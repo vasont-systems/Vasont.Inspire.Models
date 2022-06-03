@@ -13,6 +13,7 @@ items:
   - Vasont.Inspire.Models.Notifications.NotificationTarget
   - Vasont.Inspire.Models.Notifications.NotificationType
   - Vasont.Inspire.Models.Notifications.NotificationUpdateModel
+  - Vasont.Inspire.Models.Notifications.NotifyUsersModel
   langs:
   - csharp
   - vb
@@ -115,6 +116,11 @@ references:
   name: NotificationUpdateModel
   nameWithType: NotificationUpdateModel
   fullName: Vasont.Inspire.Models.Notifications.NotificationUpdateModel
+- uid: Vasont.Inspire.Models.Notifications.NotifyUsersModel
+  commentId: T:Vasont.Inspire.Models.Notifications.NotifyUsersModel
+  name: NotifyUsersModel
+  nameWithType: NotifyUsersModel
+  fullName: Vasont.Inspire.Models.Notifications.NotifyUsersModel
 - uid: Vasont.Inspire.Models.Notifications
   commentId: N:Vasont.Inspire.Models.Notifications
   name: Vasont.Inspire.Models.Notifications
