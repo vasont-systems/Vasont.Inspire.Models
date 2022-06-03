@@ -22,11 +22,11 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RelationModel
     path: Configuration/RelationModel.cs
-    startLine: 35
+    startLine: 55
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Configuration
@@ -65,11 +65,11 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RelationId
     path: Configuration/RelationModel.cs
-    startLine: 40
+    startLine: 60
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Configuration
@@ -102,11 +102,11 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Configuration/RelationModel.cs
-    startLine: 45
+    startLine: 65
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Configuration
@@ -139,11 +139,11 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Configuration/RelationModel.cs
-    startLine: 50
+    startLine: 70
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Configuration
@@ -176,11 +176,11 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: XmlLinkType
     path: Configuration/RelationModel.cs
-    startLine: 55
+    startLine: 75
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Configuration
@@ -213,11 +213,11 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Active
     path: Configuration/RelationModel.cs
-    startLine: 60
+    startLine: 80
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Configuration
@@ -250,11 +250,11 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SystemRelation
     path: Configuration/RelationModel.cs
-    startLine: 65
+    startLine: 85
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Configuration
@@ -287,11 +287,11 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: KeyName
     path: Configuration/RelationModel.cs
-    startLine: 70
+    startLine: 90
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Configuration

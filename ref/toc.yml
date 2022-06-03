@@ -26,6 +26,8 @@
     name: ErrorModel
   - uid: Vasont.Inspire.Models.Common.ErrorResponseModel
     name: ErrorResponseModel
+  - uid: Vasont.Inspire.Models.Common.FeatureModel
+    name: FeatureModel
   - uid: Vasont.Inspire.Models.Common.FileExtensionModel
     name: FileExtensionModel
   - uid: Vasont.Inspire.Models.Common.LanguageModel
@@ -77,6 +79,8 @@
     name: ComponentExternalAssetsQueryModel
   - uid: Vasont.Inspire.Models.Components.ComponentExternalAssetsResultModel
     name: ComponentExternalAssetsResultModel
+  - uid: Vasont.Inspire.Models.Components.ComponentFindReplaceModel
+    name: ComponentFindReplaceModel
   - uid: Vasont.Inspire.Models.Components.ComponentFrameworkModel
     name: ComponentFrameworkModel
   - uid: Vasont.Inspire.Models.Components.ComponentLockModel
@@ -211,6 +215,8 @@
     name: TagModel
   - uid: Vasont.Inspire.Models.Components.TransformDirectionFormat
     name: TransformDirectionFormat
+  - uid: Vasont.Inspire.Models.Components.TranslationJobRelationModel
+    name: TranslationJobRelationModel
   - uid: Vasont.Inspire.Models.Components.TranslationRelationModel
     name: TranslationRelationModel
   - uid: Vasont.Inspire.Models.Components.TranslationReportRequestModel
@@ -307,6 +313,8 @@
     name: NotificationType
   - uid: Vasont.Inspire.Models.Notifications.NotificationUpdateModel
     name: NotificationUpdateModel
+  - uid: Vasont.Inspire.Models.Notifications.NotifyUsersModel
+    name: NotifyUsersModel
 - uid: Vasont.Inspire.Models.Notifications.Types
   name: Vasont.Inspire.Models.Notifications.Types
   items:
@@ -430,6 +438,10 @@
     name: PublishingProfileResultModel
   - uid: Vasont.Inspire.Models.Publishing.PublishingProfileStatus
     name: PublishingProfileStatus
+  - uid: Vasont.Inspire.Models.Publishing.ScheduledDay
+    name: ScheduledDay
+  - uid: Vasont.Inspire.Models.Publishing.ScheduledPublishingType
+    name: ScheduledPublishingType
 - uid: Vasont.Inspire.Models.ReviewComponents
   name: Vasont.Inspire.Models.ReviewComponents
   items:

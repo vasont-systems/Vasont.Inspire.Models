@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentTranslationsResultModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentTranslationsResultModel
     path: Components/ComponentTranslationsResultModel.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentTranslationsResultModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TotalCount
     path: Components/ComponentTranslationsResultModel.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentTranslationsResultModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentTranslations
     path: Components/ComponentTranslationsResultModel.cs
@@ -108,11 +108,11 @@ items:
   summary: "\nGets or sets the resulting component translations from the query request.\n"
   example: []
   syntax:
-    content: public List<TranslationRelationModel> ComponentTranslations { get; set; }
+    content: public List<TranslationJobRelationModel> ComponentTranslations { get; set; }
     parameters: []
     return:
-      type: System.Collections.Generic.List{Vasont.Inspire.Models.Components.TranslationRelationModel}
-    content.vb: Public Property ComponentTranslations As List(Of TranslationRelationModel)
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Components.TranslationJobRelationModel}
+    content.vb: Public Property ComponentTranslations As List(Of TranslationJobRelationModel)
   overload: Vasont.Inspire.Models.Components.ComponentTranslationsResultModel.ComponentTranslations*
   modifiers.csharp:
   - public
@@ -435,16 +435,16 @@ references:
   name: ComponentTranslations
   nameWithType: ComponentTranslationsResultModel.ComponentTranslations
   fullName: Vasont.Inspire.Models.Components.ComponentTranslationsResultModel.ComponentTranslations
-- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Components.TranslationRelationModel}
-  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Components.TranslationRelationModel}
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Components.TranslationJobRelationModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Components.TranslationJobRelationModel}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.List`1
-  name: List<TranslationRelationModel>
-  nameWithType: List<TranslationRelationModel>
-  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Components.TranslationRelationModel>
-  nameWithType.vb: List(Of TranslationRelationModel)
-  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Components.TranslationRelationModel)
-  name.vb: List(Of TranslationRelationModel)
+  name: List<TranslationJobRelationModel>
+  nameWithType: List<TranslationJobRelationModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Components.TranslationJobRelationModel>
+  nameWithType.vb: List(Of TranslationJobRelationModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Components.TranslationJobRelationModel)
+  name.vb: List(Of TranslationJobRelationModel)
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -454,10 +454,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: Vasont.Inspire.Models.Components.TranslationRelationModel
-    name: TranslationRelationModel
-    nameWithType: TranslationRelationModel
-    fullName: Vasont.Inspire.Models.Components.TranslationRelationModel
+  - uid: Vasont.Inspire.Models.Components.TranslationJobRelationModel
+    name: TranslationJobRelationModel
+    nameWithType: TranslationJobRelationModel
+    fullName: Vasont.Inspire.Models.Components.TranslationJobRelationModel
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -470,10 +470,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: Vasont.Inspire.Models.Components.TranslationRelationModel
-    name: TranslationRelationModel
-    nameWithType: TranslationRelationModel
-    fullName: Vasont.Inspire.Models.Components.TranslationRelationModel
+  - uid: Vasont.Inspire.Models.Components.TranslationJobRelationModel
+    name: TranslationJobRelationModel
+    nameWithType: TranslationJobRelationModel
+    fullName: Vasont.Inspire.Models.Components.TranslationJobRelationModel
   - name: )
     nameWithType: )
     fullName: )

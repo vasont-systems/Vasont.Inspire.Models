@@ -9,6 +9,7 @@ items:
   - Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Description
   - Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Members
   - Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Name
+  - Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityDueDate
   - Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityId
   - Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityName
   - Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.WorkflowId
@@ -23,11 +24,11 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowNextTransitionModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowNextTransitionModel
     path: Workflow/WorkflowNextTransitionModel.cs
-    startLine: 13
+    startLine: 14
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Workflow
@@ -66,11 +67,11 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowNextTransitionModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowTransitionId
     path: Workflow/WorkflowNextTransitionModel.cs
-    startLine: 18
+    startLine: 19
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Workflow
@@ -103,11 +104,11 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowNextTransitionModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowId
     path: Workflow/WorkflowNextTransitionModel.cs
-    startLine: 23
+    startLine: 24
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Workflow
@@ -140,11 +141,11 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowNextTransitionModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Workflow/WorkflowNextTransitionModel.cs
-    startLine: 28
+    startLine: 29
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Workflow
@@ -177,11 +178,11 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowNextTransitionModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Workflow/WorkflowNextTransitionModel.cs
-    startLine: 33
+    startLine: 34
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Workflow
@@ -214,11 +215,11 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowNextTransitionModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NextActivityId
     path: Workflow/WorkflowNextTransitionModel.cs
-    startLine: 38
+    startLine: 39
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Workflow
@@ -251,11 +252,11 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowNextTransitionModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NextActivityName
     path: Workflow/WorkflowNextTransitionModel.cs
-    startLine: 43
+    startLine: 44
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Workflow
@@ -268,6 +269,43 @@ items:
       type: System.String
     content.vb: Public Property NextActivityName As String
   overload: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityDueDate
+  commentId: P:Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityDueDate
+  id: NextActivityDueDate
+  parent: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel
+  langs:
+  - csharp
+  - vb
+  name: NextActivityDueDate
+  nameWithType: WorkflowNextTransitionModel.NextActivityDueDate
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityDueDate
+  type: Property
+  source:
+    remote:
+      path: src/Workflow/WorkflowNextTransitionModel.cs
+      branch: feature/modelchangesforscheduledpublishing
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: NextActivityDueDate
+    path: Workflow/WorkflowNextTransitionModel.cs
+    startLine: 49
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Workflow
+  summary: "\nGets or sets the due date of the next activity associated with this transition.\n"
+  example: []
+  syntax:
+    content: public DateTime? NextActivityDueDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property NextActivityDueDate As Date?
+  overload: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityDueDate*
   modifiers.csharp:
   - public
   - get
@@ -288,11 +326,11 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowNextTransitionModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Members
     path: Workflow/WorkflowNextTransitionModel.cs
-    startLine: 48
+    startLine: 54
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Workflow
@@ -325,11 +363,11 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowNextTransitionModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Coordinates
     path: Workflow/WorkflowNextTransitionModel.cs
-    startLine: 53
+    startLine: 59
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Workflow
@@ -683,6 +721,94 @@ references:
   name: NextActivityName
   nameWithType: WorkflowNextTransitionModel.NextActivityName
   fullName: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityName
+- uid: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityDueDate*
+  commentId: Overload:Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityDueDate
+  name: NextActivityDueDate
+  nameWithType: WorkflowNextTransitionModel.NextActivityDueDate
+  fullName: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.NextActivityDueDate
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Members*
   commentId: Overload:Vasont.Inspire.Models.Workflow.WorkflowNextTransitionModel.Members
   name: Members

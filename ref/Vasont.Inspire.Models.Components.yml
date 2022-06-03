@@ -22,6 +22,7 @@ items:
   - Vasont.Inspire.Models.Components.ComponentDependencyModel
   - Vasont.Inspire.Models.Components.ComponentExternalAssetsQueryModel
   - Vasont.Inspire.Models.Components.ComponentExternalAssetsResultModel
+  - Vasont.Inspire.Models.Components.ComponentFindReplaceModel
   - Vasont.Inspire.Models.Components.ComponentFrameworkModel
   - Vasont.Inspire.Models.Components.ComponentLockModel
   - Vasont.Inspire.Models.Components.ComponentLockType
@@ -89,6 +90,7 @@ items:
   - Vasont.Inspire.Models.Components.SaveAsComponentModel
   - Vasont.Inspire.Models.Components.TagModel
   - Vasont.Inspire.Models.Components.TransformDirectionFormat
+  - Vasont.Inspire.Models.Components.TranslationJobRelationModel
   - Vasont.Inspire.Models.Components.TranslationRelationModel
   - Vasont.Inspire.Models.Components.TranslationReportRequestModel
   - Vasont.Inspire.Models.Components.UnlockResultModel
@@ -194,6 +196,11 @@ references:
   name: ComponentExternalAssetsResultModel
   nameWithType: ComponentExternalAssetsResultModel
   fullName: Vasont.Inspire.Models.Components.ComponentExternalAssetsResultModel
+- uid: Vasont.Inspire.Models.Components.ComponentFindReplaceModel
+  commentId: T:Vasont.Inspire.Models.Components.ComponentFindReplaceModel
+  name: ComponentFindReplaceModel
+  nameWithType: ComponentFindReplaceModel
+  fullName: Vasont.Inspire.Models.Components.ComponentFindReplaceModel
 - uid: Vasont.Inspire.Models.Components.ComponentFrameworkModel
   commentId: T:Vasont.Inspire.Models.Components.ComponentFrameworkModel
   name: ComponentFrameworkModel
@@ -550,8 +557,14 @@ references:
   name: TagModel
   nameWithType: TagModel
   fullName: Vasont.Inspire.Models.Components.TagModel
+- uid: Vasont.Inspire.Models.Components.TranslationJobRelationModel
+  commentId: T:Vasont.Inspire.Models.Components.TranslationJobRelationModel
+  name: TranslationJobRelationModel
+  nameWithType: TranslationJobRelationModel
+  fullName: Vasont.Inspire.Models.Components.TranslationJobRelationModel
 - uid: Vasont.Inspire.Models.Components.TranslationRelationModel
   commentId: T:Vasont.Inspire.Models.Components.TranslationRelationModel
+  parent: Vasont.Inspire.Models.Components
   name: TranslationRelationModel
   nameWithType: TranslationRelationModel
   fullName: Vasont.Inspire.Models.Components.TranslationRelationModel

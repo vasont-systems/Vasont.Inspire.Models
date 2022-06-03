@@ -11,6 +11,7 @@ items:
   - Vasont.Inspire.Models.Common.LanguageModel.IsLocale
   - Vasont.Inspire.Models.Common.LanguageModel.LanguageCode
   - Vasont.Inspire.Models.Common.LanguageModel.Name
+  - Vasont.Inspire.Models.Common.LanguageModel.Reading
   - Vasont.Inspire.Models.Common.LanguageModel.TranslationImageLanguageCode
   - Vasont.Inspire.Models.Common.LanguageModel.TranslationImageLanguageName
   - Vasont.Inspire.Models.Common.LanguageModel.TranslationTarget
@@ -24,7 +25,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LanguageModel
     path: Common/LanguageModel.cs
@@ -74,7 +75,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LanguageCode
     path: Common/LanguageModel.cs
@@ -111,7 +112,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Common/LanguageModel.cs
@@ -148,7 +149,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsLocale
     path: Common/LanguageModel.cs
@@ -185,7 +186,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: HasDictionary
     path: Common/LanguageModel.cs
@@ -222,7 +223,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Default
     path: Common/LanguageModel.cs
@@ -259,7 +260,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Active
     path: Common/LanguageModel.cs
@@ -296,7 +297,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationTarget
     path: Common/LanguageModel.cs
@@ -333,7 +334,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationImageLanguageCode
     path: Common/LanguageModel.cs
@@ -370,7 +371,7 @@ items:
   source:
     remote:
       path: src/Common/LanguageModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationImageLanguageName
     path: Common/LanguageModel.cs
@@ -387,6 +388,43 @@ items:
       type: System.String
     content.vb: Public Property TranslationImageLanguageName As String
   overload: Vasont.Inspire.Models.Common.LanguageModel.TranslationImageLanguageName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.LanguageModel.Reading
+  commentId: P:Vasont.Inspire.Models.Common.LanguageModel.Reading
+  id: Reading
+  parent: Vasont.Inspire.Models.Common.LanguageModel
+  langs:
+  - csharp
+  - vb
+  name: Reading
+  nameWithType: LanguageModel.Reading
+  fullName: Vasont.Inspire.Models.Common.LanguageModel.Reading
+  type: Property
+  source:
+    remote:
+      path: src/Common/LanguageModel.cs
+      branch: feature/modelchangesforscheduledpublishing
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Reading
+    path: Common/LanguageModel.cs
+    startLine: 60
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets the reading code (&apos;ltr&apos;, &apos;lro&apos;, &apos;rtl&apos;, &apos;rlo&apos;).\n"
+  example: []
+  syntax:
+    content: public string Reading { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Reading As String
+  overload: Vasont.Inspire.Models.Common.LanguageModel.Reading*
   modifiers.csharp:
   - public
   - get
@@ -780,3 +818,8 @@ references:
   name: TranslationImageLanguageName
   nameWithType: LanguageModel.TranslationImageLanguageName
   fullName: Vasont.Inspire.Models.Common.LanguageModel.TranslationImageLanguageName
+- uid: Vasont.Inspire.Models.Common.LanguageModel.Reading*
+  commentId: Overload:Vasont.Inspire.Models.Common.LanguageModel.Reading
+  name: Reading
+  nameWithType: LanguageModel.Reading
+  fullName: Vasont.Inspire.Models.Common.LanguageModel.Reading
