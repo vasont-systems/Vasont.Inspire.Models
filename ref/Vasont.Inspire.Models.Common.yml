@@ -12,6 +12,7 @@ items:
   - Vasont.Inspire.Models.Common.DisplayValuePair`2
   - Vasont.Inspire.Models.Common.ErrorModel
   - Vasont.Inspire.Models.Common.ErrorResponseModel
+  - Vasont.Inspire.Models.Common.FeatureModel
   - Vasont.Inspire.Models.Common.FileExtensionModel
   - Vasont.Inspire.Models.Common.LanguageModel
   - Vasont.Inspire.Models.Common.MicroCreatedUpdaterModelBase
@@ -115,6 +116,11 @@ references:
   name: ErrorResponseModel
   nameWithType: ErrorResponseModel
   fullName: Vasont.Inspire.Models.Common.ErrorResponseModel
+- uid: Vasont.Inspire.Models.Common.FeatureModel
+  commentId: T:Vasont.Inspire.Models.Common.FeatureModel
+  name: FeatureModel
+  nameWithType: FeatureModel
+  fullName: Vasont.Inspire.Models.Common.FeatureModel
 - uid: Vasont.Inspire.Models.Common.FileExtensionModel
   commentId: T:Vasont.Inspire.Models.Common.FileExtensionModel
   name: FileExtensionModel

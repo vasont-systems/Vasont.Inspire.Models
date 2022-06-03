@@ -40,7 +40,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentRelationModel
     path: Components/ComponentRelationModel.cs
@@ -85,7 +85,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentRelationId
     path: Components/ComponentRelationModel.cs
@@ -122,7 +122,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RelationId
     path: Components/ComponentRelationModel.cs
@@ -160,7 +160,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceComponent
     path: Components/ComponentRelationModel.cs
@@ -198,7 +198,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetComponent
     path: Components/ComponentRelationModel.cs
@@ -236,7 +236,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Invalid
     path: Components/ComponentRelationModel.cs
@@ -273,7 +273,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SchemaStandard
     path: Components/ComponentRelationModel.cs
@@ -310,7 +310,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RelationName
     path: Components/ComponentRelationModel.cs
@@ -347,7 +347,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: XmlLinkTypeName
     path: Components/ComponentRelationModel.cs
@@ -384,7 +384,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceAttributeName
     path: Components/ComponentRelationModel.cs
@@ -421,7 +421,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetAttributeName
     path: Components/ComponentRelationModel.cs
@@ -458,7 +458,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceElementName
     path: Components/ComponentRelationModel.cs
@@ -495,7 +495,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceAttributeValue
     path: Components/ComponentRelationModel.cs
@@ -532,7 +532,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetElementName
     path: Components/ComponentRelationModel.cs
@@ -569,7 +569,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetAttributeValue
     path: Components/ComponentRelationModel.cs
@@ -606,7 +606,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsTargetEditable
     path: Components/ComponentRelationModel.cs
@@ -644,7 +644,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsSourceEditable
     path: Components/ComponentRelationModel.cs
@@ -682,7 +682,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Status
     path: Components/ComponentRelationModel.cs
@@ -719,7 +719,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WordCount
     path: Components/ComponentRelationModel.cs
@@ -756,7 +756,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Permissions
     path: Components/ComponentRelationModel.cs
@@ -793,7 +793,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedDate
     path: Components/ComponentRelationModel.cs
@@ -830,7 +830,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Label
     path: Components/ComponentRelationModel.cs
@@ -867,7 +867,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdateUsingTargetInfo
     path: Components/ComponentRelationModel.cs
@@ -904,7 +904,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceComponentId
     path: Components/ComponentRelationModel.cs
@@ -941,7 +941,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetComponentId
     path: Components/ComponentRelationModel.cs
@@ -978,7 +978,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedBy
     path: Components/ComponentRelationModel.cs

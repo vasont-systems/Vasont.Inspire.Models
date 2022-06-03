@@ -9,6 +9,8 @@ items:
   - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.OxygenSession
   - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ProjectDirectorNotification
   - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.PublishResult
+  - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ReportSession
+  - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.Slack
   - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ZoominFeedback
   - Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ZoominNewContent
   langs:
@@ -21,7 +23,7 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WebhookConfigurationNameType
     path: Webhooks/WebhookConfigurationModel.cs
@@ -66,7 +68,7 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ZoominFeedback
     path: Webhooks/WebhookConfigurationModel.cs
@@ -100,7 +102,7 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ZoominNewContent
     path: Webhooks/WebhookConfigurationModel.cs
@@ -134,7 +136,7 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PublishResult
     path: Webhooks/WebhookConfigurationModel.cs
@@ -168,7 +170,7 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectDirectorNotification
     path: Webhooks/WebhookConfigurationModel.cs
@@ -202,7 +204,7 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: OxygenSession
     path: Webhooks/WebhookConfigurationModel.cs
@@ -236,7 +238,7 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/58761TranslationConfigurationsPart3Models
+      branch: feature/modelchangesforscheduledpublishing
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NotifyExternalAsset
     path: Webhooks/WebhookConfigurationModel.cs
@@ -248,6 +250,74 @@ items:
   example: []
   syntax:
     content: NotifyExternalAsset = 5
+    return:
+      type: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.Slack
+  commentId: F:Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.Slack
+  id: Slack
+  parent: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  langs:
+  - csharp
+  - vb
+  name: Slack
+  nameWithType: WebhookConfigurationNameType.Slack
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.Slack
+  type: Field
+  source:
+    remote:
+      path: src/Webhooks/WebhookConfigurationModel.cs
+      branch: feature/modelchangesforscheduledpublishing
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Slack
+    path: Webhooks/WebhookConfigurationModel.cs
+    startLine: 49
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nThe Slack webhook.\n"
+  example: []
+  syntax:
+    content: Slack = 6
+    return:
+      type: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ReportSession
+  commentId: F:Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ReportSession
+  id: ReportSession
+  parent: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
+  langs:
+  - csharp
+  - vb
+  name: ReportSession
+  nameWithType: WebhookConfigurationNameType.ReportSession
+  fullName: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType.ReportSession
+  type: Field
+  source:
+    remote:
+      path: src/Webhooks/WebhookConfigurationModel.cs
+      branch: feature/modelchangesforscheduledpublishing
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ReportSession
+    path: Webhooks/WebhookConfigurationModel.cs
+    startLine: 54
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Webhooks
+  summary: "\nThe ReportSession webhook.\n"
+  example: []
+  syntax:
+    content: ReportSession = 7
     return:
       type: Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType
   modifiers.csharp:
