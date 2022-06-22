@@ -71,5 +71,10 @@ namespace Vasont.Inspire.Models.Translations
         /// Gets or sets the custom attributes.
         /// </summary>
         public string SubmissionAttributes { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether to translate first to English.
+        /// </summary>
+        public bool PivotToEnglish { get; set; }
     }
 }
