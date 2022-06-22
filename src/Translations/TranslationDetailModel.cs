@@ -155,5 +155,10 @@ namespace Vasont.Inspire.Models.Translations
         /// Gets or sets a value indicating whether the translation is related to workflow.
         /// </summary>
         public bool HasWorkflow { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether to translate first to English.
+        /// </summary>
+        public bool PivotToEnglish { get; set; }
     }
 }

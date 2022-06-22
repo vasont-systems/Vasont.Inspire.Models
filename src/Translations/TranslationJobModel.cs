@@ -81,5 +81,10 @@ namespace Vasont.Inspire.Models.Translations
         /// Gets or sets a value indicating with project directory workflow id.
         /// </summary>
         public long WorkflowId { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether to translate first to English.
+        /// </summary>
+        public bool PivotToEnglish { get; set; }
     }
 }
