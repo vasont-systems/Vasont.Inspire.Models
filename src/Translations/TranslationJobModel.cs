@@ -6,6 +6,7 @@
 namespace Vasont.Inspire.Models.Translations
 {
     using System.Collections.Generic;
+    using Vasont.Inspire.Models.Common;
 
     /// <summary>
     /// This class is a model representation of a translation job within the application.
@@ -86,5 +87,10 @@ namespace Vasont.Inspire.Models.Translations
         /// Gets or sets a value indicating whether to translate first to English.
         /// </summary>
         public bool PivotToEnglish { get; set; }
+
+        /// <summary>
+        /// Gets or sets a list of target languages to use after the pivot.
+        /// </summary>
+        public string PivotLanguages { get; set; }
     }
 }
