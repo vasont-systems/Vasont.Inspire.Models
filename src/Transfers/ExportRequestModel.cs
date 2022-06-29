@@ -24,6 +24,11 @@ namespace Vasont.Inspire.Models.Transfers
         public long ExportId { get; set; }
 
         /// <summary>
+        /// Gets or sets the user identity for whom the request is generated.
+        /// </summary>
+        public long UserId { get; set; }
+
+        /// <summary>
         /// Gets or sets the optional publish profile identity.
         /// </summary>
         public long PublishProfileId { get; set; }
