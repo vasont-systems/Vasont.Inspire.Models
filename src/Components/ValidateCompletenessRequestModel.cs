@@ -80,6 +80,11 @@ namespace Vasont.Inspire.Models.Components
         public bool ComponentInvalidXml { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether to check XML for bad references.
+        /// </summary>
+        public bool ComponentBadReferences { get; set; }
+
+        /// <summary>
         /// Gets or sets a value indicating whether to error for component with invalid processing instructions.
         /// </summary>
         public bool ComponentInvalidPis { get; set; }
