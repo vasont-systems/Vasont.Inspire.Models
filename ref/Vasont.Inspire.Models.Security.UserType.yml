@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Security/UserType.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserType
     path: Security/UserType.cs
@@ -63,7 +63,7 @@ items:
   source:
     remote:
       path: src/Security/UserType.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Standard
     path: Security/UserType.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Security/UserType.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewOnly
     path: Security/UserType.cs
@@ -131,7 +131,7 @@ items:
   source:
     remote:
       path: src/Security/UserType.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Support
     path: Security/UserType.cs

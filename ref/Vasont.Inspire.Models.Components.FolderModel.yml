@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: src/Components/FolderModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FolderModel
     path: Components/FolderModel.cs
@@ -72,7 +72,7 @@ items:
   source:
     remote:
       path: src/Components/FolderModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FolderId
     path: Components/FolderModel.cs
@@ -109,7 +109,7 @@ items:
   source:
     remote:
       path: src/Components/FolderModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UniqueId
     path: Components/FolderModel.cs
@@ -146,7 +146,7 @@ items:
   source:
     remote:
       path: src/Components/FolderModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ParentFolderId
     path: Components/FolderModel.cs
@@ -183,7 +183,7 @@ items:
   source:
     remote:
       path: src/Components/FolderModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Components/FolderModel.cs
@@ -220,7 +220,7 @@ items:
   source:
     remote:
       path: src/Components/FolderModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Components/FolderModel.cs
@@ -257,7 +257,7 @@ items:
   source:
     remote:
       path: src/Components/FolderModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Children
     path: Components/FolderModel.cs
@@ -294,7 +294,7 @@ items:
   source:
     remote:
       path: src/Components/FolderModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Path
     path: Components/FolderModel.cs

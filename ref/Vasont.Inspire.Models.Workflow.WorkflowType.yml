@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowType
     path: Workflow/WorkflowModel.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Project
     path: Workflow/WorkflowModel.cs
@@ -96,7 +96,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Review
     path: Workflow/WorkflowModel.cs

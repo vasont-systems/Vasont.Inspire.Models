@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentLockType
     path: Components/ComponentLockModel.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Standard
     path: Components/ComponentLockModel.cs
@@ -98,7 +98,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Review
     path: Components/ComponentLockModel.cs
@@ -132,7 +132,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Translation
     path: Components/ComponentLockModel.cs
@@ -166,7 +166,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Edit
     path: Components/ComponentLockModel.cs

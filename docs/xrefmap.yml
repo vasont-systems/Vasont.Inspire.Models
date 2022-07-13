@@ -1115,6 +1115,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Common.TenantDetailModel.OxygenWebEnabled
   nameWithType: TenantDetailModel.OxygenWebEnabled
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.PivotToEnglishEnabled
+  name: PivotToEnglishEnabled
+  href: ref/Vasont.Inspire.Models.Common.TenantDetailModel.html#Vasont_Inspire_Models_Common_TenantDetailModel_PivotToEnglishEnabled
+  commentId: P:Vasont.Inspire.Models.Common.TenantDetailModel.PivotToEnglishEnabled
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.PivotToEnglishEnabled
+  nameWithType: TenantDetailModel.PivotToEnglishEnabled
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.PivotToEnglishEnabled*
+  name: PivotToEnglishEnabled
+  href: ref/Vasont.Inspire.Models.Common.TenantDetailModel.html#Vasont_Inspire_Models_Common_TenantDetailModel_PivotToEnglishEnabled_
+  commentId: Overload:Vasont.Inspire.Models.Common.TenantDetailModel.PivotToEnglishEnabled
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.PivotToEnglishEnabled
+  nameWithType: TenantDetailModel.PivotToEnglishEnabled
 - uid: Vasont.Inspire.Models.Common.TenantDetailModel.PreviewSystem
   name: PreviewSystem
   href: ref/Vasont.Inspire.Models.Common.TenantDetailModel.html#Vasont_Inspire_Models_Common_TenantDetailModel_PreviewSystem
@@ -24480,6 +24493,32 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Translations.TranslationConfigurationModel.IncludeSchema
   nameWithType: TranslationConfigurationModel.IncludeSchema
+- uid: Vasont.Inspire.Models.Translations.TranslationConfigurationModel.PivotLanguages
+  name: PivotLanguages
+  href: ref/Vasont.Inspire.Models.Translations.TranslationConfigurationModel.html#Vasont_Inspire_Models_Translations_TranslationConfigurationModel_PivotLanguages
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationConfigurationModel.PivotLanguages
+  fullName: Vasont.Inspire.Models.Translations.TranslationConfigurationModel.PivotLanguages
+  nameWithType: TranslationConfigurationModel.PivotLanguages
+- uid: Vasont.Inspire.Models.Translations.TranslationConfigurationModel.PivotLanguages*
+  name: PivotLanguages
+  href: ref/Vasont.Inspire.Models.Translations.TranslationConfigurationModel.html#Vasont_Inspire_Models_Translations_TranslationConfigurationModel_PivotLanguages_
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationConfigurationModel.PivotLanguages
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.TranslationConfigurationModel.PivotLanguages
+  nameWithType: TranslationConfigurationModel.PivotLanguages
+- uid: Vasont.Inspire.Models.Translations.TranslationConfigurationModel.PivotToEnglish
+  name: PivotToEnglish
+  href: ref/Vasont.Inspire.Models.Translations.TranslationConfigurationModel.html#Vasont_Inspire_Models_Translations_TranslationConfigurationModel_PivotToEnglish
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationConfigurationModel.PivotToEnglish
+  fullName: Vasont.Inspire.Models.Translations.TranslationConfigurationModel.PivotToEnglish
+  nameWithType: TranslationConfigurationModel.PivotToEnglish
+- uid: Vasont.Inspire.Models.Translations.TranslationConfigurationModel.PivotToEnglish*
+  name: PivotToEnglish
+  href: ref/Vasont.Inspire.Models.Translations.TranslationConfigurationModel.html#Vasont_Inspire_Models_Translations_TranslationConfigurationModel_PivotToEnglish_
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationConfigurationModel.PivotToEnglish
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.TranslationConfigurationModel.PivotToEnglish
+  nameWithType: TranslationConfigurationModel.PivotToEnglish
 - uid: Vasont.Inspire.Models.Translations.TranslationConfigurationModel.SubmissionAttributes
   name: SubmissionAttributes
   href: ref/Vasont.Inspire.Models.Translations.TranslationConfigurationModel.html#Vasont_Inspire_Models_Translations_TranslationConfigurationModel_SubmissionAttributes
@@ -24862,6 +24901,32 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Translations.TranslationDetailModel.Name
   nameWithType: TranslationDetailModel.Name
+- uid: Vasont.Inspire.Models.Translations.TranslationDetailModel.PivotLanguages
+  name: PivotLanguages
+  href: ref/Vasont.Inspire.Models.Translations.TranslationDetailModel.html#Vasont_Inspire_Models_Translations_TranslationDetailModel_PivotLanguages
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationDetailModel.PivotLanguages
+  fullName: Vasont.Inspire.Models.Translations.TranslationDetailModel.PivotLanguages
+  nameWithType: TranslationDetailModel.PivotLanguages
+- uid: Vasont.Inspire.Models.Translations.TranslationDetailModel.PivotLanguages*
+  name: PivotLanguages
+  href: ref/Vasont.Inspire.Models.Translations.TranslationDetailModel.html#Vasont_Inspire_Models_Translations_TranslationDetailModel_PivotLanguages_
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationDetailModel.PivotLanguages
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.TranslationDetailModel.PivotLanguages
+  nameWithType: TranslationDetailModel.PivotLanguages
+- uid: Vasont.Inspire.Models.Translations.TranslationDetailModel.PivotToEnglish
+  name: PivotToEnglish
+  href: ref/Vasont.Inspire.Models.Translations.TranslationDetailModel.html#Vasont_Inspire_Models_Translations_TranslationDetailModel_PivotToEnglish
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationDetailModel.PivotToEnglish
+  fullName: Vasont.Inspire.Models.Translations.TranslationDetailModel.PivotToEnglish
+  nameWithType: TranslationDetailModel.PivotToEnglish
+- uid: Vasont.Inspire.Models.Translations.TranslationDetailModel.PivotToEnglish*
+  name: PivotToEnglish
+  href: ref/Vasont.Inspire.Models.Translations.TranslationDetailModel.html#Vasont_Inspire_Models_Translations_TranslationDetailModel_PivotToEnglish_
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationDetailModel.PivotToEnglish
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.TranslationDetailModel.PivotToEnglish
+  nameWithType: TranslationDetailModel.PivotToEnglish
 - uid: Vasont.Inspire.Models.Translations.TranslationDetailModel.StartDate
   name: StartDate
   href: ref/Vasont.Inspire.Models.Translations.TranslationDetailModel.html#Vasont_Inspire_Models_Translations_TranslationDetailModel_StartDate
@@ -25681,6 +25746,32 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.IncludeXSDs
   nameWithType: TranslationJobModel.IncludeXSDs
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.PivotLanguages
+  name: PivotLanguages
+  href: ref/Vasont.Inspire.Models.Translations.TranslationJobModel.html#Vasont_Inspire_Models_Translations_TranslationJobModel_PivotLanguages
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationJobModel.PivotLanguages
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.PivotLanguages
+  nameWithType: TranslationJobModel.PivotLanguages
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.PivotLanguages*
+  name: PivotLanguages
+  href: ref/Vasont.Inspire.Models.Translations.TranslationJobModel.html#Vasont_Inspire_Models_Translations_TranslationJobModel_PivotLanguages_
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationJobModel.PivotLanguages
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.PivotLanguages
+  nameWithType: TranslationJobModel.PivotLanguages
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.PivotToEnglish
+  name: PivotToEnglish
+  href: ref/Vasont.Inspire.Models.Translations.TranslationJobModel.html#Vasont_Inspire_Models_Translations_TranslationJobModel_PivotToEnglish
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationJobModel.PivotToEnglish
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.PivotToEnglish
+  nameWithType: TranslationJobModel.PivotToEnglish
+- uid: Vasont.Inspire.Models.Translations.TranslationJobModel.PivotToEnglish*
+  name: PivotToEnglish
+  href: ref/Vasont.Inspire.Models.Translations.TranslationJobModel.html#Vasont_Inspire_Models_Translations_TranslationJobModel_PivotToEnglish_
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationJobModel.PivotToEnglish
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobModel.PivotToEnglish
+  nameWithType: TranslationJobModel.PivotToEnglish
 - uid: Vasont.Inspire.Models.Translations.TranslationJobModel.SourceComponentIds
   name: SourceComponentIds
   href: ref/Vasont.Inspire.Models.Translations.TranslationJobModel.html#Vasont_Inspire_Models_Translations_TranslationJobModel_SourceComponentIds
@@ -25830,6 +25921,32 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel.IncludeXSDs
   nameWithType: TranslationJobPropertiesModel.IncludeXSDs
+- uid: Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel.PivotLanguages
+  name: PivotLanguages
+  href: ref/Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel.html#Vasont_Inspire_Models_Translations_TranslationJobPropertiesModel_PivotLanguages
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel.PivotLanguages
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel.PivotLanguages
+  nameWithType: TranslationJobPropertiesModel.PivotLanguages
+- uid: Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel.PivotLanguages*
+  name: PivotLanguages
+  href: ref/Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel.html#Vasont_Inspire_Models_Translations_TranslationJobPropertiesModel_PivotLanguages_
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel.PivotLanguages
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel.PivotLanguages
+  nameWithType: TranslationJobPropertiesModel.PivotLanguages
+- uid: Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel.PivotToEnglish
+  name: PivotToEnglish
+  href: ref/Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel.html#Vasont_Inspire_Models_Translations_TranslationJobPropertiesModel_PivotToEnglish
+  commentId: P:Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel.PivotToEnglish
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel.PivotToEnglish
+  nameWithType: TranslationJobPropertiesModel.PivotToEnglish
+- uid: Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel.PivotToEnglish*
+  name: PivotToEnglish
+  href: ref/Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel.html#Vasont_Inspire_Models_Translations_TranslationJobPropertiesModel_PivotToEnglish_
+  commentId: Overload:Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel.PivotToEnglish
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel.PivotToEnglish
+  nameWithType: TranslationJobPropertiesModel.PivotToEnglish
 - uid: Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel.SubmissionAttributes
   name: SubmissionAttributes
   href: ref/Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel.html#Vasont_Inspire_Models_Translations_TranslationJobPropertiesModel_SubmissionAttributes
