@@ -76,7 +76,13 @@ namespace Vasont.Inspire.Models.Versioning
         /// A component was reviewed.
         /// </summary>
         [Description("r")]
-        Review
+        Review,
+
+        /// <summary>
+        /// A component was renamed.
+        /// </summary>
+        [Description("n")]
+        Rename
     }
 
     /// <summary>
