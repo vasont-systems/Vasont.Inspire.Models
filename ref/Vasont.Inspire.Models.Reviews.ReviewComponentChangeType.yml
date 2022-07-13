@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewComponentModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewComponentChangeType
     path: Reviews/ReviewComponentModel.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewComponentModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Insert
     path: Reviews/ReviewComponentModel.cs
@@ -96,7 +96,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewComponentModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Remove
     path: Reviews/ReviewComponentModel.cs

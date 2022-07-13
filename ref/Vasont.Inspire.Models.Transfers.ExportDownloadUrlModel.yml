@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportDownloadUrlModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportDownloadUrlModel
     path: Transfers/ExportDownloadUrlModel.cs
@@ -61,7 +61,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportDownloadUrlModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportContextId
     path: Transfers/ExportDownloadUrlModel.cs
@@ -98,7 +98,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportDownloadUrlModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserName
     path: Transfers/ExportDownloadUrlModel.cs
@@ -135,7 +135,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportDownloadUrlModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserId
     path: Transfers/ExportDownloadUrlModel.cs

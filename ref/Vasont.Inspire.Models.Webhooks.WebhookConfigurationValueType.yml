@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WebhookConfigurationValueType
     path: Webhooks/WebhookConfigurationModel.cs
@@ -67,7 +67,7 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Project
     path: Webhooks/WebhookConfigurationModel.cs
@@ -101,7 +101,7 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectActivity
     path: Webhooks/WebhookConfigurationModel.cs
@@ -135,7 +135,7 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentType
     path: Webhooks/WebhookConfigurationModel.cs
@@ -169,7 +169,7 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Folder
     path: Webhooks/WebhookConfigurationModel.cs
@@ -203,7 +203,7 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Text
     path: Webhooks/WebhookConfigurationModel.cs
@@ -237,7 +237,7 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Number
     path: Webhooks/WebhookConfigurationModel.cs
@@ -271,7 +271,7 @@ items:
   source:
     remote:
       path: src/Webhooks/WebhookConfigurationModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Secret
     path: Webhooks/WebhookConfigurationModel.cs

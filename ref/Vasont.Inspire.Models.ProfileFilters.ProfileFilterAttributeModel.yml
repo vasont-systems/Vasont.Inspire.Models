@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: src/ProfileFilters/ProfileFilterAttributeModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProfileFilterAttributeModel
     path: ProfileFilters/ProfileFilterAttributeModel.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/ProfileFilters/ProfileFilterAttributeModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AttributeId
     path: ProfileFilters/ProfileFilterAttributeModel.cs
@@ -101,7 +101,7 @@ items:
   source:
     remote:
       path: src/ProfileFilters/ProfileFilterAttributeModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AttributeName
     path: ProfileFilters/ProfileFilterAttributeModel.cs
@@ -138,7 +138,7 @@ items:
   source:
     remote:
       path: src/ProfileFilters/ProfileFilterAttributeModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AttributeNameDisplay
     path: ProfileFilters/ProfileFilterAttributeModel.cs
@@ -175,7 +175,7 @@ items:
   source:
     remote:
       path: src/ProfileFilters/ProfileFilterAttributeModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AttributeValueId
     path: ProfileFilters/ProfileFilterAttributeModel.cs
@@ -212,7 +212,7 @@ items:
   source:
     remote:
       path: src/ProfileFilters/ProfileFilterAttributeModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AttributeValue
     path: ProfileFilters/ProfileFilterAttributeModel.cs
@@ -249,7 +249,7 @@ items:
   source:
     remote:
       path: src/ProfileFilters/ProfileFilterAttributeModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AttributeValueDisplay
     path: ProfileFilters/ProfileFilterAttributeModel.cs
