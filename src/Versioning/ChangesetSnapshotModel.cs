@@ -118,7 +118,12 @@ namespace Vasont.Inspire.Models.Versioning
         /// <summary>
         /// A component created or updated with an import.
         /// </summary>
-        Import
+        Import,
+
+        /// <summary>
+        /// A component was renamed.
+        /// </summary>
+        Rename
     }
 
     /// <summary>
