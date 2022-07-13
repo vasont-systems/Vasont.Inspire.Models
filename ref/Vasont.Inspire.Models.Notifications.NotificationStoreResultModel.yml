@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationStoreResultModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NotificationStoreResultModel
     path: Notifications/NotificationStoreResultModel.cs
@@ -61,7 +61,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationStoreResultModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TotalCount
     path: Notifications/NotificationStoreResultModel.cs
@@ -98,7 +98,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationStoreResultModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TotalUnreadCount
     path: Notifications/NotificationStoreResultModel.cs
@@ -135,7 +135,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationStoreResultModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Notifications
     path: Notifications/NotificationStoreResultModel.cs

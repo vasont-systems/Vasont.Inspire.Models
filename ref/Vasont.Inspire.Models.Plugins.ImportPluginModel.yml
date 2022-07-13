@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: src/Plugins/ImportPluginModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ImportPluginModel
     path: Plugins/ImportPluginModel.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/Plugins/ImportPluginModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ImportPluginId
     path: Plugins/ImportPluginModel.cs
@@ -101,7 +101,7 @@ items:
   source:
     remote:
       path: src/Plugins/ImportPluginModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ImportId
     path: Plugins/ImportPluginModel.cs
@@ -138,7 +138,7 @@ items:
   source:
     remote:
       path: src/Plugins/ImportPluginModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PluginId
     path: Plugins/ImportPluginModel.cs
@@ -175,7 +175,7 @@ items:
   source:
     remote:
       path: src/Plugins/ImportPluginModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Plugin
     path: Plugins/ImportPluginModel.cs
@@ -212,7 +212,7 @@ items:
   source:
     remote:
       path: src/Plugins/ImportPluginModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PluginParameterValues
     path: Plugins/ImportPluginModel.cs
@@ -249,7 +249,7 @@ items:
   source:
     remote:
       path: src/Plugins/ImportPluginModel.cs
-      branch: feature/modelchangesforscheduledpublishing
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SortOrder
     path: Plugins/ImportPluginModel.cs
