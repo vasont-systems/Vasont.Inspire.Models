@@ -86,6 +86,12 @@ namespace Vasont.Inspire.Models.Transfers
         public ExportContentResult ExportResult { get; set; }
 
         /// <summary>
+        /// Gets or sets the folder path of the component.
+        /// </summary>
+        [JsonIgnore]
+        public string FolderPath { get; set; }
+
+        /// <summary>
         /// Gets or sets the file and path of the component.
         /// </summary>
         [JsonIgnore]

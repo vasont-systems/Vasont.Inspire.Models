@@ -62,5 +62,10 @@ namespace Vasont.Inspire.Models.Transfers
         /// Gets or sets a value indicating whether the exported content should be validated.
         /// </summary>
         public bool SkipXmlValidation { get; set; } = false;
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the file subfolder structure should be created during export.
+        /// </summary>
+        public bool CreateSubfolders { get; set; } = false;
     }
 }
