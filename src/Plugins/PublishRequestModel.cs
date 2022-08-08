@@ -55,7 +55,12 @@ namespace Vasont.Inspire.Models.Plugins
         /// <summary>
         /// Contains a value that indicates publishing to XSLT.
         /// </summary>
-        Xslt
+        Xslt,
+
+        /// <summary>
+        /// Contains a value that indicates publishing with Batch/Powershell script.
+        /// </summary>
+        Script
     }
 
     /// <summary>
