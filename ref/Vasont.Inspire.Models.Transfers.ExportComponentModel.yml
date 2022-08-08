@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportComponentModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportComponentModel
     path: Transfers/ExportComponentModel.cs
@@ -42,6 +42,7 @@ items:
   - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FilteredElements
   - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.RequiresProcessing
   - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ExportResult
+  - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FolderPath
   - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ExtractedFilePath
   - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.CreatedDate
   - Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.UpdatedDate
@@ -128,6 +129,12 @@ references:
   name: ExportResult
   nameWithType: MinimalExportComponentModel.ExportResult
   fullName: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ExportResult
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FolderPath
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FolderPath
+  parent: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel
+  name: FolderPath
+  nameWithType: MinimalExportComponentModel.FolderPath
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FolderPath
 - uid: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ExtractedFilePath
   commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.ExtractedFilePath
   parent: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel

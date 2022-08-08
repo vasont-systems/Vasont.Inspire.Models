@@ -8,12 +8,14 @@ items:
   - Vasont.Inspire.Models.Transfers.ExportRequestModel.AlwaysZipResults
   - Vasont.Inspire.Models.Transfers.ExportRequestModel.ChangesetsToExport
   - Vasont.Inspire.Models.Transfers.ExportRequestModel.ComponentIdsToExport
+  - Vasont.Inspire.Models.Transfers.ExportRequestModel.CreateSubfolders
   - Vasont.Inspire.Models.Transfers.ExportRequestModel.ExportId
   - Vasont.Inspire.Models.Transfers.ExportRequestModel.LockForEdit
   - Vasont.Inspire.Models.Transfers.ExportRequestModel.ProfileFilters
   - Vasont.Inspire.Models.Transfers.ExportRequestModel.PublishProfileId
   - Vasont.Inspire.Models.Transfers.ExportRequestModel.SendNotification
   - Vasont.Inspire.Models.Transfers.ExportRequestModel.SkipXmlValidation
+  - Vasont.Inspire.Models.Transfers.ExportRequestModel.UserId
   langs:
   - csharp
   - vb
@@ -24,7 +26,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportRequestModel
     path: Transfers/ExportRequestModel.cs
@@ -67,7 +69,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetsToExport
     path: Transfers/ExportRequestModel.cs
@@ -104,7 +106,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportId
     path: Transfers/ExportRequestModel.cs
@@ -127,6 +129,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.UserId
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportRequestModel.UserId
+  id: UserId
+  parent: Vasont.Inspire.Models.Transfers.ExportRequestModel
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: ExportRequestModel.UserId
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.UserId
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ExportRequestModel.cs
+      branch: feature/NotificationDetailedMessageSupport
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UserId
+    path: Transfers/ExportRequestModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets the user identity for whom the request is generated.\n"
+  example: []
+  syntax:
+    content: public long UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property UserId As Long
+  overload: Vasont.Inspire.Models.Transfers.ExportRequestModel.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.PublishProfileId
   commentId: P:Vasont.Inspire.Models.Transfers.ExportRequestModel.PublishProfileId
   id: PublishProfileId
@@ -141,11 +180,11 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PublishProfileId
     path: Transfers/ExportRequestModel.cs
-    startLine: 28
+    startLine: 33
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -178,11 +217,11 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentIdsToExport
     path: Transfers/ExportRequestModel.cs
-    startLine: 33
+    startLine: 38
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -215,11 +254,11 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AlwaysZipResults
     path: Transfers/ExportRequestModel.cs
-    startLine: 38
+    startLine: 43
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -252,11 +291,11 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SendNotification
     path: Transfers/ExportRequestModel.cs
-    startLine: 43
+    startLine: 48
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -289,11 +328,11 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProfileFilters
     path: Transfers/ExportRequestModel.cs
-    startLine: 48
+    startLine: 53
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -326,11 +365,11 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LockForEdit
     path: Transfers/ExportRequestModel.cs
-    startLine: 53
+    startLine: 58
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -363,11 +402,11 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SkipXmlValidation
     path: Transfers/ExportRequestModel.cs
-    startLine: 58
+    startLine: 63
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Transfers
@@ -380,6 +419,43 @@ items:
       type: System.Boolean
     content.vb: Public Property SkipXmlValidation As Boolean
   overload: Vasont.Inspire.Models.Transfers.ExportRequestModel.SkipXmlValidation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.CreateSubfolders
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportRequestModel.CreateSubfolders
+  id: CreateSubfolders
+  parent: Vasont.Inspire.Models.Transfers.ExportRequestModel
+  langs:
+  - csharp
+  - vb
+  name: CreateSubfolders
+  nameWithType: ExportRequestModel.CreateSubfolders
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.CreateSubfolders
+  type: Property
+  source:
+    remote:
+      path: src/Transfers/ExportRequestModel.cs
+      branch: feature/NotificationDetailedMessageSupport
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: CreateSubfolders
+    path: Transfers/ExportRequestModel.cs
+    startLine: 68
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Transfers
+  summary: "\nGets or sets a value indicating whether the file subfolder structure should be created during export.\n"
+  example: []
+  syntax:
+    content: public bool CreateSubfolders { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CreateSubfolders As Boolean
+  overload: Vasont.Inspire.Models.Transfers.ExportRequestModel.CreateSubfolders*
   modifiers.csharp:
   - public
   - get
@@ -788,6 +864,11 @@ references:
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.UserId*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportRequestModel.UserId
+  name: UserId
+  nameWithType: ExportRequestModel.UserId
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.UserId
 - uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.PublishProfileId*
   commentId: Overload:Vasont.Inspire.Models.Transfers.ExportRequestModel.PublishProfileId
   name: PublishProfileId
@@ -916,3 +997,8 @@ references:
   name: SkipXmlValidation
   nameWithType: ExportRequestModel.SkipXmlValidation
   fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.SkipXmlValidation
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.CreateSubfolders*
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportRequestModel.CreateSubfolders
+  name: CreateSubfolders
+  nameWithType: ExportRequestModel.CreateSubfolders
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.CreateSubfolders
