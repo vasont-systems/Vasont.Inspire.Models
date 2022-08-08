@@ -13,6 +13,11 @@ namespace Vasont.Inspire.Models.Notifications
     public class NotificationDetailedMessageModel
     {
         /// <summary>
+        /// Gets or sets the identity for the notification message.
+        /// </summary>
+        public Guid NotificationMessageId { get; set; }
+
+        /// <summary>
         /// Gets or sets the identity for the detailed message.
         /// </summary>
         public Guid MessageId { get; set; }

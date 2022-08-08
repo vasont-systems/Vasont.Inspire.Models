@@ -33,7 +33,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewDetailModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewDetailModel
     path: Reviews/ReviewDetailModel.cs
@@ -76,7 +76,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewDetailModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewId
     path: Reviews/ReviewDetailModel.cs
@@ -113,7 +113,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewDetailModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Title
     path: Reviews/ReviewDetailModel.cs
@@ -150,7 +150,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewDetailModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Reviews/ReviewDetailModel.cs
@@ -187,7 +187,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewDetailModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Coordinator
     path: Reviews/ReviewDetailModel.cs
@@ -224,7 +224,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewDetailModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: State
     path: Reviews/ReviewDetailModel.cs
@@ -261,7 +261,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewDetailModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewerState
     path: Reviews/ReviewDetailModel.cs
@@ -298,7 +298,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewDetailModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: StartDate
     path: Reviews/ReviewDetailModel.cs
@@ -335,7 +335,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewDetailModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DueDate
     path: Reviews/ReviewDetailModel.cs
@@ -372,7 +372,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewDetailModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CompletedDate
     path: Reviews/ReviewDetailModel.cs
@@ -409,7 +409,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewDetailModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedDate
     path: Reviews/ReviewDetailModel.cs
@@ -446,7 +446,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewDetailModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdatedDate
     path: Reviews/ReviewDetailModel.cs
@@ -483,7 +483,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewDetailModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedBy
     path: Reviews/ReviewDetailModel.cs
@@ -520,7 +520,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewDetailModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdatedBy
     path: Reviews/ReviewDetailModel.cs
@@ -557,7 +557,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewDetailModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Archived
     path: Reviews/ReviewDetailModel.cs
@@ -594,7 +594,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewDetailModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Interactive
     path: Reviews/ReviewDetailModel.cs
@@ -631,7 +631,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewDetailModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Reviewers
     path: Reviews/ReviewDetailModel.cs
@@ -668,7 +668,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewDetailModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Components
     path: Reviews/ReviewDetailModel.cs
@@ -705,7 +705,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewDetailModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: HasWorkflow
     path: Reviews/ReviewDetailModel.cs

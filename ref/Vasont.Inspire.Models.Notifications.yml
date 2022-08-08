@@ -4,6 +4,7 @@ items:
   commentId: N:Vasont.Inspire.Models.Notifications
   id: Vasont.Inspire.Models.Notifications
   children:
+  - Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel
   - Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
   - Vasont.Inspire.Models.Notifications.NotificationModel`2
   - Vasont.Inspire.Models.Notifications.NotificationState
@@ -24,6 +25,11 @@ items:
   assemblies:
   - Vasont.Inspire.Models
 references:
+- uid: Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel
+  name: NotificationDetailedMessageModel
+  nameWithType: NotificationDetailedMessageModel
+  fullName: Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel
 - uid: Vasont.Inspire.Models.Notifications.NotificationType
   commentId: T:Vasont.Inspire.Models.Notifications.NotificationType
   parent: Vasont.Inspire.Models.Notifications

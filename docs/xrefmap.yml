@@ -8664,6 +8664,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ValidateCompletenessRequestModel
   nameWithType: ValidateCompletenessRequestModel.ValidateCompletenessRequestModel
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentBadReferences
+  name: ComponentBadReferences
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_ComponentBadReferences
+  commentId: P:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentBadReferences
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentBadReferences
+  nameWithType: ValidateCompletenessRequestModel.ComponentBadReferences
+- uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentBadReferences*
+  name: ComponentBadReferences
+  href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_ComponentBadReferences_
+  commentId: Overload:Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentBadReferences
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentBadReferences
+  nameWithType: ValidateCompletenessRequestModel.ComponentBadReferences
 - uid: Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.ComponentIds
   name: ComponentIds
   href: ref/Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel.html#Vasont_Inspire_Models_Components_ValidateCompletenessRequestModel_ComponentIds
@@ -10455,6 +10468,51 @@ references:
   commentId: N:Vasont.Inspire.Models.Notifications
   fullName: Vasont.Inspire.Models.Notifications
   nameWithType: Vasont.Inspire.Models.Notifications
+- uid: Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel
+  name: NotificationDetailedMessageModel
+  href: ref/Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.html
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel
+  fullName: Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel
+  nameWithType: NotificationDetailedMessageModel
+- uid: Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.Message
+  name: Message
+  href: ref/Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.html#Vasont_Inspire_Models_Notifications_NotificationDetailedMessageModel_Message
+  commentId: P:Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.Message
+  fullName: Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.Message
+  nameWithType: NotificationDetailedMessageModel.Message
+- uid: Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.Message*
+  name: Message
+  href: ref/Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.html#Vasont_Inspire_Models_Notifications_NotificationDetailedMessageModel_Message_
+  commentId: Overload:Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.Message
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.Message
+  nameWithType: NotificationDetailedMessageModel.Message
+- uid: Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.MessageId
+  name: MessageId
+  href: ref/Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.html#Vasont_Inspire_Models_Notifications_NotificationDetailedMessageModel_MessageId
+  commentId: P:Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.MessageId
+  fullName: Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.MessageId
+  nameWithType: NotificationDetailedMessageModel.MessageId
+- uid: Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.MessageId*
+  name: MessageId
+  href: ref/Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.html#Vasont_Inspire_Models_Notifications_NotificationDetailedMessageModel_MessageId_
+  commentId: Overload:Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.MessageId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.MessageId
+  nameWithType: NotificationDetailedMessageModel.MessageId
+- uid: Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.UniqueId
+  name: UniqueId
+  href: ref/Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.html#Vasont_Inspire_Models_Notifications_NotificationDetailedMessageModel_UniqueId
+  commentId: P:Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.UniqueId
+  fullName: Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.UniqueId
+  nameWithType: NotificationDetailedMessageModel.UniqueId
+- uid: Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.UniqueId*
+  name: UniqueId
+  href: ref/Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.html#Vasont_Inspire_Models_Notifications_NotificationDetailedMessageModel_UniqueId_
+  commentId: Overload:Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.UniqueId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel.UniqueId
+  nameWithType: NotificationDetailedMessageModel.UniqueId
 - uid: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
   name: NotificationMessageAlertStatus
   href: ref/Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus.html
@@ -21639,6 +21697,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.ComponentIdsToExport
   nameWithType: ExportRequestModel.ComponentIdsToExport
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.CreateSubfolders
+  name: CreateSubfolders
+  href: ref/Vasont.Inspire.Models.Transfers.ExportRequestModel.html#Vasont_Inspire_Models_Transfers_ExportRequestModel_CreateSubfolders
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportRequestModel.CreateSubfolders
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.CreateSubfolders
+  nameWithType: ExportRequestModel.CreateSubfolders
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.CreateSubfolders*
+  name: CreateSubfolders
+  href: ref/Vasont.Inspire.Models.Transfers.ExportRequestModel.html#Vasont_Inspire_Models_Transfers_ExportRequestModel_CreateSubfolders_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportRequestModel.CreateSubfolders
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.CreateSubfolders
+  nameWithType: ExportRequestModel.CreateSubfolders
 - uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.ExportId
   name: ExportId
   href: ref/Vasont.Inspire.Models.Transfers.ExportRequestModel.html#Vasont_Inspire_Models_Transfers_ExportRequestModel_ExportId
@@ -21717,6 +21788,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.SkipXmlValidation
   nameWithType: ExportRequestModel.SkipXmlValidation
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.UserId
+  name: UserId
+  href: ref/Vasont.Inspire.Models.Transfers.ExportRequestModel.html#Vasont_Inspire_Models_Transfers_ExportRequestModel_UserId
+  commentId: P:Vasont.Inspire.Models.Transfers.ExportRequestModel.UserId
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.UserId
+  nameWithType: ExportRequestModel.UserId
+- uid: Vasont.Inspire.Models.Transfers.ExportRequestModel.UserId*
+  name: UserId
+  href: ref/Vasont.Inspire.Models.Transfers.ExportRequestModel.html#Vasont_Inspire_Models_Transfers_ExportRequestModel_UserId_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.ExportRequestModel.UserId
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.ExportRequestModel.UserId
+  nameWithType: ExportRequestModel.UserId
 - uid: Vasont.Inspire.Models.Transfers.ExportSelectionModel
   name: ExportSelectionModel
   href: ref/Vasont.Inspire.Models.Transfers.ExportSelectionModel.html
@@ -22591,6 +22675,19 @@ references:
   isSpec: "True"
   fullName: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FilteredTargetIds
   nameWithType: MinimalExportComponentModel.FilteredTargetIds
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FolderPath
+  name: FolderPath
+  href: ref/Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.html#Vasont_Inspire_Models_Transfers_MinimalExportComponentModel_FolderPath
+  commentId: P:Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FolderPath
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FolderPath
+  nameWithType: MinimalExportComponentModel.FolderPath
+- uid: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FolderPath*
+  name: FolderPath
+  href: ref/Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.html#Vasont_Inspire_Models_Transfers_MinimalExportComponentModel_FolderPath_
+  commentId: Overload:Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FolderPath
+  isSpec: "True"
+  fullName: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.FolderPath
+  nameWithType: MinimalExportComponentModel.FolderPath
 - uid: Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.IsLocked
   name: IsLocked
   href: ref/Vasont.Inspire.Models.Transfers.MinimalExportComponentModel.html#Vasont_Inspire_Models_Transfers_MinimalExportComponentModel_IsLocked
@@ -27365,6 +27462,12 @@ references:
   commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.Import
   fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.Import
   nameWithType: ChangesetSnapshotProcessType.Import
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.Rename
+  name: Rename
+  href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.html#Vasont_Inspire_Models_Versioning_ChangesetSnapshotProcessType_Rename
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.Rename
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.Rename
+  nameWithType: ChangesetSnapshotProcessType.Rename
 - uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.Review
   name: Review
   href: ref/Vasont.Inspire.Models.Versioning.ChangesetSnapshotProcessType.html#Vasont_Inspire_Models_Versioning_ChangesetSnapshotProcessType_Review
