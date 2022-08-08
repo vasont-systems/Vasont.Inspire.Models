@@ -1,12 +1,12 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="NotificatioDetailedMessageModel.cs" company="GlobalLink Vasont">
+// <copyright file="NotificationDetailedMessageModel.cs" company="GlobalLink Vasont">
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-using System;
-
 namespace Vasont.Inspire.Models.Notifications
 {
+    using System;
+
     /// <summary>
     /// This class represents a detailedmessage.
     /// </summary>

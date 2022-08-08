@@ -67,5 +67,11 @@ namespace Vasont.Inspire.Models.Transfers
         /// Gets or sets a value indicating whether the file subfolder structure should be created during export.
         /// </summary>
         public bool CreateSubfolders { get; set; } = false;
+
+        /// <summary>
+        /// Gets or sets the optional folder path associated with the export.
+        /// </summary>
+        /// <value></value>
+        public string FolderPath { get; set; } = string.Empty;
     }
 }
