@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectActivityModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectActivityModel
     path: Projects/ProjectActivityModel.cs
@@ -70,7 +70,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectActivityModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Projects/ProjectActivityModel.cs
@@ -102,7 +102,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectActivityModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectActivityId
     path: Projects/ProjectActivityModel.cs
@@ -139,7 +139,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectActivityModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Projects/ProjectActivityModel.cs
@@ -176,7 +176,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectActivityModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Projects/ProjectActivityModel.cs
@@ -213,7 +213,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectActivityModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Required
     path: Projects/ProjectActivityModel.cs

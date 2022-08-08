@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Worker/MinimalWorkerStateModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalWorkerStateModel
     path: Worker/MinimalWorkerStateModel.cs
@@ -82,7 +82,7 @@ items:
   source:
     remote:
       path: src/Worker/MinimalWorkerStateModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Worker/MinimalWorkerStateModel.cs
@@ -116,7 +116,7 @@ items:
   source:
     remote:
       path: src/Worker/MinimalWorkerStateModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Worker/MinimalWorkerStateModel.cs
@@ -154,7 +154,7 @@ items:
   source:
     remote:
       path: src/Worker/MinimalWorkerStateModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Model
     path: Worker/MinimalWorkerStateModel.cs

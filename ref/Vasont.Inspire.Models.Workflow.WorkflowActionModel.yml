@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowActionModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowActionModel
     path: Workflow/WorkflowActionModel.cs
@@ -63,7 +63,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowActionModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowActionId
     path: Workflow/WorkflowActionModel.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowActionModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowId
     path: Workflow/WorkflowActionModel.cs
@@ -137,7 +137,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowActionModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Workflow/WorkflowActionModel.cs
@@ -174,7 +174,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowActionModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Workflow/WorkflowActionModel.cs
@@ -211,7 +211,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowActionModel.cs
-      branch: develop
+      branch: feature/NotificationDetailedMessageSupport
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Coordinates
     path: Workflow/WorkflowActionModel.cs
