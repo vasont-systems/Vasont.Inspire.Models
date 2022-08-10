@@ -24,5 +24,10 @@ namespace Vasont.Inspire.Models.Notifications.Types
         /// Gets or sets the message content body in optional HTML format.
         /// </summary>
         public string HtmlBody { get; set; }
+
+        /// <summary>
+        /// Gets or sets the detailed message content body in optional HTML format.
+        /// </summary>
+        public string DetailedHtmlBody { get; set; }
     }
 }
