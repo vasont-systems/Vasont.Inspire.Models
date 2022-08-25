@@ -29,5 +29,16 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets a value indicating the element XML snippet.
         /// </summary>
         public string XmlSnippet { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating the source attribute value.
+        /// </summary>
+        public string SourceAttributeValue { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating the source element name.
+        /// </summary>
+        public string SourceElementName { get; set; }
+
     }
 }
