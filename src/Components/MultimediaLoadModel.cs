@@ -14,5 +14,10 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets a value indicating whether the image or video is returned as a thumbnail.
         /// </summary>
         public bool Thumbnail { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the preview should ignore the threshold.
+        /// </summary>
+        public bool IgnoreThreshold { get; set; }
     }
 }
