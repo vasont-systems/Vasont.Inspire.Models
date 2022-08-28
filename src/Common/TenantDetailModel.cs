@@ -116,6 +116,6 @@ namespace Vasont.Inspire.Models.Common
         /// <summary>
         /// Gets or sets a value indicating whether the tenant has an Expert.ai integration available.
         /// </summary>
-        public bool HasExpertAi { get; set; };
+        public bool HasExpertAi { get; set; }
     }
 }
