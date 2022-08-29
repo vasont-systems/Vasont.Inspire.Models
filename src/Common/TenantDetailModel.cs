@@ -112,5 +112,10 @@ namespace Vasont.Inspire.Models.Common
         /// Gets or sets a value indicating whether to use thumbnails for image display.
         /// </summary>
         public bool UseThumbnails { get; set; } = true;
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the tenant has an Expert.ai integration available.
+        /// </summary>
+        public bool HasExpertAi { get; set; }
     }
 }
