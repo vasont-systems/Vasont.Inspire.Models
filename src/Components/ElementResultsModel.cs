@@ -39,6 +39,5 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets a value indicating the source element name.
         /// </summary>
         public string SourceElementName { get; set; }
-
     }
 }

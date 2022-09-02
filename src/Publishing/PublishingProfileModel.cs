@@ -6,6 +6,7 @@
 namespace Vasont.Inspire.Models.Publishing
 {
     using System;
+    using System.Collections.Generic;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
     using Vasont.Inspire.Models.Components;
@@ -136,12 +137,12 @@ namespace Vasont.Inspire.Models.Publishing
         /// <summary>
         /// Gets or sets the component identity.
         /// </summary>
-        public long ComponentId { get; set; }
+        public List<long> ComponentIds { get; set; } = new List<long>();
 
         /// <summary>
         /// Gets or sets the component information about the component associated with the publishing profile.
         /// </summary>
-        public MicroComponentModel Component { get; set; } = new MicroComponentModel();
+        public List<MicroComponentModel> Components { get; set; } = new List<MicroComponentModel>();
 
         /// <summary>
         /// Gets or sets a value indicating whether the profile should be validated.
