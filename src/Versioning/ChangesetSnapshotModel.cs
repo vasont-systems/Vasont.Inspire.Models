@@ -123,7 +123,12 @@ namespace Vasont.Inspire.Models.Versioning
         /// <summary>
         /// A component was renamed.
         /// </summary>
-        Rename
+        Rename,
+
+        /// <summary>
+        /// A component was updated with the taxonomy process.
+        /// </summary>
+        Taxonomy
     }
 
     /// <summary>
