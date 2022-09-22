@@ -64,7 +64,12 @@ namespace Vasont.Inspire.Models.Publishing
         /// <summary>
         /// Scheduled publishing will occur every day of the month.
         /// </summary>
-        DayOfTheMonth
+        DayOfTheMonth,
+
+        /// <summary>
+        /// Scheduled publishing will occur today only.
+        /// </summary>
+        Today
     }
 
     /// <summary>
