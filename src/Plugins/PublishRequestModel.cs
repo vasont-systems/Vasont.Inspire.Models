@@ -121,7 +121,7 @@ namespace Vasont.Inspire.Models.Plugins
         /// <summary>
         /// Gets or sets the optional name of the publish profile that generated the request.
         /// </summary>
-        public string PublishProfileName { get; set; }
+        public string PublishProfileName { get; set; } = string.Empty;
 
         /// <summary>
         /// Gets or sets values containing the publish parameters.
