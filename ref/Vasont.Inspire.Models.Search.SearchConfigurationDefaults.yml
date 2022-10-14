@@ -26,7 +26,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationDefaults.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SearchConfigurationDefaults
     path: Search/SearchConfigurationDefaults.cs
@@ -70,7 +70,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationDefaults.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: StringOperators
     path: Search/SearchConfigurationDefaults.cs
@@ -109,7 +109,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationDefaults.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LongOperators
     path: Search/SearchConfigurationDefaults.cs
@@ -148,7 +148,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationDefaults.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SimplifiedLongOperators
     path: Search/SearchConfigurationDefaults.cs
@@ -187,7 +187,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationDefaults.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IntegerOperators
     path: Search/SearchConfigurationDefaults.cs
@@ -226,7 +226,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationDefaults.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SimplifiedIntegerOperators
     path: Search/SearchConfigurationDefaults.cs
@@ -265,7 +265,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationDefaults.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: BooleanOperators
     path: Search/SearchConfigurationDefaults.cs
@@ -304,7 +304,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationDefaults.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DateTimeOperators
     path: Search/SearchConfigurationDefaults.cs
@@ -343,7 +343,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationDefaults.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ValidValueOperators
     path: Search/SearchConfigurationDefaults.cs
@@ -382,7 +382,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationDefaults.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ContentOperators
     path: Search/SearchConfigurationDefaults.cs
@@ -421,7 +421,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationDefaults.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: BooleanValidValues
     path: Search/SearchConfigurationDefaults.cs
@@ -460,7 +460,7 @@ items:
   source:
     remote:
       path: src/Search/SearchConfigurationDefaults.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TypeOperators
     path: Search/SearchConfigurationDefaults.cs

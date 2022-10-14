@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetResultModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetResultModel
     path: Versioning/ChangesetResultModel.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetResultModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TotalCount
     path: Versioning/ChangesetResultModel.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetResultModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Changesets
     path: Versioning/ChangesetResultModel.cs

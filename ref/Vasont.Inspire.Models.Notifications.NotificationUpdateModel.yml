@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationUpdateModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NotificationUpdateModel
     path: Notifications/NotificationUpdateModel.cs
@@ -59,7 +59,7 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationUpdateModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: State
     path: Notifications/NotificationUpdateModel.cs

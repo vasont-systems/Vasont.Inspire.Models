@@ -5,6 +5,7 @@ items:
   id: NotificationMessageModel
   parent: Vasont.Inspire.Models.Notifications.Types
   children:
+  - Vasont.Inspire.Models.Notifications.Types.NotificationMessageModel.DetailedHtmlBody
   - Vasont.Inspire.Models.Notifications.Types.NotificationMessageModel.HtmlBody
   - Vasont.Inspire.Models.Notifications.Types.NotificationMessageModel.Subject
   - Vasont.Inspire.Models.Notifications.Types.NotificationMessageModel.Summary
@@ -18,7 +19,7 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationMessageModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NotificationMessageModel
     path: Notifications/Types/NotificationMessageModel.cs
@@ -66,7 +67,7 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationMessageModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Subject
     path: Notifications/Types/NotificationMessageModel.cs
@@ -103,7 +104,7 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationMessageModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Summary
     path: Notifications/Types/NotificationMessageModel.cs
@@ -140,7 +141,7 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationMessageModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: HtmlBody
     path: Notifications/Types/NotificationMessageModel.cs
@@ -157,6 +158,43 @@ items:
       type: System.String
     content.vb: Public Property HtmlBody As String
   overload: Vasont.Inspire.Models.Notifications.Types.NotificationMessageModel.HtmlBody*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Notifications.Types.NotificationMessageModel.DetailedHtmlBody
+  commentId: P:Vasont.Inspire.Models.Notifications.Types.NotificationMessageModel.DetailedHtmlBody
+  id: DetailedHtmlBody
+  parent: Vasont.Inspire.Models.Notifications.Types.NotificationMessageModel
+  langs:
+  - csharp
+  - vb
+  name: DetailedHtmlBody
+  nameWithType: NotificationMessageModel.DetailedHtmlBody
+  fullName: Vasont.Inspire.Models.Notifications.Types.NotificationMessageModel.DetailedHtmlBody
+  type: Property
+  source:
+    remote:
+      path: src/Notifications/Types/NotificationMessageModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DetailedHtmlBody
+    path: Notifications/Types/NotificationMessageModel.cs
+    startLine: 30
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Notifications.Types
+  summary: "\nGets or sets the detailed message content body in optional HTML format.\n"
+  example: []
+  syntax:
+    content: public string DetailedHtmlBody { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DetailedHtmlBody As String
+  overload: Vasont.Inspire.Models.Notifications.Types.NotificationMessageModel.DetailedHtmlBody*
   modifiers.csharp:
   - public
   - get
@@ -501,3 +539,8 @@ references:
   name: HtmlBody
   nameWithType: NotificationMessageModel.HtmlBody
   fullName: Vasont.Inspire.Models.Notifications.Types.NotificationMessageModel.HtmlBody
+- uid: Vasont.Inspire.Models.Notifications.Types.NotificationMessageModel.DetailedHtmlBody*
+  commentId: Overload:Vasont.Inspire.Models.Notifications.Types.NotificationMessageModel.DetailedHtmlBody
+  name: DetailedHtmlBody
+  nameWithType: NotificationMessageModel.DetailedHtmlBody
+  fullName: Vasont.Inspire.Models.Notifications.Types.NotificationMessageModel.DetailedHtmlBody

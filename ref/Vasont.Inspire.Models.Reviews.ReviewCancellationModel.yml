@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewCancellationModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewCancellationModel
     path: Reviews/ReviewCancellationModel.cs
@@ -59,7 +59,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewCancellationModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Comment
     path: Reviews/ReviewCancellationModel.cs

@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ImportRequestModel
     path: Transfers/ImportRequestModel.cs
@@ -65,7 +65,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ImportId
     path: Transfers/ImportRequestModel.cs
@@ -102,7 +102,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FolderId
     path: Transfers/ImportRequestModel.cs
@@ -139,7 +139,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectFolderId
     path: Transfers/ImportRequestModel.cs
@@ -176,7 +176,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WaitForCompletion
     path: Transfers/ImportRequestModel.cs
@@ -213,7 +213,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SendNotification
     path: Transfers/ImportRequestModel.cs
@@ -250,7 +250,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ImportFiles
     path: Transfers/ImportRequestModel.cs
@@ -287,7 +287,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Files
     path: Transfers/ImportRequestModel.cs

@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Projects/MinimalProjectUserAccessModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalProjectUserAccessModel
     path: Projects/MinimalProjectUserAccessModel.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: src/Projects/MinimalProjectUserAccessModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: User
     path: Projects/MinimalProjectUserAccessModel.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Projects/MinimalProjectUserAccessModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LastAccessedDate
     path: Projects/MinimalProjectUserAccessModel.cs

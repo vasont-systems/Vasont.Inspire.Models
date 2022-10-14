@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewStateType
     path: Reviews/ReviewModel.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Reviewing
     path: Reviews/ReviewModel.cs
@@ -98,7 +98,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Resolving
     path: Reviews/ReviewModel.cs
@@ -132,7 +132,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Completed
     path: Reviews/ReviewModel.cs
@@ -166,7 +166,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Cancelled
     path: Reviews/ReviewModel.cs

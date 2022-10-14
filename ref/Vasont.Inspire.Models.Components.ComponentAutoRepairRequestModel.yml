@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentAutoRepairRequestModel
     path: Components/ComponentAutoRepairRequestModel.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/ComponentAutoRepairRequestModel.cs
@@ -96,7 +96,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AutoRepairId
     path: Components/ComponentAutoRepairRequestModel.cs
@@ -133,7 +133,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RepairAll
     path: Components/ComponentAutoRepairRequestModel.cs
@@ -170,7 +170,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentIdsToRepair
     path: Components/ComponentAutoRepairRequestModel.cs
@@ -207,7 +207,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SendNotification
     path: Components/ComponentAutoRepairRequestModel.cs
@@ -244,7 +244,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentAutoRepairRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkerCacheLifeTimeoutMinutes
     path: Components/ComponentAutoRepairRequestModel.cs

@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Components/TranslationRelationModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationRelationModel
     path: Components/TranslationRelationModel.cs
@@ -91,7 +91,7 @@ items:
   source:
     remote:
       path: src/Components/TranslationRelationModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LanguageCode
     path: Components/TranslationRelationModel.cs
@@ -128,7 +128,7 @@ items:
   source:
     remote:
       path: src/Components/TranslationRelationModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LanguageName
     path: Components/TranslationRelationModel.cs
@@ -165,7 +165,7 @@ items:
   source:
     remote:
       path: src/Components/TranslationRelationModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Date
     path: Components/TranslationRelationModel.cs

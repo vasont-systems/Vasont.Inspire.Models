@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Security/TimeZoneModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TimeZoneModel
     path: Security/TimeZoneModel.cs
@@ -67,7 +67,7 @@ items:
   source:
     remote:
       path: src/Security/TimeZoneModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LongName
     path: Security/TimeZoneModel.cs
@@ -104,7 +104,7 @@ items:
   source:
     remote:
       path: src/Security/TimeZoneModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Offset
     path: Security/TimeZoneModel.cs
