@@ -5,6 +5,7 @@
 //--------------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Versioning
 {
+    using System;
     using Common;
 
     /// <summary>
@@ -16,5 +17,15 @@ namespace Vasont.Inspire.Models.Versioning
         /// Gets or sets the search text to find within changeset labels and/or comments.
         /// </summary>
         public string SearchText { get; set; }
+
+        /// <summary>
+        /// Gets or sets the start date of the changeset lookup.
+        /// </summary>
+        public DateTime StartDate { get; set; }
+
+        /// <summary>
+        /// Gets or sets the end date of the changeset lookup.
+        /// </summary>
+        public DateTime EndDate { get; set; }
     }
 }
