@@ -11,6 +11,7 @@ items:
   - Vasont.Inspire.Models.Plugins.PublishType.Html
   - Vasont.Inspire.Models.Plugins.PublishType.Pdf
   - Vasont.Inspire.Models.Plugins.PublishType.Python
+  - Vasont.Inspire.Models.Plugins.PublishType.Script
   - Vasont.Inspire.Models.Plugins.PublishType.Xslt
   - Vasont.Inspire.Models.Plugins.PublishType.Zoomin
   langs:
@@ -23,7 +24,7 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PublishType
     path: Plugins/PublishRequestModel.cs
@@ -68,7 +69,7 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Pdf
     path: Plugins/PublishRequestModel.cs
@@ -102,7 +103,7 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Html
     path: Plugins/PublishRequestModel.cs
@@ -136,7 +137,7 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Zoomin
     path: Plugins/PublishRequestModel.cs
@@ -170,7 +171,7 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DocBook
     path: Plugins/PublishRequestModel.cs
@@ -204,7 +205,7 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AntennaHousePdf
     path: Plugins/PublishRequestModel.cs
@@ -238,7 +239,7 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Compare
     path: Plugins/PublishRequestModel.cs
@@ -272,7 +273,7 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Python
     path: Plugins/PublishRequestModel.cs
@@ -306,7 +307,7 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Xslt
     path: Plugins/PublishRequestModel.cs
@@ -318,6 +319,40 @@ items:
   example: []
   syntax:
     content: Xslt = 7
+    return:
+      type: Vasont.Inspire.Models.Plugins.PublishType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Plugins.PublishType.Script
+  commentId: F:Vasont.Inspire.Models.Plugins.PublishType.Script
+  id: Script
+  parent: Vasont.Inspire.Models.Plugins.PublishType
+  langs:
+  - csharp
+  - vb
+  name: Script
+  nameWithType: PublishType.Script
+  fullName: Vasont.Inspire.Models.Plugins.PublishType.Script
+  type: Field
+  source:
+    remote:
+      path: src/Plugins/PublishRequestModel.cs
+      branch: feature/AddSKOSComponentStandard
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Script
+    path: Plugins/PublishRequestModel.cs
+    startLine: 62
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Plugins
+  summary: "\nContains a value that indicates publishing with Batch/Powershell script.\n"
+  example: []
+  syntax:
+    content: Script = 8
     return:
       type: Vasont.Inspire.Models.Plugins.PublishType
   modifiers.csharp:

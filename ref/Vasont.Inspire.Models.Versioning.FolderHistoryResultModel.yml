@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Versioning/FolderHistoryResultModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FolderHistoryResultModel
     path: Versioning/FolderHistoryResultModel.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: src/Versioning/FolderHistoryResultModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TotalCount
     path: Versioning/FolderHistoryResultModel.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: src/Versioning/FolderHistoryResultModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: History
     path: Versioning/FolderHistoryResultModel.cs

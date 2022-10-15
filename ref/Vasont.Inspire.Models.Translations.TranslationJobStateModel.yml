@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: src/Translations/TranslationJobStateModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationJobStateModel
     path: Translations/TranslationJobStateModel.cs

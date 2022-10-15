@@ -9,6 +9,7 @@ items:
   - Vasont.Inspire.Models.Common.TenantDetailModel.DefaultLanguage
   - Vasont.Inspire.Models.Common.TenantDetailModel.DomainKey
   - Vasont.Inspire.Models.Common.TenantDetailModel.ElectronicSignatureRequired
+  - Vasont.Inspire.Models.Common.TenantDetailModel.HasExpertAi
   - Vasont.Inspire.Models.Common.TenantDetailModel.InspireSchemaCustom
   - Vasont.Inspire.Models.Common.TenantDetailModel.Name
   - Vasont.Inspire.Models.Common.TenantDetailModel.OxygenConcurrentSeats
@@ -23,6 +24,7 @@ items:
   - Vasont.Inspire.Models.Common.TenantDetailModel.SupportInfo
   - Vasont.Inspire.Models.Common.TenantDetailModel.TranslationFilteringEnabled
   - Vasont.Inspire.Models.Common.TenantDetailModel.TranslationLockSourceDisabled
+  - Vasont.Inspire.Models.Common.TenantDetailModel.UseThumbnails
   - Vasont.Inspire.Models.Common.TenantDetailModel.Version
   langs:
   - csharp
@@ -34,7 +36,7 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TenantDetailModel
     path: Common/TenantDetailModel.cs
@@ -77,7 +79,7 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DomainKey
     path: Common/TenantDetailModel.cs
@@ -114,7 +116,7 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Common/TenantDetailModel.cs
@@ -151,7 +153,7 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SubscriptionLevel
     path: Common/TenantDetailModel.cs
@@ -188,7 +190,7 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SupportInfo
     path: Common/TenantDetailModel.cs
@@ -225,7 +227,7 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SupportEmail
     path: Common/TenantDetailModel.cs
@@ -262,7 +264,7 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DefaultLanguage
     path: Common/TenantDetailModel.cs
@@ -299,7 +301,7 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SessionTimeout
     path: Common/TenantDetailModel.cs
@@ -336,7 +338,7 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationFilteringEnabled
     path: Common/TenantDetailModel.cs
@@ -373,7 +375,7 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationLockSourceDisabled
     path: Common/TenantDetailModel.cs
@@ -410,7 +412,7 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: OxygenWebEnabled
     path: Common/TenantDetailModel.cs
@@ -447,7 +449,7 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: OxygenWebCustom
     path: Common/TenantDetailModel.cs
@@ -484,7 +486,7 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: OxygenNamedSeats
     path: Common/TenantDetailModel.cs
@@ -521,7 +523,7 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: OxygenConcurrentSeats
     path: Common/TenantDetailModel.cs
@@ -558,7 +560,7 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PreviewSystem
     path: Common/TenantDetailModel.cs
@@ -595,7 +597,7 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: InspireSchemaCustom
     path: Common/TenantDetailModel.cs
@@ -632,7 +634,7 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Copyright
     path: Common/TenantDetailModel.cs
@@ -669,7 +671,7 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Version
     path: Common/TenantDetailModel.cs
@@ -706,7 +708,7 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ElectronicSignatureRequired
     path: Common/TenantDetailModel.cs
@@ -743,7 +745,7 @@ items:
   source:
     remote:
       path: src/Common/TenantDetailModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PivotToEnglishEnabled
     path: Common/TenantDetailModel.cs
@@ -760,6 +762,80 @@ items:
       type: System.Boolean
     content.vb: Public Property PivotToEnglishEnabled As Boolean
   overload: Vasont.Inspire.Models.Common.TenantDetailModel.PivotToEnglishEnabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.UseThumbnails
+  commentId: P:Vasont.Inspire.Models.Common.TenantDetailModel.UseThumbnails
+  id: UseThumbnails
+  parent: Vasont.Inspire.Models.Common.TenantDetailModel
+  langs:
+  - csharp
+  - vb
+  name: UseThumbnails
+  nameWithType: TenantDetailModel.UseThumbnails
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.UseThumbnails
+  type: Property
+  source:
+    remote:
+      path: src/Common/TenantDetailModel.cs
+      branch: feature/AddSKOSComponentStandard
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: UseThumbnails
+    path: Common/TenantDetailModel.cs
+    startLine: 113
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets a value indicating whether to use thumbnails for image display.\n"
+  example: []
+  syntax:
+    content: public bool UseThumbnails { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UseThumbnails As Boolean
+  overload: Vasont.Inspire.Models.Common.TenantDetailModel.UseThumbnails*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.HasExpertAi
+  commentId: P:Vasont.Inspire.Models.Common.TenantDetailModel.HasExpertAi
+  id: HasExpertAi
+  parent: Vasont.Inspire.Models.Common.TenantDetailModel
+  langs:
+  - csharp
+  - vb
+  name: HasExpertAi
+  nameWithType: TenantDetailModel.HasExpertAi
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.HasExpertAi
+  type: Property
+  source:
+    remote:
+      path: src/Common/TenantDetailModel.cs
+      branch: feature/AddSKOSComponentStandard
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: HasExpertAi
+    path: Common/TenantDetailModel.cs
+    startLine: 118
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets a value indicating whether the tenant has an Expert.ai integration available.\n"
+  example: []
+  syntax:
+    content: public bool HasExpertAi { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasExpertAi As Boolean
+  overload: Vasont.Inspire.Models.Common.TenantDetailModel.HasExpertAi*
   modifiers.csharp:
   - public
   - get
@@ -1193,3 +1269,13 @@ references:
   name: PivotToEnglishEnabled
   nameWithType: TenantDetailModel.PivotToEnglishEnabled
   fullName: Vasont.Inspire.Models.Common.TenantDetailModel.PivotToEnglishEnabled
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.UseThumbnails*
+  commentId: Overload:Vasont.Inspire.Models.Common.TenantDetailModel.UseThumbnails
+  name: UseThumbnails
+  nameWithType: TenantDetailModel.UseThumbnails
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.UseThumbnails
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.HasExpertAi*
+  commentId: Overload:Vasont.Inspire.Models.Common.TenantDetailModel.HasExpertAi
+  name: HasExpertAi
+  nameWithType: TenantDetailModel.HasExpertAi
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.HasExpertAi

@@ -5,6 +5,7 @@ items:
   id: MultimediaLoadModel
   parent: Vasont.Inspire.Models.Components
   children:
+  - Vasont.Inspire.Models.Components.MultimediaLoadModel.IgnoreThreshold
   - Vasont.Inspire.Models.Components.MultimediaLoadModel.Thumbnail
   langs:
   - csharp
@@ -16,7 +17,7 @@ items:
   source:
     remote:
       path: src/Components/MultimediaLoadModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MultimediaLoadModel
     path: Components/MultimediaLoadModel.cs
@@ -66,7 +67,7 @@ items:
   source:
     remote:
       path: src/Components/MultimediaLoadModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Thumbnail
     path: Components/MultimediaLoadModel.cs
@@ -83,6 +84,43 @@ items:
       type: System.Boolean
     content.vb: Public Property Thumbnail As Boolean
   overload: Vasont.Inspire.Models.Components.MultimediaLoadModel.Thumbnail*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.MultimediaLoadModel.IgnoreThreshold
+  commentId: P:Vasont.Inspire.Models.Components.MultimediaLoadModel.IgnoreThreshold
+  id: IgnoreThreshold
+  parent: Vasont.Inspire.Models.Components.MultimediaLoadModel
+  langs:
+  - csharp
+  - vb
+  name: IgnoreThreshold
+  nameWithType: MultimediaLoadModel.IgnoreThreshold
+  fullName: Vasont.Inspire.Models.Components.MultimediaLoadModel.IgnoreThreshold
+  type: Property
+  source:
+    remote:
+      path: src/Components/MultimediaLoadModel.cs
+      branch: feature/AddSKOSComponentStandard
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IgnoreThreshold
+    path: Components/MultimediaLoadModel.cs
+    startLine: 20
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether the preview should ignore the threshold.\n"
+  example: []
+  syntax:
+    content: public bool IgnoreThreshold { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IgnoreThreshold As Boolean
+  overload: Vasont.Inspire.Models.Components.MultimediaLoadModel.IgnoreThreshold*
   modifiers.csharp:
   - public
   - get
@@ -429,3 +467,8 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Components.MultimediaLoadModel.IgnoreThreshold*
+  commentId: Overload:Vasont.Inspire.Models.Components.MultimediaLoadModel.IgnoreThreshold
+  name: IgnoreThreshold
+  nameWithType: MultimediaLoadModel.IgnoreThreshold
+  fullName: Vasont.Inspire.Models.Components.MultimediaLoadModel.IgnoreThreshold

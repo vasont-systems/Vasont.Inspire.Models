@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Configuration/ElementModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ElementModel
     path: Configuration/ElementModel.cs
@@ -63,7 +63,7 @@ items:
   source:
     remote:
       path: src/Configuration/ElementModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ElementId
     path: Configuration/ElementModel.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: src/Configuration/ElementModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ElementName
     path: Configuration/ElementModel.cs
@@ -137,7 +137,7 @@ items:
   source:
     remote:
       path: src/Configuration/ElementModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ElementDisplayName
     path: Configuration/ElementModel.cs
@@ -174,7 +174,7 @@ items:
   source:
     remote:
       path: src/Configuration/ElementModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NeedsId
     path: Configuration/ElementModel.cs
@@ -211,7 +211,7 @@ items:
   source:
     remote:
       path: src/Configuration/ElementModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SchemaStandardId
     path: Configuration/ElementModel.cs
