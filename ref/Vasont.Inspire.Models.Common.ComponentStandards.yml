@@ -27,7 +27,7 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentStandards
     path: Common/ComponentStandards.cs
@@ -71,7 +71,7 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DitaDefaultDelimiter
     path: Common/ComponentStandards.cs
@@ -106,7 +106,7 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DocBookDefaultDelimiter
     path: Common/ComponentStandards.cs
@@ -141,7 +141,7 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Dita10Standard
     path: Common/ComponentStandards.cs
@@ -176,7 +176,7 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Dita11Standard
     path: Common/ComponentStandards.cs
@@ -211,7 +211,7 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Dita12Standard
     path: Common/ComponentStandards.cs
@@ -246,7 +246,7 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Dita13Standard
     path: Common/ComponentStandards.cs
@@ -281,7 +281,7 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DocBook5Standard
     path: Common/ComponentStandards.cs
@@ -316,7 +316,7 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: InspireWorkflow10Standard
     path: Common/ComponentStandards.cs
@@ -351,7 +351,7 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SKOS
     path: Common/ComponentStandards.cs
@@ -386,7 +386,7 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IdAttributeName
     path: Common/ComponentStandards.cs
@@ -421,7 +421,7 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MapDocumentTypeNames
     path: Common/ComponentStandards.cs
@@ -461,7 +461,7 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MultiValueDelimiter
     path: Common/ComponentStandards.cs

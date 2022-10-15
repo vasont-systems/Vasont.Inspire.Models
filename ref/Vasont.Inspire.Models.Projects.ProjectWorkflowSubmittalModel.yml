@@ -28,7 +28,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectWorkflowSubmittalModel
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -71,7 +71,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectWorkflowSubmittalId
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -108,7 +108,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectWorkflowId
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -145,7 +145,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectAssignmentIds
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -182,7 +182,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AssignedUser
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -219,7 +219,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowActivityId
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -256,7 +256,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RequiresInput
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -293,7 +293,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowActivityName
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -330,7 +330,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CompletedDate
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -367,7 +367,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedDate
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -404,7 +404,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NextTransitionId
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -441,7 +441,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NextTransitionUserId
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -478,7 +478,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NextTransitionDueDate
     path: Projects/ProjectWorkflowSubmittalModel.cs
@@ -515,7 +515,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectWorkflowSubmittalModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Transitions
     path: Projects/ProjectWorkflowSubmittalModel.cs

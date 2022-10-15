@@ -26,7 +26,7 @@ items:
   source:
     remote:
       path: src/Logging/EventLogModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EventLogModel
     path: Logging/EventLogModel.cs
@@ -69,7 +69,7 @@ items:
   source:
     remote:
       path: src/Logging/EventLogModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EventId
     path: Logging/EventLogModel.cs
@@ -126,7 +126,7 @@ items:
   source:
     remote:
       path: src/Logging/EventLogModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EventDate
     path: Logging/EventLogModel.cs
@@ -164,7 +164,7 @@ items:
   source:
     remote:
       path: src/Logging/EventLogModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Category
     path: Logging/EventLogModel.cs
@@ -216,7 +216,7 @@ items:
   source:
     remote:
       path: src/Logging/EventLogModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LogLevel
     path: Logging/EventLogModel.cs
@@ -268,7 +268,7 @@ items:
   source:
     remote:
       path: src/Logging/EventLogModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ThreadName
     path: Logging/EventLogModel.cs
@@ -318,7 +318,7 @@ items:
   source:
     remote:
       path: src/Logging/EventLogModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LoggerName
     path: Logging/EventLogModel.cs
@@ -368,7 +368,7 @@ items:
   source:
     remote:
       path: src/Logging/EventLogModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Message
     path: Logging/EventLogModel.cs
@@ -418,7 +418,7 @@ items:
   source:
     remote:
       path: src/Logging/EventLogModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RemoteAddress
     path: Logging/EventLogModel.cs
@@ -468,7 +468,7 @@ items:
   source:
     remote:
       path: src/Logging/EventLogModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UrlRequestType
     path: Logging/EventLogModel.cs
@@ -518,7 +518,7 @@ items:
   source:
     remote:
       path: src/Logging/EventLogModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RequestUrl
     path: Logging/EventLogModel.cs
@@ -568,7 +568,7 @@ items:
   source:
     remote:
       path: src/Logging/EventLogModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: StackTrace
     path: Logging/EventLogModel.cs

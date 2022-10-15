@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: src/Common/PaginatedQueryRequestModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PaginatedQueryRequestModel
     path: Common/PaginatedQueryRequestModel.cs
@@ -79,7 +79,7 @@ items:
   source:
     remote:
       path: src/Common/PaginatedQueryRequestModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Common/PaginatedQueryRequestModel.cs
@@ -111,7 +111,7 @@ items:
   source:
     remote:
       path: src/Common/PaginatedQueryRequestModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Common/PaginatedQueryRequestModel.cs
@@ -150,7 +150,7 @@ items:
   source:
     remote:
       path: src/Common/PaginatedQueryRequestModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Page
     path: Common/PaginatedQueryRequestModel.cs
@@ -187,7 +187,7 @@ items:
   source:
     remote:
       path: src/Common/PaginatedQueryRequestModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Limit
     path: Common/PaginatedQueryRequestModel.cs
@@ -224,7 +224,7 @@ items:
   source:
     remote:
       path: src/Common/PaginatedQueryRequestModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Sort
     path: Common/PaginatedQueryRequestModel.cs
@@ -261,7 +261,7 @@ items:
   source:
     remote:
       path: src/Common/PaginatedQueryRequestModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Dir
     path: Common/PaginatedQueryRequestModel.cs

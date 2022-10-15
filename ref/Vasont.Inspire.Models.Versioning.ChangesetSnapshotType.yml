@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetSnapshotType
     path: Versioning/ChangesetSnapshotModel.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Component
     path: Versioning/ChangesetSnapshotModel.cs
@@ -98,7 +98,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Folder
     path: Versioning/ChangesetSnapshotModel.cs
@@ -132,7 +132,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentTag
     path: Versioning/ChangesetSnapshotModel.cs
@@ -166,7 +166,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentProperty
     path: Versioning/ChangesetSnapshotModel.cs

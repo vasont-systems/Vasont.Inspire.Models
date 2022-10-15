@@ -29,7 +29,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ImportReferenceModel
     path: Transfers/ImportReferenceModel.cs
@@ -72,7 +72,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetComponentId
     path: Transfers/ImportReferenceModel.cs
@@ -109,7 +109,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetUniqueId
     path: Transfers/ImportReferenceModel.cs
@@ -146,7 +146,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RelationId
     path: Transfers/ImportReferenceModel.cs
@@ -183,7 +183,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceComponentId
     path: Transfers/ImportReferenceModel.cs
@@ -220,7 +220,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceElementName
     path: Transfers/ImportReferenceModel.cs
@@ -257,7 +257,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceAttributeName
     path: Transfers/ImportReferenceModel.cs
@@ -294,7 +294,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SourceAttributeValue
     path: Transfers/ImportReferenceModel.cs
@@ -331,7 +331,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetElementName
     path: Transfers/ImportReferenceModel.cs
@@ -368,7 +368,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetAttributeName
     path: Transfers/ImportReferenceModel.cs
@@ -405,7 +405,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetAttributeValue
     path: Transfers/ImportReferenceModel.cs
@@ -442,7 +442,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Invalid
     path: Transfers/ImportReferenceModel.cs
@@ -479,7 +479,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatorUserId
     path: Transfers/ImportReferenceModel.cs
@@ -516,7 +516,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WordCount
     path: Transfers/ImportReferenceModel.cs
@@ -553,7 +553,7 @@ items:
   source:
     remote:
       path: src/Transfers/ImportReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentReference
     path: Transfers/ImportReferenceModel.cs

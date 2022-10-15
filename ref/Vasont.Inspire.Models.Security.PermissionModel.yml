@@ -27,7 +27,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PermissionModel
     path: Security/PermissionModel.cs
@@ -70,7 +70,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Security/PermissionModel.cs
@@ -102,7 +102,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Security/PermissionModel.cs
@@ -138,7 +138,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Security/PermissionModel.cs
@@ -174,7 +174,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanRead
     path: Security/PermissionModel.cs
@@ -211,7 +211,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanCreate
     path: Security/PermissionModel.cs
@@ -248,7 +248,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanUpdate
     path: Security/PermissionModel.cs
@@ -285,7 +285,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanDelete
     path: Security/PermissionModel.cs
@@ -322,7 +322,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanSetPermissions
     path: Security/PermissionModel.cs
@@ -359,7 +359,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanRename
     path: Security/PermissionModel.cs
@@ -396,7 +396,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AllPermissions
     path: Security/PermissionModel.cs
@@ -433,7 +433,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Permissions
     path: Security/PermissionModel.cs
@@ -470,7 +470,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PermissionsValue
     path: Security/PermissionModel.cs

@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: src/Components/DocBookComponentReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DocBookComponentReferenceModel
     path: Components/DocBookComponentReferenceModel.cs
@@ -68,7 +68,7 @@ items:
   source:
     remote:
       path: src/Components/DocBookComponentReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/DocBookComponentReferenceModel.cs
@@ -116,7 +116,7 @@ items:
   source:
     remote:
       path: src/Components/DocBookComponentReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetName
     path: Components/DocBookComponentReferenceModel.cs
@@ -155,7 +155,7 @@ items:
   source:
     remote:
       path: src/Components/DocBookComponentReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetRootId
     path: Components/DocBookComponentReferenceModel.cs
@@ -194,7 +194,7 @@ items:
   source:
     remote:
       path: src/Components/DocBookComponentReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetElementId
     path: Components/DocBookComponentReferenceModel.cs
@@ -233,7 +233,7 @@ items:
   source:
     remote:
       path: src/Components/DocBookComponentReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LinkMethod
     path: Components/DocBookComponentReferenceModel.cs
@@ -270,7 +270,7 @@ items:
   source:
     remote:
       path: src/Components/DocBookComponentReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Address
     path: Components/DocBookComponentReferenceModel.cs
@@ -309,7 +309,7 @@ items:
   source:
     remote:
       path: src/Components/DocBookComponentReferenceModel.cs
-      branch: develop
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ToString
     path: Components/DocBookComponentReferenceModel.cs
