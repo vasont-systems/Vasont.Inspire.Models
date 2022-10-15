@@ -53,6 +53,11 @@ namespace Vasont.Inspire.Models.Common
         public const string InspireWorkflow10Standard = "INSPIRE_WORKFLOW_1.0";
 
         /// <summary>
+        /// Contains the key name for the Taxonomy SKOS standard.
+        /// </summary>
+        public const string SKOS = "SKOS";
+
+        /// <summary>
         /// Contains the Id attribute name for the schema standard.
         /// </summary>
         public const string IdAttributeName = "id";

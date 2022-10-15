@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowEditorModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: WorkflowEditorActionType
     path: Workflow/WorkflowEditorModel.cs
@@ -65,7 +65,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowEditorModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: None
     path: Workflow/WorkflowEditorModel.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowEditorModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Save
     path: Workflow/WorkflowEditorModel.cs
@@ -133,7 +133,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowEditorModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SaveAndSubmit
     path: Workflow/WorkflowEditorModel.cs
@@ -167,7 +167,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowEditorModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SaveAs
     path: Workflow/WorkflowEditorModel.cs
@@ -201,7 +201,7 @@ items:
   source:
     remote:
       path: src/Workflow/WorkflowEditorModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Download
     path: Workflow/WorkflowEditorModel.cs

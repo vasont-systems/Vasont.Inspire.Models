@@ -16,6 +16,7 @@ items:
   - Vasont.Inspire.Models.Common.ComponentStandards.InspireWorkflow10Standard
   - Vasont.Inspire.Models.Common.ComponentStandards.MapDocumentTypeNames
   - Vasont.Inspire.Models.Common.ComponentStandards.MultiValueDelimiter(System.String)
+  - Vasont.Inspire.Models.Common.ComponentStandards.SKOS
   langs:
   - csharp
   - vb
@@ -26,7 +27,7 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentStandards
     path: Common/ComponentStandards.cs
@@ -70,7 +71,7 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DitaDefaultDelimiter
     path: Common/ComponentStandards.cs
@@ -105,7 +106,7 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DocBookDefaultDelimiter
     path: Common/ComponentStandards.cs
@@ -140,7 +141,7 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Dita10Standard
     path: Common/ComponentStandards.cs
@@ -175,7 +176,7 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Dita11Standard
     path: Common/ComponentStandards.cs
@@ -210,7 +211,7 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Dita12Standard
     path: Common/ComponentStandards.cs
@@ -245,7 +246,7 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Dita13Standard
     path: Common/ComponentStandards.cs
@@ -280,7 +281,7 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DocBook5Standard
     path: Common/ComponentStandards.cs
@@ -315,7 +316,7 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: InspireWorkflow10Standard
     path: Common/ComponentStandards.cs
@@ -336,6 +337,41 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: Vasont.Inspire.Models.Common.ComponentStandards.SKOS
+  commentId: F:Vasont.Inspire.Models.Common.ComponentStandards.SKOS
+  id: SKOS
+  parent: Vasont.Inspire.Models.Common.ComponentStandards
+  langs:
+  - csharp
+  - vb
+  name: SKOS
+  nameWithType: ComponentStandards.SKOS
+  fullName: Vasont.Inspire.Models.Common.ComponentStandards.SKOS
+  type: Field
+  source:
+    remote:
+      path: src/Common/ComponentStandards.cs
+      branch: feature/AddSKOSComponentStandard
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SKOS
+    path: Common/ComponentStandards.cs
+    startLine: 57
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nContains the key name for the Taxonomy SKOS standard.\n"
+  example: []
+  syntax:
+    content: public const string SKOS = "SKOS"
+    return:
+      type: System.String
+    content.vb: Public Const SKOS As String = "SKOS"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: Vasont.Inspire.Models.Common.ComponentStandards.IdAttributeName
   commentId: F:Vasont.Inspire.Models.Common.ComponentStandards.IdAttributeName
   id: IdAttributeName
@@ -350,11 +386,11 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IdAttributeName
     path: Common/ComponentStandards.cs
-    startLine: 57
+    startLine: 62
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Common
@@ -385,11 +421,11 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MapDocumentTypeNames
     path: Common/ComponentStandards.cs
-    startLine: 62
+    startLine: 67
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Common
@@ -425,11 +461,11 @@ items:
   source:
     remote:
       path: src/Common/ComponentStandards.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MultiValueDelimiter
     path: Common/ComponentStandards.cs
-    startLine: 69
+    startLine: 74
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Common

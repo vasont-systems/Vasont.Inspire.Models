@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Transfers/ElementRelationModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ElementRelationModel
     path: Transfers/ElementRelationModel.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: src/Transfers/ElementRelationModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RelationId
     path: Transfers/ElementRelationModel.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Transfers/ElementRelationModel.cs
-      branch: feature/NotificationDetailedMessageSupport
+      branch: feature/AddSKOSComponentStandard
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ElementName
     path: Transfers/ElementRelationModel.cs
