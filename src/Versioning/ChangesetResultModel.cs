@@ -6,6 +6,7 @@
 namespace Vasont.Inspire.Models.Versioning
 {
     using System.Collections.Generic;
+    using Vasont.Inspire.Models.Components;
 
     /// <summary>
     /// This class represents the results of a paged changeset history query request.
@@ -21,5 +22,10 @@ namespace Vasont.Inspire.Models.Versioning
         /// Gets or sets the resulting changeset records for the specified page.
         /// </summary>
         public List<ChangesetModel> Changesets { get; set; } = new List<ChangesetModel>();
+
+        /// <summary>
+        /// Gets or sets the components related to a changeset.
+        /// </summary>
+        public List<MicroComponentModel> Components { get; set; } = new List<MicroComponentModel>();
     }
 }
