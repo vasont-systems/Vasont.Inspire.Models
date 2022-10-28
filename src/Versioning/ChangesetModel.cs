@@ -7,6 +7,7 @@ namespace Vasont.Inspire.Models.Versioning
 {
     using System;
     using System.Collections.Generic;
+    using Vasont.Inspire.Models.Components;
     using Vasont.Inspire.Models.Security;
 
     /// <summary>
@@ -48,5 +49,10 @@ namespace Vasont.Inspire.Models.Versioning
         /// Gets a list of changeset targets associated with the changeset.
         /// </summary>
         public List<ChangesetSnapshotModel> Snapshots { get; } = new List<ChangesetSnapshotModel>();
+
+        /// <summary>
+        /// Gets a list of components associated with the changeset.
+        /// </summary>
+        public List<MicroComponentModel> Components { get; } = new List<MicroComponentModel>();
     }
 }
