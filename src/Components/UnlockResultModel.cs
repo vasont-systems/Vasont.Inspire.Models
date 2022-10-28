@@ -39,6 +39,6 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets the pending component edit.
         /// </summary>
-        public MinimalEditorXmlModel PendingXmlEdit { get; set; }
+        public MinimalEditorModel PendingEdit { get; set; }
     }
 }

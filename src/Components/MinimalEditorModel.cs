@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="MinimalEditorXmlModel.cs" company="GlobalLink Vasont">
+// <copyright file="MinimalEditorModel.cs" company="GlobalLink Vasont">
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
@@ -10,9 +10,9 @@ namespace Vasont.Inspire.Models.Components
     using Vasont.Inspire.Models.Security;
 
     /// <summary>
-    /// This class represents a editor XML component model with minimal information that will used for interaction with application user interfaces.
+    /// This class represents a editor component model with minimal information that will used for interaction with application user interfaces.
     /// </summary>
-    public class MinimalEditorXmlModel
+    public class MinimalEditorModel
     {
         /// <summary>
         /// Gets or sets the component identity value.
