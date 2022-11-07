@@ -46,6 +46,16 @@ namespace Vasont.Inspire.Models.Versioning
         public string Comment { get; set; }
 
         /// <summary>
+        /// Gets or sets an optional processtype for the changeset.
+        /// </summary>
+        public string ProcessType { get; set; }
+
+        /// <summary>
+        /// Gets or sets an action for the changeset.
+        /// </summary>
+        public ChangesetSnapshotActionType Action { get; set; }
+
+        /// <summary>
         /// Gets a list of changeset targets associated with the changeset.
         /// </summary>
         public List<ChangesetSnapshotModel> Snapshots { get; } = new List<ChangesetSnapshotModel>();
