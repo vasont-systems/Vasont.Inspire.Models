@@ -58,11 +58,11 @@ namespace Vasont.Inspire.Models.Versioning
         /// <summary>
         /// Gets a list of changeset targets associated with the changeset.
         /// </summary>
-        public List<ChangesetSnapshotModel> Snapshots { get; } = new List<ChangesetSnapshotModel>();
+        public List<ChangesetSnapshotModel> Snapshots { get; set; } = new List<ChangesetSnapshotModel>();
 
         /// <summary>
         /// Gets a list of components associated with the changeset.
         /// </summary>
-        public List<MicroComponentModel> Components { get; } = new List<MicroComponentModel>();
+        public List<MicroComponentModel> Components { get; set; } = new List<MicroComponentModel>();
     }
 }
