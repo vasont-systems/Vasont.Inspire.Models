@@ -27,5 +27,15 @@ namespace Vasont.Inspire.Models.Versioning
         /// Gets or sets the end date of the changeset lookup.
         /// </summary>
         public DateTime EndDate { get; set; }
+
+        /// <summary>
+        /// Gets or sets the action of the changeset lookup.
+        /// </summary>
+        public string Action { get; set; }
+
+        /// <summary>
+        /// Gets or sets the process type of the changeset lookup.
+        /// </summary>
+        public string ProcessType { get; set; }
     }
 }
