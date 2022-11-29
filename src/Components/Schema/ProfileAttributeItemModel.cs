@@ -77,5 +77,11 @@ namespace Vasont.Inspire.Models.Components.Schema
         /// </summary>
         [JsonProperty(Order = 7)]
         public long ItemId { get; set; }
+
+        /// <summary>
+        ///  Gets or sets a value indicating whether this attribute is default.
+        /// </summary>
+        [JsonProperty(Order = 8)]
+        public bool DefaultFilter { get; set; }
     }
 }
