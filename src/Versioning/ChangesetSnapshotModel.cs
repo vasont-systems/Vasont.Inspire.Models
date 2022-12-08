@@ -128,7 +128,32 @@ namespace Vasont.Inspire.Models.Versioning
         /// <summary>
         /// A component was updated with the taxonomy process.
         /// </summary>
-        Taxonomy
+        Taxonomy,
+
+        /// <summary>
+        /// A component was upapproved.
+        /// </summary>
+        Unapprove,
+
+        /// <summary>
+        /// A component was approved.
+        /// </summary>
+        Approve,
+
+        /// <summary>
+        /// A component was moved.
+        /// </summary>
+        Move,
+
+        /// <summary>
+        /// A component was updated restored.
+        /// </summary>
+        Restore,
+
+        /// <summary>
+        /// A component was updated with the tag process.
+        /// </summary>
+        Tag
     }
 
     /// <summary>
