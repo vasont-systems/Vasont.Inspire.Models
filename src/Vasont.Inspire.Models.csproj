@@ -20,15 +20,15 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>CCMS</PackageTags>
     <PackageReleaseNotes>Added SubmissionAttributeModel</PackageReleaseNotes>
-    <Version>1.3.51</Version>
+    <Version>1.3.52</Version>
     <NeutralLanguage>en</NeutralLanguage>
     <Copyright>Copyright (c) GlobalLink Vasont. All rights reserved.</Copyright>
   </PropertyGroup>
 
   <PropertyGroup>
     <BuildDocFx Condition="$(TargetFramework) != 'netstandard2.1' OR '$(Configuration)' != 'Release'">false</BuildDocFx>
-    <AssemblyVersion>1.3.51.0</AssemblyVersion>
-    <FileVersion>1.3.51.0</FileVersion>
+    <AssemblyVersion>1.3.52.0</AssemblyVersion>
+    <FileVersion>1.3.52.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -50,7 +50,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

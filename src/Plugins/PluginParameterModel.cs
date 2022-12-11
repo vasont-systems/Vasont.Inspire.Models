@@ -5,9 +5,13 @@
 //-------------------------------------------------------------
 namespace Vasont.Inspire.Models.Plugins
 {
+    using System;
+
+    /// TODO: Remove model.
     /// <summary>
     /// This class represents a plugin parameter within the application.
     /// </summary>
+    [Obsolete("No longer used, in favor of DTOs in the projects.")]
     public class PluginParameterModel
     {
         /// <summary>
