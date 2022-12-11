@@ -35,7 +35,7 @@ namespace Vasont.Inspire.Models.Configuration
         /// <summary>
         /// Gets or sets the validation schema unique identity.
         /// </summary>
-        public long UniqueId { get; set; }
+        public Guid UniqueId { get; set; }
 
         /// <summary>
         /// Gets or sets the name valid value.
