@@ -66,6 +66,11 @@ namespace Vasont.Inspire.Models.Security
         public bool Default { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether the save as function should to include the permissions role.
+        /// </summary>
+        public bool IncludePermissions { get; set; }
+
+        /// <summary>
         /// Gets or sets a list of user models assigned to this role.
         /// </summary>
         public List<MinimalUserModel> Users { get; set; }
