@@ -77,7 +77,7 @@ items:
   - Vasont.Inspire.Models.Components.MinimalComponentRelationModel
   - Vasont.Inspire.Models.Components.MinimalComponentTypeModel
   - Vasont.Inspire.Models.Components.MinimalComponentUserAccessModel
-  - Vasont.Inspire.Models.Components.MinimalEditorXmlModel
+  - Vasont.Inspire.Models.Components.MinimalEditorModel
   - Vasont.Inspire.Models.Components.MinimalFolderModel
   - Vasont.Inspire.Models.Components.MinimalPermissionModel
   - Vasont.Inspire.Models.Components.MultimediaLoadModel
@@ -500,12 +500,12 @@ references:
   name: MinimalComponentUserAccessModel
   nameWithType: MinimalComponentUserAccessModel
   fullName: Vasont.Inspire.Models.Components.MinimalComponentUserAccessModel
-- uid: Vasont.Inspire.Models.Components.MinimalEditorXmlModel
-  commentId: T:Vasont.Inspire.Models.Components.MinimalEditorXmlModel
+- uid: Vasont.Inspire.Models.Components.MinimalEditorModel
+  commentId: T:Vasont.Inspire.Models.Components.MinimalEditorModel
   parent: Vasont.Inspire.Models.Components
-  name: MinimalEditorXmlModel
-  nameWithType: MinimalEditorXmlModel
-  fullName: Vasont.Inspire.Models.Components.MinimalEditorXmlModel
+  name: MinimalEditorModel
+  nameWithType: MinimalEditorModel
+  fullName: Vasont.Inspire.Models.Components.MinimalEditorModel
 - uid: Vasont.Inspire.Models.Components.MinimalFolderModel
   commentId: T:Vasont.Inspire.Models.Components.MinimalFolderModel
   parent: Vasont.Inspire.Models.Components

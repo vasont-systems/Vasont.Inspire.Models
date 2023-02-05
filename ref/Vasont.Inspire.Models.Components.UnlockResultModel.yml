@@ -8,7 +8,7 @@ items:
   - Vasont.Inspire.Models.Components.UnlockResultModel.ComponentId
   - Vasont.Inspire.Models.Components.UnlockResultModel.ComponentName
   - Vasont.Inspire.Models.Components.UnlockResultModel.FailedMessage
-  - Vasont.Inspire.Models.Components.UnlockResultModel.PendingXmlEdit
+  - Vasont.Inspire.Models.Components.UnlockResultModel.PendingEdit
   - Vasont.Inspire.Models.Components.UnlockResultModel.PermissionUnlockError
   - Vasont.Inspire.Models.Components.UnlockResultModel.Success
   langs:
@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: src/Components/UnlockResultModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UnlockResultModel
     path: Components/UnlockResultModel.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/Components/UnlockResultModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentId
     path: Components/UnlockResultModel.cs
@@ -101,7 +101,7 @@ items:
   source:
     remote:
       path: src/Components/UnlockResultModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentName
     path: Components/UnlockResultModel.cs
@@ -138,7 +138,7 @@ items:
   source:
     remote:
       path: src/Components/UnlockResultModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Success
     path: Components/UnlockResultModel.cs
@@ -175,7 +175,7 @@ items:
   source:
     remote:
       path: src/Components/UnlockResultModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PermissionUnlockError
     path: Components/UnlockResultModel.cs
@@ -212,7 +212,7 @@ items:
   source:
     remote:
       path: src/Components/UnlockResultModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FailedMessage
     path: Components/UnlockResultModel.cs
@@ -235,23 +235,23 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: Vasont.Inspire.Models.Components.UnlockResultModel.PendingXmlEdit
-  commentId: P:Vasont.Inspire.Models.Components.UnlockResultModel.PendingXmlEdit
-  id: PendingXmlEdit
+- uid: Vasont.Inspire.Models.Components.UnlockResultModel.PendingEdit
+  commentId: P:Vasont.Inspire.Models.Components.UnlockResultModel.PendingEdit
+  id: PendingEdit
   parent: Vasont.Inspire.Models.Components.UnlockResultModel
   langs:
   - csharp
   - vb
-  name: PendingXmlEdit
-  nameWithType: UnlockResultModel.PendingXmlEdit
-  fullName: Vasont.Inspire.Models.Components.UnlockResultModel.PendingXmlEdit
+  name: PendingEdit
+  nameWithType: UnlockResultModel.PendingEdit
+  fullName: Vasont.Inspire.Models.Components.UnlockResultModel.PendingEdit
   type: Property
   source:
     remote:
       path: src/Components/UnlockResultModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
-    id: PendingXmlEdit
+    id: PendingEdit
     path: Components/UnlockResultModel.cs
     startLine: 41
   assemblies:
@@ -260,12 +260,12 @@ items:
   summary: "\nGets or sets the pending component edit.\n"
   example: []
   syntax:
-    content: public MinimalEditorXmlModel PendingXmlEdit { get; set; }
+    content: public MinimalEditorModel PendingEdit { get; set; }
     parameters: []
     return:
-      type: Vasont.Inspire.Models.Components.MinimalEditorXmlModel
-    content.vb: Public Property PendingXmlEdit As MinimalEditorXmlModel
-  overload: Vasont.Inspire.Models.Components.UnlockResultModel.PendingXmlEdit*
+      type: Vasont.Inspire.Models.Components.MinimalEditorModel
+    content.vb: Public Property PendingEdit As MinimalEditorModel
+  overload: Vasont.Inspire.Models.Components.UnlockResultModel.PendingEdit*
   modifiers.csharp:
   - public
   - get
@@ -616,14 +616,14 @@ references:
   name: FailedMessage
   nameWithType: UnlockResultModel.FailedMessage
   fullName: Vasont.Inspire.Models.Components.UnlockResultModel.FailedMessage
-- uid: Vasont.Inspire.Models.Components.UnlockResultModel.PendingXmlEdit*
-  commentId: Overload:Vasont.Inspire.Models.Components.UnlockResultModel.PendingXmlEdit
-  name: PendingXmlEdit
-  nameWithType: UnlockResultModel.PendingXmlEdit
-  fullName: Vasont.Inspire.Models.Components.UnlockResultModel.PendingXmlEdit
-- uid: Vasont.Inspire.Models.Components.MinimalEditorXmlModel
-  commentId: T:Vasont.Inspire.Models.Components.MinimalEditorXmlModel
+- uid: Vasont.Inspire.Models.Components.UnlockResultModel.PendingEdit*
+  commentId: Overload:Vasont.Inspire.Models.Components.UnlockResultModel.PendingEdit
+  name: PendingEdit
+  nameWithType: UnlockResultModel.PendingEdit
+  fullName: Vasont.Inspire.Models.Components.UnlockResultModel.PendingEdit
+- uid: Vasont.Inspire.Models.Components.MinimalEditorModel
+  commentId: T:Vasont.Inspire.Models.Components.MinimalEditorModel
   parent: Vasont.Inspire.Models.Components
-  name: MinimalEditorXmlModel
-  nameWithType: MinimalEditorXmlModel
-  fullName: Vasont.Inspire.Models.Components.MinimalEditorXmlModel
+  name: MinimalEditorModel
+  nameWithType: MinimalEditorModel
+  fullName: Vasont.Inspire.Models.Components.MinimalEditorModel

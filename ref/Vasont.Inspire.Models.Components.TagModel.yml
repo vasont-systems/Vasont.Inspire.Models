@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Components/TagModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TagModel
     path: Components/TagModel.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: src/Components/TagModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TagId
     path: Components/TagModel.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: src/Components/TagModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TagName
     path: Components/TagModel.cs
@@ -136,7 +136,7 @@ items:
   source:
     remote:
       path: src/Components/TagModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReferenceCount
     path: Components/TagModel.cs
@@ -173,7 +173,7 @@ items:
   source:
     remote:
       path: src/Components/TagModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SystemTag
     path: Components/TagModel.cs

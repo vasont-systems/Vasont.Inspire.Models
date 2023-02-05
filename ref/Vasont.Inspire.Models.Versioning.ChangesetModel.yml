@@ -5,11 +5,14 @@ items:
   id: ChangesetModel
   parent: Vasont.Inspire.Models.Versioning
   children:
+  - Vasont.Inspire.Models.Versioning.ChangesetModel.Action
   - Vasont.Inspire.Models.Versioning.ChangesetModel.ChangesetDate
   - Vasont.Inspire.Models.Versioning.ChangesetModel.ChangesetId
   - Vasont.Inspire.Models.Versioning.ChangesetModel.ChangesetNumber
   - Vasont.Inspire.Models.Versioning.ChangesetModel.Comment
+  - Vasont.Inspire.Models.Versioning.ChangesetModel.Components
   - Vasont.Inspire.Models.Versioning.ChangesetModel.Label
+  - Vasont.Inspire.Models.Versioning.ChangesetModel.ProcessType
   - Vasont.Inspire.Models.Versioning.ChangesetModel.Snapshots
   - Vasont.Inspire.Models.Versioning.ChangesetModel.User
   langs:
@@ -22,11 +25,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetModel
     path: Versioning/ChangesetModel.cs
-    startLine: 14
+    startLine: 15
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -65,11 +68,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetId
     path: Versioning/ChangesetModel.cs
-    startLine: 19
+    startLine: 20
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -102,11 +105,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetNumber
     path: Versioning/ChangesetModel.cs
-    startLine: 24
+    startLine: 25
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -139,11 +142,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetDate
     path: Versioning/ChangesetModel.cs
-    startLine: 29
+    startLine: 30
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -176,11 +179,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: User
     path: Versioning/ChangesetModel.cs
-    startLine: 34
+    startLine: 35
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -213,11 +216,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Label
     path: Versioning/ChangesetModel.cs
-    startLine: 39
+    startLine: 40
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -250,11 +253,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Comment
     path: Versioning/ChangesetModel.cs
-    startLine: 44
+    startLine: 45
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -267,6 +270,80 @@ items:
       type: System.String
     content.vb: Public Property Comment As String
   overload: Vasont.Inspire.Models.Versioning.ChangesetModel.Comment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ChangesetModel.ProcessType
+  commentId: P:Vasont.Inspire.Models.Versioning.ChangesetModel.ProcessType
+  id: ProcessType
+  parent: Vasont.Inspire.Models.Versioning.ChangesetModel
+  langs:
+  - csharp
+  - vb
+  name: ProcessType
+  nameWithType: ChangesetModel.ProcessType
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetModel.ProcessType
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ChangesetModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProcessType
+    path: Versioning/ChangesetModel.cs
+    startLine: 50
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets an optional processtype for the changeset.\n"
+  example: []
+  syntax:
+    content: public string ProcessType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProcessType As String
+  overload: Vasont.Inspire.Models.Versioning.ChangesetModel.ProcessType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ChangesetModel.Action
+  commentId: P:Vasont.Inspire.Models.Versioning.ChangesetModel.Action
+  id: Action
+  parent: Vasont.Inspire.Models.Versioning.ChangesetModel
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: ChangesetModel.Action
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetModel.Action
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ChangesetModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Action
+    path: Versioning/ChangesetModel.cs
+    startLine: 55
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets an action for the changeset.\n"
+  example: []
+  syntax:
+    content: public ChangesetSnapshotActionType Action { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+    content.vb: Public Property Action As ChangesetSnapshotActionType
+  overload: Vasont.Inspire.Models.Versioning.ChangesetModel.Action*
   modifiers.csharp:
   - public
   - get
@@ -287,29 +364,66 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Snapshots
     path: Versioning/ChangesetModel.cs
-    startLine: 49
+    startLine: 60
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
   summary: "\nGets a list of changeset targets associated with the changeset.\n"
   example: []
   syntax:
-    content: public List<ChangesetSnapshotModel> Snapshots { get; }
+    content: public List<ChangesetSnapshotModel> Snapshots { get; set; }
     parameters: []
     return:
       type: System.Collections.Generic.List{Vasont.Inspire.Models.Versioning.ChangesetSnapshotModel}
-    content.vb: Public ReadOnly Property Snapshots As List(Of ChangesetSnapshotModel)
+    content.vb: Public Property Snapshots As List(Of ChangesetSnapshotModel)
   overload: Vasont.Inspire.Models.Versioning.ChangesetModel.Snapshots*
   modifiers.csharp:
   - public
   - get
+  - set
   modifiers.vb:
   - Public
-  - ReadOnly
+- uid: Vasont.Inspire.Models.Versioning.ChangesetModel.Components
+  commentId: P:Vasont.Inspire.Models.Versioning.ChangesetModel.Components
+  id: Components
+  parent: Vasont.Inspire.Models.Versioning.ChangesetModel
+  langs:
+  - csharp
+  - vb
+  name: Components
+  nameWithType: ChangesetModel.Components
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetModel.Components
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ChangesetModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Components
+    path: Versioning/ChangesetModel.cs
+    startLine: 65
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets a list of components associated with the changeset.\n"
+  example: []
+  syntax:
+    content: public List<MicroComponentModel> Components { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Components.MicroComponentModel}
+    content.vb: Public Property Components As List(Of MicroComponentModel)
+  overload: Vasont.Inspire.Models.Versioning.ChangesetModel.Components*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: Vasont.Inspire.Models.Versioning
   commentId: N:Vasont.Inspire.Models.Versioning
@@ -677,6 +791,22 @@ references:
   name: Comment
   nameWithType: ChangesetModel.Comment
   fullName: Vasont.Inspire.Models.Versioning.ChangesetModel.Comment
+- uid: Vasont.Inspire.Models.Versioning.ChangesetModel.ProcessType*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetModel.ProcessType
+  name: ProcessType
+  nameWithType: ChangesetModel.ProcessType
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetModel.ProcessType
+- uid: Vasont.Inspire.Models.Versioning.ChangesetModel.Action*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetModel.Action
+  name: Action
+  nameWithType: ChangesetModel.Action
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetModel.Action
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  commentId: T:Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  parent: Vasont.Inspire.Models.Versioning
+  name: ChangesetSnapshotActionType
+  nameWithType: ChangesetSnapshotActionType
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
 - uid: Vasont.Inspire.Models.Versioning.ChangesetModel.Snapshots*
   commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetModel.Snapshots
   name: Snapshots
@@ -769,3 +899,50 @@ references:
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Versioning.ChangesetModel.Components*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetModel.Components
+  name: Components
+  nameWithType: ChangesetModel.Components
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetModel.Components
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Components.MicroComponentModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Components.MicroComponentModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<MicroComponentModel>
+  nameWithType: List<MicroComponentModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Components.MicroComponentModel>
+  nameWithType.vb: List(Of MicroComponentModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Components.MicroComponentModel)
+  name.vb: List(Of MicroComponentModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Components.MicroComponentModel
+    name: MicroComponentModel
+    nameWithType: MicroComponentModel
+    fullName: Vasont.Inspire.Models.Components.MicroComponentModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Components.MicroComponentModel
+    name: MicroComponentModel
+    nameWithType: MicroComponentModel
+    fullName: Vasont.Inspire.Models.Components.MicroComponentModel
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportComponentModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportComponentModel
     path: Transfers/ExportComponentModel.cs

@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: src/Components/DitaComponentReferenceModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DitaComponentReferenceModel
     path: Components/DitaComponentReferenceModel.cs
@@ -67,7 +67,7 @@ items:
   source:
     remote:
       path: src/Components/DitaComponentReferenceModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/DitaComponentReferenceModel.cs
@@ -106,7 +106,7 @@ items:
   source:
     remote:
       path: src/Components/DitaComponentReferenceModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetName
     path: Components/DitaComponentReferenceModel.cs
@@ -145,7 +145,7 @@ items:
   source:
     remote:
       path: src/Components/DitaComponentReferenceModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetRootId
     path: Components/DitaComponentReferenceModel.cs
@@ -184,7 +184,7 @@ items:
   source:
     remote:
       path: src/Components/DitaComponentReferenceModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetElementId
     path: Components/DitaComponentReferenceModel.cs
@@ -223,7 +223,7 @@ items:
   source:
     remote:
       path: src/Components/DitaComponentReferenceModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Address
     path: Components/DitaComponentReferenceModel.cs
@@ -262,7 +262,7 @@ items:
   source:
     remote:
       path: src/Components/DitaComponentReferenceModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ToString
     path: Components/DitaComponentReferenceModel.cs

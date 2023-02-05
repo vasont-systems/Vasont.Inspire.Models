@@ -5,7 +5,11 @@ items:
   id: ChangesetQueryModel
   parent: Vasont.Inspire.Models.Versioning
   children:
+  - Vasont.Inspire.Models.Versioning.ChangesetQueryModel.Action
+  - Vasont.Inspire.Models.Versioning.ChangesetQueryModel.EndDate
+  - Vasont.Inspire.Models.Versioning.ChangesetQueryModel.ProcessType
   - Vasont.Inspire.Models.Versioning.ChangesetQueryModel.SearchText
+  - Vasont.Inspire.Models.Versioning.ChangesetQueryModel.StartDate
   langs:
   - csharp
   - vb
@@ -16,11 +20,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetQueryModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetQueryModel
     path: Versioning/ChangesetQueryModel.cs
-    startLine: 12
+    startLine: 13
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -68,11 +72,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetQueryModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SearchText
     path: Versioning/ChangesetQueryModel.cs
-    startLine: 17
+    startLine: 18
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -85,6 +89,154 @@ items:
       type: System.String
     content.vb: Public Property SearchText As String
   overload: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.SearchText*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.StartDate
+  commentId: P:Vasont.Inspire.Models.Versioning.ChangesetQueryModel.StartDate
+  id: StartDate
+  parent: Vasont.Inspire.Models.Versioning.ChangesetQueryModel
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: ChangesetQueryModel.StartDate
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.StartDate
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ChangesetQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: StartDate
+    path: Versioning/ChangesetQueryModel.cs
+    startLine: 23
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the start date of the changeset lookup.\n"
+  example: []
+  syntax:
+    content: public DateTime StartDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property StartDate As Date
+  overload: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.StartDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.EndDate
+  commentId: P:Vasont.Inspire.Models.Versioning.ChangesetQueryModel.EndDate
+  id: EndDate
+  parent: Vasont.Inspire.Models.Versioning.ChangesetQueryModel
+  langs:
+  - csharp
+  - vb
+  name: EndDate
+  nameWithType: ChangesetQueryModel.EndDate
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.EndDate
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ChangesetQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: EndDate
+    path: Versioning/ChangesetQueryModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the end date of the changeset lookup.\n"
+  example: []
+  syntax:
+    content: public DateTime EndDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property EndDate As Date
+  overload: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.EndDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.Action
+  commentId: P:Vasont.Inspire.Models.Versioning.ChangesetQueryModel.Action
+  id: Action
+  parent: Vasont.Inspire.Models.Versioning.ChangesetQueryModel
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: ChangesetQueryModel.Action
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.Action
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ChangesetQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Action
+    path: Versioning/ChangesetQueryModel.cs
+    startLine: 33
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the action of the changeset lookup.\n"
+  example: []
+  syntax:
+    content: public string Action { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Action As String
+  overload: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.Action*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.ProcessType
+  commentId: P:Vasont.Inspire.Models.Versioning.ChangesetQueryModel.ProcessType
+  id: ProcessType
+  parent: Vasont.Inspire.Models.Versioning.ChangesetQueryModel
+  langs:
+  - csharp
+  - vb
+  name: ProcessType
+  nameWithType: ChangesetQueryModel.ProcessType
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.ProcessType
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ChangesetQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: ProcessType
+    path: Versioning/ChangesetQueryModel.cs
+    startLine: 38
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the process type of the changeset lookup.\n"
+  example: []
+  syntax:
+    content: public string ProcessType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProcessType As String
+  overload: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.ProcessType*
   modifiers.csharp:
   - public
   - get
@@ -436,3 +588,30 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.StartDate*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetQueryModel.StartDate
+  name: StartDate
+  nameWithType: ChangesetQueryModel.StartDate
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.StartDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.EndDate*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetQueryModel.EndDate
+  name: EndDate
+  nameWithType: ChangesetQueryModel.EndDate
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.EndDate
+- uid: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.Action*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetQueryModel.Action
+  name: Action
+  nameWithType: ChangesetQueryModel.Action
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.Action
+- uid: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.ProcessType*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetQueryModel.ProcessType
+  name: ProcessType
+  nameWithType: ChangesetQueryModel.ProcessType
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetQueryModel.ProcessType
