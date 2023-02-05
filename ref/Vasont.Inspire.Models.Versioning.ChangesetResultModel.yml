@@ -6,6 +6,7 @@ items:
   parent: Vasont.Inspire.Models.Versioning
   children:
   - Vasont.Inspire.Models.Versioning.ChangesetResultModel.Changesets
+  - Vasont.Inspire.Models.Versioning.ChangesetResultModel.Components
   - Vasont.Inspire.Models.Versioning.ChangesetResultModel.TotalCount
   langs:
   - csharp
@@ -17,11 +18,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetResultModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetResultModel
     path: Versioning/ChangesetResultModel.cs
-    startLine: 12
+    startLine: 13
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -62,11 +63,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetResultModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TotalCount
     path: Versioning/ChangesetResultModel.cs
-    startLine: 17
+    startLine: 18
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -99,11 +100,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetResultModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Changesets
     path: Versioning/ChangesetResultModel.cs
-    startLine: 22
+    startLine: 23
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -116,6 +117,43 @@ items:
       type: System.Collections.Generic.List{Vasont.Inspire.Models.Versioning.ChangesetModel}
     content.vb: Public Property Changesets As List(Of ChangesetModel)
   overload: Vasont.Inspire.Models.Versioning.ChangesetResultModel.Changesets*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Versioning.ChangesetResultModel.Components
+  commentId: P:Vasont.Inspire.Models.Versioning.ChangesetResultModel.Components
+  id: Components
+  parent: Vasont.Inspire.Models.Versioning.ChangesetResultModel
+  langs:
+  - csharp
+  - vb
+  name: Components
+  nameWithType: ChangesetResultModel.Components
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetResultModel.Components
+  type: Property
+  source:
+    remote:
+      path: src/Versioning/ChangesetResultModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Components
+    path: Versioning/ChangesetResultModel.cs
+    startLine: 28
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nGets or sets the components related to a changeset.\n"
+  example: []
+  syntax:
+    content: public List<MicroComponentModel> Components { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Components.MicroComponentModel}
+    content.vb: Public Property Components As List(Of MicroComponentModel)
+  overload: Vasont.Inspire.Models.Versioning.ChangesetResultModel.Components*
   modifiers.csharp:
   - public
   - get
@@ -524,3 +562,50 @@ references:
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Versioning.ChangesetResultModel.Components*
+  commentId: Overload:Vasont.Inspire.Models.Versioning.ChangesetResultModel.Components
+  name: Components
+  nameWithType: ChangesetResultModel.Components
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetResultModel.Components
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Components.MicroComponentModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Components.MicroComponentModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<MicroComponentModel>
+  nameWithType: List<MicroComponentModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Components.MicroComponentModel>
+  nameWithType.vb: List(Of MicroComponentModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Components.MicroComponentModel)
+  name.vb: List(Of MicroComponentModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Components.MicroComponentModel
+    name: MicroComponentModel
+    nameWithType: MicroComponentModel
+    fullName: Vasont.Inspire.Models.Components.MicroComponentModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Components.MicroComponentModel
+    name: MicroComponentModel
+    nameWithType: MicroComponentModel
+    fullName: Vasont.Inspire.Models.Components.MicroComponentModel
+  - name: )
+    nameWithType: )
+    fullName: )

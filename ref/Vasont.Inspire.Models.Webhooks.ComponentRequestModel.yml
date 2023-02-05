@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Webhooks/ComponentRequestModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentRequestModel
     path: Webhooks/ComponentRequestModel.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/Webhooks/ComponentRequestModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RequestId
     path: Webhooks/ComponentRequestModel.cs
@@ -101,7 +101,7 @@ items:
   source:
     remote:
       path: src/Webhooks/ComponentRequestModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RequesterName
     path: Webhooks/ComponentRequestModel.cs
@@ -138,7 +138,7 @@ items:
   source:
     remote:
       path: src/Webhooks/ComponentRequestModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RequesterEmail
     path: Webhooks/ComponentRequestModel.cs

@@ -27,7 +27,7 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SearchExpressionOperator
     path: Search/SearchExpressionOperator.cs
@@ -72,7 +72,7 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Equals
     path: Search/SearchExpressionOperator.cs
@@ -106,7 +106,7 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NotEquals
     path: Search/SearchExpressionOperator.cs
@@ -140,7 +140,7 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: GreaterThan
     path: Search/SearchExpressionOperator.cs
@@ -174,7 +174,7 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LessThan
     path: Search/SearchExpressionOperator.cs
@@ -208,7 +208,7 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: GreaterThanOrEqual
     path: Search/SearchExpressionOperator.cs
@@ -242,7 +242,7 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LessThanOrEqual
     path: Search/SearchExpressionOperator.cs
@@ -276,7 +276,7 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Contains
     path: Search/SearchExpressionOperator.cs
@@ -323,7 +323,7 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DoesNotContain
     path: Search/SearchExpressionOperator.cs
@@ -370,7 +370,7 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: StartsWith
     path: Search/SearchExpressionOperator.cs
@@ -417,7 +417,7 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DoesNotStartWith
     path: Search/SearchExpressionOperator.cs
@@ -464,7 +464,7 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EndsWith
     path: Search/SearchExpressionOperator.cs
@@ -511,7 +511,7 @@ items:
   source:
     remote:
       path: src/Search/SearchExpressionOperator.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DoesNotEndWith
     path: Search/SearchExpressionOperator.cs

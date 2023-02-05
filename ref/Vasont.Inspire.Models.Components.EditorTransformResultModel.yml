@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Components/EditorTransformResultModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EditorTransformResultModel
     path: Components/EditorTransformResultModel.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: src/Components/EditorTransformResultModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Success
     path: Components/EditorTransformResultModel.cs
@@ -111,7 +111,7 @@ items:
   source:
     remote:
       path: src/Components/EditorTransformResultModel.cs
-      branch: feature/AddSKOSComponentStandard
+      branch: develop
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Content
     path: Components/EditorTransformResultModel.cs
