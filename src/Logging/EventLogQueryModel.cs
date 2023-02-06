@@ -27,5 +27,10 @@ namespace Vasont.Inspire.Models.Logging
         ///  Gets or sets the end date of the paged query.
         /// </summary>
         public DateTime? EndDate { get; set; }
+
+        /// <summary>
+        /// Gets or sets the log level of the event log lookup.
+        /// </summary>
+        public string Level { get; set; }
     }
 }
