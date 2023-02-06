@@ -52,5 +52,10 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets the identity of the project folder to be added to.
         /// </summary>
         public long ProjectFolderId { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether to create branch relationships.
+        /// </summary>
+        public bool CreateBranchRelationships { get; set; } = true;
     }
 }

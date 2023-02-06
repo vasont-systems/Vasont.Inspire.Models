@@ -61,5 +61,10 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets the number of minutes the worker timeout will last.
         /// </summary>
         public int WorkerCacheLifeTimeoutMinutes { get; set; } = 14200;
+
+        /// <summary>
+        /// Gets or sets a value indicating whether to create branch relationships.
+        /// </summary>
+        public bool CreateBranchRelationships { get; set; } = true;
     }
 }
