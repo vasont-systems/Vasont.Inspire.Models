@@ -18,8 +18,8 @@ namespace Vasont.Inspire.Models.Publishing
         public string SearchText { get; set; }
 
         /// <summary>
-        /// Gets or sets the user identity of the user accessing the publishing profiles.
+        /// Gets or sets the optional user identity of the user accessing the publishing profiles.
         /// </summary>
-        public long UserId { get; set; }
+        public long? UserId { get; set; }
     }
 }
