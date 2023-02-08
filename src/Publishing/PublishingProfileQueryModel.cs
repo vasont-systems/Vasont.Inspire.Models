@@ -16,5 +16,10 @@ namespace Vasont.Inspire.Models.Publishing
         /// Gets or sets search text that will be used to filter the publishing profiles.
         /// </summary>
         public string SearchText { get; set; }
+
+        /// <summary>
+        /// Gets or sets the optional user identity of the user accessing the publishing profiles.
+        /// </summary>
+        public long? UserId { get; set; }
     }
 }
