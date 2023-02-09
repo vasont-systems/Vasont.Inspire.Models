@@ -150,6 +150,11 @@ namespace Vasont.Inspire.Models.Publishing
         public List<MicroComponentModel> Components { get; set; } = new List<MicroComponentModel>();
 
         /// <summary>
+        /// Gets or sets the users and roles that has access to a particular publishing profile.
+        /// </summary>
+        public List<UserRoleAssociationModel> Participants { get; set; } = new List<UserRoleAssociationModel>();
+
+        /// <summary>
         /// Gets or sets a value indicating whether the profile should be validated.
         /// </summary>
         public bool SkipXmlValidation { get; set; } = false;
