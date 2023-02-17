@@ -1,19 +1,19 @@
 ﻿//---------------------------------------------------------------------------
-// <copyright file="ProjectAssignmentBrowseQueryModel.cs" company="GlobalLink Vasont">
+// <copyright file="AdvancedSearchBaseModel.cs" company="GlobalLink Vasont">
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //---------------------------------------------------------------------------
-namespace Vasont.Inspire.Models.Projects
+
+namespace Vasont.Inspire.Models.Search
 {
     using System;
     using System.Collections.Generic;
     using Vasont.Inspire.Core.Extensions;
-    using Vasont.Inspire.Models.Search;
 
     /// <summary>
-    /// This class contains parameters passed to the query for retrieving project assignments.
+    /// This class contains parameters passed for advanced search.
     /// </summary>
-    public class ProjectAssignmentBrowseQueryModel
+    public class AdvancedSearchBaseModel
     {
         /// <summary>
         ///  Gets or sets the name of the column to sort by.
