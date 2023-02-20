@@ -9,6 +9,7 @@ namespace Vasont.Inspire.Models.Components
     using System;
     using System.Collections.Generic;
     using Vasont.Inspire.Models.Common;
+    using Vasont.Inspire.Models.Security;
 
     /// <summary>
     /// This class represents a component folder for use within the application.
@@ -49,5 +50,10 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets the folder path.
         /// </summary>
         public string Path { get; set; }
+
+        /// <summary>
+        /// Gets or sets a list of folder permission associations models.
+        /// </summary>
+        public List<FolderPermissionModel> Permissions { get; set; } = new List<FolderPermissionModel>();
     }
 }
