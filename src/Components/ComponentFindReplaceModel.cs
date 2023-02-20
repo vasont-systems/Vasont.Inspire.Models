@@ -33,6 +33,21 @@ namespace Vasont.Inspire.Models.Components
         public bool CaseSensitive { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether the request should ignore XML processing instructions.
+        /// </summary>
+        public bool IgnoreProcessingInstructions { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the request should ignore XML comments.
+        /// </summary>
+        public bool IgnoreComments { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the request should ignore XML element names.
+        /// </summary>
+        public bool IgnoreElementNames { get; set; }
+
+        /// <summary>
         /// Gets or sets a list of components to process.
         /// </summary>
         public List<long> ComponentIds { get; set; }
