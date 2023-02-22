@@ -34,6 +34,7 @@ namespace Vasont.Inspire.Models.Security
             this.CreatedDate = DateTime.UtcNow;
             this.UpdatedDate = DateTime.UtcNow;
             this.Modules = new List<ModulePermissionModel>();
+            this.Folders = new List<FolderPermissionModel>();
         }
 
         #endregion
@@ -80,6 +81,11 @@ namespace Vasont.Inspire.Models.Security
         /// Gets or sets a list of modules assigned to this role.
         /// </summary>
         public List<ModulePermissionModel> Modules { get; set; }
+
+        /// <summary>
+        /// Gets or sets a list of folders assigned to this role.
+        /// </summary>
+        public List<FolderPermissionModel> Folders { get; set; }
 
         #endregion
     }
