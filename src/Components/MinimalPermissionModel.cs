@@ -25,6 +25,84 @@ namespace Vasont.Inspire.Models.Components
         /// <summary>
         /// Gets or sets the permission code.
         /// </summary>
-        public PermissionFlags Permission { get; set; }
+        public PermissionFlags Permission
+        {
+            get
+            {
+                PermissionFlags result = PermissionFlags.None;
+
+                if (this.CanCreate)
+                {
+                    result |= PermissionFlags.Create;
+                }
+
+                if (this.CanRead)
+                {
+                    result |= PermissionFlags.Read;
+                }
+
+                if (this.CanUpdate)
+                {
+                    result |= PermissionFlags.Update;
+                }
+
+                if (this.CanDelete)
+                {
+                    result |= PermissionFlags.Delete;
+                }
+
+                if (this.CanSetPermissions)
+                {
+                    result |= PermissionFlags.SetPermissions;
+                }
+
+                if (this.CanRename)
+                {
+                    result |= PermissionFlags.Rename;
+                }
+
+                return result;
+            }
+
+            set
+            {
+                this.CanCreate = value.CanCreate();
+                this.CanRead = value.CanRead();
+                this.CanUpdate = value.CanUpdate();
+                this.CanDelete = value.CanDelete();
+                this.CanRename = value.CanRename();
+                this.CanSetPermissions = value.CanSetPermissions();
+            }
+        }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the permission holder can read records within the folder.
+        /// </summary>
+        public bool CanRead { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the permission holder can create records within the folder.
+        /// </summary>
+        public bool CanCreate { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the permission holder can update records within the folder.
+        /// </summary>
+        public bool CanUpdate { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the permission holder can delete records within the folder.
+        /// </summary>
+        public bool CanDelete { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the permission holder can rename records within a folder.
+        /// </summary>
+        public bool CanRename { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the permission holder can set permissions on records within the folder.
+        /// </summary>
+        public bool CanSetPermissions { get; set; }
     }
 }
