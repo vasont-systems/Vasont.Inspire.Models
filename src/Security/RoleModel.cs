@@ -7,6 +7,7 @@ namespace Vasont.Inspire.Models.Security
 {
     using System;
     using System.Collections.Generic;
+    using Vasont.Inspire.Models.Components;
 
     /// <summary>
     /// This model class represents a security role within the application.
@@ -35,6 +36,7 @@ namespace Vasont.Inspire.Models.Security
             this.UpdatedDate = DateTime.UtcNow;
             this.Modules = new List<ModulePermissionModel>();
             this.Folders = new List<FolderPermissionModel>();
+            this.Components = new List<MinimalPermissionModel>();
         }
 
         #endregion
@@ -86,6 +88,11 @@ namespace Vasont.Inspire.Models.Security
         /// Gets or sets a list of folders assigned to this role.
         /// </summary>
         public List<FolderPermissionModel> Folders { get; set; }
+
+        /// <summary>
+        /// Gets or sets a list of components assigned to this role.
+        /// </summary>
+        public List<MinimalPermissionModel> Components { get; set; }
 
         #endregion
     }
