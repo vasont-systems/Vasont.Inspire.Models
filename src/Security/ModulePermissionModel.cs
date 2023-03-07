@@ -6,6 +6,7 @@
 
 namespace Vasont.Inspire.Models.Security
 {
+    using System.Collections.Generic;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
     using Vasont.Inspire.Models.Common;
@@ -196,5 +197,10 @@ namespace Vasont.Inspire.Models.Security
         /// Gets or sets a value indicating whether the permission holder can set permissions on records within the module.
         /// </summary>
         public bool CanSetPermissions { get; set; }
+
+        /// <summary>
+        /// Gets or sets a list of memberships the user or role has.
+        /// </summary>
+        public List<string> UserRoleMemberships { get; set; } = new List<string>();
     }
 }
