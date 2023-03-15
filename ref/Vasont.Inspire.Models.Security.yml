@@ -4,6 +4,8 @@ items:
   commentId: N:Vasont.Inspire.Models.Security
   id: Vasont.Inspire.Models.Security
   children:
+  - Vasont.Inspire.Models.Security.FolderPermissionHolderType
+  - Vasont.Inspire.Models.Security.FolderPermissionModel
   - Vasont.Inspire.Models.Security.MicroUserModel
   - Vasont.Inspire.Models.Security.MinimalModuleModel
   - Vasont.Inspire.Models.Security.MinimalRoleModel
@@ -32,6 +34,17 @@ items:
   assemblies:
   - Vasont.Inspire.Models
 references:
+- uid: Vasont.Inspire.Models.Security.FolderPermissionHolderType
+  commentId: T:Vasont.Inspire.Models.Security.FolderPermissionHolderType
+  parent: Vasont.Inspire.Models.Security
+  name: FolderPermissionHolderType
+  nameWithType: FolderPermissionHolderType
+  fullName: Vasont.Inspire.Models.Security.FolderPermissionHolderType
+- uid: Vasont.Inspire.Models.Security.FolderPermissionModel
+  commentId: T:Vasont.Inspire.Models.Security.FolderPermissionModel
+  name: FolderPermissionModel
+  nameWithType: FolderPermissionModel
+  fullName: Vasont.Inspire.Models.Security.FolderPermissionModel
 - uid: Vasont.Inspire.Models.Security.MicroUserModel
   commentId: T:Vasont.Inspire.Models.Security.MicroUserModel
   parent: Vasont.Inspire.Models.Security

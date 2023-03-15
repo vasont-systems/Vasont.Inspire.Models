@@ -33,19 +33,39 @@ namespace Vasont.Inspire.Models.Components
         public bool CaseSensitive { get; set; }
 
         /// <summary>
-        /// Gets or sets a value indicating whether the request should ignore XML processing instructions.
+        /// Gets or sets a value indicating whether the request should search XML processing instructions target.
         /// </summary>
-        public bool IgnoreProcessingInstructions { get; set; }
+        public bool SearchPIName { get; set; }
 
         /// <summary>
-        /// Gets or sets a value indicating whether the request should ignore XML comments.
+        /// Gets or sets a value indicating whether the request should search XML processing instructions data.
         /// </summary>
-        public bool IgnoreComments { get; set; }
+        public bool SearchPIContent { get; set; }
 
         /// <summary>
-        /// Gets or sets a value indicating whether the request should ignore XML element names.
+        /// Gets or sets a value indicating whether the request should search XML comments.
         /// </summary>
-        public bool IgnoreElementNames { get; set; }
+        public bool SearchComments { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the request should XML text nodes.
+        /// </summary>
+        public bool SearchText { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the request should search XML attribute values.
+        /// </summary>
+        public bool SearchAttributeValues { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the request should search document as a single string.
+        /// </summary>
+        public bool SearchAll { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value with a list of attribute names to search.
+        /// </summary>
+        public List<string> AttributeNames { get; set; }
 
         /// <summary>
         /// Gets or sets a list of components to process.

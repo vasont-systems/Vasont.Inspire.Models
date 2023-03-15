@@ -517,6 +517,8 @@
   items:
   - uid: Vasont.Inspire.Models.Search.AdHocQueryFilterModel
     name: AdHocQueryFilterModel
+  - uid: Vasont.Inspire.Models.Search.AdvancedSearchBaseModel
+    name: AdvancedSearchBaseModel
   - uid: Vasont.Inspire.Models.Search.ConfigurationModel
     name: ConfigurationModel
   - uid: Vasont.Inspire.Models.Search.SearchConfigurationDataType
@@ -534,6 +536,10 @@
 - uid: Vasont.Inspire.Models.Security
   name: Vasont.Inspire.Models.Security
   items:
+  - uid: Vasont.Inspire.Models.Security.FolderPermissionHolderType
+    name: FolderPermissionHolderType
+  - uid: Vasont.Inspire.Models.Security.FolderPermissionModel
+    name: FolderPermissionModel
   - uid: Vasont.Inspire.Models.Security.MicroUserModel
     name: MicroUserModel
   - uid: Vasont.Inspire.Models.Security.MinimalModuleModel
