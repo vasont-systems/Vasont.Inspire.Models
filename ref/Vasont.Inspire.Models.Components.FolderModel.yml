@@ -11,6 +11,7 @@ items:
   - Vasont.Inspire.Models.Components.FolderModel.Name
   - Vasont.Inspire.Models.Components.FolderModel.ParentFolderId
   - Vasont.Inspire.Models.Components.FolderModel.Path
+  - Vasont.Inspire.Models.Components.FolderModel.Permissions
   - Vasont.Inspire.Models.Components.FolderModel.UniqueId
   langs:
   - csharp
@@ -26,7 +27,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FolderModel
     path: Components/FolderModel.cs
-    startLine: 15
+    startLine: 16
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -76,7 +77,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FolderId
     path: Components/FolderModel.cs
-    startLine: 20
+    startLine: 21
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -113,7 +114,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UniqueId
     path: Components/FolderModel.cs
-    startLine: 25
+    startLine: 26
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -150,7 +151,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ParentFolderId
     path: Components/FolderModel.cs
-    startLine: 30
+    startLine: 31
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -187,7 +188,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Components/FolderModel.cs
-    startLine: 35
+    startLine: 36
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -224,7 +225,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Components/FolderModel.cs
-    startLine: 40
+    startLine: 41
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -261,7 +262,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Children
     path: Components/FolderModel.cs
-    startLine: 45
+    startLine: 46
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -298,7 +299,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Path
     path: Components/FolderModel.cs
-    startLine: 50
+    startLine: 51
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -311,6 +312,43 @@ items:
       type: System.String
     content.vb: Public Property Path As String
   overload: Vasont.Inspire.Models.Components.FolderModel.Path*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.FolderModel.Permissions
+  commentId: P:Vasont.Inspire.Models.Components.FolderModel.Permissions
+  id: Permissions
+  parent: Vasont.Inspire.Models.Components.FolderModel
+  langs:
+  - csharp
+  - vb
+  name: Permissions
+  nameWithType: FolderModel.Permissions
+  fullName: Vasont.Inspire.Models.Components.FolderModel.Permissions
+  type: Property
+  source:
+    remote:
+      path: src/Components/FolderModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Permissions
+    path: Components/FolderModel.cs
+    startLine: 56
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a list of folder permission associations models.\n"
+  example: []
+  syntax:
+    content: public List<FolderPermissionModel> Permissions { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Security.FolderPermissionModel}
+    content.vb: Public Property Permissions As List(Of FolderPermissionModel)
+  overload: Vasont.Inspire.Models.Components.FolderModel.Permissions*
   modifiers.csharp:
   - public
   - get
@@ -881,3 +919,50 @@ references:
   name: Path
   nameWithType: FolderModel.Path
   fullName: Vasont.Inspire.Models.Components.FolderModel.Path
+- uid: Vasont.Inspire.Models.Components.FolderModel.Permissions*
+  commentId: Overload:Vasont.Inspire.Models.Components.FolderModel.Permissions
+  name: Permissions
+  nameWithType: FolderModel.Permissions
+  fullName: Vasont.Inspire.Models.Components.FolderModel.Permissions
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Security.FolderPermissionModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Security.FolderPermissionModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<FolderPermissionModel>
+  nameWithType: List<FolderPermissionModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Security.FolderPermissionModel>
+  nameWithType.vb: List(Of FolderPermissionModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Security.FolderPermissionModel)
+  name.vb: List(Of FolderPermissionModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Security.FolderPermissionModel
+    name: FolderPermissionModel
+    nameWithType: FolderPermissionModel
+    fullName: Vasont.Inspire.Models.Security.FolderPermissionModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Security.FolderPermissionModel
+    name: FolderPermissionModel
+    nameWithType: FolderPermissionModel
+    fullName: Vasont.Inspire.Models.Security.FolderPermissionModel
+  - name: )
+    nameWithType: )
+    fullName: )

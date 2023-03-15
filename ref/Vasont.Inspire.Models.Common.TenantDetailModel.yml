@@ -5,6 +5,7 @@ items:
   id: TenantDetailModel
   parent: Vasont.Inspire.Models.Common
   children:
+  - Vasont.Inspire.Models.Common.TenantDetailModel.AutomaticIds
   - Vasont.Inspire.Models.Common.TenantDetailModel.Copyright
   - Vasont.Inspire.Models.Common.TenantDetailModel.DefaultLanguage
   - Vasont.Inspire.Models.Common.TenantDetailModel.DomainKey
@@ -842,6 +843,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.AutomaticIds
+  commentId: P:Vasont.Inspire.Models.Common.TenantDetailModel.AutomaticIds
+  id: AutomaticIds
+  parent: Vasont.Inspire.Models.Common.TenantDetailModel
+  langs:
+  - csharp
+  - vb
+  name: AutomaticIds
+  nameWithType: TenantDetailModel.AutomaticIds
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.AutomaticIds
+  type: Property
+  source:
+    remote:
+      path: src/Common/TenantDetailModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: AutomaticIds
+    path: Common/TenantDetailModel.cs
+    startLine: 123
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Common
+  summary: "\nGets or sets a value indicating whether automatic ids is enabled.\n"
+  example: []
+  syntax:
+    content: public bool AutomaticIds { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AutomaticIds As Boolean
+  overload: Vasont.Inspire.Models.Common.TenantDetailModel.AutomaticIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: Vasont.Inspire.Models.Common
   commentId: N:Vasont.Inspire.Models.Common
@@ -1279,3 +1317,8 @@ references:
   name: HasExpertAi
   nameWithType: TenantDetailModel.HasExpertAi
   fullName: Vasont.Inspire.Models.Common.TenantDetailModel.HasExpertAi
+- uid: Vasont.Inspire.Models.Common.TenantDetailModel.AutomaticIds*
+  commentId: Overload:Vasont.Inspire.Models.Common.TenantDetailModel.AutomaticIds
+  name: AutomaticIds
+  nameWithType: TenantDetailModel.AutomaticIds
+  fullName: Vasont.Inspire.Models.Common.TenantDetailModel.AutomaticIds

@@ -24,15 +24,21 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PluginParameterModel
     path: Plugins/PluginParameterModel.cs
-    startLine: 10
+    startLine: 13
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
   summary: "\nThis class represents a plugin parameter within the application.\n"
   example: []
   syntax:
-    content: public class PluginParameterModel
-    content.vb: Public Class PluginParameterModel
+    content: >-
+      [Obsolete("No longer used, in favor of DTOs in the projects.")]
+
+      public class PluginParameterModel
+    content.vb: >-
+      <Obsolete("No longer used, in favor of DTOs in the projects.")>
+
+      Public Class PluginParameterModel
   inheritance:
   - System.Object
   inheritedMembers:
@@ -43,6 +49,12 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: No longer used, in favor of DTOs in the projects.
   modifiers.csharp:
   - public
   - class
@@ -67,7 +79,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PluginParameterId
     path: Plugins/PluginParameterModel.cs
-    startLine: 15
+    startLine: 19
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -104,7 +116,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PluginId
     path: Plugins/PluginParameterModel.cs
-    startLine: 20
+    startLine: 24
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -141,7 +153,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Plugins/PluginParameterModel.cs
-    startLine: 25
+    startLine: 29
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -178,7 +190,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Required
     path: Plugins/PluginParameterModel.cs
-    startLine: 30
+    startLine: 34
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -215,7 +227,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Repeatable
     path: Plugins/PluginParameterModel.cs
-    startLine: 35
+    startLine: 39
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins

@@ -6,6 +6,7 @@ items:
   parent: Vasont.Inspire.Models.Logging
   children:
   - Vasont.Inspire.Models.Logging.EventLogQueryModel.EndDate
+  - Vasont.Inspire.Models.Logging.EventLogQueryModel.Level
   - Vasont.Inspire.Models.Logging.EventLogQueryModel.SearchText
   - Vasont.Inspire.Models.Logging.EventLogQueryModel.StartDate
   langs:
@@ -159,6 +160,43 @@ items:
       type: System.Nullable{System.DateTime}
     content.vb: Public Property EndDate As Date?
   overload: Vasont.Inspire.Models.Logging.EventLogQueryModel.EndDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Logging.EventLogQueryModel.Level
+  commentId: P:Vasont.Inspire.Models.Logging.EventLogQueryModel.Level
+  id: Level
+  parent: Vasont.Inspire.Models.Logging.EventLogQueryModel
+  langs:
+  - csharp
+  - vb
+  name: Level
+  nameWithType: EventLogQueryModel.Level
+  fullName: Vasont.Inspire.Models.Logging.EventLogQueryModel.Level
+  type: Property
+  source:
+    remote:
+      path: src/Logging/EventLogQueryModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Level
+    path: Logging/EventLogQueryModel.cs
+    startLine: 33
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Logging
+  summary: "\nGets or sets the log level of the event log lookup.\n"
+  example: []
+  syntax:
+    content: public string Level { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Level As String
+  overload: Vasont.Inspire.Models.Logging.EventLogQueryModel.Level*
   modifiers.csharp:
   - public
   - get
@@ -603,3 +641,8 @@ references:
   name: EndDate
   nameWithType: EventLogQueryModel.EndDate
   fullName: Vasont.Inspire.Models.Logging.EventLogQueryModel.EndDate
+- uid: Vasont.Inspire.Models.Logging.EventLogQueryModel.Level*
+  commentId: Overload:Vasont.Inspire.Models.Logging.EventLogQueryModel.Level
+  name: Level
+  nameWithType: EventLogQueryModel.Level
+  fullName: Vasont.Inspire.Models.Logging.EventLogQueryModel.Level
