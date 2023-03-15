@@ -7,9 +7,13 @@ items:
   children:
   - Vasont.Inspire.Models.Security.RoleModel.#ctor
   - Vasont.Inspire.Models.Security.RoleModel.#ctor(System.String)
+  - Vasont.Inspire.Models.Security.RoleModel.Components
   - Vasont.Inspire.Models.Security.RoleModel.CreatedBy
   - Vasont.Inspire.Models.Security.RoleModel.CreatedDate
   - Vasont.Inspire.Models.Security.RoleModel.Default
+  - Vasont.Inspire.Models.Security.RoleModel.Folders
+  - Vasont.Inspire.Models.Security.RoleModel.IncludePermissions
+  - Vasont.Inspire.Models.Security.RoleModel.Modules
   - Vasont.Inspire.Models.Security.RoleModel.UpdatedBy
   - Vasont.Inspire.Models.Security.RoleModel.UpdatedDate
   - Vasont.Inspire.Models.Security.RoleModel.Users
@@ -27,7 +31,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RoleModel
     path: Security/RoleModel.cs
-    startLine: 13
+    startLine: 14
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -77,7 +81,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Security/RoleModel.cs
-    startLine: 20
+    startLine: 21
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -109,7 +113,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Security/RoleModel.cs
-    startLine: 29
+    startLine: 30
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -145,7 +149,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedDate
     path: Security/RoleModel.cs
-    startLine: 44
+    startLine: 48
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -182,7 +186,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedBy
     path: Security/RoleModel.cs
-    startLine: 49
+    startLine: 53
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -219,7 +223,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdatedDate
     path: Security/RoleModel.cs
-    startLine: 54
+    startLine: 58
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -256,7 +260,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdatedBy
     path: Security/RoleModel.cs
-    startLine: 59
+    startLine: 63
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -293,7 +297,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Default
     path: Security/RoleModel.cs
-    startLine: 65
+    startLine: 69
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -306,6 +310,43 @@ items:
       type: System.Boolean
     content.vb: Public Property Default As Boolean
   overload: Vasont.Inspire.Models.Security.RoleModel.Default*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Security.RoleModel.IncludePermissions
+  commentId: P:Vasont.Inspire.Models.Security.RoleModel.IncludePermissions
+  id: IncludePermissions
+  parent: Vasont.Inspire.Models.Security.RoleModel
+  langs:
+  - csharp
+  - vb
+  name: IncludePermissions
+  nameWithType: RoleModel.IncludePermissions
+  fullName: Vasont.Inspire.Models.Security.RoleModel.IncludePermissions
+  type: Property
+  source:
+    remote:
+      path: src/Security/RoleModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: IncludePermissions
+    path: Security/RoleModel.cs
+    startLine: 74
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets a value indicating whether the save as function should to include the permissions role.\n"
+  example: []
+  syntax:
+    content: public bool IncludePermissions { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludePermissions As Boolean
+  overload: Vasont.Inspire.Models.Security.RoleModel.IncludePermissions*
   modifiers.csharp:
   - public
   - get
@@ -330,7 +371,7 @@ items:
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Users
     path: Security/RoleModel.cs
-    startLine: 70
+    startLine: 79
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -343,6 +384,117 @@ items:
       type: System.Collections.Generic.List{Vasont.Inspire.Models.Security.MinimalUserModel}
     content.vb: Public Property Users As List(Of MinimalUserModel)
   overload: Vasont.Inspire.Models.Security.RoleModel.Users*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Security.RoleModel.Modules
+  commentId: P:Vasont.Inspire.Models.Security.RoleModel.Modules
+  id: Modules
+  parent: Vasont.Inspire.Models.Security.RoleModel
+  langs:
+  - csharp
+  - vb
+  name: Modules
+  nameWithType: RoleModel.Modules
+  fullName: Vasont.Inspire.Models.Security.RoleModel.Modules
+  type: Property
+  source:
+    remote:
+      path: src/Security/RoleModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Modules
+    path: Security/RoleModel.cs
+    startLine: 84
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets a list of modules assigned to this role.\n"
+  example: []
+  syntax:
+    content: public List<ModulePermissionModel> Modules { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Security.ModulePermissionModel}
+    content.vb: Public Property Modules As List(Of ModulePermissionModel)
+  overload: Vasont.Inspire.Models.Security.RoleModel.Modules*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Security.RoleModel.Folders
+  commentId: P:Vasont.Inspire.Models.Security.RoleModel.Folders
+  id: Folders
+  parent: Vasont.Inspire.Models.Security.RoleModel
+  langs:
+  - csharp
+  - vb
+  name: Folders
+  nameWithType: RoleModel.Folders
+  fullName: Vasont.Inspire.Models.Security.RoleModel.Folders
+  type: Property
+  source:
+    remote:
+      path: src/Security/RoleModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Folders
+    path: Security/RoleModel.cs
+    startLine: 89
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets a list of folders assigned to this role.\n"
+  example: []
+  syntax:
+    content: public List<FolderPermissionModel> Folders { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Security.FolderPermissionModel}
+    content.vb: Public Property Folders As List(Of FolderPermissionModel)
+  overload: Vasont.Inspire.Models.Security.RoleModel.Folders*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Security.RoleModel.Components
+  commentId: P:Vasont.Inspire.Models.Security.RoleModel.Components
+  id: Components
+  parent: Vasont.Inspire.Models.Security.RoleModel
+  langs:
+  - csharp
+  - vb
+  name: Components
+  nameWithType: RoleModel.Components
+  fullName: Vasont.Inspire.Models.Security.RoleModel.Components
+  type: Property
+  source:
+    remote:
+      path: src/Security/RoleModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Components
+    path: Security/RoleModel.cs
+    startLine: 94
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets a list of components assigned to this role.\n"
+  example: []
+  syntax:
+    content: public List<MinimalPermissionModel> Components { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vasont.Inspire.Models.Components.MinimalPermissionModel}
+    content.vb: Public Property Components As List(Of MinimalPermissionModel)
+  overload: Vasont.Inspire.Models.Security.RoleModel.Components*
   modifiers.csharp:
   - public
   - get
@@ -739,6 +891,11 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: Vasont.Inspire.Models.Security.RoleModel.IncludePermissions*
+  commentId: Overload:Vasont.Inspire.Models.Security.RoleModel.IncludePermissions
+  name: IncludePermissions
+  nameWithType: RoleModel.IncludePermissions
+  fullName: Vasont.Inspire.Models.Security.RoleModel.IncludePermissions
 - uid: Vasont.Inspire.Models.Security.RoleModel.Users*
   commentId: Overload:Vasont.Inspire.Models.Security.RoleModel.Users
   name: Users
@@ -831,3 +988,144 @@ references:
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
+- uid: Vasont.Inspire.Models.Security.RoleModel.Modules*
+  commentId: Overload:Vasont.Inspire.Models.Security.RoleModel.Modules
+  name: Modules
+  nameWithType: RoleModel.Modules
+  fullName: Vasont.Inspire.Models.Security.RoleModel.Modules
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Security.ModulePermissionModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Security.ModulePermissionModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ModulePermissionModel>
+  nameWithType: List<ModulePermissionModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Security.ModulePermissionModel>
+  nameWithType.vb: List(Of ModulePermissionModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Security.ModulePermissionModel)
+  name.vb: List(Of ModulePermissionModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Security.ModulePermissionModel
+    name: ModulePermissionModel
+    nameWithType: ModulePermissionModel
+    fullName: Vasont.Inspire.Models.Security.ModulePermissionModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Security.ModulePermissionModel
+    name: ModulePermissionModel
+    nameWithType: ModulePermissionModel
+    fullName: Vasont.Inspire.Models.Security.ModulePermissionModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Security.RoleModel.Folders*
+  commentId: Overload:Vasont.Inspire.Models.Security.RoleModel.Folders
+  name: Folders
+  nameWithType: RoleModel.Folders
+  fullName: Vasont.Inspire.Models.Security.RoleModel.Folders
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Security.FolderPermissionModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Security.FolderPermissionModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<FolderPermissionModel>
+  nameWithType: List<FolderPermissionModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Security.FolderPermissionModel>
+  nameWithType.vb: List(Of FolderPermissionModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Security.FolderPermissionModel)
+  name.vb: List(Of FolderPermissionModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Security.FolderPermissionModel
+    name: FolderPermissionModel
+    nameWithType: FolderPermissionModel
+    fullName: Vasont.Inspire.Models.Security.FolderPermissionModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Security.FolderPermissionModel
+    name: FolderPermissionModel
+    nameWithType: FolderPermissionModel
+    fullName: Vasont.Inspire.Models.Security.FolderPermissionModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Security.RoleModel.Components*
+  commentId: Overload:Vasont.Inspire.Models.Security.RoleModel.Components
+  name: Components
+  nameWithType: RoleModel.Components
+  fullName: Vasont.Inspire.Models.Security.RoleModel.Components
+- uid: System.Collections.Generic.List{Vasont.Inspire.Models.Components.MinimalPermissionModel}
+  commentId: T:System.Collections.Generic.List{Vasont.Inspire.Models.Components.MinimalPermissionModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<MinimalPermissionModel>
+  nameWithType: List<MinimalPermissionModel>
+  fullName: System.Collections.Generic.List<Vasont.Inspire.Models.Components.MinimalPermissionModel>
+  nameWithType.vb: List(Of MinimalPermissionModel)
+  fullName.vb: System.Collections.Generic.List(Of Vasont.Inspire.Models.Components.MinimalPermissionModel)
+  name.vb: List(Of MinimalPermissionModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vasont.Inspire.Models.Components.MinimalPermissionModel
+    name: MinimalPermissionModel
+    nameWithType: MinimalPermissionModel
+    fullName: Vasont.Inspire.Models.Components.MinimalPermissionModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vasont.Inspire.Models.Components.MinimalPermissionModel
+    name: MinimalPermissionModel
+    nameWithType: MinimalPermissionModel
+    fullName: Vasont.Inspire.Models.Components.MinimalPermissionModel
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -5,6 +5,7 @@ items:
   id: Vasont.Inspire.Models.Search
   children:
   - Vasont.Inspire.Models.Search.AdHocQueryFilterModel
+  - Vasont.Inspire.Models.Search.AdvancedSearchBaseModel
   - Vasont.Inspire.Models.Search.ConfigurationModel
   - Vasont.Inspire.Models.Search.SearchConfigurationDataType
   - Vasont.Inspire.Models.Search.SearchConfigurationDefaults
@@ -27,6 +28,11 @@ references:
   name: AdHocQueryFilterModel
   nameWithType: AdHocQueryFilterModel
   fullName: Vasont.Inspire.Models.Search.AdHocQueryFilterModel
+- uid: Vasont.Inspire.Models.Search.AdvancedSearchBaseModel
+  commentId: T:Vasont.Inspire.Models.Search.AdvancedSearchBaseModel
+  name: AdvancedSearchBaseModel
+  nameWithType: AdvancedSearchBaseModel
+  fullName: Vasont.Inspire.Models.Search.AdvancedSearchBaseModel
 - uid: Vasont.Inspire.Models.Search.ConfigurationModel
   commentId: T:Vasont.Inspire.Models.Search.ConfigurationModel
   name: ConfigurationModel

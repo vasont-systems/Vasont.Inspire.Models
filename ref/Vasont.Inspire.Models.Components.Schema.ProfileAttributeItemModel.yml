@@ -5,6 +5,7 @@ items:
   id: ProfileAttributeItemModel
   parent: Vasont.Inspire.Models.Components.Schema
   children:
+  - Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.DefaultFilter
   - Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Display
   - Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.Id
   - Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.ItemId
@@ -417,6 +418,57 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.DefaultFilter
+  commentId: P:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.DefaultFilter
+  id: DefaultFilter
+  parent: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel
+  langs:
+  - csharp
+  - vb
+  name: DefaultFilter
+  nameWithType: ProfileAttributeItemModel.DefaultFilter
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.DefaultFilter
+  type: Property
+  source:
+    remote:
+      path: src/Components/Schema/ProfileAttributeItemModel.cs
+      branch: develop
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DefaultFilter
+    path: Components/Schema/ProfileAttributeItemModel.cs
+    startLine: 83
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components.Schema
+  summary: "\nGets or sets a value indicating whether this attribute is default.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(Order = 8)]
+
+      public bool DefaultFilter { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonProperty(Order:=8)>
+
+      Public Property DefaultFilter As Boolean
+  overload: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.DefaultFilter*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 8
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: Vasont.Inspire.Models.Components.Schema
   commentId: N:Vasont.Inspire.Models.Components.Schema
@@ -777,3 +829,8 @@ references:
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.DefaultFilter*
+  commentId: Overload:Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.DefaultFilter
+  name: DefaultFilter
+  nameWithType: ProfileAttributeItemModel.DefaultFilter
+  fullName: Vasont.Inspire.Models.Components.Schema.ProfileAttributeItemModel.DefaultFilter
