@@ -25,6 +25,12 @@ namespace Vasont.Inspire.Models.Versioning
         Create,
 
         /// <summary>
+        /// A component was copied.
+        /// </summary>
+        [Description("y")]
+        Copy,
+
+        /// <summary>
         /// A component was updated without content (Move/Rename).
         /// </summary>
         [Description("u")]
@@ -85,6 +91,11 @@ namespace Vasont.Inspire.Models.Versioning
     [JsonConverter(typeof(StringEnumConverter))]
     public enum ChangesetSnapshotProcessType
     {
+        /// <summary>
+        /// A component was copied.
+        /// </summary>
+        Copy,
+
         /// <summary>
         /// A component was created new from template.
         /// </summary>
