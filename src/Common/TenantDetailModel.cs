@@ -109,6 +109,11 @@ namespace Vasont.Inspire.Models.Common
         public bool PivotToEnglishEnabled { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether to translate first to English en-GB.
+        /// </summary>
+        public bool PivotToEnglishGBEnabled { get; set; }
+
+        /// <summary>
         /// Gets or sets a value indicating whether to use thumbnails for image display.
         /// </summary>
         public bool UseThumbnails { get; set; } = true;
