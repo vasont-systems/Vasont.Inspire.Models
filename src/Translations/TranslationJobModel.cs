@@ -59,6 +59,11 @@ namespace Vasont.Inspire.Models.Translations
         public List<TranslationJobComponentModel> Components { get; set; } = new List<TranslationJobComponentModel>();
 
         /// <summary>
+        /// Gets or sets the translation referenced components that are applied to the translation job.
+        /// </summary>
+        public List<TranslationReferencedComponentModel> ReferencedComponents { get; set; } = new List<TranslationReferencedComponentModel>();
+
+        /// <summary>
         /// Gets or sets a list of values to be used for component filtering based on audience.
         /// </summary>
         public List<string> FilterValues { get; set; } = new List<string>();
