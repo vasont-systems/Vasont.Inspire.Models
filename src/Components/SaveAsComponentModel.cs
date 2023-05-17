@@ -67,7 +67,7 @@ namespace Vasont.Inspire.Models.Components
         public bool IsBranch { get; set; } = false;
 
         /// <summary>
-        /// Gets or sets a value indicating whether the process generate new ids for a saveAs.
+        /// Gets or sets a value indicating whether the process generate new ids for a saveAs function.
         /// </summary>
         public bool GenerateNewIds { get; set; } = false;
     }
