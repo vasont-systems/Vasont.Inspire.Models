@@ -7,6 +7,7 @@ namespace Vasont.Inspire.Models.Security
 {
     using System;
     using System.Collections.Generic;
+    using Vasont.Inspire.Models.Notifications;
 
     /// <summary>
     /// This class represents a security user within the application.
@@ -101,6 +102,18 @@ namespace Vasont.Inspire.Models.Security
         /// Gets or sets a value indicating whether the user account is named.
         /// </summary>
         public bool Named { get; set; }
+
+        /// <summary>
+        ///  Gets or sets the notification user preferences.
+        /// </summary>
+        /// <value>The json object of user settings preferences.</value>
+        public string NotificationSettings { get; set; }
+
+        /// <summary>
+        ///  Gets or sets the notification user preferences model.
+        /// </summary>
+        /// <value>The object model of user settings preferences.</value>
+        public NotificationSettingsPreferenceModel NotificationSettingsModel { get; set; }
 
         #endregion
     }
