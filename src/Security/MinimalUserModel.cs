@@ -19,6 +19,11 @@ namespace Vasont.Inspire.Models.Security
         public string DesiredLanguage { get; set; }
 
         /// <summary>
+        ///  Gets or sets the user's desired date format.
+        /// </summary>
+        public string DesiredDateFormat { get; set; }
+
+        /// <summary>
         /// Gets or sets the user's time zone.
         /// </summary>
         public string TimeZoneName { get; set; }
