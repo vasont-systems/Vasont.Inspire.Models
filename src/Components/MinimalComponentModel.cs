@@ -273,6 +273,26 @@ namespace Vasont.Inspire.Models.Components
         /// </summary>
         public int UserAccessCount { get; set; }
 
+        /// <summary>
+        /// Gets or sets the current version label.
+        /// </summary>
+        public string VersionLabel { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Gets or sets the current version comment.
+        /// </summary>
+        public string VersionComment { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Gets or sets the current esignature date.
+        /// </summary>
+        public DateTime? SignedDate { get; set; }
+
+        /// <summary>
+        /// Gets or sets the current esignature signed by user name.
+        /// </summary>
+        public string SignedBy { get; set; } = string.Empty;
+
         #endregion
     }
 }
