@@ -5,11 +5,13 @@
 //------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Plugins
 {
+    using System;
     using System.Collections.Generic;
 
     /// <summary>
     /// This class represents a Publishing Request.
     /// </summary>
+    [Obsolete("Use local DTOs in your solution.", false)]
     public class PublishResultModel
     {
         /// <summary>

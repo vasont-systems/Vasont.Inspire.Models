@@ -14,6 +14,7 @@ namespace Vasont.Inspire.Models.Plugins
     /// <summary>
     /// Contains an enumerated list of publish types.
     /// </summary>
+    [Obsolete("Use local DTOs in your solution", false)]
     [JsonConverter(typeof(StringEnumConverter))]
     public enum PublishType
     {
@@ -66,6 +67,7 @@ namespace Vasont.Inspire.Models.Plugins
     /// <summary>
     /// This class represents a Publishing Request model.
     /// </summary>
+    [Obsolete("Use local DTOs in your solution", false)]
     public class PublishRequestModel
     {
         /// <summary>
