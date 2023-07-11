@@ -5,11 +5,13 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Notifications
 {
+    using System;
     using System.Collections.Generic;
 
     /// <summary>
     /// This class represents the results of a notifications store query request.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class NotificationStoreResultModel
     {
         /// <summary>

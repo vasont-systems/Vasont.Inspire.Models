@@ -10,6 +10,7 @@ namespace Vasont.Inspire.Models.Notifications
     /// <summary>
     /// This class represents a detailedmessage.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class NotificationDetailedMessageModel
     {
         /// <summary>

@@ -5,12 +5,14 @@
 //--------------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Components
 {
+    using System;
     using System.Collections.Generic;
     using Common;
 
     /// <summary>
     /// This class contains parameters passed to the query for retrieving component external assets.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class ComponentExternalAssetsQueryModel : PaginatedQueryRequestModel
     {
         /// <summary>

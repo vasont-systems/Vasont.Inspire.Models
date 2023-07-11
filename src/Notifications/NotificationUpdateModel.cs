@@ -5,9 +5,12 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Notifications
 {
+    using System;
+
     /// <summary>
     /// This model represents the inputs for a notification message update call within the Inspire application.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class NotificationUpdateModel
     {
         /// <summary>

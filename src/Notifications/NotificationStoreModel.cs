@@ -11,6 +11,7 @@ namespace Vasont.Inspire.Models.Notifications
     /// <summary>
     /// This model represents a notification alert that has been stored in the user's store for load on UI/Profile startup.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class NotificationStoreModel
     {
         /// <summary>
