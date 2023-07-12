@@ -5,11 +5,13 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Notifications
 {
+    using System;
     using System.Collections.Generic;
 
     /// <summary>
     /// This model represents the inputs for notifying list of users via notification / email / slack.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class NotifyUsersModel
     {
         /// <summary>

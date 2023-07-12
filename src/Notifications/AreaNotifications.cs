@@ -5,12 +5,14 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.AreaNotifications
 {
+    using System;
     using System.Collections.Generic;
     using Vasont.Inspire.Models.Notifications;
 
     /// <summary>
     /// This class represents a group of clasess for each notification setting area.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class AreaNotifications
     {
         /// <summary>
@@ -82,6 +84,7 @@ namespace Vasont.Inspire.Models.AreaNotifications
         /// <summary>
         /// This class represents a group of notification setting for project area.
         /// </summary>
+        [Obsolete("Use local DTOs", false)]
         public class ProjectNotificationPreference
         {
             /// <summary>
@@ -113,6 +116,7 @@ namespace Vasont.Inspire.Models.AreaNotifications
         /// <summary>
         /// This class represents a group of notification setting for taxonomy area.
         /// </summary>
+        [Obsolete("Use local DTOs", false)]
         public class TaxonomyNotificationPreference
         {
             /// <summary>
@@ -134,6 +138,7 @@ namespace Vasont.Inspire.Models.AreaNotifications
         /// <summary>
         /// This class represents a group of notification setting for reviewa area.
         /// </summary>
+        [Obsolete("Use local DTOs", false)]
         public class ReviewsNotificationPreference
         {
             /// <summary>
@@ -195,6 +200,7 @@ namespace Vasont.Inspire.Models.AreaNotifications
         /// <summary>
         /// This class represents a group of notification setting for translation area.
         /// </summary>
+        [Obsolete("Use local DTOs", false)]
         public class TranslationsNotificationPreference
         {
             /// <summary>
@@ -251,6 +257,7 @@ namespace Vasont.Inspire.Models.AreaNotifications
         /// <summary>
         /// This class represents a group of notification setting for publishing area.
         /// </summary>
+        [Obsolete("Use local DTOs", false)]
         public class PublishingNotificationPreference
         {
             /// <summary>
@@ -267,6 +274,7 @@ namespace Vasont.Inspire.Models.AreaNotifications
         /// <summary>
         /// This class represents a group of notification setting for import area.
         /// </summary>
+        [Obsolete("Use local DTOs", false)]
         public class ImportNotificationPreference
         {
             /// <summary>
@@ -283,6 +291,7 @@ namespace Vasont.Inspire.Models.AreaNotifications
         /// <summary>
         /// This class represents a group of notification setting for export area.
         /// </summary>
+        [Obsolete("Use local DTOs", false)]
         public class ExportNotificationPreference
         {
             /// <summary>
@@ -299,6 +308,7 @@ namespace Vasont.Inspire.Models.AreaNotifications
         /// <summary>
         /// This class represents a group of notification setting for everything else area.
         /// </summary>
+        [Obsolete("Use local DTOs", false)]
         public class EverythingElseNotificationPreference
         {
             /// <summary>

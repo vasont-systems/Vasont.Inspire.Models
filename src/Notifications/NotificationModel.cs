@@ -13,6 +13,7 @@ namespace Vasont.Inspire.Models.Notifications
     /// Contains an enumerated list of available notification types.
     /// </summary>
     [JsonConverter(typeof(StringEnumConverter))]
+    [Obsolete("Use local DTOs", false)]
     public enum NotificationType
     {
         /// <summary>
@@ -45,6 +46,7 @@ namespace Vasont.Inspire.Models.Notifications
     /// Contains an enumerated list of notification target types.
     /// </summary>
     [JsonConverter(typeof(StringEnumConverter))]
+    [Obsolete("Use local DTOs", false)]
     public enum NotificationTarget
     {
         /// <summary>
@@ -67,6 +69,7 @@ namespace Vasont.Inspire.Models.Notifications
     /// Contains an enumerated list of notification states.
     /// </summary>
     [JsonConverter(typeof(StringEnumConverter))]
+    [Obsolete("Use local DTOs", false)]
     public enum NotificationState
     {
         /// <summary>
@@ -89,6 +92,7 @@ namespace Vasont.Inspire.Models.Notifications
     /// Contains an enumerated list of available notification alert statuses.
     /// </summary>
     [JsonConverter(typeof(StringEnumConverter))]
+    [Obsolete("Use local DTOs", false)]
     public enum NotificationMessageAlertStatus
     {
         /// <summary>
@@ -127,6 +131,7 @@ namespace Vasont.Inspire.Models.Notifications
     /// </summary>
     /// <typeparam name="TModel">Contains the model type.</typeparam>
     /// <typeparam name="TTargetId">Contains the target identity type.</typeparam>
+    [Obsolete("Use local DTOs", false)]
     public class NotificationModel<TModel, TTargetId>
     {
         /// <summary>

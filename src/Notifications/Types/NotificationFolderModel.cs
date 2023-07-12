@@ -13,6 +13,7 @@ namespace Vasont.Inspire.Models.Notifications.Types
     /// Contains an enumerated list of available folder action notifications.
     /// </summary>
     [JsonConverter(typeof(StringEnumConverter))]
+    [Obsolete("Use local DTOs", false)]
     public enum NotificationFolderAction
     {
         /// <summary>
@@ -39,6 +40,7 @@ namespace Vasont.Inspire.Models.Notifications.Types
     /// <summary>
     /// This class represents a folder notification message.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class NotificationFolderModel : NotificationModelBase
     {
         /// <summary>

@@ -11,6 +11,7 @@ namespace Vasont.Inspire.Models.Publishing
     /// <summary>
     /// This model class represents the profile history detail for a publishing profile.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class PublishingProfileHistoryModel
     {
         /// <summary>
