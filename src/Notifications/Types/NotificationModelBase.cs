@@ -5,12 +5,14 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Notifications.Types
 {
+    using System;
     using System.Collections.Generic;
     using Newtonsoft.Json;
 
     /// <summary>
     /// This abstract class contains properties that are to be applied to all notification model classes.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public abstract class NotificationModelBase
     {
         /// <summary>

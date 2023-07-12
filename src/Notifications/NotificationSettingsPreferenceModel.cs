@@ -5,6 +5,7 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Notifications
 {
+    using System;
     using System.Collections.Generic;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
@@ -14,6 +15,7 @@ namespace Vasont.Inspire.Models.Notifications
     /// This enumeration is used for the notification preferences channels.
     /// </summary>
     [JsonConverter(typeof(StringEnumConverter))]
+    [Obsolete("Use local DTOs", false)]
     public enum NotificationPreferenceChannel
     {
         /// <summary>
@@ -36,6 +38,7 @@ namespace Vasont.Inspire.Models.Notifications
     /// This enumeration is used for the frequency.
     /// </summary>
     [JsonConverter(typeof(StringEnumConverter))]
+    [Obsolete("Use local DTOs", false)]
     public enum NotificationOverdueFrequency
     {
         /// <summary>
@@ -67,6 +70,7 @@ namespace Vasont.Inspire.Models.Notifications
     /// <summary>
     /// This class represents a model of user notification settings preferences.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class NotificationSettingsPreferenceModel
     {
         /// <summary>
@@ -88,6 +92,7 @@ namespace Vasont.Inspire.Models.Notifications
     /// <summary>
     /// This class represents the configuration areas.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class Area
     {
         /// <summary>
@@ -139,6 +144,7 @@ namespace Vasont.Inspire.Models.Notifications
     /// <summary>
     /// This class represents Overdue configuration.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class Overdue
     {
         /// <summary>

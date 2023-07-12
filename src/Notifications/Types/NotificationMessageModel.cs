@@ -5,9 +5,12 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Notifications.Types
 {
+    using System;
+
     /// <summary>
     /// This class represents a message.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class NotificationMessageModel : NotificationModelBase
     {
         /// <summary>

@@ -5,12 +5,14 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Notifications
 {
+    using System;
     using System.Collections.Generic;
     using Vasont.Inspire.Models.Common;
 
     /// <summary>
     /// This class represents a notification store query model used in paging interfaces for notification messages.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class NotificationStoreQueryModel : PaginatedQueryRequestModel
     {
         /// <summary>

@@ -5,11 +5,13 @@
 //----------------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Publishing
 {
+    using System;
     using System.Collections.Generic;
 
     /// <summary>
     /// This class represents the results of a publishing profile history query request.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class PublishingProfileHistoryResultModel
     {
         /// <summary>

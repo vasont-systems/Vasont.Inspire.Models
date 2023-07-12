@@ -15,7 +15,6 @@ namespace Vasont.Inspire.Models.Publishing
         /// <summary>
         /// Gets or sets the identity of the publishing profile to retrieve histories for.
         /// </summary>
-        /// <value></value>
         public long ProfileId { get; set; }
 
         /// <summary>
