@@ -50,7 +50,7 @@ namespace Vasont.Inspire.Models.Configuration
         Xpointer,
 
         /// <summary>
-        /// Identifies a relation created from a Attachment.
+        /// Identifies a relation created from an Attachment.
         /// </summary>
         Attachment
     }
