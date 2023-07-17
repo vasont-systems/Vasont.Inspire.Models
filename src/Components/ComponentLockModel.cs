@@ -37,6 +37,11 @@ namespace Vasont.Inspire.Models.Components
         /// The component lock is edit and is locked by a user for external editing.
         /// </summary>
         Edit,
+
+        /// <summary>
+        /// The component lock is approve and is locked because its content is approved.
+        /// </summary>
+        Approve,
     }
 
     /// <summary>
