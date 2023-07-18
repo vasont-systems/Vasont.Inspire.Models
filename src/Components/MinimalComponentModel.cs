@@ -75,6 +75,33 @@ namespace Vasont.Inspire.Models.Components
     }
 
     /// <summary>
+    /// Contains an enumerated list of component attachment types.
+    /// </summary>
+    [JsonConverter(typeof(StringEnumConverter))]
+    public enum ComponentAttachmentType
+    {
+        /// <summary>
+        /// Contains a value that indicates the component has no attachments.
+        /// </summary>
+        None,
+
+        /// <summary>
+        /// Contains a value that indicates the component is an attachment.
+        /// </summary>
+        IsAttachment,
+
+        /// <summary>
+        /// Contains a value that indicates the component has an attachment.
+        /// </summary>
+        HasAttachment,
+
+        /// <summary>
+        /// Contains a value that indicates the component is an attachment and has an attachment.
+        /// </summary>
+        IsBoth
+    }
+
+    /// <summary>
     /// This class represents a component model with minimal information that will used for interaction with application user interfaces.
     /// </summary>
     public class MinimalComponentModel : CreatedUpdaterModelBase
@@ -104,6 +131,7 @@ namespace Vasont.Inspire.Models.Components
             this.itemType = ProjectFolderItemType.Component;
             this.State = ComponentStateType.Draft;
             this.BranchType = ComponentBranchType.None;
+            this.AttachmentType = ComponentAttachmentType.None;
             this.Permissions = new PermissionModel(permissions);
             this.FollowedByUsers = new List<MinimalUserModel>();
         }
@@ -262,6 +290,11 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets the component branch type.
         /// </summary>
         public ComponentBranchType BranchType { get; set; }
+
+        /// <summary>
+        /// Gets or sets the component attachment type.
+        /// </summary>
+        public ComponentAttachmentType AttachmentType { get; set; }
 
         /// <summary>
         /// Gets or sets the most recent component access information.
