@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Plugins/SystemEventModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SystemEventModel
     path: Plugins/SystemEventModel.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: src/Plugins/SystemEventModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SystemEventId
     path: Plugins/SystemEventModel.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: src/Plugins/SystemEventModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Plugins/SystemEventModel.cs

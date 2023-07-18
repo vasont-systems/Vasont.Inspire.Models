@@ -26,7 +26,7 @@ items:
   source:
     remote:
       path: src/Components/DetailedComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DetailedComponentModel
     path: Components/DetailedComponentModel.cs
@@ -72,8 +72,13 @@ items:
   - Vasont.Inspire.Models.Components.MinimalComponentModel.IsShared
   - Vasont.Inspire.Models.Components.MinimalComponentModel.SharedComponentsCount
   - Vasont.Inspire.Models.Components.MinimalComponentModel.BranchType
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.AttachmentType
   - Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
   - Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.VersionLabel
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.VersionComment
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.SignedDate
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.SignedBy
   - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
   - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedBy
   - Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.UpdatedDate
@@ -105,7 +110,7 @@ items:
   source:
     remote:
       path: src/Components/DetailedComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/DetailedComponentModel.cs
@@ -137,7 +142,7 @@ items:
   source:
     remote:
       path: src/Components/DetailedComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/DetailedComponentModel.cs
@@ -173,7 +178,7 @@ items:
   source:
     remote:
       path: src/Components/DetailedComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LanguageNameCode
     path: Components/DetailedComponentModel.cs
@@ -210,7 +215,7 @@ items:
   source:
     remote:
       path: src/Components/DetailedComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Tags
     path: Components/DetailedComponentModel.cs
@@ -247,7 +252,7 @@ items:
   source:
     remote:
       path: src/Components/DetailedComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TagIds
     path: Components/DetailedComponentModel.cs
@@ -284,7 +289,7 @@ items:
   source:
     remote:
       path: src/Components/DetailedComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Properties
     path: Components/DetailedComponentModel.cs
@@ -321,7 +326,7 @@ items:
   source:
     remote:
       path: src/Components/DetailedComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Dependencies
     path: Components/DetailedComponentModel.cs
@@ -358,7 +363,7 @@ items:
   source:
     remote:
       path: src/Components/DetailedComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationName
     path: Components/DetailedComponentModel.cs
@@ -395,7 +400,7 @@ items:
   source:
     remote:
       path: src/Components/DetailedComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TranslationId
     path: Components/DetailedComponentModel.cs
@@ -432,7 +437,7 @@ items:
   source:
     remote:
       path: src/Components/DetailedComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewName
     path: Components/DetailedComponentModel.cs
@@ -469,7 +474,7 @@ items:
   source:
     remote:
       path: src/Components/DetailedComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewId
     path: Components/DetailedComponentModel.cs
@@ -673,6 +678,12 @@ references:
   name: BranchType
   nameWithType: MinimalComponentModel.BranchType
   fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.BranchType
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.AttachmentType
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.AttachmentType
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: AttachmentType
+  nameWithType: MinimalComponentModel.AttachmentType
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.AttachmentType
 - uid: Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
   commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
   parent: Vasont.Inspire.Models.Components.MinimalComponentModel
@@ -685,6 +696,30 @@ references:
   name: UserAccessCount
   nameWithType: MinimalComponentModel.UserAccessCount
   fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.VersionLabel
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.VersionLabel
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: VersionLabel
+  nameWithType: MinimalComponentModel.VersionLabel
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.VersionLabel
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.VersionComment
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.VersionComment
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: VersionComment
+  nameWithType: MinimalComponentModel.VersionComment
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.VersionComment
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.SignedDate
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.SignedDate
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: SignedDate
+  nameWithType: MinimalComponentModel.SignedDate
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.SignedDate
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.SignedBy
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.SignedBy
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  name: SignedBy
+  nameWithType: MinimalComponentModel.SignedBy
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.SignedBy
 - uid: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
   commentId: P:Vasont.Inspire.Models.Common.CreatedUpdaterModelBase.CreatedDate
   parent: Vasont.Inspire.Models.Common.CreatedUpdaterModelBase

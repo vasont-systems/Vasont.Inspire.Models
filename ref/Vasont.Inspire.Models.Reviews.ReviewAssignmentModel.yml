@@ -25,7 +25,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewAssignmentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewAssignmentModel
     path: Reviews/ReviewAssignmentModel.cs
@@ -68,7 +68,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewAssignmentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewId
     path: Reviews/ReviewAssignmentModel.cs
@@ -105,7 +105,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewAssignmentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Title
     path: Reviews/ReviewAssignmentModel.cs
@@ -142,7 +142,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewAssignmentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Coordinator
     path: Reviews/ReviewAssignmentModel.cs
@@ -179,7 +179,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewAssignmentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: State
     path: Reviews/ReviewAssignmentModel.cs
@@ -216,7 +216,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewAssignmentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: StartDate
     path: Reviews/ReviewAssignmentModel.cs
@@ -253,7 +253,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewAssignmentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DueDate
     path: Reviews/ReviewAssignmentModel.cs
@@ -290,7 +290,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewAssignmentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DaysOverDue
     path: Reviews/ReviewAssignmentModel.cs
@@ -327,7 +327,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewAssignmentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DaysPending
     path: Reviews/ReviewAssignmentModel.cs
@@ -364,7 +364,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewAssignmentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PercentageCompleted
     path: Reviews/ReviewAssignmentModel.cs
@@ -403,7 +403,7 @@ items:
   source:
     remote:
       path: src/Reviews/ReviewAssignmentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ReviewerUserId
     path: Reviews/ReviewAssignmentModel.cs

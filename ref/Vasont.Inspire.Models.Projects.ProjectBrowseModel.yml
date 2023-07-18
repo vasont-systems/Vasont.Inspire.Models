@@ -40,7 +40,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectBrowseModel
     path: Projects/ProjectBrowseModel.cs
@@ -83,7 +83,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectId
     path: Projects/ProjectBrowseModel.cs
@@ -120,7 +120,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Title
     path: Projects/ProjectBrowseModel.cs
@@ -157,7 +157,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Projects/ProjectBrowseModel.cs
@@ -194,7 +194,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SystemFolderId
     path: Projects/ProjectBrowseModel.cs
@@ -231,7 +231,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SystemFolderName
     path: Projects/ProjectBrowseModel.cs
@@ -268,7 +268,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SystemFolderPath
     path: Projects/ProjectBrowseModel.cs
@@ -305,7 +305,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DefaultProjectFolderId
     path: Projects/ProjectBrowseModel.cs
@@ -342,7 +342,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: OwnerFullName
     path: Projects/ProjectBrowseModel.cs
@@ -379,7 +379,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: OwnerEmail
     path: Projects/ProjectBrowseModel.cs
@@ -416,7 +416,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Owner
     path: Projects/ProjectBrowseModel.cs
@@ -453,7 +453,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Completed
     path: Projects/ProjectBrowseModel.cs
@@ -490,7 +490,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CompletedDate
     path: Projects/ProjectBrowseModel.cs
@@ -527,7 +527,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CompleteByDate
     path: Projects/ProjectBrowseModel.cs
@@ -564,7 +564,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedDate
     path: Projects/ProjectBrowseModel.cs
@@ -601,7 +601,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DueDate
     path: Projects/ProjectBrowseModel.cs
@@ -638,7 +638,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdatedDate
     path: Projects/ProjectBrowseModel.cs
@@ -675,7 +675,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentCount
     path: Projects/ProjectBrowseModel.cs
@@ -712,7 +712,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ToDoAssignmentCount
     path: Projects/ProjectBrowseModel.cs
@@ -749,7 +749,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: InProgressAssignmentCount
     path: Projects/ProjectBrowseModel.cs
@@ -786,7 +786,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CompletedAssignmentCount
     path: Projects/ProjectBrowseModel.cs
@@ -823,7 +823,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CancelledAssignmentCount
     path: Projects/ProjectBrowseModel.cs
@@ -860,7 +860,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MostRecentAccessFullName
     path: Projects/ProjectBrowseModel.cs
@@ -897,7 +897,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MostRecentAccessEmail
     path: Projects/ProjectBrowseModel.cs
@@ -934,7 +934,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MostRecentAccessDate
     path: Projects/ProjectBrowseModel.cs
@@ -971,7 +971,7 @@ items:
   source:
     remote:
       path: src/Projects/ProjectBrowseModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Languages
     path: Projects/ProjectBrowseModel.cs

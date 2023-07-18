@@ -7,6 +7,7 @@ items:
   children:
   - Vasont.Inspire.Models.Components.MinimalComponentModel.#ctor
   - Vasont.Inspire.Models.Components.MinimalComponentModel.#ctor(Vasont.Inspire.Models.Security.PermissionFlags)
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.AttachmentType
   - Vasont.Inspire.Models.Components.MinimalComponentModel.BranchType
   - Vasont.Inspire.Models.Components.MinimalComponentModel.CanTranslate
   - Vasont.Inspire.Models.Components.MinimalComponentModel.ComponentId
@@ -29,11 +30,15 @@ items:
   - Vasont.Inspire.Models.Components.MinimalComponentModel.Name
   - Vasont.Inspire.Models.Components.MinimalComponentModel.Permissions
   - Vasont.Inspire.Models.Components.MinimalComponentModel.SharedComponentsCount
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.SignedBy
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.SignedDate
   - Vasont.Inspire.Models.Components.MinimalComponentModel.State
   - Vasont.Inspire.Models.Components.MinimalComponentModel.StateName
   - Vasont.Inspire.Models.Components.MinimalComponentModel.Type
   - Vasont.Inspire.Models.Components.MinimalComponentModel.UniqueId
   - Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.VersionComment
+  - Vasont.Inspire.Models.Components.MinimalComponentModel.VersionLabel
   - Vasont.Inspire.Models.Components.MinimalComponentModel.VirtualPath
   langs:
   - csharp
@@ -45,11 +50,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalComponentModel
     path: Components/MinimalComponentModel.cs
-    startLine: 79
+    startLine: 106
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -101,11 +106,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/MinimalComponentModel.cs
-    startLine: 91
+    startLine: 118
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -133,11 +138,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/MinimalComponentModel.cs
-    startLine: 100
+    startLine: 127
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -169,11 +174,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentId
     path: Components/MinimalComponentModel.cs
-    startLine: 117
+    startLine: 145
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -206,11 +211,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentTypeId
     path: Components/MinimalComponentModel.cs
-    startLine: 122
+    startLine: 150
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -243,11 +248,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentType
     path: Components/MinimalComponentModel.cs
-    startLine: 127
+    startLine: 155
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -280,11 +285,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Metrics
     path: Components/MinimalComponentModel.cs
-    startLine: 132
+    startLine: 160
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -317,11 +322,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Folder
     path: Components/MinimalComponentModel.cs
-    startLine: 137
+    startLine: 165
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -354,11 +359,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsImage
     path: Components/MinimalComponentModel.cs
-    startLine: 142
+    startLine: 170
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -391,11 +396,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ContentType
     path: Components/MinimalComponentModel.cs
-    startLine: 147
+    startLine: 175
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -428,11 +433,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Components/MinimalComponentModel.cs
-    startLine: 152
+    startLine: 180
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -465,11 +470,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LanguageCode
     path: Components/MinimalComponentModel.cs
-    startLine: 157
+    startLine: 185
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -502,11 +507,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LanguageName
     path: Components/MinimalComponentModel.cs
-    startLine: 162
+    startLine: 190
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -539,11 +544,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FileName
     path: Components/MinimalComponentModel.cs
-    startLine: 167
+    startLine: 195
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -576,11 +581,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: State
     path: Components/MinimalComponentModel.cs
-    startLine: 172
+    startLine: 200
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -613,11 +618,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: StateName
     path: Components/MinimalComponentModel.cs
-    startLine: 177
+    startLine: 205
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -660,11 +665,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UniqueId
     path: Components/MinimalComponentModel.cs
-    startLine: 188
+    startLine: 216
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -697,11 +702,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: HashKey
     path: Components/MinimalComponentModel.cs
-    startLine: 193
+    startLine: 221
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -734,11 +739,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Lock
     path: Components/MinimalComponentModel.cs
-    startLine: 198
+    startLine: 226
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -771,11 +776,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Permissions
     path: Components/MinimalComponentModel.cs
-    startLine: 203
+    startLine: 231
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -808,11 +813,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: VirtualPath
     path: Components/MinimalComponentModel.cs
-    startLine: 208
+    startLine: 236
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -845,11 +850,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Type
     path: Components/MinimalComponentModel.cs
-    startLine: 213
+    startLine: 241
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -882,11 +887,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanTranslate
     path: Components/MinimalComponentModel.cs
-    startLine: 233
+    startLine: 261
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -919,11 +924,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsFollowed
     path: Components/MinimalComponentModel.cs
-    startLine: 238
+    startLine: 266
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -956,11 +961,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsFollowedByCurrentUser
     path: Components/MinimalComponentModel.cs
-    startLine: 243
+    startLine: 271
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -993,11 +998,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FollowedByUsers
     path: Components/MinimalComponentModel.cs
-    startLine: 248
+    startLine: 276
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -1030,11 +1035,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsShared
     path: Components/MinimalComponentModel.cs
-    startLine: 253
+    startLine: 281
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -1067,11 +1072,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SharedComponentsCount
     path: Components/MinimalComponentModel.cs
-    startLine: 258
+    startLine: 286
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -1104,11 +1109,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: BranchType
     path: Components/MinimalComponentModel.cs
-    startLine: 263
+    startLine: 291
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -1121,6 +1126,43 @@ items:
       type: Vasont.Inspire.Models.Components.ComponentBranchType
     content.vb: Public Property BranchType As ComponentBranchType
   overload: Vasont.Inspire.Models.Components.MinimalComponentModel.BranchType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.AttachmentType
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.AttachmentType
+  id: AttachmentType
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  langs:
+  - csharp
+  - vb
+  name: AttachmentType
+  nameWithType: MinimalComponentModel.AttachmentType
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.AttachmentType
+  type: Property
+  source:
+    remote:
+      path: src/Components/MinimalComponentModel.cs
+      branch: feature/AddAttachmentPropertiesToComponent
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: AttachmentType
+    path: Components/MinimalComponentModel.cs
+    startLine: 296
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the component attachment type.\n"
+  example: []
+  syntax:
+    content: public ComponentAttachmentType AttachmentType { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Components.ComponentAttachmentType
+    content.vb: Public Property AttachmentType As ComponentAttachmentType
+  overload: Vasont.Inspire.Models.Components.MinimalComponentModel.AttachmentType*
   modifiers.csharp:
   - public
   - get
@@ -1141,11 +1183,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MostRecentAccess
     path: Components/MinimalComponentModel.cs
-    startLine: 268
+    startLine: 301
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -1178,11 +1220,11 @@ items:
   source:
     remote:
       path: src/Components/MinimalComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserAccessCount
     path: Components/MinimalComponentModel.cs
-    startLine: 273
+    startLine: 306
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -1195,6 +1237,154 @@ items:
       type: System.Int32
     content.vb: Public Property UserAccessCount As Integer
   overload: Vasont.Inspire.Models.Components.MinimalComponentModel.UserAccessCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.VersionLabel
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.VersionLabel
+  id: VersionLabel
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  langs:
+  - csharp
+  - vb
+  name: VersionLabel
+  nameWithType: MinimalComponentModel.VersionLabel
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.VersionLabel
+  type: Property
+  source:
+    remote:
+      path: src/Components/MinimalComponentModel.cs
+      branch: feature/AddAttachmentPropertiesToComponent
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: VersionLabel
+    path: Components/MinimalComponentModel.cs
+    startLine: 311
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the current version label.\n"
+  example: []
+  syntax:
+    content: public string VersionLabel { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property VersionLabel As String
+  overload: Vasont.Inspire.Models.Components.MinimalComponentModel.VersionLabel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.VersionComment
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.VersionComment
+  id: VersionComment
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  langs:
+  - csharp
+  - vb
+  name: VersionComment
+  nameWithType: MinimalComponentModel.VersionComment
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.VersionComment
+  type: Property
+  source:
+    remote:
+      path: src/Components/MinimalComponentModel.cs
+      branch: feature/AddAttachmentPropertiesToComponent
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: VersionComment
+    path: Components/MinimalComponentModel.cs
+    startLine: 316
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the current version comment.\n"
+  example: []
+  syntax:
+    content: public string VersionComment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property VersionComment As String
+  overload: Vasont.Inspire.Models.Components.MinimalComponentModel.VersionComment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.SignedDate
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.SignedDate
+  id: SignedDate
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  langs:
+  - csharp
+  - vb
+  name: SignedDate
+  nameWithType: MinimalComponentModel.SignedDate
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.SignedDate
+  type: Property
+  source:
+    remote:
+      path: src/Components/MinimalComponentModel.cs
+      branch: feature/AddAttachmentPropertiesToComponent
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SignedDate
+    path: Components/MinimalComponentModel.cs
+    startLine: 321
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the current esignature date.\n"
+  example: []
+  syntax:
+    content: public DateTime? SignedDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property SignedDate As Date?
+  overload: Vasont.Inspire.Models.Components.MinimalComponentModel.SignedDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.SignedBy
+  commentId: P:Vasont.Inspire.Models.Components.MinimalComponentModel.SignedBy
+  id: SignedBy
+  parent: Vasont.Inspire.Models.Components.MinimalComponentModel
+  langs:
+  - csharp
+  - vb
+  name: SignedBy
+  nameWithType: MinimalComponentModel.SignedBy
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.SignedBy
+  type: Property
+  source:
+    remote:
+      path: src/Components/MinimalComponentModel.cs
+      branch: feature/AddAttachmentPropertiesToComponent
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: SignedBy
+    path: Components/MinimalComponentModel.cs
+    startLine: 326
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets the current esignature signed by user name.\n"
+  example: []
+  syntax:
+    content: public string SignedBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SignedBy As String
+  overload: Vasont.Inspire.Models.Components.MinimalComponentModel.SignedBy*
   modifiers.csharp:
   - public
   - get
@@ -1854,6 +2044,17 @@ references:
   name: ComponentBranchType
   nameWithType: ComponentBranchType
   fullName: Vasont.Inspire.Models.Components.ComponentBranchType
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.AttachmentType*
+  commentId: Overload:Vasont.Inspire.Models.Components.MinimalComponentModel.AttachmentType
+  name: AttachmentType
+  nameWithType: MinimalComponentModel.AttachmentType
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.AttachmentType
+- uid: Vasont.Inspire.Models.Components.ComponentAttachmentType
+  commentId: T:Vasont.Inspire.Models.Components.ComponentAttachmentType
+  parent: Vasont.Inspire.Models.Components
+  name: ComponentAttachmentType
+  nameWithType: ComponentAttachmentType
+  fullName: Vasont.Inspire.Models.Components.ComponentAttachmentType
 - uid: Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess*
   commentId: Overload:Vasont.Inspire.Models.Components.MinimalComponentModel.MostRecentAccess
   name: MostRecentAccess
@@ -1877,3 +2078,106 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.VersionLabel*
+  commentId: Overload:Vasont.Inspire.Models.Components.MinimalComponentModel.VersionLabel
+  name: VersionLabel
+  nameWithType: MinimalComponentModel.VersionLabel
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.VersionLabel
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.VersionComment*
+  commentId: Overload:Vasont.Inspire.Models.Components.MinimalComponentModel.VersionComment
+  name: VersionComment
+  nameWithType: MinimalComponentModel.VersionComment
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.VersionComment
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.SignedDate*
+  commentId: Overload:Vasont.Inspire.Models.Components.MinimalComponentModel.SignedDate
+  name: SignedDate
+  nameWithType: MinimalComponentModel.SignedDate
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.SignedDate
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vasont.Inspire.Models.Components.MinimalComponentModel.SignedBy*
+  commentId: Overload:Vasont.Inspire.Models.Components.MinimalComponentModel.SignedBy
+  name: SignedBy
+  nameWithType: MinimalComponentModel.SignedBy
+  fullName: Vasont.Inspire.Models.Components.MinimalComponentModel.SignedBy

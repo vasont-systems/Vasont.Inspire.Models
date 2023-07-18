@@ -24,7 +24,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalPermissionModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalPermissionModel
     path: Components/MinimalPermissionModel.cs
@@ -67,7 +67,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalPermissionModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Id
     path: Components/MinimalPermissionModel.cs
@@ -104,7 +104,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalPermissionModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Components/MinimalPermissionModel.cs
@@ -141,7 +141,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalPermissionModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Permission
     path: Components/MinimalPermissionModel.cs
@@ -178,7 +178,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalPermissionModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanRead
     path: Components/MinimalPermissionModel.cs
@@ -215,7 +215,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalPermissionModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanCreate
     path: Components/MinimalPermissionModel.cs
@@ -252,7 +252,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalPermissionModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanUpdate
     path: Components/MinimalPermissionModel.cs
@@ -289,7 +289,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalPermissionModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanDelete
     path: Components/MinimalPermissionModel.cs
@@ -326,7 +326,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalPermissionModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanRename
     path: Components/MinimalPermissionModel.cs
@@ -363,7 +363,7 @@ items:
   source:
     remote:
       path: src/Components/MinimalPermissionModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanSetPermissions
     path: Components/MinimalPermissionModel.cs

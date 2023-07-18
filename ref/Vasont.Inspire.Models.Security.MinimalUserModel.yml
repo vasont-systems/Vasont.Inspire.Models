@@ -5,6 +5,7 @@ items:
   id: MinimalUserModel
   parent: Vasont.Inspire.Models.Security
   children:
+  - Vasont.Inspire.Models.Security.MinimalUserModel.DesiredDateFormat
   - Vasont.Inspire.Models.Security.MinimalUserModel.DesiredLanguage
   - Vasont.Inspire.Models.Security.MinimalUserModel.Locked
   - Vasont.Inspire.Models.Security.MinimalUserModel.LockExpirationDate
@@ -19,7 +20,7 @@ items:
   source:
     remote:
       path: src/Security/MinimalUserModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalUserModel
     path: Security/MinimalUserModel.cs
@@ -74,7 +75,7 @@ items:
   source:
     remote:
       path: src/Security/MinimalUserModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DesiredLanguage
     path: Security/MinimalUserModel.cs
@@ -97,6 +98,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Vasont.Inspire.Models.Security.MinimalUserModel.DesiredDateFormat
+  commentId: P:Vasont.Inspire.Models.Security.MinimalUserModel.DesiredDateFormat
+  id: DesiredDateFormat
+  parent: Vasont.Inspire.Models.Security.MinimalUserModel
+  langs:
+  - csharp
+  - vb
+  name: DesiredDateFormat
+  nameWithType: MinimalUserModel.DesiredDateFormat
+  fullName: Vasont.Inspire.Models.Security.MinimalUserModel.DesiredDateFormat
+  type: Property
+  source:
+    remote:
+      path: src/Security/MinimalUserModel.cs
+      branch: feature/AddAttachmentPropertiesToComponent
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: DesiredDateFormat
+    path: Security/MinimalUserModel.cs
+    startLine: 23
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets the user&apos;s desired date format.\n"
+  example: []
+  syntax:
+    content: public string DesiredDateFormat { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DesiredDateFormat As String
+  overload: Vasont.Inspire.Models.Security.MinimalUserModel.DesiredDateFormat*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Vasont.Inspire.Models.Security.MinimalUserModel.TimeZoneName
   commentId: P:Vasont.Inspire.Models.Security.MinimalUserModel.TimeZoneName
   id: TimeZoneName
@@ -111,11 +149,11 @@ items:
   source:
     remote:
       path: src/Security/MinimalUserModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TimeZoneName
     path: Security/MinimalUserModel.cs
-    startLine: 23
+    startLine: 28
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -148,11 +186,11 @@ items:
   source:
     remote:
       path: src/Security/MinimalUserModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Locked
     path: Security/MinimalUserModel.cs
-    startLine: 28
+    startLine: 33
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -185,11 +223,11 @@ items:
   source:
     remote:
       path: src/Security/MinimalUserModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LockExpirationDate
     path: Security/MinimalUserModel.cs
-    startLine: 33
+    startLine: 38
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -566,6 +604,11 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: Vasont.Inspire.Models.Security.MinimalUserModel.DesiredDateFormat*
+  commentId: Overload:Vasont.Inspire.Models.Security.MinimalUserModel.DesiredDateFormat
+  name: DesiredDateFormat
+  nameWithType: MinimalUserModel.DesiredDateFormat
+  fullName: Vasont.Inspire.Models.Security.MinimalUserModel.DesiredDateFormat
 - uid: Vasont.Inspire.Models.Security.MinimalUserModel.TimeZoneName*
   commentId: Overload:Vasont.Inspire.Models.Security.MinimalUserModel.TimeZoneName
   name: TimeZoneName

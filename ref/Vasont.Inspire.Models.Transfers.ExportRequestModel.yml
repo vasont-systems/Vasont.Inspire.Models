@@ -28,7 +28,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportRequestModel
     path: Transfers/ExportRequestModel.cs
@@ -71,7 +71,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetsToExport
     path: Transfers/ExportRequestModel.cs
@@ -108,7 +108,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportId
     path: Transfers/ExportRequestModel.cs
@@ -145,7 +145,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserId
     path: Transfers/ExportRequestModel.cs
@@ -182,7 +182,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PublishProfileId
     path: Transfers/ExportRequestModel.cs
@@ -219,7 +219,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PublishProfileName
     path: Transfers/ExportRequestModel.cs
@@ -256,7 +256,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentIdsToExport
     path: Transfers/ExportRequestModel.cs
@@ -293,7 +293,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AlwaysZipResults
     path: Transfers/ExportRequestModel.cs
@@ -330,7 +330,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SendNotification
     path: Transfers/ExportRequestModel.cs
@@ -367,7 +367,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProfileFilters
     path: Transfers/ExportRequestModel.cs
@@ -404,7 +404,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LockForEdit
     path: Transfers/ExportRequestModel.cs
@@ -441,7 +441,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SkipXmlValidation
     path: Transfers/ExportRequestModel.cs
@@ -478,7 +478,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreateSubfolders
     path: Transfers/ExportRequestModel.cs
@@ -515,7 +515,7 @@ items:
   source:
     remote:
       path: src/Transfers/ExportRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FolderPath
     path: Transfers/ExportRequestModel.cs

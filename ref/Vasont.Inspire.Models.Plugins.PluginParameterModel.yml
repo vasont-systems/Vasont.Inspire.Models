@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Plugins/PluginParameterModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PluginParameterModel
     path: Plugins/PluginParameterModel.cs
@@ -75,7 +75,7 @@ items:
   source:
     remote:
       path: src/Plugins/PluginParameterModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PluginParameterId
     path: Plugins/PluginParameterModel.cs
@@ -112,7 +112,7 @@ items:
   source:
     remote:
       path: src/Plugins/PluginParameterModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PluginId
     path: Plugins/PluginParameterModel.cs
@@ -149,7 +149,7 @@ items:
   source:
     remote:
       path: src/Plugins/PluginParameterModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Plugins/PluginParameterModel.cs
@@ -186,7 +186,7 @@ items:
   source:
     remote:
       path: src/Plugins/PluginParameterModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Required
     path: Plugins/PluginParameterModel.cs
@@ -223,7 +223,7 @@ items:
   source:
     remote:
       path: src/Plugins/PluginParameterModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Repeatable
     path: Plugins/PluginParameterModel.cs

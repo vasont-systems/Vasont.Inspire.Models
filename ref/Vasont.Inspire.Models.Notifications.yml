@@ -4,9 +4,13 @@ items:
   commentId: N:Vasont.Inspire.Models.Notifications
   id: Vasont.Inspire.Models.Notifications
   children:
+  - Vasont.Inspire.Models.Notifications.Area
   - Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel
   - Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
   - Vasont.Inspire.Models.Notifications.NotificationModel`2
+  - Vasont.Inspire.Models.Notifications.NotificationOverdueFrequency
+  - Vasont.Inspire.Models.Notifications.NotificationPreferenceChannel
+  - Vasont.Inspire.Models.Notifications.NotificationSettingsPreferenceModel
   - Vasont.Inspire.Models.Notifications.NotificationState
   - Vasont.Inspire.Models.Notifications.NotificationStoreModel
   - Vasont.Inspire.Models.Notifications.NotificationStoreQueryModel
@@ -15,6 +19,7 @@ items:
   - Vasont.Inspire.Models.Notifications.NotificationType
   - Vasont.Inspire.Models.Notifications.NotificationUpdateModel
   - Vasont.Inspire.Models.Notifications.NotifyUsersModel
+  - Vasont.Inspire.Models.Notifications.Overdue
   langs:
   - csharp
   - vb
@@ -102,6 +107,36 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: Vasont.Inspire.Models.Notifications.NotificationPreferenceChannel
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationPreferenceChannel
+  parent: Vasont.Inspire.Models.Notifications
+  name: NotificationPreferenceChannel
+  nameWithType: NotificationPreferenceChannel
+  fullName: Vasont.Inspire.Models.Notifications.NotificationPreferenceChannel
+- uid: Vasont.Inspire.Models.Notifications.NotificationOverdueFrequency
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationOverdueFrequency
+  parent: Vasont.Inspire.Models.Notifications
+  name: NotificationOverdueFrequency
+  nameWithType: NotificationOverdueFrequency
+  fullName: Vasont.Inspire.Models.Notifications.NotificationOverdueFrequency
+- uid: Vasont.Inspire.Models.Notifications.NotificationSettingsPreferenceModel
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationSettingsPreferenceModel
+  parent: Vasont.Inspire.Models.Notifications
+  name: NotificationSettingsPreferenceModel
+  nameWithType: NotificationSettingsPreferenceModel
+  fullName: Vasont.Inspire.Models.Notifications.NotificationSettingsPreferenceModel
+- uid: Vasont.Inspire.Models.Notifications.Area
+  commentId: T:Vasont.Inspire.Models.Notifications.Area
+  parent: Vasont.Inspire.Models.Notifications
+  name: Area
+  nameWithType: Area
+  fullName: Vasont.Inspire.Models.Notifications.Area
+- uid: Vasont.Inspire.Models.Notifications.Overdue
+  commentId: T:Vasont.Inspire.Models.Notifications.Overdue
+  parent: Vasont.Inspire.Models.Notifications
+  name: Overdue
+  nameWithType: Overdue
+  fullName: Vasont.Inspire.Models.Notifications.Overdue
 - uid: Vasont.Inspire.Models.Notifications.NotificationStoreModel
   commentId: T:Vasont.Inspire.Models.Notifications.NotificationStoreModel
   name: NotificationStoreModel

@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Components/XmlComponentElementModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: XmlComponentElementModel
     path: Components/XmlComponentElementModel.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: src/Components/XmlComponentElementModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RootId
     path: Components/XmlComponentElementModel.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: src/Components/XmlComponentElementModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Components/XmlComponentElementModel.cs
@@ -136,7 +136,7 @@ items:
   source:
     remote:
       path: src/Components/XmlComponentElementModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Id
     path: Components/XmlComponentElementModel.cs
@@ -173,7 +173,7 @@ items:
   source:
     remote:
       path: src/Components/XmlComponentElementModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Value
     path: Components/XmlComponentElementModel.cs

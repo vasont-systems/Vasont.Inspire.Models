@@ -24,7 +24,7 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PublishType
     path: Plugins/PublishRequestModel.cs
@@ -36,14 +36,25 @@ items:
   example: []
   syntax:
     content: >-
+      [Obsolete("Use local DTOs in your solution", false)]
+
       [JsonConverter(typeof(StringEnumConverter))]
 
       public enum PublishType
     content.vb: >-
+      <Obsolete("Use local DTOs in your solution", False)>
+
       <JsonConverter(GetType(StringEnumConverter))>
 
       Public Enum PublishType
   attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use local DTOs in your solution
+    - type: System.Boolean
+      value: false
   - type: Newtonsoft.Json.JsonConverterAttribute
     ctor: Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type)
     arguments:
@@ -69,11 +80,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Pdf
     path: Plugins/PublishRequestModel.cs
-    startLine: 22
+    startLine: 23
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -103,11 +114,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Html
     path: Plugins/PublishRequestModel.cs
-    startLine: 27
+    startLine: 28
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -137,11 +148,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Zoomin
     path: Plugins/PublishRequestModel.cs
-    startLine: 32
+    startLine: 33
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -171,11 +182,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DocBook
     path: Plugins/PublishRequestModel.cs
-    startLine: 37
+    startLine: 38
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -205,11 +216,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AntennaHousePdf
     path: Plugins/PublishRequestModel.cs
-    startLine: 42
+    startLine: 43
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -239,11 +250,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Compare
     path: Plugins/PublishRequestModel.cs
-    startLine: 47
+    startLine: 48
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -273,11 +284,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Python
     path: Plugins/PublishRequestModel.cs
-    startLine: 52
+    startLine: 53
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -307,11 +318,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Xslt
     path: Plugins/PublishRequestModel.cs
-    startLine: 57
+    startLine: 58
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins
@@ -341,11 +352,11 @@ items:
   source:
     remote:
       path: src/Plugins/PublishRequestModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Script
     path: Plugins/PublishRequestModel.cs
-    startLine: 62
+    startLine: 63
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Plugins

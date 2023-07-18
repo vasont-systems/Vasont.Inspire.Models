@@ -6,6 +6,7 @@ items:
   parent: Vasont.Inspire.Models.Versioning
   children:
   - Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Branch
+  - Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Copy
   - Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Create
   - Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Delete
   - Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Move
@@ -25,7 +26,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetSnapshotActionType
     path: Versioning/ChangesetSnapshotModel.cs
@@ -70,7 +71,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Create
     path: Versioning/ChangesetSnapshotModel.cs
@@ -82,6 +83,40 @@ items:
   example: []
   syntax:
     content: Create = 0
+    return:
+      type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Copy
+  commentId: F:Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Copy
+  id: Copy
+  parent: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
+  langs:
+  - csharp
+  - vb
+  name: Copy
+  nameWithType: ChangesetSnapshotActionType.Copy
+  fullName: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType.Copy
+  type: Field
+  source:
+    remote:
+      path: src/Versioning/ChangesetSnapshotModel.cs
+      branch: feature/AddAttachmentPropertiesToComponent
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Copy
+    path: Versioning/ChangesetSnapshotModel.cs
+    startLine: 29
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Versioning
+  summary: "\nA component was copied.\n"
+  example: []
+  syntax:
+    content: Copy = 1
     return:
       type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
   modifiers.csharp:
@@ -104,18 +139,18 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Update
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 29
+    startLine: 35
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
   summary: "\nA component was updated without content (Move/Rename).\n"
   example: []
   syntax:
-    content: Update = 1
+    content: Update = 2
     return:
       type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
   modifiers.csharp:
@@ -138,18 +173,18 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdateWithContent
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 35
+    startLine: 41
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
   summary: "\nA component was updated with content.\n"
   example: []
   syntax:
-    content: UpdateWithContent = 2
+    content: UpdateWithContent = 3
     return:
       type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
   modifiers.csharp:
@@ -172,18 +207,18 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Delete
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 41
+    startLine: 47
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
   summary: "\nA component was deleted.\n"
   example: []
   syntax:
-    content: Delete = 3
+    content: Delete = 4
     return:
       type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
   modifiers.csharp:
@@ -206,18 +241,18 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Move
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 47
+    startLine: 53
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
   summary: "\nA component was moved.\n"
   example: []
   syntax:
-    content: Move = 4
+    content: Move = 5
     return:
       type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
   modifiers.csharp:
@@ -240,18 +275,18 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: OnDemand
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 53
+    startLine: 59
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
   summary: "\nA component was versioned on demand.\n"
   example: []
   syntax:
-    content: OnDemand = 5
+    content: OnDemand = 6
     return:
       type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
   modifiers.csharp:
@@ -274,18 +309,18 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Branch
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 59
+    startLine: 65
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
   summary: "\nA component was branched.\n"
   example: []
   syntax:
-    content: Branch = 6
+    content: Branch = 7
     return:
       type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
   modifiers.csharp:
@@ -308,18 +343,18 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Translate
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 65
+    startLine: 71
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
   summary: "\nA component was translated.\n"
   example: []
   syntax:
-    content: Translate = 7
+    content: Translate = 8
     return:
       type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
   modifiers.csharp:
@@ -342,18 +377,18 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Publish
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 71
+    startLine: 77
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
   summary: "\nA component was published.\n"
   example: []
   syntax:
-    content: Publish = 8
+    content: Publish = 9
     return:
       type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
   modifiers.csharp:
@@ -376,18 +411,18 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Review
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 77
+    startLine: 83
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
   summary: "\nA component was reviewed.\n"
   example: []
   syntax:
-    content: Review = 9
+    content: Review = 10
     return:
       type: Vasont.Inspire.Models.Versioning.ChangesetSnapshotActionType
   modifiers.csharp:

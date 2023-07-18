@@ -5,6 +5,7 @@ items:
   id: RelationKeyName
   parent: Vasont.Inspire.Models.Configuration
   children:
+  - Vasont.Inspire.Models.Configuration.RelationKeyName.Attachment
   - Vasont.Inspire.Models.Configuration.RelationKeyName.Branch
   - Vasont.Inspire.Models.Configuration.RelationKeyName.DocbookHref
   - Vasont.Inspire.Models.Configuration.RelationKeyName.Fileref
@@ -22,7 +23,7 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RelationKeyName
     path: Configuration/RelationModel.cs
@@ -67,7 +68,7 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: None
     path: Configuration/RelationModel.cs
@@ -101,7 +102,7 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Branch
     path: Configuration/RelationModel.cs
@@ -135,7 +136,7 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Translation
     path: Configuration/RelationModel.cs
@@ -169,7 +170,7 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Fileref
     path: Configuration/RelationModel.cs
@@ -203,7 +204,7 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DocbookHref
     path: Configuration/RelationModel.cs
@@ -237,7 +238,7 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Linkend
     path: Configuration/RelationModel.cs
@@ -271,7 +272,7 @@ items:
   source:
     remote:
       path: src/Configuration/RelationModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Xpointer
     path: Configuration/RelationModel.cs
@@ -283,6 +284,40 @@ items:
   example: []
   syntax:
     content: Xpointer = 6
+    return:
+      type: Vasont.Inspire.Models.Configuration.RelationKeyName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Configuration.RelationKeyName.Attachment
+  commentId: F:Vasont.Inspire.Models.Configuration.RelationKeyName.Attachment
+  id: Attachment
+  parent: Vasont.Inspire.Models.Configuration.RelationKeyName
+  langs:
+  - csharp
+  - vb
+  name: Attachment
+  nameWithType: RelationKeyName.Attachment
+  fullName: Vasont.Inspire.Models.Configuration.RelationKeyName.Attachment
+  type: Field
+  source:
+    remote:
+      path: src/Configuration/RelationModel.cs
+      branch: feature/AddAttachmentPropertiesToComponent
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Attachment
+    path: Configuration/RelationModel.cs
+    startLine: 54
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Configuration
+  summary: "\nIdentifies a relation created from an Attachment.\n"
+  example: []
+  syntax:
+    content: Attachment = 7
     return:
       type: Vasont.Inspire.Models.Configuration.RelationKeyName
   modifiers.csharp:

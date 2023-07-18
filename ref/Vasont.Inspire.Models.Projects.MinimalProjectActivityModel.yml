@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Projects/MinimalProjectActivityModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalProjectActivityModel
     path: Projects/MinimalProjectActivityModel.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: src/Projects/MinimalProjectActivityModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectActivityId
     path: Projects/MinimalProjectActivityModel.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: src/Projects/MinimalProjectActivityModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Projects/MinimalProjectActivityModel.cs
@@ -136,7 +136,7 @@ items:
   source:
     remote:
       path: src/Projects/MinimalProjectActivityModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Projects/MinimalProjectActivityModel.cs
@@ -173,7 +173,7 @@ items:
   source:
     remote:
       path: src/Projects/MinimalProjectActivityModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Required
     path: Projects/MinimalProjectActivityModel.cs
