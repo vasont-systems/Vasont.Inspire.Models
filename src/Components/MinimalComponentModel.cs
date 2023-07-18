@@ -131,6 +131,7 @@ namespace Vasont.Inspire.Models.Components
             this.itemType = ProjectFolderItemType.Component;
             this.State = ComponentStateType.Draft;
             this.BranchType = ComponentBranchType.None;
+            this.AttachmentType = ComponentAttachmentType.None;
             this.Permissions = new PermissionModel(permissions);
             this.FollowedByUsers = new List<MinimalUserModel>();
         }
@@ -289,6 +290,11 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets the component branch type.
         /// </summary>
         public ComponentBranchType BranchType { get; set; }
+
+        /// <summary>
+        /// Gets or sets the component attachment type.
+        /// </summary>
+        public ComponentAttachmentType AttachmentType { get; set; }
 
         /// <summary>
         /// Gets or sets the most recent component access information.
