@@ -21,19 +21,24 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationFolderModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NotificationFolderModel
     path: Notifications/Types/NotificationFolderModel.cs
-    startLine: 41
+    startLine: 42
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications.Types
   summary: "\nThis class represents a folder notification message.\n"
   example: []
   syntax:
-    content: 'public class NotificationFolderModel : NotificationModelBase'
+    content: >-
+      [Obsolete("Use local DTOs", false)]
+
+      public class NotificationFolderModel : NotificationModelBase
     content.vb: >-
+      <Obsolete("Use local DTOs", False)>
+
       Public Class NotificationFolderModel
           Inherits NotificationModelBase
   inheritance:
@@ -49,6 +54,14 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use local DTOs
+    - type: System.Boolean
+      value: false
   modifiers.csharp:
   - public
   - class
@@ -69,11 +82,11 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationFolderModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FolderId
     path: Notifications/Types/NotificationFolderModel.cs
-    startLine: 46
+    startLine: 48
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications.Types
@@ -106,11 +119,11 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationFolderModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UniqueId
     path: Notifications/Types/NotificationFolderModel.cs
-    startLine: 51
+    startLine: 53
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications.Types
@@ -143,11 +156,11 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationFolderModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ParentFolderId
     path: Notifications/Types/NotificationFolderModel.cs
-    startLine: 56
+    startLine: 58
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications.Types
@@ -180,11 +193,11 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationFolderModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Action
     path: Notifications/Types/NotificationFolderModel.cs
-    startLine: 61
+    startLine: 63
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications.Types
@@ -217,11 +230,11 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationFolderModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Notifications/Types/NotificationFolderModel.cs
-    startLine: 66
+    startLine: 68
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications.Types
@@ -254,11 +267,11 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationFolderModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Path
     path: Notifications/Types/NotificationFolderModel.cs
-    startLine: 71
+    startLine: 73
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications.Types

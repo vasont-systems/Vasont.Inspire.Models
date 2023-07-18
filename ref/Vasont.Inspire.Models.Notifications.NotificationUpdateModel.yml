@@ -16,19 +16,25 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationUpdateModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NotificationUpdateModel
     path: Notifications/NotificationUpdateModel.cs
-    startLine: 10
+    startLine: 12
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications
   summary: "\nThis model represents the inputs for a notification message update call within the Inspire application.\n"
   example: []
   syntax:
-    content: public class NotificationUpdateModel
-    content.vb: Public Class NotificationUpdateModel
+    content: >-
+      [Obsolete("Use local DTOs", false)]
+
+      public class NotificationUpdateModel
+    content.vb: >-
+      <Obsolete("Use local DTOs", False)>
+
+      Public Class NotificationUpdateModel
   inheritance:
   - System.Object
   inheritedMembers:
@@ -39,6 +45,14 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use local DTOs
+    - type: System.Boolean
+      value: false
   modifiers.csharp:
   - public
   - class
@@ -59,11 +73,11 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationUpdateModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: State
     path: Notifications/NotificationUpdateModel.cs
-    startLine: 15
+    startLine: 18
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications

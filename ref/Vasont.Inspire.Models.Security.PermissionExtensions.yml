@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionExtensions.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PermissionExtensions
     path: Security/PermissionExtensions.cs
@@ -67,7 +67,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionExtensions.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanCreate
     path: Security/PermissionExtensions.cs
@@ -112,7 +112,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionExtensions.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanRead
     path: Security/PermissionExtensions.cs
@@ -157,7 +157,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionExtensions.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanUpdate
     path: Security/PermissionExtensions.cs
@@ -202,7 +202,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionExtensions.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanDelete
     path: Security/PermissionExtensions.cs
@@ -247,7 +247,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionExtensions.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanSetPermissions
     path: Security/PermissionExtensions.cs
@@ -292,7 +292,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionExtensions.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CanRename
     path: Security/PermissionExtensions.cs
@@ -337,7 +337,7 @@ items:
   source:
     remote:
       path: src/Security/PermissionExtensions.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: HasAllPermissions
     path: Security/PermissionExtensions.cs

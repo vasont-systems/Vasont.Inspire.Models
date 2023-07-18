@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/Logging/LoggingExtensions.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LoggingExtensions
     path: Logging/LoggingExtensions.cs
@@ -59,7 +59,7 @@ items:
   source:
     remote:
       path: src/Logging/LoggingExtensions.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreateCsv
     path: Logging/LoggingExtensions.cs

@@ -14,6 +14,8 @@ items:
   - Vasont.Inspire.Models.Security.UserModel.ExternalUserId
   - Vasont.Inspire.Models.Security.UserModel.Named
   - Vasont.Inspire.Models.Security.UserModel.Notes
+  - Vasont.Inspire.Models.Security.UserModel.NotificationSettings
+  - Vasont.Inspire.Models.Security.UserModel.NotificationSettingsModel
   - Vasont.Inspire.Models.Security.UserModel.Roles
   - Vasont.Inspire.Models.Security.UserModel.TimeZone
   - Vasont.Inspire.Models.Security.UserModel.UpdatedBy
@@ -29,11 +31,11 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserModel
     path: Security/UserModel.cs
-    startLine: 13
+    startLine: 14
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -50,6 +52,7 @@ items:
   - Vasont.Inspire.Models.Security.MinimalUserModel
   inheritedMembers:
   - Vasont.Inspire.Models.Security.MinimalUserModel.DesiredLanguage
+  - Vasont.Inspire.Models.Security.MinimalUserModel.DesiredDateFormat
   - Vasont.Inspire.Models.Security.MinimalUserModel.TimeZoneName
   - Vasont.Inspire.Models.Security.MinimalUserModel.Locked
   - Vasont.Inspire.Models.Security.MinimalUserModel.LockExpirationDate
@@ -87,11 +90,11 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Security/UserModel.cs
-    startLine: 20
+    startLine: 21
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -119,11 +122,11 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Security/UserModel.cs
-    startLine: 30
+    startLine: 31
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -158,11 +161,11 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExternalUserId
     path: Security/UserModel.cs
-    startLine: 46
+    startLine: 47
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -195,11 +198,11 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UserType
     path: Security/UserModel.cs
-    startLine: 51
+    startLine: 52
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -232,11 +235,11 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TimeZone
     path: Security/UserModel.cs
-    startLine: 56
+    startLine: 57
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -269,11 +272,11 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedDate
     path: Security/UserModel.cs
-    startLine: 61
+    startLine: 62
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -306,11 +309,11 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: CreatedBy
     path: Security/UserModel.cs
-    startLine: 66
+    startLine: 67
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -343,11 +346,11 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdatedDate
     path: Security/UserModel.cs
-    startLine: 71
+    startLine: 72
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -380,11 +383,11 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: UpdatedBy
     path: Security/UserModel.cs
-    startLine: 76
+    startLine: 77
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -417,11 +420,11 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Roles
     path: Security/UserModel.cs
-    startLine: 81
+    startLine: 82
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -454,11 +457,11 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Notes
     path: Security/UserModel.cs
-    startLine: 86
+    startLine: 87
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -491,11 +494,11 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Active
     path: Security/UserModel.cs
-    startLine: 91
+    startLine: 92
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -528,11 +531,11 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Deletable
     path: Security/UserModel.cs
-    startLine: 97
+    startLine: 98
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -565,11 +568,11 @@ items:
   source:
     remote:
       path: src/Security/UserModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Named
     path: Security/UserModel.cs
-    startLine: 102
+    startLine: 103
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Security
@@ -582,6 +585,82 @@ items:
       type: System.Boolean
     content.vb: Public Property Named As Boolean
   overload: Vasont.Inspire.Models.Security.UserModel.Named*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Security.UserModel.NotificationSettings
+  commentId: P:Vasont.Inspire.Models.Security.UserModel.NotificationSettings
+  id: NotificationSettings
+  parent: Vasont.Inspire.Models.Security.UserModel
+  langs:
+  - csharp
+  - vb
+  name: NotificationSettings
+  nameWithType: UserModel.NotificationSettings
+  fullName: Vasont.Inspire.Models.Security.UserModel.NotificationSettings
+  type: Property
+  source:
+    remote:
+      path: src/Security/UserModel.cs
+      branch: feature/AddAttachmentPropertiesToComponent
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: NotificationSettings
+    path: Security/UserModel.cs
+    startLine: 109
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets the notification user preferences.\n"
+  example: []
+  syntax:
+    content: public string NotificationSettings { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: The json object of user settings preferences.
+    content.vb: Public Property NotificationSettings As String
+  overload: Vasont.Inspire.Models.Security.UserModel.NotificationSettings*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Security.UserModel.NotificationSettingsModel
+  commentId: P:Vasont.Inspire.Models.Security.UserModel.NotificationSettingsModel
+  id: NotificationSettingsModel
+  parent: Vasont.Inspire.Models.Security.UserModel
+  langs:
+  - csharp
+  - vb
+  name: NotificationSettingsModel
+  nameWithType: UserModel.NotificationSettingsModel
+  fullName: Vasont.Inspire.Models.Security.UserModel.NotificationSettingsModel
+  type: Property
+  source:
+    remote:
+      path: src/Security/UserModel.cs
+      branch: feature/AddAttachmentPropertiesToComponent
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: NotificationSettingsModel
+    path: Security/UserModel.cs
+    startLine: 115
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Security
+  summary: "\nGets or sets the notification user preferences model.\n"
+  example: []
+  syntax:
+    content: public NotificationSettingsPreferenceModel NotificationSettingsModel { get; set; }
+    parameters: []
+    return:
+      type: Vasont.Inspire.Models.Notifications.NotificationSettingsPreferenceModel
+      description: The object model of user settings preferences.
+    content.vb: Public Property NotificationSettingsModel As NotificationSettingsPreferenceModel
+  overload: Vasont.Inspire.Models.Security.UserModel.NotificationSettingsModel*
   modifiers.csharp:
   - public
   - get
@@ -619,6 +698,12 @@ references:
   name: DesiredLanguage
   nameWithType: MinimalUserModel.DesiredLanguage
   fullName: Vasont.Inspire.Models.Security.MinimalUserModel.DesiredLanguage
+- uid: Vasont.Inspire.Models.Security.MinimalUserModel.DesiredDateFormat
+  commentId: P:Vasont.Inspire.Models.Security.MinimalUserModel.DesiredDateFormat
+  parent: Vasont.Inspire.Models.Security.MinimalUserModel
+  name: DesiredDateFormat
+  nameWithType: MinimalUserModel.DesiredDateFormat
+  fullName: Vasont.Inspire.Models.Security.MinimalUserModel.DesiredDateFormat
 - uid: Vasont.Inspire.Models.Security.MinimalUserModel.TimeZoneName
   commentId: P:Vasont.Inspire.Models.Security.MinimalUserModel.TimeZoneName
   parent: Vasont.Inspire.Models.Security.MinimalUserModel
@@ -1154,3 +1239,24 @@ references:
   name: Named
   nameWithType: UserModel.Named
   fullName: Vasont.Inspire.Models.Security.UserModel.Named
+- uid: Vasont.Inspire.Models.Security.UserModel.NotificationSettings*
+  commentId: Overload:Vasont.Inspire.Models.Security.UserModel.NotificationSettings
+  name: NotificationSettings
+  nameWithType: UserModel.NotificationSettings
+  fullName: Vasont.Inspire.Models.Security.UserModel.NotificationSettings
+- uid: Vasont.Inspire.Models.Security.UserModel.NotificationSettingsModel*
+  commentId: Overload:Vasont.Inspire.Models.Security.UserModel.NotificationSettingsModel
+  name: NotificationSettingsModel
+  nameWithType: UserModel.NotificationSettingsModel
+  fullName: Vasont.Inspire.Models.Security.UserModel.NotificationSettingsModel
+- uid: Vasont.Inspire.Models.Notifications.NotificationSettingsPreferenceModel
+  commentId: T:Vasont.Inspire.Models.Notifications.NotificationSettingsPreferenceModel
+  parent: Vasont.Inspire.Models.Notifications
+  name: NotificationSettingsPreferenceModel
+  nameWithType: NotificationSettingsPreferenceModel
+  fullName: Vasont.Inspire.Models.Notifications.NotificationSettingsPreferenceModel
+- uid: Vasont.Inspire.Models.Notifications
+  commentId: N:Vasont.Inspire.Models.Notifications
+  name: Vasont.Inspire.Models.Notifications
+  nameWithType: Vasont.Inspire.Models.Notifications
+  fullName: Vasont.Inspire.Models.Notifications

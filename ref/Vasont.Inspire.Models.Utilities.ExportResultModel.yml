@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Utilities/ExportResultModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportResultModel
     path: Utilities/ExportResultModel.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: src/Utilities/ExportResultModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ExportId
     path: Utilities/ExportResultModel.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: src/Utilities/ExportResultModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Utilities/ExportResultModel.cs
@@ -136,7 +136,7 @@ items:
   source:
     remote:
       path: src/Utilities/ExportResultModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: Utilities/ExportResultModel.cs
@@ -173,7 +173,7 @@ items:
   source:
     remote:
       path: src/Utilities/ExportResultModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Default
     path: Utilities/ExportResultModel.cs

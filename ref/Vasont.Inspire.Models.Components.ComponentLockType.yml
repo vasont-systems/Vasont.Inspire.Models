@@ -5,6 +5,7 @@ items:
   id: ComponentLockType
   parent: Vasont.Inspire.Models.Components
   children:
+  - Vasont.Inspire.Models.Components.ComponentLockType.Approve
   - Vasont.Inspire.Models.Components.ComponentLockType.Edit
   - Vasont.Inspire.Models.Components.ComponentLockType.Review
   - Vasont.Inspire.Models.Components.ComponentLockType.Standard
@@ -19,16 +20,14 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentLockType
     path: Components/ComponentLockModel.cs
-    startLine: 17
+    startLine: 15
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
-  summary: "\nContains an enumerated list of component lock types.\n"
-  example: []
   syntax:
     content: >-
       [JsonConverter(typeof(StringEnumConverter))]
@@ -64,11 +63,11 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Standard
     path: Components/ComponentLockModel.cs
-    startLine: 23
+    startLine: 21
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -98,11 +97,11 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Review
     path: Components/ComponentLockModel.cs
-    startLine: 28
+    startLine: 26
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -132,11 +131,11 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Translation
     path: Components/ComponentLockModel.cs
-    startLine: 33
+    startLine: 31
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -166,11 +165,11 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Edit
     path: Components/ComponentLockModel.cs
-    startLine: 38
+    startLine: 36
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -178,6 +177,40 @@ items:
   example: []
   syntax:
     content: Edit = 3
+    return:
+      type: Vasont.Inspire.Models.Components.ComponentLockType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vasont.Inspire.Models.Components.ComponentLockType.Approve
+  commentId: F:Vasont.Inspire.Models.Components.ComponentLockType.Approve
+  id: Approve
+  parent: Vasont.Inspire.Models.Components.ComponentLockType
+  langs:
+  - csharp
+  - vb
+  name: Approve
+  nameWithType: ComponentLockType.Approve
+  fullName: Vasont.Inspire.Models.Components.ComponentLockType.Approve
+  type: Field
+  source:
+    remote:
+      path: src/Components/ComponentLockModel.cs
+      branch: feature/AddAttachmentPropertiesToComponent
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: Approve
+    path: Components/ComponentLockModel.cs
+    startLine: 41
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nThe component lock is approve and is locked because its content is approved.\n"
+  example: []
+  syntax:
+    content: Approve = 4
     return:
       type: Vasont.Inspire.Models.Components.ComponentLockType
   modifiers.csharp:

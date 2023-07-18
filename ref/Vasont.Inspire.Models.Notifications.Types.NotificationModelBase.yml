@@ -17,19 +17,25 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationModelBase.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NotificationModelBase
     path: Notifications/Types/NotificationModelBase.cs
-    startLine: 13
+    startLine: 14
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications.Types
   summary: "\nThis abstract class contains properties that are to be applied to all notification model classes.\n"
   example: []
   syntax:
-    content: public abstract class NotificationModelBase
-    content.vb: Public MustInherit Class NotificationModelBase
+    content: >-
+      [Obsolete("Use local DTOs", false)]
+
+      public abstract class NotificationModelBase
+    content.vb: >-
+      <Obsolete("Use local DTOs", False)>
+
+      Public MustInherit Class NotificationModelBase
   inheritance:
   - System.Object
   derivedClasses:
@@ -44,6 +50,14 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use local DTOs
+    - type: System.Boolean
+      value: false
   modifiers.csharp:
   - public
   - abstract
@@ -66,11 +80,11 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationModelBase.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MetadataModel
     path: Notifications/Types/NotificationModelBase.cs
-    startLine: 18
+    startLine: 20
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications.Types
@@ -113,11 +127,11 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationModelBase.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Metadata
     path: Notifications/Types/NotificationModelBase.cs
-    startLine: 38
+    startLine: 40
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications.Types
