@@ -22,11 +22,11 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentLockModel
     path: Components/ComponentLockModel.cs
-    startLine: 44
+    startLine: 47
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -67,11 +67,11 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/ComponentLockModel.cs
-    startLine: 49
+    startLine: 52
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -99,11 +99,11 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentId
     path: Components/ComponentLockModel.cs
-    startLine: 57
+    startLine: 60
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -136,11 +136,11 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Type
     path: Components/ComponentLockModel.cs
-    startLine: 62
+    startLine: 65
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -173,11 +173,11 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LockedDate
     path: Components/ComponentLockModel.cs
-    startLine: 67
+    startLine: 70
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -210,11 +210,11 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LockedBy
     path: Components/ComponentLockModel.cs
-    startLine: 72
+    startLine: 75
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -247,11 +247,11 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LockReason
     path: Components/ComponentLockModel.cs
-    startLine: 77
+    startLine: 80
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components
@@ -284,11 +284,11 @@ items:
   source:
     remote:
       path: src/Components/ComponentLockModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SystemLock
     path: Components/ComponentLockModel.cs
-    startLine: 109
+    startLine: 116
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Components

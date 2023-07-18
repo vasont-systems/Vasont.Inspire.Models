@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NotificationComponentAction
     path: Notifications/Types/NotificationComponentModel.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Added
     path: Notifications/Types/NotificationComponentModel.cs
@@ -98,7 +98,7 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Updated
     path: Notifications/Types/NotificationComponentModel.cs
@@ -132,7 +132,7 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Removed
     path: Notifications/Types/NotificationComponentModel.cs
@@ -166,7 +166,7 @@ items:
   source:
     remote:
       path: src/Notifications/Types/NotificationComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Moved
     path: Notifications/Types/NotificationComponentModel.cs

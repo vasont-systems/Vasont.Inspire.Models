@@ -28,11 +28,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetSnapshotModel
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 188
+    startLine: 199
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -78,11 +78,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 195
+    startLine: 206
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -110,11 +110,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 206
+    startLine: 217
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -152,11 +152,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Action
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 220
+    startLine: 231
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -189,11 +189,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProcessType
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 225
+    startLine: 236
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -226,11 +226,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SnapshotType
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 230
+    startLine: 241
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -263,11 +263,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Id
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 235
+    startLine: 246
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -300,11 +300,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetId
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 240
+    startLine: 251
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -337,11 +337,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Name
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 245
+    startLine: 256
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -374,11 +374,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ParentFolder
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 250
+    startLine: 261
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -411,11 +411,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Restored
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 255
+    startLine: 266
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -448,11 +448,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentProperties
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 264
+    startLine: 275
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -485,11 +485,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: FolderProperties
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 269
+    startLine: 280
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning
@@ -522,11 +522,11 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetSnapshotModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: PropertyProperties
     path: Versioning/ChangesetSnapshotModel.cs
-    startLine: 274
+    startLine: 285
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Versioning

@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetQueryModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ChangesetQueryModel
     path: Versioning/ChangesetQueryModel.cs
@@ -72,7 +72,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetQueryModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SearchText
     path: Versioning/ChangesetQueryModel.cs
@@ -109,7 +109,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetQueryModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: StartDate
     path: Versioning/ChangesetQueryModel.cs
@@ -146,7 +146,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetQueryModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: EndDate
     path: Versioning/ChangesetQueryModel.cs
@@ -183,7 +183,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetQueryModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Action
     path: Versioning/ChangesetQueryModel.cs
@@ -220,7 +220,7 @@ items:
   source:
     remote:
       path: src/Versioning/ChangesetQueryModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProcessType
     path: Versioning/ChangesetQueryModel.cs

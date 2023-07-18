@@ -20,11 +20,11 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NotificationMessageAlertStatus
     path: Notifications/NotificationModel.cs
-    startLine: 90
+    startLine: 93
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications
@@ -34,9 +34,13 @@ items:
     content: >-
       [JsonConverter(typeof(StringEnumConverter))]
 
+      [Obsolete("Use local DTOs", false)]
+
       public enum NotificationMessageAlertStatus
     content.vb: >-
       <JsonConverter(GetType(StringEnumConverter))>
+
+      <Obsolete("Use local DTOs", False)>
 
       Public Enum NotificationMessageAlertStatus
   attributes:
@@ -45,6 +49,13 @@ items:
     arguments:
     - type: System.Type
       value: Newtonsoft.Json.Converters.StringEnumConverter
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use local DTOs
+    - type: System.Boolean
+      value: false
   modifiers.csharp:
   - public
   - enum
@@ -65,11 +76,11 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: None
     path: Notifications/NotificationModel.cs
-    startLine: 97
+    startLine: 101
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications
@@ -100,11 +111,11 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Info
     path: Notifications/NotificationModel.cs
-    startLine: 103
+    startLine: 107
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications
@@ -135,11 +146,11 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Warning
     path: Notifications/NotificationModel.cs
-    startLine: 109
+    startLine: 113
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications
@@ -170,11 +181,11 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Failure
     path: Notifications/NotificationModel.cs
-    startLine: 115
+    startLine: 119
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications
@@ -205,11 +216,11 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Finished
     path: Notifications/NotificationModel.cs
-    startLine: 121
+    startLine: 125
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications

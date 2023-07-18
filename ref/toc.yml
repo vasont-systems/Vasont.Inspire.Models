@@ -6,6 +6,29 @@
     name: RestoreComponentRequestModel
   - uid: Vasont.Inspire.Core.Versioning.Models.RestoreComponentResultModel
     name: RestoreComponentResultModel
+- uid: Vasont.Inspire.Models.AreaNotifications
+  name: Vasont.Inspire.Models.AreaNotifications
+  items:
+  - uid: Vasont.Inspire.Models.AreaNotifications.AreaNotifications
+    name: AreaNotifications
+  - uid: Vasont.Inspire.Models.AreaNotifications.AreaNotifications.ComponentNotificationPreference
+    name: AreaNotifications.ComponentNotificationPreference
+  - uid: Vasont.Inspire.Models.AreaNotifications.AreaNotifications.EverythingElseNotificationPreference
+    name: AreaNotifications.EverythingElseNotificationPreference
+  - uid: Vasont.Inspire.Models.AreaNotifications.AreaNotifications.ExportNotificationPreference
+    name: AreaNotifications.ExportNotificationPreference
+  - uid: Vasont.Inspire.Models.AreaNotifications.AreaNotifications.ImportNotificationPreference
+    name: AreaNotifications.ImportNotificationPreference
+  - uid: Vasont.Inspire.Models.AreaNotifications.AreaNotifications.ProjectNotificationPreference
+    name: AreaNotifications.ProjectNotificationPreference
+  - uid: Vasont.Inspire.Models.AreaNotifications.AreaNotifications.PublishingNotificationPreference
+    name: AreaNotifications.PublishingNotificationPreference
+  - uid: Vasont.Inspire.Models.AreaNotifications.AreaNotifications.ReviewsNotificationPreference
+    name: AreaNotifications.ReviewsNotificationPreference
+  - uid: Vasont.Inspire.Models.AreaNotifications.AreaNotifications.TaxonomyNotificationPreference
+    name: AreaNotifications.TaxonomyNotificationPreference
+  - uid: Vasont.Inspire.Models.AreaNotifications.AreaNotifications.TranslationsNotificationPreference
+    name: AreaNotifications.TranslationsNotificationPreference
 - uid: Vasont.Inspire.Models.Common
   name: Vasont.Inspire.Models.Common
   items:
@@ -57,6 +80,8 @@
     name: BranchComponentModel
   - uid: Vasont.Inspire.Models.Components.BranchReferenceModel
     name: BranchReferenceModel
+  - uid: Vasont.Inspire.Models.Components.ComponentAttachmentType
+    name: ComponentAttachmentType
   - uid: Vasont.Inspire.Models.Components.ComponentAutoRepairModel
     name: ComponentAutoRepairModel
   - uid: Vasont.Inspire.Models.Components.ComponentAutoRepairRequestModel
@@ -121,8 +146,6 @@
     name: ComponentStateType
   - uid: Vasont.Inspire.Models.Components.ComponentTagModel
     name: ComponentTagModel
-  - uid: Vasont.Inspire.Models.Components.ComponentTranslationsResultModel
-    name: ComponentTranslationsResultModel
   - uid: Vasont.Inspire.Models.Components.ComponentTypeModel
     name: ComponentTypeModel
   - uid: Vasont.Inspire.Models.Components.ComponentUserAccessModel
@@ -215,12 +238,6 @@
     name: TagModel
   - uid: Vasont.Inspire.Models.Components.TransformDirectionFormat
     name: TransformDirectionFormat
-  - uid: Vasont.Inspire.Models.Components.TranslationJobRelationModel
-    name: TranslationJobRelationModel
-  - uid: Vasont.Inspire.Models.Components.TranslationRelationModel
-    name: TranslationRelationModel
-  - uid: Vasont.Inspire.Models.Components.TranslationReportRequestModel
-    name: TranslationReportRequestModel
   - uid: Vasont.Inspire.Models.Components.UnlockResultModel
     name: UnlockResultModel
   - uid: Vasont.Inspire.Models.Components.UserRolePermissionModel
@@ -294,6 +311,8 @@
 - uid: Vasont.Inspire.Models.Notifications
   name: Vasont.Inspire.Models.Notifications
   items:
+  - uid: Vasont.Inspire.Models.Notifications.Area
+    name: Area
   - uid: Vasont.Inspire.Models.Notifications.NotificationDetailedMessageModel
     name: NotificationDetailedMessageModel
   - uid: Vasont.Inspire.Models.Notifications.NotificationMessageAlertStatus
@@ -301,6 +320,12 @@
   - uid: Vasont.Inspire.Models.Notifications.NotificationModel`2
     name: NotificationModel<TModel, TTargetId>
     name.vb: NotificationModel(Of TModel, TTargetId)
+  - uid: Vasont.Inspire.Models.Notifications.NotificationOverdueFrequency
+    name: NotificationOverdueFrequency
+  - uid: Vasont.Inspire.Models.Notifications.NotificationPreferenceChannel
+    name: NotificationPreferenceChannel
+  - uid: Vasont.Inspire.Models.Notifications.NotificationSettingsPreferenceModel
+    name: NotificationSettingsPreferenceModel
   - uid: Vasont.Inspire.Models.Notifications.NotificationState
     name: NotificationState
   - uid: Vasont.Inspire.Models.Notifications.NotificationStoreModel
@@ -317,6 +342,8 @@
     name: NotificationUpdateModel
   - uid: Vasont.Inspire.Models.Notifications.NotifyUsersModel
     name: NotifyUsersModel
+  - uid: Vasont.Inspire.Models.Notifications.Overdue
+    name: Overdue
 - uid: Vasont.Inspire.Models.Notifications.Types
   name: Vasont.Inspire.Models.Notifications.Types
   items:
@@ -639,69 +666,6 @@
     name: MissingReferenceModel
   - uid: Vasont.Inspire.Models.Transfers.ProcessHistoricRelationsResultModel
     name: ProcessHistoricRelationsResultModel
-- uid: Vasont.Inspire.Models.Translations
-  name: Vasont.Inspire.Models.Translations
-  items:
-  - uid: Vasont.Inspire.Models.Translations.IntegrationMethodType
-    name: IntegrationMethodType
-  - uid: Vasont.Inspire.Models.Translations.MinimalTranslationConfigurationModel
-    name: MinimalTranslationConfigurationModel
-  - uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobComponentModel
-    name: MinimalTranslationJobComponentModel
-  - uid: Vasont.Inspire.Models.Translations.MinimalTranslationJobModel
-    name: MinimalTranslationJobModel
-  - uid: Vasont.Inspire.Models.Translations.SubmissionAttributeModel
-    name: SubmissionAttributeModel
-  - uid: Vasont.Inspire.Models.Translations.TranslationAttributeModel
-    name: TranslationAttributeModel
-  - uid: Vasont.Inspire.Models.Translations.TranslationBrowseQueryModel
-    name: TranslationBrowseQueryModel
-  - uid: Vasont.Inspire.Models.Translations.TranslationBrowseResultModel
-    name: TranslationBrowseResultModel
-  - uid: Vasont.Inspire.Models.Translations.TranslationConfigurationModel
-    name: TranslationConfigurationModel
-  - uid: Vasont.Inspire.Models.Translations.TranslationConfigurationQueryModel
-    name: TranslationConfigurationQueryModel
-  - uid: Vasont.Inspire.Models.Translations.TranslationConfigurationResultModel
-    name: TranslationConfigurationResultModel
-  - uid: Vasont.Inspire.Models.Translations.TranslationDetailModel
-    name: TranslationDetailModel
-  - uid: Vasont.Inspire.Models.Translations.TranslationExportJobModel
-    name: TranslationExportJobModel
-  - uid: Vasont.Inspire.Models.Translations.TranslationExportRequestModel
-    name: TranslationExportRequestModel
-  - uid: Vasont.Inspire.Models.Translations.TranslationExportStateModel
-    name: TranslationExportStateModel
-  - uid: Vasont.Inspire.Models.Translations.TranslationIntegrationBrowseQueryModel
-    name: TranslationIntegrationBrowseQueryModel
-  - uid: Vasont.Inspire.Models.Translations.TranslationIntegrationBrowseResultModel
-    name: TranslationIntegrationBrowseResultModel
-  - uid: Vasont.Inspire.Models.Translations.TranslationIntegrationModel
-    name: TranslationIntegrationModel
-  - uid: Vasont.Inspire.Models.Translations.TranslationJobComponentModel
-    name: TranslationJobComponentModel
-  - uid: Vasont.Inspire.Models.Translations.TranslationJobComponentState
-    name: TranslationJobComponentState
-  - uid: Vasont.Inspire.Models.Translations.TranslationJobModel
-    name: TranslationJobModel
-  - uid: Vasont.Inspire.Models.Translations.TranslationJobPropertiesModel
-    name: TranslationJobPropertiesModel
-  - uid: Vasont.Inspire.Models.Translations.TranslationJobState
-    name: TranslationJobState
-  - uid: Vasont.Inspire.Models.Translations.TranslationJobStateModel
-    name: TranslationJobStateModel
-  - uid: Vasont.Inspire.Models.Translations.TranslationLanguageGroupItemModel
-    name: TranslationLanguageGroupItemModel
-  - uid: Vasont.Inspire.Models.Translations.TranslationLanguageGroupItemType
-    name: TranslationLanguageGroupItemType
-  - uid: Vasont.Inspire.Models.Translations.TranslationLanguageGroupModel
-    name: TranslationLanguageGroupModel
-  - uid: Vasont.Inspire.Models.Translations.TranslationVendorFieldModel
-    name: TranslationVendorFieldModel
-  - uid: Vasont.Inspire.Models.Translations.TranslationVendorFieldValueModel
-    name: TranslationVendorFieldValueModel
-  - uid: Vasont.Inspire.Models.Translations.TranslationVendorModel
-    name: TranslationVendorModel
 - uid: Vasont.Inspire.Models.Utilities
   name: Vasont.Inspire.Models.Utilities
   items:
@@ -827,8 +791,3 @@
     name: WorkflowTransitionModel
   - uid: Vasont.Inspire.Models.Workflow.WorkflowType
     name: WorkflowType
-- uid: Vasont.Inspire.Translation.Models
-  name: Vasont.Inspire.Translation.Models
-  items:
-  - uid: Vasont.Inspire.Translation.Models.WorkflowDefinitionModel
-    name: WorkflowDefinitionModel

@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Common/DisplayValuePair.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: DisplayValuePair
     path: Common/DisplayValuePair.cs
@@ -37,8 +37,6 @@ items:
     content.vb: Public MustInherit Class DisplayValuePair(Of N, V)
   inheritance:
   - System.Object
-  derivedClasses:
-  - Vasont.Inspire.Models.Translations.TranslationJobStateModel
   inheritedMembers:
   - System.Object.ToString
   - System.Object.Equals(System.Object)
@@ -72,7 +70,7 @@ items:
   source:
     remote:
       path: src/Common/DisplayValuePair.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Display
     path: Common/DisplayValuePair.cs
@@ -111,7 +109,7 @@ items:
   source:
     remote:
       path: src/Common/DisplayValuePair.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Value
     path: Common/DisplayValuePair.cs

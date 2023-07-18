@@ -18,19 +18,24 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationStoreQueryModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NotificationStoreQueryModel
     path: Notifications/NotificationStoreQueryModel.cs
-    startLine: 13
+    startLine: 14
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications
   summary: "\nThis class represents a notification store query model used in paging interfaces for notification messages.\n"
   example: []
   syntax:
-    content: 'public class NotificationStoreQueryModel : PaginatedQueryRequestModel'
+    content: >-
+      [Obsolete("Use local DTOs", false)]
+
+      public class NotificationStoreQueryModel : PaginatedQueryRequestModel
     content.vb: >-
+      <Obsolete("Use local DTOs", False)>
+
       Public Class NotificationStoreQueryModel
           Inherits PaginatedQueryRequestModel
   inheritance:
@@ -48,6 +53,14 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use local DTOs
+    - type: System.Boolean
+      value: false
   modifiers.csharp:
   - public
   - class
@@ -68,11 +81,11 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationStoreQueryModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SearchText
     path: Notifications/NotificationStoreQueryModel.cs
-    startLine: 18
+    startLine: 20
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications
@@ -105,11 +118,11 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationStoreQueryModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: State
     path: Notifications/NotificationStoreQueryModel.cs
-    startLine: 23
+    startLine: 25
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications
@@ -142,11 +155,11 @@ items:
   source:
     remote:
       path: src/Notifications/NotificationStoreQueryModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Alert
     path: Notifications/NotificationStoreQueryModel.cs
-    startLine: 28
+    startLine: 30
   assemblies:
   - Vasont.Inspire.Models
   namespace: Vasont.Inspire.Models.Notifications

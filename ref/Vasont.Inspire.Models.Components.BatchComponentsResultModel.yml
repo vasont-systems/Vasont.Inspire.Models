@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/Components/BatchComponentsResultModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: BatchComponentsResultModel
     path: Components/BatchComponentsResultModel.cs
@@ -61,7 +61,7 @@ items:
   source:
     remote:
       path: src/Components/BatchComponentsResultModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/BatchComponentsResultModel.cs
@@ -93,7 +93,7 @@ items:
   source:
     remote:
       path: src/Components/BatchComponentsResultModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: .ctor
     path: Components/BatchComponentsResultModel.cs
@@ -132,7 +132,7 @@ items:
   source:
     remote:
       path: src/Components/BatchComponentsResultModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Components
     path: Components/BatchComponentsResultModel.cs

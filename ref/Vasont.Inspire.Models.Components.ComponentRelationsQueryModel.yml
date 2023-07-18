@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationsQueryModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentRelationsQueryModel
     path: Components/ComponentRelationsQueryModel.cs
@@ -67,7 +67,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationsQueryModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentIds
     path: Components/ComponentRelationsQueryModel.cs
@@ -104,7 +104,7 @@ items:
   source:
     remote:
       path: src/Components/ComponentRelationsQueryModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SearchText
     path: Components/ComponentRelationsQueryModel.cs

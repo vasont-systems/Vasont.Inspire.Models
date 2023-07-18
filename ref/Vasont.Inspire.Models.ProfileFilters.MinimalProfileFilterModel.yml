@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: src/ProfileFilters/MinimalProfileFilterModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: MinimalProfileFilterModel
     path: ProfileFilters/MinimalProfileFilterModel.cs
@@ -65,7 +65,7 @@ items:
   source:
     remote:
       path: src/ProfileFilters/MinimalProfileFilterModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProfileFilterId
     path: ProfileFilters/MinimalProfileFilterModel.cs
@@ -102,7 +102,7 @@ items:
   source:
     remote:
       path: src/ProfileFilters/MinimalProfileFilterModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Owner
     path: ProfileFilters/MinimalProfileFilterModel.cs
@@ -139,7 +139,7 @@ items:
   source:
     remote:
       path: src/ProfileFilters/MinimalProfileFilterModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Title
     path: ProfileFilters/MinimalProfileFilterModel.cs
@@ -176,7 +176,7 @@ items:
   source:
     remote:
       path: src/ProfileFilters/MinimalProfileFilterModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: Description
     path: ProfileFilters/MinimalProfileFilterModel.cs
@@ -213,7 +213,7 @@ items:
   source:
     remote:
       path: src/ProfileFilters/MinimalProfileFilterModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: AttributeValues
     path: ProfileFilters/MinimalProfileFilterModel.cs
@@ -250,7 +250,7 @@ items:
   source:
     remote:
       path: src/ProfileFilters/MinimalProfileFilterModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SystemShared
     path: ProfileFilters/MinimalProfileFilterModel.cs
@@ -287,7 +287,7 @@ items:
   source:
     remote:
       path: src/ProfileFilters/MinimalProfileFilterModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: GroupName
     path: ProfileFilters/MinimalProfileFilterModel.cs

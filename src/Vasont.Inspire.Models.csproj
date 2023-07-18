@@ -50,13 +50,13 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Vasont.IdentityServer.Backchannel" Version="1.2.0" />
-    <PackageReference Include="Vasont.Inspire.Core" Version="1.0.21" />
+    <PackageReference Include="Vasont.Inspire.Core" Version="1.0.33" />
   </ItemGroup>
 
   <ItemGroup>

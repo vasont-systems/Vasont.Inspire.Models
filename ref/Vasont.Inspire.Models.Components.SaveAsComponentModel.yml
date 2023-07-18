@@ -6,6 +6,7 @@ items:
   parent: Vasont.Inspire.Models.Components
   children:
   - Vasont.Inspire.Models.Components.SaveAsComponentModel.ComponentId
+  - Vasont.Inspire.Models.Components.SaveAsComponentModel.GenerateNewIds
   - Vasont.Inspire.Models.Components.SaveAsComponentModel.IsBranch
   - Vasont.Inspire.Models.Components.SaveAsComponentModel.IsTranslation
   - Vasont.Inspire.Models.Components.SaveAsComponentModel.LanguageCode
@@ -26,7 +27,7 @@ items:
   source:
     remote:
       path: src/Components/SaveAsComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: SaveAsComponentModel
     path: Components/SaveAsComponentModel.cs
@@ -69,7 +70,7 @@ items:
   source:
     remote:
       path: src/Components/SaveAsComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: NewComponentName
     path: Components/SaveAsComponentModel.cs
@@ -106,7 +107,7 @@ items:
   source:
     remote:
       path: src/Components/SaveAsComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ComponentId
     path: Components/SaveAsComponentModel.cs
@@ -143,7 +144,7 @@ items:
   source:
     remote:
       path: src/Components/SaveAsComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetFolderId
     path: Components/SaveAsComponentModel.cs
@@ -180,7 +181,7 @@ items:
   source:
     remote:
       path: src/Components/SaveAsComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetFileName
     path: Components/SaveAsComponentModel.cs
@@ -217,7 +218,7 @@ items:
   source:
     remote:
       path: src/Components/SaveAsComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: TargetXml
     path: Components/SaveAsComponentModel.cs
@@ -254,7 +255,7 @@ items:
   source:
     remote:
       path: src/Components/SaveAsComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: LanguageCode
     path: Components/SaveAsComponentModel.cs
@@ -291,7 +292,7 @@ items:
   source:
     remote:
       path: src/Components/SaveAsComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectId
     path: Components/SaveAsComponentModel.cs
@@ -328,7 +329,7 @@ items:
   source:
     remote:
       path: src/Components/SaveAsComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: ProjectFolderId
     path: Components/SaveAsComponentModel.cs
@@ -365,7 +366,7 @@ items:
   source:
     remote:
       path: src/Components/SaveAsComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: RepairLinks
     path: Components/SaveAsComponentModel.cs
@@ -402,7 +403,7 @@ items:
   source:
     remote:
       path: src/Components/SaveAsComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsTranslation
     path: Components/SaveAsComponentModel.cs
@@ -439,7 +440,7 @@ items:
   source:
     remote:
       path: src/Components/SaveAsComponentModel.cs
-      branch: develop
+      branch: feature/AddAttachmentPropertiesToComponent
       repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
     id: IsBranch
     path: Components/SaveAsComponentModel.cs
@@ -456,6 +457,43 @@ items:
       type: System.Boolean
     content.vb: Public Property IsBranch As Boolean
   overload: Vasont.Inspire.Models.Components.SaveAsComponentModel.IsBranch*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.GenerateNewIds
+  commentId: P:Vasont.Inspire.Models.Components.SaveAsComponentModel.GenerateNewIds
+  id: GenerateNewIds
+  parent: Vasont.Inspire.Models.Components.SaveAsComponentModel
+  langs:
+  - csharp
+  - vb
+  name: GenerateNewIds
+  nameWithType: SaveAsComponentModel.GenerateNewIds
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.GenerateNewIds
+  type: Property
+  source:
+    remote:
+      path: src/Components/SaveAsComponentModel.cs
+      branch: feature/AddAttachmentPropertiesToComponent
+      repo: https://github.com/vasont-systems/Vasont.Inspire.Models.git
+    id: GenerateNewIds
+    path: Components/SaveAsComponentModel.cs
+    startLine: 71
+  assemblies:
+  - Vasont.Inspire.Models
+  namespace: Vasont.Inspire.Models.Components
+  summary: "\nGets or sets a value indicating whether the process generate new ids for a saveAs function.\n"
+  example: []
+  syntax:
+    content: public bool GenerateNewIds { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property GenerateNewIds As Boolean
+  overload: Vasont.Inspire.Models.Components.SaveAsComponentModel.GenerateNewIds*
   modifiers.csharp:
   - public
   - get
@@ -836,3 +874,8 @@ references:
   name: IsBranch
   nameWithType: SaveAsComponentModel.IsBranch
   fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.IsBranch
+- uid: Vasont.Inspire.Models.Components.SaveAsComponentModel.GenerateNewIds*
+  commentId: Overload:Vasont.Inspire.Models.Components.SaveAsComponentModel.GenerateNewIds
+  name: GenerateNewIds
+  nameWithType: SaveAsComponentModel.GenerateNewIds
+  fullName: Vasont.Inspire.Models.Components.SaveAsComponentModel.GenerateNewIds

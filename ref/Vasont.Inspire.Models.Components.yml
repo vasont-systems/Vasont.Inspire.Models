@@ -11,6 +11,7 @@ items:
   - Vasont.Inspire.Models.Components.BatchComponentsResultModel
   - Vasont.Inspire.Models.Components.BranchComponentModel
   - Vasont.Inspire.Models.Components.BranchReferenceModel
+  - Vasont.Inspire.Models.Components.ComponentAttachmentType
   - Vasont.Inspire.Models.Components.ComponentAutoRepairModel
   - Vasont.Inspire.Models.Components.ComponentAutoRepairRequestModel
   - Vasont.Inspire.Models.Components.ComponentAutoRepairResult
@@ -43,7 +44,6 @@ items:
   - Vasont.Inspire.Models.Components.ComponentRolePermissionModel
   - Vasont.Inspire.Models.Components.ComponentStateType
   - Vasont.Inspire.Models.Components.ComponentTagModel
-  - Vasont.Inspire.Models.Components.ComponentTranslationsResultModel
   - Vasont.Inspire.Models.Components.ComponentTypeModel
   - Vasont.Inspire.Models.Components.ComponentUserAccessModel
   - Vasont.Inspire.Models.Components.ComponentUserPermissionModel
@@ -90,9 +90,6 @@ items:
   - Vasont.Inspire.Models.Components.SaveAsComponentModel
   - Vasont.Inspire.Models.Components.TagModel
   - Vasont.Inspire.Models.Components.TransformDirectionFormat
-  - Vasont.Inspire.Models.Components.TranslationJobRelationModel
-  - Vasont.Inspire.Models.Components.TranslationRelationModel
-  - Vasont.Inspire.Models.Components.TranslationReportRequestModel
   - Vasont.Inspire.Models.Components.UnlockResultModel
   - Vasont.Inspire.Models.Components.UserRolePermissionModel
   - Vasont.Inspire.Models.Components.ValidateCompletenessRequestModel
@@ -273,7 +270,6 @@ references:
   fullName: Vasont.Inspire.Models.Components.ComponentRebuildRelationStateModel
 - uid: Vasont.Inspire.Models.Components.ComponentRelationModel
   commentId: T:Vasont.Inspire.Models.Components.ComponentRelationModel
-  parent: Vasont.Inspire.Models.Components
   name: ComponentRelationModel
   nameWithType: ComponentRelationModel
   fullName: Vasont.Inspire.Models.Components.ComponentRelationModel
@@ -302,11 +298,6 @@ references:
   name: ComponentTagModel
   nameWithType: ComponentTagModel
   fullName: Vasont.Inspire.Models.Components.ComponentTagModel
-- uid: Vasont.Inspire.Models.Components.ComponentTranslationsResultModel
-  commentId: T:Vasont.Inspire.Models.Components.ComponentTranslationsResultModel
-  name: ComponentTranslationsResultModel
-  nameWithType: ComponentTranslationsResultModel
-  fullName: Vasont.Inspire.Models.Components.ComponentTranslationsResultModel
 - uid: Vasont.Inspire.Models.Components.ComponentTypeModel
   commentId: T:Vasont.Inspire.Models.Components.ComponentTypeModel
   parent: Vasont.Inspire.Models.Components
@@ -477,6 +468,12 @@ references:
   name: ComponentBranchType
   nameWithType: ComponentBranchType
   fullName: Vasont.Inspire.Models.Components.ComponentBranchType
+- uid: Vasont.Inspire.Models.Components.ComponentAttachmentType
+  commentId: T:Vasont.Inspire.Models.Components.ComponentAttachmentType
+  parent: Vasont.Inspire.Models.Components
+  name: ComponentAttachmentType
+  nameWithType: ComponentAttachmentType
+  fullName: Vasont.Inspire.Models.Components.ComponentAttachmentType
 - uid: Vasont.Inspire.Models.Components.MinimalComponentModel
   commentId: T:Vasont.Inspire.Models.Components.MinimalComponentModel
   parent: Vasont.Inspire.Models.Components
@@ -557,17 +554,6 @@ references:
   name: TagModel
   nameWithType: TagModel
   fullName: Vasont.Inspire.Models.Components.TagModel
-- uid: Vasont.Inspire.Models.Components.TranslationJobRelationModel
-  commentId: T:Vasont.Inspire.Models.Components.TranslationJobRelationModel
-  name: TranslationJobRelationModel
-  nameWithType: TranslationJobRelationModel
-  fullName: Vasont.Inspire.Models.Components.TranslationJobRelationModel
-- uid: Vasont.Inspire.Models.Components.TranslationRelationModel
-  commentId: T:Vasont.Inspire.Models.Components.TranslationRelationModel
-  parent: Vasont.Inspire.Models.Components
-  name: TranslationRelationModel
-  nameWithType: TranslationRelationModel
-  fullName: Vasont.Inspire.Models.Components.TranslationRelationModel
 - uid: Vasont.Inspire.Models.Components.UnlockResultModel
   commentId: T:Vasont.Inspire.Models.Components.UnlockResultModel
   name: UnlockResultModel
@@ -603,11 +589,6 @@ references:
   name: ReviewReportRequestModel
   nameWithType: ReviewReportRequestModel
   fullName: Vasont.Inspire.Models.Components.ReviewReportRequestModel
-- uid: Vasont.Inspire.Models.Components.TranslationReportRequestModel
-  commentId: T:Vasont.Inspire.Models.Components.TranslationReportRequestModel
-  name: TranslationReportRequestModel
-  nameWithType: TranslationReportRequestModel
-  fullName: Vasont.Inspire.Models.Components.TranslationReportRequestModel
 - uid: Vasont.Inspire.Models.Components
   commentId: N:Vasont.Inspire.Models.Components
   name: Vasont.Inspire.Models.Components
