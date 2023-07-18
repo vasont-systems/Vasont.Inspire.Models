@@ -5,9 +5,12 @@
 //-------------------------------------------------------------
 namespace Vasont.Inspire.Models.Configuration
 {
+    using System;
+
     /// <summary>
     /// This class represents an attribute within the system and is to be used for interaction with application user interfaces.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class AttributeModel
     {
         /// <summary>
