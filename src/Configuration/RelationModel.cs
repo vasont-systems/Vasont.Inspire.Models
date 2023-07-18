@@ -5,6 +5,7 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Configuration
 {
+    using System;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
 
@@ -12,6 +13,7 @@ namespace Vasont.Inspire.Models.Configuration
     /// Contains an enumerated list of relation key names.
     /// </summary>
     [JsonConverter(typeof(StringEnumConverter))]
+    [Obsolete("Use local Enums", false)]
     public enum RelationKeyName
     {
         /// <summary>
@@ -58,6 +60,7 @@ namespace Vasont.Inspire.Models.Configuration
     /// <summary>
     /// This class represents a relation model within the system.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class RelationModel
     {
         /// <summary>

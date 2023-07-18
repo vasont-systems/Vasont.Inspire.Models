@@ -6,9 +6,12 @@
 
 namespace Vasont.Inspire.Models.Configuration
 {
+    using System;
+
     /// <summary>
     /// This class represents an XML link type model within the system and is to be used for resolving component relationships.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class XmlLinkTypeModel
     {
         /// <summary>

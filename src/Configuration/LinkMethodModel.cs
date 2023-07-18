@@ -3,12 +3,14 @@
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-
 namespace Vasont.Inspire.Models.Configuration
 {
+    using System;
+
     /// <summary>
     /// This class represents a link method within the system and is to be used for resolving component relationships.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class LinkMethodModel
     {
         /// <summary>
