@@ -127,5 +127,10 @@ namespace Vasont.Inspire.Models.Common
         /// Gets or sets a value indicating whether automatic ids is enabled.
         /// </summary>
         public bool AutomaticIds { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether force delete is allowed.
+        /// </summary>
+        public bool ForceDeleteAllowed { get; set; }
     }
 }
