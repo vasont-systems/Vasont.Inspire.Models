@@ -116,6 +116,11 @@ namespace Vasont.Inspire.Models.Reviews
         public MinimalUserModel UpdatedBy { get; set; } = new MinimalUserModel();
 
         /// <summary>
+        /// Gets or sets a value indicating whether the review is approved.
+        /// </summary>
+        public bool Approved { get; set; } = false;
+
+        /// <summary>
         /// Gets or sets a value indicating whether the review is archived.
         /// </summary>
         public bool Archived { get; set; }
@@ -129,6 +134,11 @@ namespace Vasont.Inspire.Models.Reviews
         /// Gets or sets a value indicating whether the current user is a reviewer.
         /// </summary>
         public bool IsReviewer { get; set; }
+
+        /// <summary>
+        /// Gets or sets the comments.
+        /// </summary>
+        public string Comments { get; set; }
 
         /// <summary>
         /// Gets or sets the reviewers associated with the review.
