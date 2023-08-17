@@ -132,5 +132,10 @@ namespace Vasont.Inspire.Models.Common
         /// Gets or sets a value indicating whether force delete is allowed.
         /// </summary>
         public bool ForceDeleteAllowed { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether review comment only is enabled.
+        /// </summary>
+        public bool ReviewCommentOnly { get; set; }
     }
 }
