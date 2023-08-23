@@ -137,5 +137,10 @@ namespace Vasont.Inspire.Models.Common
         /// Gets or sets a value indicating whether review comment only is enabled.
         /// </summary>
         public bool ReviewCommentOnly { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether translation approved only is enabled.
+        /// </summary>
+        public bool TranslationApprovedOnly { get; set; }
     }
 }
