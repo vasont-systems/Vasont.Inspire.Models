@@ -5,9 +5,12 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Security
 {
+    using System;
+
     /// <summary>
     /// This class represents a time zone record within the application database.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class TimeZoneModel : MinimalTimeZoneModel
     {
         /// <summary>

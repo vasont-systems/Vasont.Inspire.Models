@@ -17,6 +17,7 @@ namespace Vasont.Inspire.Models.Logging
     /// <summary>
     /// Contains an enumerated list of event logging levels.
     /// </summary>
+    [Obsolete("Use local Enums", false)]
     [JsonConverter(typeof(StringEnumConverter))]
     public enum EventLogLevel
     {
@@ -59,6 +60,7 @@ namespace Vasont.Inspire.Models.Logging
     /// <summary>
     /// This class represents an event log entry within the application.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class EventLogModel
     {
         /// <summary>

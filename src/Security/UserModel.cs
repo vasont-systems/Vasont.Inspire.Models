@@ -12,6 +12,7 @@ namespace Vasont.Inspire.Models.Security
     /// <summary>
     /// This class represents a security user within the application.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class UserModel : MinimalUserModel
     {
         #region Public Constructors
