@@ -6,13 +6,14 @@
 namespace Vasont.Inspire.Models.Components
 {
     using System;
-    using System.Resources;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
-    using Vasont.Inspire.Core.Extensions;
     using Vasont.Inspire.Core.Properties;
-    using Vasont.Inspire.Models.Security;                                                                                                                             /// Contains an enumerated list of component lock types.
-                                                                                                                                   /// </summary>
+    using Vasont.Inspire.Models.Security;
+
+    /// <summary>
+    /// Contains an enumerated list of component lock types.
+    /// </summary>
     [JsonConverter(typeof(StringEnumConverter))]
     public enum ComponentLockType
     {

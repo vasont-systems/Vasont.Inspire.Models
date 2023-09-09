@@ -3,7 +3,6 @@
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-------------------------------------------------------------
-
 namespace Vasont.Inspire.Models.Worker
 {
     using System;
@@ -19,6 +18,7 @@ namespace Vasont.Inspire.Models.Worker
     /// Contains an enumerated list of worker process statuses.
     /// </summary>
     [JsonConverter(typeof(StringEnumConverter))]
+    [Obsolete("Use local enums", false)]
     public enum WorkerStatus
     {
         /// <summary>
@@ -45,6 +45,7 @@ namespace Vasont.Inspire.Models.Worker
     /// <summary>
     /// This class represents a baseline worker state model.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class WorkerStateModel : MinimalWorkerStateModel
     {
         /// <summary>
@@ -118,6 +119,7 @@ namespace Vasont.Inspire.Models.Worker
     /// </summary>
     /// <typeparam name="T">Contains the object type of the additional worker model.</typeparam>
     [SuppressMessage("StyleCop.CSharp.MaintainabilityRules", "SA1402:FileMayOnlyContainASingleClass", Justification = "Class files would be named the same.")]
+    [Obsolete("Use local DTO", false)]
     public sealed class WorkerStateModel<T> : WorkerStateModel
     {
         #region Public Constructors

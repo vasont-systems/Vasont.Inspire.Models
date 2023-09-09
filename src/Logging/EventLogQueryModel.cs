@@ -11,6 +11,7 @@ namespace Vasont.Inspire.Models.Logging
     /// <summary>
     ///  This class contains parameters passed to the query for filtering.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class EventLogQueryModel : PaginatedQueryRequestModel
     {
         /// <summary>

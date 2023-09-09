@@ -11,6 +11,7 @@ namespace Vasont.Inspire.Models.Common
     /// <summary>
     /// This class represents an error message within the <see cref="ErrorResponseModel" /> class.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class ErrorModel
     {
         #region Public Constructors

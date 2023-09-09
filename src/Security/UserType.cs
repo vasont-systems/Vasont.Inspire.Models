@@ -5,12 +5,14 @@
 //-------------------------------------------------------------
 namespace Vasont.Inspire.Models.Security
 {
+    using System;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
 
     /// <summary>
     /// Contains an enumerated list of inspire users types.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     [JsonConverter(typeof(StringEnumConverter))]
     public enum UserType
     {

@@ -5,11 +5,13 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Common
 {
+    using System;
     using System.Collections.Generic;
 
     /// <summary>
     /// This class is used as the Error Response Model.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class ErrorResponseModel
     {
         /// <summary>
