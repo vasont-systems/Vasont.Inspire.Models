@@ -15,6 +15,7 @@ namespace Vasont.Inspire.Models.Worker
     /// <summary>
     /// This class represents a minimal representation of a background worker state.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class MinimalWorkerStateModel
     {
         /// <summary>
@@ -80,6 +81,7 @@ namespace Vasont.Inspire.Models.Worker
     /// </summary>
     /// <typeparam name="T">Contains the object type of the additional worker model.</typeparam>
     [SuppressMessage("StyleCop.CSharp.MaintainabilityRules", "SA1402:FileMayOnlyContainASingleClass", Justification = "Class files would be named the same.")]
+    [Obsolete("Use local DTO", false)]
     public sealed class MinimalWorkerStateModel<T> : MinimalWorkerStateModel
     {
         #region Public Constructors

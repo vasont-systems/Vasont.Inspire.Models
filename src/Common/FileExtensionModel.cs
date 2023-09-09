@@ -5,9 +5,12 @@
 //-------------------------------------------------------------
 namespace Vasont.Inspire.Models.Common
 {
+    using System;
+
     /// <summary>
     /// This class is a model representation of a file extension definition within the application.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class FileExtensionModel
     {
         /// <summary>

@@ -5,11 +5,13 @@
 //-------------------------------------------------------------
 namespace Vasont.Inspire.Models.Logging
 {
+    using System;
     using System.Collections.Generic;
 
     /// <summary>
     /// This class represents the results of an event log result request.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class EventLogResultModel
     {
         /// <summary>
