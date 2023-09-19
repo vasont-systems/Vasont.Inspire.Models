@@ -44,5 +44,15 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets a value indicating whether the new component will be a template.
         /// </summary>
         public bool CreateAsTemplate { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the new component will override the file name.
+        /// </summary>
+        public bool OverrideFileName { get; set; }
+
+        /// <summary>
+        /// Gets or sets the new component file name that's used to create the new component.
+        /// </summary>
+        public string NewComponentFileName { get; set; }
     }
 }
