@@ -30,6 +30,11 @@ namespace Vasont.Inspire.Models.Reviews
         public string Description { get; set; }
 
         /// <summary>
+        /// Gets or sets the profile filters.
+        /// </summary>
+        public string ProfileFilters { get; set; }
+
+        /// <summary>
         /// Gets or sets the review coordinator user information.
         /// </summary>
         public MinimalUserModel Coordinator { get; set; } = new MinimalUserModel();
