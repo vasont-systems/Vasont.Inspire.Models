@@ -141,6 +141,11 @@ namespace Vasont.Inspire.Models.Reviews
         public string Comments { get; set; }
 
         /// <summary>
+        /// Gets or sets the profile filters.
+        /// </summary>
+        public string ProfileFilters { get; set; }
+
+        /// <summary>
         /// Gets or sets the reviewers associated with the review.
         /// </summary>
         public List<ReviewerModel> Reviewers { get; set; } = new List<ReviewerModel>();
