@@ -142,5 +142,10 @@ namespace Vasont.Inspire.Models.Common
         /// Gets or sets a value indicating whether translation approved only is enabled.
         /// </summary>
         public bool TranslationApprovedOnly { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether component approved should be locked.
+        /// </summary>
+        public bool LockForApprove { get; set; }
     }
 }
