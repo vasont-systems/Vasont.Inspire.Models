@@ -29,6 +29,11 @@ namespace Vasont.Inspire.Models.Transfers
         public long UserId { get; set; }
 
         /// <summary>
+        /// Gets or sets the optional publish name. If not set, filename stub is used.
+        /// </summary>
+        public string PublishName { get; set; } = string.Empty;
+
+        /// <summary>
         /// Gets or sets the optional publish profile identity.
         /// </summary>
         public long PublishProfileId { get; set; }
@@ -76,7 +81,6 @@ namespace Vasont.Inspire.Models.Transfers
         /// <summary>
         /// Gets or sets the optional folder path associated with the export.
         /// </summary>
-        /// <value></value>
         public string FolderPath { get; set; } = string.Empty;
     }
 }
