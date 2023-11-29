@@ -57,5 +57,10 @@ namespace Vasont.Inspire.Models.Components
         /// Gets or sets a value indicating whether to create branch relationships.
         /// </summary>
         public bool CreateBranchRelationships { get; set; } = true;
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the request keep the folder structure.
+        /// </summary>
+        public bool KeepFolderStructure { get; set; } = false;
     }
 }
