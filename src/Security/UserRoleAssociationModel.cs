@@ -5,6 +5,7 @@
 //-------------------------------------------------------------
 namespace Vasont.Inspire.Models.Security
 {
+    using System;
     using System.Collections.Generic;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
@@ -13,6 +14,7 @@ namespace Vasont.Inspire.Models.Security
     /// <summary>
     /// Contains an enumerated list of security types.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     [JsonConverter(typeof(StringEnumConverter))]
     public enum SecurityType
     {
