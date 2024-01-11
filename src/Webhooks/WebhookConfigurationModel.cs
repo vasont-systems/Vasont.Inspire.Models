@@ -52,7 +52,12 @@ namespace Vasont.Inspire.Models.Webhooks
         /// <summary>
         /// The ReportSession webhook.
         /// </summary>ss
-        ReportSession
+        ReportSession,
+
+        /// <summary>
+        /// The SFTP translation notification
+        /// </summary>
+        SftpTranslationNotification,
     }
 
     /// <summary>
