@@ -10,6 +10,7 @@ namespace Vasont.Inspire.Models.Webhooks
     /// <summary>
     /// This class contains the model used for a component request.
     /// </summary>
+    [Obsolete("Vasont.Inspire.Models.Webhooks.ComponentRequestModel is deprecated. Please use Vasont.Inspire.Shared.Models/Webhook.ComponentRequestDto instead.")]
     public class ComponentRequestModel
     {
         /// <summary>
