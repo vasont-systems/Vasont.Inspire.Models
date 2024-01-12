@@ -27,8 +27,8 @@
 
   <PropertyGroup>
     <BuildDocFx Condition="$(TargetFramework) != 'netstandard2.1' OR '$(Configuration)' != 'Release'">false</BuildDocFx>
-    <AssemblyVersion>1.3.95.0</AssemblyVersion>
-    <FileVersion>1.3.95.0</FileVersion>
+    <AssemblyVersion>1.3.96.0</AssemblyVersion>
+    <FileVersion>1.3.96.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

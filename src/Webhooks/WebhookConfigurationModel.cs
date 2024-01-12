@@ -5,12 +5,14 @@
 //-------------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Webhooks
 {
+    using System;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
 
     /// <summary>
     /// Contains an enumerated list of webhook names.
     /// </summary>
+    [Obsolete("Vasont.Inspire.Models.Webhooks.WebhookConfigurationNameType is deprecated. Please use Vasont.Inspire.Shared.Enums.WebhookConfigurationNameType instead.")]
     [JsonConverter(typeof(StringEnumConverter))]
     public enum WebhookConfigurationNameType
     {
@@ -55,7 +57,7 @@ namespace Vasont.Inspire.Models.Webhooks
         ReportSession,
 
         /// <summary>
-        /// The SFTP translation notification
+        /// The SFTP translation notification.
         /// </summary>
         SftpTranslationNotification,
     }
@@ -63,6 +65,7 @@ namespace Vasont.Inspire.Models.Webhooks
     /// <summary>
     /// Contains an enumerated list of webhook configuration value types.
     /// </summary>
+    [Obsolete("Vasont.Inspire.Models.Webhooks.WebhookConfigurationValueType is deprecated. Please use Vasont.Inspire.Shared.Enums.WebhookConfigurationValueType instead.")]
     [JsonConverter(typeof(StringEnumConverter))]
     public enum WebhookConfigurationValueType
     {
@@ -105,6 +108,7 @@ namespace Vasont.Inspire.Models.Webhooks
     /// <summary>
     /// This class represents a webhook configuration used with webhook API calls.
     /// </summary>
+    [Obsolete("Vasont.Inspire.Models.Webhooks.WebhookConfigurationModel is deprecated. Please use Vasont.Inspire.Shared.Models/Webhook.WebhookConfigurationDto instead.")]
     public class WebhookConfigurationModel
     {
         /// <summary>
