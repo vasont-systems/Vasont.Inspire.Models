@@ -233,6 +233,11 @@ namespace Vasont.Inspire.Models.Projects
         public string FileName { get; set; }
 
         /// <summary>
+        /// Gets or sets the attachment file type of the component.
+        /// </summary>
+        public ComponentAttachmentType AttachmentType { get; set; }
+
+        /// <summary>
         /// Gets or sets the component state information.
         /// </summary>
         public ComponentStateType State { get; set; }
@@ -371,6 +376,15 @@ namespace Vasont.Inspire.Models.Projects
         /// </summary>
         /// <returns>Returns a value indicating whether to render the related property.</returns>
         public bool ShouldSerializeFileName()
+        {
+            return this.IsComponent;
+        }
+
+        /// <summary>
+        /// This method is called by the serializer to determine if the property AttachmentType should be rendered.
+        /// </summary>
+        /// <returns>Returns a value indicating whether to render the related property.</returns>
+        public bool ShouldSerializeAttachmentType()
         {
             return this.IsComponent;
         }
