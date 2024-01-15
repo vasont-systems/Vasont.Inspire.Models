@@ -14,6 +14,8 @@ namespace Vasont.Inspire.Models.Webhooks
     /// Notification is set out for all users following components that reference external asset.
     /// Notification is set out for project owners for projects of components that reference external asset.
     /// </summary>
+
+    [Obsolete("Vasont.Inspire.Models.Webhooks.NotifyExternalAssetModel is deprecated. Please use Vasont.Inspire.Shared.Models/Webhook.NotifyExternalAssetDto instead.")]
     public class NotifyExternalAssetModel
     {
         /// <summary>
