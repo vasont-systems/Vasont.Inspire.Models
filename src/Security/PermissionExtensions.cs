@@ -79,5 +79,15 @@ namespace Vasont.Inspire.Models.Security
         {
             return (permission & PermissionFlags.All) > 0;
         }
+
+        /// <summary>
+        /// Determine if the permissions contains none permissions.
+        /// </summary>
+        /// <param name="permission">Contains the <see cref="PermissionFlags" /> enumeration to evaluate.</param>
+        /// <returns>Returns a value indicating whether the flags contains none permissions.</returns>
+        public static bool NonePermissions(this PermissionFlags permission)
+        {
+            return (int)permission == 0;
+        }
     }
 }
