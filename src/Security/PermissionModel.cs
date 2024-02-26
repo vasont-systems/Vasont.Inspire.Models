@@ -137,6 +137,14 @@ namespace Vasont.Inspire.Models.Security
         }
 
         /// <summary>
+        /// Gets a value indicating whether the none permission is set.
+        /// </summary>
+        public bool NonePermissions
+        {
+            get => this.Permissions.NonePermissions();
+        }
+
+        /// <summary>
         /// Gets or sets the Permissions code of the permission model.
         /// </summary>
         public PermissionFlags Permissions { get; set; }
