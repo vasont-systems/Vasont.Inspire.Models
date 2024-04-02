@@ -147,5 +147,10 @@ namespace Vasont.Inspire.Models.Common
         /// Gets or sets a value indicating whether component approved should be locked.
         /// </summary>
         public bool LockForApprove { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether to warn user about changes to referenced content.
+        /// </summary>
+        public bool SubmitConfirmation { get; set; }
     }
 }
