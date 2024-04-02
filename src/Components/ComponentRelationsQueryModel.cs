@@ -19,6 +19,11 @@ namespace Vasont.Inspire.Models.Components
         public List<long> ComponentIds { get; set; } = new List<long>();
 
         /// <summary>
+        /// Gets or sets a list of target attribute values.
+        /// </summary>
+        public List<string> TargetAttributeValues { get; set; } = new List<string>();
+
+        /// <summary>
         /// Gets or sets search text that will be used to filter results.
         /// </summary>
         public string SearchText { get; set; }
