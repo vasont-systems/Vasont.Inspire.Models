@@ -5,12 +5,14 @@
 //--------------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Components
 {
+    using System;
     using System.Collections.Generic;
     using Common;
 
     /// <summary>
     /// This class contains parameters passed to the query for retrieving component relations.
     /// </summary>
+    [Obsolete("Use local DTO", true)]
     public class ComponentRelationsQueryModel : PaginatedQueryRequestModel
     {
         /// <summary>

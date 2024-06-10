@@ -267,6 +267,11 @@ namespace Vasont.Inspire.Models.Projects
         /// </summary>
         public bool CanTranslate { get; set; }
 
+        /// <summary>
+        /// Gets or sets a value indicating whether this component has been reused. Meaning, it has been referenced by other components more than once.
+        /// </summary>
+        public bool IsComponentReused { get; set; }
+
         #endregion
 
         #region Project Folder Properties
