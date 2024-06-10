@@ -6,11 +6,13 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Common
 {
+    using System;
     using Vasont.IdentityServer.Backchannel.Models;
 
     /// <summary>
     /// This class represents the basic tenant information needed for the web application.
     /// </summary>
+    [Obsolete("Use local DTO", true)]
     public class TenantDetailModel
     {
         /// <summary>
