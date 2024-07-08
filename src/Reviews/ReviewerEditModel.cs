@@ -31,6 +31,11 @@ namespace Vasont.Inspire.Models.Reviews
         public MinimalUserModel Coordinator { get; set; }
 
         /// <summary>
+        /// Gets or sets the review approver user information.
+        /// </summary>
+        public MinimalUserModel Approver { get; set; }
+
+        /// <summary>
         /// Gets or sets the data and time the review is due.
         /// </summary>
         public DateTime? DueDate { get; set; }
