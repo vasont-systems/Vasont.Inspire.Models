@@ -40,6 +40,11 @@ namespace Vasont.Inspire.Models.Reviews
         public MinimalUserModel Coordinator { get; set; } = new MinimalUserModel();
 
         /// <summary>
+        /// Gets or sets the review approver user information.
+        /// </summary>
+        public MinimalUserModel Approver { get; set; } = new MinimalUserModel();
+
+        /// <summary>
         /// Gets or sets the review state information.
         /// </summary>
         public ReviewStateType State { get; set; } = ReviewStateType.Reviewing;
