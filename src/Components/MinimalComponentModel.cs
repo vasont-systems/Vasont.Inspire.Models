@@ -287,6 +287,16 @@ namespace Vasont.Inspire.Models.Components
         public long SharedComponentsCount { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether this component is referenced.
+        /// </summary>
+        public bool IsReferenced { get; set; }
+
+        /// <summary>
+        /// Gets or sets the number of distinct components referencing the component.
+        /// </summary>
+        public long ReferencedComponentsCount { get; set; }
+
+        /// <summary>
         /// Gets or sets the component branch type.
         /// </summary>
         public ComponentBranchType BranchType { get; set; }
