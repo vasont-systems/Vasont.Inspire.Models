@@ -13,25 +13,13 @@ namespace Vasont.Inspire.Models.Components
     public class BatchComponentsRequestModel
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="BatchComponentsRequestModel" /> class.
-        /// </summary>
-        public BatchComponentsRequestModel()
-            : this(new List<long>())
-        {
-        }
-
-        /// <summary>
-        /// Initializes a new instance of the <see cref="BatchComponentsRequestModel" /> class.
-        /// </summary>
-        /// <param name="componentIds">The list of component identifiers.</param>
-        public BatchComponentsRequestModel(List<long> componentIds)
-        {
-            this.ComponentIds = componentIds;
-        }
-
-        /// <summary>
         /// Gets or sets the list of component identifiers.
         /// </summary>
-        public List<long> ComponentIds { get; set; }
+        public List<long> ComponentIds { get; set; } = new List<long>();
+
+        /// <summary>
+        /// Gets or sets the list of component file names.
+        /// </summary>
+        public List<string> FileNames { get; set; } = new List<string>();
     }
 }
