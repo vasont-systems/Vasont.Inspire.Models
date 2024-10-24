@@ -5,11 +5,13 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Components
 {
+    using System;
     using System.Collections.Generic;
 
     /// <summary>
     /// This class contains properties required for the batch component API.
     /// </summary>
+    [Obsolete("Use Local DTOs", true)]
     public class BatchComponentsRequestModel
     {
         /// <summary>
