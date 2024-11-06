@@ -10,6 +10,7 @@ namespace Vasont.Inspire.Models.Common
     /// <summary>
     /// This class contains constants containing component standards.
     /// </summary>
+    [Obsolete("Use local class", true)]
     public static class ComponentStandards
     {
         /// <summary>

@@ -12,6 +12,7 @@ namespace Vasont.Inspire.Models.Components
     /// <summary>
     /// This class represents a minimal component type model within the system.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class MinimalComponentTypeModel
     {
         /// <summary>
@@ -51,7 +52,7 @@ namespace Vasont.Inspire.Models.Components
         public bool IsEditable => !this.Binary && this.DocumentType != null;
 
         /// <summary>
-        /// Gets a value indicating whether the component is a map that is
+        /// Gets a value indicating whether the component is a map that is.
         /// </summary>
         public bool IsMap => this.DocumentType != null && ComponentStandards.MapDocumentTypeNames.Contains(this.DocumentType, StringComparer.OrdinalIgnoreCase);
 
@@ -61,7 +62,7 @@ namespace Vasont.Inspire.Models.Components
         public bool CanPublish => !this.Binary && !this.IsWorkflow;
 
         /// <summary>
-        /// Gets a value indicating whether the component is a workflow
+        /// Gets a value indicating whether the component is a workflow.
         /// </summary>
         public bool IsWorkflow => this.DocumentType != null && this.DocumentType.Equals("workflow", StringComparison.OrdinalIgnoreCase);
     }
