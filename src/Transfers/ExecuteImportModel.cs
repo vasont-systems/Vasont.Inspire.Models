@@ -5,11 +5,13 @@
 //-------------------------------------------------------------
 namespace Vasont.Inspire.Models.Transfers
 {
+    using System;
     using System.Collections.Generic;
 
     /// <summary>
     /// This class represents parameters passed into the ExecuteImport API call.
     /// </summary>
+    [Obsolete("Use local DTOs", true)]
     public class ExecuteImportModel
     {
         /// <summary>
