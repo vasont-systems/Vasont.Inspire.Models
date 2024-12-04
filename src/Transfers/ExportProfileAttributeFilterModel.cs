@@ -5,11 +5,13 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Transfers
 {
+    using System;
     using System.Collections.Generic;
 
     /// <summary>
     /// This class represents a profile attribute and the associated values used for filtering content during an export.
     /// </summary>
+    [Obsolete("Use local DTOs", true)]
     public class ExportProfileAttributeFilterModel
     {
         /// <summary>
