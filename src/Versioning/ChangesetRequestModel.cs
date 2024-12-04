@@ -10,6 +10,7 @@ namespace Vasont.Inspire.Models.Versioning
     /// <summary>
     /// This class represents a changeset request within the application.
     /// </summary>
+    [Obsolete("Use local DTOs", true)]
     public class ChangesetRequestModel
     {
         /// <summary>
