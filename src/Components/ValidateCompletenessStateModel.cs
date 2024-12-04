@@ -12,6 +12,7 @@ namespace Vasont.Inspire.Models.Components
     /// <summary>
     /// This class contains the state for component completeness request worker within the application.
     /// </summary>
+    [Obsolete("Use local DTOs", true)]
     public class ValidateCompletenessStateModel
     {
         /// <summary>

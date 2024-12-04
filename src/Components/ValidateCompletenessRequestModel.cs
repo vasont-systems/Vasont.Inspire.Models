@@ -12,6 +12,7 @@ namespace Vasont.Inspire.Models.Components
     /// <summary>
     /// This class contains properties and information to request the system to start an auto repair process.
     /// </summary>
+    [Obsolete("Use local DTOs", true)]
     public class ValidateCompletenessRequestModel
     {
         /// <summary>

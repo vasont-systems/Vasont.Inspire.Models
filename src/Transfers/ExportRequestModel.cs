@@ -5,12 +5,14 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Transfers
 {
+    using System;
     using System.Collections.Generic;
     using Vasont.Inspire.Models.Versioning;
 
     /// <summary>
     /// This class contains properties and information to request the system to start an export process.
     /// </summary>
+    [Obsolete("Use local DTOs", true)]
     public class ExportRequestModel
     {
         /// <summary>
