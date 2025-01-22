@@ -3,11 +3,14 @@
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
+using System;
+
 namespace Vasont.Inspire.Models.Common
 {
     /// <summary>
     /// This class represents a minimal representation of a language within the application.
     /// </summary>
+    [Obsolete("use local DTOs", false)]
     public class MinimalLanguageModel
     {
         /// <summary>

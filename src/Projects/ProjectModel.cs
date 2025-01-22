@@ -5,11 +5,13 @@
 //-----------------------------------------------------------------------
 namespace Vasont.Inspire.Models.Projects
 {
+    using System;
     using System.Collections.Generic;
 
     /// <summary>
     /// This class represents a project within the application.
     /// </summary>
+    [Obsolete("use local DTOs", false)]
     public class ProjectModel : MinimalProjectModel
     {
         /// <summary>
