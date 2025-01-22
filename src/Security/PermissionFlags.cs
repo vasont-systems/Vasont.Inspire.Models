@@ -10,6 +10,7 @@ namespace Vasont.Inspire.Models.Security
     /// <summary>
     /// Contains an enumerated list of permission flags.
     /// </summary>
+    [Obsolete("Use local enums", false)]
     [Flags]
     public enum PermissionFlags
     {

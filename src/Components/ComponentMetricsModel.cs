@@ -3,11 +3,15 @@
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
+
 namespace Vasont.Inspire.Models.Components
 {
+    using System;
+
     /// <summary>
     /// This class represents metrics for a component within the system and is to be used for interaction with application user interfaces.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class ComponentMetricsModel
     {
         /// <summary>

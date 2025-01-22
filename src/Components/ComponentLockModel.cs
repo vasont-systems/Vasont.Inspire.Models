@@ -14,6 +14,7 @@ namespace Vasont.Inspire.Models.Components
     /// <summary>
     /// Contains an enumerated list of component lock types.
     /// </summary>
+    [Obsolete("Use local enums", false)]
     [JsonConverter(typeof(StringEnumConverter))]
     public enum ComponentLockType
     {
@@ -46,6 +47,7 @@ namespace Vasont.Inspire.Models.Components
     /// <summary>
     /// This class represents a component lock for a component within the application.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class ComponentLockModel
     {
         /// <summary>

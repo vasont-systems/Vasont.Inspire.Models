@@ -3,11 +3,14 @@
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-------------------------------------------------------------
+using System;
+
 namespace Vasont.Inspire.Models.Security
 {
     /// <summary>
     /// This class contains extensions for the permissions flags enumeration.
     /// </summary>
+    [Obsolete("Use local extensions", false)]
     public static class PermissionExtensions
     {
         /// <summary>

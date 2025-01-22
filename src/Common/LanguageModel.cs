@@ -3,11 +3,14 @@
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
+using System;
+
 namespace Vasont.Inspire.Models.Common
 {
     /// <summary>
     /// This class represents a supported language definition for the application.
     /// </summary>
+    [Obsolete("Use local DTOs", true)]
     public class LanguageModel : MicroCreatedUpdaterModelBase
     {
         /// <summary>

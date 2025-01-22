@@ -11,6 +11,7 @@ namespace Vasont.Inspire.Models.Components
     /// <summary>
     /// This class is a model representation of a component type definition within the application.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class ComponentTypeModel : MinimalComponentTypeModel
     {
         #region Public Constructors
