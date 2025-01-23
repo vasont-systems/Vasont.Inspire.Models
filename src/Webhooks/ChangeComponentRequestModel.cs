@@ -7,6 +7,7 @@ namespace Vasont.Inspire.Models.Webhooks
 {
     using System;
     using System.Collections.Generic;
+    using Microsoft.AspNetCore.Http;
 
     /// <summary>
     /// This class contains the model used for a component change request.
