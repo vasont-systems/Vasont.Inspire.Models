@@ -12,6 +12,7 @@ namespace Vasont.Inspire.Models.Projects
     /// This class represents a user access defined within a <see cref="ProjectModel"/> class. It is a stripped down version
     /// of the <see cref="ProjectUserAccessModel"/> and returns only essential information related to the user access of the project.
     /// </summary>
+    [Obsolete("use local DTOs", false)]
     public class MinimalProjectUserAccessModel
     {
         /// <summary>

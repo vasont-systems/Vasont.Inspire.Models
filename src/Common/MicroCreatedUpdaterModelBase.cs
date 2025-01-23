@@ -11,6 +11,7 @@ namespace Vasont.Inspire.Models.Common
     /// <summary>
     /// This class contains basic created and updater properties for model records.
     /// </summary>
+    [Obsolete("Use local DTOs", true)]
     public abstract class MicroCreatedUpdaterModelBase
     {
         /// <summary>

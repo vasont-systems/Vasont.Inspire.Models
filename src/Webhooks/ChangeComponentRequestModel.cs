@@ -7,12 +7,11 @@ namespace Vasont.Inspire.Models.Webhooks
 {
     using System;
     using System.Collections.Generic;
-    using Microsoft.AspNetCore.Http;
 
     /// <summary>
     /// This class contains the model used for a component change request.
     /// </summary>
-    [Obsolete("Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel is deprecated. Please use Vasont.Inspire.Shared.Models/Webhook.ChangeComponentRequestDto instead.")]
+    [Obsolete("Vasont.Inspire.Models.Webhooks.ChangeComponentRequestModel is deprecated. Please use Vasont.Inspire.Shared.Models/Webhook.ChangeComponentRequestDto instead.", true)]
 
     public class ChangeComponentRequestModel : ComponentRequestModel
     {

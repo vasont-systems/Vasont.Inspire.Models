@@ -18,6 +18,7 @@ namespace Vasont.Inspire.Models.Components
     /// <summary>
     /// Contains an enumerated list of component state types.
     /// </summary>
+    [Obsolete("Use local enums", false)]
     [JsonConverter(typeof(StringEnumConverter))]
     public enum ComponentStateType
     {
@@ -50,6 +51,7 @@ namespace Vasont.Inspire.Models.Components
     /// <summary>
     /// Contains an enumerated list of component branch types.
     /// </summary>
+    [Obsolete("Use local enums", false)]
     [JsonConverter(typeof(StringEnumConverter))]
     public enum ComponentBranchType
     {
@@ -77,6 +79,7 @@ namespace Vasont.Inspire.Models.Components
     /// <summary>
     /// Contains an enumerated list of component attachment types.
     /// </summary>
+    [Obsolete("Use local enums", false)]
     [JsonConverter(typeof(StringEnumConverter))]
     public enum ComponentAttachmentType
     {
@@ -104,6 +107,7 @@ namespace Vasont.Inspire.Models.Components
     /// <summary>
     /// This class represents a component model with minimal information that will used for interaction with application user interfaces.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class MinimalComponentModel : CreatedUpdaterModelBase
     {
         /// <summary>

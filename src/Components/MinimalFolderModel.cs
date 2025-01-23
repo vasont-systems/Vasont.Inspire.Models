@@ -6,9 +6,12 @@
 
 namespace Vasont.Inspire.Models.Components
 {
+    using System;
+
     /// <summary>
     /// This class represents a minimal component folder for use within the application.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class MinimalFolderModel
     {
         /// <summary>

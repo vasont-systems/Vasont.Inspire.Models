@@ -14,6 +14,7 @@ namespace Vasont.Inspire.Models.Projects
     /// <summary>
     /// This class represents a minimal project model within the application.
     /// </summary>
+    [Obsolete("use local DTOs", false)]
     public class MinimalProjectModel
     {
         /// <summary>
