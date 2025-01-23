@@ -11,6 +11,7 @@ namespace Vasont.Inspire.Models.Projects
     /// <summary>
     /// This class represents a project activity for use in defining an assignment within a project.
     /// </summary>
+    [Obsolete("use local DTOs", false)]
     public class ProjectActivityModel : CreatedUpdaterModelBase
     {
         /// <summary>

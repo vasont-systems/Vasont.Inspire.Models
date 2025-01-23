@@ -17,6 +17,7 @@ namespace Vasont.Inspire.Models.Projects
     /// <summary>
     /// Contains an enumerated list of project folder item types.
     /// </summary>
+    [Obsolete("Use local enums", false)]
     [JsonConverter(typeof(StringEnumConverter))]
     public enum ProjectFolderItemType
     {
@@ -44,6 +45,7 @@ namespace Vasont.Inspire.Models.Projects
     /// <summary>
     /// This class represents a project folder within the application.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class ProjectFolderItemModel
     {
         #region Private Fields

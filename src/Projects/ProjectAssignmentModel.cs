@@ -13,6 +13,7 @@ namespace Vasont.Inspire.Models.Projects
     /// <summary>
     /// This class represents a project assignment within the application.
     /// </summary>
+    [Obsolete("use local DTOs", false)]
     public class ProjectAssignmentModel
     {
         /// <summary>

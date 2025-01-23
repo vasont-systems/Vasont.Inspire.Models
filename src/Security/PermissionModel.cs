@@ -5,11 +5,13 @@
 //-------------------------------------------------------------
 namespace Vasont.Inspire.Models.Security
 {
+    using System;
     using Newtonsoft.Json;
 
     /// <summary>
     /// This class provides properties to represent the permission flags within a <see cref="PermissionFlags" /> value.
     /// </summary>
+    [Obsolete("use local DTOs", false)]
     public class PermissionModel
     {
         #region Public Constructors
