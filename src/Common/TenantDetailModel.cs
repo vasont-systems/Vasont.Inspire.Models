@@ -7,7 +7,6 @@
 namespace Vasont.Inspire.Models.Common
 {
     using System;
-    using Vasont.IdentityServer.Backchannel.Models;
 
     /// <summary>
     /// This class represents the basic tenant information needed for the web application.
@@ -28,7 +27,7 @@ namespace Vasont.Inspire.Models.Common
         /// <summary>
         /// Gets or sets the tenant account type.
         /// </summary>
-        public ApplicationSubscriptionLevel SubscriptionLevel { get; set; }
+        //public ApplicationSubscriptionLevel SubscriptionLevel { get; set; }
 
         /// <summary>
         /// Gets or sets the support information about the Tenant.
