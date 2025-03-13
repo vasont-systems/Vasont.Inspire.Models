@@ -19,16 +19,16 @@
     <RepositoryUrl>https://github.com/vasont-systems/Vasont.Inspire.Models</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>CCMS</PackageTags>
-    <PackageReleaseNotes>Added SubmissionAttributeModel</PackageReleaseNotes>
-    <Version>1.4.7</Version>
+    <PackageReleaseNotes>Fix Package Vulnerabilities and Deprecations.</PackageReleaseNotes>
+    <Version>1.4.8</Version>
     <NeutralLanguage>en</NeutralLanguage>
-    <Copyright>Copyright (c) GlobalLink Vasont. All rights reserved.</Copyright>
+	<Copyright>Copyright (c) 2025, GlobalLink Vasont. All rights reserved.</Copyright>
   </PropertyGroup>
 
   <PropertyGroup>
     <BuildDocFx Condition="$(TargetFramework) != 'netstandard2.1' OR '$(Configuration)' != 'Release'">false</BuildDocFx>
-    <AssemblyVersion>1.4.7.0</AssemblyVersion>
-    <FileVersion>1.4.7.0</FileVersion>
+    <AssemblyVersion>1.4.8.0</AssemblyVersion>
+    <FileVersion>1.4.8.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -45,18 +45,18 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="docfx.console" Version="2.57.2">
+    <PackageReference Include="docfx.console" Version="2.59.4">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Vasont.IdentityServer.Backchannel" Version="1.2.0" />
-    <PackageReference Include="Vasont.Inspire.Core" Version="1.0.33" />
+    <PackageReference Include="System.Text.Json" Version="9.0.3" />
+    <PackageReference Include="Vasont.Inspire.Core" Version="1.0.34" />
   </ItemGroup>
 
   <ItemGroup>
