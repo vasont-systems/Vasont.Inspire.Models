@@ -3,11 +3,15 @@
 // Copyright (c) GlobalLink Vasont. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
+
 namespace Vasont.Inspire.Models.Components
 {
+    using System;
+
     /// <summary>
     /// This class represents a component property within the application.
     /// </summary>
+    [Obsolete("Use local DTOs", false)]
     public class ComponentPropertyModel
     {
         /// <summary>

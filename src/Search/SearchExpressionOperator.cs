@@ -13,7 +13,7 @@ namespace Vasont.Inspire.Models.Search
     using Vasont.Inspire.Core.Properties;
 
     /// <summary>
-    /// Gets or sets an enumerated list of available operators
+    /// Gets or sets an enumerated list of available operators.
     /// </summary>
     [JsonConverter(typeof(StringEnumConverter))]
     public enum SearchExpressionOperator
