@@ -38,6 +38,11 @@ namespace Vasont.Inspire.Models.Workflow
         public string Description { get; set; }
 
         /// <summary>
+        /// Gets or sets a value indicating whether the activity will create a claimable assignment.
+        /// </summary>
+        public bool IsClaimable { get; set; }
+
+        /// <summary>
         /// Gets or sets a value indicating whether the activity is the initial first step in a workflow.
         /// </summary>
         public bool IsInitial { get; set; }

@@ -10,6 +10,7 @@ namespace Vasont.Inspire.Models.Transfers
     /// <summary>
     /// This class defines an export download URL details model.
     /// </summary>
+    [Obsolete("Use local DTOs", true)]
     public class ExportDownloadUrlModel
     {
         /// <summary>
