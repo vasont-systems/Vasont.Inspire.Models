@@ -31,7 +31,7 @@ namespace Vasont.Inspire.Models.Projects
         /// <summary>
         /// Gets or sets the identity of the associated review.
         /// </summary>
-        public long ReviewId { get; set; }
+        public long? ReviewId { get; set; }
 
         /// <summary>
         /// Gets or sets the identity of the associated workflow model.
