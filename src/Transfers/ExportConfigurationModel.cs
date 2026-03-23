@@ -13,36 +13,30 @@ namespace Vasont.Inspire.Models.Transfers
     using Vasont.Inspire.Models.Plugins;
     using Vasont.Inspire.Models.Security;
 
-    /// <summary>
-    /// Contains an enumerated list of export types.
-    /// </summary>
+    /// <summary>Contains an enumerated list of export types.</summary>
     [JsonConverter(typeof(StringEnumConverter))]
     public enum ExportType
     {
-        /// <summary>
-        /// The export is standard.
-        /// </summary>
+        /// <summary>The standard Export Type.</summary>
         Standard,
 
-        /// <summary>
-        /// The export is used to publish.
-        /// </summary>
+        /// <summary>The publish Export Type.</summary>
         Publish,
 
-        /// <summary>
-        /// The export is used to translate.
-        /// </summary>
+        /// <summary>The translate Export Type.</summary>
         Translate,
 
-        /// <summary>
-        /// The export is used to compare.
-        /// </summary>
+        /// <summary>The compare Export Type.</summary>
         Compare,
 
-        /// <summary>
-        /// The export is used to select.
-        /// </summary>
-        Select
+        /// <summary>The select Export Type.</summary>
+        Select,
+
+        /// <summary>The SFTP server Export Type.</summary>
+        SFTPServer,
+
+        /// <summary>The azure storage Export Type.</summary>
+        AzureStorage
     }
 
     /// <summary>
