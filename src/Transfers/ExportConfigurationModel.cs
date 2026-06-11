@@ -36,7 +36,10 @@ namespace Vasont.Inspire.Models.Transfers
         SFTPServer,
 
         /// <summary>The azure storage Export Type.</summary>
-        AzureStorage
+        AzureStorage,
+
+        /// <summary>The scope Export Type.</summary>
+        Scope
     }
 
     /// <summary>
