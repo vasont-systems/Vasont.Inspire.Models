@@ -20,15 +20,15 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>CCMS</PackageTags>
     <PackageReleaseNotes>Update Package references, target Net8, updated ExportType enum.</PackageReleaseNotes>
-    <Version>1.4.10</Version>
+    <Version>1.4.11</Version>
     <NeutralLanguage>en</NeutralLanguage>
 	<Copyright>Copyright (c) 2026, GlobalLink Vasont. All rights reserved.</Copyright>
   </PropertyGroup>
 
   <PropertyGroup>
     <BuildDocFx Condition="'$(Configuration)' != 'Release'">false</BuildDocFx>
-    <AssemblyVersion>1.4.10.0</AssemblyVersion>
-    <FileVersion>1.4.10.0</FileVersion>
+    <AssemblyVersion>1.4.11.0</AssemblyVersion>
+    <FileVersion>1.4.11.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
